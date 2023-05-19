@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>If selected, generate adjustment Ledger Entries for Payment Method changes.</help>
+        <label><!-- Adjust When Payment Method Changes --></label>
+        <name>abacus__Adjust_When_Payment_Method_Changes__c</name>
+    </CustomFieldTranslation>

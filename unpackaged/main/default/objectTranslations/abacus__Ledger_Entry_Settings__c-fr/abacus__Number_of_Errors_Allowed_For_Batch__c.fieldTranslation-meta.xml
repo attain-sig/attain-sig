@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Saisissez le nombre maximal d'erreurs qu'un lot peut générer avant d'être automatiquement annulé. Généralement, une erreur est générée par enregistrement de paiement si un processus par lot échoue.</help>
+        <label><!-- Number of Errors Allowed For Batch --></label>
+        <name>abacus__Number_of_Errors_Allowed_For_Batch__c</name>
+    </CustomFieldTranslation>

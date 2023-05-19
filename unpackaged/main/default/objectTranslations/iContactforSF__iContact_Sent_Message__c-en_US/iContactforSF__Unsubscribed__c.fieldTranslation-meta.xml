@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Unsubscribes reports the number of contacts who unsubscribed from a particular message. --></help>
+        <label><!-- Unsubscribes --></label>
+        <name>iContactforSF__Unsubscribed__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iCLightning__Click_To_Open_Rate__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( iCLightning__Unique_Opens__c != 0 &amp;&amp; iCLightning__Unique_Clicks__c != 0, iCLightning__Unique_Clicks__c / iCLightning__Unique_Opens__c, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The click to open rate is the ratio of unique clicks per unique opens.</inlineHelpText>
+    <label>Click to Open Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

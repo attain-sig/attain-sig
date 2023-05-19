@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si cette option est désactivée, les données comptables sont générées dès que les utilisateurs ajoutent ou mettent à jour des informations de dons, ce qui peut modifier la façon dont vos données comptables sont générées.</help>
+        <label><!-- Disable Accounting Triggers --></label>
+        <name>abacus__Process_Accounting_Data_in_Batch_Only__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iContactforSF__Average_Complaint_Rate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Tracks the average complaint rate across all campaigns as a percentage.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Tracks the average complaint rate across all campaigns as a percentage.</inlineHelpText>
+    <label>Average Complaint Rate</label>
+    <precision>7</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

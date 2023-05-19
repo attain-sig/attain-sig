@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- Manage Allocations Additional Fields --></label>
+        <name>npsp__ManageAllocationsAdditionalFields</name>
+    </fieldSets>
+    <layouts>
+        <layout>EDF Master Allocation Layout</layout>
+        <sections>
+            <label><!-- Legacy Fields --></label>
+            <section>Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Posting Details --></label>
+            <section>Posting Details</section>
+        </sections>
+        <sections>
+            <label><!-- Reversal Details --></label>
+            <section>Reversal Details</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Your profile is not authorized to make changes to this record. Please contact an admin for assistance. --></errorMessage>
+        <name>Prevent_Edits_To_Allocation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Manage_Allocations --></label>
+        <name>npsp__Manage_Allocations</name>
+    </webLinks>
+</CustomObjectTranslation>

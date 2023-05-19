@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Indica que no s’aconseguirà una quantitat de penyora. Aquest camp es selecciona quan s'anul·la el pagament, juntament amb les seves entrades de registre de transaccions i pagaments relacionades.</help>
+        <label><!-- Written Off --></label>
+        <name>abacus__Written_Off__c</name>
+    </CustomFieldTranslation>

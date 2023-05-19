@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Wenn Sie mehrere Buchhaltungssätze verwenden, bestimmt Ihre Ladereihenfolge die Reihenfolge ihrer Ausführung. Die niedrigere Nummer wird zuerst ausgeführt. Nummer 1 in der Ladereihenfolge wird beispielsweise vor Nummer 2 ausgeführt.</help>
+        <label><!-- Load Order --></label>
+        <name>abacus__Load_Order__c</name>
+    </CustomFieldTranslation>

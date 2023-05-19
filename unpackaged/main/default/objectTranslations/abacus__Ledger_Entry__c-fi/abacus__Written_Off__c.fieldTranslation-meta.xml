@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Osoittaa, että vakuuden saanut summa ei täyty. Kenttä valitaan, kun Payment-maksu on kirjattu yhdessä siihen liittyvän transaktion ja Payment Ledger Entries -merkintöjen kanssa.</help>
+        <label><!-- Written Off --></label>
+        <name>abacus__Written_Off__c</name>
+    </CustomFieldTranslation>

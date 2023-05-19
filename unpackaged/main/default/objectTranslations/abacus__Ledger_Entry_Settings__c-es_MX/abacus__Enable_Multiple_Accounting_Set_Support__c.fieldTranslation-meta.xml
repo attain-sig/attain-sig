@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Activa la compatibilidad con Conjuntos de contabilidad múltiples. Una vez activada, ciertos parámetros que eran globales deberán configurarse ahora en cada Conjunto de contabilidad activo.</help>
+        <label><!-- Enable Multiple Accounting Set Support --></label>
+        <name>abacus__Enable_Multiple_Accounting_Set_Support__c</name>
+    </CustomFieldTranslation>

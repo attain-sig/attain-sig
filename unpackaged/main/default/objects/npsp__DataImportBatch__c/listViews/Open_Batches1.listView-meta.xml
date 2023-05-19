@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_Batches1</fullName>
+    <columns>NAME</columns>
+    <columns>npsp__Batch_Number__c</columns>
+    <columns>npsp__Batch_Status__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>npsp__Records_Failed__c</columns>
+    <columns>npsp__Records_Successfully_Processed__c</columns>
+    <columns>npsp__Expected_Count_of_Gifts__c</columns>
+    <columns>npsp__Expected_Total_Batch_Amount__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>npsp__Batch_Status__c</field>
+        <operation>notEqual</operation>
+        <value>Completed</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notContain</operation>
+        <value>test,Merkle</value>
+    </filters>
+    <label>GPT Open Batches</label>
+</ListView>

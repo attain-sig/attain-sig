@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Indica se as alocações podem ser definidas conforme o pagamento. Somente para uso com o Accounting Subledger. Entre em contato com seu Executivo de conta do Salesforce para obter mais informações.</help>
+        <label><!-- Payment Allocations Enabled --></label>
+        <name>npsp__Payment_Allocations_Enabled__c</name>
+    </CustomFieldTranslation>

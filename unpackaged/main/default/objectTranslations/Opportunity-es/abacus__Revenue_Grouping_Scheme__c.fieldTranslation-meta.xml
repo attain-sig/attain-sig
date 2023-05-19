@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si se establece en 1, se crean Asientos de libro mayor de asignación para cada Asignación de GAU. Si se establece en 2, se crea un Asiento de libro mayor de asignación para cada Asignación de pago.</help>
+        <label><!-- DEPRECATED - Revenue Grouping Scheme --></label>
+        <name>abacus__Revenue_Grouping_Scheme__c</name>
+    </CustomFieldTranslation>

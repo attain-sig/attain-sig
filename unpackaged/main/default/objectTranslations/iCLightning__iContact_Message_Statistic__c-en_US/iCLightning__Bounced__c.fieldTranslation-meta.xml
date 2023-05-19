@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If this recipient&apos;s email bounced, this field contains the date/time of the latest bounce. --></help>
+        <label><!-- Bounced Date --></label>
+        <name>iCLightning__Bounced__c</name>
+    </CustomFieldTranslation>

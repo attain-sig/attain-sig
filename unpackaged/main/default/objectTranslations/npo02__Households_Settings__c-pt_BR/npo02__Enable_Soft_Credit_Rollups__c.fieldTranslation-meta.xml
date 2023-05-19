@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Totaliza as oportunidades F/G para registros Contato com base nas Funções de contato de oport. atribuídas. As totalizações de crédito ind. só ocorrem em lotes noturnos, mas dá para executá-las manualm. nas configurações do Lote de totalização de doações.</help>
+        <label><!-- Enable Soft Credit Rollups --></label>
+        <name>npo02__Enable_Soft_Credit_Rollups__c</name>
+    </CustomFieldTranslation>

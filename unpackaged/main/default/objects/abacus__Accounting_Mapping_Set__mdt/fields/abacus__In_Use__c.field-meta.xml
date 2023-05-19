@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__In_Use__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates this Accounting Set is now in use.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If checked, certain aspects of the Accounting Set, such as the selected objects can no longer be updated.  Once an Accounting Set is activated at least once, it is considered "In Use".</inlineHelpText>
+    <label>In Use</label>
+    <type>Checkbox</type>
+</CustomField>

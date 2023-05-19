@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Ohjaa sitä katsotaanko tälle kirjanpitojoukolle luodun kirjanpitotiedon olevan tuloa vai kulua</help>
+        <label><!-- Type --></label>
+        <name>abacus__Type__c</name>
+        <picklistValues>
+            <masterLabel>Expense</masterLabel>
+            <translation>Kulu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revenue</masterLabel>
+            <translation>Tuotto</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

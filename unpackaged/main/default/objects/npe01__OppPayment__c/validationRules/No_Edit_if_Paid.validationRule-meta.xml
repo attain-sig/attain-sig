@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Edit_if_Paid</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+    NOT(ISNEW()),
+    NOT(ISCHANGED(npe01__Paid__c)),
+    npe01__Paid__c =TRUE,
+	OR(
+		AND(
+			$Permission.Edit_Received_Opportunities_ADV=FALSE,
+			OR(
+				
+				ISCHANGED( Reversed__c),ISCHANGED(Merchant_Account_Number__c), ISCHANGED(Reversed_Date_donation_edf__c), ISCHANGED( Verisign_Id__c )
+				)
+			),
+		AND(
+			$Permission.Edit_Received_Opportunities=FALSE,
+			$Permission.Edit_Received_Opportunities_ADV=FALSE,
+			OR(
+				ISCHANGED(npsp__Batch_Number__c),ISCHANGED( npe01__Payment_Amount__c ),ISCHANGED( npe01__Payment_Date__c),ISCHANGED(Convio_Receipt__c),ISCHANGED(IRA_Distribution__c)
+				)
+			)
+		)
+	)</errorConditionFormula>
+    <errorMessage>This field cannot be edited when Paid is True. Please reach out to the Gift Processing team.</errorMessage>
+</ValidationRule>

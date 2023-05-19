@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Indica que un importe comprometido no se realizará. Este campo está seleccionado cuando el pago está cancelado, junto con sus Asientos de libro mayor de transacción y pago relacionados.</help>
+        <label><!-- Written Off --></label>
+        <name>abacus__Written_Off__c</name>
+    </CustomFieldTranslation>

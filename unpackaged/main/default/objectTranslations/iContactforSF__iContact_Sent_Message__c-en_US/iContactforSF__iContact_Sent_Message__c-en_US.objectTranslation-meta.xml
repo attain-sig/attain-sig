@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>iContact Sent Message Layout</layout>
+        <sections>
+            <label><!-- Charts --></label>
+            <section>Charts</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Message Impact --></label>
+            <section>Message Impact</section>
+        </sections>
+        <sections>
+            <label><!-- Message Properties --></label>
+            <section>Message Properties</section>
+        </sections>
+        <sections>
+            <label><!-- Message Statistics --></label>
+            <section>Message Statistics</section>
+        </sections>
+        <sections>
+            <label><!-- Spam Check --></label>
+            <section>Spam Check</section>
+        </sections>
+        <sections>
+            <label><!-- Success Criteria --></label>
+            <section>Success Criteria</section>
+        </sections>
+        <sections>
+            <label><!-- Targeted Send Information --></label>
+            <section>Targeted Send Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- You cannot modify the status or version of a sent message. --></errorMessage>
+        <name>iContactforSF__CannotModifyStatusOrVersion</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Cancel_Send --></label>
+        <name>iContactforSF__Cancel_Send</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_iContact_Message --></label>
+        <name>iContactforSF__Send_iContact_Message</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Targeted_Send --></label>
+        <name>iContactforSF__Targeted_Send</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_Statistics --></label>
+        <name>iContactforSF__Update_Statistics</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_Message_Body --></label>
+        <name>iContactforSF__View_Message_Body</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- iContact_Help --></label>
+        <name>iContactforSF__iContact_Help</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>複数の会計セットがある場合、読み込み順序によってそれらが実行される順序が決まります。低い番号から実行されます。たとえば、読み込み順序 1 は読み込み順序 2 より前に実行されます。</help>
+        <label><!-- Load Order --></label>
+        <name>abacus__Load_Order__c</name>
+    </CustomFieldTranslation>

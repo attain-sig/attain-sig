@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iContactforSF__updateContactLead__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, iContact will update the Email Opt Out fields on the Contact and Lead records during an Update request.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, iContact will update the Email Opt Out fields on the Contact and Lead records during an Update request.</inlineHelpText>
+    <label>Update Email Opt Out</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

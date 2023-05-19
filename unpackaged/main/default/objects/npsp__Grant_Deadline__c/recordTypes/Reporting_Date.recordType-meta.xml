@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reporting_Date</fullName>
+    <active>true</active>
+    <description>Use this Deliverable Record Type to record Reporting Dates</description>
+    <label>Reporting Date</label>
+    <picklistValues>
+        <picklist>Document_Category__c</picklist>
+        <values>
+            <fullName>Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Narrative</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Document_Type__c</picklist>
+        <values>
+            <fullName>Accrual Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concept Notes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funding Menu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Report</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Legacy_Source_Table__c</picklist>
+        <values>
+            <fullName>Deliverable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting Date</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Program__c</picklist>
+        <values>
+            <fullName>Climate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDFBIZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economics and Policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecosystems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Strategy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MarComm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oceans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office of the Chief Economist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office of the Chief Scientist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Political Affairs</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Project__c</picklist>
+        <values>
+            <fullName>Activism General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advocacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Affiliate Advocacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agriculture Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air Quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Air Quality - Power Plants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ambassadors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Behavioral%2FSocial Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Big Energy Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Building Electrification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carbon Markets - Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carbon Markets - Aviation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carbon Markets - Club</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carbon Markets - Design and Capacity Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carbon Markets - General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carbon Markets - UNFCCC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carbon Policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clean Air - Power Plant Standards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clean Air - Utilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clean Air - Utilities %28PA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clean Energy General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clean Energy Jobs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clean Power</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clean Power %28PA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clean Power Plan - Litigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clean Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Climate %26 Air - General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Climate %26 Air - Port %26 Hot Spot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Climate %26 Air - Ports and Hot Spots</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Climate %26 Air - State Municipal Defense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Climate %26 Air - Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Climate Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Climate Corp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Climate Law Innovation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Climate Offense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Climate Policy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Climate Policy Subnational</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Climate Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coastal Protection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colorado River</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Constituency Outreach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Climate Leadership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Climate Leadership %28PA%2CEDF%2Bbus%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom Usage Data Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data %26 Science - Sustainable Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital Projects</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy - Modeling Forums</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy Efficiency %26 Renewables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy Efficiency and Renewables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy Markets %26 Utility Regulation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy Transition General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental Enforcement and Accountability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exchanges - Central Valley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exchanges - Monarch Butterfly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exchanges - Sagegrouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FERC and Wholesale Markets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FSC - Diagnostics and Design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FSC - Opp 7 Outcome</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FSC - Opportunities %26 Outcomes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FSC - R%26D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FSC - Training and Capacity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Tools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Tools %28ICP%2C etc%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fisheries Reform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fisheries Solution Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Counsel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Geoengineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Energy Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grand Bargain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grasstop Field</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grid - Modernization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Groundwater</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>House Donor Fundraising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>House File Activism</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interactive Mapping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legislation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legislation - Climate Accountability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legislative Affairs - Federal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legislative Affairs - State</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Carbon Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSAT Data Platform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSAT Launch %26 Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSAT Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSAT Methane Air</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSAT Observatory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSAT Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maximize Renewables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Methane</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Methane - Gas to Clean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Methane - Global</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Methane - Regulation %26 Advocacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Methane - Regulation and Advocacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Methane - Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Methane Science - Satellite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Methane Science - end use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Methane Science and Analytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microgrids</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mississippi River Delta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natural Gas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Donor Fundraising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Name Activism</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Breathe Partnership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open ET Project</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perry Study</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Political Activities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Sector Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Angler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reducing Deforestation - General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reducing Deforestation - Global Consensus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reducing Deforestation - Indigenous People</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reducing Deforestation - REDD Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reducing Deforestation - Supply Chain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulatory Defense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regulatory Reform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensors %28Health%2C OCS%2C EDF%2BBus%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensors - Air Quality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensors - Methane</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart Boat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South East Regional Work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsurface Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply Chain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply Chain - Climate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply Chain - Health</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply Chain - O%2CE%2CC%26E%2C Heal%2C EDF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply Chain - Sustainable Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sustainable Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sustainable Finance -O%2CEDF%2Bbus%2CCE%2CEc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toxics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University Partnerships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upside Model</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utility Business Model</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Water</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>Africa Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asia-Pacific Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belize General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brazil General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada Alberta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada British Columbia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada Manitoba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada New Brunswick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada Newfoundland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada Nova Scotia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada Ontario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada Prince Edward Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada Quebec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada Saskatchewan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caribbean Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central America Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chile General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>China General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuba General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eurasia Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>European Union Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gulf Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>India General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indonesia General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Japan General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-Atlantic Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Middle East</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Middle East %26 Africa Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Midwest Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mountain Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Myanmar General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New England Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North America Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PNA General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pacific Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Peru General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Philippines General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plains Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portugal General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South America Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Southeast Region</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spain General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sweden General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Alabama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Alaska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Arizona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Arkansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Colorado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Connecticut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Delaware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Georgia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Idaho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Illinois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Indiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Iowa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Kansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Kentucky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Louisiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Maine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Maryland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Massachusetts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Michigan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Minnesota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Mississippi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Missouri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Montana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Nebraska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Nevada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US New Hampshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US New Jersey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US New Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US New York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US North Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US North Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Ohio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Oklahoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Oregon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Pennsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Rhode Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US South Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US South Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Tennessee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Texas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Utah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Vermont</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Washington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US West Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Wisconsin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Wyoming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Western Pacific Region</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Report_Status__c</picklist>
+        <values>
+            <fullName>Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deferred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted to Donor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sub_Program__c</picklist>
+        <values>
+            <fullName>Advisory Board</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaigns</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>China</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clean Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coastal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Defend Our Future</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy %E2%80%93 Smart Power</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy - Natural Gas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fisheries Solution Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Climate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Strategy - China</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Habitats</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Climate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal %26 regulatory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mom%27s clean Air Force</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mom%E2%80%99s Clean Air Force</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil %26 Gas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organizational Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Clean Air</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US Climate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Writer_Assigned__c</picklist>
+        <values>
+            <fullName>Ali Rieck</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allison Cobb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andrea Norris</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ashley Lough</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camille de la Vega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dana Weidig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emily Whitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erica Reed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erika Reuter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erin Van Alsten</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gabrielle Antoniadis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gordon Olson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jason Martin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jen Coleman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jennifer Freeman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jerisha Gordon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joy Epting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Judy Stoeven Davies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Katie Wang</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laura Lea Rubino</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lindsay Ross</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lisa Fullerton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lucy Henry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Writer Assigned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portfolio Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scott Meadows</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sharon Nadel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shawna Wagner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yvonne Chen</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Type__c</picklist>
+        <values>
+            <fullName>Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Final Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interim Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

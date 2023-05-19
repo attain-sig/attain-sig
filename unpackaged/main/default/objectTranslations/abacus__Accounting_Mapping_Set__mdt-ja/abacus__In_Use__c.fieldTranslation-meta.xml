@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>オンの場合、会計セットの一部 (選択されたオブジェクトなど) が以降は更新されなくなります。少なくとも 1 回、会計セットが有効化されると、「使用中」とみなされます。</help>
+        <label><!-- In Use --></label>
+        <name>abacus__In_Use__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>選択した場合、支払方法の変更のための調整台帳エントリが生成されます。</help>
+        <label><!-- Adjust When Payment Method Changes --></label>
+        <name>abacus__Adjust_When_Payment_Method_Changes__c</name>
+    </CustomFieldTranslation>

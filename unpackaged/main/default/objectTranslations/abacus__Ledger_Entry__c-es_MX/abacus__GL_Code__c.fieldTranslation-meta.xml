@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>El código de libro mayor para este Asiento de libro mayor. Se corresponde con campos similares en software de contabilidad integrado. Los valores difieren en base al tipo de Asiento de libro mayor.</help>
+        <label><!-- GL Code --></label>
+        <name>abacus__GL_Code__c</name>
+    </CustomFieldTranslation>

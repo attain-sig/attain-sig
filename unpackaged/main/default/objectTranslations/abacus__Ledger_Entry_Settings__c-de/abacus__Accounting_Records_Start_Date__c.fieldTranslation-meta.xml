@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Opportunities mit Erstellungsdatum vor diesem Datum generieren keine Buchungsdaten und werden vom geplanten Buchungsauftrag nicht verarbeitet. Falls leer, verwendet das System das Datum, an dem Accounting Subledger erstmals installiert wurde.</help>
+        <label><!-- Accounting Records Start Date --></label>
+        <name>abacus__Accounting_Records_Start_Date__c</name>
+    </CustomFieldTranslation>

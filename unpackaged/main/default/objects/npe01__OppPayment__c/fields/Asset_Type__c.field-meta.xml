@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asset_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Asset Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Appreciated Securities</fullName>
+                <default>false</default>
+                <label>Appreciated Securities</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Common Stock</fullName>
+                <default>false</default>
+                <label>Common Stock</label>
+            </value>
+            <value>
+                <fullName>Preferred Stock</fullName>
+                <default>false</default>
+                <label>Preferred Stock</label>
+            </value>
+            <value>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Apparel</label>
+            </value>
+            <value>
+                <fullName>Car</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Car</label>
+            </value>
+            <value>
+                <fullName>Check or Cash</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Check or Cash</label>
+            </value>
+            <value>
+                <fullName>Equipment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Equipment</label>
+            </value>
+            <value>
+                <fullName>House</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>House</label>
+            </value>
+            <value>
+                <fullName>Land</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Land</label>
+            </value>
+            <value>
+                <fullName>Life Insurance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Life Insurance</label>
+            </value>
+            <value>
+                <fullName>Office Supplies</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Office Supplies</label>
+            </value>
+            <value>
+                <fullName>Real Estate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Real Estate</label>
+            </value>
+            <value>
+                <fullName>Retirement Funds and Assets</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Retirement Funds and Assets</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Tangible Personal Property</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tangible Personal Property</label>
+            </value>
+            <value>
+                <fullName>Vehicle</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vehicle</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

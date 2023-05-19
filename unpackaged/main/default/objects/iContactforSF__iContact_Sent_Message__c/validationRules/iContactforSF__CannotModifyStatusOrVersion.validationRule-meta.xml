@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iContactforSF__CannotModifyStatusOrVersion</fullName>
+    <active>false</active>
+    <description>User cannot modify the status or version of the sent message.</description>
+    <errorConditionFormula>OR (ISCHANGED(iContactforSF__Status__c), ISCHANGED( iContactforSF__Version__c))</errorConditionFormula>
+    <errorMessage>You cannot modify the status or version of a sent message.</errorMessage>
+</ValidationRule>

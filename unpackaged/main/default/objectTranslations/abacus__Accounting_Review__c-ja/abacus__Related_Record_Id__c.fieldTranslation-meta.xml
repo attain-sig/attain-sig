@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>このレコードは、会計レビューによってフラグが設定されているため、会計一括処理で処理されます。</help>
+        <label><!-- Related Record Id --></label>
+        <name>abacus__Related_Record_Id__c</name>
+    </CustomFieldTranslation>

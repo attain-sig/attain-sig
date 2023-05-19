@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Geeft aan dat een toegekend bedrag niet zal worden vervuld. Dit veld is geselecteerd als de betaling en de gerelateerde registerboekingen van de transactie en de betaling zijn afgeschreven.</help>
+        <label><!-- Written Off --></label>
+        <name>abacus__Written_Off__c</name>
+    </CustomFieldTranslation>

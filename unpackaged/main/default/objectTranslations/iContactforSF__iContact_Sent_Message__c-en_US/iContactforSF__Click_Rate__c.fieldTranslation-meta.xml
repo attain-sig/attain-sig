@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The click rate is the ratio of individual clicks per recipients, which indicates the activity rate of your recipients. A high click rate (~8% or more) means people are frequently viewing and interacting with your message. --></help>
+        <label><!-- Click Rate --></label>
+        <name>iContactforSF__Click_Rate__c</name>
+    </CustomFieldTranslation>

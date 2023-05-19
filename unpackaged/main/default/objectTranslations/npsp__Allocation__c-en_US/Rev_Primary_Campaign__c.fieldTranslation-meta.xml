@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Rev Primary Campaign --></label>
+        <name>Rev_Primary_Campaign__c</name>
+        <relationshipLabel><!-- GAU Allocations (Rev Primary Campaign) --></relationshipLabel>
+    </CustomFieldTranslation>

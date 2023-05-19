@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program</fullName>
+    <active>true</active>
+    <label>Program</label>
+    <picklistValues>
+        <picklist>Legacy_Parent_Designation__c</picklist>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

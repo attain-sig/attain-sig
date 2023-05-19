@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>対応付けが割り当て台帳エントリに適用されるべきかどうかを決定します。</help>
+        <label><!-- Allocation --></label>
+        <name>abacus__Pledge_Allocation__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Kaikki Debit- ja Credit Ledger Entries -merkinnät liitetään GAU:hun. Toissijaiset maksun tilikirjamerkinnät myös luodaan tasaamaan jokaista maksun tilikirjamerkintää. Toiminto vaatii Accounting Subledger Growth Edition -lisenssin.</help>
+        <label><!-- Group All Debits And Credits By GAU --></label>
+        <name>abacus__Group_All_Debits_And_Credits_By_GAU__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si teniu més d'un conjunt de comptabilitat, el vostre ordre de càrrega determina la seqüència en què s'executen. El número inferior s’executarà primer. Per exemple, l’ordre de càrrega 1 s’executarà abans de l’ordre de càrrega 2.</help>
+        <label><!-- Load Order --></label>
+        <name>abacus__Load_Order__c</name>
+    </CustomFieldTranslation>

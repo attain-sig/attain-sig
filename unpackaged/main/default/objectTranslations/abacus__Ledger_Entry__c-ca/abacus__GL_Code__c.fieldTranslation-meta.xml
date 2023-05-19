@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>El codi de registre major per a aquesta entrada de llibre major. Correspon a camps similars del programari de comptabilitat integrat. Els valors són diferents segons el tipus d'entrada de llibre major.</help>
+        <label><!-- GL Code --></label>
+        <name>abacus__GL_Code__c</name>
+    </CustomFieldTranslation>

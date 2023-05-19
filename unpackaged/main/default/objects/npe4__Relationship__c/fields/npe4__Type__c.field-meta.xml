@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>npe4__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field that describes how the Related Contact is connected to the Contact.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field that describes how the Related Contact is connected to the Contact.</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aunt or Uncle</fullName>
+                <default>false</default>
+                <label>Aunt or Uncle</label>
+            </value>
+            <value>
+                <fullName>Board Member</fullName>
+                <default>false</default>
+                <label>Board Member</label>
+            </value>
+            <value>
+                <fullName>Campaign Prospect</fullName>
+                <default>false</default>
+                <label>Campaign Prospect</label>
+            </value>
+            <value>
+                <fullName>Child</fullName>
+                <default>false</default>
+                <label>Child</label>
+            </value>
+            <value>
+                <fullName>Child-In-Law</fullName>
+                <default>false</default>
+                <label>Child-In-Law</label>
+            </value>
+            <value>
+                <fullName>Client</fullName>
+                <default>false</default>
+                <label>Client</label>
+            </value>
+            <value>
+                <fullName>Co-worker</fullName>
+                <default>false</default>
+                <label>Co-worker</label>
+            </value>
+            <value>
+                <fullName>Consultant</fullName>
+                <default>false</default>
+                <label>Consultant</label>
+            </value>
+            <value>
+                <fullName>Cousin</fullName>
+                <default>false</default>
+                <label>Cousin</label>
+            </value>
+            <value>
+                <fullName>Domestic Partner</fullName>
+                <default>false</default>
+                <label>Domestic Partner</label>
+            </value>
+            <value>
+                <fullName>EDF Strategic Partner</fullName>
+                <default>false</default>
+                <label>EDF Strategic Partner</label>
+            </value>
+            <value>
+                <fullName>EDF Strategic Partner Solicitor</fullName>
+                <default>false</default>
+                <label>EDF Strategic Partner Solicitor</label>
+            </value>
+            <value>
+                <fullName>Employee</fullName>
+                <default>false</default>
+                <label>Employee</label>
+            </value>
+            <value>
+                <fullName>Employer</fullName>
+                <default>false</default>
+                <label>Employer</label>
+            </value>
+            <value>
+                <fullName>Family</fullName>
+                <default>false</default>
+                <label>Family</label>
+            </value>
+            <value>
+                <fullName>Friend</fullName>
+                <default>false</default>
+                <label>Friend</label>
+            </value>
+            <value>
+                <fullName>God Child</fullName>
+                <default>false</default>
+                <label>God Child</label>
+            </value>
+            <value>
+                <fullName>Godparent</fullName>
+                <default>false</default>
+                <label>Godparent</label>
+            </value>
+            <value>
+                <fullName>Grandchild</fullName>
+                <default>false</default>
+                <label>Grandchild</label>
+            </value>
+            <value>
+                <fullName>Grandchild-In-Law</fullName>
+                <default>false</default>
+                <label>Grandchild-In-Law</label>
+            </value>
+            <value>
+                <fullName>Grandparent</fullName>
+                <default>false</default>
+                <label>Grandparent</label>
+            </value>
+            <value>
+                <fullName>Grandparent-In-Law</fullName>
+                <default>false</default>
+                <label>Grandparent-In-Law</label>
+            </value>
+            <value>
+                <fullName>Great Grandchild</fullName>
+                <default>false</default>
+                <label>Great Grandchild</label>
+            </value>
+            <value>
+                <fullName>Great Grandparent</fullName>
+                <default>false</default>
+                <label>Great Grandparent</label>
+            </value>
+            <value>
+                <fullName>Knows</fullName>
+                <default>false</default>
+                <label>Knows</label>
+            </value>
+            <value>
+                <fullName>Manager</fullName>
+                <default>false</default>
+                <label>Manager</label>
+            </value>
+            <value>
+                <fullName>Neighbor</fullName>
+                <default>false</default>
+                <label>Neighbor</label>
+            </value>
+            <value>
+                <fullName>Nephew or Niece</fullName>
+                <default>false</default>
+                <label>Nephew or Niece</label>
+            </value>
+            <value>
+                <fullName>PFF - Campaign Prospect</fullName>
+                <default>false</default>
+                <label>PFF - Campaign Prospect</label>
+            </value>
+            <value>
+                <fullName>PFF - Campaign Volunteer</fullName>
+                <default>false</default>
+                <label>PFF - Campaign Volunteer</label>
+            </value>
+            <value>
+                <fullName>Parent</fullName>
+                <default>false</default>
+                <label>Parent</label>
+            </value>
+            <value>
+                <fullName>Parent-In-Law</fullName>
+                <default>false</default>
+                <label>Parent-In-Law</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Philanthropic Advisee</fullName>
+                <default>false</default>
+                <label>Philanthropic Advisee</label>
+            </value>
+            <value>
+                <fullName>Philanthropic Advisor</fullName>
+                <default>false</default>
+                <label>Philanthropic Advisor</label>
+            </value>
+            <value>
+                <fullName>Philanthropic Partner</fullName>
+                <default>false</default>
+                <label>Philanthropic Partner</label>
+            </value>
+            <value>
+                <fullName>Sibling</fullName>
+                <default>false</default>
+                <label>Sibling</label>
+            </value>
+            <value>
+                <fullName>Sibling-In-Law</fullName>
+                <default>false</default>
+                <label>Sibling-In-Law</label>
+            </value>
+            <value>
+                <fullName>Spouse</fullName>
+                <default>false</default>
+                <label>Spouse</label>
+            </value>
+            <value>
+                <fullName>Step Child</fullName>
+                <default>false</default>
+                <label>Step Child</label>
+            </value>
+            <value>
+                <fullName>Step Parent</fullName>
+                <default>false</default>
+                <label>Step Parent</label>
+            </value>
+            <value>
+                <fullName>Step Sibling</fullName>
+                <default>false</default>
+                <label>Step Sibling</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

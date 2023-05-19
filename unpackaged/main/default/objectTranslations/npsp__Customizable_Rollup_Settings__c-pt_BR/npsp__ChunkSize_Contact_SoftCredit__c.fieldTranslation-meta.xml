@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>PARA ORGANIZAÇÕES LDV SOMENTE COM DIRETRIZES DA SFDO. Para evitar tempo limite de consulta no trabalho de lote de totalização em organizações com muitos milhões de Contatos, isso especifica o número máximo de Contatos processados em cada lote.</help>
+        <label><!-- LDV: Contact Soft Credit Chunk Size --></label>
+        <name>npsp__ChunkSize_Contact_SoftCredit__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>O valor usado se o valor do campo Gênero do contato corresponder aos valores no rótulo personalizado Masculino ou a Saudação do Contato indicar o gênero.</help>
+        <label><!-- Male --></label>
+        <name>npe4__Male__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The URI-encoded fullName. Needed for the readMetadata() call. --></help>
+        <label><!-- Encoded FullName --></label>
+        <name>Q9__Encoded_FullName__c</name>
+    </CustomFieldTranslation>

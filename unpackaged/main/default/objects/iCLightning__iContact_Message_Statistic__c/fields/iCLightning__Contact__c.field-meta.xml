@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iCLightning__Contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>If the campaign member this statistic is for was from a Contact, this field will hold the ID of the Contact.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If the campaign member this statistic is for was from a Contact, this field will hold the ID of the Contact.</inlineHelpText>
+    <label>Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipName>iContact_Message_Statistics</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

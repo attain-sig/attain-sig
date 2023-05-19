@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Geeft aan of het maken van registerboekingen actief is voor deze opportunity. Dit veld wordt automatisch ingesteld. Bewerk het niet.</help>
+        <label><!-- Ledger Entry Creation Active --></label>
+        <name>abacus__Ledger_Entry_Creation_Active__c</name>
+    </CustomFieldTranslation>

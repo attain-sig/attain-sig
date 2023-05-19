@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Número de meses a partir de hoje com oport. abertas a serem criadas com o uso de doações recorrentes de prazo indet. AVISO: a redução desse valor resultará na exclusão de mais oport.. O aumento iniciará um processo de lote para adicionar oportunidades</help>
+        <label><!-- Opportunity Forecast Months --></label>
+        <name>npe03__Opportunity_Forecast_Months__c</name>
+    </CustomFieldTranslation>

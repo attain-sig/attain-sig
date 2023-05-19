@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Bij instelling op Bepaald tijdstip worden bronveldgegevens alleen aan het bestemmingsveld toegewezen wanneer de registerboeking wordt gemaakt. Bij Huidige waarde worden registerboekingen teruggedraaid en vervangen als het bronveld wordt geüpdatet.</help>
+        <label><!-- Mapping Behavior --></label>
+        <name>abacus__Mapping_Behavior__c</name>
+        <picklistValues>
+            <masterLabel>Current Value</masterLabel>
+            <translation>Huidige waarde</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Point-in-Time</masterLabel>
+            <translation>Bepaald tijdstip</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

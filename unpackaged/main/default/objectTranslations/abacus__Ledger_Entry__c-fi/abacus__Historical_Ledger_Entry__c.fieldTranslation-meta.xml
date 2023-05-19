@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Jos valitaan, Ledger Entry -merkintää ei sisällytetä uusiin laskentoihin, koska sen on vaihtanut yksi tai useampi uudempi Ledger Entry.</help>
+        <label><!-- Historical Ledger Entry --></label>
+        <name>abacus__Historical_Ledger_Entry__c</name>
+    </CustomFieldTranslation>

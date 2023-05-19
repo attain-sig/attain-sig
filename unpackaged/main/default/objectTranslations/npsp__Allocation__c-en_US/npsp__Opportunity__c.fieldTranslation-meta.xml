@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Attributes allocations to an opportunity. All opportunities in a closed and won stage will be rolled up to this allocation&apos;s general accounting unit. --></help>
+        <label><!-- Opportunity --></label>
+        <name>npsp__Opportunity__c</name>
+        <relationshipLabel><!-- GAU Allocations --></relationshipLabel>
+    </CustomFieldTranslation>

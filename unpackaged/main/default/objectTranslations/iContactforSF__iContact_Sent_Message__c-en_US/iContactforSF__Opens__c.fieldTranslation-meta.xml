@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total opens reports the total number of times that any recipient has opened your message. For instance, if 5 people open the message once and one more person opens the message 5 times, the total opens would be 10. --></help>
+        <label><!-- Total Opens --></label>
+        <name>iContactforSF__Opens__c</name>
+    </CustomFieldTranslation>

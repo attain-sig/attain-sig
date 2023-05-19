@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDF_Board_of_Trustees</fullName>
+    <columns>NAME</columns>
+    <columns>npe5__Organization__c</columns>
+    <columns>npe5__Contact__c</columns>
+    <columns>npe5__Role__c</columns>
+    <columns>npe5__Status__c</columns>
+    <columns>npe5__StartDate__c</columns>
+    <columns>npe5__EndDate__c</columns>
+    <columns>Affiliation_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>EDF_Board_Committee__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>EDF Board of Trustees</label>
+</ListView>

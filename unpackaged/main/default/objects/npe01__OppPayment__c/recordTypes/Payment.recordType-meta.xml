@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>npsp__NPSP_Payment_Compact_Layout</compactLayoutAssignment>
+    <label>Payment</label>
+    <picklistValues>
+        <picklist>Asset_Type__c</picklist>
+        <values>
+            <fullName>Appreciated Securities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Common Stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preferred Stock</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Credit_Card_Type__c</picklist>
+        <values>
+            <fullName>American Express</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MasterCard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visa</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Merchant_Account_Number__c</picklist>
+        <values>
+            <fullName>101</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>102</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>103</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>104</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>105</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>106</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>107</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>108</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>109</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>110</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>111</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NetSuite_Bank_Account__c</picklist>
+        <values>
+            <fullName>BANORTE 6969--5492</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CGA CA 10203--6002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CGA NY 10202--6001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITI 0424--5485</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITI 0458--2674</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITI 0503--2678</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITI 0539--5484</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITI 3034--2690</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITI 6415--4878</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITI 6615--2687</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITI 6623--2689</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITI 6644--6009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITI 6806--4879</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITI 6814--4880</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITI 7463--6027</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITI 7863--5482</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITI 9567--5488</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INBURSA 5521--5491</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UBS C3 10200--5999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UBS C4 10201--6000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WF 2086--4077</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WF 2088--3466</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WF 6814--6003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WF 6911--2658</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Processed_By__c</picklist>
+        <values>
+            <fullName>Customer Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DMP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donor Records</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronic Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Membership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merkle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telemarketer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Processed_Through__c</picklist>
+        <values>
+            <fullName>ActBlue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Classy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Common Ground</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Convio online marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Donate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Receipted_Status__c</picklist>
+        <values>
+            <fullName>Do not receipt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Receipted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Receipted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Refund_Type__c</picklist>
+        <values>
+            <fullName>Chargeback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invalid Donation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Returned Check</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__Payment_Method__c</picklist>
+        <values>
+            <fullName>ACH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ACH Offline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card Offline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Kind</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PayPal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venmo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XCheckout</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__ACH_Code__c</picklist>
+        <values>
+            <fullName>ARC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BOC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PPD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WEB</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__DebitType__c</picklist>
+        <values>
+            <fullName>Chargeback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Payment_Acknowledgment_Status__c</picklist>
+        <values>
+            <fullName>Acknowledged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Do Not Acknowledge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Be Acknowledged</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

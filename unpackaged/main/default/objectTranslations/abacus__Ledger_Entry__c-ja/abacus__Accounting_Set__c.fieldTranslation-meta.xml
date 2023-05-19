@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>会計セットとは、台帳エントリを生成し、財務データを定義する項目またはオブジェクトの独自のカスタマイズされた組み合わせのことです。</help>
+        <label><!-- Accounting Set --></label>
+        <name>abacus__Accounting_Set__c</name>
+    </CustomFieldTranslation>

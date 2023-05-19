@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Aktiviert die Ausführung des geplanten Buchungsauftrag zur angegebenen Uhrzeit. Falls nicht aktiviert, wird der geplante Auftrag nicht ausgeführt.</help>
+        <label><!-- Run Accounting Job on a Schedule --></label>
+        <name>abacus__Run_Accounting_Job_on_a_Schedule__c</name>
+    </CustomFieldTranslation>

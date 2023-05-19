@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Cet enregistrement sera traité par le lot comptable, car il a été marqué par un examen comptable</help>
+        <label><!-- Related Record Id --></label>
+        <name>abacus__Related_Record_Id__c</name>
+    </CustomFieldTranslation>

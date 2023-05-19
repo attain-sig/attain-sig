@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>控除済み支払のご使用の会計システムのコードの名前です。これはご使用の会計ソフトウェアで使用されている名前に一致するようにします。</help>
+        <label><!-- Default Write-Off Account Code --></label>
+        <name>abacus__Default_Write_Off_Account_Code__c</name>
+    </CustomFieldTranslation>

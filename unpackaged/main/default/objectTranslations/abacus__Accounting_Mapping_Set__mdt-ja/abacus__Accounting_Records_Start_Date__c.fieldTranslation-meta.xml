@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>この日付よりも古い作成日のあるレコードでは、会計データが生成されず、スケジュール済み会計ジョブで処理されません。</help>
+        <label><!-- Accounting Records Start Date --></label>
+        <name>abacus__Accounting_Records_Start_Date__c</name>
+    </CustomFieldTranslation>

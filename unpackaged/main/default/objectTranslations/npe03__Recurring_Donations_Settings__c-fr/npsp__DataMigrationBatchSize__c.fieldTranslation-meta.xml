@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Nombre d'enregistrements à traiter à la fois lors de la migration d'enregistrements de Dons récurrents existants vers le modèle de données Dons récurrents avancés.</help>
+        <label><!-- Enhanced RD Data Migration Batch Size --></label>
+        <name>npsp__DataMigrationBatchSize__c</name>
+    </CustomFieldTranslation>

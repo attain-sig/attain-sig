@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Especifica o número de contatos para listar explicitamente em um nome. Depois desse valor, a Substituição de nome será usada.</help>
+        <label><!-- Contact Overrun Count --></label>
+        <name>npsp__Contact_Overrun_Count__c</name>
+    </CustomFieldTranslation>

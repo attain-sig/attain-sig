@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>De ID van het fonds zoals aangegeven in de accountingset waarmee deze record is gemaakt.</help>
+        <label><!-- Fund Id --></label>
+        <name>abacus__Fund_Id__c</name>
+    </CustomFieldTranslation>

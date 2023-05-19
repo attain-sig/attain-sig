@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Education_Degree__c</fullName>
+    <externalId>false</externalId>
+    <label>Education Degree</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BA - Bachelor of Arts</fullName>
+                <default>false</default>
+                <label>BA - Bachelor of Arts</label>
+            </value>
+            <value>
+                <fullName>BFA - Bachelor in Fine Arts</fullName>
+                <default>false</default>
+                <label>BFA - Bachelor in Fine Arts</label>
+            </value>
+            <value>
+                <fullName>BS - Bachelor of Science</fullName>
+                <default>false</default>
+                <label>BS - Bachelor of Science</label>
+            </value>
+            <value>
+                <fullName>EdD - Doctorate in Education</fullName>
+                <default>false</default>
+                <label>EdD - Doctorate in Education</label>
+            </value>
+            <value>
+                <fullName>Hon – Honorary</fullName>
+                <default>false</default>
+                <label>Hon – Honorary</label>
+            </value>
+            <value>
+                <fullName>JD - Juris Doctor</fullName>
+                <default>false</default>
+                <label>JD - Juris Doctor</label>
+            </value>
+            <value>
+                <fullName>LLB - Bachelor of Laws</fullName>
+                <default>false</default>
+                <label>LLB - Bachelor of Laws</label>
+            </value>
+            <value>
+                <fullName>MA - Master of Arts</fullName>
+                <default>false</default>
+                <label>MA - Master of Arts</label>
+            </value>
+            <value>
+                <fullName>MBA - Master of Business Administration</fullName>
+                <default>false</default>
+                <label>MBA - Master of Business Administration</label>
+            </value>
+            <value>
+                <fullName>MD - Doctor of Medicine</fullName>
+                <default>false</default>
+                <label>MD - Doctor of Medicine</label>
+            </value>
+            <value>
+                <fullName>MDiv - Master of Divinity</fullName>
+                <default>false</default>
+                <label>MDiv - Master of Divinity</label>
+            </value>
+            <value>
+                <fullName>MEng - Master in Engineering</fullName>
+                <default>false</default>
+                <label>MEng - Master in Engineering</label>
+            </value>
+            <value>
+                <fullName>MFA - Master in Fine Arts</fullName>
+                <default>false</default>
+                <label>MFA - Master in Fine Arts</label>
+            </value>
+            <value>
+                <fullName>MS - Master of Science</fullName>
+                <default>false</default>
+                <label>MS - Master of Science</label>
+            </value>
+            <value>
+                <fullName>PhD - Doctorate</fullName>
+                <default>false</default>
+                <label>PhD - Doctorate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

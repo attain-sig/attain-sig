@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Nach den angegebenen Anzahl Tage aktualisiert NPSP den Status der wiederkehrenden Spende auf den "Ausgesetzt"-Wert der Statusautomatisierung, wenn Spenden nicht wie erwartet eingehen.</help>
+        <label><!-- Status Automation Days for Lapsed --></label>
+        <name>npsp__StatusAutomationDaysForLapsed__c</name>
+    </CustomFieldTranslation>

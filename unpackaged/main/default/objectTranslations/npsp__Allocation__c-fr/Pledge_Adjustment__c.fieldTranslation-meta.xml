@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pledge Adjustment --></label>
+        <name>Pledge_Adjustment__c</name>
+        <picklistValues>
+            <masterLabel>Carry-over</masterLabel>
+            <translation><!-- Carry-over --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designation Adjustment</masterLabel>
+            <translation><!-- Designation Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No adjusting entry</masterLabel>
+            <translation><!-- No adjusting entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pledge Revision - Amount Decrease</masterLabel>
+            <translation><!-- Pledge Revision - Amount Decrease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pledge Revision - Amount Increase</masterLabel>
+            <translation><!-- Pledge Revision - Amount Increase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pledge revision</masterLabel>
+            <translation><!-- Pledge revision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Write off - Allowance</masterLabel>
+            <translation><!-- Write off - Allowance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Write off - Bad Debt</masterLabel>
+            <translation><!-- Write off - Bad Debt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Write off - Revenue</masterLabel>
+            <translation><!-- Write off - Revenue --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

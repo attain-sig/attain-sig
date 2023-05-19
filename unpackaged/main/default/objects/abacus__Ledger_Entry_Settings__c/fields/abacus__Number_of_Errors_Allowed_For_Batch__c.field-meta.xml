@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Number_of_Errors_Allowed_For_Batch__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Once this limit is reached, Accounting Subledger will cancel the batch and display an error for the user to resolve. Common errors could be missing a required field or validation rule.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter the maximum number of errors a batch can generate before it automatically cancels. Typically, one error is generated per payment record if a batch process fails.</inlineHelpText>
+    <label>Number of Errors Allowed For Batch</label>
+    <precision>9</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

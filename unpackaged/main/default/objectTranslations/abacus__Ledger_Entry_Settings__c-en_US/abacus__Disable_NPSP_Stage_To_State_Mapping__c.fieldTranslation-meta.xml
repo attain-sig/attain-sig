@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If checked, Pledges will not be generated unless the Ledger Entry Creation Active Indicator on the Opportunity is checked manually. --></help>
+        <label><!-- Disable NPSP Stage To State Mapping --></label>
+        <name>abacus__Disable_NPSP_Stage_To_State_Mapping__c</name>
+    </CustomFieldTranslation>

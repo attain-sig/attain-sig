@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si s'estableix a 1, es crearà una entrada de llibre major per a cada assignació d'unitat de comptabilitat general. Si es defineix a 2, es crea una entrada de llibre major per a cada assignació de pagaments. No l'editeu.</help>
+        <label><!-- DEPRECATED - Revenue Grouping Scheme --></label>
+        <name>abacus__Revenue_Grouping_Scheme__c</name>
+    </CustomFieldTranslation>

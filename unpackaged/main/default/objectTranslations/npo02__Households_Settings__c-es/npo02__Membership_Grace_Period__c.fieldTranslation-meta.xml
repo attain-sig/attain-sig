@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>La duración del período de gracia (en días) después de que la membresía vence (última fecha de fin) antes que el estado se cambie de "Período de gracia" a "Vendida". Por defecto son 30 días.</help>
+        <label><!-- Membership Grace Period --></label>
+        <name>npo02__Membership_Grace_Period__c</name>
+    </CustomFieldTranslation>

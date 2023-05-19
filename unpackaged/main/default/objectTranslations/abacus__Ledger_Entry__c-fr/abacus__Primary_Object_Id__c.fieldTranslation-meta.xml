@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>ID de l’enregistrement d’objet principal tel qu’indiqué dans l’ensemble de comptabilité avec lequel cet enregistrement a été créé.</help>
+        <label><!-- Primary Object Id --></label>
+        <name>abacus__Primary_Object_Id__c</name>
+    </CustomFieldTranslation>

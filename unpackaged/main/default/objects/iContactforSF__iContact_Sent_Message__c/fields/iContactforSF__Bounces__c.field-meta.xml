@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iContactforSF__Bounces__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Number of message bounces as reported from iContact.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Bounces reports the number of times the message was not successfully delivered to an email address, which is usually due to a full email inbox, a down email server, or an invalid email address.</inlineHelpText>
+    <label>Bounces</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

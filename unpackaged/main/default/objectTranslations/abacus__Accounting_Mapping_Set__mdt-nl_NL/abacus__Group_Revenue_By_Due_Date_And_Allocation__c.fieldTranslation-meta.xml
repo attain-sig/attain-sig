@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Als dit niet is geselecteerd, wordt een Ledger Entry voor toewijzing gemaakt voor elk fonds. Als het wel is geselecteerd, wordt een Ledger Entry voor toewijzing gemaakt voor elk fonds en elke geplande betalingsdatum.</help>
+        <label><!-- Group Revenue By Due Date And Allocation --></label>
+        <name>abacus__Group_Revenue_By_Due_Date_And_Allocation__c</name>
+    </CustomFieldTranslation>

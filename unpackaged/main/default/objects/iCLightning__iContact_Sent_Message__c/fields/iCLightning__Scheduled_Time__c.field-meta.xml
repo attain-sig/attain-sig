@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iCLightning__Scheduled_Time__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The time the send request was started for processing.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The time the send request was started for processing.</inlineHelpText>
+    <label>Scheduled Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

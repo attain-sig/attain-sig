@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <picklistValues>
+            <masterLabel>Activism General</masterLabel>
+            <translation><!-- Activism General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advocacy</masterLabel>
+            <translation><!-- Advocacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Affiliate Advocacy</masterLabel>
+            <translation><!-- Affiliate Advocacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agriculture Finance</masterLabel>
+            <translation><!-- Agriculture Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Air Quality</masterLabel>
+            <translation><!-- Air Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Air Quality - Power Plants</masterLabel>
+            <translation><!-- Air Quality - Power Plants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ambassadors</masterLabel>
+            <translation><!-- Ambassadors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Behavioral/Social Science</masterLabel>
+            <translation><!-- Behavioral/Social Science --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Big Energy Data</masterLabel>
+            <translation><!-- Big Energy Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building Electrification</masterLabel>
+            <translation><!-- Building Electrification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carbon Markets - Agriculture</masterLabel>
+            <translation><!-- Carbon Markets - Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carbon Markets - Aviation</masterLabel>
+            <translation><!-- Carbon Markets - Aviation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carbon Markets - Club</masterLabel>
+            <translation><!-- Carbon Markets - Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carbon Markets - Design and Capacity Building</masterLabel>
+            <translation><!-- Carbon Markets - Design and Capacity Building --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carbon Markets - General</masterLabel>
+            <translation><!-- Carbon Markets - General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carbon Markets - UNFCCC</masterLabel>
+            <translation><!-- Carbon Markets - UNFCCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carbon Policy</masterLabel>
+            <translation><!-- Carbon Policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Air - Power Plant Standards</masterLabel>
+            <translation><!-- Clean Air - Power Plant Standards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Air - Utilities</masterLabel>
+            <translation><!-- Clean Air - Utilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Air - Utilities (PA)</masterLabel>
+            <translation><!-- Clean Air - Utilities (PA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Energy General</masterLabel>
+            <translation><!-- Clean Energy General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Energy Jobs</masterLabel>
+            <translation><!-- Clean Energy Jobs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Power</masterLabel>
+            <translation><!-- Clean Power --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Power (PA)</masterLabel>
+            <translation><!-- Clean Power (PA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Power Plan - Litigation</masterLabel>
+            <translation><!-- Clean Power Plan - Litigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Shipping</masterLabel>
+            <translation><!-- Clean Shipping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate &amp; Air - General</masterLabel>
+            <translation><!-- Climate &amp; Air - General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate &amp; Air - Port &amp; Hot Spot</masterLabel>
+            <translation><!-- Climate &amp; Air - Port &amp; Hot Spot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate &amp; Air - Ports and Hot Spots</masterLabel>
+            <translation><!-- Climate &amp; Air - Ports and Hot Spots --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate &amp; Air - State Municipal Defense</masterLabel>
+            <translation><!-- Climate &amp; Air - State Municipal Defense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate &amp; Air - Transportation</masterLabel>
+            <translation><!-- Climate &amp; Air - Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Campaign</masterLabel>
+            <translation><!-- Climate Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Corp</masterLabel>
+            <translation><!-- Climate Corp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Law Innovation</masterLabel>
+            <translation><!-- Climate Law Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Offense</masterLabel>
+            <translation><!-- Climate Offense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Policy</masterLabel>
+            <translation><!-- Climate Policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Policy Subnational</masterLabel>
+            <translation><!-- Climate Policy Subnational --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Science</masterLabel>
+            <translation><!-- Climate Science --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coastal Protection</masterLabel>
+            <translation><!-- Coastal Protection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorado River</masterLabel>
+            <translation><!-- Colorado River --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communities</masterLabel>
+            <translation><!-- Communities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Constituency Outreach</masterLabel>
+            <translation><!-- Constituency Outreach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Climate Leadership</masterLabel>
+            <translation><!-- Corporate Climate Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Climate Leadership (PA,EDF+bus)</masterLabel>
+            <translation><!-- Corporate Climate Leadership (PA,EDF+bus) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Usage Data Analysis</masterLabel>
+            <translation><!-- Custom Usage Data Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data &amp; Science - Sustainable Agriculture</masterLabel>
+            <translation><!-- Data &amp; Science - Sustainable Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Projects</masterLabel>
+            <translation><!-- Digital Projects --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy - Modeling Forums</masterLabel>
+            <translation><!-- Energy - Modeling Forums --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy Efficiency &amp; Renewables</masterLabel>
+            <translation><!-- Energy Efficiency &amp; Renewables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy Efficiency and Renewables</masterLabel>
+            <translation><!-- Energy Efficiency and Renewables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy Markets &amp; Utility Regulation</masterLabel>
+            <translation><!-- Energy Markets &amp; Utility Regulation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy Transition General</masterLabel>
+            <translation><!-- Energy Transition General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental Enforcement and Accountability</masterLabel>
+            <translation><!-- Environmental Enforcement and Accountability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exchanges - Central Valley</masterLabel>
+            <translation><!-- Exchanges - Central Valley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exchanges - Monarch Butterfly</masterLabel>
+            <translation><!-- Exchanges - Monarch Butterfly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exchanges - Sagegrouse</masterLabel>
+            <translation><!-- Exchanges - Sagegrouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FERC and Wholesale Markets</masterLabel>
+            <translation><!-- FERC and Wholesale Markets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FSC - Diagnostics and Design</masterLabel>
+            <translation><!-- FSC - Diagnostics and Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FSC - Opp 7 Outcome</masterLabel>
+            <translation><!-- FSC - Opp 7 Outcome --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FSC - Opportunities &amp; Outcomes</masterLabel>
+            <translation><!-- FSC - Opportunities &amp; Outcomes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FSC - R&amp;D</masterLabel>
+            <translation><!-- FSC - R&amp;D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FSC - Training and Capacity</masterLabel>
+            <translation><!-- FSC - Training and Capacity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Tools</masterLabel>
+            <translation><!-- Financial Tools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Tools (ICP, etc)</masterLabel>
+            <translation><!-- Financial Tools (ICP, etc) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fisheries Reform</masterLabel>
+            <translation><!-- Fisheries Reform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fisheries Solution Center</masterLabel>
+            <translation><!-- Fisheries Solution Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Counsel</masterLabel>
+            <translation><!-- General Counsel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geoengineering</masterLabel>
+            <translation><!-- Geoengineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Energy Finance</masterLabel>
+            <translation><!-- Global Energy Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grand Bargain</masterLabel>
+            <translation><!-- Grand Bargain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grasstop Field</masterLabel>
+            <translation><!-- Grasstop Field --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grid - Modernization</masterLabel>
+            <translation><!-- Grid - Modernization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Groundwater</masterLabel>
+            <translation><!-- Groundwater --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>House Donor Fundraising</masterLabel>
+            <translation><!-- House Donor Fundraising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>House File Activism</masterLabel>
+            <translation><!-- House File Activism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICP</masterLabel>
+            <translation><!-- ICP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interactive Mapping</masterLabel>
+            <translation><!-- Interactive Mapping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead</masterLabel>
+            <translation><!-- Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legislation</masterLabel>
+            <translation><!-- Legislation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legislation - Climate Accountability</masterLabel>
+            <translation><!-- Legislation - Climate Accountability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legislative Affairs - Federal</masterLabel>
+            <translation><!-- Legislative Affairs - Federal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legislative Affairs - State</masterLabel>
+            <translation><!-- Legislative Affairs - State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low Carbon Development</masterLabel>
+            <translation><!-- Low Carbon Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSAT Data Platform</masterLabel>
+            <translation><!-- MSAT Data Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSAT Launch &amp; Insurance</masterLabel>
+            <translation><!-- MSAT Launch &amp; Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSAT Management</masterLabel>
+            <translation><!-- MSAT Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSAT Methane Air</masterLabel>
+            <translation><!-- MSAT Methane Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSAT Observatory</masterLabel>
+            <translation><!-- MSAT Observatory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSAT Science</masterLabel>
+            <translation><!-- MSAT Science --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maximize Renewables</masterLabel>
+            <translation><!-- Maximize Renewables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Methane</masterLabel>
+            <translation><!-- Methane --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Methane - Gas to Clean</masterLabel>
+            <translation><!-- Methane - Gas to Clean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Methane - Global</masterLabel>
+            <translation><!-- Methane - Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Methane - Regulation &amp; Advocacy</masterLabel>
+            <translation><!-- Methane - Regulation &amp; Advocacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Methane - Regulation and Advocacy</masterLabel>
+            <translation><!-- Methane - Regulation and Advocacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Methane - Science</masterLabel>
+            <translation><!-- Methane - Science --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Methane Science - Satellite</masterLabel>
+            <translation><!-- Methane Science - Satellite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Methane Science - end use</masterLabel>
+            <translation><!-- Methane Science - end use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Methane Science and Analytics</masterLabel>
+            <translation><!-- Methane Science and Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microgrids</masterLabel>
+            <translation><!-- Microgrids --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mississippi River Delta</masterLabel>
+            <translation><!-- Mississippi River Delta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Natural Gas</masterLabel>
+            <translation><!-- Natural Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Donor Fundraising</masterLabel>
+            <translation><!-- New Donor Fundraising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Name Activism</masterLabel>
+            <translation><!-- New Name Activism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One Breathe Partnership</masterLabel>
+            <translation><!-- One Breathe Partnership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open ET Project</masterLabel>
+            <translation><!-- Open ET Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perry Study</masterLabel>
+            <translation><!-- Perry Study --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Political Activities</masterLabel>
+            <translation><!-- Political Activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Power Sector Analysis</masterLabel>
+            <translation><!-- Power Sector Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Private Angler</masterLabel>
+            <translation><!-- Private Angler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reducing Deforestation - General</masterLabel>
+            <translation><!-- Reducing Deforestation - General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reducing Deforestation - Global Consensus</masterLabel>
+            <translation><!-- Reducing Deforestation - Global Consensus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reducing Deforestation - Indigenous People</masterLabel>
+            <translation><!-- Reducing Deforestation - Indigenous People --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reducing Deforestation - REDD Finance</masterLabel>
+            <translation><!-- Reducing Deforestation - REDD Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reducing Deforestation - Supply Chain</masterLabel>
+            <translation><!-- Reducing Deforestation - Supply Chain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory Defense</masterLabel>
+            <translation><!-- Regulatory Defense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regulatory Reform</masterLabel>
+            <translation><!-- Regulatory Reform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sensors (Health, OCS, EDF+Bus)</masterLabel>
+            <translation><!-- Sensors (Health, OCS, EDF+Bus) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sensors - Air Quality</masterLabel>
+            <translation><!-- Sensors - Air Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sensors - Methane</masterLabel>
+            <translation><!-- Sensors - Methane --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smart Boat</masterLabel>
+            <translation><!-- Smart Boat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South East Regional Work</masterLabel>
+            <translation><!-- South East Regional Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subsurface Operations</masterLabel>
+            <translation><!-- Subsurface Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Chain</masterLabel>
+            <translation><!-- Supply Chain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Chain - Climate</masterLabel>
+            <translation><!-- Supply Chain - Climate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Chain - Health</masterLabel>
+            <translation><!-- Supply Chain - Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Chain - O,E,C&amp;E, Heal, EDF</masterLabel>
+            <translation><!-- Supply Chain - O,E,C&amp;E, Heal, EDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Chain - Sustainable Agriculture</masterLabel>
+            <translation><!-- Supply Chain - Sustainable Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustainable Finance</masterLabel>
+            <translation><!-- Sustainable Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustainable Finance -O,EDF+bus,CE,Ec</masterLabel>
+            <translation><!-- Sustainable Finance -O,EDF+bus,CE,Ec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toxics</masterLabel>
+            <translation><!-- Toxics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation><!-- Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University Partnerships</masterLabel>
+            <translation><!-- University Partnerships --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upside Model</masterLabel>
+            <translation><!-- Upside Model --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utility Business Model</masterLabel>
+            <translation><!-- Utility Business Model --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Water</masterLabel>
+            <translation><!-- Western Water --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

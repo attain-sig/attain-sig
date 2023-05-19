@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Jos valitaan, tämä Ledger Entry -merkintä luotiin ensimmäisen Payment-maksun luonnin jälkeen tapahtuneen muutoksen seurauksena.</help>
+        <label><!-- Adjustment? --></label>
+        <name>abacus__Adjustment__c</name>
+    </CustomFieldTranslation>

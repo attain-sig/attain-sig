@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- During the time of Send, if the message spam score is above this set threshold an error message will display requesting verification to continue. --></help>
+        <label><!-- Spam Check Error Message Threshold --></label>
+        <name>iContactforSF__Spam_Check_Error_Message_Threshold__c</name>
+    </CustomFieldTranslation>

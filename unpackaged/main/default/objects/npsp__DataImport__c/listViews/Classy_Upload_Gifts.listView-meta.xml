@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Classy_Upload_Gifts</fullName>
+    <columns>NAME</columns>
+    <columns>npsp__Status__c</columns>
+    <columns>npsp__Donation_Donor__c</columns>
+    <columns>npsp__Account1Imported__c</columns>
+    <columns>npsp__Contact1Imported__c</columns>
+    <columns>npsp__Donation_Description__c</columns>
+    <columns>npsp__FailureInformation__c</columns>
+    <columns>npsp__NPSP_Data_Import_Batch__c</columns>
+    <columns>npsp__Donation_Record_Type_Name__c</columns>
+    <columns>Constituency__c</columns>
+    <columns>Sub_Constituency__c</columns>
+    <columns>Transaction_Type__c</columns>
+    <columns>Payment_Method_custom__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>npsp__NPSP_Data_Import_Batch__c</field>
+        <operation>contains</operation>
+        <value>Classy</value>
+    </filters>
+    <label>Classy Upload Gifts</label>
+</ListView>

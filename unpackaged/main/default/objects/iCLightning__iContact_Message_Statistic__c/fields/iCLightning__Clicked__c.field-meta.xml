@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iCLightning__Clicked__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If this recipient clicked on the email, this field contains the date/time of the latest click.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this recipient clicked on the email, this field contains the date/time of the latest click.</inlineHelpText>
+    <label>Last Clicked</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>O número de registros a serem processados simultaneamente na migração dos registros de doação recorrente existentes para o modelo de dados Doações recorrentes aprimoradas.</help>
+        <label><!-- Enhanced RD Data Migration Batch Size --></label>
+        <name>npsp__DataMigrationBatchSize__c</name>
+    </CustomFieldTranslation>

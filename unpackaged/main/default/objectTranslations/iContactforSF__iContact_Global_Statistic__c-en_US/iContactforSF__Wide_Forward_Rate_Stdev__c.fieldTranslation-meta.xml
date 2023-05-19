@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Standard deviation for average forward rate. --></help>
+        <label><!-- Forward Rate Stdev --></label>
+        <name>iContactforSF__Wide_Forward_Rate_Stdev__c</name>
+    </CustomFieldTranslation>

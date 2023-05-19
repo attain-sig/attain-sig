@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enables the Accounting Scheduled Job to run at the assigned time. If unchecked, the scheduled job will not run. --></help>
+        <label><!-- Run Accounting Job on a Schedule --></label>
+        <name>abacus__Run_Accounting_Job_on_a_Schedule__c</name>
+    </CustomFieldTranslation>

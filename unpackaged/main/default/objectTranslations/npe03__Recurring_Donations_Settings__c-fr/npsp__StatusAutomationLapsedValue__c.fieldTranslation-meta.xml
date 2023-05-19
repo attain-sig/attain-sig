@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Statut de don récurrent défini lorsque l’automatisation du statut met à jour l’enregistrement de don récurrent vers Écoulé.</help>
+        <label><!-- Status Automation Lapsed Value --></label>
+        <name>npsp__StatusAutomationLapsedValue__c</name>
+    </CustomFieldTranslation>

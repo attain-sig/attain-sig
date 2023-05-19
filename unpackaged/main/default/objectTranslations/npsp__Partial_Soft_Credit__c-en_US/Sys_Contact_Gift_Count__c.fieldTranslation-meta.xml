@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sys-Contact Gift Count --></label>
+        <name>Sys_Contact_Gift_Count__c</name>
+    </CustomFieldTranslation>

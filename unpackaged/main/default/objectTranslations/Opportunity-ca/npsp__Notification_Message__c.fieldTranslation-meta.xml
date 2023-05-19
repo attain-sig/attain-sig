@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Long Text Field for Message to the Notification Recipient if different from Honor Memorial Message. --></help>
+        <label><!-- Notification Message --></label>
+        <name>npsp__Notification_Message__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Der autom. Status eines Kamp.mitglieds für Opportunities mit dem Status "Offen" oder "Geschlossen/Verloren" sowie einem Hauptansprechpartner und einer Primärkampagnenquelle. Erfolgt kein Eintrag, verwendet Salesforce den ersten Status "Nicht geantwortet".</help>
+        <label><!-- Campaign Member Non Responded Status --></label>
+        <name>npsp__Campaign_Member_Non_Responded_Status__c</name>
+    </CustomFieldTranslation>

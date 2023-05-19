@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Las oportunidades solo generan datos de contabilidad si su tipo de registro se enumera aquí. Si no se definen tipos de registros, todas las oportunidades generan datos de contabilidad.</help>
+        <label><!-- Accounting Data Record Type Filter --></label>
+        <name>abacus__Accounting_Data_Record_Type_Filter__c</name>
+    </CustomFieldTranslation>

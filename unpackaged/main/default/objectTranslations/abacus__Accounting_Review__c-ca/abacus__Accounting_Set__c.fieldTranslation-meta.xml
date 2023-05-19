@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Els conjunts de comptabilitat són les vostres pròpies combinacions de camps o objectes que generen entrades de llibre major i defineixen les vostres dades financeres.</help>
+        <label><!-- Accounting Set --></label>
+        <name>abacus__Accounting_Set__c</name>
+    </CustomFieldTranslation>

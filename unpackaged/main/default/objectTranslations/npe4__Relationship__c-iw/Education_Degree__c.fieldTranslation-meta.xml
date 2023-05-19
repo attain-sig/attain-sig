@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Education Degree --></label>
+        <name>Education_Degree__c</name>
+        <picklistValues>
+            <masterLabel>BA - Bachelor of Arts</masterLabel>
+            <translation><!-- BA - Bachelor of Arts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BFA - Bachelor in Fine Arts</masterLabel>
+            <translation><!-- BFA - Bachelor in Fine Arts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BS - Bachelor of Science</masterLabel>
+            <translation><!-- BS - Bachelor of Science --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EdD - Doctorate in Education</masterLabel>
+            <translation><!-- EdD - Doctorate in Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hon – Honorary</masterLabel>
+            <translation><!-- Hon – Honorary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JD - Juris Doctor</masterLabel>
+            <translation><!-- JD - Juris Doctor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LLB - Bachelor of Laws</masterLabel>
+            <translation><!-- LLB - Bachelor of Laws --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA - Master of Arts</masterLabel>
+            <translation><!-- MA - Master of Arts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MBA - Master of Business Administration</masterLabel>
+            <translation><!-- MBA - Master of Business Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD - Doctor of Medicine</masterLabel>
+            <translation><!-- MD - Doctor of Medicine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDiv - Master of Divinity</masterLabel>
+            <translation><!-- MDiv - Master of Divinity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEng - Master in Engineering</masterLabel>
+            <translation><!-- MEng - Master in Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MFA - Master in Fine Arts</masterLabel>
+            <translation><!-- MFA - Master in Fine Arts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS - Master of Science</masterLabel>
+            <translation><!-- MS - Master of Science --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PhD - Doctorate</masterLabel>
+            <translation><!-- PhD - Doctorate --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

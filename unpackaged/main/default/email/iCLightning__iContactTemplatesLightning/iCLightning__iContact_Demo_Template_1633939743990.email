@@ -1,0 +1,92 @@
+<html><head>
+	<title>iContact's for Salesforce CRM</title>
+	<style type="text/css">p {font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#666666;}
+	ul {font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#666666;}
+	</style>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: rgb(102, 102, 102); height: auto; min-height: auto;">
+<table bgcolor="#226699" cellpadding="0" cellspacing="0" width="100%">
+	
+		<tr>
+			<td align="center">
+			<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" style="margin-top:30px;" width="620">
+				
+					<tr>
+						<td width="10"><img alt="" border="0" height="1" src="https://www.icontact.com/images/imm/spacer.gif" width="10" /></td>
+						<td width="580">&nbsp;
+						<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="600">
+							
+								<tr>
+									<td style="font-size:20px; color:#226699;"><img alt="iContact for Salesforce CRM" border="0" src="https://www.icontactimg.com/content/resources/stc/emails/salesforceHeader.fv0c2f908.gif" width="600" /></td>
+								</tr>
+								<tr>
+									<td align="center">
+									<table border="0" cellpadding="0" cellspacing="0" width="580">
+										
+											<tr>
+												<td align="left">&nbsp;
+												<table border="0" cellpadding="0" cellspacing="0" width="580">
+													
+														<tr>
+															<td width="580">
+															<p style="font-size:16px; color:#666; font-family:Arial, Helvetica, sans-serif; margin:0; padding-top:15px;">{{{Recipient.Name}}},</p>
+
+															<p style="font-size:20px; line-height:26px; color:#666;">Welcome to your<br />
+															<span style="font-size:30px; line-height:36px; color:#77c044;">iContact for Salesforce CRM Account!</span></p>
+
+															<p style="font-size:14px; line-height:20px; color:#666; font-family:Arial, Helvetica, sans-serif;">Thanks for signing up for iContact for Salesforce CRM. Now you can utilize powerful email marketing all from the comfort of Salesforce CRM. Here are just a few features you will find available at your fingertips:</p>
+
+															<table align="center" border="0" cellpadding="0" cellspacing="0" width="575">
+																
+																	<tr>
+																		<td align="left" style="font-size:14px; color:#666666;">
+																		<ul style="font:Arial, Helvetica, sans-serif; font-size:14px; color:#666666;">
+																			<li style="padding:0 0 5px 5px;">Allows you to reuse your own brand-compliant emails, all within Salesforce</li>
+																			<li style="padding:0 0 5px 5px;">Supports 98-99% deliverability on all your messages</li>
+																			<li style="padding:0 0 5px 5px;">Ability to segment campaign members based on email-actions such as message-opens, clicks, email-forwarding and much more</li>
+																			<li style="padding:0 0 5px 5px;">Gives you access to email marketing statistics related to your campaign, messages, and contacts</li>
+																			<li style="padding:0 0 5px 5px;">Includes pre-configured reports and gauges for your campaigns and messages</li>
+																		</ul>
+																		</td>
+																	</tr>
+																
+															</table>
+
+															<p style="font-size:14px; line-height:20px; color:#666; font-family:Arial, Helvetica, sans-serif;">Need additional help navigating iContact for Salesforce? Visit our <a href="https://kb.icontact.com/hc/en-us/sections/360001467231-iContact-for-Salesforce" style="color:#226699;" target="_blank" title="Help Guide">help guide</a> for more information or contact your Account Manager.</p>
+															&nbsp;
+
+															<p style="font-size:14px; line-height:20px; color:#666; font-family:Arial, Helvetica, sans-serif;">Sincerely,<br />
+															<span style="font-size:20px; line-height:26px; color:#77c044;">iContact for Salesforce CRM Account Managers</span></p>
+															</td>
+														</tr>
+														<tr>
+															<td colspan="3"><br />
+															<img alt="" border="0" height="1px" src="https://www.icontact.com/images/imm/spacer_ccc.png" style="height:1px !important;" width="580" /></td>
+														</tr>
+													
+												</table>
+												<br />
+												<br />
+												<br />
+												<br />
+												&nbsp;</td>
+											</tr>
+										
+									</table>
+									</td>
+								</tr>
+							
+						</table>
+						</td>
+						<td width="10"><img alt="" border="0" height="1" src="https://www.icontact.com/images/imm/spacer.gif" width="10" /></td>
+					</tr>
+				
+			</table>
+			<img alt="easily create, send, &amp; track" border="0" src="https://www.icontactimg.com/content/resources/stc/autoresponders/footerText.fv1dd4d00.gif" width="620" />
+			<p>&nbsp;</p>
+			</td>
+		</tr>
+	
+</table>
+
+</body></html>

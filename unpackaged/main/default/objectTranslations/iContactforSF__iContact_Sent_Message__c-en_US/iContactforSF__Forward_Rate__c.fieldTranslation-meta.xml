@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The forward rate is the ratio of forwards per number of recipients. --></help>
+        <label><!-- Forward Rate --></label>
+        <name>iContactforSF__Forward_Rate__c</name>
+    </CustomFieldTranslation>

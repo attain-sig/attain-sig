@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Falls "Zeitpunkt", werden Daten im Zielfeld nur bei Anlegen des Hauptbucheintrags nach Quellfeld zugeordnet. Falls "Aktueller Wert", werden Hauptbucheinträge von Accounting Subledger zurückgebucht und ersetzt, sobald das Quellfeld aktualisiert wird.</help>
+        <label><!-- Mapping Behavior --></label>
+        <name>abacus__Mapping_Behavior__c</name>
+        <picklistValues>
+            <masterLabel>Current Value</masterLabel>
+            <translation>Aktueller Wert</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Point-in-Time</masterLabel>
+            <translation>Zeitpunkt</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

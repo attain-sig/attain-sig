@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Constraint Type --></label>
+        <name>metazoa3__constraint_type__c</name>
+        <picklistValues>
+            <masterLabel>Fixed Finish Date</masterLabel>
+            <translation><!-- Fixed Finish Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Start Date</masterLabel>
+            <translation><!-- Fixed Start Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Must Finish After</masterLabel>
+            <translation><!-- Must Finish After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Must Start After</masterLabel>
+            <translation><!-- Must Start After --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Constraint</masterLabel>
+            <translation><!-- No Constraint --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

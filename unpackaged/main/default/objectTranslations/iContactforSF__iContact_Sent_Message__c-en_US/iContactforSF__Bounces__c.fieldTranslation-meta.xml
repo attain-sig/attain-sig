@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Bounces reports the number of times the message was not successfully delivered to an email address, which is usually due to a full email inbox, a down email server, or an invalid email address. --></help>
+        <label><!-- Bounces --></label>
+        <name>iContactforSF__Bounces__c</name>
+    </CustomFieldTranslation>

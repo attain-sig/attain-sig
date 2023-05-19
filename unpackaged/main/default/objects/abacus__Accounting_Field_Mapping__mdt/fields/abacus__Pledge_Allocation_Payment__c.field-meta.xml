@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Pledge_Allocation_Payment__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Determines if this mapping should apply to Payment Ledger Entries.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Determines if this mapping should apply to Payment Ledger Entries.</inlineHelpText>
+    <label>Payment</label>
+    <type>Checkbox</type>
+</CustomField>

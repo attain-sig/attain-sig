@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Geldige campagne types voor deze campagne lid auto-creatie. (zal leeg zijn voor Contact auto-creatie)</help>
+        <label><!-- Campaign Types --></label>
+        <name>npe4__Campaign_Types__c</name>
+    </CustomFieldTranslation>

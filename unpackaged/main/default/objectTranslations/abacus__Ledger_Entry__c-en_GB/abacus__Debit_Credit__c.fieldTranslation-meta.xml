@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Indicates whether this Ledger Entry is a Debit or Credit. This functionality is for Growth subscriptions only.</help>
+        <label><!-- Debit/Credit --></label>
+        <name>abacus__Debit_Credit__c</name>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>Credit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit</masterLabel>
+            <translation>Debit</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

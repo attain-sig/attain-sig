@@ -1,33 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <layouts>
         <layout>EDF Campaign Master Layout</layout>
         <sections>
@@ -173,4 +145,152 @@
         <label><!-- ViewCampaignInfluenceReport --></label>
         <name>ViewCampaignInfluenceReport</name>
     </webLinks>
+    <webLinks>
+        <label><!-- Bounce_Rate_All_Messages --></label>
+        <name>iCLightning__Bounce_Rate_All_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Click_Rate_for_All_Messages --></label>
+        <name>iCLightning__Click_Rate_for_All_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Complaint_Rate_for_All_Messages --></label>
+        <name>iCLightning__Complaint_Rate_for_All_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_Rate_for_All_Messages --></label>
+        <name>iCLightning__Open_Rate_for_All_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unsubscribe_Rate_for_All_Messages --></label>
+        <name>iCLightning__Unsubscribe_Rate_for_All_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- iContact_Help --></label>
+        <name>iCLightning__iContact_Help</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Bounce_Rate_All_Messages --></label>
+        <name>iContactforSF__Bounce_Rate_All_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Click_Rate_for_All_Messages --></label>
+        <name>iContactforSF__Click_Rate_for_All_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Complaint_Rate_for_All_Messages --></label>
+        <name>iContactforSF__Complaint_Rate_for_All_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_Rate_for_All_Messages --></label>
+        <name>iContactforSF__Open_Rate_for_All_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_iContact_Message --></label>
+        <name>iContactforSF__Send_iContact_Message</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Targeted_Send --></label>
+        <name>iContactforSF__Targeted_Send</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Unsubscribe_Rate_for_All_Messages --></label>
+        <name>iContactforSF__Unsubscribe_Rate_for_All_Messages</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Update_Statistics --></label>
+        <name>iContactforSF__Update_Statistics</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>iContactforSF__ViewCampaignInfluenceReport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- iContact_Help --></label>
+        <name>iContactforSF__iContact_Help</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Household_Mailing_List --></label>
+        <name>npo02__Household_Mailing_List</name>
+    </webLinks>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <quickActions>
+        <label><!-- Refresh Statistics --></label>
+        <name>iCLightning__Refresh_Statistics</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Targeted Send - Lightning --></label>
+        <name>iCLightning__Targeted_Send_L</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- iContact Send - Lightning --></label>
+        <name>iCLightning__iContact_Send_Lightning</name>
+    </quickActions>
 </CustomObjectTranslation>

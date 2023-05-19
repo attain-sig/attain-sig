@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Receipted Status --></label>
+        <name>Receipted_Status__c</name>
+        <picklistValues>
+            <masterLabel>Do not receipt</masterLabel>
+            <translation><!-- Do not receipt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Receipted</masterLabel>
+            <translation><!-- Not Receipted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receipted</masterLabel>
+            <translation><!-- Receipted --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

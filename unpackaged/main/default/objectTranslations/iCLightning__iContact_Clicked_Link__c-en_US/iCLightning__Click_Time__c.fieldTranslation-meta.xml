@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The date/time of the message click. --></help>
+        <label><!-- Last Click Time --></label>
+        <name>iCLightning__Click_Time__c</name>
+    </CustomFieldTranslation>

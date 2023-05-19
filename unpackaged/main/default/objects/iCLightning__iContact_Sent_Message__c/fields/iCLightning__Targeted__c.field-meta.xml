@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iCLightning__Targeted__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, this message was sent using the "Targeted Send" feature.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, this message was sent using the "Targeted Send" feature.</inlineHelpText>
+    <label>Targeted</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iContactforSF__Average_Forward_Rate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Average forward rate.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Average forward rate.</inlineHelpText>
+    <label>Average Forward Rate</label>
+    <precision>7</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

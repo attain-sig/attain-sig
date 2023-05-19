@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Falls aktiviert, wird dieser Hauptbucheintrag von neuen Berechnungen ausgeschlossen, da er durch einen oder mehrere spätere Hauptbucheinträge ersetzt wurde.</help>
+        <label><!-- Historical Ledger Entry --></label>
+        <name>abacus__Historical_Ledger_Entry__c</name>
+    </CustomFieldTranslation>

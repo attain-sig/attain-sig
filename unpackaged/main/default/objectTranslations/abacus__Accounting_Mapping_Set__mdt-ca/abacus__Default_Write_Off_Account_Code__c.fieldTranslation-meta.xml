@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>El nom del codi del vostre sistema de comptabilitat per als pagaments anul·lats. Hauria de coincidir amb el nom utilitzat al vostre programari de comptabilitat.</help>
+        <label><!-- Default Write-Off Account Code --></label>
+        <name>abacus__Default_Write_Off_Account_Code__c</name>
+    </CustomFieldTranslation>

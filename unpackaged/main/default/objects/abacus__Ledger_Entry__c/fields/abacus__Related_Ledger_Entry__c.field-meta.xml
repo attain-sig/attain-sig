@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Related_Ledger_Entry__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Payment Ledger Entries always relate to their corresponding Allocation Ledger Entries. Ledger Entry corrections always relate to the corresponding record of the same type. For example, Transaction Correction Ledger Entries always relate to the corresponding Transaction that's being corrected.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Standard Payment Ledger Entries relate to their corresponding Transaction Ledger Entries. In contrast, Ledger Entries that are corrections instead relate to the corrected record.</inlineHelpText>
+    <label>Related Ledger Entry</label>
+    <referenceTo>abacus__Ledger_Entry__c</referenceTo>
+    <relationshipLabel>Ledger Entries</relationshipLabel>
+    <relationshipName>Ledger_Entries</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

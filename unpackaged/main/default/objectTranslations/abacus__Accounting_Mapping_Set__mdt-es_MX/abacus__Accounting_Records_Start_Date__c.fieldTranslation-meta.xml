@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Los registros creados con una Fecha de creación anterior a esta fecha no generan datos de contabilidad y no son procesados por el trabajo de contabilidad programado.</help>
+        <label><!-- Accounting Records Start Date --></label>
+        <name>abacus__Accounting_Records_Start_Date__c</name>
+    </CustomFieldTranslation>

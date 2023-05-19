@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si cette option est sélectionnée, cette écriture comptable a été créée suite à une modification effectuée pendant la création du paiement.</help>
+        <label><!-- Adjustment? --></label>
+        <name>abacus__Adjustment__c</name>
+    </CustomFieldTranslation>

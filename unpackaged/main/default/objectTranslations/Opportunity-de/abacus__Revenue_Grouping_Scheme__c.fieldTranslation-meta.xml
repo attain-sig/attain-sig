@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Falls auf 1 festgelegt, wird für jede Verwendungszweckzuordnung ein Hauptbucheintrag erstellt. Falls auf 2 festgelegt, wird ein für jede Zahlungszuordnung Hauptbucheintrag für Zuordnungen erstellt. Nicht bearbeiten.</help>
+        <label><!-- DEPRECATED - Revenue Grouping Scheme --></label>
+        <name>abacus__Revenue_Grouping_Scheme__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The maximum number of records processed in a single batch by the Accounting Scheduled Job. If not specified, the default is 200. --></help>
+        <label><!-- Accounting Job Batch Size --></label>
+        <name>abacus__Accounting_Job_Batch_Size__c</name>
+    </CustomFieldTranslation>

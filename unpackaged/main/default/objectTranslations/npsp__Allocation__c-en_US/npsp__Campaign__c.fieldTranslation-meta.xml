@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Optionally attributes allocations to a campaign. All new opportunities created with this campaign as primary campaign source will automatically be allocated in the same way. --></help>
+        <label><!-- Campaign --></label>
+        <name>npsp__Campaign__c</name>
+        <relationshipLabel><!-- GAU Allocations --></relationshipLabel>
+    </CustomFieldTranslation>

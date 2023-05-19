@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>El motivo de que este registro se haya marcado para su revisión y procesamiento por el Libro mayor de contabilidad auxiliar.</help>
+        <label><!-- Reason --></label>
+        <name>abacus__Reason__c</name>
+    </CustomFieldTranslation>

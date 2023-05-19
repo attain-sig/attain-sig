@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Activa el objeto Periodo de contabilidad y todas las funciones relacionadas. Requiere una licencia de Accounting Subledger Growth Edition.</help>
+        <label><!-- Enable Accounting Periods --></label>
+        <name>abacus__Enable_Accounting_Periods__c</name>
+    </CustomFieldTranslation>

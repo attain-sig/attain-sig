@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total bounce rate for messages in &quot;Released&quot; status for this campaign (used to calculate average bounce rate). --></help>
+        <label><!-- Total Bounce Rate --></label>
+        <name>iContactforSF__Total_Bounce_Rate__c</name>
+    </CustomFieldTranslation>

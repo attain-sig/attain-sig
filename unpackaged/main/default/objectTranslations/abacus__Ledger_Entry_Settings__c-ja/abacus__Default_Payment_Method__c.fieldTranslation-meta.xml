@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>支払に支払済みのマークがついており、支払方法が選択されていない場合、支払方法は自動的にこの値に設定されます。この設定が空白の場合、支払方法は空白のままになります。この設定は、NPSP の支払オブジェクトにのみ適用されます。</help>
+        <label><!-- Default Payment Method (NPSP Payment) --></label>
+        <name>abacus__Default_Payment_Method__c</name>
+    </CustomFieldTranslation>

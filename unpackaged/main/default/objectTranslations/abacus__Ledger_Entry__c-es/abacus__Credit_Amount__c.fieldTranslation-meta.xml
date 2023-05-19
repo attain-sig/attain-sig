@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>El importe de la transacción, solo para Asientos de libro mayor de crédito. Esta función es solo para suscripciones de Growth.</help>
+        <label><!-- Credit Amount --></label>
+        <name>abacus__Credit_Amount__c</name>
+    </CustomFieldTranslation>

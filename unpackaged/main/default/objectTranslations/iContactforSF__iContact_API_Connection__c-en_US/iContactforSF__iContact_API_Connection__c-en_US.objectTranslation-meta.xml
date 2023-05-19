@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>iContact API Connection Layout</layout>
+        <sections>
+            <label><!-- Configure --></label>
+            <section>Configure</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Salesforce API Connection --></label>
+            <section>Salesforce API Connection</section>
+        </sections>
+        <sections>
+            <label><!-- iContact API Connection --></label>
+            <section>iContact API Connection</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- iContact_Help --></label>
+        <name>iContactforSF__iContact_Help</name>
+    </webLinks>
+</CustomObjectTranslation>

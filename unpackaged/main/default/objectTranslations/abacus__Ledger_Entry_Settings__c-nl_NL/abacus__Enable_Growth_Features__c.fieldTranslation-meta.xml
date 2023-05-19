@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Schakelt Accounting Subledger Growth-functies in voor niet-productieorganisaties. In productieorganisaties heeft deze instelling geen effect.</help>
+        <label><!-- Enable Subledger Growth for Testing --></label>
+        <name>abacus__Enable_Growth_Features__c</name>
+    </CustomFieldTranslation>

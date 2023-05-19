@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Los asientos de libro mayor de pagos estándar se relacionan con sus asientos de libro mayor de transacciones correspondientes. En cambio, los asientos de libro mayor que son correcciones se relacionan con el registro corregido en su lugar.</help>
+        <label><!-- Related Ledger Entry --></label>
+        <name>abacus__Related_Ledger_Entry__c</name>
+        <relationshipLabel><!-- Ledger Entries --></relationshipLabel>
+    </CustomFieldTranslation>

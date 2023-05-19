@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Gibt an, ob es sich bei diesem Hauptbucheintrag um eine Soll- oder Habenbuchung handelt. Diese Funktionalität bieten nur Growth-Abonnements.</help>
+        <label><!-- Debit/Credit --></label>
+        <name>abacus__Debit_Credit__c</name>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>Haben</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit</masterLabel>
+            <translation>Soll</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

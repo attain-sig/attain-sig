@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>El Libro mayor de contabilidad auxiliar utilizará registros de Revisión de contabilidad si hay cambios en vez de consultar los registros. Se generarán revisiones de contabilidad cuando cambien sus datos y se eliminarán cuando se procesen correctamente.</help>
+        <label><!-- Enable Accounting Review Mode --></label>
+        <name>abacus__Enable_Batch_Incremental_Mode__c</name>
+    </CustomFieldTranslation>

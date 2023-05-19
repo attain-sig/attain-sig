@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>スケジュール済み会計ジョブで処理されるレコードを定義します。 SOQL クエリの WHERE 句の形式で書く必要があります。</help>
+        <label><!-- Accounting Job Filter Criteria --></label>
+        <name>abacus__Accounting_Job_Filter_Criteria__c</name>
+    </CustomFieldTranslation>

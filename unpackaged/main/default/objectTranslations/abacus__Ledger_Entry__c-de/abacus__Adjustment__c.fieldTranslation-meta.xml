@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Falls aktiviert, wurde dieser Hauptbucheintrag aufgrund einer Änderung erstellt, die nach der ursprünglichen Zahlungserstellung erfolgte.</help>
+        <label><!-- Adjustment? --></label>
+        <name>abacus__Adjustment__c</name>
+    </CustomFieldTranslation>

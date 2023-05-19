@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Erstellen oder aktualisieren Sie Zugehörigkeiten für Kontakte, die mit den Organisation-Accounts verbunden sind, wenn in deren Feldern "Organisation" oder "Primäre Zugehörigkeit" Änderungen vorgenommen werden.</help>
+        <label><!-- Automatic Affiliation Management --></label>
+        <name>npe5__Automatic_Affiliation_Creation_Turned_On__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Geben Sie die maximale Anzahl von Fehlern ein, die ein Batch generieren kann, ehe er automatisch abgebrochen wird. Normalerweise wird ein Fehler pro Zahlungsdatensatz generiert, wenn ein Batchprozess fehlschlägt.</help>
+        <label><!-- Number of Errors Allowed For Batch --></label>
+        <name>abacus__Number_of_Errors_Allowed_For_Batch__c</name>
+    </CustomFieldTranslation>

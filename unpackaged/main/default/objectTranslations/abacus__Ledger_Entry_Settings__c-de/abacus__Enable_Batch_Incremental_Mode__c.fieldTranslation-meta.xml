@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Wenn aktiviert, verwendet Accounting Subledger Buchungsübersichts-Datensätze, um Änderungen zu bestimmen, statt alle Datensätze abzufragen. Buchungsübersichten werden für geänderte Daten automatisch erstellt und nach erfolgreicher Verarbeitung gelöscht.</help>
+        <label><!-- Enable Accounting Review Mode --></label>
+        <name>abacus__Enable_Batch_Incremental_Mode__c</name>
+    </CustomFieldTranslation>

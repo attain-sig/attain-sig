@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Transaction_Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>For Transaction and Payment Ledger Entries, the date that the payment is made or reversed. For Allocation Ledger Entries, the date that the gift was pledged.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>For Transaction and Payment Ledger Entries, the date that the payment is made or reversed. For Allocation Ledger Entries, the date that the gift was pledged.</inlineHelpText>
+    <label>Transaction Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

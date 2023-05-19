@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DLRS_Objects_and_Fields</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>dlrs__ParentObject__c</columns>
+    <columns>dlrs__AggregateResultField__c</columns>
+    <columns>dlrs__ChildObject__c</columns>
+    <columns>dlrs__FieldToAggregate__c</columns>
+    <columns>dlrs__Active__c</columns>
+    <columns>dlrs__AggregateOperation__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>DLRS Objects and Fields</label>
+    <language>en_US</language>
+</ListView>

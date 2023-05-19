@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If checked, this Ledger Entry&apos;s related Payment was pledged before it was paid (it wasn&apos;t set as Paid when created). --></help>
+        <label><!-- Fulfills an Accrual --></label>
+        <name>abacus__Fulfills_A_Pledge__c</name>
+    </CustomFieldTranslation>

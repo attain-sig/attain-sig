@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iContactforSF__Version__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Choosing "Lite" will prevent iContact from storing contact and lead email statistics to conserve Salesforce storage space.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choosing "Lite" will prevent iContact from storing contact and lead email statistics to conserve Salesforce storage space.</inlineHelpText>
+    <label>Version</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Normal</fullName>
+                <default>true</default>
+                <label>Normal</label>
+            </value>
+            <value>
+                <fullName>Lite</fullName>
+                <default>false</default>
+                <label>Lite</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

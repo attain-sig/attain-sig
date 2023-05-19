@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Indique qu'un montant promis n’a pas été payé. Ce champ est sélectionné lorsque le paiement est annulé, ainsi que les écritures comptables associées Transaction et Paiement.</help>
+        <label><!-- Written Off --></label>
+        <name>abacus__Written_Off__c</name>
+    </CustomFieldTranslation>

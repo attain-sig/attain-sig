@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Valitse tai vaihda tämän kentän avulla tilikirjamerkinnän hyväksymistila.</help>
+        <label><!-- Posting Status --></label>
+        <name>abacus__Posting_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation>Hyväksytty</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation>Hylätty</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entered</masterLabel>
+            <translation>Syötetty</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posted</masterLabel>
+            <translation>Julkaistu</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed</masterLabel>
+            <translation>Tarkasteltu</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

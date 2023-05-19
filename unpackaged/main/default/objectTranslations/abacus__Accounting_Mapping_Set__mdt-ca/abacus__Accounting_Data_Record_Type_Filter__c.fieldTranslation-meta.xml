@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Els objectes només generen dades comptables si aquí es mostra el seu tipus de registre. Si no es defineix cap tipus de registre, tots els objectes generen dades comptables. Aquest camp distingeix entre majúscules i minúscules.</help>
+        <label><!-- Accounting Data Record Type Filter --></label>
+        <name>abacus__Accounting_Data_Record_Type_Filter__c</name>
+    </CustomFieldTranslation>

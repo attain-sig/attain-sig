@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>As oportunidades com os tipos de registros selecionados não serão incluídas nas totalizações para o Contato. Pressione Control ou Command+clique para selecionar mais de um tipo de registro.</help>
+        <label><!-- Opp RecTypes Excluded for Contact Rollup --></label>
+        <name>npo02__Excluded_Contact_Opp_Rectypes__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is the number of times the &quot;Forward to a friend&quot; link was clicked in the iContact message you sent. --></help>
+        <label><!-- Forwards --></label>
+        <name>iContactforSF__Forwards__c</name>
+    </CustomFieldTranslation>

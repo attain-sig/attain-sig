@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Las oportunidades con una fecha de creación anterior a esta no generan datos de contabilidad y no son procesadas por el el trabajo programado. Si se deja en blanco, se utiliza la fecha en la que se instaló el Libro mayor de contabilidad auxiliar.</help>
+        <label><!-- Accounting Records Start Date --></label>
+        <name>abacus__Accounting_Records_Start_Date__c</name>
+    </CustomFieldTranslation>

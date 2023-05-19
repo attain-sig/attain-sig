@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Gibt an, dass ein zugesagter Betrag nicht erfüllt wird. Dieses Feld wird ausgewählt, wenn die Zahlung gemeinsam mit den mit ihr verbundenen Hauptbucheinträgen zu Transaktionen und Zahlungen abgeschrieben wird.</help>
+        <label><!-- Written Off --></label>
+        <name>abacus__Written_Off__c</name>
+    </CustomFieldTranslation>

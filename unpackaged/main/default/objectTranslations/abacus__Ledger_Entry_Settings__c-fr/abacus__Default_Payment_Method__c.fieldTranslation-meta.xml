@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Quand un paiement est marqué Payé et qu’aucun mode de paiement n’a été choisi, le mode est automatiquement défini sur cette valeur. Si ce paramètre est vide, le mode de paiement est vide. Ce paramètre s’applique uniquement à l’objet de paiement de NPSP.</help>
+        <label><!-- Default Payment Method (NPSP Payment) --></label>
+        <name>abacus__Default_Payment_Method__c</name>
+    </CustomFieldTranslation>

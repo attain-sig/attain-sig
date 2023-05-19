@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Displays whether this message was sent to all campaign members, or was targeted using the &quot;Targeted Send&quot; option. --></help>
+        <label><!-- Sent to --></label>
+        <name>iCLightning__Sent_to__c</name>
+    </CustomFieldTranslation>

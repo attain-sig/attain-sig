@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Als dit is geselecteerd, worden toekenningen niet gegenereerd tenzij de actief-indicator van Ledger Entry's maken bij de opportunity handmatig is geselecteerd.</help>
+        <label><!-- Disable NPSP Stage To State Mapping --></label>
+        <name>abacus__Disable_NPSP_Stage_To_State_Mapping__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Affectation UCG</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Affectations UCG</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- Manage Allocations Additional Fields --></label>
+        <name>npsp__ManageAllocationsAdditionalFields</name>
+    </fieldSets>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>EDF Master Allocation Layout</layout>
+        <sections>
+            <label><!-- Legacy Fields --></label>
+            <section>Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Posting Details --></label>
+            <section>Posting Details</section>
+        </sections>
+        <sections>
+            <label><!-- Reversal Details --></label>
+            <section>Reversal Details</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom des Affectations UCG</nameFieldLabel>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Your profile is not authorized to make changes to this record. Please contact an admin for assistance. --></errorMessage>
+        <name>Prevent_Edits_To_Allocation</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Manage_Allocations --></label>
+        <name>npsp__Manage_Allocations</name>
+    </webLinks>
+</CustomObjectTranslation>

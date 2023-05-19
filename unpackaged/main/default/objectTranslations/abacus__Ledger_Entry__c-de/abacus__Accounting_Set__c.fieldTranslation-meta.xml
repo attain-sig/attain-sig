@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Buchhaltungssätze sind Ihre eigenen, angepassten Kombinationen aus Feldern oder Objekten, die Hauptbucheinträge erstellen und Ihre Finanzdaten definieren.</help>
+        <label><!-- Accounting Set --></label>
+        <name>abacus__Accounting_Set__c</name>
+    </CustomFieldTranslation>

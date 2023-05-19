@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The iContact AppID for the given username. iContact will supply you with this value. --></help>
+        <label><!-- API AppID --></label>
+        <name>iContactforSF__API_AppID__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,31 @@
+<apex:page controller="iContactforSF.ConfigurationController" tabStyle="iContact_Configuration__tab">
+	<apex:sectionHeader title="iContact for Salesforce Setup" />
+	
+    <apex:form id="wholeForm">
+        <apex:pageBlock title="iContact for Salesforce Setup Edit" id="configBlock">
+            <apex:messages style="color:red;font-weight:bold;"/>
+            
+            <apex:pageBlockButtons id="configButtons" >
+                 <apex:commandButton action="{!save}" value="Save" />
+                 <apex:commandButton action="{!cancel}" value="Cancel" />
+            </apex:pageBlockButtons>
+            
+            <apex:pageBlockSection columns="1" title="Configure" id="configure">
+            	<apex:inputField value="{!i.iContactforSF__Enable_Lite_Version__c}" id="enableLiteVersion" />
+            	<apex:inputField value="{!i.iContactforSF__View_Spam_Score__c}" id="viewSpamScore" />
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection columns="1" title="Leagacy Features" id="legacy" rendered="{!i.iContactforSF__Disable_Sharing_Rules__c}">
+            	<apex:outputText >
+            		<br/>
+            		’Disable Sharing’ is no longer supported by Salesforce for security reasons and has been removed. Please disable the feature below by unchecking the box next to ‘Disable Sharing Rules’ in order to continue using iContact for Salesforce.
+					<br/><br/>
+				 	Please contact our support team at our domestic line 1 (866) 331-3208 or our international line +19199576070 for more information.
+				 	<br/><br/>
+            	</apex:outputText>
+            	<apex:inputField value="{!i.iContactforSF__Disable_Sharing_Rules__c}" id="disableSharingRules" />
+            </apex:pageBlockSection>
+            
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

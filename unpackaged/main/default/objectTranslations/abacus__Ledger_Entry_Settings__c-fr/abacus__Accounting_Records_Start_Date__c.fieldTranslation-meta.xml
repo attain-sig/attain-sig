@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Les opportunités dont la date de création est antérieure à cette date ne génèrent pas de données comptables et ne sont pas traitées par la tâche planifiée. Si cette case est vide, le système utilise la date d'installation de Accounting Subledger.</help>
+        <label><!-- Accounting Records Start Date --></label>
+        <name>abacus__Accounting_Records_Start_Date__c</name>
+    </CustomFieldTranslation>

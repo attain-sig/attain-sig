@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>DESUSADO. Se instalarán automáticamente nuevas versiones del Nonprofit Success Pack.</help>
+        <label><!-- DEPRECATED-Enable Update Check --></label>
+        <name>npe01__Enable_Update_Check__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si vous avez plusieurs ensembles de comptabilité, votre ordre de chargement détermine l’ordre dans lequel ils sont exécutés. Le numéro le plus faible est exécuté en premier. Par exemple, l’ordre de chargement 1 est exécuté avant l’ordre de chargement 2.</help>
+        <label><!-- Load Order --></label>
+        <name>abacus__Load_Order__c</name>
+    </CustomFieldTranslation>

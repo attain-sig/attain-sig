@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>La personne ou le compte lié à cette écriture comptable</help>
+        <label><!-- Who Id --></label>
+        <name>abacus__Who_Id__c</name>
+    </CustomFieldTranslation>

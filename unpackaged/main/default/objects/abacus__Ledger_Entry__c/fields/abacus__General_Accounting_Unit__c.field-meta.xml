@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__General_Accounting_Unit__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The general accounting unit to which this revenue is applied. Only set on Allocation and Payment Ledger Entries.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The general accounting unit to which this revenue is applied.</inlineHelpText>
+    <label>General Accounting Unit</label>
+    <referenceTo>npsp__General_Accounting_Unit__c</referenceTo>
+    <relationshipLabel>Ledger Entries</relationshipLabel>
+    <relationshipName>Ledger_Entries</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

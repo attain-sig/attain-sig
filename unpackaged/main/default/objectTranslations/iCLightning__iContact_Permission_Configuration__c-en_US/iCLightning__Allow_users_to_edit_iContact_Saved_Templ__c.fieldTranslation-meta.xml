@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Allows users to edit iContact Saved Template messages in Salesforce Campaigns. This setting does not effect Saved Templates within iContact. --></help>
+        <label><!-- Allow iContact Saved Template editing --></label>
+        <name>iCLightning__Allow_users_to_edit_iContact_Saved_Templ__c</name>
+    </CustomFieldTranslation>

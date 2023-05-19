@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>担保に入れられた金額が履行済みに満たないことを示します。 関連するトランザクションおよび支払の台帳エントリとともに、支払が取り消されるときに、この項目が選択されます。</help>
+        <label><!-- Written Off --></label>
+        <name>abacus__Written_Off__c</name>
+    </CustomFieldTranslation>

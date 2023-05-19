@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>指定された時刻にスケジュール済み会計ジョブを実行することを有効にします。 オフにすると、スケジュール済みジョブは実行されません。</help>
+        <label><!-- Run Accounting Job on a Schedule --></label>
+        <name>abacus__Run_Accounting_Job_on_a_Schedule__c</name>
+    </CustomFieldTranslation>

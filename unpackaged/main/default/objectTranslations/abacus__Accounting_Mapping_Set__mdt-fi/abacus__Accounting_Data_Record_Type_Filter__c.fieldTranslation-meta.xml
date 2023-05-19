@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Objektit luovat kirjanpitotietoja ainoastaan, jos niiden tietuetyyppi on tässä lueteltuna. Jos tietuetyyppiä ei ole määritetty, kaikki objektit luovat kirjanpitotietoja. Kenttä on merkkikokoriippuvainen.</help>
+        <label><!-- Accounting Data Record Type Filter --></label>
+        <name>abacus__Accounting_Data_Record_Type_Filter__c</name>
+    </CustomFieldTranslation>

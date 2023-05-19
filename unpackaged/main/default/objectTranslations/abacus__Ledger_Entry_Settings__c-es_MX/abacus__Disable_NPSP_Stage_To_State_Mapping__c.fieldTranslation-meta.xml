@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si se marca, no se generarán compromisos a no ser que el indicador de Creación de asientos libro mayor activa en la oportunidad esté marcado manualmente.</help>
+        <label><!-- Disable NPSP Stage To State Mapping --></label>
+        <name>abacus__Disable_NPSP_Stage_To_State_Mapping__c</name>
+    </CustomFieldTranslation>

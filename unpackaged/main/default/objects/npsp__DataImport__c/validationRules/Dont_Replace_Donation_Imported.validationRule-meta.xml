@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dont_Replace_Donation_Imported</fullName>
+    <active>true</active>
+    <description>Once the Donation Imported field has been populated, it can't be changed</description>
+    <errorConditionFormula>AND(
+ NOT(ISNEW()),
+ NOT( ISBLANK(PRIORVALUE(npsp__DonationImported__c )) ),
+ ISCHANGED(npsp__DonationImported__c),  
+ npsp__DonationImported__c  &lt;&gt; PRIORVALUE(npsp__DonationImported__c )
+)</errorConditionFormula>
+    <errorMessage>This action can create a duplicate Opportunity. Please navigate to the Account or Contact and confirm that a duplicate has not been created. If it has, please reach out to Gift Processing immediately.</errorMessage>
+</ValidationRule>

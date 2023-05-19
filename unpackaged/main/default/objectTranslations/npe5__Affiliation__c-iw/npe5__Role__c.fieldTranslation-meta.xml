@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What&apos;s the Contact&apos;s role at the affiliated organization? For example, for employees, it&apos;s their job title and for board members, it&apos;s their position such as chair, secretary, member, etc.
+
+If Affiliation Type = Employer/Employee and Status = Current, the Role value will populate on the Contact&apos;s Title field and the affiliated organization will populate on the Contact&apos;s Employer field. --></help>
+        <label><!-- Role --></label>
+        <name>npe5__Role__c</name>
+    </CustomFieldTranslation>

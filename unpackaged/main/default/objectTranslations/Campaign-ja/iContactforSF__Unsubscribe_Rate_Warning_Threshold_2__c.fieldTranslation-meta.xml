@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The second warning threshold for unsubscribe rate, where yellow becomes red on the dashboard gauge. --></help>
+        <label><!-- Unsubscribe Rate Warning % --></label>
+        <name>iContactforSF__Unsubscribe_Rate_Warning_Threshold_2__c</name>
+    </CustomFieldTranslation>

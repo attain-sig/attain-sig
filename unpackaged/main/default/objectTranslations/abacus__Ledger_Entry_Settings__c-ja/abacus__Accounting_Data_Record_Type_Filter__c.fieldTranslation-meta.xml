@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>レコードタイプがここに一覧されている場合は、商談で会計データのみが生成されます。 レコードタイプが定義されていない場合は、すべての商談で会計データが生成されます。</help>
+        <label><!-- Accounting Data Record Type Filter --></label>
+        <name>abacus__Accounting_Data_Record_Type_Filter__c</name>
+    </CustomFieldTranslation>

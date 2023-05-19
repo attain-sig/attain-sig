@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Kun Payment-maksutapa merkitään maksetuksi tai Payment-maksutapa ei valita, Payment-maksutapa asetetaan automaattisesti tähän arvoon. Jos se jätetään tyhjäksi, Payment-maksutapa jätetään tyhjäksi. Asetus on käytössä vain NPSP:n payment-maksuobjektille.</help>
+        <label><!-- Default Payment Method (NPSP Payment) --></label>
+        <name>abacus__Default_Payment_Method__c</name>
+    </CustomFieldTranslation>

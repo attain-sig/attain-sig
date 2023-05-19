@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The time the send request was started for processing. --></help>
+        <label><!-- Scheduled Time --></label>
+        <name>iCLightning__Scheduled_Time__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Tracks the average click rate across all campaigns as a percentage. --></help>
+        <label><!-- Average Click Rate --></label>
+        <name>iContactforSF__Average_Click_Rate__c</name>
+    </CustomFieldTranslation>

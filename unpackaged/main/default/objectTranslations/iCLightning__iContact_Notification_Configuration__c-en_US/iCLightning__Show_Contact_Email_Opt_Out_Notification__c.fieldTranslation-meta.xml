@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Turning this option on will show a banner at the top of your contacts and leads that have opted out of marketing and other commercial email. --></help>
+        <label><!-- Display Email Preferences Notification --></label>
+        <name>iCLightning__Show_Contact_Email_Opt_Out_Notification__c</name>
+    </CustomFieldTranslation>

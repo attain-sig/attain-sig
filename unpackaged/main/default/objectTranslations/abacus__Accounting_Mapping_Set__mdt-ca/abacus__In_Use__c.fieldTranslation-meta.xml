@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si es marca, ja no es poden actualitzar alguns aspectes del conjunt de comptabilitat, com ara els objectes seleccionats. Un cop activat un conjunt de comptabilitat almenys una vegada, es considera "En ús".</help>
+        <label><!-- In Use --></label>
+        <name>abacus__In_Use__c</name>
+    </CustomFieldTranslation>

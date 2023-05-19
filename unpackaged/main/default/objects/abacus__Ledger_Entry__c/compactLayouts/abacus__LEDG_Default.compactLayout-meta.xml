@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__LEDG_Default</fullName>
+    <fields>Name</fields>
+    <fields>abacus__Type__c</fields>
+    <fields>abacus__Transaction_Date__c</fields>
+    <fields>abacus__Due_Date__c</fields>
+    <fields>abacus__Amount__c</fields>
+    <label>LEDG Default</label>
+</CompactLayout>

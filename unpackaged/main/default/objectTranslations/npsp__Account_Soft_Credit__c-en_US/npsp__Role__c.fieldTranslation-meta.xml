@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The role associated with this soft credit. The role describes how the Account was involved with the Opportunity. --></help>
+        <label><!-- Role --></label>
+        <name>npsp__Role__c</name>
+        <picklistValues>
+            <masterLabel>Agency</masterLabel>
+            <translation><!-- Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Match</masterLabel>
+            <translation><!-- Corporate Match --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAF</masterLabel>
+            <translation><!-- DAF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donor</masterLabel>
+            <translation><!-- Donor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funder - Soft Credit</masterLabel>
+            <translation><!-- Funder - Soft Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsor</masterLabel>
+            <translation><!-- Sponsor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sub-Grantee</masterLabel>
+            <translation><!-- Sub-Grantee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workplace Giving</masterLabel>
+            <translation><!-- Workplace Giving --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Einstellung für das Account-Modell Sollte "Haushalt-Account", "Eins-zu-Eins“ oder "Einzelperson" sein Ersetzt das benutzerdefinierte Feld "Contact.SystemAccountProcessor__c"  "Haushalt-Account" ist das empfohlene Modell.</help>
+        <label><!-- Account Model --></label>
+        <name>npe01__Account_Processor__c</name>
+    </CustomFieldTranslation>

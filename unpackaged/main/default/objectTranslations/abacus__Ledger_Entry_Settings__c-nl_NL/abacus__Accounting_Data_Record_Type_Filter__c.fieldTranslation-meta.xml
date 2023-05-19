@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Opportunities genereren alleen accountinggegevens als hun recordtype hier staat vermeld. Als er geen recordtypen zijn gedefinieerd, genereren alle opportunities accountinggegevens.</help>
+        <label><!-- Accounting Data Record Type Filter --></label>
+        <name>abacus__Accounting_Data_Record_Type_Filter__c</name>
+    </CustomFieldTranslation>

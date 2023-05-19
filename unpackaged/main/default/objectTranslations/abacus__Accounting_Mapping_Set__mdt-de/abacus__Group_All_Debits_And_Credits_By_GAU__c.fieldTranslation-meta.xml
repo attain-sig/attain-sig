@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Alle Hauptbucheinträge zu Haben/Soll werden einem Verwendungszweck zugeordnet. Hauptbucheinträge zu sekundären Zahlungen werden auch erstellt, die jeden Hauptbucheintrag zu Zahlungen saldieren. Erfordert eine Accounting Subledger Growth Edition-Lizenz.</help>
+        <label><!-- Group All Debits And Credits By GAU --></label>
+        <name>abacus__Group_All_Debits_And_Credits_By_GAU__c</name>
+    </CustomFieldTranslation>

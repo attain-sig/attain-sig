@@ -24,4 +24,12 @@
         <enabled>true</enabled>
         <name>ApiEnabled</name>
     </userPermissions>
+    <tabSettings>
+        <tab>npsp__Batch_Gift_Entry</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>npsp__GE_Gift_Entry</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Load_Order__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Determines the load order for the Accounting Sets if you have multiple sets. Lower numbers will run first.  For example, load order 1 runs before load order 2.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If you have more than one Accounting Set, your load order determines the sequence at which they run. The lower  number will run first.  For example, load order 1 will run before load order 2.</inlineHelpText>
+    <label>Load Order</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

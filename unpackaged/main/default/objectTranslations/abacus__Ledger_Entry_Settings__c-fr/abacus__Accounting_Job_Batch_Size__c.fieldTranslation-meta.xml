@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Le nombre maximal d’enregistrements traités dans un seul lot par la tâche comptable planifiée. Si le nombre n’est pas spécifié, la valeur par défaut est 200.</help>
+        <label><!-- Accounting Job Batch Size --></label>
+        <name>abacus__Accounting_Job_Batch_Size__c</name>
+    </CustomFieldTranslation>

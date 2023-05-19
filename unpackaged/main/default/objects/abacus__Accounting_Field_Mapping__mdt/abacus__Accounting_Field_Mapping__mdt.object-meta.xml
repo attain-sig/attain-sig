@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Relationship object to allow custom field mappings from a Payment or an Opportunity to a Ledger Entry.</description>
+    <label>Accounting Field Mapping</label>
+    <pluralLabel>Accounting Field Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

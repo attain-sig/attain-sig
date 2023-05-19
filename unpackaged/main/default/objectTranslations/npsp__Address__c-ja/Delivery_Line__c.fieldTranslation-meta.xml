@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Delivery Line --></label>
+        <name>Delivery_Line__c</name>
+        <picklistValues>
+            <masterLabel>Line 1</masterLabel>
+            <translation><!-- Line 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line 2</masterLabel>
+            <translation><!-- Line 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line 3</masterLabel>
+            <translation><!-- Line 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line 4</masterLabel>
+            <translation><!-- Line 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Line 5</masterLabel>
+            <translation><!-- Line 5 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

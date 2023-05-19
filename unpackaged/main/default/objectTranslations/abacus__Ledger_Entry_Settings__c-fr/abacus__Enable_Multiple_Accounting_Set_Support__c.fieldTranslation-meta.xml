@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Active la prise en charge d’ensembles de comptabilité multiples actifs. Lorsque cette option est activée, certains paramètres qui étaient globaux doivent être configurés sur chaque ensemble de comptabilité actif.</help>
+        <label><!-- Enable Multiple Accounting Set Support --></label>
+        <name>abacus__Enable_Multiple_Accounting_Set_Support__c</name>
+    </CustomFieldTranslation>

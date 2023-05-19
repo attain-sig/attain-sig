@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>CDF1</field>
+    </columns>
+    <columns>
+        <field>abacus__Ledger_Entry__c.abacus__GL_Code__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>abacus__Ledger_Entry__c.abacus__Debit_Amount__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>abacus__Ledger_Entry__c.abacus__Credit_Amount__c</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>abacus__Ledger_Entry__c.abacus__Check_Reference_Number__c</field>
+    </columns>
+    <columns>
+        <field>abacus__Ledger_Entry__c.abacus__Transaction_Date__c</field>
+    </columns>
+    <customDetailFormulas>
+        <calculatedFormula>&quot;JE&quot;</calculatedFormula>
+        <dataType>Text</dataType>
+        <developerName>CDF1</developerName>
+        <label>Source Code</label>
+        <scale>2</scale>
+    </customDetailFormulas>
+    <description>Export Ledger Entries to Banner Finance</description>
+    <format>Tabular</format>
+    <name>Banner Finance Template</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$abacus__Ledger_Entry__c@abacus__Ledger_Entry__c.abacus__Opportunity__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CUST_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>abacus__Ledger_Entry__c.abacus__Due_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

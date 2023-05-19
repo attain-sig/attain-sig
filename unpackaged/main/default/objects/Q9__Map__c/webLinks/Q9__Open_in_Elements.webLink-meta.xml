@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q9__Open_in_Elements</fullName>
+    <availability>online</availability>
+    <description>Opens the map in Q9 Elements new browser tab.</description>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Open in Elements</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT("/soap/ajax/35.0/connection.js")};
+{!REQUIRESCRIPT("/soap/ajax/35.0/apex.js")};
+
+var res = JSON.parse(sforce.apex.execute("Q9/ElementsGenericExtensionController", "getDiagramUrl", {mapId:"{!Q9__Map__c.Id}"}));
+
+if (res.isSuccess) {
+  window.open(res.url, "_blank")
+} else {
+  alert(res.message);
+}</url>
+</WebLink>

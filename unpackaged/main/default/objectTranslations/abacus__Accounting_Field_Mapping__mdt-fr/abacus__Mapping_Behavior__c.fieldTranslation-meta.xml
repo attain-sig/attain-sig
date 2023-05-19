@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Avec Ponctuel, les données du champ Destination sont mappées à partir du champ Source lors de la création de l'écriture comptable. Avec Valeur actuelle, Accounting Subledger inverse et remplace les écritures lors de la mise à jour du champ Source.</help>
+        <label><!-- Mapping Behavior --></label>
+        <name>abacus__Mapping_Behavior__c</name>
+        <picklistValues>
+            <masterLabel>Current Value</masterLabel>
+            <translation>Valeur actuelle</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Point-in-Time</masterLabel>
+            <translation>Ponctuel</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

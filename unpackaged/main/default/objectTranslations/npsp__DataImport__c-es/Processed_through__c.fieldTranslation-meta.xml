@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Processed through --></label>
+        <name>Processed_through__c</name>
+        <picklistValues>
+            <masterLabel>ActBlue</masterLabel>
+            <translation><!-- ActBlue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Classy</masterLabel>
+            <translation><!-- Classy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Common Ground</masterLabel>
+            <translation><!-- Common Ground --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Convio online marketing</masterLabel>
+            <translation><!-- Convio online marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facebook</masterLabel>
+            <translation><!-- Facebook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Donate</masterLabel>
+            <translation><!-- Internal Donate --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If this recipient unsubscribed, this field contains the date/time of the unsubscribe. --></help>
+        <label><!-- Unsubscribed Date --></label>
+        <name>iCLightning__Unsubscribed__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iContactforSF__Unsubscribed__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Number of message unsubscribes as reported from iContact.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Unsubscribes reports the number of contacts who unsubscribed from a particular message.</inlineHelpText>
+    <label>Unsubscribes</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

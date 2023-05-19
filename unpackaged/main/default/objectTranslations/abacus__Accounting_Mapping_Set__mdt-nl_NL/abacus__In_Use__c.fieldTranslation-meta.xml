@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Als dit wordt geselecteerd, kunnen bepaalde aspecten van de accountingset, zoals de geselecteerde objecten, niet meer worden bijgewerkt. Wanneer een accountingset ten minste één keer is geactiveerd, wordt deze gezien als 'in gebruik'.</help>
+        <label><!-- In Use --></label>
+        <name>abacus__In_Use__c</name>
+    </CustomFieldTranslation>

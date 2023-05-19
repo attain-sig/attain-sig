@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Opportunities met een maakdatum ouder dan deze datum genereren geen accountinggegevens en worden niet verwerkt door de geplande accountingtaak. Als u dit leeg laat, gebruikt het systeem de datum dat Accounting Subledger voor het eerst werd geïnstalleerd.</help>
+        <label><!-- Accounting Records Start Date --></label>
+        <name>abacus__Accounting_Records_Start_Date__c</name>
+    </CustomFieldTranslation>

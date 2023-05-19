@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Geben Sie einen Wert für "N-Tage"-Rollups an, wobei "N" die Anzahl der Tage von heute zurück in die Vergangenheit bezeichnet.  Dieser Wert gilt standardmäßig für einen Rollup für die letzten 365 Tage.</help>
+        <label><!-- Rollup N Day Value --></label>
+        <name>npo02__Rollup_N_Day_Value__c</name>
+    </CustomFieldTranslation>

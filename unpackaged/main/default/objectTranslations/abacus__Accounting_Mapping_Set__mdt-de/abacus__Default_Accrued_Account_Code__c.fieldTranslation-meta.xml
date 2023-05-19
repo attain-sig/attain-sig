@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Der Name des Standard-Abgrenzungskontos Ihres Systems. Dieser Name muss mit dem in Ihrer Buchhaltungssoftware verwendeten Namen übereinstimmen. Erfordert eine Lizenz für Accounting Subledger Growth Edition.</help>
+        <label><!-- Default Accrued Account Code --></label>
+        <name>abacus__Default_Accrued_Account_Code__c</name>
+    </CustomFieldTranslation>

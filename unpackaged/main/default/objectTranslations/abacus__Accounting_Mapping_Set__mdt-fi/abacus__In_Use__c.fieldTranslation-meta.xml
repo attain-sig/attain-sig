@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Jos tämä on valittuna, tiettyjä kirjanpitojoukon osa-alueita, kuten poistettuja objekteja, ei enää päivitetä. Kun kirjanpitojoukko on aktivoitu vähintään kerran, sen katsotaan olevan ”käytössä”.</help>
+        <label><!-- In Use --></label>
+        <name>abacus__In_Use__c</name>
+    </CustomFieldTranslation>

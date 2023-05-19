@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Quando marcado, o Salesforce sempre totalizará dados de doador no Contato primário da Oportunidade e o registro ou a Conta de família correspondente, mesmo que a Oportunidade não seja de um indivíduo. Se não marcado, só a organização receberá crédito.</help>
+        <label><!-- Always Rollup to Primary Contact Role --></label>
+        <name>npo02__Always_Rollup_to_Primary_Contact__c</name>
+    </CustomFieldTranslation>

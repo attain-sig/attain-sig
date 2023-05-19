@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- External ID for iContact clicked link data. Composed of messageid_recipientid_linkhash. --></help>
+        <label><!-- ClickedLink_ID --></label>
+        <name>iCLightning__ClickedLink_ID__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Enable_Growth_Features__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enables Accounting Subledger Growth features in non-production orgs. In production orgs, this setting has no effect.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enables Accounting Subledger Growth features in non-production orgs. In production orgs, this setting has no effect.</inlineHelpText>
+    <label>Enable Subledger Growth for Testing</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

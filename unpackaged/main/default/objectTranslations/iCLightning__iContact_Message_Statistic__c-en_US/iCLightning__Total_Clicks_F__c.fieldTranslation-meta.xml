@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of time this contact clicked a link in the message. --></help>
+        <label><!-- Total Clicks --></label>
+        <name>iCLightning__Total_Clicks_F__c</name>
+    </CustomFieldTranslation>

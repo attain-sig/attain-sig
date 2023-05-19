@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Determina o comportamento de oportunidades abertas restantes quando uma doação recorrente de prazo indeterminado é movida para um status fechado.</help>
+        <label><!-- Open Opportunity Behavior on RD Close --></label>
+        <name>npe03__Open_Opportunity_Behavior__c</name>
+    </CustomFieldTranslation>

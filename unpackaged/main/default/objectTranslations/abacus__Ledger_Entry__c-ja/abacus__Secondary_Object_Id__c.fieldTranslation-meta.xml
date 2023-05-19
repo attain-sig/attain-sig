@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>このレコードが作成された会計セットで示されている第二オブジェクトレコードの ID。</help>
+        <label><!-- Secondary Object Id --></label>
+        <name>abacus__Secondary_Object_Id__c</name>
+    </CustomFieldTranslation>

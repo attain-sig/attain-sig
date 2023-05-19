@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si se marca, este Asiento de libro mayor se creó debido a un cambio que se produjo después de la creación del pago inicial.</help>
+        <label><!-- Adjustment? --></label>
+        <name>abacus__Adjustment__c</name>
+    </CustomFieldTranslation>

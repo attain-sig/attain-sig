@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The ID of the iContact Message that was created and sent out. --></help>
+        <label><!-- iContact Message ID --></label>
+        <name>iCLightning__iContact_Message_ID__c</name>
+    </CustomFieldTranslation>

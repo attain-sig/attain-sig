@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Enables the creation of Accounting Sets, where you can specify what objects and fields can create Ledger Entries.</description>
+    <label>Accounting Mapping Set</label>
+    <pluralLabel>Accounting Mapping Sets</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

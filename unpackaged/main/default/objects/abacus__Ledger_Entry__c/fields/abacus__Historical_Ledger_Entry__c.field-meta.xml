@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Historical_Ledger_Entry__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates this Ledger Entry has been overridden by more recent Ledger Entries, and is excluded from future accounting calculations</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, this Ledger Entry is excluded from new calculations because it has been replaced by one or more later Ledger Entries.</inlineHelpText>
+    <label>Historical Ledger Entry</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

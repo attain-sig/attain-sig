@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>オフにすると、ユーザが支援情報を追加または更新した直後に会計データが生成されます。これにより、会計データの生成方法が変更される可能性があります。</help>
+        <label><!-- Disable Accounting Triggers --></label>
+        <name>abacus__Process_Accounting_Data_in_Batch_Only__c</name>
+    </CustomFieldTranslation>

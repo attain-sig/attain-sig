@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si cette option est définie sur 1, une écriture comptable Allocation est créée pour chaque Allocation UCG. Si elle est définie sur 2, une écriture comptable Allocation est créée pour chaque Allocation Paiement. Ne pas modifier.</help>
+        <label><!-- DEPRECATED - Revenue Grouping Scheme --></label>
+        <name>abacus__Revenue_Grouping_Scheme__c</name>
+    </CustomFieldTranslation>

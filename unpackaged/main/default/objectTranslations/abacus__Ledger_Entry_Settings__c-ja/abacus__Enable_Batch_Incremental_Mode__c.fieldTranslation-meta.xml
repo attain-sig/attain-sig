@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>有効にすると、会計補助台帳ですべてのレコードが照会される代わりに、会計レビューレコードを使用して変更が判断されます。会計レビューは、データが変更されると自動的に生成され、正常に処理された後に削除されます。</help>
+        <label><!-- Enable Accounting Review Mode --></label>
+        <name>abacus__Enable_Batch_Incremental_Mode__c</name>
+    </CustomFieldTranslation>

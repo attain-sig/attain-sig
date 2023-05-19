@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Transaktion ja Payment Ledger Entries -merkinnöille päivämäärä, jolloin maksu on tehty tai käännetty. Kohdennetuille Ledger Entries -merkinnöille päivämäärä, jolloin lahja sai vakuuden.</help>
+        <label><!-- Transaction Date --></label>
+        <name>abacus__Transaction_Date__c</name>
+    </CustomFieldTranslation>

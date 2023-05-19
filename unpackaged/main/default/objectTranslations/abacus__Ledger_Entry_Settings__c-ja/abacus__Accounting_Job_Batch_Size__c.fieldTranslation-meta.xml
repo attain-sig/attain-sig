@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>スケジュール済み会計ジョブにより一括で処理されるレコードの最大数です。 指定しない場合のデフォルトは 200 です。</help>
+        <label><!-- Accounting Job Batch Size --></label>
+        <name>abacus__Accounting_Job_Batch_Size__c</name>
+    </CustomFieldTranslation>

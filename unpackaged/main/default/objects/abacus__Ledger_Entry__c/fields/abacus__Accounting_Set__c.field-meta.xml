@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Accounting_Set__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Your default or customized set of fields that generate Ledger Entries for your org.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Accounting Sets are your own customized combinations of fields or objects that generate Ledger Entries, and define your financial data.</inlineHelpText>
+    <label>Accounting Set</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

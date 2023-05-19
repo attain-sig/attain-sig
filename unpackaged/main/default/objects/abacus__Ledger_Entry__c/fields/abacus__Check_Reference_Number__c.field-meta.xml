@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Check_Reference_Number__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The reference number (for example, check number) associated with the Payment for this Ledger Entry.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The reference number (for example, check number) associated with the Payment for this Ledger Entry.</inlineHelpText>
+    <label>Check/Reference Number</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

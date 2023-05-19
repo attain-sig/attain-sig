@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iContactforSF__Lead__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>If this link's statistic was associated to a Lead record, this field points to that Lead.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this link's statistic was associated to a Lead record, this field points to that Lead.</inlineHelpText>
+    <label>Lead</label>
+    <referenceTo>Lead</referenceTo>
+    <relationshipLabel>iContact Clicked Links</relationshipLabel>
+    <relationshipName>iContact_Clicked_Links</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

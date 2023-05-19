@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>すべての貸方および借方台帳エントリが一般会計単位に関連付けられます。 第二支払台帳エントリも作成され、各支払台帳エントリの収支が合うようになります。 会計補助台帳拡張エディションライセンスが必要です。</help>
+        <label><!-- Group All Debits And Credits By GAU --></label>
+        <name>abacus__Group_All_Debits_And_Credits_By_GAU__c</name>
+    </CustomFieldTranslation>

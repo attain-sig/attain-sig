@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>If set to Point-in-Time, the Destination Field's data is mapped from the Source Field only when the Ledger Entry is created. If set to Current Value, Accounting Subledger reverses and replaces Ledger Entries when the Source Field is updated.</help>
+        <label><!-- Mapping Behavior --></label>
+        <name>abacus__Mapping_Behavior__c</name>
+        <picklistValues>
+            <masterLabel>Current Value</masterLabel>
+            <translation>Current Value</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Point-in-Time</masterLabel>
+            <translation>Point-in-Time</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si es Punto en el tiempo, los datos del Campo de destino se asignan desde el Campo de origen solo cuando se crea el Asiento. Si es Valor actual, el Libro mayor de contabilidad auxiliar revierte y sustituye los asientos cuando se actualiza Campo de origen.</help>
+        <label><!-- Mapping Behavior --></label>
+        <name>abacus__Mapping_Behavior__c</name>
+        <picklistValues>
+            <masterLabel>Current Value</masterLabel>
+            <translation>Valor actual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Point-in-Time</masterLabel>
+            <translation>Punto en el tiempo</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

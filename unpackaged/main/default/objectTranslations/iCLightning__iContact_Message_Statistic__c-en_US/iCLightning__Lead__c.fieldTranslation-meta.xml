@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If the campaign member this statistic is for was from a Lead, this field will hold the ID of the Lead. --></help>
+        <label><!-- Lead --></label>
+        <name>iCLightning__Lead__c</name>
+        <relationshipLabel><!-- iContact Message Statistics - Lightning --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Defines the records processed by the Accounting Scheduled Job. Must be written in the form of a SOQL query WHERE clause.</help>
+        <label><!-- Accounting Job Filter Criteria --></label>
+        <name>abacus__Accounting_Job_Filter_Criteria__c</name>
+    </CustomFieldTranslation>

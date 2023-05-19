@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is the number of emails that successfully reached recipients&apos; email inboxes. This can be less than the number of attempted sends due to bounced emails or unsubscribed contacts. --></help>
+        <label><!-- Delivered --></label>
+        <name>iCLightning__Delivered__c</name>
+    </CustomFieldTranslation>

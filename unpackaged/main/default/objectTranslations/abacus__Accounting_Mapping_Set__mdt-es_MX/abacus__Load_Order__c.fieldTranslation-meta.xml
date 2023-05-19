@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si tiene más de un conjunto de contabilidad, su pedido de carga determina la secuencia en que se ejecutan. Cuando número más bajo se ejecutará primero. Por ejemplo, orden de carga 1 se ejecutará antes de orden de carga 2.</help>
+        <label><!-- Load Order --></label>
+        <name>abacus__Load_Order__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Oplevering</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Opleveringen</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Conditional Deliverable Layout</layout>
+        <sections>
+            <label><!-- GPT Only --></label>
+            <section>GPT Only</section>
+        </sections>
+        <sections>
+            <label><!-- NetSuite Integration --></label>
+            <section>NetSuite Integration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Reporting Date Layout</layout>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Naam van Levering</nameFieldLabel>
+    <recordTypes>
+        <description><!-- This Record Type should be used to Track Conditional Deliverables --></description>
+        <label><!-- Conditional Deliverable --></label>
+        <name>Conditional_Deliverable</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use this Deliverable Record Type to record Reporting Dates --></description>
+        <label><!-- Reporting Date --></label>
+        <name>Reporting_Date</name>
+    </recordTypes>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Fornece o valor de totalizações 'N dias', em que 'N' é o número de dias retroagindo a partir de hoje. Esse valor tem como padrão totalizar os últimos 365 dias.</help>
+        <label><!-- Rollup N Day Value --></label>
+        <name>npo02__Rollup_N_Day_Value__c</name>
+    </CustomFieldTranslation>

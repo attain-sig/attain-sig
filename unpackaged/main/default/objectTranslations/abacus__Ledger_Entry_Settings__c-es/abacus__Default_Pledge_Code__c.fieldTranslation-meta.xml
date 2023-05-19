@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Representa el nombre de su cuenta de acumulación predeterminada.</help>
+        <label><!-- Default Accrued Account Code --></label>
+        <name>abacus__Default_Pledge_Code__c</name>
+    </CustomFieldTranslation>

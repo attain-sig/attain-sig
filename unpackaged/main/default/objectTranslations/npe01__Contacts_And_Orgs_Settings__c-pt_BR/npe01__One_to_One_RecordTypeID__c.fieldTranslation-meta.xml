@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>O ID do tipo de registro de conta a ser usado para contas de um para um. Se nenhum for selecionado, a Conta usará como padrão o tipo de registro de conta padrão do usuário.</help>
+        <label><!-- One-to-One Record Type --></label>
+        <name>npe01__One_to_One_RecordTypeID__c</name>
+    </CustomFieldTranslation>

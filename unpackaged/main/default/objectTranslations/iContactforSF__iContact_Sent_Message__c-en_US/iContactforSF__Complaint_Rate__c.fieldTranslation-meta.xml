@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The complaint rate is the ratio of the number of people who reported your message as spam per number of recipients. --></help>
+        <label><!-- Complaint Rate --></label>
+        <name>iContactforSF__Complaint_Rate__c</name>
+    </CustomFieldTranslation>

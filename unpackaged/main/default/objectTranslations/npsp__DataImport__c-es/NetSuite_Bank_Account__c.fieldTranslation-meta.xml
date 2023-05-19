@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- NetSuite Bank Account --></label>
+        <name>NetSuite_Bank_Account__c</name>
+        <picklistValues>
+            <masterLabel>BANORTE 6969</masterLabel>
+            <translation><!-- BANORTE 6969 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CGA CA 10203</masterLabel>
+            <translation><!-- CGA CA 10203 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CGA NY 10202</masterLabel>
+            <translation><!-- CGA NY 10202 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITI 0424</masterLabel>
+            <translation><!-- CITI 0424 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITI 0458</masterLabel>
+            <translation><!-- CITI 0458 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITI 0503</masterLabel>
+            <translation><!-- CITI 0503 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITI 0539</masterLabel>
+            <translation><!-- CITI 0539 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITI 3034</masterLabel>
+            <translation><!-- CITI 3034 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITI 6415</masterLabel>
+            <translation><!-- CITI 6415 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITI 6615</masterLabel>
+            <translation><!-- CITI 6615 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITI 6623</masterLabel>
+            <translation><!-- CITI 6623 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITI 6644</masterLabel>
+            <translation><!-- CITI 6644 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITI 6806</masterLabel>
+            <translation><!-- CITI 6806 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITI 6814</masterLabel>
+            <translation><!-- CITI 6814 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITI 7463</masterLabel>
+            <translation><!-- CITI 7463 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITI 7863</masterLabel>
+            <translation><!-- CITI 7863 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITI 9567</masterLabel>
+            <translation><!-- CITI 9567 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INBURSA 5521</masterLabel>
+            <translation><!-- INBURSA 5521 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UBS C3 10200</masterLabel>
+            <translation><!-- UBS C3 10200 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UBS C4 10201</masterLabel>
+            <translation><!-- UBS C4 10201 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WF 2086</masterLabel>
+            <translation><!-- WF 2086 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WF 2088</masterLabel>
+            <translation><!-- WF 2088 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WF 6814</masterLabel>
+            <translation><!-- WF 6814 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WF 6911</masterLabel>
+            <translation><!-- WF 6911 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

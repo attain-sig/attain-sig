@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The metadata item&apos;s metadata type. --></help>
+        <label><!-- Metadata Type --></label>
+        <name>Q9__Metadata_Type__c</name>
+    </CustomFieldTranslation>

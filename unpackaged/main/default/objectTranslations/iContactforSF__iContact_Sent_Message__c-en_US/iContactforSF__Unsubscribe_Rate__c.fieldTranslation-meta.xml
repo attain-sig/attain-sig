@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The unsubscribe rate is the ratio of the number of unsubscribed campaign members per recipients sent the message. --></help>
+        <label><!-- Unsubscribe Rate --></label>
+        <name>iContactforSF__Unsubscribe_Rate__c</name>
+    </CustomFieldTranslation>

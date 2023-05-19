@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicator for status of the statistic updates for this message. --></help>
+        <label><!-- Update Statistics Status --></label>
+        <name>iCLightning__StatisticsStatus__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not In Progress</masterLabel>
+            <translation><!-- Not In Progress --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

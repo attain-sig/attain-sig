@@ -1,0 +1,26 @@
+<apex:page showHeader="false" sidebar="false">
+    <style>
+        #auraErrorMessage {
+            display: none !important;
+        }
+    </style>
+
+    <apex:includeLightning />    
+    <div id="LightningComponentId" />   
+    <script>
+        document.addEventListener("showtoastaura", function(event){
+            sforce.one.showToast({
+                    "title": event.detail.theme,
+                    "message": event.detail.message,
+                    "type": event.detail.status
+            });
+        });
+
+        $Lightning.use("Q9:ElementsSettingsPageContainer", function() {
+            $Lightning.createComponent("Q9:elementsSettingPage",
+            {},
+            "LightningComponentId",
+            function() {});
+        });
+    </script>
+</apex:page>

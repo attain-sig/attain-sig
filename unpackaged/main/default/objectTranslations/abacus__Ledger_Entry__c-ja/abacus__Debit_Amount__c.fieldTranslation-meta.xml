@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>ランザクション金額。借方台帳エントリ専用。 この機能は、拡張サブスクリプション専用です。</help>
+        <label><!-- Debit Amount --></label>
+        <name>abacus__Debit_Amount__c</name>
+    </CustomFieldTranslation>

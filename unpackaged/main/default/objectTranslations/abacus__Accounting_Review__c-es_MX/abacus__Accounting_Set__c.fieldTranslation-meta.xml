@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Los Conjuntos de contabilidad son sus propias combinaciones personalizadas de campos u objetos que generan asientos de libro mayor, y definen sus datos financieros.</help>
+        <label><!-- Accounting Set --></label>
+        <name>abacus__Accounting_Set__c</name>
+    </CustomFieldTranslation>

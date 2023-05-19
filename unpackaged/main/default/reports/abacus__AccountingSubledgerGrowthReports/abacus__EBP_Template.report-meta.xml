@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>abacus__Ledger_Entry__c.abacus__Transaction_Date__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>abacus__Ledger_Entry__c.abacus__Amount__c</field>
+    </columns>
+    <columns>
+        <field>abacus__Ledger_Entry__c.abacus__GL_Code__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>abacus__Ledger_Entry__c.abacus__Debit_Amount__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>abacus__Ledger_Entry__c.abacus__Credit_Amount__c</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <description>Export Ledger Entries to EBP</description>
+    <format>Tabular</format>
+    <name>EBP Template</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$abacus__Ledger_Entry__c@abacus__Ledger_Entry__c.abacus__Opportunity__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>abacus__Ledger_Entry__c.abacus__Due_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iCLightning__Total_Open_Rate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total open rate for messages in "Released" status for this campaign (used to calculate average open rate).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total open rate for messages in "Released" status for this campaign (used to calculate average open rate).</inlineHelpText>
+    <label>Total Open Rate</label>
+    <summarizedField>iCLightning__iContact_Sent_Message__c.iCLightning__Open_Rate__c</summarizedField>
+    <summaryFilterItems>
+        <field>iCLightning__iContact_Sent_Message__c.iCLightning__Status__c</field>
+        <operation>equals</operation>
+        <value>Released</value>
+    </summaryFilterItems>
+    <summaryForeignKey>iCLightning__iContact_Sent_Message__c.iCLightning__Campaign__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

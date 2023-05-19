@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>会計レビュー</value>
+    </caseValues>
+    
+    
+    
+    <nameFieldLabel>会計レビュー番号</nameFieldLabel>
+</CustomObjectTranslation>

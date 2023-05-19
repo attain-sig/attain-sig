@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Het transactiebedrag, alleen voor registerboekingen van crediteringen. Deze functionaliteit is alleen voor Growth-abonnementen.</help>
+        <label><!-- Credit Amount --></label>
+        <name>abacus__Credit_Amount__c</name>
+    </CustomFieldTranslation>

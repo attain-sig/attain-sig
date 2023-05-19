@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Determina si esta asignación debería aplicarse a Asientos de libro mayor de transacciones.</help>
+        <label><!-- Transaction --></label>
+        <name>abacus__Payment_Transaction__c</name>
+    </CustomFieldTranslation>

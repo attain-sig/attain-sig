@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Edits_To_Allocation</fullName>
+    <active>true</active>
+    <description>Allows only certain profiles to make changes to Allocation records.</description>
+    <errorConditionFormula>OR(
+	AND(
+		 NOT(ISBLANK(npsp__Opportunity__c)), 
+		 OR(
+			ISPICKVAL(npsp__Opportunity__r.StageName,"Received"),
+			ISPICKVAL(npsp__Opportunity__r.StageName,"Received as Unconditional Pledge")
+			),
+		AND(
+			OR(
+				ISNEW(), 
+                                ISCHANGED(npsp__General_Accounting_Unit__c),
+				ISChanged (npsp__Amount__c),
+				ISChanged (Grant_Segment__c),
+				ISChanged (Netsuite_External_ID__c),
+				ISChanged (Region__c ),
+				ISChanged (Restriction__c )
+				),
+			AND(
+				$Permission.Edit_Received_Opportunities=FALSE,
+				$Permission.Edit_Received_Opportunities_ADV=FALSE
+				)
+			),
+		OR(
+			npsp__Opportunity__r.Posted__c = TRUE,
+			AND(
+				OR(
+					ISNEW(),
+                                        ISCHANGED(npsp__General_Accounting_Unit__c),
+					ISChanged (npsp__Amount__c),
+					ISChanged (Grant_Segment__c),
+					ISChanged (Netsuite_External_ID__c),
+					ISChanged (Region__c ),
+					ISChanged (Restriction__c )
+					),
+				$Permission.Edit_Received_Opportunities_ADV=FALSE
+				)
+			)
+		),
+	AND(
+		NOT(ISBLANK(npsp__Payment__c)), 
+		 npsp__Payment__r.npe01__Paid__c =TRUE, 
+		AND(
+			OR(
+ISNEW(),				
+ISCHANGED(npsp__General_Accounting_Unit__c),
+				ISChanged (npsp__Amount__c),
+				ISChanged (Grant_Segment__c),
+				ISChanged (Netsuite_External_ID__c),
+				ISChanged (Region__c ),
+				ISChanged (Restriction__c )
+				),
+			AND(
+				$Permission.Edit_Received_Opportunities=FALSE,
+				$Permission.Edit_Received_Opportunities_ADV=FALSE
+				)
+			),
+		OR(
+			 npsp__Payment__r.npe01__Opportunity__r.Posted__c = TRUE,
+			AND(
+				OR(
+ISNEW(),					
+ISCHANGED(npsp__General_Accounting_Unit__c),
+					ISChanged (npsp__Amount__c),
+					ISChanged (Grant_Segment__c),
+					ISChanged (Netsuite_External_ID__c),
+					ISChanged (Region__c ),
+					ISChanged (Restriction__c )
+					),
+				$Permission.Edit_Received_Opportunities_ADV=FALSE
+				)
+			)
+		)
+	)</errorConditionFormula>
+    <errorMessage>Your profile is not authorized to make changes to this record. Please contact an admin for assistance.</errorMessage>
+</ValidationRule>

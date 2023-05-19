@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Optionally attributes allocations to a recurring donation. All new opportunities created with this recurring donation schedule will automatically be allocated in the same way. --></help>
+        <label><!-- Recurring Donation --></label>
+        <name>npsp__Recurring_Donation__c</name>
+        <relationshipLabel><!-- GAU Allocations --></relationshipLabel>
+    </CustomFieldTranslation>

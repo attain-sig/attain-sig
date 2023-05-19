@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Deployment Record --></label>
+        <name>metazoa3__deploy_record__c</name>
+        <relationshipLabel><!-- Snapshot Histories --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The username used to authenticate to the iContact API. iContact will supply you with this value. --></help>
+        <label><!-- Username --></label>
+        <name>iContactforSF__Username__c</name>
+    </CustomFieldTranslation>

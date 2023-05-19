@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Se verificado, as alterações em um único campo de endereço de Contato ou Conta atualizam o endereço existente em vez de criar outro Endereço.</help>
+        <label><!-- Simple Address Change Treated as Update --></label>
+        <name>npsp__Simple_Address_Change_Treated_as_Update__c</name>
+    </CustomFieldTranslation>

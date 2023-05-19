@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <isGridLayout>false</isGridLayout>
+    <leftSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Column</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingSortProperties />
+            <header>Unsubscribe Rate - messages this month</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>iContactforSF__iContact_Campaign_Dashboard/iContactforSF__Unsubscribe_Rate_Messages_This_Month</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Column</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingSortProperties />
+            <header>Current Month's Sends</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>iContactforSF__iContact_Campaign_Dashboard/iContactforSF__Sends_per_month_per_Campaign</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Gauge</componentType>
+            <displayUnits>Auto</displayUnits>
+            <footer>If you're getting close to the "red zone", why not upgrade?</footer>
+            <gaugeMax>500.0</gaugeMax>
+            <gaugeMin>0.0</gaugeMin>
+            <groupingSortProperties />
+            <header>Messages Sent this Month</header>
+            <indicatorBreakpoint1>300.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>450.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>iContactforSF__iContact_Campaign_Dashboard/iContactforSF__Sends_per_month_per_Campaign</report>
+            <showPercentage>false</showPercentage>
+            <showRange>false</showRange>
+            <showTotal>false</showTotal>
+            <showValues>false</showValues>
+        </components>
+    </leftSection>
+    <middleSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Column</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingSortProperties />
+            <header>Open Rate - messages this month</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>iContactforSF__iContact_Campaign_Dashboard/iContactforSF__Open_Rate_Messages_This_Month</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Column</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingSortProperties />
+            <header>Campaign Open Rates</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>iContactforSF__iContact_Campaign_Dashboard/iContactforSF__Open_Rate_per_Campaign_created_this_mont</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Gauge</componentType>
+            <displayUnits>Auto</displayUnits>
+            <gaugeMax>15.0</gaugeMax>
+            <gaugeMin>0.0</gaugeMin>
+            <groupingSortProperties />
+            <header>Open Rate - messages this month</header>
+            <indicatorBreakpoint1>7.5</indicatorBreakpoint1>
+            <indicatorBreakpoint2>12.0</indicatorBreakpoint2>
+            <indicatorHighColor>#54C254</indicatorHighColor>
+            <indicatorLowColor>#C25454</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>iContactforSF__iContact_Campaign_Dashboard/iContactforSF__Open_Rate_Messages_This_Month</report>
+            <showPercentage>false</showPercentage>
+            <showRange>false</showRange>
+            <showTotal>false</showTotal>
+            <showValues>false</showValues>
+        </components>
+    </middleSection>
+    <rightSection>
+        <columnSize>Wide</columnSize>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Column</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingSortProperties />
+            <header>Click Rate - messages this month</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>iContactforSF__iContact_Campaign_Dashboard/iContactforSF__Click_Rate_Messages_This_Month</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <chartAxisRange>Auto</chartAxisRange>
+            <componentType>Column</componentType>
+            <displayUnits>Auto</displayUnits>
+            <drillEnabled>false</drillEnabled>
+            <drillToDetailEnabled>false</drillToDetailEnabled>
+            <enableHover>false</enableHover>
+            <expandOthers>false</expandOthers>
+            <groupingSortProperties />
+            <header>Campaign Unsubscribe Rate</header>
+            <legendPosition>Bottom</legendPosition>
+            <report>iContactforSF__iContact_Campaign_Dashboard/iContactforSF__Unsub_Rate_per_Campaign_created_this_mon</report>
+            <showPercentage>false</showPercentage>
+            <showValues>false</showValues>
+            <sortBy>RowLabelAscending</sortBy>
+            <useReportChart>false</useReportChart>
+        </components>
+        <components>
+            <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+            <componentType>Gauge</componentType>
+            <displayUnits>Auto</displayUnits>
+            <gaugeMax>5.0</gaugeMax>
+            <gaugeMin>0.0</gaugeMin>
+            <groupingSortProperties />
+            <header>Unsubscribe Rate - messages this month</header>
+            <indicatorBreakpoint1>1.0</indicatorBreakpoint1>
+            <indicatorBreakpoint2>3.0</indicatorBreakpoint2>
+            <indicatorHighColor>#C25454</indicatorHighColor>
+            <indicatorLowColor>#54C254</indicatorLowColor>
+            <indicatorMiddleColor>#C2C254</indicatorMiddleColor>
+            <report>iContactforSF__iContact_Campaign_Dashboard/iContactforSF__Unsubscribe_Rate_Messages_This_Month</report>
+            <showPercentage>false</showPercentage>
+            <showRange>false</showRange>
+            <showTotal>false</showTotal>
+            <showValues>false</showValues>
+        </components>
+    </rightSection>
+    
+    <textColor>#000000</textColor>
+    <title>Across iContact Campaigns</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

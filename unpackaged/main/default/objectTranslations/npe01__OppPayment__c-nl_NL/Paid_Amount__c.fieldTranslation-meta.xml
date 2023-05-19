@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is the Payment Amount converted to USD. --></help>
+        <label><!-- Paid Amount in USD --></label>
+        <name>Paid_Amount__c</name>
+    </CustomFieldTranslation>

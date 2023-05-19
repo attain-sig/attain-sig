@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Card_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Credit Card Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACH</fullName>
+                <default>false</default>
+                <label>ACH</label>
+            </value>
+            <value>
+                <fullName>Amazon</fullName>
+                <default>false</default>
+                <label>Amazon</label>
+            </value>
+            <value>
+                <fullName>American Express</fullName>
+                <default>false</default>
+                <label>American Express</label>
+            </value>
+            <value>
+                <fullName>American Express (MobilePay)</fullName>
+                <default>false</default>
+                <label>American Express (MobilePay)</label>
+            </value>
+            <value>
+                <fullName>BillMeLater</fullName>
+                <default>false</default>
+                <label>BillMeLater</label>
+            </value>
+            <value>
+                <fullName>Business</fullName>
+                <default>false</default>
+                <label>Business</label>
+            </value>
+            <value>
+                <fullName>Carte Blanche (MobilePay)</fullName>
+                <default>false</default>
+                <label>Carte Blanche (MobilePay)</label>
+            </value>
+            <value>
+                <fullName>Diners Club</fullName>
+                <default>false</default>
+                <label>Diners Club</label>
+            </value>
+            <value>
+                <fullName>Diners Club (MobilePay)</fullName>
+                <default>false</default>
+                <label>Diners Club (MobilePay)</label>
+            </value>
+            <value>
+                <fullName>Discover</fullName>
+                <default>false</default>
+                <label>Discover</label>
+            </value>
+            <value>
+                <fullName>Discover (MobilePay)</fullName>
+                <default>false</default>
+                <label>Discover (MobilePay)</label>
+            </value>
+            <value>
+                <fullName>EFT</fullName>
+                <default>false</default>
+                <label>EFT</label>
+            </value>
+            <value>
+                <fullName>Enroute (MobilePay)</fullName>
+                <default>false</default>
+                <label>Enroute (MobilePay)</label>
+            </value>
+            <value>
+                <fullName>Google</fullName>
+                <default>false</default>
+                <label>Google</label>
+            </value>
+            <value>
+                <fullName>JCB (MobilePay)</fullName>
+                <default>false</default>
+                <label>JCB (MobilePay)</label>
+            </value>
+            <value>
+                <fullName>Laser (MobilePay)</fullName>
+                <default>false</default>
+                <label>Laser (MobilePay)</label>
+            </value>
+            <value>
+                <fullName>Maestro (MobilePay)</fullName>
+                <default>false</default>
+                <label>Maestro (MobilePay)</label>
+            </value>
+            <value>
+                <fullName>MasterCard</fullName>
+                <default>false</default>
+                <label>MasterCard</label>
+            </value>
+            <value>
+                <fullName>MasterCard (MobilePay)</fullName>
+                <default>false</default>
+                <label>MasterCard (MobilePay)</label>
+            </value>
+            <value>
+                <fullName>PayPal</fullName>
+                <default>false</default>
+                <label>PayPal</label>
+            </value>
+            <value>
+                <fullName>Personal</fullName>
+                <default>false</default>
+                <label>Personal</label>
+            </value>
+            <value>
+                <fullName>Solo</fullName>
+                <default>false</default>
+                <label>Solo</label>
+            </value>
+            <value>
+                <fullName>Solo (MobilePay)</fullName>
+                <default>false</default>
+                <label>Solo (MobilePay)</label>
+            </value>
+            <value>
+                <fullName>Switch</fullName>
+                <default>false</default>
+                <label>Switch</label>
+            </value>
+            <value>
+                <fullName>Switch (MobilePay)</fullName>
+                <default>false</default>
+                <label>Switch (MobilePay)</label>
+            </value>
+            <value>
+                <fullName>Unknown (MobilePay)</fullName>
+                <default>false</default>
+                <label>Unknown (MobilePay)</label>
+            </value>
+            <value>
+                <fullName>Visa</fullName>
+                <default>false</default>
+                <label>Visa</label>
+            </value>
+            <value>
+                <fullName>Visa (MobilePay)</fullName>
+                <default>false</default>
+                <label>Visa (MobilePay)</label>
+            </value>
+            <value>
+                <fullName>Visa Electron (MobilePay)</fullName>
+                <default>false</default>
+                <label>Visa Electron (MobilePay)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

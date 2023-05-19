@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>De datum waarop de opportunity wordt toegezegd, of afgerond en gewonnen. Deze datum wordt automatisch ingesteld als u dit leeg laat.</help>
+        <label><!-- Committed Date --></label>
+        <name>abacus__Committed_Date__c</name>
+    </CustomFieldTranslation>

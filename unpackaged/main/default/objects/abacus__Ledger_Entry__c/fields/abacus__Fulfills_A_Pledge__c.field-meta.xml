@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Fulfills_A_Pledge__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Automatically checked when a Payment Ledger Entry is created from a Payment that was not marked Paid when created.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, this Ledger Entry's related Payment was pledged before it was paid (it wasn't set as Paid when created).</inlineHelpText>
+    <label>Fulfills an Accrual</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

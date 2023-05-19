@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Totes les entrades de llibre major de dèbit i crèdit s’associaran a una unitat de comptabilitat general. També es crearan entrades de llibre major de pagament secundàries per equilibrar-les. Requereix una llicència d'Accounting Subledger Growth Edition.</help>
+        <label><!-- Group All Debits And Credits By GAU --></label>
+        <name>abacus__Group_All_Debits_And_Credits_By_GAU__c</name>
+    </CustomFieldTranslation>

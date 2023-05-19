@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Bei aktivierter Option werden keine Zusagen generiert, es sei denn, der Indikator "Hauptbucheintragserstellung aktiv" für die Opportunity wird manuell aktiviert.</help>
+        <label><!-- Disable NPSP Stage To State Mapping --></label>
+        <name>abacus__Disable_NPSP_Stage_To_State_Mapping__c</name>
+    </CustomFieldTranslation>

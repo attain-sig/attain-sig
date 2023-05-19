@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Indique si l'écriture comptable est un débit ou un crédit. Cette fonctionnalité est réservée aux abonnements Growth.</help>
+        <label><!-- Debit/Credit --></label>
+        <name>abacus__Debit_Credit__c</name>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>Crédit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit</masterLabel>
+            <translation>Débit</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

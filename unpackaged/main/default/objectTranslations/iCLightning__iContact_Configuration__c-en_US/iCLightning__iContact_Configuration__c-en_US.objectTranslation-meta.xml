@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    <validationRules>
+        <errorMessage><!-- Invalid Account ID --></errorMessage>
+        <name>iCLightning__Invalid_Account_ID</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Client Folder ID --></errorMessage>
+        <name>iCLightning__Invalid_Client_Folder_ID</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Invalid Endpoint URL --></errorMessage>
+        <name>iCLightning__Invalid_Endpoint_URL</name>
+    </validationRules>
+</CustomObjectTranslation>

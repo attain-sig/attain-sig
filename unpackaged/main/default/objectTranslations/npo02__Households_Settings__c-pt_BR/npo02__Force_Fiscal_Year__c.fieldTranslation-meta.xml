@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>O NPSP verifica automaticamente a presença de anos fiscais personalizados e desativa as configurações de AF se isso evitar erros. Essa configuração substitui a verificação de segurança de usuários que acidentalmente ativaram anos fiscais personalizados.</help>
+        <label><!-- Force Fiscal Year --></label>
+        <name>npo02__Force_Fiscal_Year__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Jos kohta on asetettu ajankohtaan, kohdekentän tiedot kartoitetaan lähdekentästä vain kun Ledger Entry -merkintä luodaan. Jos kohta on asetettu nykyiseen arvoon, Accounting Subledger kääntää ja vaihtaa Ledger Entry -merkinnät kun lähdekenttä päivitetään.</help>
+        <label><!-- Mapping Behavior --></label>
+        <name>abacus__Mapping_Behavior__c</name>
+        <picklistValues>
+            <masterLabel>Current Value</masterLabel>
+            <translation>Nykyinen arvo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Point-in-Time</masterLabel>
+            <translation>Ajankohta</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Hiermee wordt ondersteuning voor meerdere actieve accountingsets ingeschakeld. Zodra dit is ingeschakeld, moeten sommige algemene instellingen worden geconfigureerd voor elke actieve accountingset.</help>
+        <label><!-- Enable Multiple Accounting Set Support --></label>
+        <name>abacus__Enable_Multiple_Accounting_Set_Support__c</name>
+    </CustomFieldTranslation>

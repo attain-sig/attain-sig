@@ -1,0 +1,41 @@
+<apex:page showHeader="false" id="thepageid" lightningStylesheets="true">
+  <apex:includescript value="{!URLFOR($Resource.iCLightning__icCKEditor, '/ckeditor/ckeditor.js')}" />
+  <apex:includeScript value="/sforce/one/49.0/api.js"></apex:includeScript>
+  <apex:includeScript value="/soap/ajax/49.0/connection.js"></apex:includeScript>
+  <apex:includeScript value="/soap/ajax/49.0/apex.js"></apex:includeScript>
+  <apex:form id="theformid">
+
+    <apex:inputtextarea id="editor1" styleClass="ckeditor" richtext="false" />
+    <script type="text/javascript">
+      window.onmessage = function (e) {
+        if (e.data === 'getData') {
+          let element = CKEDITOR.instances['thepageid:theformid:editor1'].getData();
+          window.top.postMessage(element, '*')
+        } else {
+          CKEDITOR.instances['thepageid:theformid:editor1'].setData(e.data);
+
+        }
+
+      };
+      let subscription;
+
+      window.onload = function () {
+        CKEDITOR.replace('thepageid:theformid:editor1');
+        CKEDITOR.instances['thepageid:theformid:editor1'].setData('<p>Loading...</p>');
+        CKEDITOR.on('instanceReady',
+        function( evt )
+          {
+          var editor = evt.editor;
+          editor.execCommand('maximize');
+          });
+        window.top.postMessage('loaded', '*');
+
+      }
+      function abc() {
+        var element = CKEDITOR.instances['thepageid:theformid:editor1'].getData();
+        window.top.postMessage(element, '*')
+      }
+
+    </script>
+  </apex:form>
+</apex:page>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iContactforSF__update_statistics_date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Most recent time that updating statistics finished for this message.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Most recent time that updating statistics finished for this message.</inlineHelpText>
+    <label>Last Update Statistics Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

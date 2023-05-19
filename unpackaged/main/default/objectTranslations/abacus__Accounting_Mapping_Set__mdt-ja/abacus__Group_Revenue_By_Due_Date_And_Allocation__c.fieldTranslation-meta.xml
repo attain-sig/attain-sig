@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>オンにしない場合、割り当て台帳エントリは各資金に作成されます。オンにした場合、割り当て台帳帳エントリは各資金およびスケジュール済み支払日に作成されます。</help>
+        <label><!-- Group Revenue By Due Date And Allocation --></label>
+        <name>abacus__Group_Revenue_By_Due_Date_And_Allocation__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Indicates this Ledger Entry is only used for balancing debits and credits. Accounting Subledger's jobs and calculations always ignore this Ledger Entry. This functionality is for Growth subscriptions only.</help>
+        <label><!-- Secondary --></label>
+        <name>abacus__Secondary_Allocation__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Als dit adres verificatie nodig heeft, Klikt u op de adres verificatie knop boven aan de pagina. Raadpleeg de Help Documentatie in de "power of us" HUB for meer informatie</help>
+        <label><!-- Verification Status --></label>
+        <name>npsp__Verification_Status__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Indien aangevinkt, NPSP's foutafhandeling framework is uitgeschakeld</help>
+        <label><!-- Disable Error Handling --></label>
+        <name>npsp__Disable_Error_Handling__c</name>
+    </CustomFieldTranslation>

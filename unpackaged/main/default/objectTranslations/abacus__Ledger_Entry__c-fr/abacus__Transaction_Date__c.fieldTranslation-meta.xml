@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Pour des écritures comptables Paiement et Transaction, la date à laquelle le paiement est effectué ou annulé. Pour des écritures comptables Allocation, la date à laquelle le don a été promis.</help>
+        <label><!-- Transaction Date --></label>
+        <name>abacus__Transaction_Date__c</name>
+    </CustomFieldTranslation>

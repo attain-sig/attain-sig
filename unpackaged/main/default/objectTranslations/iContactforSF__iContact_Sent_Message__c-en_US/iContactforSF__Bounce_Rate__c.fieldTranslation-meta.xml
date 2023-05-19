@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The bounce rate is the ratio of the number of bounces per recipients. --></help>
+        <label><!-- Bounce Rate --></label>
+        <name>iContactforSF__Bounce_Rate__c</name>
+    </CustomFieldTranslation>

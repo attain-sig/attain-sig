@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Als dit 'true' (waar) is, wordt deze accountingset opgenomen in de verwerking wanneer de geplande accountingtaak wordt uitgevoerd.</help>
+        <label><!-- Is Active --></label>
+        <name>abacus__Is_Active__c</name>
+    </CustomFieldTranslation>

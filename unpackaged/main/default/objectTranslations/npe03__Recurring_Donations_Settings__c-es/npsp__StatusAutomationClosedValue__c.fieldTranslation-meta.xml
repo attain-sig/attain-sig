@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>El Estado de Donación recurrente establecido cuando Automatización de estado cierra el registro Donación recurrente.</help>
+        <label><!-- Status Automation Closed Value --></label>
+        <name>npsp__StatusAutomationClosedValue__c</name>
+    </CustomFieldTranslation>

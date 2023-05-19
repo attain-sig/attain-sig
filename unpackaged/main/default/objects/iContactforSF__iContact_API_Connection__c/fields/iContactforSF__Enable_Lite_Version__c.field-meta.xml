@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iContactforSF__Enable_Lite_Version__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enabling this option decreases the amount storage used by iContact for Salesforce. There will be no iContact message information stored at the contact and lead level. Targeted Sends is not available in this version.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enabling this option decreases the amount storage used by iContact for Salesforce. There will be no iContact message information stored at the contact and lead level. Targeted Sends is not available in this version.</inlineHelpText>
+    <label>Enable Lite Version</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

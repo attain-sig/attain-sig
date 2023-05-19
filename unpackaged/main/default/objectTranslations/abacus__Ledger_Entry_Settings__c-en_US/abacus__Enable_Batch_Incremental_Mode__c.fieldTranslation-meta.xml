@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If enabled, Accounting Subledger will use Accounting Review records to determine changes rather than querying all records. Accounting Reviews will be generated automatically as your data changes, and deleted after they are successfully processed. --></help>
+        <label><!-- Enable Accounting Review Mode --></label>
+        <name>abacus__Enable_Batch_Incremental_Mode__c</name>
+    </CustomFieldTranslation>

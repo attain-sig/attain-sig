@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The text body of the email template that was sent to iContact. --></help>
+        <label><!-- Body Text --></label>
+        <name>iContactforSF__Body_Text__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>L'identificador d'objecte primari, tal com s'indica al conjunt de comptabilitat amb el qual s'ha creat aquest registre.</help>
+        <label><!-- Primary Object Id --></label>
+        <name>abacus__Primary_Object_Id__c</name>
+    </CustomFieldTranslation>

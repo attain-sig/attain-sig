@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Store Netsuite IDs for the Netsuite Integration. Unique and Case Sensitive --></help>
+        <label><!-- NetSuite External ID --></label>
+        <name>NetSuite_External_ID__c</name>
+    </CustomFieldTranslation>

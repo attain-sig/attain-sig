@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Le plan comptable général de cette écriture. Correspond aux champs similaires dans le logiciel comptable intégré. Les valeurs diffèrent selon le type de l'écriture comptable.</help>
+        <label><!-- GL Code --></label>
+        <name>abacus__GL_Code__c</name>
+    </CustomFieldTranslation>

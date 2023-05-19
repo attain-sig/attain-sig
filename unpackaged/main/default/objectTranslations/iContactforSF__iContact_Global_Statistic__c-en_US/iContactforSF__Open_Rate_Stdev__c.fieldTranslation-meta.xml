@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Standard deviation of the average open rate. --></help>
+        <label><!-- Open Rate Stdev --></label>
+        <name>iContactforSF__Open_Rate_Stdev__c</name>
+    </CustomFieldTranslation>

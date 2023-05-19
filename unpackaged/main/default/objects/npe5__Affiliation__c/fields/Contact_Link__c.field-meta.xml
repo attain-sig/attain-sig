@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Link__c</fullName>
+    <description>Detects if User is in Lightning vs. Classic and creates link to Contact</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(
+    IF($User.UIThemeDisplayed = "Theme4d",
+       "/lightning/r/Contact/" &amp;  npe5__Contact__r.Id  &amp; "/view",
+       "/" &amp; npe5__Contact__r.Id),
+    npe5__Contact__r.FirstName &amp; " " &amp; npe5__Contact__r.LastName, "_top")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contact Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

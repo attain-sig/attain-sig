@@ -1,0 +1,4 @@
+<apex:page controller="iContactforSF.iContactHelpController">
+<apex:sectionHeader title="iContact Help" />
+    <a href='https://kb.icontact.com/hc/en-us/categories/360000263012-iContact-for-Salesforce' target='_blank'>Please click here to visit the iContact Help Portal</a>
+</apex:page>

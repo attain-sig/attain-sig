@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Falls aktiviert, wurde die mit diesem Hauptbucheintrag zusammenhängende Zahlung zugesagt, bevor sie geleistet wurde (sie wurde bei der Erstellung nicht als "Geleistet" festgelegt).</help>
+        <label><!-- Fulfills an Accrual --></label>
+        <name>abacus__Fulfills_A_Pledge__c</name>
+    </CustomFieldTranslation>

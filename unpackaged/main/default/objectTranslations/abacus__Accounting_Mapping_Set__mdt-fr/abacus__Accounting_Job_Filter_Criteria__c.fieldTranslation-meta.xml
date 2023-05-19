@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Ils définissent les enregistrements traités par la tâche comptable planifiée. Ils doivent être écrits sous la forme d’une clause WHERE de requête SOQL.</help>
+        <label><!-- Accounting Job Filter Criteria --></label>
+        <name>abacus__Accounting_Job_Filter_Criteria__c</name>
+    </CustomFieldTranslation>

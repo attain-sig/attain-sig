@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>O número de registros a ser processado durante o cálculo das estatísticas do doador. O tamanho padrão é 200. Reduza para um número menor se as totalizações da oportunidade estiverem falhando devido aos limites do sistema.</help>
+        <label><!-- Rollup Batch Size --></label>
+        <name>npo02__Batch_Size__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Nom du compte de régularisation par défaut de votre système comptable. Il doit correspondre au nom utilisé dans votre logiciel de comptabilité. Nécessite une licence Accounting Subledger Growth Edition.</help>
+        <label><!-- Default Accrued Account Code --></label>
+        <name>abacus__Default_Accrued_Account_Code__c</name>
+    </CustomFieldTranslation>

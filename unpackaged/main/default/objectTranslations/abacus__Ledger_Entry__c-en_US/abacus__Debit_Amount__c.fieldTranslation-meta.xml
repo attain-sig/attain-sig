@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The transaction amount, only for debit Ledger Entries. This functionality is for Growth subscriptions only. --></help>
+        <label><!-- Debit Amount --></label>
+        <name>abacus__Debit_Amount__c</name>
+    </CustomFieldTranslation>

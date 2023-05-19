@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>この台帳エントリの支払に関連付けられた参照番号 (たとえば確認番号)。</help>
+        <label><!-- Check/Reference Number --></label>
+        <name>abacus__Check_Reference_Number__c</name>
+    </CustomFieldTranslation>

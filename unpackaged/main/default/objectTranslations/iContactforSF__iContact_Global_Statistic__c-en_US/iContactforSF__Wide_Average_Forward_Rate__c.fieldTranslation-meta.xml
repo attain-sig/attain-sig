@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Average forward rate. --></help>
+        <label><!-- Average Forward Rate --></label>
+        <name>iContactforSF__Wide_Average_Forward_Rate__c</name>
+    </CustomFieldTranslation>

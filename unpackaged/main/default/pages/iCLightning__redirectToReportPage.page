@@ -1,0 +1,3 @@
+<apex:page controller="iCLightning.redirectToReportPageController" action="{!redirect}">
+LOADING....
+</apex:page>

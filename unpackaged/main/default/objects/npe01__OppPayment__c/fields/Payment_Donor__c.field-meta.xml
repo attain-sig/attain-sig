@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Donor__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Only populate when the Payment fulfills a Pledge and the Payment Donor is not the Pledge Opportunity Donor.</inlineHelpText>
+    <label>Payment Donor</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Pledge Payments</relationshipLabel>
+    <relationshipName>PledgePayments</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

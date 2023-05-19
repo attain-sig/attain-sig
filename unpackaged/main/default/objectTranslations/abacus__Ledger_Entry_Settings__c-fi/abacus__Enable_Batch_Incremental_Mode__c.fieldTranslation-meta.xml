@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Jos käytössä, Accounting Subledger käyttää kirjanpidon tarkastelutietueita määrittämään muutoksia kuin tekemään kyselyitä kaikille tietueille. Kirjanpidon tarkastelu luodaan automaattisesti kun tietosi muuttuvat ja ne poistetaan kun tiedot on käsitelty.</help>
+        <label><!-- Enable Accounting Review Mode --></label>
+        <name>abacus__Enable_Batch_Incremental_Mode__c</name>
+    </CustomFieldTranslation>

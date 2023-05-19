@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>支援者の ID。主取引先責任者か、そうでない場合はアカウントです。</help>
+        <label><!-- Donor Id --></label>
+        <name>abacus__Donor_Id__c</name>
+    </CustomFieldTranslation>

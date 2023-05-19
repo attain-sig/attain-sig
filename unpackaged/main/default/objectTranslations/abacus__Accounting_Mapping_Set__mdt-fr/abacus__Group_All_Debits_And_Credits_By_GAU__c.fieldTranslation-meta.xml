@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Toutes les écritures comptables de débit et de crédit sont associées à une UCG. Des écritures comptables Paiement secondaire sont également créées, soldant de chaque écriture comptable Paiement. Nécessite une licence Accounting Subledger Growth Edition.</help>
+        <label><!-- Group All Debits And Credits By GAU --></label>
+        <name>abacus__Group_All_Debits_And_Credits_By_GAU__c</name>
+    </CustomFieldTranslation>

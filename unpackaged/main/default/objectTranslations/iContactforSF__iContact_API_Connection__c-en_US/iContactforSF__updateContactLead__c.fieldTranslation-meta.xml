@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If checked, iContact will update the Email Opt Out fields on the Contact and Lead records during an Update request. --></help>
+        <label><!-- Update Email Opt Out --></label>
+        <name>iContactforSF__updateContactLead__c</name>
+    </CustomFieldTranslation>

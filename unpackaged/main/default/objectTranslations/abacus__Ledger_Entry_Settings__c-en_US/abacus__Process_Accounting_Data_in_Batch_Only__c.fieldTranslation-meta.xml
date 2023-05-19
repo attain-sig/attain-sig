@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If unchecked, accounting data is generated immediately when users add or update gift information, which can alter how your accounting data gets generated. --></help>
+        <label><!-- Disable Accounting Triggers --></label>
+        <name>abacus__Process_Accounting_Data_in_Batch_Only__c</name>
+    </CustomFieldTranslation>

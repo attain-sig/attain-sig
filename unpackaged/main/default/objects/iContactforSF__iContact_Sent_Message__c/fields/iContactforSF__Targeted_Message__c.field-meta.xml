@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iContactforSF__Targeted_Message__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>If this was a targeted send, contains a link to the message that the targets were based on.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this was a targeted send, contains a link to the message that the targets were based on.</inlineHelpText>
+    <label>Targeted Message</label>
+    <referenceTo>iContactforSF__iContact_Sent_Message__c</referenceTo>
+    <relationshipLabel>Targeted Sent Messages</relationshipLabel>
+    <relationshipName>iContact_Sent_Messages</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

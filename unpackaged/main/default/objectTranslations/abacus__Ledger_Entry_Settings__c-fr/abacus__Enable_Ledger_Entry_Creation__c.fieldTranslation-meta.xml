@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Indique si la création d’une écriture comptable est activée pour l'organisation.</help>
+        <label><!-- Enable Ledger Entry Creation --></label>
+        <name>abacus__Enable_Ledger_Entry_Creation__c</name>
+    </CustomFieldTranslation>

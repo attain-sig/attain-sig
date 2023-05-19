@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Após o número especificado de dias, o NPSP atualiza o Status de doação recorrente para o valor de automação de status Fechado se as doações não forem recebidas como esperado.</help>
+        <label><!-- Status Automation Days for Closed --></label>
+        <name>npsp__StatusAutomationDaysForClosed__c</name>
+    </CustomFieldTranslation>

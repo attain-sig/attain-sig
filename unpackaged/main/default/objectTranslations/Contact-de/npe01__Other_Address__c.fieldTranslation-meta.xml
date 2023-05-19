@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Formel: Die Postanschrift, wenn der primäre Adresstyp "Sonstige" lautet  Die Adresse unter "Sonstige", wenn der sekundäre Adresstyp "Sonstige" lautet</help>
+        <label><!-- Other Address --></label>
+        <name>npe01__Other_Address__c</name>
+    </CustomFieldTranslation>

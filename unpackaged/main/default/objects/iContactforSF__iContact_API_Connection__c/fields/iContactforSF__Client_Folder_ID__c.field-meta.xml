@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iContactforSF__Client_Folder_ID__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The iContact ID for the client folder you will be creating messages in. iContact will supply you with this value.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The iContact ID for the client folder you will be creating messages in. iContact will supply you with this value.</inlineHelpText>
+    <label>Client Folder ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

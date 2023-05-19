@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__All</fullName>
+    <columns>NAME</columns>
+    <columns>abacus__Transaction_Date__c</columns>
+    <columns>abacus__GL_Code__c</columns>
+    <columns>abacus__Debit_Amount__c</columns>
+    <columns>abacus__Credit_Amount__c</columns>
+    <columns>abacus__Amount__c</columns>
+    <columns>abacus__Opportunity__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>abacus__Amount__c</field>
+        <operation>equals</operation>
+        <value>200000</value>
+    </filters>
+    <label>All</label>
+</ListView>

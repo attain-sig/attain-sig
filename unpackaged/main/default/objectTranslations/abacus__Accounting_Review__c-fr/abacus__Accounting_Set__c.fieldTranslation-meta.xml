@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Les ensembles de comptabilité sont vos propres combinaisons personnalisées de champs ou d’objets qui génèrent des écritures comptables et définissent vos données financières.</help>
+        <label><!-- Accounting Set --></label>
+        <name>abacus__Accounting_Set__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Donation Adjustment Code --></label>
+        <name>Donation_Adjustment_Code__c</name>
+        <picklistValues>
+            <masterLabel>Carry-over</masterLabel>
+            <translation><!-- Carry-over --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Designation Adjustment</masterLabel>
+            <translation><!-- Designation Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donation Revision - Amount Decrease</masterLabel>
+            <translation><!-- Donation Revision - Amount Decrease --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donation Revision - Amount Increase</masterLabel>
+            <translation><!-- Donation Revision - Amount Increase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donation revision</masterLabel>
+            <translation><!-- Donation revision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entity Adjustment</masterLabel>
+            <translation><!-- Entity Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entry Error</masterLabel>
+            <translation><!-- Entry Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No adjusting entry</masterLabel>
+            <translation><!-- No adjusting entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial chargeback</masterLabel>
+            <translation><!-- Partial chargeback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial refund</masterLabel>
+            <translation><!-- Partial refund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment transfer</masterLabel>
+            <translation><!-- Payment transfer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reclass - Admin</masterLabel>
+            <translation><!-- Reclass - Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Write off – Allowance</masterLabel>
+            <translation><!-- Write off – Allowance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Write off – Bad Debt</masterLabel>
+            <translation><!-- Write off – Bad Debt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Write off – Deferred Government Revenue</masterLabel>
+            <translation><!-- Write off – Deferred Government Revenue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Write off – Revenue</masterLabel>
+            <translation><!-- Write off – Revenue --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

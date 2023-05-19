@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si cette option est activée, certains aspects de l’Ensemble de comptabilité, comme les objets sélectionnés, ne peuvent plus être mis à jour. Lorsqu’un Ensemble de comptabilité est activé au moins une fois, il apparaît comme « En cours d’utilisation ».</help>
+        <label><!-- In Use --></label>
+        <name>abacus__In_Use__c</name>
+    </CustomFieldTranslation>

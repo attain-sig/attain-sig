@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Bei nicht aktivierter Option werden Buchungsdaten sofort erstellt, wenn Benutzer Spendeninformationen hinzufügen oder aktualisieren, was die Weise ändern kann, wie Ihre Buchungsdaten generiert werden.</help>
+        <label><!-- Disable Accounting Triggers --></label>
+        <name>abacus__Process_Accounting_Data_in_Batch_Only__c</name>
+    </CustomFieldTranslation>

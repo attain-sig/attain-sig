@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Determines if this mapping should apply to Allocation Ledger Entries. --></help>
+        <label><!-- Allocation --></label>
+        <name>abacus__Pledge_Allocation__c</name>
+    </CustomFieldTranslation>

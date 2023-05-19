@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Yleinen tilikirjakoodi tälle Ledger Entry -merkinnälle. Vastaa samanlaisia kenttiä integroidussa kirjanpito-ohjelmistossa. Arvot eroavat Ledger Entry -merkintätyyppien mukaan.</help>
+        <label><!-- GL Code --></label>
+        <name>abacus__GL_Code__c</name>
+    </CustomFieldTranslation>

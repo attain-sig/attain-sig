@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The item&apos;s Salesforce Id. --></help>
+        <label><!-- Salesforce Id --></label>
+        <name>Q9__Salesforce_Id__c</name>
+    </CustomFieldTranslation>

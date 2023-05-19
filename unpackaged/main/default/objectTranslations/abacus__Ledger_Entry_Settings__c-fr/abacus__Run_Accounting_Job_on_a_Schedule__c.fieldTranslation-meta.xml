@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Active l'exécution de la tâche comptable planifiée à l'heure prévue. Si cette option n'est pas sélectionnée, la tâche planifiée n'est pas exécutée.</help>
+        <label><!-- Run Accounting Job on a Schedule --></label>
+        <name>abacus__Run_Accounting_Job_on_a_Schedule__c</name>
+    </CustomFieldTranslation>

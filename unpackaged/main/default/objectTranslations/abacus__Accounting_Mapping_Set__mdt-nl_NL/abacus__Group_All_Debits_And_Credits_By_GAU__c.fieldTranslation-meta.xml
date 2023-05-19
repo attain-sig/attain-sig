@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Alle debiterings- en crediteringsboekingen in het register worden gekoppeld aan een GAU. Er worden ook boekingen voor secundaire betalingen gemaakt, om elke Ledger Entry van een betaling te sluiten. Een Accounting Subledger Growth-licentie is vereist.</help>
+        <label><!-- Group All Debits And Credits By GAU --></label>
+        <name>abacus__Group_All_Debits_And_Credits_By_GAU__c</name>
+    </CustomFieldTranslation>

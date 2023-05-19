@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Niveau</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Niveaux</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- LevelEdit --></label>
+        <name>npsp__LevelEdit</name>
+    </fieldSets>
+    <gender>Masculine</gender>
+    <layouts>
+        <layout>Level Layout</layout>
+        <sections>
+            <label>section de texte longue</label>
+            <section>long text section</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Nom du niveau</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Target is a required field on Level.  Please specify the Target object for this Level. --></errorMessage>
+        <name>npsp__Target_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

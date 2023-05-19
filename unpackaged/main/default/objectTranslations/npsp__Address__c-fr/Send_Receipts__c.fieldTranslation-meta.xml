@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check if reports should go to this address. --></help>
+        <label><!-- Send Receipts --></label>
+        <name>Send_Receipts__c</name>
+    </CustomFieldTranslation>

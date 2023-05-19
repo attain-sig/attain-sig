@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Jos se asetetaan 1:een, kohdennuksen Ledger Entry -merkinnät luodaan jokaiselle GAU:n kohdennukselle. Jos se asetetaan 2:een, kohdennuksen Ledger Enty luodaan jokaiselle Payment-maksun kohdennukselle. Älä muokkaa.</help>
+        <label><!-- DEPRECATED - Revenue Grouping Scheme --></label>
+        <name>abacus__Revenue_Grouping_Scheme__c</name>
+    </CustomFieldTranslation>

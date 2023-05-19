@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Credit Card Type --></label>
+        <name>Credit_Card_Type__c</name>
+        <picklistValues>
+            <masterLabel>ACH</masterLabel>
+            <translation><!-- ACH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amazon</masterLabel>
+            <translation><!-- Amazon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American Express</masterLabel>
+            <translation><!-- American Express --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>American Express (MobilePay)</masterLabel>
+            <translation><!-- American Express (MobilePay) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BillMeLater</masterLabel>
+            <translation><!-- BillMeLater --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business</masterLabel>
+            <translation><!-- Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carte Blanche (MobilePay)</masterLabel>
+            <translation><!-- Carte Blanche (MobilePay) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diners Club</masterLabel>
+            <translation><!-- Diners Club --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diners Club (MobilePay)</masterLabel>
+            <translation><!-- Diners Club (MobilePay) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discover</masterLabel>
+            <translation><!-- Discover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discover (MobilePay)</masterLabel>
+            <translation><!-- Discover (MobilePay) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EFT</masterLabel>
+            <translation><!-- EFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enroute (MobilePay)</masterLabel>
+            <translation><!-- Enroute (MobilePay) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google</masterLabel>
+            <translation><!-- Google --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JCB (MobilePay)</masterLabel>
+            <translation><!-- JCB (MobilePay) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laser (MobilePay)</masterLabel>
+            <translation><!-- Laser (MobilePay) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maestro (MobilePay)</masterLabel>
+            <translation><!-- Maestro (MobilePay) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MasterCard</masterLabel>
+            <translation><!-- MasterCard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MasterCard (MobilePay)</masterLabel>
+            <translation><!-- MasterCard (MobilePay) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PayPal</masterLabel>
+            <translation><!-- PayPal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal</masterLabel>
+            <translation><!-- Personal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solo</masterLabel>
+            <translation><!-- Solo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solo (MobilePay)</masterLabel>
+            <translation><!-- Solo (MobilePay) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switch</masterLabel>
+            <translation><!-- Switch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switch (MobilePay)</masterLabel>
+            <translation><!-- Switch (MobilePay) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown (MobilePay)</masterLabel>
+            <translation><!-- Unknown (MobilePay) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visa</masterLabel>
+            <translation><!-- Visa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visa (MobilePay)</masterLabel>
+            <translation><!-- Visa (MobilePay) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visa Electron (MobilePay)</masterLabel>
+            <translation><!-- Visa Electron (MobilePay) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si està marcada aquesta entrada de llibre major es va crear a causa d'un canvi que es va produir després de la creació inicial del pagament.</help>
+        <label><!-- Adjustment? --></label>
+        <name>abacus__Adjustment__c</name>
+    </CustomFieldTranslation>

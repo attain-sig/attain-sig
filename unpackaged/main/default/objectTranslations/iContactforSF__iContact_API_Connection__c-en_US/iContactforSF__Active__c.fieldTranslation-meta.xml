@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If checked, this is the active API connection. Only one record should be marked active at any given time. --></help>
+        <label><!-- Active --></label>
+        <name>iContactforSF__Active__c</name>
+    </CustomFieldTranslation>

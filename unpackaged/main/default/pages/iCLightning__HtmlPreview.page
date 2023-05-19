@@ -1,0 +1,6 @@
+<apex:page controller="iCLightning.HtmlPreviewController" showheader="false" standardStylesheets="false">
+    <apex:outputPanel id="outputIt" rendered="{!!isLoading}">
+      <apex:outputText value="{!htmlPreview}" escape="false" />
+    </apex:outputPanel>
+
+</apex:page>

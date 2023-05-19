@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The date when the Opportunity becomes Committed, or Finalized and Won. It is set automatically if left blank. --></help>
+        <label><!-- Committed Date --></label>
+        <name>abacus__Committed_Date__c</name>
+    </CustomFieldTranslation>

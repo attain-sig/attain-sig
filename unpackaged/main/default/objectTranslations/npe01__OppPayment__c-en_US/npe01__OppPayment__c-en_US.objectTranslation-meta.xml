@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- Payment Wizard FS --></label>
+        <name>npsp__Payment_WizardFS</name>
+    </fieldSets>
+    <layouts>
+        <layout>EDF Payment Master</layout>
+        <sections>
+            <label><!-- Asset Info --></label>
+            <section>Asset Info</section>
+        </sections>
+        <sections>
+            <label><!-- Credit Card Info --></label>
+            <section>Credit Card Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Finance Info --></label>
+            <section>Finance Info</section>
+        </sections>
+        <sections>
+            <label><!-- NetSuite Info --></label>
+            <section>NetSuite Info</section>
+        </sections>
+        <sections>
+            <label><!-- Projections Info --></label>
+            <section>Projections Info</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Quick Update --></label>
+        <name>npsp__Quick_Update</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Refund --></label>
+        <name>npsp__Refund</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Payment --></label>
+        <name>Payment</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- This field cannot be edited when Paid is True. Please reach out to the Gift Processing team. --></errorMessage>
+        <name>No_Edit_if_Paid</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Schedule_Payments --></label>
+        <name>npe01__Schedule_Payments</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Writeoff_Payments --></label>
+        <name>npe01__Writeoff_Payments</name>
+    </webLinks>
+</CustomObjectTranslation>

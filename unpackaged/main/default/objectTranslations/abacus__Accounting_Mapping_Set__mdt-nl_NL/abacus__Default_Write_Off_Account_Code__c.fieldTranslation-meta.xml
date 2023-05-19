@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>De naam van de code die uw accountingsysteem gebruikt voor afgeschreven betalingen. Deze moet overeenkomen met de naam die in uw accountingsoftware wordt gebruikt.</help>
+        <label><!-- Default Write-Off Account Code --></label>
+        <name>abacus__Default_Write_Off_Account_Code__c</name>
+    </CustomFieldTranslation>

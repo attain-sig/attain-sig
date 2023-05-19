@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si activé, les enregistrements d’examen comptable sont utilisés pour déterminer les modifications (au lieu d’interroger tous les enregistrements). Les examens sont générés automatiquement au fil des modifications et sont supprimés une fois traités.</help>
+        <label><!-- Enable Accounting Review Mode --></label>
+        <name>abacus__Enable_Batch_Incremental_Mode__c</name>
+    </CustomFieldTranslation>

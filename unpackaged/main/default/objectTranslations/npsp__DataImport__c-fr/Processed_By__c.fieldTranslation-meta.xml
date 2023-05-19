@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Processed By --></label>
+        <name>Processed_By__c</name>
+        <picklistValues>
+            <masterLabel>Customer Service</masterLabel>
+            <translation><!-- Customer Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DMP</masterLabel>
+            <translation><!-- DMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development</masterLabel>
+            <translation><!-- Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donor</masterLabel>
+            <translation><!-- Donor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donor Records</masterLabel>
+            <translation><!-- Donor Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronic Billing</masterLabel>
+            <translation><!-- Electronic Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merkle</masterLabel>
+            <translation><!-- Merkle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Solutions</masterLabel>
+            <translation><!-- Payment Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telemarketer</masterLabel>
+            <translation><!-- Telemarketer --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

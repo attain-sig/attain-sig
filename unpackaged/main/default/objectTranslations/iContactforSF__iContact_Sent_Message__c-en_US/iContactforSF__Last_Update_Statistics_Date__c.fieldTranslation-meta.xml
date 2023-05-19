@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The date/time of the most recent statistics update for this message. --></help>
+        <label><!-- Deprecated --></label>
+        <name>iContactforSF__Last_Update_Statistics_Date__c</name>
+    </CustomFieldTranslation>

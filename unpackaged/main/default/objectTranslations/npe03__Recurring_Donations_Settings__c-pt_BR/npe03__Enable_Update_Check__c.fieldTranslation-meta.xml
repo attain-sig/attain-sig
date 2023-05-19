@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>OBSOLETO. Novas versões do Pacote de Sucesso para organizações sem fins lucrativos serão instaladas automaticamente.</help>
+        <label><!-- DEPRECATED-Enable Update Check --></label>
+        <name>npe03__Enable_Update_Check__c</name>
+    </CustomFieldTranslation>

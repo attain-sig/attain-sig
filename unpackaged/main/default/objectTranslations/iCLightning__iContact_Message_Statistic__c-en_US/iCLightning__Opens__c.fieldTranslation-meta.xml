@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of time this contact opened the message. --></help>
+        <label><!-- Total Opens - Lightning --></label>
+        <name>iCLightning__Opens__c</name>
+    </CustomFieldTranslation>

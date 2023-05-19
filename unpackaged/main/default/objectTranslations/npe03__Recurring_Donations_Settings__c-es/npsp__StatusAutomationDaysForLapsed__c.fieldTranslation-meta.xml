@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Después del número especificado de tías, NPSP actualiza Estado de Donación recurrente a Valor Transcurrido automatización estado si las donaciones no se están recibiendo como se esperaba.</help>
+        <label><!-- Status Automation Days for Lapsed --></label>
+        <name>npsp__StatusAutomationDaysForLapsed__c</name>
+    </CustomFieldTranslation>

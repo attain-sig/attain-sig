@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Champ décrivant comment le contact associé est connecté au contact.</help>
+        <label><!-- Type --></label>
+        <name>npe4__Type__c</name>
+        <picklistValues>
+            <masterLabel>Aunt or Uncle</masterLabel>
+            <translation><!-- Aunt or Uncle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Board Member</masterLabel>
+            <translation><!-- Board Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campaign Prospect</masterLabel>
+            <translation><!-- Campaign Prospect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child</masterLabel>
+            <translation>Enfant</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Child-In-Law</masterLabel>
+            <translation><!-- Child-In-Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client</masterLabel>
+            <translation><!-- Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Co-worker</masterLabel>
+            <translation>Collègue</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation><!-- Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cousin</masterLabel>
+            <translation>Cousin</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domestic Partner</masterLabel>
+            <translation><!-- Domestic Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Strategic Partner</masterLabel>
+            <translation><!-- EDF Strategic Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Strategic Partner Solicitor</masterLabel>
+            <translation><!-- EDF Strategic Partner Solicitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation>Employé</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer</masterLabel>
+            <translation>Employeur</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family</masterLabel>
+            <translation>Famille</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Friend</masterLabel>
+            <translation>Ami</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>God Child</masterLabel>
+            <translation><!-- God Child --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Godparent</masterLabel>
+            <translation><!-- Godparent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grandchild</masterLabel>
+            <translation>Petit-enfant</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grandchild-In-Law</masterLabel>
+            <translation><!-- Grandchild-In-Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grandparent</masterLabel>
+            <translation>Grand-parent</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grandparent-In-Law</masterLabel>
+            <translation><!-- Grandparent-In-Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Great Grandchild</masterLabel>
+            <translation><!-- Great Grandchild --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Great Grandparent</masterLabel>
+            <translation><!-- Great Grandparent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Knows</masterLabel>
+            <translation><!-- Knows --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager</masterLabel>
+            <translation><!-- Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighbor</masterLabel>
+            <translation><!-- Neighbor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nephew or Niece</masterLabel>
+            <translation><!-- Nephew or Niece --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFF - Campaign Prospect</masterLabel>
+            <translation><!-- PFF - Campaign Prospect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFF - Campaign Volunteer</masterLabel>
+            <translation><!-- PFF - Campaign Volunteer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent</masterLabel>
+            <translation>Parent</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parent-In-Law</masterLabel>
+            <translation><!-- Parent-In-Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation>Partenaire</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philanthropic Advisee</masterLabel>
+            <translation><!-- Philanthropic Advisee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philanthropic Advisor</masterLabel>
+            <translation><!-- Philanthropic Advisor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philanthropic Partner</masterLabel>
+            <translation><!-- Philanthropic Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sibling</masterLabel>
+            <translation><!-- Sibling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sibling-In-Law</masterLabel>
+            <translation><!-- Sibling-In-Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spouse</masterLabel>
+            <translation><!-- Spouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Step Child</masterLabel>
+            <translation><!-- Step Child --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Step Parent</masterLabel>
+            <translation><!-- Step Parent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Step Sibling</masterLabel>
+            <translation><!-- Step Sibling --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

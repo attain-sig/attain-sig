@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Nom de l'API del camp de l'objecte origen que s'assignarà al camp de destinació.</help>
+        <label><!-- Source Field --></label>
+        <name>abacus__Source_Field__c</name>
+    </CustomFieldTranslation>

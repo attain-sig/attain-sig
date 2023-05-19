@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>A Função de contato padrão atribuída automaticamente ao Contato primário da oportunidade quando a Conta de oportunidade é uma Conta de família, individual ou um para um.</help>
+        <label><!-- Contact Role for Individual Opps --></label>
+        <name>npe01__Opportunity_Contact_Role_Default_role__c</name>
+    </CustomFieldTranslation>

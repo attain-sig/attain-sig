@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Code Quality --></label>
+        <name>metazoa3__code_quality__c</name>
+    </CustomFieldTranslation>

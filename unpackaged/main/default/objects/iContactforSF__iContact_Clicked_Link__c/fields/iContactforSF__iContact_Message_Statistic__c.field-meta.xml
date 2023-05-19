@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iContactforSF__iContact_Message_Statistic__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>If this record is tracking an individual's link clicks, this will point to their statistics record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this record is tracking an individual's link clicks, this will point to their statistics record.</inlineHelpText>
+    <label>iContact Message Statistic</label>
+    <referenceTo>iContactforSF__iContact_Message_Statistic__c</referenceTo>
+    <relationshipLabel>iContact Clicked Links</relationshipLabel>
+    <relationshipName>iContact_Clicked_Links</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

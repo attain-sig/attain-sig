@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Deze record wordt verwerkt door de accountingbatch, omdat het is gemarkeerd door een accountingcontrole</help>
+        <label><!-- Related Record Id --></label>
+        <name>abacus__Related_Record_Id__c</name>
+    </CustomFieldTranslation>

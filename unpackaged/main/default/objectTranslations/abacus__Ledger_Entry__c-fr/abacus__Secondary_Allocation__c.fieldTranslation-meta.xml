@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Indique si l'écriture comptable est utilisée uniquement pour solder les débits et les crédits. Les tâches et les calculs de Accounting Subledger ignorent toujours cette écriture comptable. Cette fonctionnalité est réservée aux abonnements Growth.</help>
+        <label><!-- Secondary --></label>
+        <name>abacus__Secondary_Allocation__c</name>
+    </CustomFieldTranslation>

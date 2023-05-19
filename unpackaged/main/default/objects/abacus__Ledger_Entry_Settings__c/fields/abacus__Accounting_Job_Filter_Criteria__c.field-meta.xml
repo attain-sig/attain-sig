@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Accounting_Job_Filter_Criteria__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The criteria that define which records are processed when the Accounting Scheduled Job runs. Must be written in the form of a SOQL query WHERE clause.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Defines the records processed by the Accounting Scheduled Job. Must be written in the form of a SOQL query WHERE clause.</inlineHelpText>
+    <label>Accounting Job Filter Criteria</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

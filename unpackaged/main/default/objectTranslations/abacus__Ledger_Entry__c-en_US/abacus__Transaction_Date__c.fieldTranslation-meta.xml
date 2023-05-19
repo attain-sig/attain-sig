@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For Transaction and Payment Ledger Entries, the date that the payment is made or reversed. For Allocation Ledger Entries, the date that the gift was pledged. --></help>
+        <label><!-- Transaction Date --></label>
+        <name>abacus__Transaction_Date__c</name>
+    </CustomFieldTranslation>

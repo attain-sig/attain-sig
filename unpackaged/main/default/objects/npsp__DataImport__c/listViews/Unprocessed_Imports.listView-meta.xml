@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unprocessed_Imports</fullName>
+    <columns>npsp__NPSP_Data_Import_Batch__c</columns>
+    <columns>npsp__Status__c</columns>
+    <columns>npsp__Account1_Name__c</columns>
+    <columns>Entity__c</columns>
+    <columns>npsp__Donation_Date__c</columns>
+    <columns>Posted__c</columns>
+    <columns>Payment_Method_custom__c</columns>
+    <columns>NetSuite_Bank_Account__c</columns>
+    <columns>NAME</columns>
+    <columns>npsp__Donation_Amount__c</columns>
+    <columns>npsp__Donation_Name__c</columns>
+    <columns>npsp__PaymentImportStatus__c</columns>
+    <columns>Received_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>npsp__DataImport__c.NPSP_Data_Import</value>
+    </filters>
+    <filters>
+        <field>Processed_By__c</field>
+        <operation>equals</operation>
+        <value>Merkle</value>
+    </filters>
+    <filters>
+        <field>Payment_Method_custom__c</field>
+        <operation>equals</operation>
+        <value>Cash,Check</value>
+    </filters>
+    <filters>
+        <field>npsp__NPSP_Data_Import_Batch__c</field>
+        <operation>contains</operation>
+        <value>032023</value>
+    </filters>
+    <label>Unprocessed Imports</label>
+</ListView>

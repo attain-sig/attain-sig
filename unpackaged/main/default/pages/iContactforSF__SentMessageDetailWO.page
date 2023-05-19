@@ -1,0 +1,7 @@
+<apex:page standardController="iContactforSF__iContact_Sent_Message__c">
+ 	<apex:pageblock >
+		‘Disable Sharing’ is no longer supported by Salesforce for security reasons and has been removed. Please disable this feature by visiting the ‘iContact Setup’ tab and uncheck the box next to ‘Disable Sharing Rules’ in order to continue using iContact for Salesforce.
+		<br/><br/>
+		Please contact our support team at our domestic line 1 (866) 331-3208 or our international line +19199576070 for more information.g>
+	</apex:pageblock>
+</apex:page>

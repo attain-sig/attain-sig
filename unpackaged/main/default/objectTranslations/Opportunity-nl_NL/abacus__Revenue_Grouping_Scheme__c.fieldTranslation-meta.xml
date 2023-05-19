@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Als dit wordt ingesteld op 1, wordt een toewijzingsregisterboeking gemaakt voor elke GAU-toewijzing. Als het op 2 wordt ingesteld, wordt een toewijzingsregisterboeking gemaakt voor elke betalingstoewijzing. Bewerk dit niet.</help>
+        <label><!-- DEPRECATED - Revenue Grouping Scheme --></label>
+        <name>abacus__Revenue_Grouping_Scheme__c</name>
+    </CustomFieldTranslation>

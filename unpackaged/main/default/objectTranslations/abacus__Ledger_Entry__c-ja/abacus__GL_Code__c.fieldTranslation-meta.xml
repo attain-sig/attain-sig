@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>この台帳エントリの一般台帳コード。 統合された会計ソフトウェアの類似項目に対応します。 台帳エントリのタイプによって値が異なります。</help>
+        <label><!-- GL Code --></label>
+        <name>abacus__GL_Code__c</name>
+    </CustomFieldTranslation>

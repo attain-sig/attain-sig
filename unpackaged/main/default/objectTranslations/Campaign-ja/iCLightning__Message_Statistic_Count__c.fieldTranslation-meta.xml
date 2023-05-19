@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total number of messages in &quot;Released&quot; status, which are used for the rate averages for the campaign. --></help>
+        <label><!-- Message Statistic Count - Lightning --></label>
+        <name>iCLightning__Message_Statistic_Count__c</name>
+    </CustomFieldTranslation>

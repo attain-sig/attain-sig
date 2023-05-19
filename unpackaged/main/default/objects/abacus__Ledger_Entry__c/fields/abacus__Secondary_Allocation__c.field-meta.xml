@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Secondary_Allocation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates this Ledger Entry is only used for balancing debits and credits. Accounting Subledger's jobs and calculations always ignore this Ledger Entry. This functionality is for Growth subscriptions only.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates this Ledger Entry is only used for balancing debits and credits. Accounting Subledger's jobs and calculations always ignore this Ledger Entry. This functionality is for Growth subscriptions only.</inlineHelpText>
+    <label>Secondary</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

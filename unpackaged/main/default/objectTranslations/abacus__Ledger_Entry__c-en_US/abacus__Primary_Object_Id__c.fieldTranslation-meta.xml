@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The ID of the primary object record as indicated in the accounting set that this record was created with. --></help>
+        <label><!-- Primary Object Id --></label>
+        <name>abacus__Primary_Object_Id__c</name>
+    </CustomFieldTranslation>

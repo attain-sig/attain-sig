@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Se habilitado, o Salesforce cria automaticamente Pagamentos para novas Oportunidades (Doações).</help>
+        <label><!-- Automatic Payment Creation --></label>
+        <name>npe01__Payments_Enabled__c</name>
+    </CustomFieldTranslation>

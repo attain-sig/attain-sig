@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The reason this record has been flagged for review and processing by Accounting Subledger. --></help>
+        <label><!-- Reason --></label>
+        <name>abacus__Reason__c</name>
+    </CustomFieldTranslation>

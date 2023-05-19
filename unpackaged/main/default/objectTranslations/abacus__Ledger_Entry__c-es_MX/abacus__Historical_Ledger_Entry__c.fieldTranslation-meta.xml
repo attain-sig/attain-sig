@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Si está marcada, este Asiento de libro mayor se excluye de nuevos cálculos porque fue sustituido por uno o más Asientos de libro mayor posteriores.</help>
+        <label><!-- Historical Ledger Entry --></label>
+        <name>abacus__Historical_Ledger_Entry__c</name>
+    </CustomFieldTranslation>

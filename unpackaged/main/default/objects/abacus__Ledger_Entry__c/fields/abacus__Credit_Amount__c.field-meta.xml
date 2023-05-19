@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Credit_Amount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The transaction amount, only for credit Ledger Entries. This functionality is for Growth subscriptions only.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The transaction amount, only for credit Ledger Entries. This functionality is for Growth subscriptions only.</inlineHelpText>
+    <label>Credit Amount</label>
+    <precision>14</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

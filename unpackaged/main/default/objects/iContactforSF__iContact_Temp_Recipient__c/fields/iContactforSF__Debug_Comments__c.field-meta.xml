@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iContactforSF__Debug_Comments__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The comments associated with the debug log.</description>
+    <externalId>false</externalId>
+    <label>Debug Comments</label>
+    <length>32000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

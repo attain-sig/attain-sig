@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Standard Payment Ledger Entries relate to their corresponding Transaction Ledger Entries. In contrast, Ledger Entries that are corrections instead relate to the corrected record. --></help>
+        <label><!-- Related Ledger Entry --></label>
+        <name>abacus__Related_Ledger_Entry__c</name>
+        <relationshipLabel><!-- Ledger Entries --></relationshipLabel>
+    </CustomFieldTranslation>

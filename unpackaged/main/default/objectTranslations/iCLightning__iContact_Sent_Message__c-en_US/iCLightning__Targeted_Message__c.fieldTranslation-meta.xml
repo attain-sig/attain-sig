@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If this was a targeted send, contains a link to the message that the targets were based on. --></help>
+        <label><!-- Targeted Message --></label>
+        <name>iCLightning__Targeted_Message__c</name>
+        <relationshipLabel><!-- iContact Email Messages - Lightning --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Der Grund, warum dieser Datensatz zur Überprüfung und Verarbeitung durch Accounting Subledger gekennzeichnet wurde.</help>
+        <label><!-- Reason --></label>
+        <name>abacus__Reason__c</name>
+    </CustomFieldTranslation>

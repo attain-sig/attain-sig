@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Mapping_Behavior_is_Required</fullName>
+    <active>true</active>
+    <description>A Mapping Behavior is Required to save.</description>
+    <errorConditionFormula>AND(NOT(abacus__IsDeleted__c), ISBLANK(TEXT(abacus__Mapping_Behavior__c)))</errorConditionFormula>
+    <errorDisplayField>abacus__Mapping_Behavior__c</errorDisplayField>
+    <errorMessage>You must select a Mapping Behavior.</errorMessage>
+</ValidationRule>

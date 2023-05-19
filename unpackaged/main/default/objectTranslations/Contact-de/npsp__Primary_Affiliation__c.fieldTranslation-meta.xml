@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Wird zur Verfolgung des Account des Datensatzes mit der Unternehmenszugehörigkeit des Kontakts verwendet</help>
+        <label><!-- Primary Affiliation --></label>
+        <name>npsp__Primary_Affiliation__c</name>
+        <relationshipLabel><!-- Do Not Use.  Use Organization Affiliations. --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iContactforSF__View_Spam_Score__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Checking this checkbox will display the Spam Check Score of a email template before it is sent out.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checking this checkbox will display the Spam Check Score of a email template before it is sent out.</inlineHelpText>
+    <label>View Spam Score</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

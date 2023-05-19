@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iCLightning__Clicks__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Number of message clicks as reported from iContact.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Total clicks reports the total number of times that anyone has clicked on a link in your message. For instance, if 5 people click on one link and one more person clicks on 5 links, the total clicks would be 10.</inlineHelpText>
+    <label>Total Clicks</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

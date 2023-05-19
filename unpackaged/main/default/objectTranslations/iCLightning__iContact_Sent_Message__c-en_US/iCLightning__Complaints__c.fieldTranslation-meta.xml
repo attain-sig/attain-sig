@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The number of complaints refers to the number of people who reported your message as spam in their email client. --></help>
+        <label><!-- Complaints --></label>
+        <name>iCLightning__Complaints__c</name>
+    </CustomFieldTranslation>

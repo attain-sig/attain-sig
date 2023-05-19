@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Määrittää pitäisikö tätä kartoitusta käyttää maksun tilikirjamerkinnöissä.</help>
+        <label><!-- Payment --></label>
+        <name>abacus__Pledge_Allocation_Payment__c</name>
+    </CustomFieldTranslation>

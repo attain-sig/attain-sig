@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Als een betaling is voldaan en er geen betalingswijze is gekozen, wordt de betalingswijze automatisch op deze waarde ingesteld. Als deze instelling leeg is, blijft de betalingswijze leeg. Deze instelling geldt alleen voor het betaalobject van NPSP.</help>
+        <label><!-- Default Payment Method (NPSP Payment) --></label>
+        <name>abacus__Default_Payment_Method__c</name>
+    </CustomFieldTranslation>

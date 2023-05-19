@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Per a les entrades del llibre major de transaccions i pagaments, la data en què es va efectuar o invertir el pagament. Per a les entrades del llibre major d’assignació, la data en què es va comprometre el regal.</help>
+        <label><!-- Transaction Date --></label>
+        <name>abacus__Transaction_Date__c</name>
+    </CustomFieldTranslation>

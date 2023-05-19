@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Wenn eine Zahlung als "Geleistet" markiert ist und keine Zahlungsmethode gewählt wurde, wird die Zahlungsmethode automatisch auf diesen Wert gesetzt. Bei leerer Einstellung bleibt die Zahlungsmethode leer. Betrifft nur Zahlungen des NPSP-Zahlungsobjekts.</help>
+        <label><!-- Default Payment Method (NPSP Payment) --></label>
+        <name>abacus__Default_Payment_Method__c</name>
+    </CustomFieldTranslation>

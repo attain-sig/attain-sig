@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If this link&apos;s statistic was associated to a Contact record, this field points to that Contact. --></help>
+        <label><!-- Contact --></label>
+        <name>iContactforSF__Contact__c</name>
+        <relationshipLabel><!-- iContact Clicked Links --></relationshipLabel>
+    </CustomFieldTranslation>

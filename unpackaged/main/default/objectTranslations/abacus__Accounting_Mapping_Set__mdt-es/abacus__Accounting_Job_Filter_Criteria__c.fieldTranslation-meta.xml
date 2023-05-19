@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Define los registros procesados por el trabajo programado de contabilidad. Debe redactarse en la forma de una instrucción WHERE de una consulta SOQL.</help>
+        <label><!-- Accounting Job Filter Criteria --></label>
+        <name>abacus__Accounting_Job_Filter_Criteria__c</name>
+    </CustomFieldTranslation>

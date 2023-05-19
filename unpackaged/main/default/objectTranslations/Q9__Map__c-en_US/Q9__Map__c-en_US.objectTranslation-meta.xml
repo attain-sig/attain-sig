@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    <layouts>
+        <layout>Q9 Elements Map Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Map View --></label>
+            <section>Map View</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Elements Diagram Id must be positive integer value. --></errorMessage>
+        <name>Q9__ElementsDiagramIdIsPossitive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The value should be positive integer number. --></errorMessage>
+        <name>Q9__IsPossitiveNumber</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Should be 24 characters long and should contain only numbers and letters --></errorMessage>
+        <name>Q9__ValidDiagramId</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Open_in_Elements --></label>
+        <name>Q9__Open_in_Elements</name>
+    </webLinks>
+</CustomObjectTranslation>

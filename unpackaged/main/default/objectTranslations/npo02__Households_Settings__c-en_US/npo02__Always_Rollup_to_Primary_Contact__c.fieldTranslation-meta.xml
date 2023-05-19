@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Always rollup donor statistics to the primary Contact Role, and corresponding household, on an opportunity, even if the opportunity is not from an individual (i.e. from a company, foundation, etc.) --></help>
+        <label><!-- Always Rollup to Primary Contact Role --></label>
+        <name>npo02__Always_Rollup_to_Primary_Contact__c</name>
+    </CustomFieldTranslation>

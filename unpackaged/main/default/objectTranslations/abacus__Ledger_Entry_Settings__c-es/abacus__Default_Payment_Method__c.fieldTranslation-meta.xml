@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Cuando un pago se marca como realizado y no se elige un método de pago, el método de pago se establece automáticamente en este valor. Si el parámetro está en blanco, el método de pago se deja en blanco. Solo se aplica al objeto Pago de NPSP.</help>
+        <label><!-- Default Payment Method (NPSP Payment) --></label>
+        <name>abacus__Default_Payment_Method__c</name>
+    </CustomFieldTranslation>

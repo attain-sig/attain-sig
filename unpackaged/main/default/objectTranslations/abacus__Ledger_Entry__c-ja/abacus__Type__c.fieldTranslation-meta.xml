@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>台帳エントリのタイプ: 割当、支払、またはトランザクション。</help>
+        <label><!-- Type --></label>
+        <name>abacus__Type__c</name>
+        <picklistValues>
+            <masterLabel>Allocation</masterLabel>
+            <translation>割り当て</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment</masterLabel>
+            <translation>支払</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transaction</masterLabel>
+            <translation>トランザクション</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

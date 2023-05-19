@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Written_Off__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates that a pledged amount will not be fulfilled. This field is selected when the Payment is written off, along with its related Transaction and Payment Ledger Entries.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates that a pledged amount will not be fulfilled. This field is selected when the Payment is written off, along with its related Transaction and Payment Ledger Entries.</inlineHelpText>
+    <label>Written Off</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

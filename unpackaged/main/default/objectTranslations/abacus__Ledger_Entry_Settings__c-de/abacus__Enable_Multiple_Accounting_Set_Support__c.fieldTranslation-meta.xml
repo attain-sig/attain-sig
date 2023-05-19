@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Aktiviert Unterstützung für mehrere aktive Buchhaltungssätze. Nach der Aktivierung müssen bestimmte Einstellungen, die bisher global waren, jetzt für jeden aktiven Buchhaltungssatz konfiguriert werden.</help>
+        <label><!-- Enable Multiple Accounting Set Support --></label>
+        <name>abacus__Enable_Multiple_Accounting_Set_Support__c</name>
+    </CustomFieldTranslation>

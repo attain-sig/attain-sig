@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Especifica quais Contatos terão objetos de família criados automaticamente para eles. Observe que isso só é usado para Contatos que usam o Modelo de conta individual ou um para um. Isso é ignorado para Contatos com o Modelo de conta de família.</help>
+        <label><!-- Household Object Rules --></label>
+        <name>npo02__Household_Rules__c</name>
+    </CustomFieldTranslation>

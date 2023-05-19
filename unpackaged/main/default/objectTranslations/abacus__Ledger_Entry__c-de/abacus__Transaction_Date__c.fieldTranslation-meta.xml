@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Bei Hauptbucheinträgen zu Transaktionen und Zahlungen das Datum, an dem die Zahlung geleistet oder rückgängig gemacht wird. Bei Hauptbucheinträgen zu Zuordnungen das Datum, an dem die Schenkung zugesagt wurde.</help>
+        <label><!-- Transaction Date --></label>
+        <name>abacus__Transaction_Date__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>48.0</apiVersion>
+    <description>A component to be included into custom VisualForce page, which then  added to a Sobject layout to show Elements diagram on it.</description>
+    <label>Elements Extension Component</label>
+</ApexComponent>

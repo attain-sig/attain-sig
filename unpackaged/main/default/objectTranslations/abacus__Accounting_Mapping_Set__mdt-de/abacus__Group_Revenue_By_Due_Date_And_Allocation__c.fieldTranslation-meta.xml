@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Falls deaktiviert, wird für jeden Fonds ein Hauptbucheintrag für Zuordnungen erstellt. Falls aktiviert, wird für jeden Fonds und jeden geplanten Zahlungstermin ein Hauptbucheintrag für Zuordnungen erstellt.</help>
+        <label><!-- Group Revenue By Due Date And Allocation --></label>
+        <name>abacus__Group_Revenue_By_Due_Date_And_Allocation__c</name>
+    </CustomFieldTranslation>

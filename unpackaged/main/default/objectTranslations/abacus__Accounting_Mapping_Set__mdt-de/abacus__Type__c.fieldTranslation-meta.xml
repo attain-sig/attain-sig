@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Steuert, ob die für diesen Buchhaltungssatz erstellten Buchungsdaten als Einnahmen oder als Ausgaben angesehen werden sollen.</help>
+        <label><!-- Type --></label>
+        <name>abacus__Type__c</name>
+        <picklistValues>
+            <masterLabel>Expense</masterLabel>
+            <translation>Ausgaben</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revenue</masterLabel>
+            <translation>Einnahmen</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

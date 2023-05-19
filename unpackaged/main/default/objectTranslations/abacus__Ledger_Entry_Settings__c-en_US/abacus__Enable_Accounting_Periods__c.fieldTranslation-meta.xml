@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enables the Accounting Period object and all related functionality. Requires an Accounting Subledger Growth Edition license. --></help>
+        <label><!-- Enable Accounting Periods --></label>
+        <name>abacus__Enable_Accounting_Periods__c</name>
+    </CustomFieldTranslation>

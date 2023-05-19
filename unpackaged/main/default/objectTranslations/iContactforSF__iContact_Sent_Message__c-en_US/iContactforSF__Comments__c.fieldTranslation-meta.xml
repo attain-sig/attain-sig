@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of message comments as reported from iContact. --></help>
+        <label><!-- Comments --></label>
+        <name>iContactforSF__Comments__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>複数の有効な会計セットのサポートを有効にします。有効にしたら、以前はグローバルであった特定の設定は、有効な各会計セットで設定する必要があります。</help>
+        <label><!-- Enable Multiple Accounting Set Support --></label>
+        <name>abacus__Enable_Multiple_Accounting_Set_Support__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>El nom del compte acumulat predeterminat del vostre sistema de comptabilitat. Hauria de coincidir amb el nom utilitzat al vostre programari de comptabilitat. Requereix una llicència d'Accounting Subledger Growth Edition.</help>
+        <label><!-- Default Accrued Account Code --></label>
+        <name>abacus__Default_Accrued_Account_Code__c</name>
+    </CustomFieldTranslation>

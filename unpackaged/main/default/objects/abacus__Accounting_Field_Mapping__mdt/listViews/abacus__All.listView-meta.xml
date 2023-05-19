@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__All</fullName>
+    <columns>MasterLabel</columns>
+    <columns>abacus__Source_Object__c</columns>
+    <columns>abacus__Source_Field__c</columns>
+    <columns>abacus__Destination_Object__c</columns>
+    <columns>abacus__Destination_Field__c</columns>
+    <columns>abacus__Mapping_Behavior__c</columns>
+    <columns>abacus__Payment_Transaction__c</columns>
+    <columns>abacus__Pledge_Allocation__c</columns>
+    <columns>abacus__Pledge_Allocation_Payment__c</columns>
+    <columns>abacus__IsDeleted__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

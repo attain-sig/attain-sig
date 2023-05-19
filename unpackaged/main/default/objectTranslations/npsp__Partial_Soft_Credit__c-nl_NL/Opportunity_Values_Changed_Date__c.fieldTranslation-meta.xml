@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Using this field to help trigger recalculation of DLRS rollups. --></help>
+        <label><!-- Opportunity Values Changed Date --></label>
+        <name>Opportunity_Values_Changed_Date__c</name>
+    </CustomFieldTranslation>

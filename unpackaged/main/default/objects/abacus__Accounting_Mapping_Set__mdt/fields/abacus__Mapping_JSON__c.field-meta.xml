@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Mapping_JSON__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The JSON string used when creating your field mapping.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>This JSON will be used to transmit financial data to your Accounting Engine.</inlineHelpText>
+    <label>Mapping JSON</label>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

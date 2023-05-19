@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iCLightning__Invalid_Endpoint_URL</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(BEGINS(iCLightning__Endpoint_URL__c, 'https://') || BEGINS(iCLightning__Endpoint_URL__c, 'http://'))</errorConditionFormula>
+    <errorDisplayField>iCLightning__Endpoint_URL__c</errorDisplayField>
+    <errorMessage>Invalid Endpoint URL</errorMessage>
+</ValidationRule>

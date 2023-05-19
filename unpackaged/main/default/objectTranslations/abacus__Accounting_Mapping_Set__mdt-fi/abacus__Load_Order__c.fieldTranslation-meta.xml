@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Jos sinulla on enemmän kuin yksi kirjanpitojoukko, latausjärjestyksesi määrittää niiden suoritusjärjestyksen. Pienemmällä numerolla oleva suoritetaan ensin. Esimerkiksi latausjärjestys 1 ajetaan ennen latausjärjestys 2:ta.</help>
+        <label><!-- Load Order --></label>
+        <name>abacus__Load_Order__c</name>
+    </CustomFieldTranslation>

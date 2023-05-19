@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>L'oportunitat amb què està relacionada aquesta entrada de llibre major.</help>
+        <label><!-- Opportunity --></label>
+        <name>abacus__Opportunity__c</name>
+        <relationshipLabel><!-- Ledger Entries --></relationshipLabel>
+    </CustomFieldTranslation>

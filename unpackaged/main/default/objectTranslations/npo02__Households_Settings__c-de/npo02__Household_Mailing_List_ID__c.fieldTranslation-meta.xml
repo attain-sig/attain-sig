@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Die Berichtskennung des Berichts zur Haushalt-Mailingliste, die zur Entfernung von Haushalt-Duplikaten in den Kampagnen-Mailinglisten verwendet wird. Der Bericht sollte für Kampagnen mit Kontakten mit Mitgliederstatus ohne "Duplikate" verwendet werden.</help>
+        <label><!-- Household Mailing List Report --></label>
+        <name>npo02__Household_Mailing_List_ID__c</name>
+    </CustomFieldTranslation>

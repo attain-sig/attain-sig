@@ -91,6 +91,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.npo02__FirstCloseDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.of_Donations_this_FY_Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -247,6 +252,26 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Total_Gifts_and_Payments_Current_FY__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.npo02__NumberOfClosedOpps__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.npsp__First_Soft_Credit_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.npsp__First_Soft_Credit_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.npsp__Number_of_Soft_Credits__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

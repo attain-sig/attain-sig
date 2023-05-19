@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type --></label>
+        <name>Q9__Type__c</name>
+        <picklistValues>
+            <masterLabel>Data Population</masterLabel>
+            <translation><!-- Data Population --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Picklist Values Population</masterLabel>
+            <translation><!-- Picklist Values Population --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

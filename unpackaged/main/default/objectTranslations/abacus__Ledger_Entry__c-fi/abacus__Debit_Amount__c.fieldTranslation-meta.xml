@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Transaktion summa ainoastaan Ledger Entriesin deditille. Toiminto on ainoastaan kasvutilauksille.</help>
+        <label><!-- Debit Amount --></label>
+        <name>abacus__Debit_Amount__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Détermine si ce mappage doit s’appliquer aux écritures comptables Paiement.</help>
+        <label><!-- Payment --></label>
+        <name>abacus__Pledge_Allocation_Payment__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unprocessed_Imports_Bulk_Updates</fullName>
+    <columns>RECORDTYPE</columns>
+    <columns>NAME</columns>
+    <columns>npsp__Status__c</columns>
+    <columns>npsp__FailureInformation__c</columns>
+    <columns>npsp__Contact1_Firstname__c</columns>
+    <columns>npsp__Contact1_Lastname__c</columns>
+    <columns>npsp__Account1_Name__c</columns>
+    <columns>Entity__c</columns>
+    <columns>NetSuite_Bank_Account__c</columns>
+    <columns>Package_Code__c</columns>
+    <columns>Action_Code__c</columns>
+    <columns>Received_Date__c</columns>
+    <columns>npsp__Donation_Date__c</columns>
+    <columns>npsp__PaymentImported__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>npsp__NPSP_Data_Import_Batch__c</field>
+        <operation>equals</operation>
+        <value>EDFC3MON12132022_3</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>npsp__DataImport__c.NPSP_Data_Import</value>
+    </filters>
+    <filters>
+        <field>npsp__DonationCampaignImported__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>npsp__Status__c</field>
+        <operation>equals</operation>
+        <value>Failed</value>
+    </filters>
+    <label>Unprocessed Imports-Bulk Updates</label>
+</ListView>

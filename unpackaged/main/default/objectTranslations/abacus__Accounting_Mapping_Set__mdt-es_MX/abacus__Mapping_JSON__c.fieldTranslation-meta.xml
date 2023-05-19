@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Este JSON se utilizará para transmitir datos financieros a su motor de contabilidad.</help>
+        <label><!-- Mapping JSON --></label>
+        <name>abacus__Mapping_JSON__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The total number of campaign members the campaign had when this message was sent. --></help>
+        <label><!-- Campaign Member Count --></label>
+        <name>iContactforSF__Campaign_Member_Count__c</name>
+    </CustomFieldTranslation>

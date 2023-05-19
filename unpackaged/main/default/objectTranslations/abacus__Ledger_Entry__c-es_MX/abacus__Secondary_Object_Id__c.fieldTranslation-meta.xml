@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>El Id. del registro del objeto secundario como se indica en el conjunto de contabilidad con el que se creó este registro.</help>
+        <label><!-- Secondary Object Id --></label>
+        <name>abacus__Secondary_Object_Id__c</name>
+    </CustomFieldTranslation>

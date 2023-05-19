@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>El número máximo de registros procesados en un único lote por el trabajo programado de contabilidad. Si no se especifica, el valor predeterminado es 200.</help>
+        <label><!-- Accounting Job Batch Size --></label>
+        <name>abacus__Accounting_Job_Batch_Size__c</name>
+    </CustomFieldTranslation>

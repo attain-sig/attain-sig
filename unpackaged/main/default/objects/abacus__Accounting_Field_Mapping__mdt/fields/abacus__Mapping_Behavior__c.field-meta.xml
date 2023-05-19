@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Mapping_Behavior__c</fullName>
+    <defaultValue>'Current Value'</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The behavior regarding how the Destination Field's data is maintained.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If set to Point-in-Time, the Destination Field's data is mapped from the Source Field only when the Ledger Entry is created. If set to Current Value, Accounting Subledger reverses and replaces Ledger Entries when the Source Field is updated.</inlineHelpText>
+    <label>Mapping Behavior</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Point-in-Time</fullName>
+                <default>false</default>
+                <label>Point-in-Time</label>
+            </value>
+            <value>
+                <fullName>Current Value</fullName>
+                <default>true</default>
+                <label>Current Value</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

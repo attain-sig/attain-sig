@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__GL_Code__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The general ledger code for this Ledger Entry. Corresponds to similar fields in integrated accounting software. Values differ based on the Ledger Entry’s Type.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The general ledger code for this Ledger Entry. Corresponds to similar fields in integrated accounting software. Values differ based on the Ledger Entry’s Type.</inlineHelpText>
+    <label>GL Code</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

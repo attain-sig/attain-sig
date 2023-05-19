@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Als dit is ingeschakeld, stelt Accounting Subledger wijzigingen vast met accountingcontrole i.p.v. door alle records op te vragen. Accountingcontroles worden automatisch gegenereerd terwijl uw gegevens veranderen en worden verwijderd na verwerking.</help>
+        <label><!-- Enable Accounting Review Mode --></label>
+        <name>abacus__Enable_Batch_Incremental_Mode__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The second success threshold for open rate, where yellow becomes green on the dashboard gauge. --></help>
+        <label><!-- Open Rate Success % --></label>
+        <name>iCLightning__Open_Rate_Success_Threshold_2__c</name>
+    </CustomFieldTranslation>

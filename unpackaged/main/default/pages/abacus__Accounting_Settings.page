@@ -1,0 +1,5 @@
+<apex:page >
+    <apex:includeLightning />
+    <h1>Accounting Settings Visualforce Page Deprecated</h1>
+    <p>Functionality replaced by LWC component</p>
+</apex:page>

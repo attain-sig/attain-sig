@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Standaard registerboekingen van betalingen zijn gerelateerd aan de bijbehorende registerboekingen van transacties. Registerboekingen die correcties betreffen zijn daarentegen gerelateerd aan de gecorrigeerde record.</help>
+        <label><!-- Related Ledger Entry --></label>
+        <name>abacus__Related_Ledger_Entry__c</name>
+        <relationshipLabel><!-- Ledger Entries --></relationshipLabel>
+    </CustomFieldTranslation>

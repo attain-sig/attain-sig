@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iCLightning__iContact_Sent_Message__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>iContact Email Message - Lightning</label>
+    <referenceTo>iCLightning__iContact_Sent_Message__c</referenceTo>
+    <relationshipLabel>iContact Message Statistics - Lightning</relationshipLabel>
+    <relationshipName>iContact_Message_Statistics</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <securityClassification>Public</securityClassification>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

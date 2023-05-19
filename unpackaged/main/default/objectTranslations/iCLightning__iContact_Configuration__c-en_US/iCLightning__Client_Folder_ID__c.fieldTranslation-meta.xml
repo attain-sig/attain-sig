@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The iContact ID for the client folder you will be creating messages in. iContact will supply you with this value. --></help>
+        <label><!-- Client Folder ID --></label>
+        <name>iCLightning__Client_Folder_ID__c</name>
+    </CustomFieldTranslation>

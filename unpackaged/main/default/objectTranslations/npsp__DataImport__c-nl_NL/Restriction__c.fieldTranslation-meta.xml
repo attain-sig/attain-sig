@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Restriction --></label>
+        <name>Restriction__c</name>
+        <picklistValues>
+            <masterLabel>With Donor Restrictions: Permanently Restricted</masterLabel>
+            <translation><!-- With Donor Restrictions: Permanently Restricted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>With Donor Restrictions: Temporarily Restricted</masterLabel>
+            <translation><!-- With Donor Restrictions: Temporarily Restricted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Without Donor Restrictions: Available for Operations</masterLabel>
+            <translation><!-- Without Donor Restrictions: Available for Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Without Donor Restrictions: Planned Giving</masterLabel>
+            <translation><!-- Without Donor Restrictions: Planned Giving --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

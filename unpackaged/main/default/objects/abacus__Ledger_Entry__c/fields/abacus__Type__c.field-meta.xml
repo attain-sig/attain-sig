@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The type of Ledger Entry: Allocation, Payment, or Transaction.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The type of Ledger Entry: Allocation, Payment, or Transaction.</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Allocation</fullName>
+                <default>false</default>
+                <label>Allocation</label>
+            </value>
+            <value>
+                <fullName>Payment</fullName>
+                <default>false</default>
+                <label>Payment</label>
+            </value>
+            <value>
+                <fullName>Transaction</fullName>
+                <default>false</default>
+                <label>Transaction</label>
+            </value>
+            <value>
+                <fullName>Payment Transaction</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Payment Transaction</label>
+            </value>
+            <value>
+                <fullName>Pledge Allocation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pledge Allocation</label>
+            </value>
+            <value>
+                <fullName>Pledge Allocation Payment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pledge Allocation Payment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

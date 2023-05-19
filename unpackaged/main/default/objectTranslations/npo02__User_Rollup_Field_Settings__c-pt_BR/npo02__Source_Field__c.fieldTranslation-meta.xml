@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>O campo de origem e a ação do objeto para esta totalização do usuário</help>
+        <label><!-- Source Field --></label>
+        <name>npo02__Source_Field__c</name>
+    </CustomFieldTranslation>

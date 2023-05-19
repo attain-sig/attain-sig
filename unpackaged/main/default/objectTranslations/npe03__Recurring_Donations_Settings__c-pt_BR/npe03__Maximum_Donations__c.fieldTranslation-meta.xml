@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Restringe o número total de doações criadas para doações recorrentes de prazo determinado. O padrão é 50. Valores maiores podem resultar em erros de DML.</help>
+        <label><!-- Maximum Donations --></label>
+        <name>npe03__Maximum_Donations__c</name>
+    </CustomFieldTranslation>

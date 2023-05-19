@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Writer Assigned --></label>
+        <name>Writer_Assigned__c</name>
+        <picklistValues>
+            <masterLabel>Ali Rieck</masterLabel>
+            <translation><!-- Ali Rieck --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allison Cobb</masterLabel>
+            <translation><!-- Allison Cobb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allison Cobb;Jennifer Freeman;Lucy Henry;Gabrielle Antoniadis</masterLabel>
+            <translation><!-- Allison Cobb;Jennifer Freeman;Lucy Henry;Gabrielle Antoniadis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allison Cobb;Lucy Henry</masterLabel>
+            <translation><!-- Allison Cobb;Lucy Henry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andrea Norris</masterLabel>
+            <translation><!-- Andrea Norris --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ashley Lough</masterLabel>
+            <translation><!-- Ashley Lough --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Camille de la Vega</masterLabel>
+            <translation><!-- Camille de la Vega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dana Weidig</masterLabel>
+            <translation><!-- Dana Weidig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emily Whitted</masterLabel>
+            <translation><!-- Emily Whitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erica Reed</masterLabel>
+            <translation><!-- Erica Reed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erika Reuter</masterLabel>
+            <translation><!-- Erika Reuter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erika Reuter;Laura Lea Rubino</masterLabel>
+            <translation><!-- Erika Reuter;Laura Lea Rubino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erin Van Alsten</masterLabel>
+            <translation><!-- Erin Van Alsten --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gabrielle Antoniadis</masterLabel>
+            <translation><!-- Gabrielle Antoniadis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gordon Olson</masterLabel>
+            <translation><!-- Gordon Olson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jason Martin</masterLabel>
+            <translation><!-- Jason Martin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jason Martin;Jennifer Freeman;Jen Coleman;Laura Lea Rubino</masterLabel>
+            <translation><!-- Jason Martin;Jennifer Freeman;Jen Coleman;Laura Lea Rubino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jason Martin;Lisa Fullerton;Jen Coleman</masterLabel>
+            <translation><!-- Jason Martin;Lisa Fullerton;Jen Coleman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jason Martin;Lucy Henry</masterLabel>
+            <translation><!-- Jason Martin;Lucy Henry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jen Coleman</masterLabel>
+            <translation><!-- Jen Coleman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jennifer Freeman</masterLabel>
+            <translation><!-- Jennifer Freeman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jennifer Freeman;Jen Coleman</masterLabel>
+            <translation><!-- Jennifer Freeman;Jen Coleman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jennifer Freeman;Jen Coleman;Erika Reuter</masterLabel>
+            <translation><!-- Jennifer Freeman;Jen Coleman;Erika Reuter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jennifer Freeman;Jen Coleman;Laura Lea Rubino</masterLabel>
+            <translation><!-- Jennifer Freeman;Jen Coleman;Laura Lea Rubino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jerisha Gordon</masterLabel>
+            <translation><!-- Jerisha Gordon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joy Epting</masterLabel>
+            <translation><!-- Joy Epting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Judy Stoeven Davies</masterLabel>
+            <translation><!-- Judy Stoeven Davies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Katie Wang</masterLabel>
+            <translation><!-- Katie Wang --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laura Lea Rubino</masterLabel>
+            <translation><!-- Laura Lea Rubino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lindsay Ross</masterLabel>
+            <translation><!-- Lindsay Ross --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lisa Fullerton</masterLabel>
+            <translation><!-- Lisa Fullerton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lisa Fullerton;Portfolio Manager</masterLabel>
+            <translation><!-- Lisa Fullerton;Portfolio Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lucy Henry</masterLabel>
+            <translation><!-- Lucy Henry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lucy Henry;Laura Lea Rubino</masterLabel>
+            <translation><!-- Lucy Henry;Laura Lea Rubino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Writer Assigned</masterLabel>
+            <translation><!-- No Writer Assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Writer Assigned;Portfolio Manager</masterLabel>
+            <translation><!-- No Writer Assigned;Portfolio Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio Manager</masterLabel>
+            <translation><!-- Portfolio Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scott Meadows</masterLabel>
+            <translation><!-- Scott Meadows --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sharon Nadel</masterLabel>
+            <translation><!-- Sharon Nadel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shawna Wagner</masterLabel>
+            <translation><!-- Shawna Wagner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yvonne Chen</masterLabel>
+            <translation><!-- Yvonne Chen --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

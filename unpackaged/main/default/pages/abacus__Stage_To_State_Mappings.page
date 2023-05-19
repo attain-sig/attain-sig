@@ -1,0 +1,49 @@
+<apex:page id="StageToStateMapping" controller="abacus.S2S_StageToState_CTRL" standardStylesheets="false">
+
+    <apex:slds />
+    <apex:includeLightning />
+
+    <style>
+        /*
+         * The "slds-truncate" applied on the column in edit mode sets overflow to hidden.
+         * This overrides the overflow to visible so the picklist field options are displayed on edit.
+         */
+        .slds-scope .slds-truncate {
+            overflow: visible !important;
+        }
+
+        /*
+         * Sets overflow to visible for the datatable
+         * so the picklist field options are displayed in the few last rows on edit.
+         */
+        .slds-scope .slds-scrollable_y,
+        .slds-scope .slds-scrollable_x {
+            overflow: visible !important;
+        }
+    </style>
+
+    <div class="slds-scope">
+        <div class="slds-m-around_large">
+
+        </div>
+
+        <div id="stateMappingDiv">
+        </div>
+    </div>
+
+    <script>
+        var namespace = '{!namespace}';
+        if (!namespace || namespace === '') {
+            namespace = 'c';
+        }
+
+        $Lightning.use(namespace + ":LEDG_EnablementApp", function () {
+            $Lightning.createComponent(
+                namespace + ':manageStageToStateMappings',
+                {},
+                "stateMappingDiv",
+                function () { }
+            );
+        });
+    </script>
+</apex:page>

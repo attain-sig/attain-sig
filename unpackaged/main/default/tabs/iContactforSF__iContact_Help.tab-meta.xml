@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <icon>iContactforSF__Public_Documents/iContactforSF__iContact_icon.gif</icon>
+    <label>iContact Help</label>
+    <motif>Custom124: TV Widescreen</motif>
+    <page>iContactforSF__iContactHelp</page>
+</CustomTab>

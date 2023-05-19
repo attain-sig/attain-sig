@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>When a Payment is marked as Paid and no Payment Method is chosen, the Payment Method is automatically set to this value. If this setting is blank, the Payment Method is left blank.  This setting applies to NPSP's Payment Object only.</help>
+        <label><!-- Default Payment Method (NPSP Payment) --></label>
+        <name>abacus__Default_Payment_Method__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>O campo de oportunidade a receber o valor do campo de doação recorrente. Observe que esses campos devem ter o mesmo tipo de dados.</help>
+        <label><!-- Opportunity Field --></label>
+        <name>npe03__Opportunity_Field__c</name>
+    </CustomFieldTranslation>

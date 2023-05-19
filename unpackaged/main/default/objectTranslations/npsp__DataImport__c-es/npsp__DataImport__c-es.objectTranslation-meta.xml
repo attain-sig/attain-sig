@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Importación de datos de NPSP</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Importaciones de datos de NPSP</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Data Import Layout</layout>
+        <sections>
+            <label><!-- Account1 Information --></label>
+            <section>Account1 Information</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Donation Information --></label>
+            <section>Additional Donation Information</section>
+        </sections>
+        <sections>
+            <label>Contacto1 Información</label>
+            <section>Contact1 Information</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- GAU Allocation Information --></label>
+            <section>GAU Allocation Information</section>
+        </sections>
+        <sections>
+            <label>Dirección particular</label>
+            <section>Household Information</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Contact Role Information --></label>
+            <section>Opportunity Contact Role Information</section>
+        </sections>
+        <sections>
+            <label><!-- Partial Soft Credit Information --></label>
+            <section>Partial Soft Credit Information</section>
+        </sections>
+        <sections>
+            <label>Información de donación recurrente</label>
+            <section>Recurring Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Stock Information --></label>
+            <section>Stock Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tribute Information --></label>
+            <section>Tribute Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Id. de importación de datos</nameFieldLabel>
+    <recordTypes>
+        <label><!-- NPSP Data Import --></label>
+        <name>NPSP_Data_Import</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- This action can create a duplicate Opportunity. Please navigate to the Account or Contact and confirm that a duplicate has not been created. If it has, please reach out to Gift Processing immediately. --></errorMessage>
+        <name>Dont_Replace_Donation_Imported</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Delete_All_Data_Import_Records --></label>
+        <name>npsp__Delete_All_Data_Import_Records</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Delete_Imported_Data_Import_Records --></label>
+        <name>npsp__Delete_Imported_Data_Import_Records</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Import_Selected_Data_Import_Records --></label>
+        <name>npsp__Import_Selected_Data_Import_Records</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Process_Data_Import --></label>
+        <name>npsp__Process_Data_Import</name>
+    </webLinks>
+</CustomObjectTranslation>

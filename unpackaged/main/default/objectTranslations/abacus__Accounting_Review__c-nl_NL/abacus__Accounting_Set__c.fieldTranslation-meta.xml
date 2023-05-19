@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Accountingsets zijn uw eigen aangepaste combinaties van velden of objecten waarmee Ledger Entry's worden gegenereerd en uw financiële gegevens worden gedefinieerd.</help>
+        <label><!-- Accounting Set --></label>
+        <name>abacus__Accounting_Set__c</name>
+    </CustomFieldTranslation>

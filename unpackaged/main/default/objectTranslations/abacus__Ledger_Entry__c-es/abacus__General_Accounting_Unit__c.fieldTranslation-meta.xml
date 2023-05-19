@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>El Cuenta contable general a la que se aplican estos ingresos.</help>
+        <label><!-- General Accounting Unit --></label>
+        <name>abacus__General_Accounting_Unit__c</name>
+        <relationshipLabel><!-- Ledger Entries --></relationshipLabel>
+    </CustomFieldTranslation>

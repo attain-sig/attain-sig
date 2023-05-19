@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>abacus__Enable_Multiple_Accounting_Set_Support__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enables Multiple Active Accounting Sets</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enables Support for Multiple Active Accounting Sets.  Once enabled, certain settings that were global must now be configured on each active Accounting Set.</inlineHelpText>
+    <label>Enable Multiple Accounting Set Support</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

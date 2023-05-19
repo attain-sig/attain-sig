@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>iCLightning__Invalid_Client_Folder_ID</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISNUMBER(iCLightning__Client_Folder_ID__c)) || CONTAINS(iCLightning__Client_Folder_ID__c, ".")</errorConditionFormula>
+    <errorDisplayField>iCLightning__Client_Folder_ID__c</errorDisplayField>
+    <errorMessage>Invalid Client Folder ID</errorMessage>
+</ValidationRule>

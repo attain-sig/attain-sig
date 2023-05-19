@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>台帳エントリ作成が組織で有効であるかどうかを示します。</help>
+        <label><!-- Enable Ledger Entry Creation --></label>
+        <name>abacus__Enable_Ledger_Entry_Creation__c</name>
+    </CustomFieldTranslation>

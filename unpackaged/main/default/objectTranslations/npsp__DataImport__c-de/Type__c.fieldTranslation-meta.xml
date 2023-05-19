@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Existing Funding</masterLabel>
+            <translation><!-- Existing Funding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Gift</masterLabel>
+            <translation><!-- Individual Gift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Funding</masterLabel>
+            <translation><!-- New Funding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organization Gift</masterLabel>
+            <translation><!-- Organization Gift --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

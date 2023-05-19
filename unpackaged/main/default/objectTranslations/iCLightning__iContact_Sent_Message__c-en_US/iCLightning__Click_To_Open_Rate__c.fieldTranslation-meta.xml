@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The click to open rate is the ratio of unique clicks per unique opens. --></help>
+        <label><!-- Click to Open Rate --></label>
+        <name>iCLightning__Click_To_Open_Rate__c</name>
+    </CustomFieldTranslation>

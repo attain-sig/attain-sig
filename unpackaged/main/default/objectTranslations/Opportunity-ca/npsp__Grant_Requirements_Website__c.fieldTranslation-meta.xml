@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If applicable, URL of portal where grant reporting requirements should be submitted. --></help>
+        <label><!-- Grant Requirements Website --></label>
+        <name>npsp__Grant_Requirements_Website__c</name>
+    </CustomFieldTranslation>

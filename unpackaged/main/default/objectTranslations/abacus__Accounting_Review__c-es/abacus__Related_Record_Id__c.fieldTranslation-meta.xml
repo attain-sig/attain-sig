@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Este registro se procesará por el lote de contabilidad, ya que se ha marcado por una Revisión de contabilidad</help>
+        <label><!-- Related Record Id --></label>
+        <name>abacus__Related_Record_Id__c</name>
+    </CustomFieldTranslation>

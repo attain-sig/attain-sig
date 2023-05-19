@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>この台帳エントリが借方であるか貸方であるかを示します。 この機能は、拡張サブスクリプション専用です。</help>
+        <label><!-- Debit/Credit --></label>
+        <name>abacus__Debit_Credit__c</name>
+        <picklistValues>
+            <masterLabel>Credit</masterLabel>
+            <translation>貸方</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Debit</masterLabel>
+            <translation>借方</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

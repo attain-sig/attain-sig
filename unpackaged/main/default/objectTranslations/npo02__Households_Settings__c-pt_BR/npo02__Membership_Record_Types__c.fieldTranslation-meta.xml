@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Nomes de tipos de registro de oportunidade, por exemplo, associação, que você deseja totalizar separadamente de outros Tipos de registro de oportunidades.</help>
+        <label><!-- Membership Record Type Names --></label>
+        <name>npo02__Membership_Record_Types__c</name>
+    </CustomFieldTranslation>
