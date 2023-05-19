@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Hold_on_Matching_India</name>
+        <label>Hold on Matching India</label>
+        <locationX>440</locationX>
+        <locationY>408</locationY>
+        <actionName>Fellow_Application__c.Hold_on_Matching_India</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Waitlist_India</name>
+        <label>Waitlist India</label>
+        <locationX>176</locationX>
+        <locationY>408</locationY>
+        <actionName>Fellow_Application__c.Waitlist_Interview_1_India</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <decisions>
+        <name>Stage</name>
+        <label>Stage</label>
+        <locationX>440</locationX>
+        <locationY>288</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Waitlist_Interview_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Waitlist- Interview 1</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Waitlist_India</targetReference>
+            </connector>
+            <label>Waitlist- Interview 1</label>
+        </rules>
+        <rules>
+            <name>Hold_on_Matching</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Hold on Matching</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Hold_on_Matching_India</targetReference>
+            </connector>
+            <label>Hold on Matching</label>
+        </rules>
+    </decisions>
+    <description>One day wait for Waitlist- Interview 1 and Hold on Matching</description>
+    <environments>Default</environments>
+    <interviewLabel>Fellow Application - One Day Wait - India {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Fellow Application - One Day Wait - India</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+OR(
+ispickval({!$Record.Status__c}, &quot;Waitlist- Interview 1&quot;),
+ispickval({!$Record.Status__c}, &quot;Hold on Matching&quot;)
+)
+&amp;&amp;
+ispickval({!$Record.Fellowship_Applying_for__c}, &quot;India Fellowship&quot;)</filterFormula>
+        <object>Fellow_Application__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <scheduledPaths>
+            <name>Wait_1_Day</name>
+            <connector>
+                <targetReference>Stage</targetReference>
+            </connector>
+            <label>Wait 1 Day</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

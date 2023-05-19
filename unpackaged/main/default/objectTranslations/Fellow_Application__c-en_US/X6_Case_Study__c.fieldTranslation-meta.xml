@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- These are initial case study questions candidates were sent in advance --></help>
+        <label><!-- 6. Case Study --></label>
+        <name>X6_Case_Study__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LONG_NAME</field>
+    </columns>
+    <filter>
+        <booleanFilter>(((1 AND 2) OR (3 AND 4) OR (5 AND 6) OR (7 AND 8) OR (9 AND 10) or (11 AND 12) OR (13 AND 14)))</booleanFilter>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Board Listings,Committee Listings</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Board Communications</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Research Reports</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Event Attendees to be Screened,New Membership Gifts,Top 50 Workplans - Last Edit Date</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Development</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>,Top 10,Top 50,Solutions Subscription Newsletter List,Campaign Member Tracker (Mass Emails),Receipts Report,iContact - Unsubscribes,iContact - Bounces,iContact - Bounces (Detail)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Solutions Subscription Newsletter List,Annual Report Subscription List</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Development Exception Reports</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Recently Identified Gifts</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Development Drafts</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>New Catalyst Circle Donors</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Development - Catalyst Circle</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Receipts Report</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Development Finance</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>SHORT_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Key Reports</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ReportList</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATEDDATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Automatically updates when the fellow updates the Done/Not Done slider on the &quot;EDF paid fellows watch HR webinar&quot; tile on the Deliverables Tracker page in the fellow portal. Only applies for EDF-paid fellows. --></help>
+        <label><!-- Reviewed HR Webinar --></label>
+        <name>Reviewed_HR_Webinar__c</name>
+    </CustomFieldTranslation>

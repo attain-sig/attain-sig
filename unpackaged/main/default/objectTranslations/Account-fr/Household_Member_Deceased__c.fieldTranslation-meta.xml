@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This checkbox is populated by a Flow on Household Accounts when a Member of the Household is Deceased. --></help>
+        <label><!-- Household Member Deceased --></label>
+        <name>Household_Member_Deceased__c</name>
+    </CustomFieldTranslation>

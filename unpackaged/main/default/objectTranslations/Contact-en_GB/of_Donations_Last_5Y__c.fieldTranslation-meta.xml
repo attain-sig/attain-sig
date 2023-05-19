@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Count of donations in past 5 years (In-Kind and Planned Gifts). --></help>
+        <label><!-- # of Donations Last 5 Years --></label>
+        <name>of_Donations_Last_5Y__c</name>
+    </CustomFieldTranslation>

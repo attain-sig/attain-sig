@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- 3. Work Facility --></label>
+        <name>X3_Work_Facility__c</name>
+        <picklistValues>
+            <masterLabel>Data Center</masterLabel>
+            <translation><!-- Data Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality</masterLabel>
+            <translation><!-- Hospitality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing/Industrial</masterLabel>
+            <translation><!-- Manufacturing/Industrial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Tenant Housing</masterLabel>
+            <translation><!-- Multi-Tenant Housing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Municipal Building</masterLabel>
+            <translation><!-- Municipal Building --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office Buildings</masterLabel>
+            <translation><!-- Office Buildings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail</masterLabel>
+            <translation><!-- Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University/College Campus</masterLabel>
+            <translation><!-- University/College Campus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation><!-- Warehouse --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

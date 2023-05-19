@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Regional Interest --></label>
+        <name>Regional_Interest_Account_EDF__c</name>
+        <picklistValues>
+            <masterLabel>Asia-Pacific</masterLabel>
+            <translation><!-- Asia-Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Belize</masterLabel>
+            <translation><!-- Belize --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brazil</masterLabel>
+            <translation><!-- Brazil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada Alberta</masterLabel>
+            <translation><!-- Canada Alberta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada British Columbia</masterLabel>
+            <translation><!-- Canada British Columbia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada Manitoba</masterLabel>
+            <translation><!-- Canada Manitoba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada New Brunswick</masterLabel>
+            <translation><!-- Canada New Brunswick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada Newfoundland</masterLabel>
+            <translation><!-- Canada Newfoundland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada Nova Scotia</masterLabel>
+            <translation><!-- Canada Nova Scotia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada Ontario</masterLabel>
+            <translation><!-- Canada Ontario --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada Prince Edward Island</masterLabel>
+            <translation><!-- Canada Prince Edward Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada Quebec</masterLabel>
+            <translation><!-- Canada Quebec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada Saskatchewan</masterLabel>
+            <translation><!-- Canada Saskatchewan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caribbean</masterLabel>
+            <translation><!-- Caribbean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central America</masterLabel>
+            <translation><!-- Central America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chile</masterLabel>
+            <translation><!-- Chile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuba</masterLabel>
+            <translation><!-- Cuba --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eurasia</masterLabel>
+            <translation><!-- Eurasia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>European Union</masterLabel>
+            <translation><!-- European Union --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gulf</masterLabel>
+            <translation><!-- Gulf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Humboldt Current</masterLabel>
+            <translation><!-- Humboldt Current --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indonesia</masterLabel>
+            <translation><!-- Indonesia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International</masterLabel>
+            <translation><!-- International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Japan</masterLabel>
+            <translation><!-- Japan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mexico</masterLabel>
+            <translation><!-- Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Atlantic</masterLabel>
+            <translation><!-- Mid-Atlantic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle East &amp; Africa</masterLabel>
+            <translation><!-- Middle East &amp; Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midwest</masterLabel>
+            <translation><!-- Midwest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountain</masterLabel>
+            <translation><!-- Mountain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Myanmar</masterLabel>
+            <translation><!-- Myanmar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Netherlands</masterLabel>
+            <translation><!-- Netherlands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New England</masterLabel>
+            <translation><!-- New England --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America</masterLabel>
+            <translation><!-- North America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PNA</masterLabel>
+            <translation><!-- PNA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific</masterLabel>
+            <translation><!-- Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peru</masterLabel>
+            <translation><!-- Peru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philippines</masterLabel>
+            <translation><!-- Philippines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plains</masterLabel>
+            <translation><!-- Plains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portugal</masterLabel>
+            <translation><!-- Portugal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Rico</masterLabel>
+            <translation><!-- Puerto Rico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South America</masterLabel>
+            <translation><!-- South America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeast</masterLabel>
+            <translation><!-- Southeast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spain</masterLabel>
+            <translation><!-- Spain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweden</masterLabel>
+            <translation><!-- Sweden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation><!-- US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Alabama</masterLabel>
+            <translation><!-- US Alabama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Alaska</masterLabel>
+            <translation><!-- US Alaska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Arizona</masterLabel>
+            <translation><!-- US Arizona --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Arkansas</masterLabel>
+            <translation><!-- US Arkansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US California</masterLabel>
+            <translation><!-- US California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Colorado</masterLabel>
+            <translation><!-- US Colorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Connecticut</masterLabel>
+            <translation><!-- US Connecticut --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Delaware</masterLabel>
+            <translation><!-- US Delaware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Florida</masterLabel>
+            <translation><!-- US Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Georgia</masterLabel>
+            <translation><!-- US Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Hawaii</masterLabel>
+            <translation><!-- US Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Idaho</masterLabel>
+            <translation><!-- US Idaho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Illinois</masterLabel>
+            <translation><!-- US Illinois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Indiana</masterLabel>
+            <translation><!-- US Indiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Iowa</masterLabel>
+            <translation><!-- US Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Kansas</masterLabel>
+            <translation><!-- US Kansas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Kentucky</masterLabel>
+            <translation><!-- US Kentucky --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Lousiana</masterLabel>
+            <translation><!-- US Lousiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Maine</masterLabel>
+            <translation><!-- US Maine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Maryland</masterLabel>
+            <translation><!-- US Maryland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Massachusetts</masterLabel>
+            <translation><!-- US Massachusetts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Michigan</masterLabel>
+            <translation><!-- US Michigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Minnesota</masterLabel>
+            <translation><!-- US Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Mississippi</masterLabel>
+            <translation><!-- US Mississippi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Missouri</masterLabel>
+            <translation><!-- US Missouri --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Montana</masterLabel>
+            <translation><!-- US Montana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Nebraska</masterLabel>
+            <translation><!-- US Nebraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Nevada</masterLabel>
+            <translation><!-- US Nevada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US New Hampshire</masterLabel>
+            <translation><!-- US New Hampshire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US New Jersey</masterLabel>
+            <translation><!-- US New Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US New Mexico</masterLabel>
+            <translation><!-- US New Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US New York</masterLabel>
+            <translation><!-- US New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US North Carolina</masterLabel>
+            <translation><!-- US North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US North Dakota</masterLabel>
+            <translation><!-- US North Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Ohio</masterLabel>
+            <translation><!-- US Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Oklahoma</masterLabel>
+            <translation><!-- US Oklahoma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Oregon</masterLabel>
+            <translation><!-- US Oregon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Pennsylvania</masterLabel>
+            <translation><!-- US Pennsylvania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Rhode Island</masterLabel>
+            <translation><!-- US Rhode Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US South Carolina</masterLabel>
+            <translation><!-- US South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US South Dakota</masterLabel>
+            <translation><!-- US South Dakota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Tennessee</masterLabel>
+            <translation><!-- US Tennessee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Texas</masterLabel>
+            <translation><!-- US Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Utah</masterLabel>
+            <translation><!-- US Utah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Vermont</masterLabel>
+            <translation><!-- US Vermont --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Virginia</masterLabel>
+            <translation><!-- US Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Washington</masterLabel>
+            <translation><!-- US Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US West Virginia</masterLabel>
+            <translation><!-- US West Virginia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Wisconsin</masterLabel>
+            <translation><!-- US Wisconsin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Wyoming</masterLabel>
+            <translation><!-- US Wyoming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Pacific</masterLabel>
+            <translation><!-- Western Pacific --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "30510b1b-2f43-42a0-9306-174863fb4e72",
+  "appPageId" : "b3f556da-3437-477c-9860-7dc771a29a40",
+  "configurationTags" : [ ],
+  "id" : "2f3c73a5-728e-48be-be59-b3d2b10c17ef",
+  "label" : "EDF Items",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-edfitems",
+  "type" : "route",
+  "urlPrefix" : "edfitems"
+}

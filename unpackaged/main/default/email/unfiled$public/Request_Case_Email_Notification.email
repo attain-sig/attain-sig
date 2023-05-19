@@ -1,0 +1,9 @@
+Created By: {!Case.CreatedBy}
+Point of Contact: {!Case.PointOfContact__c}
+Primary Team: {!Case.Primary_Team__c}
+Subject: {!Case.Subject}
+Priority: {!Case.Priority}
+Description: {!Case.Description}
+Case Topic: {!Case.Case_Topic__c}
+
+Salesforce case record: {!Case.Link}

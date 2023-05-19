@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <chartTheme>light</chartTheme>
+    <colorPalette>unity</colorPalette>
+    <dashboardChartTheme>light</dashboardChartTheme>
+    <dashboardColorPalette>unity</dashboardColorPalette>
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Assigned to: CQ</footer>
+                <groupingSortProperties />
+                <header>Add Contact Employer</header>
+                <indicatorBreakpoint1>25.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>100.0</indicatorBreakpoint2>
+                <indicatorHighColor>#C23934</indicatorHighColor>
+                <indicatorLowColor>#00716B</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Priority A</metricLabel>
+                <report>Reports_that_do_not_need_to_be_updated2/Cleanup_M_Add_Con_Employer</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>3</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Assigned to:</footer>
+                <groupingSortProperties />
+                <header>Add Org Type</header>
+                <indicatorBreakpoint1>25.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>100.0</indicatorBreakpoint2>
+                <indicatorHighColor>#C23934</indicatorHighColor>
+                <indicatorLowColor>#00716B</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Priority B</metricLabel>
+                <report>Reports_that_do_not_need_to_be_updated2/Cleanup_M_Add_Org_Type</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Assigned to:</footer>
+                <groupingSortProperties />
+                <header>Add Contact Sub-Con</header>
+                <indicatorBreakpoint1>25.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>100.0</indicatorBreakpoint2>
+                <indicatorHighColor>#C23934</indicatorHighColor>
+                <indicatorLowColor>#00716B</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Priority C</metricLabel>
+                <report>Reports_that_do_not_need_to_be_updated2/Cleanup_M_Add_Contact_Sub_Con</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <aggregate>Sum</aggregate>
+                    <column>npe5__Affiliation__c.npe5__Primary__c</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Assigned to: CQ</footer>
+                <groupingSortProperties />
+                <header>Add Contact Title</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#C23934</indicatorHighColor>
+                <indicatorLowColor>#00716B</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Priority A</metricLabel>
+                <report>Reports_that_do_not_need_to_be_updated2/Redo_of_has_employer_but_no_title</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>3</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Assigned to:</footer>
+                <groupingSortProperties />
+                <header>Add name on activity</header>
+                <indicatorBreakpoint1>25.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>100.0</indicatorBreakpoint2>
+                <indicatorHighColor>#C23934</indicatorHighColor>
+                <indicatorLowColor>#00716B</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Priority B</metricLabel>
+                <report>Reports_that_do_not_need_to_be_updated2/Cleanup_M_Add_name_on_activity</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Assigned to:</footer>
+                <groupingSortProperties />
+                <header>Outstanding MCRM Activities</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#C23934</indicatorHighColor>
+                <indicatorLowColor>#00716B</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Priority C</metricLabel>
+                <report>Reports_that_do_not_need_to_be_updated2/Outstanding_MCRM_Activities</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>4</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Assigned to: LY</footer>
+                <groupingSortProperties />
+                <header>Add Account Country</header>
+                <indicatorBreakpoint1>25.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>100.0</indicatorBreakpoint2>
+                <indicatorHighColor>#C23934</indicatorHighColor>
+                <indicatorLowColor>#00716B</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Priority A</metricLabel>
+                <report>Reports_that_do_not_need_to_be_updated2/Cleanup_M_Add_Account_Country</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>3</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Assigned to: RH</footer>
+                <groupingSortProperties />
+                <header>Correct Country</header>
+                <indicatorBreakpoint1>25.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>100.0</indicatorBreakpoint2>
+                <indicatorHighColor>#C23934</indicatorHighColor>
+                <indicatorLowColor>#00716B</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Priority B</metricLabel>
+                <report>Reports_that_do_not_need_to_be_updated2/Cleanup_M_Correct_Country</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>6</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Assigned to:</footer>
+                <groupingSortProperties />
+                <header>Outstanding MCRM Tasks/Emails</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#C23934</indicatorHighColor>
+                <indicatorLowColor>#00716B</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Priority C</metricLabel>
+                <report>Reports_that_do_not_need_to_be_updated2/Cleanup_M_Outstanding_MCRM_Tasks_Emails</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Assigned to:</footer>
+                <groupingSortProperties />
+                <header>Staff on activity</header>
+                <indicatorBreakpoint1>25.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>100.0</indicatorBreakpoint2>
+                <indicatorHighColor>#C23934</indicatorHighColor>
+                <indicatorLowColor>#00716B</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Priority A</metricLabel>
+                <report>Reports_that_do_not_need_to_be_updated2/Cleanup_M_Staff_on_activity</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>12</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>3</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Assigned to: RH</footer>
+                <groupingSortProperties />
+                <header>Correct State</header>
+                <indicatorBreakpoint1>25.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>100.0</indicatorBreakpoint2>
+                <indicatorHighColor>#C23934</indicatorHighColor>
+                <indicatorLowColor>#00716B</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Priority B</metricLabel>
+                <report>Reports_that_do_not_need_to_be_updated2/Cleanup_M_Correct_State</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>12</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Assigned to: RH</footer>
+                <groupingSortProperties />
+                <header>Cleanup-M: Add Contact State</header>
+                <indicatorBreakpoint1>33.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>67.0</indicatorBreakpoint2>
+                <indicatorHighColor>#C23934</indicatorHighColor>
+                <indicatorLowColor>#00716B</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Priority A</metricLabel>
+                <report>Reports_that_do_not_need_to_be_updated2/Cleanup_M_Add_Contact_State_NEW</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>16</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>3</colSpan>
+            <columnIndex>3</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>Assigned to:</footer>
+                <groupingSortProperties />
+                <header>Add Political Affiliation</header>
+                <indicatorBreakpoint1>25.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>100.0</indicatorBreakpoint2>
+                <indicatorHighColor>#C23934</indicatorHighColor>
+                <indicatorLowColor>#00716B</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <metricLabel>Priority B</metricLabel>
+                <report>Reports_that_do_not_need_to_be_updated2/Cleanup_M_Add_Political_Affiliation</report>
+                <showRange>false</showRange>
+            </dashboardComponent>
+            <rowIndex>16</rowIndex>
+            <rowSpan>4</rowSpan>
+        </dashboardGridComponents>
+        <numberOfColumns>12</numberOfColumns>
+        <rowHeight>36</rowHeight>
+    </dashboardGridLayout>
+    <dashboardType>SpecifiedUser</dashboardType>
+    <description>Reports on this dashboard impact report pulls if data is incorrect or incomplete. This dashboard is secondary to the Data Hygiene - High dashboard.</description>
+    <isGridLayout>true</isGridLayout>
+    
+    <textColor>#000000</textColor>
+    <title>Data Hygiene - Medium Mission CRM Cleanup Exception Reports</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Accompanies Read Only All Objects Profile and Permission Sets</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>EDF Read Only All Objects</label>
+    <permissionSets>sortablegrid__View_Sortable_Data_Grids</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

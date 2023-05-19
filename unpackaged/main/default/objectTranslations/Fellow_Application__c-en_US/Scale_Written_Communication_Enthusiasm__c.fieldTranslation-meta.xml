@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Written Communication --></label>
+        <name>Scale_Written_Communication_Enthusiasm__c</name>
+        <picklistValues>
+            <masterLabel>Insufficient</masterLabel>
+            <translation><!-- Insufficient --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sufficient</masterLabel>
+            <translation><!-- Sufficient --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

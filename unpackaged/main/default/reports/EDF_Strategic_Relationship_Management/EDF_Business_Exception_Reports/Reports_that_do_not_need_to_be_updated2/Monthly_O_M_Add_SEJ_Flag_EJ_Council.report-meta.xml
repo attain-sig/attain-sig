@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>URL</field>
+    </columns>
+    <columns>
+        <field>Activity.Activity_Constituency__c</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Primary_Handler__c</field>
+    </columns>
+    <description>Business Rule:  These staff regularly interact with diverse communities and we need to regularly update the &quot;Social and Environmental Justice&quot; flag. Action Item: Send the list to EJ Council members add the flag if appropriate.</description>
+    <filter>
+        <booleanFilter>(1 OR 2 OR 3 OR 4 OR 5) AND 6 AND 7 AND 8 AND 9</booleanFilter>
+        <criteriaItems>
+            <column>Activity.Solicitor_1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Beth Trask,Derek Walker,Elizabeth Brandt,Elizabeth Fonseca,Ellen Shenette,Erica Morehouse,Esther Sosa,Fern Uennatornwaranggoon,Grace Lewis,Gwen Ruta,Holly Pearen,Jon Goldstein,Katelyn Roedner,Lauren Navarro,Marilynn Marsh-Robinson,Matthew Tresaugue,Millie Baird,Steve Cochran</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_2__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Beth Trask,Derek Walker,Elizabeth Brandt,Elizabeth Fonseca,Ellen Shenette,Erica Morehouse,Esther Sosa,Fern Uennatornwaranggoon,Grace Lewis,Gwen Ruta,Holly Pearen,Jon Goldstein,Katelyn Roedner,Lauren Navarro,Marilynn Marsh-Robinson,Matthew Tresaugue,Millie Baird,Steve Cochran</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_3__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Beth Trask,Derek Walker,Elizabeth Brandt,Elizabeth Fonseca,Ellen Shenette,Erica Morehouse,Esther Sosa,Fern Uennatornwaranggoon,Grace Lewis,Gwen Ruta,Holly Pearen,Jon Goldstein,Katelyn Roedner,Lauren Navarro,Marilynn Marsh-Robinson,Matthew Tresaugue,Millie Baird,Steve Cochran</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_4__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Beth Trask,Derek Walker,Elizabeth Brandt,Elizabeth Fonseca,Ellen Shenette,Erica Morehouse,Esther Sosa,Fern Uennatornwaranggoon,Grace Lewis,Gwen Ruta,Holly Pearen,Jon Goldstein,Katelyn Roedner,Lauren Navarro,Marilynn Marsh-Robinson,Matthew Tresaugue,Millie Baird,Steve Cochran</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_5__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Beth Trask,Derek Walker,Elizabeth Brandt,Elizabeth Fonseca,Ellen Shenette,Erica Morehouse,Esther Sosa,Fern Uennatornwaranggoon,Grace Lewis,Gwen Ruta,Holly Pearen,Jon Goldstein,Katelyn Roedner,Lauren Navarro,Marilynn Marsh-Robinson,Matthew Tresaugue,Millie Baird,Steve Cochran</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCTRECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Account.Organization</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Diverse_Serving_Organization__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Summer_of_Action_Recipient_Year__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Organization_Constituency__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>excludes</operator>
+            <value>Development</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ACCOUNT.NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Monthly-O-M: Add SEJ Flag: EJ Council</name>
+    <params>
+        <name>closed</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>te</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountActivity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_LAST90</interval>
+    </timeFrameFilter>
+</Report>

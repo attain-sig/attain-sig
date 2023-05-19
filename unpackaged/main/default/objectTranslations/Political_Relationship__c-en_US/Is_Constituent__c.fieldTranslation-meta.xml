@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Is this person a constituent of the public figure. If second home, please note in “EDF Relationship Context” field. --></help>
+        <label><!-- Is Constituent --></label>
+        <name>Is_Constituent__c</name>
+    </CustomFieldTranslation>

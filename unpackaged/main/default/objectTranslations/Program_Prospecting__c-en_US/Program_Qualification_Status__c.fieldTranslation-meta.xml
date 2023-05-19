@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Assign a status for the constituent&apos;s program prospecting --></help>
+        <label><!-- Program Qualification Status --></label>
+        <name>Program_Qualification_Status__c</name>
+        <picklistValues>
+            <masterLabel>Gift Officer Disqualified</masterLabel>
+            <translation><!-- Gift Officer Disqualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Officer Qualification Pending</masterLabel>
+            <translation><!-- Gift Officer Qualification Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Officer Qualified</masterLabel>
+            <translation><!-- Gift Officer Qualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research Disqualified</masterLabel>
+            <translation><!-- Research Disqualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research Identified</masterLabel>
+            <translation><!-- Research Identified --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

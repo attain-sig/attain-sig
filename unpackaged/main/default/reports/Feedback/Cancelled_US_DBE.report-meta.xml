@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>User_Story__c.User_Story_Title__c</field>
+    </columns>
+    <columns>
+        <field>User_Story__c.User_Story_Description__c</field>
+    </columns>
+    <columns>
+        <field>User_Story__c.Release__c</field>
+    </columns>
+    <columns>
+        <field>User_Story__c.Status__c</field>
+    </columns>
+    <columns>
+        <field>User_Story__c.Priority__c</field>
+    </columns>
+    <columns>
+        <field>User_Story__c.Build_Assigned_To__c</field>
+    </columns>
+    <columns>
+        <field>User_Story__c.Epic__c</field>
+    </columns>
+    <columns>
+        <field>User_Story__c.Theme__c</field>
+    </columns>
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <filter>
+        <booleanFilter>(1 OR 2) AND 3 AND 4 AND 5</booleanFilter>
+        <criteriaItems>
+            <column>User_Story__c.Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>In IT Assessment,Ready for Full Discovery,In Full Discovery,Ready for Release Scheduling,Scheduled</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User_Story__c.Priority__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>M (Must)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User_Story__c.Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Build in Progress,In QA,In UAT,Completed,Closed - No Longer Required,Closed - Duplicate,Closed - Address via Feedback,Blocked</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User_Story__c.Release__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Service Cloud Implementation,Event Tool Integration,Email Marketing &amp; Consent Management</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User_Story__c.Build_Assigned_To__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Kristen Holbrook,Lyn Rowland,alyssa buda</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>US to consider slotting</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$User_Story__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>User_Story__c.Priority__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

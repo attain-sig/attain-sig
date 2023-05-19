@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Katie_1s</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>PG_Qualified_Donor_Ranking__c</columns>
+    <columns>No_invitations__c</columns>
+    <columns>No_mass_email__c</columns>
+    <columns>Primary_Handler__c</columns>
+    <columns>Portfolio_Manager__c</columns>
+    <columns>Constituency__c</columns>
+    <columns>Sub_Constituency__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Primary_Handler__c</field>
+        <operation>equals</operation>
+        <value>katie pooser</value>
+    </filters>
+    <filters>
+        <field>npsp__Deceased__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Email_Undeliverable__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>PG_Qualified_Donor_Ranking__c</field>
+        <operation>equals</operation>
+        <value>1 – Identification</value>
+    </filters>
+    <label>Katie 1s</label>
+</ListView>

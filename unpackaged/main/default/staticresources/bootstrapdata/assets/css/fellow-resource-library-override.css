@@ -1,0 +1,17 @@
+.slds-page-header--fileshome {
+    display: none;
+}
+
+[title="Owned by Me"], [title="Shared with Me"], [title="Recent"], [title="Following"], [title="Libraries"] {
+    display: none;
+}
+
+[aria-label="Owned by Me||List View"] {
+    display: none;
+}
+
+.uiMenuItem>a[title="Open"]{
+	display: none;
+}
+
+

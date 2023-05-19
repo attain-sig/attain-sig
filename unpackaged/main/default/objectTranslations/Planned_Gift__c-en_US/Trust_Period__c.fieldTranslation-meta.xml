@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Trust Period --></label>
+        <name>Trust_Period__c</name>
+        <picklistValues>
+            <masterLabel>Lifetime</masterLabel>
+            <translation><!-- Lifetime --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term of years</masterLabel>
+            <translation><!-- Term of years --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

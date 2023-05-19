@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>System Admin Permission Set Group with all profile permission sets based on related custom permission.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>System Admin Permission Set Group</label>
+    <permissionSets>Catalyst_Circle_Permission_Set</permissionSets>
+    <permissionSets>Create_Request_Cases</permissionSets>
+    <permissionSets>Dev_Admin_Permission_Set</permissionSets>
+    <permissionSets>Dev_Data</permissionSets>
+    <permissionSets>Dev_Executive_Permission_Set</permissionSets>
+    <permissionSets>Dev_Financial_Analyst_Permission_Set</permissionSets>
+    <permissionSets>Dev_Research_Permission_Set</permissionSets>
+    <permissionSets>Dev_Temp_Permission_Set</permissionSets>
+    <permissionSets>Dev_Writer_Permission_Set</permissionSets>
+    <permissionSets>Events_Permission_Set</permissionSets>
+    <permissionSets>Merge_Duplicates</permissionSets>
+    <permissionSets>Planned_Giving_Permission_Set</permissionSets>
+    <permissionSets>Portfolio_Manager_Permission_Set</permissionSets>
+    <permissionSets>Profile2PermSet__Profiles_to_Perm_Set_App_Access</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

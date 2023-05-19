@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pledge_Status_New__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( 
+    AND(
+         OR(
+          ISPICKVAL( StageName , "Received as Unconditional Pledge"),
+          ISPICKVAL(StageName, "Received as Conditional Pledge")
+           ),
+   npe01__Amount_Outstanding__c &gt;0,
+   npe01__Number_of_Payments__c  &gt;= 1),	
+ "Active", 
+
+ IF(
+     AND(
+      OR(
+          ISPICKVAL(StageName, "Received as Unconditional Pledge"),
+          ISPICKVAL(StageName, "Received as Conditional Pledge")
+           ),
+    npe01__Number_of_Payments__c &gt;0,
+    npe01__Amount_Written_Off__c  &lt;=  Close_Amount__c ,
+    npe01__Amount_Outstanding__c=0),	
+   "Completed", 
+    IF(
+     AND(
+         ISPICKVAL(StageName, "Refunded"),
+        npe01__Number_of_Payments__c &gt;1,
+        npe01__Amount_Outstanding__c=0),	
+   "Refund Made", 
+         "")
+        
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Pledge Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

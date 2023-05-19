@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- TBD how this field will be used, likely for design approvals --></help>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Department Approved</masterLabel>
+            <translation><!-- Department Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Discussion Needed</masterLabel>
+            <translation><!-- EDF Discussion Needed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending EDF Stakeholder Review</masterLabel>
+            <translation><!-- Pending EDF Stakeholder Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for EDF Approval</masterLabel>
+            <translation><!-- Ready for EDF Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Heller Review</masterLabel>
+            <translation><!-- Ready for Heller Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for IT Review</masterLabel>
+            <translation><!-- Ready for IT Review --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

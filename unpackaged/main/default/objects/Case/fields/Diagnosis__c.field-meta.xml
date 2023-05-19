@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Diagnosis__c</fullName>
+    <externalId>false</externalId>
+    <label>Diagnosis</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Banned Corporation</fullName>
+                <default>false</default>
+                <label>Banned Corporation</label>
+            </value>
+            <value>
+                <fullName>Donor error</fullName>
+                <default>false</default>
+                <label>Donor error</label>
+            </value>
+            <value>
+                <fullName>Donor error - recurring gift</fullName>
+                <default>false</default>
+                <label>Donor error - recurring gift</label>
+            </value>
+            <value>
+                <fullName>EDF error</fullName>
+                <default>false</default>
+                <label>EDF error</label>
+            </value>
+            <value>
+                <fullName>EDF test</fullName>
+                <default>false</default>
+                <label>EDF test</label>
+            </value>
+            <value>
+                <fullName>Fraud</fullName>
+                <default>false</default>
+                <label>Fraud</label>
+            </value>
+            <value>
+                <fullName>Technical error- multiple charge</fullName>
+                <default>false</default>
+                <label>Technical error- multiple charge</label>
+            </value>
+            <value>
+                <fullName>Vendor error</fullName>
+                <default>false</default>
+                <label>Vendor error</label>
+            </value>
+            <value>
+                <fullName>Vendor error - multiple charge</fullName>
+                <default>false</default>
+                <label>Vendor error - multiple charge</label>
+            </value>
+            <value>
+                <fullName>Wrong Amount</fullName>
+                <default>false</default>
+                <label>Wrong Amount</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

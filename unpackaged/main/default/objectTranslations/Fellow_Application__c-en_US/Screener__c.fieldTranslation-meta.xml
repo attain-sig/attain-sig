@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Screener --></label>
+        <name>Screener__c</name>
+        <picklistValues>
+            <masterLabel>Aaron Saliman</masterLabel>
+            <translation><!-- Aaron Saliman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arlie Weigley</masterLabel>
+            <translation><!-- Arlie Weigley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ashley Medlar</masterLabel>
+            <translation><!-- Ashley Medlar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brianna Duran</masterLabel>
+            <translation><!-- Brianna Duran --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eileen Ashton</masterLabel>
+            <translation><!-- Eileen Ashton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elizabeth Ignacio</masterLabel>
+            <translation><!-- Elizabeth Ignacio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hayley Leonard</masterLabel>
+            <translation><!-- Hayley Leonard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Josh Salzberg</masterLabel>
+            <translation><!-- Josh Salzberg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lauren Apollaro</masterLabel>
+            <translation><!-- Lauren Apollaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sarrynna Sou</masterLabel>
+            <translation><!-- Sarrynna Sou --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shimul Bijoor</masterLabel>
+            <translation><!-- Shimul Bijoor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tamara Evans</masterLabel>
+            <translation><!-- Tamara Evans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanya Mahadwar</masterLabel>
+            <translation><!-- Tanya Mahadwar --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

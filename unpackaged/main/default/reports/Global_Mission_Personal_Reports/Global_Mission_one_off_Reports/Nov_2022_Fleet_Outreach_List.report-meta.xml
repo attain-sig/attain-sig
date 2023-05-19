@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_CNTC_FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_CNTC_TITLE</field>
+    </columns>
+    <columns>
+        <field>FK_CNTC_EMAIL</field>
+    </columns>
+    <columns>
+        <field>FK_$Contact.Primary_Handler__c</field>
+    </columns>
+    <description>Report request from Fleet Electrification team for employees at specific companies with fleets for an outreach list. 11/9/22.</description>
+    <filter>
+        <booleanFilter>(1 OR 2 OR 3 OR 4 OR 5 OR 6) AND 7</booleanFilter>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>AB InBev,Bimbo Bakeries USA,Con Edison,Deutsche Post DHL Group,Federal Express,Green Mountain Power Corporation,Iron Mountain,National Grid,PG&amp;E Corporation,Recology,Republic Services,XPO Logistics</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Airgas,AJR Trucking,Alsco,Amherst County,A&amp;R Logistics,Benore Logistic Systems,Best Transportation,Black Horse Carriers,Blue Earth Compost,Borough of Bergenfield,Camrett Logistics,CITY Furniture,City of Englewood,City of Hyattsville,City of Jersey City,City of Newark,City of Ocala,City Of Paterson,City of Perth Amboy,City of Pittsburgh,City of Trenton,City of Wilmington,City of Woodland,Costco,Covenant Logistics,C&amp;V Contractors,Dimension Fabricators,EcoMaine,Elate Moving,Elizabeth Board of Education</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>eTrucks,Firefly Transportation Services,Fluid Truck,Glovis America,GSC Logistics,Harbor Freight Transportation Corp,Heritage Environmental Services,IKEA Distribution Services North America,International Motor Freight,Jackson Township School District,J&amp;M Sanitation,Karat Packaging,KeHE Distributors,Kingbee Rentals,King County,Knight-Swift Transportation Holdings,Lemcor Solid Waste Transfer Station,Los Angeles Department of Water and Power,L&amp;R Group,MDB Transportation,Mesa Fire and Medical Department,Michigan State University,Murphy Road Recycling,New York City Department of Sanitation,Oatly,Performance Team,Phil Haupt Electric,PNM Resources,Port of Oakland,Port of San Diego</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Pride Group Enterprises,Pritchard Auto Company,Quality Custom Distribution,Rail Management Services,Ramsey/Washington Recycling &amp; Energy,Sacramento County,Sacramento Municipal Utility District,Sonwil Distribution Center,Southern Counties Express,Super Store Industries,Temco Logistics,The Los Angeles City Fire Department,Toms River Township,Total Transportation Services,Town of Cary,Town of North Stonington,Town of West New York,Township of Woodbridge,United Natural Foods,USPS,Velocity Truck Rental &amp; Leasing,Waste Resource Technology,Watsontown Trucking Company,WattEV,Wegmans,Xcel Energy</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>A. Duie Pyle,Mærsk,Staples,IKEA,Kroger,Altec Industries,Anderson-DuBose Company,Central Hudson Gas &amp; Electric Corporation,Dole Packaged Foods,DOT Foods,Department of Transportation,New York City Department of Transportation,Eco-Cycle Inc,EV Semi-Fleet Corp.,Fastenal Company,Ferguson Enterprises,GE Appliances,Hub Group Inc.,Kraft Heinz,New York Department of Citywide Administrative Services (DCAS),Old Dominion Freight Line,Inc.,Purolator Courier Ltd.,Republic National Distributing Company,LLC,UPS,US Army Corps of Engineers</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>startsWith</operator>
+            <value>Ryder System,Inc.,San Diego Gas &amp; Electric Company,Schneider National Inc.,Sunbelt Rentals,Wakefern Food Corp,YRC Worldwide Inc.,United Rentals,US Army,Fort Bragg,U.S. Army Corps &amp; Engineers,US Department of the Army,US Department of Defense,Penske</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>npe5__Affiliation__c.npe5__Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Current</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ACCOUNT.NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Nov. 2022 Fleet Outreach List</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountCustomEntity$npe5__Affiliation__c@npe5__Affiliation__c.npe5__Contact__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Generated ID field that is user-visible and unique across all objects. --></help>
+        <label><!-- Record ID --></label>
+        <name>Contact_Record_ID__c</name>
+    </CustomFieldTranslation>

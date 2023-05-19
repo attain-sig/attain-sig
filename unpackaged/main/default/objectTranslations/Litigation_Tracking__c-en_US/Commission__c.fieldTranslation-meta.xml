@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Commission --></label>
+        <name>Commission__c</name>
+        <picklistValues>
+            <masterLabel>CA PUC</masterLabel>
+            <translation><!-- CA PUC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FERC</masterLabel>
+            <translation><!-- FERC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL PSC</masterLabel>
+            <translation><!-- FL PSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL Commerce Commission</masterLabel>
+            <translation><!-- IL Commerce Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN URC</masterLabel>
+            <translation><!-- IN URC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA PSC</masterLabel>
+            <translation><!-- LA PSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA DPU</masterLabel>
+            <translation><!-- MA DPU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN PUC</masterLabel>
+            <translation><!-- MN PUC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC Utilities Commission</masterLabel>
+            <translation><!-- NC Utilities Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH PUC</masterLabel>
+            <translation><!-- NH PUC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ BPU</masterLabel>
+            <translation><!-- NJ BPU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY PSC</masterLabel>
+            <translation><!-- NY PSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH PUC</masterLabel>
+            <translation><!-- OH PUC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA PUC</masterLabel>
+            <translation><!-- PA PUC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX PUC</masterLabel>
+            <translation><!-- TX PUC --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

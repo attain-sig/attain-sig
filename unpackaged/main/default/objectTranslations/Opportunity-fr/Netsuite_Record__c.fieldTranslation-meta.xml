@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Netsuite Record --></label>
+        <name>Netsuite_Record__c</name>
+        <picklistValues>
+            <masterLabel>AR Invoice</masterLabel>
+            <translation><!-- AR Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conditional Pledge</masterLabel>
+            <translation><!-- Conditional Pledge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pledge Order</masterLabel>
+            <translation><!-- Pledge Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unconditional Pledge</masterLabel>
+            <translation><!-- Unconditional Pledge --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

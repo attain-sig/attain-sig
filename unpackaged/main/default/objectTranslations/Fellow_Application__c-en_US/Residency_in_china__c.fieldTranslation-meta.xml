@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Residency_in_china --></label>
+        <name>Residency_in_china__c</name>
+        <picklistValues>
+            <masterLabel>Hong Kong Resident</masterLabel>
+            <translation><!-- Hong Kong Resident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macau Resident</masterLabel>
+            <translation><!-- Macau Resident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mainland Resident</masterLabel>
+            <translation><!-- Mainland Resident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taiwan Resident</masterLabel>
+            <translation><!-- Taiwan Resident --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

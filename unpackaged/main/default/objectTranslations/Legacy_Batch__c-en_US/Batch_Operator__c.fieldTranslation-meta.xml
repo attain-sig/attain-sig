@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Batch Operator --></label>
+        <name>Batch_Operator__c</name>
+        <relationshipLabel><!-- Legacy Batches --></relationshipLabel>
+    </CustomFieldTranslation>

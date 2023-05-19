@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Development Household Contact</layout>
+        <sections>
+            <label><!-- Alerts --></label>
+            <section>Alerts</section>
+        </sections>
+        <sections>
+            <label><!-- Constituency --></label>
+            <section>Constituency</section>
+        </sections>
+        <sections>
+            <label><!-- Constituent Origin --></label>
+            <section>Constituent Origin</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Employment --></label>
+            <section>Employment</section>
+        </sections>
+        <sections>
+            <label><!-- Funder Attributes --></label>
+            <section>Funder Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Known EDF Fundraising Interests --></label>
+            <section>Known EDF Fundraising Interests</section>
+        </sections>
+        <sections>
+            <label><!-- NetSuite Integration --></label>
+            <section>NetSuite Integration</section>
+        </sections>
+        <sections>
+            <label><!-- Personal Information --></label>
+            <section>Personal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Phone and Email --></label>
+            <section>Phone and Email</section>
+        </sections>
+        <sections>
+            <label><!-- Planned Giving Attributes --></label>
+            <section>Planned Giving Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Prospect Intelligence --></label>
+            <section>Prospect Intelligence</section>
+        </sections>
+        <sections>
+            <label><!-- Prospect Research Scores --></label>
+            <section>Prospect Research Scores</section>
+        </sections>
+        <sections>
+            <label><!-- Treatments --></label>
+            <section>Treatments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Donor Proxy Contact</layout>
+        <sections>
+            <label><!-- Alerts --></label>
+            <section>Alerts</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- NetSuite Integration --></label>
+            <section>NetSuite Integration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Household Contact - Cager</layout>
+        <sections>
+            <label><!-- Alerts --></label>
+            <section>Alerts</section>
+        </sections>
+        <sections>
+            <label><!-- Constituent Origin --></label>
+            <section>Constituent Origin</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Employment --></label>
+            <section>Employment</section>
+        </sections>
+        <sections>
+            <label><!-- Funder Attributes --></label>
+            <section>Funder Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Known EDF Fundraising Interests --></label>
+            <section>Known EDF Fundraising Interests</section>
+        </sections>
+        <sections>
+            <label><!-- Personal Information --></label>
+            <section>Personal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Phone and Email --></label>
+            <section>Phone and Email</section>
+        </sections>
+        <sections>
+            <label><!-- Relationships --></label>
+            <section>Relationships</section>
+        </sections>
+        <sections>
+            <label><!-- Treatments --></label>
+            <section>Treatments</section>
+        </sections>
+        <sections>
+            <label><!-- Wealth Analytics Summary --></label>
+            <section>Wealth Analytics Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Household Contact - Sys Admin</layout>
+        <sections>
+            <label><!-- Alerts --></label>
+            <section>Alerts</section>
+        </sections>
+        <sections>
+            <label><!-- Climate Corps Network Information --></label>
+            <section>Climate Corps Network Information</section>
+        </sections>
+        <sections>
+            <label><!-- Constituency --></label>
+            <section>Constituency</section>
+        </sections>
+        <sections>
+            <label><!-- Constituent Origin --></label>
+            <section>Constituent Origin</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Employment --></label>
+            <section>Employment</section>
+        </sections>
+        <sections>
+            <label><!-- Funder Attributes --></label>
+            <section>Funder Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Giving Summary --></label>
+            <section>Giving Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Known EDF Fundraising Interests --></label>
+            <section>Known EDF Fundraising Interests</section>
+        </sections>
+        <sections>
+            <label><!-- Known EDF Program Interest --></label>
+            <section>Known EDF Program Interest</section>
+        </sections>
+        <sections>
+            <label><!-- NetSuite Integration --></label>
+            <section>NetSuite Integration</section>
+        </sections>
+        <sections>
+            <label><!-- Personal Information --></label>
+            <section>Personal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Phone and Email --></label>
+            <section>Phone and Email</section>
+        </sections>
+        <sections>
+            <label><!-- Planned Giving Attributes --></label>
+            <section>Planned Giving Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Program Attributes --></label>
+            <section>Program Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Prospect Intelligence --></label>
+            <section>Prospect Intelligence</section>
+        </sections>
+        <sections>
+            <label><!-- Prospect Research Scores --></label>
+            <section>Prospect Research Scores</section>
+        </sections>
+        <sections>
+            <label><!-- Screening Data --></label>
+            <section>Screening Data</section>
+        </sections>
+        <sections>
+            <label><!-- Strategic Relationship Management Attributes --></label>
+            <section>Strategic Relationship Management Attributes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Household Contact Master</layout>
+        <sections>
+            <label><!-- Alerts --></label>
+            <section>Alerts</section>
+        </sections>
+        <sections>
+            <label><!-- Climate Corps Network Information --></label>
+            <section>Climate Corps Network Information</section>
+        </sections>
+        <sections>
+            <label><!-- Constituency --></label>
+            <section>Constituency</section>
+        </sections>
+        <sections>
+            <label><!-- Constituent Origin --></label>
+            <section>Constituent Origin</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Employment --></label>
+            <section>Employment</section>
+        </sections>
+        <sections>
+            <label><!-- Funder Attributes --></label>
+            <section>Funder Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Giving Summary --></label>
+            <section>Giving Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Known EDF Fundraising Interests --></label>
+            <section>Known EDF Fundraising Interests</section>
+        </sections>
+        <sections>
+            <label><!-- Known EDF Program Interest --></label>
+            <section>Known EDF Program Interest</section>
+        </sections>
+        <sections>
+            <label><!-- NetSuite Integration --></label>
+            <section>NetSuite Integration</section>
+        </sections>
+        <sections>
+            <label><!-- Personal Information --></label>
+            <section>Personal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Phone and Email --></label>
+            <section>Phone and Email</section>
+        </sections>
+        <sections>
+            <label><!-- Planned Giving Attributes --></label>
+            <section>Planned Giving Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Program Attributes --></label>
+            <section>Program Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Prospect Intelligence --></label>
+            <section>Prospect Intelligence</section>
+        </sections>
+        <sections>
+            <label><!-- Prospect Research Scores --></label>
+            <section>Prospect Research Scores</section>
+        </sections>
+        <sections>
+            <label><!-- Screening Data --></label>
+            <section>Screening Data</section>
+        </sections>
+        <sections>
+            <label><!-- Strategic Relationship Management Attributes --></label>
+            <section>Strategic Relationship Management Attributes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Household Contact Member Services</layout>
+        <sections>
+            <label><!-- Alerts --></label>
+            <section>Alerts</section>
+        </sections>
+        <sections>
+            <label><!-- Constituency --></label>
+            <section>Constituency</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- NetSuite Integration --></label>
+            <section>NetSuite Integration</section>
+        </sections>
+        <sections>
+            <label><!-- Personal Information --></label>
+            <section>Personal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Phone and Email --></label>
+            <section>Phone and Email</section>
+        </sections>
+        <sections>
+            <label><!-- Treatments --></label>
+            <section>Treatments</section>
+        </sections>
+        <sections>
+            <label><!-- Wealth Analytics Summary --></label>
+            <section>Wealth Analytics Summary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Household Program Contact</layout>
+        <sections>
+            <label><!-- Alerts --></label>
+            <section>Alerts</section>
+        </sections>
+        <sections>
+            <label><!-- Climate Corps Network Information --></label>
+            <section>Climate Corps Network Information</section>
+        </sections>
+        <sections>
+            <label><!-- Constituent Origin --></label>
+            <section>Constituent Origin</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Employment --></label>
+            <section>Employment</section>
+        </sections>
+        <sections>
+            <label><!-- Known EDF Program Interest --></label>
+            <section>Known EDF Program Interest</section>
+        </sections>
+        <sections>
+            <label><!-- Personal Information --></label>
+            <section>Personal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Phone and Email --></label>
+            <section>Phone and Email</section>
+        </sections>
+        <sections>
+            <label><!-- Program Attributes --></label>
+            <section>Program Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Strategic Relationship Management Attributes --></label>
+            <section>Strategic Relationship Management Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Treatments --></label>
+            <section>Treatments</section>
+        </sections>
+        <sections>
+            <label><!-- Wealth Analytics Summary --></label>
+            <section>Wealth Analytics Summary</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Climate Corps --></label>
+        <name>Climate_Corps</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Mem Ser Constituency Details --></label>
+        <name>Constituency_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Constituent Origin --></label>
+        <name>Constituent_Origin</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- EDF Fundraising Interests --></label>
+        <name>EDF_Fundraising_Interests</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Giving Summary --></label>
+        <name>Giving_Summary_view</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Mem Ser Employment --></label>
+        <name>Mem_Ser_Employment</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Mem Ser Funder Attributes --></label>
+        <name>Mem_Ser_Funder_Attributes</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Mem Ser Fundraising Interests --></label>
+        <name>Mem_Ser_Fundraising_Interests</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Mem Ser Program Attributes --></label>
+        <name>Mem_Ser_Program_Attributes</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Case --></label>
+        <name>NewCaseContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>NewDonation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Contact Email --></label>
+        <name>NewEmail</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>NewGrant</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>NewMajorGift</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>NewMembership</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Contact Phone --></label>
+        <name>NewPhone</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Planned Gift Opportunity --></label>
+        <name>NewPlannedGiftOpp</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Contact --></label>
+        <name>New_Contact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Feature Request --></label>
+        <name>New_Feature_Request</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Open Recurring Donation --></label>
+        <name>New_Open_Recurring_Donation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Reporting Date --></label>
+        <name>New_Reporting_Date</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Planned Giving Attributes --></label>
+        <name>Planned_Giving_Attributes</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Program Contact Key Info --></label>
+        <name>Program_Contact_Key_Info</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Prospect Intelligence --></label>
+        <name>Prospect_Intelligence</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Rollup QC --></label>
+        <name>Rollup_QC</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Screening Data --></label>
+        <name>Screening_Data</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Treatment Flags --></label>
+        <name>Treatment_Flags</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Treatments --></label>
+        <name>Treatments</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Contact Alerts --></label>
+        <name>Update_Contact_Alerts</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Contact --></label>
+        <name>Contact</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Donor Proxy --></label>
+        <name>Donor_Proxy</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- On Contact records, the Account Name field should not be linked to a Organization Account. The Account Name field only needs to be filled in if you are adding a new contact to an existing household. --></errorMessage>
+        <name>Account_Cannot_Be_Organization</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Preferred Email --></errorMessage>
+        <name>Contact_Preferred_Email</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Preferred Phone --></errorMessage>
+        <name>Contact_Preferred_Phone</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please use related records to update Contact Phone/Email fields. --></errorMessage>
+        <name>Phone_and_Email_Lock</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Giving_Summary --></label>
+        <name>Giving_Summary</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_Tasks --></label>
+        <name>Open_Tasks</name>
+    </webLinks>
+</CustomObjectTranslation>

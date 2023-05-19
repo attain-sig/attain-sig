@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>Could</masterLabel>
+            <translation><!-- Could --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Must</masterLabel>
+            <translation><!-- Must --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omit</masterLabel>
+            <translation><!-- Omit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Should</masterLabel>
+            <translation><!-- Should --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

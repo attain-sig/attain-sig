@@ -1,0 +1,3021 @@
+<?xml version="1.0" encoding="utf-8"?><Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Subledger --></label>
+        <name>Accounting_Subledger</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Build Management --></label>
+        <name>Build_Management</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Climate Corps --></label>
+        <name>Climate_Corps</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Conga Composer --></label>
+        <name>CongaMerge</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Declarative Lookup Rollup Summaries --></label>
+        <name>DeclarativeLookupRollupSummaries</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Declarative Lookup Rollup Summaries --></label>
+        <name>DeclarativeLookupRollupSummaries2</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- EDF Caging --></label>
+        <name>EDF_Caging</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- EDF Development --></label>
+        <name>EDF_Development</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- EDF Gift Processing --></label>
+        <name>EDF_Gift_Processing</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- EDF Legal Tracking --></label>
+        <name>EDF_Legal_Tracking</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- EDF Main --></label>
+        <name>EDF_Main</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- EDF Member Services --></label>
+        <name>EDF_Member_Services</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- EDF Member Services Console --></label>
+        <name>EDF_Member_Services_Console</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Elements --></label>
+        <name>Elements</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Multiple Lead Converter --></label>
+        <name>Lead_Converter_Lightning</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Limits Monitor --></label>
+        <name>Limits_Monitor</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Nonprofit Success Pack --></label>
+        <name>Nonprofit_CRM</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Nonprofit Success Pack --></label>
+        <name>Nonprofit_Success_Pack</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- User Access &amp; Permissions Assistant --></label>
+        <name>Profiles_to_Permission_Sets</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Snapshot --></label>
+        <name>Snapshot</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Snapshot --></label>
+        <name>Snapshot_Lightning</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Sortable Data Grids --></label>
+        <name>Sortable_Data_Grids</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- iContact Email Marketing --></label>
+        <name>iContact_Email_Marketing</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- iContact Email Marketing - Lightning --></label>
+        <name>iContact_Email_Marketing_Lightning</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- Contact Information Disclaimer --></label>
+        <name>Contact_Information_Disclaimer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DeliverablesTracker_Heading_FellowGreetings --></label>
+        <name>DeliverablesTracker_Heading_FellowGreetings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DeliverablesTracker_Heading_Text --></label>
+        <name>DeliverablesTracker_Heading_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DeliverablesTracker_Label_Done --></label>
+        <name>DeliverablesTracker_Label_Done</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DeliverablesTracker_Label_DueDate --></label>
+        <name>DeliverablesTracker_Label_DueDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DeliverablesTracker_Label_NotDone --></label>
+        <name>DeliverablesTracker_Label_NotDone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DeliverablesTracker_MessageTitle_ErrorFetchingContact --></label>
+        <name>DeliverablesTracker_MessageTitle_ErrorFetchingContact</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DeliverablesTracker_MessageTitle_ErrorFetchingEngagement --></label>
+        <name>DeliverablesTracker_MessageTitle_ErrorFetchingEngagement</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EDF_CoverLetter --></label>
+        <name>EDF_CoverLetter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EDF_DashBoard_ThankYouFillOutInformation --></label>
+        <name>EDF_DashBoard_ThankYouFillOutInformation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EDF_Engagement_Confirmed --></label>
+        <name>EDF_Engagement_Confirmed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EDF_GenarateFellowApplicationPDF --></label>
+        <name>EDF_GenarateFellowApplicationPDF</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EDF_Hello --></label>
+        <name>EDF_Hello</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EDF_Prospective_Applicant --></label>
+        <name>EDF_Prospective_Applicant</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EDF_RegistrationTemporaryPassword --></label>
+        <name>EDF_RegistrationTemporaryPassword</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EDF_Sharepoint_URL --></label>
+        <name>EDF_Sharepoint_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EDF SystemAdministrator User ID --></label>
+        <name>EDF_SystemAdministrator_User_ID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EngList_Instruction1 --></label>
+        <name>EngList_Instruction1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EngList_Instruction2 --></label>
+        <name>EngList_Instruction2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EngList_Instruction3 --></label>
+        <name>EngList_Instruction3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EngList_Instruction4 --></label>
+        <name>EngList_Instruction4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EngList_SearchTips_Tip1 --></label>
+        <name>EngList_SearchTips_Tip1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EngList_SearchTips_Tip2 --></label>
+        <name>EngList_SearchTips_Tip2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EngList_SearchTips_Tip3 --></label>
+        <name>EngList_SearchTips_Tip3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EngList_SearchTips_Tip4 --></label>
+        <name>EngList_SearchTips_Tip4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- EngList_SearchTips_Tip5 --></label>
+        <name>EngList_SearchTips_Tip5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FELLOWAPP Apply for China Fellowship --></label>
+        <name>FELLOWAPP_Apply_for_China_Fellowship</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FELLOWAPP_Apply_for_India_Fellowship --></label>
+        <name>FELLOWAPP_Apply_for_India_Fellowship</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FELLOWAPP_CoverLetter_Header1 --></label>
+        <name>FELLOWAPP_CoverLetter_Header1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FELLOWAPP CoverLetter Header3 --></label>
+        <name>FELLOWAPP_CoverLetter_Header3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FELLOWAPP_CoverLetter_Header4 --></label>
+        <name>FELLOWAPP_CoverLetter_Header4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_Back_ButtonLabel --></label>
+        <name>FellowApp_Back_ButtonLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_Cancel_ButtonLabel --></label>
+        <name>FellowApp_Cancel_ButtonLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_AccessToVehicle_FieldLabel --></label>
+        <name>FellowApp_MatchPref_AccessToVehicle_FieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_ChinaRegionPref_FieldLabel --></label>
+        <name>FellowApp_MatchPref_ChinaRegionPref_FieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_ChinaRegionPref_HelpText --></label>
+        <name>FellowApp_MatchPref_ChinaRegionPref_HelpText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_IndiaRegionPref_FieldLabel --></label>
+        <name>FellowApp_MatchPref_IndiaRegionPref_FieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_IndiaRegionPref_HelpText --></label>
+        <name>FellowApp_MatchPref_IndiaRegionPref_HelpText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_InterestForIndiaChina_FieldLabel --></label>
+        <name>FellowApp_MatchPref_InterestForIndiaChina_FieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_InterestForIndiaChina_HelpText --></label>
+        <name>FellowApp_MatchPref_InterestForIndiaChina_HelpText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_Page_Heading --></label>
+        <name>FellowApp_MatchPref_Page_Heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_ProjectTypeFirstChoice_FieldLabel --></label>
+        <name>FellowApp_MatchPref_ProjectTypeFirstChoice_FieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_ProjectTypePreference3Choices_Heading --></label>
+        <name>FellowApp_MatchPref_ProjectTypePreference3Choices_Heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_ProjectTypePreference_Heading --></label>
+        <name>FellowApp_MatchPref_ProjectTypePreference_Heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_ProjectTypeSecondChoice_FieldLabel --></label>
+        <name>FellowApp_MatchPref_ProjectTypeSecondChoice_FieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_ProjectTypeThirdChoice_FieldLabel --></label>
+        <name>FellowApp_MatchPref_ProjectTypeThirdChoice_FieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_SectorFirstChoice_FieldLabel --></label>
+        <name>FellowApp_MatchPref_SectorFirstChoice_FieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_SectorPreference3Choices_Heading --></label>
+        <name>FellowApp_MatchPref_SectorPreference3Choices_Heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_SectorPreference_Heading --></label>
+        <name>FellowApp_MatchPref_SectorPreference_Heading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_SectorSecondChoice_FieldLabel --></label>
+        <name>FellowApp_MatchPref_SectorSecondChoice_FieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_SectorThirdChoice_FieldLabel --></label>
+        <name>FellowApp_MatchPref_SectorThirdChoice_FieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_USDriverLicense_FieldLabel --></label>
+        <name>FellowApp_MatchPref_USDriverLicense_FieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_USRegionPrefText_CharacterLimit --></label>
+        <name>FellowApp_MatchPref_USRegionPrefText_CharacterLimit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_USRegionPrefText_FieldLabel --></label>
+        <name>FellowApp_MatchPref_USRegionPrefText_FieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_USRegionPref_FieldLabel --></label>
+        <name>FellowApp_MatchPref_USRegionPref_FieldLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_MatchPref_USRegionPref_HelpText --></label>
+        <name>FellowApp_MatchPref_USRegionPref_HelpText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_SaveNext_ButtonLabel --></label>
+        <name>FellowApp_SaveNext_ButtonLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowApp_Save_ButtonLabel --></label>
+        <name>FellowApp_Save_ButtonLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowPortalHomepage_HeadingLabel_ActionCenter --></label>
+        <name>FellowPortalHomepage_HeadingLabel_ActionCenter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowPortalHomepage_HeadingLabel_NextSteps --></label>
+        <name>FellowPortalHomepage_HeadingLabel_NextSteps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FellowPortalHomepage_HeadingLabel_Shortcuts --></label>
+        <name>FellowPortalHomepage_HeadingLabel_Shortcuts</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Task Record Type ID --></label>
+        <name>General_Task_Record_Type_ID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- HellerFull Org ID --></label>
+        <name>HellerFull_Org_ID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS FOR EDF Help Text Approved Project Summary --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_Approved_Project_Summary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS_FOR_EDF_Help_Text_Comments_on_your_final_deliverables --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_Comments_on_your_final_deliverables</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS FOR EDF Help Text Complete Training PreWork --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_Complete_Training_PreWork</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS_FOR_EDF_Help_Text_Final Deliverables Instructions and Template --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_Final_Deliverables_Instructions_and_Template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS_FOR_EDF_Help_Text_For_how_many_building_ --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_For_how_many_building_did_you_analyze_data</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS_FOR_EDF_Help_Text_Have_you_submitted_to_Host --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_Have_you_submitted_to_Host</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS_FOR_EDF_Help_Text_Headding_Part1 --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_Headding_Part1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS_FOR_EDF_Help_Text_If you worked_on_a_supply_chain --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_If_you_worked_on_a_supply_chain</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS_FOR_EDF_Help_Text_LinkedIn --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_LinkedIn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS FOR EDF Help Text Onsite Photo --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_Onsite_Photo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS_FOR_EDF_Help_Text_Personal_email_address --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_Personal_email_address</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS FOR EDF Help Text Photo --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_Photo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS_FOR_EDF_Help_Text_Prior_Goal_Setting_Projects --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_Prior_Goal_Setting_Projects</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Public Summary Approval Status --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_Public_Summary_Approval_Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS FOR EDF Help Text Twitter --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_Twitter</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS_FOR_EDF_Help_Text_What_Areas_in_your_fellowship --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_What_Areas_in_your_fellowship</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS_FOR_EDF_Help_Text_Workplan_Template --></label>
+        <name>ITEMS_FOR_EDF_Help_Text_Workplan_Template</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEMS FOR EDF Submitted Final Deliverables --></label>
+        <name>ITEMS_FOR_EDF_Submitted_Final_Deliverables</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ITEM_FOR_EDF_HELP_dates_and_workplan_here --></label>
+        <name>ITEM_FOR_EDF_HELP_dates_and_workplan_here</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ItemsForEDF_Download Training Pre-work --></label>
+        <name>ItemsForEDF_Download_Training_Pre_work</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ledger Entry Feedback Assignee ID --></label>
+        <name>Ledger_Entry_Feedback_Assignee_ID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_AcceptedFileFormats --></label>
+        <name>PortalDeliverable_AcceptedFileFormats</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_AcceptedPhotoFormats --></label>
+        <name>PortalDeliverable_AcceptedPhotoFormats</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_ButtonLabel_Save --></label>
+        <name>PortalDeliverable_ButtonLabel_Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FieldLabel_CompletedActivitiesReport --></label>
+        <name>PortalDeliverable_FieldLabel_CompletedActivitiesReport</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FieldLabel_FellowshipEndDate --></label>
+        <name>PortalDeliverable_FieldLabel_FellowshipEndDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FieldLabel_FellowshipStartDate --></label>
+        <name>PortalDeliverable_FieldLabel_FellowshipStartDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FieldLabel_FinalDeliverables --></label>
+        <name>PortalDeliverable_FieldLabel_FinalDeliverables</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FieldLabel_Initials --></label>
+        <name>PortalDeliverable_FieldLabel_Initials</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FieldLabel_LinkedInProfile --></label>
+        <name>PortalDeliverable_FieldLabel_LinkedInProfile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FieldLabel_PhotoReleaseForm --></label>
+        <name>PortalDeliverable_FieldLabel_PhotoReleaseForm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FieldLabel_PhotoReleaseUpload --></label>
+        <name>PortalDeliverable_FieldLabel_PhotoReleaseUpload</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FieldLabel_TwitterHandle --></label>
+        <name>PortalDeliverable_FieldLabel_TwitterHandle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FieldLabel_UploadYourHeadshot --></label>
+        <name>PortalDeliverable_FieldLabel_UploadYourHeadshot</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FieldLabel_UploadYourWorkplan --></label>
+        <name>PortalDeliverable_FieldLabel_UploadYourWorkplan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileURL_CompletedActivitiesReport --></label>
+        <name>PortalDeliverable_FileURL_CompletedActivitiesReport</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileURL_CompletedActivitiesReport_CN --></label>
+        <name>PortalDeliverable_FileURL_CompletedActivitiesReport_CN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileURL_CompletedActivitiesReport_IN --></label>
+        <name>PortalDeliverable_FileURL_CompletedActivitiesReport_IN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileURL_PhotoReleaseForm --></label>
+        <name>PortalDeliverable_FileURL_PhotoReleaseForm</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileURL_PhotoReleaseForm_CN --></label>
+        <name>PortalDeliverable_FileURL_PhotoReleaseForm_CN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileURL_PhotoReleaseForm_IN --></label>
+        <name>PortalDeliverable_FileURL_PhotoReleaseForm_IN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileURL_WorkplanTemplate --></label>
+        <name>PortalDeliverable_FileURL_WorkplanTemplate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileURL_WorkplanTemplate_CN --></label>
+        <name>PortalDeliverable_FileURL_WorkplanTemplate_CN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileURL_WorkplanTemplate_IN --></label>
+        <name>PortalDeliverable_FileURL_WorkplanTemplate_IN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileUrl_FellowAgreement --></label>
+        <name>PortalDeliverable_FileUrl_FellowAgreement</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileUrl_FellowAgreement_CN --></label>
+        <name>PortalDeliverable_FileUrl_FellowAgreement_CN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileUrl_FellowAgreement_IN --></label>
+        <name>PortalDeliverable_FileUrl_FellowAgreement_IN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileUrl_FinalDeliverableInstructions --></label>
+        <name>PortalDeliverable_FileUrl_FinalDeliverableInstructions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileUrl_FinalDeliverableInstructions_CN --></label>
+        <name>PortalDeliverable_FileUrl_FinalDeliverableInstructions_CN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileUrl_FinalDeliverableInstructions_IN --></label>
+        <name>PortalDeliverable_FileUrl_FinalDeliverableInstructions_IN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileUrl_PreTrainingSurvey --></label>
+        <name>PortalDeliverable_FileUrl_PreTrainingSurvey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileUrl_PreTrainingSurvey_CN --></label>
+        <name>PortalDeliverable_FileUrl_PreTrainingSurvey_CN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileUrl_PreTrainingSurvey_IN --></label>
+        <name>PortalDeliverable_FileUrl_PreTrainingSurvey_IN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileUrl_PreWork --></label>
+        <name>PortalDeliverable_FileUrl_PreWork</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileUrl_PreWork_CN --></label>
+        <name>PortalDeliverable_FileUrl_PreWork_CN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileUrl_PreWork_IN --></label>
+        <name>PortalDeliverable_FileUrl_PreWork_IN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileUrl_TrainingInfoSheet --></label>
+        <name>PortalDeliverable_FileUrl_TrainingInfoSheet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileUrl_TrainingInfoSheet_CN --></label>
+        <name>PortalDeliverable_FileUrl_TrainingInfoSheet_CN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_FileUrl_TrainingInfoSheet_IN --></label>
+        <name>PortalDeliverable_FileUrl_TrainingInfoSheet_IN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Heading_Text --></label>
+        <name>PortalDeliverable_Heading_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_CertifyTrainingAttendance --></label>
+        <name>PortalDeliverable_Label_CertifyTrainingAttendance</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_ClickHereToDownload --></label>
+        <name>PortalDeliverable_Label_ClickHereToDownload</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_ClickHereToRead --></label>
+        <name>PortalDeliverable_Label_ClickHereToRead</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_ClickHereToSubmit --></label>
+        <name>PortalDeliverable_Label_ClickHereToSubmit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_CompleteNecessaryPreWork --></label>
+        <name>PortalDeliverable_Label_CompleteNecessaryPreWork</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_CompletePostTrainingSurvey --></label>
+        <name>PortalDeliverable_Label_CompletePostTrainingSurvey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_CompletePreWork --></label>
+        <name>PortalDeliverable_Label_CompletePreWork</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_Delete --></label>
+        <name>PortalDeliverable_Label_Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_Download --></label>
+        <name>PortalDeliverable_Label_Download</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_DownloadExcelTemplateForCompletedActivitiesReport --></label>
+        <name>PortalDeliverable_Label_DownloadExcelTemplateForCompletedActivitiesReport</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_DueBy --></label>
+        <name>PortalDeliverable_Label_DueBy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_FellowAgreement --></label>
+        <name>PortalDeliverable_Label_FellowAgreement</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_MissedTrainingSession --></label>
+        <name>PortalDeliverable_Label_MissedTrainingSession</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_PreTrainingSurveyBy --></label>
+        <name>PortalDeliverable_Label_PreTrainingSurveyBy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_ReminderFillSurvey --></label>
+        <name>PortalDeliverable_Label_ReminderFillSurvey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_Submit --></label>
+        <name>PortalDeliverable_Label_Submit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_TrainingInfoSheet --></label>
+        <name>PortalDeliverable_Label_TrainingInfoSheet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_Label_WorkplanTemplate --></label>
+        <name>PortalDeliverable_Label_WorkplanTemplate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_LinkLabel_ClickHereToAccessRecordings --></label>
+        <name>PortalDeliverable_LinkLabel_ClickHereToAccessRecordings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_LinkLabel_ClickHereToComplete --></label>
+        <name>PortalDeliverable_LinkLabel_ClickHereToComplete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_LinkLabel_CompletePreWork --></label>
+        <name>PortalDeliverable_LinkLabel_CompletePreWork</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_LinkLabel_ExcelTemplatXlsx --></label>
+        <name>PortalDeliverable_LinkLabel_ExcelTemplatXlsx</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_LinkLabel_ThreeOnsitePhotos --></label>
+        <name>PortalDeliverable_LinkLabel_ThreeOnsitePhotos</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_MessageLabel_AddInitials --></label>
+        <name>PortalDeliverable_MessageLabel_AddInitials</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_MessageLabel_ErrorWhileSaving --></label>
+        <name>PortalDeliverable_MessageLabel_ErrorWhileSaving</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_MessageLabel_FileDeletedSuccessfully --></label>
+        <name>PortalDeliverable_MessageLabel_FileDeletedSuccessfully</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_MessageLabel_SavedSuccessFillOtherSection --></label>
+        <name>PortalDeliverable_MessageLabel_SavedSuccessFillOtherSection</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_MessageLabel_SelectOnly3Photos --></label>
+        <name>PortalDeliverable_MessageLabel_SelectOnly3Photos</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_MessageLabel_UnableToDeleteFile --></label>
+        <name>PortalDeliverable_MessageLabel_UnableToDeleteFile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_MessageTitle_Error --></label>
+        <name>PortalDeliverable_MessageTitle_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_MessageTitle_SavedSuccessfully --></label>
+        <name>PortalDeliverable_MessageTitle_SavedSuccessfully</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_MessageTitle_Success --></label>
+        <name>PortalDeliverable_MessageTitle_Success</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_PillLabel_Approved --></label>
+        <name>PortalDeliverable_PillLabel_Approved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_PillLabel_PendingApproval --></label>
+        <name>PortalDeliverable_PillLabel_PendingApproval</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_PillStyle_Approved --></label>
+        <name>PortalDeliverable_PillStyle_Approved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_PillStyle_PendingApproval --></label>
+        <name>PortalDeliverable_PillStyle_PendingApproval</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_SectionHeadingIcon_DatesAndWorkplan --></label>
+        <name>PortalDeliverable_SectionHeadingIcon_DatesAndWorkplan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_SectionHeadingIcon_FinalDeliverables --></label>
+        <name>PortalDeliverable_SectionHeadingIcon_FinalDeliverables</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_SectionHeadingIcon_MediaProfile --></label>
+        <name>PortalDeliverable_SectionHeadingIcon_MediaProfile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_SectionHeadingIcon_PostTrainingItems --></label>
+        <name>PortalDeliverable_SectionHeadingIcon_PostTrainingItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_SectionHeadingIcon_PreTrainingItems --></label>
+        <name>PortalDeliverable_SectionHeadingIcon_PreTrainingItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_SectionHeading_FinalDeliverables --></label>
+        <name>PortalDeliverable_SectionHeading_FinalDeliverables</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_SectionHeading_MediaProfile --></label>
+        <name>PortalDeliverable_SectionHeading_MediaProfile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_SectionHeading_Part2InternalToEDFDeliverables --></label>
+        <name>PortalDeliverable_SectionHeading_Part2InternalToEDFDeliverables</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_SectionHeading_PostTrainingItems --></label>
+        <name>PortalDeliverable_SectionHeading_PostTrainingItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PortalDeliverable_SectionHeading_PreTrainingItems --></label>
+        <name>PortalDeliverable_SectionHeading_PreTrainingItems</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Post Training Recordings --></label>
+        <name>Post_Training_Recordings</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Post Training Recordings CN --></label>
+        <name>Post_Training_Recordings_CN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Post Training Recordings IN --></label>
+        <name>Post_Training_Recordings_IN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Post Training Survey --></label>
+        <name>Post_Training_Survey</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Post Training Survey CN --></label>
+        <name>Post_Training_Survey_CN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Post Training Survey IN --></label>
+        <name>Post_Training_Survey_IN</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reword certifications question --></label>
+        <name>Reword_certifications_question</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SiteName --></label>
+        <name>SiteName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ZeroEmissionVehicleProjectLabel --></label>
+        <name>ZeroEmissionVehicleProjectLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- emailname --></label>
+        <name>emailname</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- streetname1 --></label>
+        <name>streetname1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- streetname2 --></label>
+        <name>streetname2</name>
+    </customLabels>
+    <customPageWebLinks>
+        <label><!-- Conga Configuration Guide --></label>
+        <name>Conga_Configuration_Guide</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Conga Setup Page --></label>
+        <name>Conga_Setup_Page</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Elements Settings --></label>
+        <name>ElementsSettings</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- DEPRECATED: Nonprofit Edition Reports --></label>
+        <name>Nonprofit_Edition_Reports</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Welcome --></label>
+        <name>Welcome</name>
+    </customPageWebLinks>
+    <customTabs>
+        <label><!-- About Conga Composer --></label>
+        <name>About_Conga_Composer</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Accounting Settings --></label>
+        <name>Accounting_Settings</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Accounting Subledger --></label>
+        <name>Accounting_Subledger</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Affiliations Settings --></label>
+        <name>Affiliations_Settings</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Batch Data Entry --></label>
+        <name>Batch_Data_Entry</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Batch Gift Entry --></label>
+        <name>Batch_Gift_Entry</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Conga Composer Setup --></label>
+        <name>Composer_Test</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Conga Resources --></label>
+        <name>CongaMerge</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Conga Composer Setup --></label>
+        <name>Conga_Composer_Setup</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Conga Solution Collection --></label>
+        <name>Conga_Solution_Collection</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Conga Solutions Setup --></label>
+        <name>Conga_Solutions_Setup_vf</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Contact Merge (OLD) --></label>
+        <name>Contact_Merge</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Contacts Settings --></label>
+        <name>Contacts_Settings</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Converter --></label>
+        <name>Converter</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Conga Quick Start --></label>
+        <name>CreateStep</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Elements --></label>
+        <name>Elements</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Elements Settings --></label>
+        <name>Elements_Settings</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Gift Entry --></label>
+        <name>GE_Gift_Entry</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Get Started with NPSP - Admin --></label>
+        <name>GetStarted</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Get Started with NPSP --></label>
+        <name>GetStartedEndUser</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Households Settings --></label>
+        <name>Households_Settings</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Installation --></label>
+        <name>Installation</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Lead Converter --></label>
+        <name>Lead_Converter</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Limits Monitor --></label>
+        <name>Limits_Monitor</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Lookup Rollup Summaries Tools --></label>
+        <name>LookupRollupSummariesHome</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Manage --></label>
+        <name>Manage</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Manage Lookup Rollup Summaries --></label>
+        <name>ManageLookupRollupSummaries</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Manage Accounting Field Mappings --></label>
+        <name>Manage_Accounting_Field_Mappings</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Manage Accounting Mapping Sets --></label>
+        <name>Manage_Accounting_Mapping_Sets</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Getting Started --></label>
+        <name>NPSP_Resources</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- NPSP Settings --></label>
+        <name>NPSP_Settings</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Opportunity Rollups --></label>
+        <name>Opportunity_Rollups</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Payment Mapping --></label>
+        <name>Payment_Mapping</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Permissions Analyzer --></label>
+        <name>Permissions_Analyzer</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Relationships Settings --></label>
+        <name>Relationships_Settings</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Report --></label>
+        <name>Report</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- User Rollups --></label>
+        <name>User_Rollups</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Welcome --></label>
+        <name>Welcome</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- iContact Setup --></label>
+        <name>iContact_Configuration</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- iContact Configuration - Lightning --></label>
+        <name>iContact_Configuration_Lightning</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- iContact Help --></label>
+        <name>iContact_Help</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Snapshot Installer --></label>
+        <name>snapshot_installer</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows />
+        <fullName>Account_After_Insert_Update_Handle_Ownership_Field_Changes</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Account_After_Save_New_PM</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Account_After_Update_Handle_Portfolio_Manager_Processes</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Account_After_Update_Sync_Constituency</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Account_Before_Insert_Update_Sync_Constituency</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Account_Before_Save_Update_HH_Account_Type</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Account_Merge_Duplicate_Merge_Audit_Trail</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Account_On_Create_Only_Create_Donor_Proxy</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Action_Entity_Opt_In_Date_Update</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Activity_Event_Before_Save_Populate_Activity_Type_Custom_Field</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Activity_Event_Before_Save_Populate_Team_Field</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Activity_Task_Before_Save_Populate_Activity_Type_Custom_Field</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Activity_Task_Before_Save_Populate_Team_Field</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Add_Dev_Opt_Campaign_Statuses</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Address_After_Save_update_Account</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Affiliation_After_Delete_remove_employer</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Affiliation_After_Update_Active_EDF_Board</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Affiliation_BeforeSave_End_Date_Passed</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Affiliation_Scheduled_End_Date_Passed</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Affliliation_After_insert_update_remove_employer</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Chatter_Notification_to_User</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Climate_Corps_Engagement_Create_Host_and_Fellow_Affiliation</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Climate_Corps_Engagement_Offer_Accepted_Send_Match_Email_to_EDF_Engagement_Mgr</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>emailBody</name>
+            </textTemplates>
+            <textTemplates>
+                <name>subject</name>
+            </textTemplates>
+        </flows>
+        <fullName>Climate_Corps_Engagement_Send_Workplan_Notification_to_EM</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Climate_Corps_Engagement_Update_Affiliation_with_Start_End_Dates</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Climate_Corps_Engagement_Update_Fields_from_Fellow_App</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Climate_Corps_Engagement_Update_Past_CC_Year_field_on_Account</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Climate_Corps_Engagment_Update_Approval_Fields</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Consider_Me_Count_on_Engagement_Record</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Contact_After_Insert_Update_Primary_HH_Contact_Sync_Constituency</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Contact_After_Save_New_PM</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Contact_After_Update_Handle_Portfolio_Manager_Processes</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Contact_Before_Insert_Update_Initial_PG_Sub_Constituent_Date</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Contact_Before_Insert_Update_Sync_Constituency</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Contact_Before_Save_Create_Only_Sync_Constituency</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Contact_Merge_Duplicate_Merge_Audit_Trail</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Create_Email_Records_for_New_Contact</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Create_Phone_Records_for_New_Contact</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Deliverable_Before_Save_Update_Account_Field</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Email_Record_Triggered_Updates</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Email_Record_Triggered_Updates_Dec_Rev</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Email_Record_Triggered_Updates_Merge_Fix</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Email_Record_Triggered_Updates_R3</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Email_Triggered_Contact_Update_after_save</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Engagement_Record_Triggered_Fellowship_Start_End_Date_Changed</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Entity_Opt_In_Date_Update</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Feedback_AFTER_SAVE_Critical_Email_Lead</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>Message</name>
+            </textTemplates>
+            <textTemplates>
+                <name>MessageNew</name>
+            </textTemplates>
+            <textTemplates>
+                <name>plainMessage</name>
+            </textTemplates>
+        </flows>
+        <fullName>Feedback_New_Record_Created_Chatter_Notification</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_Application_Submitted_Email_Alert</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_China_Email_Alerts</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_Immediate_Email_Alerts_US_China</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_Immediate_Send_India</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_One_Day_Wait_China</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_One_Day_Wait_India</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_Send_Reference_Check</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_Send_invite_for_interview_1_China</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_Send_to_Matching_Pool_India</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_Send_to_Matching_Pool_US</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_Two_Day_Wait_India</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_Two_day_hold_US_and_China</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_US_Email_Alerts</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_Update_Application_Submitted_Time</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_Update_ConsiderMe_to_Archived</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Confirmed</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Confirmed_India_and_China</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Initials_Signed_on_Deliverables</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Former_Manager_Handle_Manager_Change</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>GAU_Allocation_After_Save_Match_Oppty_Allocation_to_Pmt_Allocation</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>GAU_Allocation_After_Save_Update_Create_Ledger_Entries</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>GAU_Allocation_BEFORE_SAVE_Clear_Percentage</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>GAU_Allocation_Create_AFTER_SAVE_Values</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>GAU_Allocation_Create_Before_SAVE_Values</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>messageBodyforTask</name>
+            </textTemplates>
+        </flows>
+        <fullName>Host_Application_Send_Email_to_Respondent</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Host_Application_Send_Email_to_Respondent_India</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Household_Account_Deceased_Update</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Ledger_Entry_After_Save_Opportunity_Posted</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>FeedbackDescription</name>
+            </textTemplates>
+        </flows>
+        <fullName>Ledger_Entry_on_Create_Create_Feedback_Record</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>MCRM_Contacts_Create_Weekly_Tasks</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Mark_PSC_PG_IK_Contacts</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>NPSP_Data_Import_After_Update_Create_Staging_Record</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_AFTER_SAVE_Update_Allocations</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_After_Save_Push_Grant_Name_to_Allocation</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_After_Save_Sync_Close_Date_and_Payment_Date</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_After_Save_Update_Natural_Code_Text_Field</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_After_Save_create_Action</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_After_Save_create_Funder_Soft_Credit</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_Before_Insert_Update_Sync_Portfolio_Managers</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_Before_Save_Membership_Leader</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_Before_Save_Update_GPT_Reviewed</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_Contact_Role_Create_Partial_Soft_Credit</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_Create_BEFORE_SAVE_Amount_Values</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_On_Create_Org_Primary_Contact</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_Proposal_Id</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Payment_AFTER_SAVE_Amount_Values</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Payment_Created_Update_Parallel_Opp_Fields</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Phone_Record_Triggered_Updates</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Phone_Record_Triggered_Updates_Merge_Fix</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Phone_Record_Triggered_Updates_R3</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Populate_Event_Id</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Projection_Before_Insert</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Refund_WriteOff_Payment_AFTER_SAVE_Update_Opportunity</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Run_Case_Assignment</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Send_Email_Engagement_Confirmed_work_authorization_email_notifications</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Set_Start_End_Date_Approval</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Staging_After_Insert_Link_Projections</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Task_created_when_the_Deliverable_is_Reporting_Date</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Case_Account_Name</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Challenge_Match_Qualifying_Donations</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Contact_Phones_on_Contact_Deletion</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Email_based_on_Contact_after_Merge</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Email_on_Contact_Deletion</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Engagement_to_Link_Host_App</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Phone_based_on_Contact_after_Merge</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_the_Account_Record_ID_After_Save_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_the_Contact_Record_ID_After_Save_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_the_Lead_Record_ID_After_Save_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_the_Opportunity_Record_ID_After_Save_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_the_Planned_Gift_Record_ID_After_Save_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>User_Portal_User_Update_Con_Sub_Con_on_Related_Contact_After_Save</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- Conga Composer (Deprecated) --></label>
+        <name>Composer_for_Sf1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Conga Composer SF1 EU --></label>
+        <name>Conga_Composer_SF1_EU</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Conga Composer --></label>
+        <name>Conga_Composer_Sf1</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Feedback --></label>
+        <name>Create_Feedback_Form</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Account --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Case --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Contact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>NewFeatureRequest</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>NewTaskGeneral</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>NewTaskReportingDate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New User Story --></label>
+        <name>NewUserStory</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Campaign --></label>
+        <name>New_Campaign</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Donation --></label>
+        <name>New_Donation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Feedback --></label>
+        <name>New_Feedback</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Grant --></label>
+        <name>New_Grant</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Household --></label>
+        <name>New_Household_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Organization --></label>
+        <name>New_Organization</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Recurring Donation --></label>
+        <name>New_Recurring_Donation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <prompts>
+        <name>ReportGuidance</name>
+        <promptVersions>
+            <name>Report Guidance</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>GetStartedwithNPSP</name>
+        <promptVersions>
+            <name>Get Started with NPSP</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>OpportunityPageGuidanceOrganizationDonation</name>
+        <promptVersions>
+            <name>Opportunity Page Guidance - Organization Donation</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>NPSPContactMergeGuidance</name>
+        <promptVersions>
+            <name>NPSP Contact Merge Guidance</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>ContactPageGuidance</name>
+        <promptVersions>
+            <name>Contact Page Guidance</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>OpportunityPageGuidance</name>
+        <promptVersions>
+            <name>Opportunity Page Guidance</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>ContactPageGuidanceRelationships</name>
+        <promptVersions>
+            <name>Contact Page Guidance - Relationships</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>ReportGuidanceStandardReportTypes</name>
+        <promptVersions>
+            <name>Report Guidance - Standard Report Types</name>
+        </promptVersions>
+    </prompts>
+    <prompts>
+        <name>ContactPageGuidanceAffiliations</name>
+        <promptVersions>
+            <name>Contact Page Guidance - Affiliations</name>
+        </promptVersions>
+    </prompts>
+    <reportTypes>
+        <description><!-- Accounts (custom) --></description>
+        <label><!-- Accounts (custom) --></label>
+        <name>Accounts_custom</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Relationship Manager (Account) --></label>
+            <name>Relationship Manager (Account)</name>
+        </sections>
+        <sections>
+            <label><!-- Relationship Manager (Primary Contact) --></label>
+            <name>Relationship Manager (Primary Contact)</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts w Dev Strategies &amp; Activities --></description>
+        <label><!-- Accounts w Dev Strategies &amp; Activities --></label>
+        <name>Accounts_w_Dev_Strategies_Activities</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+        <sections>
+            <label><!-- Assigned To --></label>
+            <name>Assigned To</name>
+        </sections>
+        <sections>
+            <label><!-- Development Strategies --></label>
+            <name>Development Strategies</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts w/ Opportunities and Soft Credits --></description>
+        <label><!-- Accounts w/ Opportunities and Soft Credits --></label>
+        <name>Accounts_w_Opportunities_and_Soft_Credits</name>
+        <sections>
+            <label><!-- Account Soft Credits --></label>
+            <name>Account Soft Credits</name>
+        </sections>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts w/ Opps w/ Soft Credits --></description>
+        <label><!-- Accounts w/ Opps w/ Soft Credits --></label>
+        <name>Accounts_w_Opps_w_Soft_Credits</name>
+        <sections>
+            <label><!-- Account Soft Credits --></label>
+            <name>Account Soft Credits</name>
+        </sections>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts w/wo Activities --></description>
+        <label><!-- Accounts w/wo Activities --></label>
+        <name>Accounts_w_wo_Activities</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts w/wo Opportunities --></description>
+        <label><!-- Accounts w/wo Opportunities --></label>
+        <name>Accounts_w_wo_Opportunities</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Activities --></description>
+        <label><!-- Accounts with Activities --></label>
+        <name>Accounts_with_Activities</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Contacts with Opportunities --></description>
+        <label><!-- Accounts with Contacts with Opportunities --></label>
+        <name>Accounts_with_Contacts_with_Opportunities</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Opportunities --></description>
+        <label><!-- Accounts with Opportunities --></label>
+        <name>Accounts_with_Opportunities</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with or without Development Strategies --></description>
+        <label><!-- Accounts with or without Development Strategies --></label>
+        <name>Accounts_with_or_without_Development_Strategies</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Development Strategies --></label>
+            <name>Development Strategies</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Affiliations (cust) --></description>
+        <label><!-- Affiliations (cust) --></label>
+        <name>Affiliations_cust</name>
+        <sections>
+            <label><!-- Affiliations --></label>
+            <name>Affiliations</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- All Activities --></description>
+        <label><!-- All Activities --></label>
+        <name>All_Activities</name>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaign Email Messages - Lightning --></description>
+        <label><!-- Campaign Email Messages - Lightning --></label>
+        <name>Campaign_Email_Messages_Lightning</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Email Messages - Lightning --></label>
+            <name>iContact Email Messages - Lightning</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Message Statistics - Lightning --></label>
+            <name>iContact Message Statistics - Lightning</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaign Sent Messages --></description>
+        <label><!-- Campaign Sent Messages --></label>
+        <name>Campaign_Sent_Messages</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Message Statistic --></label>
+            <name>iContact Message Statistic</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Sent Messages --></label>
+            <name>iContact Sent Messages</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns w/ Opps and Payments --></description>
+        <label><!-- Campaigns w/ Opps and Payments --></label>
+        <name>Campaigns_w_Opps_and_Payments</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns w/iContact Sent Messages,Stats, Contacts --></description>
+        <label><!-- Campaigns w/iContact Sent Messages,Stats, Contacts --></label>
+        <name>Campaigns_w_iContact_Sent_Messages_Stats_Contacts</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Message Statistic --></label>
+            <name>iContact Message Statistic</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Sent Messages --></label>
+            <name>iContact Sent Messages</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns with Contacts &amp; Campaign Members --></description>
+        <label><!-- Campaigns with Contacts &amp; Campaign Members --></label>
+        <name>Campaigns_with_Contacts_Campaign_Members</name>
+        <sections>
+            <label><!-- Campaign Members --></label>
+            <name>Campaign Members</name>
+        </sections>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns with Messages - Lightning --></description>
+        <label><!-- Campaigns with Messages - Lightning --></label>
+        <name>Campaigns_with_Messages_Lightning</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Email Messages - Lightning --></label>
+            <name>iContact Email Messages - Lightning</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Message Statistics - Lightning --></label>
+            <name>iContact Message Statistics - Lightning</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns with Messages with Stats - Lightning --></description>
+        <label><!-- Campaigns with Messages with Stats - Lightning --></label>
+        <name>Campaigns_with_Messages_with_Stats_Lightning</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Email Messages - Lightning --></label>
+            <name>iContact Email Messages - Lightning</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Message Statistics - Lightning --></label>
+            <name>iContact Message Statistics - Lightning</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns with Opportunities and Payments --></description>
+        <label><!-- Campaigns with Opportunities and Payments --></label>
+        <name>Campaigns_with_Opportunities_and_Payments</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns with Messages with or without Stats --></description>
+        <label><!-- Campaigns with Messages with or without Stats --></label>
+        <name>Campaigns_with_iContact_Sent_Messages</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Message Statistic --></label>
+            <name>iContact Message Statistic</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Sent Messages --></label>
+            <name>iContact Sent Messages</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns with iContact Sent Messages with iContact Message Statistics --></description>
+        <label><!-- Campaigns with iContact Sent Messages with iContact Message Statistics --></label>
+        <name>Campaigns_with_iContact_Sent_Messages_with_iContact_Message_Statistics</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Message Statistic --></label>
+            <name>iContact Message Statistic</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Sent Messages --></label>
+            <name>iContact Sent Messages</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Climate Corps Engagements with Host App-Contact --></description>
+        <label><!-- Climate Corps Engagements with Host App-Contact --></label>
+        <name>Climate_Corps_Engagements_with_Host_Applications</name>
+        <sections>
+            <label><!-- Account --></label>
+            <name>Account</name>
+        </sections>
+        <sections>
+            <label><!-- Climate Corps Engagements --></label>
+            <name>Climate Corps Engagements</name>
+        </sections>
+        <sections>
+            <label><!-- Fellow Applicant --></label>
+            <name>Fellow Applicant</name>
+        </sections>
+        <sections>
+            <label><!-- Host Application --></label>
+            <name>Host Application</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Consider Mes with Fellow Application --></description>
+        <label><!-- Consider Mes with Fellow Application --></label>
+        <name>Consider_Mes_with_Fellow_Application</name>
+        <sections>
+            <label><!-- Consider Me- Fellow Portals --></label>
+            <name>Consider Me- Fellow Portals</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts Only --></description>
+        <label><!-- Contacts Only --></label>
+        <name>Contacts_Only</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts Report --></description>
+        <label><!-- Contacts Report --></label>
+        <name>Contacts_Report</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Relationship Manager (Account) --></label>
+            <name>Relationship Manager (Account)</name>
+        </sections>
+        <sections>
+            <label><!-- Relationship Manager (Contact) --></label>
+            <name>Relationship Manager (Contact)</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts w Opps w/wo Partial Soft Credits --></description>
+        <label><!-- Contacts w Opps w/wo Partial Soft Credits --></label>
+        <name>Contacts_w_Opps_w_wo_Partial_Soft_Credits</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Partial Soft Credits --></label>
+            <name>Partial Soft Credits</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts w/ PSCs (cust) --></description>
+        <label><!-- Contacts w/ PSCs (cust) --></label>
+        <name>Contacts_w_PSCs_cust</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Partial Soft Credits --></label>
+            <name>Partial Soft Credits</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts w/wo Opportunities and Allocations --></description>
+        <label><!-- Contacts w/wo Opportunities and Allocations --></label>
+        <name>Contacts_w_wo_donations_and_ddrs</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- GAU Allocations --></label>
+            <name>GAU Allocations</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts wih Campaign, Message and Statistics Info --></description>
+        <label><!-- Contacts wih Campaign, Message and Statistics Info --></label>
+        <name>Contacts_wih_Campaign_Message_and_Statistics_Info</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Message Statistic --></label>
+            <name>iContact Message Statistic</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts with Activities --></description>
+        <label><!-- Contacts with Activities --></label>
+        <name>Contacts_with_Activities</name>
+        <sections>
+            <label><!-- Activities --></label>
+            <name>Activities</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts with Campaign Message &amp; Stats - Lightning --></description>
+        <label><!-- Contacts with Campaign Message &amp; Stats - Lightning --></label>
+        <name>Contacts_with_Campaign_Message_Stats_Lightning</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Message Statistics - Lightning --></label>
+            <name>iContact Message Statistics - Lightning</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts with Contact Subscriptions --></description>
+        <label><!-- Contacts with Contact Subscriptions --></label>
+        <name>Contacts_with_Contact_Subscriptions</name>
+        <sections>
+            <label><!-- Contact Subscriptions --></label>
+            <name>Contact Subscriptions</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts with Donations and Allocations --></description>
+        <label><!-- Contacts with Donations and Allocations --></label>
+        <name>Contacts_with_Donations_and_Allocations</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- GAU Allocations --></label>
+            <name>GAU Allocations</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts with Duplicates --></description>
+        <label><!-- Contacts with Duplicates --></label>
+        <name>Contacts_with_Duplicates</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Duplicate Record Items --></label>
+            <name>Duplicate Record Items</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts with Duplicates2 --></description>
+        <label><!-- Contacts with Duplicates2 --></label>
+        <name>Contacts_with_Duplicates2</name>
+        <sections>
+            <label><!-- Duplicate Record Items --></label>
+            <name>Duplicate Record Items</name>
+        </sections>
+        <sections>
+            <label><!-- Duplicate Record Sets --></label>
+            <name>Duplicate Record Sets</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts with Opportunities --></description>
+        <label><!-- Contacts with Opportunities --></label>
+        <name>Contacts_with_Opportunities</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts with Opportunities and Payments --></description>
+        <label><!-- Contacts with Opportunities and Payments --></label>
+        <name>Contacts_with_Opportunities_and_Payments</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Contacts with Portfolio Managers --></description>
+        <label><!-- Contacts with Portfolio Managers --></label>
+        <name>Contacts_with_Portfolio_Managers</name>
+        <sections>
+            <label><!-- Account Relationship Manager --></label>
+            <name>Account Relationship Manager</name>
+        </sections>
+        <sections>
+            <label><!-- Contact Relationship Manager --></label>
+            <name>Contact Relationship Manager</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts (Portfolio Manager) --></label>
+            <name>Contacts (Portfolio Manager)</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- DR - Batch --></description>
+        <label><!-- DR - Batch --></label>
+        <name>DR_Batch</name>
+        <sections>
+            <label><!-- NPSP Data Import Batches --></label>
+            <name>NPSP Data Import Batches</name>
+        </sections>
+        <sections>
+            <label><!-- NPSP Data Imports --></label>
+            <name>NPSP Data Imports</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Dashboards --></description>
+        <label><!-- Dashboards --></label>
+        <name>Dashboards</name>
+        <sections>
+            <label><!-- Dashboards --></label>
+            <name>Dashboards</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Deliverables (Grant Deadline) --></description>
+        <label><!-- Deliverables (Grant Deadline) --></label>
+        <name>Deliverables_Grant_Deadline</name>
+        <sections>
+            <label><!-- Deliverables --></label>
+            <name>Deliverables</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Email Messages (Custom) --></description>
+        <label><!-- Email Messages (Custom) --></label>
+        <name>Email_Messages_Custom</name>
+        <sections>
+            <label><!-- Email Messages --></label>
+            <name>Email Messages</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Engagements w or w/out Recruitment Contact --></description>
+        <label><!-- Engagements w or w/out Recruitment Contact --></label>
+        <name>Engagements_w_or_w_out_Recruitment_Contact</name>
+        <sections>
+            <label><!-- Climate Corps Engagements --></label>
+            <name>Climate Corps Engagements</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Event Invitations with Events and Contacts --></description>
+        <label><!-- Event Invitations with Events and Contacts --></label>
+        <name>Event_Invitations_with_Events_and_Contacts</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Event Invitations --></label>
+            <name>Event Invitations</name>
+        </sections>
+        <sections>
+            <label><!-- Events --></label>
+            <name>Events</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Events with Event Invitations and Contacts --></description>
+        <label><!-- Events with Event Invitations and Contacts --></label>
+        <name>Events_with_Event_Invitations_and_Contacts</name>
+        <sections>
+            <label><!-- Contact --></label>
+            <name>Contact</name>
+        </sections>
+        <sections>
+            <label><!-- Event Invitations --></label>
+            <name>Event Invitations</name>
+        </sections>
+        <sections>
+            <label><!-- Events --></label>
+            <name>Events</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Exchange Rates --></description>
+        <label><!-- Exchange Rates --></label>
+        <name>Exchange_Rates</name>
+        <sections>
+            <label><!-- Exchange Rates --></label>
+            <name>Exchange Rates</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Feedbacks with Feeds and Comments --></description>
+        <label><!-- Feedbacks with Feeds and Comments --></label>
+        <name>Feedbacks_with_Feeds_and_Comments</name>
+        <sections>
+            <label><!-- Comments --></label>
+            <name>Comments</name>
+        </sections>
+        <sections>
+            <label><!-- Feed: Feedback --></label>
+            <name>Feed: Feedback</name>
+        </sections>
+        <sections>
+            <label><!-- Feedbacks --></label>
+            <name>Feedbacks</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Fellow Applications (custom) --></description>
+        <label><!-- Fellow Applications (custom) --></label>
+        <name>Fellow_Applications_custom</name>
+        <sections>
+            <label><!-- Fellow Applications --></label>
+            <name>Fellow Applications</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities with Payments and GAU Allocations --></description>
+        <label><!-- Opportunities with Payments and GAU Allocations --></label>
+        <name>GAU_Allocations_with_Opportunities_and_Payments</name>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Payment Allocations --></label>
+            <name>Payment Allocations</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Groups and Group Members (custom) --></description>
+        <label><!-- Groups and Group Members (custom) --></label>
+        <name>Groups_custom</name>
+        <sections>
+            <label><!-- Group Members --></label>
+            <name>Group Members</name>
+        </sections>
+        <sections>
+            <label><!-- Groups --></label>
+            <name>Groups</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Households and Donations --></description>
+        <label><!-- Households and Donations --></label>
+        <name>Households_and_Donations</name>
+        <sections>
+            <label><!-- Household Members --></label>
+            <name>Household Members</name>
+        </sections>
+        <sections>
+            <label><!-- Households --></label>
+            <name>Households</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Households with Related Address Records --></description>
+        <label><!-- Households with Related Address Records --></label>
+        <name>Households_with_Related_Address_Records</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Addresses --></label>
+            <name>Addresses</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Key Relationships (Custom) --></description>
+        <label><!-- Key Relationships (Custom) --></label>
+        <name>Key_Relationships_Custom</name>
+        <sections>
+            <label><!-- Key Relationships --></label>
+            <name>Key Relationships</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Legal Tracking with &amp; w/o Legal Tracking Approval --></description>
+        <label><!-- Legal Tracking with &amp; w/o Legal Tracking Approval --></label>
+        <name>Legal_Tracking_with_and_without_Legal_Approval</name>
+        <sections>
+            <label><!-- Legal Tracking --></label>
+            <name>Legal Tracking</name>
+        </sections>
+        <sections>
+            <label><!-- Legal Tracking Approval --></label>
+            <name>Legal Tracking Approval</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- NPSP Data Imports Failure Report --></description>
+        <label><!-- NPSP Data Imports Failure Report --></label>
+        <name>NPSP_Data_Imports_Failed_Report</name>
+        <sections>
+            <label><!-- Campaign --></label>
+            <name>Campaign</name>
+        </sections>
+        <sections>
+            <label><!-- Contact1/Account1 --></label>
+            <name>Contact1/Account1</name>
+        </sections>
+        <sections>
+            <label><!-- NPSP Data Imports --></label>
+            <name>NPSP Data Imports</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- NPSP Data Imports w/Batches &amp; Opportunities --></description>
+        <label><!-- NPSP Data Imports w/Batches &amp; Opportunities --></label>
+        <name>NPSP_Data_Imports_w_Batches_Opportunities</name>
+        <sections>
+            <label><!-- NPSP Data Import Batches --></label>
+            <name>NPSP Data Import Batches</name>
+        </sections>
+        <sections>
+            <label><!-- NPSP Data Imports --></label>
+            <name>NPSP Data Imports</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunity --></label>
+            <name>Opportunity</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- NPSP Data Imports with Donation Imported &amp; Payment --></description>
+        <label><!-- NPSP Data Imports with Donation Imported &amp; Payment --></label>
+        <name>NPSP_Data_Imports_with_Donation_Imported_and_Payme</name>
+        <sections>
+            <label><!-- Donation Imported --></label>
+            <name>Donation Imported</name>
+        </sections>
+        <sections>
+            <label><!-- NPSP Data Imports --></label>
+            <name>NPSP Data Imports</name>
+        </sections>
+        <sections>
+            <label><!-- Payment --></label>
+            <name>Payment</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities w-Contact Roles and Event Attendees --></description>
+        <label><!-- Opportunities w-Contact Roles and Event Attendees --></label>
+        <name>Opportunities_w_Contact_Roles_and_Event_Attendees</name>
+        <sections>
+            <label><!-- Contact Roles --></label>
+            <name>Contact Roles</name>
+        </sections>
+        <sections>
+            <label><!-- Event Invitations --></label>
+            <name>Event Invitations</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities w/wo Contact Roles --></description>
+        <label><!-- Opportunities w/wo Contact Roles --></label>
+        <name>Opportunities_w_wo_Contact_Roles</name>
+        <sections>
+            <label><!-- Contact Roles --></label>
+            <name>Contact Roles</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities w/wo Deliverables --></description>
+        <label><!-- Opportunities w/wo Deliverables --></label>
+        <name>Opportunities_w_wo_Deliverables</name>
+        <sections>
+            <label><!-- Deliverables --></label>
+            <name>Deliverables</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities w/wo Partial Soft Credits --></description>
+        <label><!-- Opportunities w/wo Partial Soft Credits --></label>
+        <name>Opportunities_w_wo_Partial_Soft_Credits</name>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Partial Soft Credits --></label>
+            <name>Partial Soft Credits</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities w/wo Payments --></description>
+        <label><!-- Opportunities w/wo Payments --></label>
+        <name>Opportunities_w_wo_Payments</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities with Contact Roles (custom) --></description>
+        <label><!-- Opportunities with Contact Roles (custom) --></label>
+        <name>Opportunities_with_Contact_Roles_custom</name>
+        <sections>
+            <label><!-- Contact Roles --></label>
+            <name>Contact Roles</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities w/Contacts w/Affiliations (custom) --></description>
+        <label><!-- Opportunities w/Contacts w/Affiliations (custom) --></label>
+        <name>Opportunities_with_Contacts_with_Affiliations</name>
+        <sections>
+            <label><!-- Affiliated Organization --></label>
+            <name>Affiliated Organization</name>
+        </sections>
+        <sections>
+            <label><!-- Affiliations --></label>
+            <name>Affiliations</name>
+        </sections>
+        <sections>
+            <label><!-- Contact Roles --></label>
+            <name>Contact Roles</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Organization Affiliations --></label>
+            <name>Organization Affiliations</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities with Deliverables and Payments --></description>
+        <label><!-- Opportunities with Deliverables and Payments --></label>
+        <name>Opportunities_with_Deliverables_and_Payments</name>
+        <sections>
+            <label><!-- Deliverables --></label>
+            <name>Deliverables</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities with GAU Allocations + GAU detail --></description>
+        <label><!-- Opportunities with GAU Allocations + GAU detail --></label>
+        <name>Opportunities_with_GAU_Allocations_GAU_detail</name>
+        <sections>
+            <label><!-- GAU Allocations --></label>
+            <name>GAU Allocations</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities with GAU Allocations and Contact Rol --></description>
+        <label><!-- Opportunities with GAU Allocations and Contact Rol --></label>
+        <name>Opportunities_with_GAU_Allocations_and_Contact_Rol</name>
+        <sections>
+            <label><!-- Contact Roles --></label>
+            <name>Contact Roles</name>
+        </sections>
+        <sections>
+            <label><!-- GAU Allocations --></label>
+            <name>GAU Allocations</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities with GAU Allocations --></description>
+        <label><!-- Opportunities with GAU Allocations --></label>
+        <name>Opportunities_with_GAU_Allocations_and_Payments</name>
+        <sections>
+            <columns>
+                <label><!-- Parent Designation --></label>
+                <name>Parent Designation</name>
+            </columns>
+            <label><!-- GAU Allocations --></label>
+            <name>GAU Allocations</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities with Payment and Payment Allocations --></description>
+        <label><!-- Opportunities with Payment and Payment Allocations --></label>
+        <name>Opportunities_with_Payment_and_Payment_Allocations</name>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Payment Allocations --></label>
+            <name>Payment Allocations</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities with Payments and Contacts --></description>
+        <label><!-- Opportunities with Payments and Contacts --></label>
+        <name>Opportunities_with_Payments_and_Contacts</name>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportuntities w-wo Contact Roles-Partial Soft Cre --></description>
+        <label><!-- Opportuntities w-wo Contact Roles-Partial Soft Cre --></label>
+        <name>Opportuntities_w_wo_Account_Soft_Credits</name>
+        <sections>
+            <label><!-- Contact Roles --></label>
+            <name>Contact Roles</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Partial Soft Credits --></label>
+            <name>Partial Soft Credits</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Ledger Entries with Opportunities and Payment --></description>
+        <label><!-- Ledger Entries with Opportunities and Payment --></label>
+        <name>Opps_w_Ledger_Entries</name>
+        <sections>
+            <label><!-- Ledger Entries --></label>
+            <name>Ledger Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Payment --></label>
+            <name>Payment</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Payments and Payment Allocations --></description>
+        <label><!-- Payments and Payment Allocations --></label>
+        <name>Payments_and_Payment_Allocations</name>
+        <sections>
+            <label><!-- Payment Allocations --></label>
+            <name>Payment Allocations</name>
+        </sections>
+        <sections>
+            <label><!-- Payments --></label>
+            <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Planned Gifts with or without Planned Gift Match --></description>
+        <label><!-- Planned Gifts with or without Planned Gift Match --></label>
+        <name>Planned_Gifts_with_or_without_Planned_Gift_Match</name>
+        <sections>
+            <label><!-- Planned Gift Matches --></label>
+            <name>Planned Gift Matches</name>
+        </sections>
+        <sections>
+            <label><!-- Planned Gifts --></label>
+            <name>Planned Gifts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Qualifying Donations --></description>
+        <label><!-- Qualifying Donations --></label>
+        <name>Qualifying_Donations</name>
+        <sections>
+            <label><!-- Qualifying Donations --></label>
+            <name>Qualifying Donations</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- RM History with Contacts and Accounts --></description>
+        <label><!-- RM History with Contacts and Accounts --></label>
+        <name>RM_History_with_Contacts_and_Accounts</name>
+        <sections>
+            <label><!-- Account Fields --></label>
+            <name>Account Fields</name>
+        </sections>
+        <sections>
+            <label><!-- Contact Fields --></label>
+            <name>Contact Fields</name>
+        </sections>
+        <sections>
+            <label><!-- Relationship Manager History --></label>
+            <name>Relationship Manager History</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Relationships --></description>
+        <label><!-- Relationships --></label>
+        <name>Relationships</name>
+        <sections>
+            <label><!-- Relationships --></label>
+            <name>Relationships</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Report of Reports --></description>
+        <label><!-- Report of Reports --></label>
+        <name>Report_of_Reports</name>
+        <sections>
+            <label><!-- Reports --></label>
+            <name>Reports</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Reports with Components --></description>
+        <label><!-- Reports with Components --></label>
+        <name>Reports_with_Components</name>
+        <sections>
+            <label><!-- Dashboard Components --></label>
+            <name>Dashboard Components</name>
+        </sections>
+        <sections>
+            <label><!-- Reports --></label>
+            <name>Reports</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Staging with Donation, Contacts &amp; Accounts --></description>
+        <label><!-- Staging with Donation, Contacts &amp; Accounts --></label>
+        <name>Staging_with_Donation_Contacts_Accounts</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Staging --></label>
+            <name>Staging</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Test Scripts (Custom) --></description>
+        <label><!-- Test Scripts (Custom) --></label>
+        <name>Test_Scripts_Custom</name>
+        <sections>
+            <label><!-- Test Scripts --></label>
+            <name>Test Scripts</name>
+        </sections>
+        <sections>
+            <label><!-- User Story --></label>
+            <name>User Story</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Test Scripts and User Stories --></description>
+        <label><!-- Test Scripts and User Stories --></label>
+        <name>Test_Scripts_and_User_Stories</name>
+        <sections>
+            <label><!-- Test Scripts --></label>
+            <name>Test Scripts</name>
+        </sections>
+        <sections>
+            <label><!-- User Stories --></label>
+            <name>User Stories</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Topic Assignments --></description>
+        <label><!-- Topic Assignments --></label>
+        <name>Topic_Assignments</name>
+        <sections>
+            <label><!-- Topic Assignments --></label>
+            <name>Topic Assignments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- User Stories with Feeds and Comments --></description>
+        <label><!-- User Stories with Feeds and Comments --></label>
+        <name>User_Stories_with_Feeds_and_Comments</name>
+        <sections>
+            <label><!-- Comments --></label>
+            <name>Comments</name>
+        </sections>
+        <sections>
+            <label><!-- Feed: User Story --></label>
+            <name>Feed: User Story</name>
+        </sections>
+        <sections>
+            <label><!-- User Stories --></label>
+            <name>User Stories</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Users with Contacts --></description>
+        <label><!-- Users with Contacts --></label>
+        <name>Users_with_Contacts</name>
+        <sections>
+            <label><!-- Contact Fields --></label>
+            <name>Contact Fields</name>
+        </sections>
+        <sections>
+            <label><!-- Users --></label>
+            <name>Users</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- iContact Clicked Links (Custom) --></description>
+        <label><!-- iContact Clicked Links (Custom) --></label>
+        <name>iContactClickedLinksCustom</name>
+        <sections>
+            <label><!-- iContact Clicked Links --></label>
+            <name>iContact Clicked Links</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- iContact Contact &amp; Lead Message Stats - Lightning --></description>
+        <label><!-- iContact Contact &amp; Lead Message Stats - Lightning --></label>
+        <name>iContact_Contact_Lead_Message_Stats_Lightning</name>
+        <sections>
+            <label><!-- iContact Clicked Links - Lightning --></label>
+            <name>iContact Clicked Links - Lightning</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Message Statistics - Lightning --></label>
+            <name>iContact Message Statistics - Lightning</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- iContact Contact and Lead Message Statistics --></description>
+        <label><!-- iContact Contact and Lead Message Statistics --></label>
+        <name>iContact_Contact_and_Lead_Message_Statistics</name>
+        <sections>
+            <label><!-- iContact Clicked Links --></label>
+            <name>iContact Clicked Links</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Message Statistics --></label>
+            <name>iContact Message Statistics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- iContact Message Statistic (Custom) --></description>
+        <label><!-- iContact Message Statistic (Custom) --></label>
+        <name>iContact_Message_Statistic_Custom</name>
+        <sections>
+            <label><!-- iContact Message Statistics --></label>
+            <name>iContact Message Statistics</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- iContact Sent Message (Custom) --></description>
+        <label><!-- iContact Sent Message (Custom) --></label>
+        <name>iContact_Sent_Message_Custom</name>
+        <sections>
+            <label><!-- iContact Sent Messages --></label>
+            <name>iContact Sent Messages</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Screen Flows --></description>
+        <label><!-- Screen Flows --></label>
+        <name>screen_flows_prebuilt_crt</name>
+        <sections>
+            <label><!-- Flow Interview Log Entries --></label>
+            <name>Flow Interview Log Entries</name>
+        </sections>
+        <sections>
+            <label><!-- Flow Interview Logs --></label>
+            <name>Flow Interview Logs</name>
+        </sections>
+    </reportTypes>
+</Translations>

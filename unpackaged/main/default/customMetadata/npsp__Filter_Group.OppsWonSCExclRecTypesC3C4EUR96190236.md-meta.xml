@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Opps: Won (SC) RTs -IK/PG; Stg=R/RaUP/VC</label>
+    <protected>false</protected>
+    <values>
+        <field>npsp__Description__c</field>
+        <value xsi:type="xsd:string">Stage: Rec&apos;d; Rec&apos;d as Uncondit. Pledge, Verbally Committed
+Rec. Type: Not In-Kind or Planned Gift
+Role Name: Funder - SC; SC</value>
+    </values>
+    <values>
+        <field>npsp__Is_Deleted__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+</CustomMetadata>

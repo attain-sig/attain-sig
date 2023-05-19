@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Close Date of the most recent received Opportunity where the Contact has a hard or soft credit (Planned Gifts not included). --></help>
+        <label><!-- MRC Date --></label>
+        <name>EDF_MRC_Date_Contact__c</name>
+    </CustomFieldTranslation>

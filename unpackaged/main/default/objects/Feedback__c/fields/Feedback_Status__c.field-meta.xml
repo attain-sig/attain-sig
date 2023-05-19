@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Feedback_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Feedback Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Needs Requirements</fullName>
+                <default>false</default>
+                <label>Needs Requirements</label>
+            </value>
+            <value>
+                <fullName>In IT Assessment</fullName>
+                <default>false</default>
+                <label>In IT Assessment</label>
+            </value>
+            <value>
+                <fullName>Ready for Sprint Scheduling</fullName>
+                <default>false</default>
+                <label>Ready for Sprint Scheduling</label>
+            </value>
+            <value>
+                <fullName>Assigned to Sprint</fullName>
+                <default>false</default>
+                <label>Assigned to Sprint</label>
+            </value>
+            <value>
+                <fullName>Open</fullName>
+                <default>false</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Build in Progress</fullName>
+                <default>false</default>
+                <label>Build in Progress</label>
+            </value>
+            <value>
+                <fullName>Build Complete</fullName>
+                <default>false</default>
+                <label>Build Complete</label>
+            </value>
+            <value>
+                <fullName>In QA</fullName>
+                <default>false</default>
+                <label>In QA</label>
+            </value>
+            <value>
+                <fullName>In UAT</fullName>
+                <default>false</default>
+                <label>In UAT</label>
+            </value>
+            <value>
+                <fullName>Ready for Production</fullName>
+                <default>false</default>
+                <label>Ready for Production</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Closed - No Longer Required</fullName>
+                <default>false</default>
+                <label>Closed - No Longer Required</label>
+            </value>
+            <value>
+                <fullName>Closed - Duplicate</fullName>
+                <default>false</default>
+                <label>Closed - Duplicate</label>
+            </value>
+            <value>
+                <fullName>Closed - Known Salesforce Limitation</fullName>
+                <default>false</default>
+                <label>Closed - Known Salesforce Limitation</label>
+            </value>
+            <value>
+                <fullName>Closed - Deferred</fullName>
+                <default>false</default>
+                <label>Closed - Deferred</label>
+            </value>
+            <value>
+                <fullName>Closed - Address via User Story</fullName>
+                <default>false</default>
+                <label>Closed - Address via User Story</label>
+            </value>
+            <value>
+                <fullName>Blocked</fullName>
+                <default>false</default>
+                <label>Blocked</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

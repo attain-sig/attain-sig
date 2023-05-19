@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Accessible by public transportation? --></label>
+        <name>Accessible_by_public_transportation__c</name>
+    </CustomFieldTranslation>

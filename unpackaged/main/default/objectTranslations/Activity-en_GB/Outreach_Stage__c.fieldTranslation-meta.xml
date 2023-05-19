@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Outreach Stage --></label>
+        <name>Outreach_Stage__c</name>
+        <picklistValues>
+            <masterLabel>In the Works</masterLabel>
+            <translation><!-- In the Works --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internally Approved</masterLabel>
+            <translation><!-- Internally Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internally Requested</masterLabel>
+            <translation><!-- Internally Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Drafted</masterLabel>
+            <translation><!-- Offer Drafted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offered</masterLabel>
+            <translation><!-- Offered --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

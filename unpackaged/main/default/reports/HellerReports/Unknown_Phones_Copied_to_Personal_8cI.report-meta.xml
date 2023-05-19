@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>Contact_Phone__c.Phone__c</field>
+    </columns>
+    <columns>
+        <field>Contact_Phone__c.Type__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Contact.npe01__PreferredPhone__c</field>
+    </columns>
+    <columns>
+        <field>FK_CNTC_PHONE4</field>
+    </columns>
+    <columns>
+        <field>Contact_Phone__c.Status__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Contact_Phone__c.Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Additional Home,Assistant,Assistant Mobile,Unknown</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact_Phone__c.Sys_Copied_to_Personal__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Unknown Phones Copied to Personal</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Contact_Phone__c@Contact_Phone__c.Donor__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

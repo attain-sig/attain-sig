@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Stage --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Application Screened</masterLabel>
+            <translation><!-- Application Screened --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application Submitted</masterLabel>
+            <translation><!-- Application Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conditional Offer Accepted</masterLabel>
+            <translation><!-- Conditional Offer Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conditional Offer Declined</masterLabel>
+            <translation><!-- Conditional Offer Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined During Interview Process</masterLabel>
+            <translation><!-- Declined During Interview Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined from Matching Pool</masterLabel>
+            <translation><!-- Declined from Matching Pool --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dropped out after confirmation and removed from network</masterLabel>
+            <translation><!-- Dropped out after confirmation and removed from network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engagement Confirmed</masterLabel>
+            <translation><!-- Engagement Confirmed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold on Interview 2</masterLabel>
+            <translation><!-- Hold on Interview 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hold on Matching</masterLabel>
+            <translation><!-- Hold on Matching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Host Dropped after Confirmation</masterLabel>
+            <translation><!-- Host Dropped after Confirmation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interview 1 Complete- Not Moving On</masterLabel>
+            <translation><!-- Interview 1 Complete- Not Moving On --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interview 1 Scheduled</masterLabel>
+            <translation><!-- Interview 1 Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interview 2 Complete- Not Moving On</masterLabel>
+            <translation><!-- Interview 2 Complete- Not Moving On --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interview 2 Scheduled</masterLabel>
+            <translation><!-- Interview 2 Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invite to Interview from Waitlist</masterLabel>
+            <translation><!-- Invite to Interview from Waitlist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Moving Forward from Waitlist</masterLabel>
+            <translation><!-- Not Moving Forward from Waitlist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Qualified and Notified</masterLabel>
+            <translation><!-- Not Qualified and Notified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Sent</masterLabel>
+            <translation><!-- Offer Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding Conversation Not Approved</masterLabel>
+            <translation><!-- Onboarding Conversation Not Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospective Applicant</masterLabel>
+            <translation><!-- Prospective Applicant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send Invite for Interview 1</masterLabel>
+            <translation><!-- Send Invite for Interview 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send invite for Interview 2</masterLabel>
+            <translation><!-- Send invite for Interview 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send to Matching Pool</masterLabel>
+            <translation><!-- Send to Matching Pool --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waitlist- Interview 1</masterLabel>
+            <translation><!-- Waitlist- Interview 1 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

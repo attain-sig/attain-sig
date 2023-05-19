@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>FK_CNTC_FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_CNTC_EMAIL</field>
+    </columns>
+    <columns>
+        <field>FK_CNTC_TITLE</field>
+    </columns>
+    <columns>
+        <field>FK_$Contact.Primary_Handler__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>npe5__Affiliation__c.Current_Employer__c</field>
+    </columns>
+    <columns>
+        <field>npe5__Affiliation__c.npe5__Status__c</field>
+    </columns>
+    <description>Report request for current employees at zero emission fleet companies from Fleet Electrification team. 11/9/22.</description>
+    <filter>
+        <booleanFilter>(1 OR 2) AND 3</booleanFilter>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>American Water Works Association,CenterPoint Energy,Deutsche Post DHL Group,National Grid,PG&amp;E Corporation,J.B. Hunt,Knight-Swift Transportation Holdings,Republic Services,XPO Logistics,Recology,Sempra Energy,Southern California Edison,Ryder System,Inc.,Coca-Cola Company,Albertsons,DOT Foods,Exelon Corporation,KeHE Distributors,Mondelez,Reyes Holding,US Foods,Ahold USA,Iron Mountain,UniFirst Corporation,AB InBev</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Lowe&apos;s,Werner Enterprises,Inc.,Public Service Enterprise Group,Verizon,Wakefern Food Corp,Con Edison,Manhattan Beer Distributors,Waste Connections,Kroger,Aramark,Bimbo Bakeries USA,Federal Express,AT&amp;T,Baker Hughes,Core-Mark,Halliburton Company,McLane Company,Schlumberger,Sysco Corporation,Waste Management,Nestle,Green Mountain Power Corporation,Amazon.com,Schneider National</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>npe5__Affiliation__c.npe5__Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Current</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Zero Emission Fleet Outreach List</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountCustomEntity$npe5__Affiliation__c@npe5__Affiliation__c.npe5__Contact__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

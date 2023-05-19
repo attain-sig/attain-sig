@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Place to enter multiple email addresses when there are multiple Honorees. --></help>
+        <label><!-- Multiple Honorees Email Addresses --></label>
+        <name>Multiple_Honorees_Email_Addresses__c</name>
+    </CustomFieldTranslation>

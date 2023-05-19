@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Climate_Corps_Letterhead</letterhead>
+    <name>Fellow Initials Signed</name>
+    <style>freeForm</style>
+    <subject>{!Climate_Corps_Engagement__c.Fellow_Name__c}: Signed Deliverables</subject>
+    <textOnly>Hello {!Climate_Corps_Engagement__c.EDF_Engagement_Manager__c},
+
+{!Climate_Corps_Engagement__c.Fellow_Name__c}&apos;s final deliverables have been signed. Please confirm their completion.
+
+Link to the Record: {!Climate_Corps_Engagement__c.Link}
+
+Fellow Personal Email: {!Climate_Corps_Engagement__c.Fellow_Application_Email__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

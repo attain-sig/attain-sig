@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>Contact.Sub_Constituency__c</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>Activity.Sub_Constituency__c</field>
+    </columns>
+    <columns>
+        <field>ASSIGNED</field>
+    </columns>
+    <description>Business Rule: These recent activities have sub-constituency populated, but contacts related to the activity do not. Action Item: Add the activity constituency to the contact constituency,</description>
+    <filter>
+        <criteriaItems>
+            <column>Activity.Sub_Constituency__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>EDFBIZ - Climate Corps,EDFBIZ - Corporate Climate Leadership</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SUBJECT</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>submit activities</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ASSIGNED</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Scott Wood,Ellen Shenette,Daniel Hill,Yesh Pavlik Slenk,Sally Lindel,Michael Cronin,Hayley Leonard,Ashley Medlar,Stephanie Neupert,Mali&apos;o Kodis,Victoria Mills,Maren Taylor</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Sub_Constituency__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>excludes</operator>
+            <value>EDFBIZ - Climate Corps,EDFBIZ - Corporate Climate Leadership</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Contact.Constituency__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Cleanup-M: Add Contact Sub-Con</name>
+    <params>
+        <name>closed</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>te</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactActivity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_LAST60</interval>
+    </timeFrameFilter>
+</Report>

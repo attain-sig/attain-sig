@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Relationship_Manager_History__c.Portfolio_Manager__c</field>
+    </columns>
+    <columns>
+        <field>Relationship_Manager_History__c.Account__c</field>
+    </columns>
+    <columns>
+        <field>Relationship_Manager_History__c.Contact__c</field>
+    </columns>
+    <columns>
+        <field>Relationship_Manager_History__c.Start_Date__c</field>
+    </columns>
+    <columns>
+        <field>Relationship_Manager_History__c.End_Date__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Relationship_Manager_History__c.Portfolio_Manager__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Suze Anderson</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Relationship_Manager_History__c.End_Date__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterThan</operator>
+            <value>1/1/2021 12:00 AM</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Relationship Manager History - Suze</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Relationship_Manager_History__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Relationship_Manager_History__c.Account__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Relationship_Manager_History__c.End_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Initials Mm/Dd/Yyyy - Add your note here 
+Example: SSmith 01/01/2019 --></help>
+        <label><!-- Gift Comments --></label>
+        <name>Gift_Comments__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,117 @@
+body {
+  background-color: #7accc8;
+}
+
+/* Background Image Welcome Start */
+.body-bg-image-registration {
+  background: url(../img/bg-welcome-img.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bg-welcome {
+  /* background: url(../img/bg-welcome-img.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh; */
+}
+/* Background Image Welcome End */
+
+.fluid-container{
+  max-width: inherit !important; 
+  /* width: 100%; */
+  margin: 0 30px !important;
+}
+
+.height-100vh{ height: 100vh; }
+
+.no-padding-top {
+  padding-top: 0 !important;
+}
+.no-padding-left {
+  padding-left: 0 !important;
+}
+.no-padding-right {
+  padding-right: 0 !important;
+}
+.no-padding-bottom {
+  padding-bottom: 0 !important;
+}
+
+.no-margin-top {
+  margin-top: 0 !important;
+}
+.no-margin-left {
+  margin-left: 0 !important;
+}
+.no-margin-right {
+  margin-right: 0 !important;
+}
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+.margin-right {
+  margin-right: 14px !important;
+}
+
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
+.position-right {
+  right: 0;
+}
+.position-left {
+  left: 0;
+}
+.position-top {
+  top: 0;
+}
+.position-bottom {
+  bottom: 0;
+}
+
+/* Display Flex Start */
+.display-flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.justify-conten-space-between {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+/* Display Flex End */
+
+/* Tooltip Custom Style Start */
+.tooltip-inner {
+  max-width: 430px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #686868;
+  background-color: #f8f7fa;
+  border: 1px solid #c9c9c9;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  padding: 26px 15px;
+  text-align: left;
+}
+.bs-tooltip-auto[x-placement^="right"] .arrow::before,
+.bs-tooltip-right .arrow::before {
+  border-right-color: #c9c9c9;
+}
+/* Tooltip Custom Style End */
+

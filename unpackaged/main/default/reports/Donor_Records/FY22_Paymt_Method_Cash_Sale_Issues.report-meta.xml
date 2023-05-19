@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Opportunity$Id</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity.npe01__OppPayment__r$Id</field>
+    </columns>
+    <columns>
+        <field>Opportunity.npe01__OppPayment__r$npe01__Payment_Method__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$NetSuite_Cash_Sale__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$NetSuite_Cash_Sale_ID__c</field>
+    </columns>
+    <description>FY22 Gifts W/ Paymt Method-Cash Sale Issuses</description>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity.npe01__OppPayment__r$npe01__Payment_Method__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$StageName</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Received</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>FY22 Paymt Method-Cash Sale Issues</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_with_Payment_and_Payment_Allocations__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Opportunity$NetSuite_Cash_Sale__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$CloseDate</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

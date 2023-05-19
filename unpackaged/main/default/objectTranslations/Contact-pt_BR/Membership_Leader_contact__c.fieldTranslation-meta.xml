@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- A  membership donor who has given a cumulative amount of $500 or more in the current or previous 3 calendar year --></help>
+        <label><!-- Membership Leader --></label>
+        <name>Membership_Leader_contact__c</name>
+    </CustomFieldTranslation>

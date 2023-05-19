@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Relationship Manager 2 --></label>
+        <name>Additional_Handler1__c</name>
+        <relationshipLabel><!-- Additional Handler 1 --></relationshipLabel>
+    </CustomFieldTranslation>

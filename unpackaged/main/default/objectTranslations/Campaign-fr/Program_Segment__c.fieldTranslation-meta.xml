@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Program Segment --></label>
+        <name>Program_Segment__c</name>
+        <picklistValues>
+            <masterLabel>Acknowledgements</masterLabel>
+            <translation><!-- Acknowledgements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acquisition</masterLabel>
+            <translation><!-- Acquisition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appeals</masterLabel>
+            <translation><!-- Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catalyst Circle</masterLabel>
+            <translation><!-- Catalyst Circle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Matching Gifts</masterLabel>
+            <translation><!-- Corporate Matching Gifts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cultivation</masterLabel>
+            <translation><!-- Cultivation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EarthShare</masterLabel>
+            <translation><!-- EarthShare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation><!-- Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newsletter</masterLabel>
+            <translation><!-- Newsletter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Workplace Giving</masterLabel>
+            <translation><!-- Other Workplace Giving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Touch</masterLabel>
+            <translation><!-- Personal Touch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reinstatement</masterLabel>
+            <translation><!-- Reinstatement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation><!-- Renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustainer Invite</masterLabel>
+            <translation><!-- Sustainer Invite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustainer Payments Processed Offline</masterLabel>
+            <translation><!-- Sustainer Payments Processed Offline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tell-a-Friend</masterLabel>
+            <translation><!-- Tell-a-Friend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whitemail</masterLabel>
+            <translation><!-- Whitemail --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

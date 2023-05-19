@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- PG Type --></label>
+        <name>PG_Type__c</name>
+        <picklistValues>
+            <masterLabel>Closed Estate</masterLabel>
+            <translation><!-- Closed Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estate</masterLabel>
+            <translation><!-- Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Osprey - Honorary</masterLabel>
+            <translation><!-- Osprey - Honorary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Osprey - Legacy</masterLabel>
+            <translation><!-- Osprey - Legacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Osprey - PG</masterLabel>
+            <translation><!-- Osprey - PG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PG Proposal</masterLabel>
+            <translation><!-- PG Proposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philanthropic Advisor</masterLabel>
+            <translation><!-- Philanthropic Advisor --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

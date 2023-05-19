@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Include the Date the Constituent is being recommended as a Program-specific prospective donor --></help>
+        <label><!-- Program Qualification Date --></label>
+        <name>Program_Qualification_Date__c</name>
+    </CustomFieldTranslation>

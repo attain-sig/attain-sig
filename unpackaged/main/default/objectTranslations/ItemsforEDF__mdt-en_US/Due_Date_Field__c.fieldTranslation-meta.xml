@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If your Due Date is relative to a field on CC Engagement, select the field here. If this is set, value in &quot;Due Date&quot; field is ignored. --></help>
+        <label><!-- Due Date Field --></label>
+        <name>Due_Date_Field__c</name>
+        <picklistValues>
+            <masterLabel>Date_Engagement_Confirmed__c</masterLabel>
+            <translation><!-- Date_Engagement_Confirmed__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>End_date__c</masterLabel>
+            <translation><!-- End_date__c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start_Date__c</masterLabel>
+            <translation><!-- Start_Date__c --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

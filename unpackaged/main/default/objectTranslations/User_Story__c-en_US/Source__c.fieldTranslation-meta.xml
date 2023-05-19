@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What meeting or period of time did this requirement surface? --></help>
+        <label><!-- Source --></label>
+        <name>Source__c</name>
+        <picklistValues>
+            <masterLabel>Climate Corps and Mission Events Discovery</masterLabel>
+            <translation><!-- Climate Corps and Mission Events Discovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cvent Demo</masterLabel>
+            <translation><!-- Cvent Demo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development Events Discovery</masterLabel>
+            <translation><!-- Development Events Discovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phase 2 Request</masterLabel>
+            <translation><!-- Phase 2 Request --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

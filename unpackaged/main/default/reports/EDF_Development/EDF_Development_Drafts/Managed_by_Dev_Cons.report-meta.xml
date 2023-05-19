@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Account_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Contact_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>Contact.npsp__Primary_Contact__c</field>
+    </columns>
+    <columns>
+        <field>Contact.npsp__Deceased__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_RECORDTYPE</field>
+    </columns>
+    <columns>
+        <field>Contact.Constituency__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Sub_Constituency__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Portfolio_Manager__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND (2 OR 3 OR 4)</booleanFilter>
+        <criteriaItems>
+            <column>ACCOUNT_RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Account.HH_Account</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Portfolio_Manager__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Andrea Norris,Camille de la Vega,Dana Weidig,Emily Whitted,Erika Reuter,Gabrielle Antoniadis,Gordon Olson,Isabella Solorzano,Jason Martin,Jen Coleman,Jennifer Freeman,Jerisha Gordon,Laura Lea Rubino,Sharon Nadel,Bryan Ting,Daniel Cwirka,Denise Ndovie,Kate Mitchell,Lisa Valdivia,Maggie Sinkiewicz,Mary Spinelli Tedrow,Matt Pieper,Matthew Yee,Stefanie Rubin,Allen Campos,DeShawn South,Jaime Siembieda,Jennifer Hernandez,Joyce Chen,Kamal Williams,Kavita Budhu,Michele Chivu,Tina Bahtijari,Allison Bredbenner,Annie Mark,Gerald Miles,Lars Roth,Lindsay Ross,Susan Knifed,Alicia Verstynen,Camille Britton-De Jesus,Chelsea Crandall,Christina Furtado,Emily Chuk,Ilana Lester Moreno,Jessica Fryer,Kristin Blankenheim,Kristin Rodriguez,Lauren Ludi,Liam Leslie,Lindsay Garber,Matt Duprey,Megan Galt,Rachel Sampson,Rosa Volpe,Amelie Poojary,Andrew Malloy,Asmita Patwardhan,Carly Drost,Cyane Anaya,Elise Ford,Erica Reed,Jennifer Cruz</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Portfolio_Manager__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Julia Busch,Katherine Coffee,Kimberly O&apos;Keeffe,Lindsay Sweet,Missy Falkenberg,Moira Hess,Ritu Khera,Ryan Williams,Sang Silano,Sarahbeth Lindquist Gonchikar,Amanda Das,Andrea Daly,Anouska Cheddie,Caroline Schiavo,Cori Roach,Diana Wolf,Eleanor Krahenbuhl,Elizabeth Amery,Emma Knuttel,Erik Ortega,Genevieve Turcotte,Georgina Bagshawe,Jennifer Beirne,KC Luce,Keecha Gardner,Khadijah Al-Amin-El,Leigh Siatka,Liang Song,Lindsay Harkins,Margot Sturc,Molly Sverdlov,Nicole Surber,Scott Reinstein,Sunnie Outlaw,Suze Anderson,Tara Nestell,Braden Spratt,Molly MacPherson,Brianne Kilpatrick,Caroline Melville,Chria Hazlitt,Cynthia DiLeo,Ebony Evans,Emily Preston,Katie Pooser,Mo Pepin,Monica Krieger,Catherine Nardone,Jake DeMoe,Tammy Mesic,Lumi Youm,Wes Rogerson,Brian Dill,Monika von Hillebrandt,Ryan Eldredge,Aimee Gibbons,Andrew McDowell,Annabelle Pukas,Anne Russell Gregory,Anne Senft,Ashleigh Taylor,Austin Hunte,Briana Cole,Clorrisa Tarr,Emily Stevenson</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Portfolio_Manager__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Graham Haliskoe,Harris Wohl,Javier Gonzalez,John Stith,Kathleen Pulwers,Lami Macbeth,Mary DelBuono,Matthew Piering,Nick Jungmarker,Sam Parry,Shana McMahon,Stephanie von Blackwood,Tracy Rice,Victoria MorganteZita ZalaiZoey Branford</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Managed by Dev - HHs</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Contact.Portfolio_Manager__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

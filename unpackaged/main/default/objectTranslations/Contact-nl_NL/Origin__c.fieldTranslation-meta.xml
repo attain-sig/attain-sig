@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Origin --></label>
+        <name>Origin__c</name>
+        <picklistValues>
+            <masterLabel>Administrator Registration</masterLabel>
+            <translation><!-- Administrator Registration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advocacy Response</masterLabel>
+            <translation><!-- Advocacy Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auction Upload</masterLabel>
+            <translation><!-- Auction Upload --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Constituent API</masterLabel>
+            <translation><!-- Constituent API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Sync</masterLabel>
+            <translation><!-- Data Sync --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donation</masterLabel>
+            <translation><!-- Donation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Upload</masterLabel>
+            <translation><!-- Email Upload --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Guest</masterLabel>
+            <translation><!-- Event Guest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forwarded Email</masterLabel>
+            <translation><!-- Forwarded Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Notification</masterLabel>
+            <translation><!-- Gift Notification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Import</masterLabel>
+            <translation><!-- Import --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joint Donation</masterLabel>
+            <translation><!-- Joint Donation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LDAP</masterLabel>
+            <translation><!-- LDAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luminate CRM</masterLabel>
+            <translation><!-- Luminate CRM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Memorial</masterLabel>
+            <translation><!-- Memorial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>News Contribution</masterLabel>
+            <translation><!-- News Contribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Events Attendee</masterLabel>
+            <translation><!-- Personal Events Attendee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Events Contact</masterLabel>
+            <translation><!-- Personal Events Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Events Host</masterLabel>
+            <translation><!-- Personal Events Host --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Registration</masterLabel>
+            <translation><!-- Pre-Registration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect List</masterLabel>
+            <translation><!-- Prospect List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quick Registration</masterLabel>
+            <translation><!-- Quick Registration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RSVP</masterLabel>
+            <translation><!-- RSVP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Self-Registration</masterLabel>
+            <translation><!-- Self-Registration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent eCard</masterLabel>
+            <translation><!-- Sent eCard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Survey Participant</masterLabel>
+            <translation><!-- Survey Participant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TeamRaiser Company Contact</masterLabel>
+            <translation><!-- TeamRaiser Company Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TeamRaiser Donor</masterLabel>
+            <translation><!-- TeamRaiser Donor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TeamRaiser Event Administrator</masterLabel>
+            <translation><!-- TeamRaiser Event Administrator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TeamRaiser Event Chairperson</masterLabel>
+            <translation><!-- TeamRaiser Event Chairperson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TeamRaiser Family Participant</masterLabel>
+            <translation><!-- TeamRaiser Family Participant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TeamRaiser Friend</masterLabel>
+            <translation><!-- TeamRaiser Friend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TeamRaiser Participant</masterLabel>
+            <translation><!-- TeamRaiser Participant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tell-a-Friend</masterLabel>
+            <translation><!-- Tell-a-Friend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ticket Purchase</masterLabel>
+            <translation><!-- Ticket Purchase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tribute</masterLabel>
+            <translation><!-- Tribute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tributes Champion</masterLabel>
+            <translation><!-- Tributes Champion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tributes Fund</masterLabel>
+            <translation><!-- Tributes Fund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undefined</masterLabel>
+            <translation><!-- Undefined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown Auto-Registration</masterLabel>
+            <translation><!-- Unknown Auto-Registration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown Registration</masterLabel>
+            <translation><!-- Unknown Registration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volunteer</masterLabel>
+            <translation><!-- Volunteer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Widgets</masterLabel>
+            <translation><!-- Widgets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eCommerce Purchase</masterLabel>
+            <translation><!-- eCommerce Purchase --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

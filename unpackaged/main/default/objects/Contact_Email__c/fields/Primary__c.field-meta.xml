@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Whichever email is selected as OP gets stamped onto the standard email fields.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The primary, active email for this contact. Each contact can only have one Overall Preferred email.</inlineHelpText>
+    <label>Overall Preferred</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

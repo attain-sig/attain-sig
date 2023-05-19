@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Does this request and its solution require any data transformation or clean-up? If yes, what&apos;s the volume of impacted records? What&apos;s the logic for transforming the data? What is our strategy for fixing the data (owner, QA/QC, environments)? When will we complete the updates? --></help>
+        <label><!-- Data Cleanup Needed --></label>
+        <name>Data_Cleanup_Needed__c</name>
+    </CustomFieldTranslation>

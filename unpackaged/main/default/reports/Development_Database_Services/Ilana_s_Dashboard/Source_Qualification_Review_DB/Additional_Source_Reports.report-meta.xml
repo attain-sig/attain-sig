@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_40649532</developerName>
+        <masterLabel>Account or Contact</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>SHORT_NAME</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Accounts Sourced CFY</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accounts Sourced Last 30 Days</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accounts Sourced LFY</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accounts Qualified CFY</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accounts Qualified Last 30 Days</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Accounts Qualified LFY</sourceValue>
+            </sourceValues>
+            <value>Accounts</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Contacts Sourced or Qualified CFY</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Contacts Sourced or Qualified Last 30</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Contacts Sourced or Qualified LFY</sourceValue>
+            </sourceValues>
+            <value>Contacts</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>SHORT_NAME</field>
+    </columns>
+    <columns>
+        <field>LONG_NAME</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Source DB Additional Reports</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Additional Source Reports</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ReportList</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>SHORT_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATEDDATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

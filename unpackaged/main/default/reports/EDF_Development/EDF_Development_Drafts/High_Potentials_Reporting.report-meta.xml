@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LONG_NAME</field>
+    </columns>
+    <filter>
+        <booleanFilter>(1 AND 2) OR (3 AND 4)</booleanFilter>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>High Potentials - Activity Report,High Potentials - Reporting Dates,High Potentials - Events Report,High Potentials - Add FN+LN,High Potentials - Activities on RDs,All Task: Reporting Dates</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Development Drafts</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Development</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>HP - Monthly Report for Fred Krupp &amp; Co.</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>SHORT_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>High Potentials Reporting</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ReportList</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>LONG_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATEDDATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

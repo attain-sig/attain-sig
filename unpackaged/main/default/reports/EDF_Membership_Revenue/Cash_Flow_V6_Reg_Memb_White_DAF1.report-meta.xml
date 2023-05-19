@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Campaign.Opportunities__r$Name</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Campaign.Opportunities__r$Amount</field>
+    </columns>
+    <crossFilters>
+        <criteriaItems>
+            <column>Role</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>DAF</value>
+        </criteriaItems>
+        <operation>with</operation>
+        <primaryTableColumn>Campaign.Opportunities__r$Id</primaryTableColumn>
+        <relatedTable>OCR-Contact</relatedTable>
+        <relatedTableJoinColumn>Opportunity</relatedTableJoinColumn>
+    </crossFilters>
+    <description>Excludes gifts from Organizations. Includes non-commercial DAFs like Network For Good. 
+Not sure why this isn&apos;t working. Also needs a criteria to limit to Households, so the DAF side doesn&apos;t show up? I saved a screenshot of LCRM.</description>
+    <filter>
+        <criteriaItems>
+            <column>Campaign$Program_Segment__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Whitemail</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Campaign.Opportunities__r$Entity__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>C3,C4,NC PAC,PAC,Texas PAC</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Campaign.Opportunities__r$StageName</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Received,Received as Unconditional Pledge,Received as Conditional Pledge</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Campaign.Opportunities__r$Processed_through__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Facebook</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Campaign.Opportunities__r.npe01__OppPayment__r$npe01__Payment_Method__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Stock</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Cash Flow V6 Reg Memb White DAF BAD</name>
+    <params>
+        <name>scopeid</name>
+        <value></value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Campaigns_with_Opportunities_and_Payments__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Campaign.Opportunities__r$Amount</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Campaign.Opportunities__r$CloseDate</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

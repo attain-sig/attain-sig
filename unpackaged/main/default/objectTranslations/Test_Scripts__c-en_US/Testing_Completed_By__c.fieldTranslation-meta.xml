@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Primary person responsible for executing the test script. --></help>
+        <label><!-- Testing Completed By --></label>
+        <name>Testing_Completed_By__c</name>
+        <relationshipLabel><!-- Test Scripts (Testing Completed By) --></relationshipLabel>
+    </CustomFieldTranslation>

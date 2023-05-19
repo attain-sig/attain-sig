@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Date the gift was booked in th GL as gift date --></help>
+        <label><!-- Carry Over Date --></label>
+        <name>Carry_Over_Date_edf__c</name>
+    </CustomFieldTranslation>

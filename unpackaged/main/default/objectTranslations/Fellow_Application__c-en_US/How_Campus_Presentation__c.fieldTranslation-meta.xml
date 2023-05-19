@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- How you learnt about Campus Presentation --></label>
+        <name>How_Campus_Presentation__c</name>
+        <picklistValues>
+            <masterLabel>Bulletin board posting</masterLabel>
+            <translation><!-- Bulletin board posting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campus career services announcement</masterLabel>
+            <translation><!-- Campus career services announcement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eventbrite Invitation</masterLabel>
+            <translation><!-- Eventbrite Invitation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facebook</masterLabel>
+            <translation><!-- Facebook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Former fellow communication</masterLabel>
+            <translation><!-- Former fellow communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Former host organization communication</masterLabel>
+            <translation><!-- Former host organization communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LinkedIn</masterLabel>
+            <translation><!-- LinkedIn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other online event site</masterLabel>
+            <translation><!-- Other online event site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other social media site</masterLabel>
+            <translation><!-- Other social media site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>School program communication</masterLabel>
+            <translation><!-- School program communication --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student group announcement</masterLabel>
+            <translation><!-- Student group announcement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twitter</masterLabel>
+            <translation><!-- Twitter --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

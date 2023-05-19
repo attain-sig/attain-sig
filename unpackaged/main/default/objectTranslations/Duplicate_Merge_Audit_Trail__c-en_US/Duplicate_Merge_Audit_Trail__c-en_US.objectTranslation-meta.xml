@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Duplicate Merge Audit Trail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Duplicate Merge Audit Trail</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Audit Account Merge Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Audit Contact Merge Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Account Duplicate Merge Audit Trail --></label>
+        <name>Account_Duplicate_Merge_Audit_Trail</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Contact Duplicate Merge Audit Trail --></label>
+        <name>Contact_Duplicate_Merge_Audit_Trail</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

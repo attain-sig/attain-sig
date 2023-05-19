@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- 2. Hoping to learn via EDF CC --></label>
+        <name>X3_Hoping_to_learn_via_EDF_CC__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- EDF CC Role --></label>
+        <name>EDF_CC_Role__c</name>
+        <picklistValues>
+            <masterLabel>Active Advocacy Network Member</masterLabel>
+            <translation><!-- Active Advocacy Network Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advocacy Participant</masterLabel>
+            <translation><!-- Advocacy Participant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alumni Advisory Board</masterLabel>
+            <translation><!-- Alumni Advisory Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BETC Participant</masterLabel>
+            <translation><!-- BETC Participant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China Network - Experts</masterLabel>
+            <translation><!-- China Network - Experts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China Network - Recruitment</masterLabel>
+            <translation><!-- China Network - Recruitment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Supervisor</masterLabel>
+            <translation><!-- Direct Supervisor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fellow</masterLabel>
+            <translation><!-- Fellow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Contact</masterLabel>
+            <translation><!-- HR Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Level Sponsor</masterLabel>
+            <translation><!-- High Level Sponsor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Host Network Member</masterLabel>
+            <translation><!-- Other Host Network Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation><!-- Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Press Contact</masterLabel>
+            <translation><!-- Press Contact --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

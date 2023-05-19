@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Name of contact record for person connected to EDF --></help>
+        <label><!-- EDF Contact --></label>
+        <name>EDF_Contact__c</name>
+        <relationshipLabel><!-- Political Relationships (EDF Contact) --></relationshipLabel>
+    </CustomFieldTranslation>

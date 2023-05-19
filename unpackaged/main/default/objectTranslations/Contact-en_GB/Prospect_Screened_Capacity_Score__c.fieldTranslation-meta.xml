@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Score based on Capacity rating
+10M-100M+ = 10
+5M+ = 7
+1M+ = 5
+$500K+ = 2
+$100K+ = 1
+All others=0 --></help>
+        <label><!-- Prospect Screened Capacity Score --></label>
+        <name>Prospect_Screened_Capacity_Score__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Formerly: Campaign Editing Permission Set
+This is meant for users that need access to add Campaign Members to a Campaign from a report but do not have Edit rights on Campaigns from their Profile or other assigned Permission Sets.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Campaigns - Add Campaign Members</label>
+    <license>Salesforce</license>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Campaign</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+</PermissionSet>

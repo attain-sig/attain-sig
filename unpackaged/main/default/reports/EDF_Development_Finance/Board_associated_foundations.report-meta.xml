@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Account_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Contact_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Account.Account_Record_ID__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>ACC-648559,ACC-6995549,ACC-3914878,ACC-6216972,ACC-2851146,ACC-726265,ACC-2749393,ACC-1057180,ACC-1090096,ACC-1245297,ACC-1579369,ACC-1581655,ACC-2749393 ACC-2851146,ACC-3693458,ACC-537867,ACC-733420,ACC-774189,ACC-4015701,ACC-3179085,ACC-3914957,ACC-3268925,ACC-4263301</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Board Associated Foundations</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

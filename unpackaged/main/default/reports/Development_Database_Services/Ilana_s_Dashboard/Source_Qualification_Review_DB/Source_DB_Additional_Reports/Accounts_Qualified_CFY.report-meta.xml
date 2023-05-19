@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Capacity__c</field>
+    </columns>
+    <columns>
+        <field>Account.Portfolio_Manager__c</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Primary_Handler__c</field>
+    </columns>
+    <columns>
+        <field>Account.Development_Constituent_Source_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account.Research_Qualification_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account.Development_Constituent_Source__c</field>
+    </columns>
+    <columns>
+        <field>Account.Development_Constituent_Source_Descript__c</field>
+    </columns>
+    <columns>
+        <field>Account.Research_Qualification_Notes__c</field>
+    </columns>
+    <description>Accounts where the Research Qualification date is in the current fiscal year</description>
+    <filter>
+        <criteriaItems>
+            <column>Account.Research_Qualification_Date__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>THIS_FISCAL_YEAR</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Accounts Qualified CFY</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

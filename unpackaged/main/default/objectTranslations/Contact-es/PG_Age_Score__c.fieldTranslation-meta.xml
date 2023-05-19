@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Score based on age range (factors into PG Prospect Rating)
+60-64 = 2
+65-80 = 3
+81-90 = 1
+All other ages = 0 --></help>
+        <label><!-- PG Age Score --></label>
+        <name>PG_Age_Score__c</name>
+    </CustomFieldTranslation>

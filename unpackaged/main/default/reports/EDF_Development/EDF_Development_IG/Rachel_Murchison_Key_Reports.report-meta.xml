@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LONG_NAME</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Development - IG</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>WFF - Reports &amp; Proposals,WFF Pledge Installments,WFF list is for pledges,WFF - Pledges by Designation,WCC - Reports &amp; Proposals,Rachel - Past-due Activities,Rachel - Activities Next 2 Weeks,Rachel - Activities Next 6 Weeks,Rachel - Activities Next 3 Months,Walton - Forecast Review,Rachel - Past Reports &amp; Proposals,Top 50 Workplans - IG,Rachel - Received &amp; Soft Credited,Meetings by Account,Rachel - Completed Meetings,Rachel - Completed Activities,Rachel - Development Workplans,Rachel - Forecast,Rachel - Reports &amp; Proposals Due,Rachel - Portfolio,Rachel - Upcoming Program Meetings,Rachel - Primary Handler,Rachel - Forecast Review</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>SHORT_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Rachel Murchison Key Reports</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ReportList</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATEDDATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

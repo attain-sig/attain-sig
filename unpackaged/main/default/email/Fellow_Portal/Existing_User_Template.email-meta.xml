@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Existing User Template</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Existing User Template</name>
+    <style>none</style>
+    <subject>Your Climate Corps Portal Username</subject>
+    <textOnly>Your Climate Corps Portal login information is below.
+
+Username: {UserName}
+
+If you forgot your password, please click the link below and click on forgot password and enter your username. You will be sent an email with instructions to reset your password.
+
+https://environmentaldefensefund--osihotfix.sandbox.lightning.force.com/EDFCCFellowPortal/s/login/
+
+Best,
+The Climate Corps Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

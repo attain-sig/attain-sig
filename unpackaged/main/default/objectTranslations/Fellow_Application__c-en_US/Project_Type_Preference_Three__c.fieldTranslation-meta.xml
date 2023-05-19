@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Project Type Preference Three --></label>
+        <name>Project_Type_Preference_Three__c</name>
+        <picklistValues>
+            <masterLabel>Animal Agriculture</masterLabel>
+            <translation><!-- Animal Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Commitments (goal setting/reporting/GHG accounting)</masterLabel>
+            <translation><!-- Climate Commitments (goal setting/reporting/GHG accounting) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental and Climate Justice</masterLabel>
+            <translation><!-- Environmental and Climate Justice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food Waste</masterLabel>
+            <translation><!-- Food Waste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewables and Energy Efficiency</masterLabel>
+            <translation><!-- Renewables and Energy Efficiency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Chain/Scope 3</masterLabel>
+            <translation><!-- Supply Chain/Scope 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustainable Finance</masterLabel>
+            <translation><!-- Sustainable Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zero Emission Vehicles</masterLabel>
+            <translation><!-- Zero Emission Vehicles --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Automatically updates when the fellow updates the Done/Not Done slider on the &quot;China Fellow Agreement&quot; tile on the Deliverables Tracker page in the fellow portal --></help>
+        <label><!-- China Fellow Agreement --></label>
+        <name>China_Fellow_Agreement__c</name>
+    </CustomFieldTranslation>

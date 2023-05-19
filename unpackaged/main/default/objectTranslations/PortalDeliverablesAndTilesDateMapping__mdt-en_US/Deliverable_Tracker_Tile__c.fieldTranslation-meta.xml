@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Points to the Deliverables Tracker Tile that contains date for the Portal Deliverable section --></help>
+        <label><!-- Deliverable Tracker Tile --></label>
+        <name>Deliverable_Tracker_Tile__c</name>
+        <relationshipLabel><!-- PortalDeliverablesAndTilesDateMapping --></relationshipLabel>
+    </CustomFieldTranslation>

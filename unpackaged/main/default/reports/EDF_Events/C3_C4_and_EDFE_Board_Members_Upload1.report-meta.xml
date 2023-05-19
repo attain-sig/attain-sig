@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>CONTACT_ID</field>
+    </columns>
+    <columns>
+        <field>Contact.Contact_Record_ID__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Contact.Contact_Record_ID__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>CON-5500133,CON-3980047,CON-3754883,CON-757732,CON-805390,CON-1182140,CON-1441353,CON-1273344,CON-1329539,CON-1330680,CON-1337982,CON-578755,CON-688221,CON-696365,CON-619113,CON-729125,CON-604919,CON-1452226,CON-1491908,CON-1448960,CON-1000635,CON-4535545,CON-540969,CON-3790846,CON-1234569,CON-1136188,CON-3849776,CON-4940169,CON-937274,CON-1328883,CON-1598256,CON-1574687,CON-1263947,CON-1506940,CON-1345341,CON-1367570,CON-46597,CON-741667,CON-88219,CON-823288,CON-1003585,CON-1130061,CON-5492088,CON-1278625,CON-1224592,CON-1380297,CON-1490599,CON-6721374,CON-1435226,CON-1551935,CON-3993424,CON-7133834,CON-1572088,CON-6310968,CON-3257498,CON-5250726,CON-4243265,CON-1223922</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>C3,C4, and EDFE Board Members (Upload)</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

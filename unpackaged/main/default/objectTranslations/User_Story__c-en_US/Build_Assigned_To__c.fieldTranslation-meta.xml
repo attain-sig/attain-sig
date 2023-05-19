@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Who is the primary technical lead responsible for the user story resolution? --></help>
+        <label><!-- Build Assigned To --></label>
+        <name>Build_Assigned_To__c</name>
+        <relationshipLabel><!-- User Stories --></relationshipLabel>
+    </CustomFieldTranslation>

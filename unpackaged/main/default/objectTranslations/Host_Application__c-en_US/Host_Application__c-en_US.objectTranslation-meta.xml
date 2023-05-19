@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Host Application</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Host Application</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Host Application Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fellow Preferences --></label>
+            <section>Fellow Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Host Application Fields for Verification --></label>
+            <section>Host Application Fields for Verification</section>
+        </sections>
+        <sections>
+            <label><!-- Host Information --></label>
+            <section>Host Information</section>
+        </sections>
+        <sections>
+            <label><!-- Host info cont --></label>
+            <section>Host info cont</section>
+        </sections>
+        <sections>
+            <label><!-- Project Information --></label>
+            <section>Project Information</section>
+        </sections>
+        <sections>
+            <label><!-- Respondent Information --></label>
+            <section>Respondent Information</section>
+        </sections>
+        <sections>
+            <label><!-- Workplan Content --></label>
+            <section>Workplan Content</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Candidate Preferences for Engagement --></label>
+        <name>Candidate_Preferences_for_Engagement</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- App Details For Engagement --></label>
+        <name>For_Engagement</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Conga_Composer_Generate_Host_Application --></label>
+        <name>Conga_Composer_Generate_Host_Application</name>
+    </webLinks>
+</CustomObjectTranslation>

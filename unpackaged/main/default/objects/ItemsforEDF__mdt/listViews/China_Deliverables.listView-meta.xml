@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>China_Deliverables</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>Fellowship__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Due_Date_Field__c</columns>
+    <columns>Due_Date_Field_Offset__c</columns>
+    <columns>Section_Name__c</columns>
+    <columns>Mapping_Field__c</columns>
+    <columns>Tile_Body__c</columns>
+    <columns>Header_Icon__c</columns>
+    <columns>Section_Order__c</columns>
+    <columns>Item_Order__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Fellowship__c</field>
+        <operation>equals</operation>
+        <value>China Fellowship</value>
+    </filters>
+    <label>China Deliverables</label>
+    <language>en_US</language>
+</ListView>

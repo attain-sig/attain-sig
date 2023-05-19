@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Choose the EDF organizations in which the contact has an interest --></help>
+        <label><!-- Entity Interest --></label>
+        <name>Entity_Interest__c</name>
+    </CustomFieldTranslation>

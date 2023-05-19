@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- if you analyzed data then how many buidings did you analyzed --></help>
+        <label><!-- Building Data Analyzed --></label>
+        <name>Building_Data_Analyzed__c</name>
+    </CustomFieldTranslation>

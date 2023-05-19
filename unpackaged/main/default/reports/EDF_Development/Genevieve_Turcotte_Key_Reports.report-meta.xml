@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LONG_NAME</field>
+    </columns>
+    <filter>
+        <booleanFilter>(1 OR 2 OR 4) AND 3</booleanFilter>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Genevieve&apos;s Portfolio - Dual Constituent,Genevieve&apos;s Portfolio w/wo Workplans,Genevieve&apos;s Workplan Next Steps,Genevieve T. Giving Snapshot,Genevieve T. Completed Meetings,Genevieve T. Donors Former PMs,Genevieve T. Donors in Membership,Genevieve T. Workplans,Genevieve T. w/wo Workplans,Genevieve T. Donor Qualifications,Genevieve T Reports/Proposals Due,Genevieve T. Recvd/Cancelled Gifts,Genevieve T. Projections,Genevieve T. Portfolio,Genevieve T.&apos;s Forecast,Genevieve T. Completed Activities,Genevieve T.&apos;s Primary Handler,Top 50</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Scott&apos;s Portfolio w/wo Workplans,Skye&apos;s Portfolio w/wo Workplans,Genevieve New Membership Gift Report,Adrienne&apos;s Portfolio,Adrienne&apos;s Portfolio - Workplan Nxt Stps,Scott&apos;s Completed Meetings,Scott&apos;s Forecast,Scott&apos;t Portfolio,Scott&apos;s Portfolio - Workplans,Scott&apos;s Received/Cancelled Gifts,Genevieve Portfolio Adds (Individuals),Genevieve Portfolio Adds (Organizations)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Development</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Genevieve - To Dos,Genevieve - Past-due Activities,Genevieve - Activities Next 2 Weeks,Genevieve - Activities Next 6 Weeks,Genevieve - Activities Next 3 Months</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>SHORT_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Genevieve Turcotte Key Reports</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ReportList</reportType>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATEDDATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

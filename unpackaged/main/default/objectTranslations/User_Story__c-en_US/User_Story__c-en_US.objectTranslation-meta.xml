@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>User Story</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>User Stories</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>User Story Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Design &amp; Build --></label>
+            <section>Design &amp; Build</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Solution Selection --></label>
+            <section>Solution Selection</section>
+        </sections>
+        <sections>
+            <label><!-- User Story Details --></label>
+            <section>User Story Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Test Script --></label>
+        <name>Create_a_Test_Script</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create New Feedback --></label>
+        <name>New_Feedback</name>
+    </quickActions>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_43817635</developerName>
+        <masterLabel>Status (Grouped)</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Feedback__c.Feedback_Status__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Completed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Closed - No Longer Required</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Closed - Duplicate</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Closed - Known Salesforce Limitation</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Closed - Address via User Story</sourceValue>
+            </sourceValues>
+            <value>Closed</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>New</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Open</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>In IT Assessment</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Build in Progress</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Build Complete</sourceValue>
+            </sourceValues>
+            <value>Open &amp; Active</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Closed - Deferred</sourceValue>
+            </sourceValues>
+            <value>Deferred</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>In QA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>In UAT</sourceValue>
+            </sourceValues>
+            <value>In Testing</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Needs Requirements</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Blocked</sourceValue>
+            </sourceValues>
+            <value>With Stakeholders</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Feedback_Title__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Priority__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Feedback_Status__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Feedback_Type__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Description__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_NAME</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Assigned_To__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.QC_Assigned_To__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Feedback__c.Feedback_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Completed,Closed - No Longer Required,Closed - Duplicate,Closed - Known Salesforce Limitation,Closed - Address via User Story</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Feedback__c.Priority__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Omit</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Feedback__c.Assigned_To__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Kristen Holbrook,Lyn Rowland,Alicia Loughnane,Lauren Wolpin,Tina Bahtijari,Alicia Verstynen</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_43817635</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Open SF Feedback by Status</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Feedback__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Feedback__c.Priority__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Feedback__c.Approval_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

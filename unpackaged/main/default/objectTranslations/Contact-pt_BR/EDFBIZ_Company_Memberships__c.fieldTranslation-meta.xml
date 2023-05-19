@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- EDFBIZ Company Memberships --></label>
+        <name>EDFBIZ_Company_Memberships__c</name>
+        <picklistValues>
+            <masterLabel>BELC</masterLabel>
+            <translation><!-- BELC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bicep</masterLabel>
+            <translation><!-- Bicep --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low Carbon 2.0</masterLabel>
+            <translation><!-- Low Carbon 2.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renew</masterLabel>
+            <translation><!-- Renew --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USCAP</masterLabel>
+            <translation><!-- USCAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WASI</masterLabel>
+            <translation><!-- WASI --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

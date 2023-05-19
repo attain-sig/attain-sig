@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Header Icon --></label>
+        <name>Header_Icon__c</name>
+        <picklistValues>
+            <masterLabel>Utility:news</masterLabel>
+            <translation><!-- Utility:news --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utility:pinned</masterLabel>
+            <translation><!-- Utility:pinned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utility:socialshare</masterLabel>
+            <translation><!-- Utility:socialshare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:bookmark</masterLabel>
+            <translation><!-- utility:bookmark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:calculated_insights</masterLabel>
+            <translation><!-- utility:calculated_insights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:check</masterLabel>
+            <translation><!-- utility:check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:checkin</masterLabel>
+            <translation><!-- utility:checkin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:clock</masterLabel>
+            <translation><!-- utility:clock --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:close</masterLabel>
+            <translation><!-- utility:close --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:collection</masterLabel>
+            <translation><!-- utility:collection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:comments</masterLabel>
+            <translation><!-- utility:comments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:company</masterLabel>
+            <translation><!-- utility:company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:contact</masterLabel>
+            <translation><!-- utility:contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:copy</masterLabel>
+            <translation><!-- utility:copy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:date_input</masterLabel>
+            <translation><!-- utility:date_input --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:groups</masterLabel>
+            <translation><!-- utility:groups --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:image</masterLabel>
+            <translation><!-- utility:image --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:info</masterLabel>
+            <translation><!-- utility:info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:key_dates</masterLabel>
+            <translation><!-- utility:key_dates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:knowledge_base</masterLabel>
+            <translation><!-- utility:knowledge_base --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:listen</masterLabel>
+            <translation><!-- utility:listen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:metrics</masterLabel>
+            <translation><!-- utility:metrics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:note</masterLabel>
+            <translation><!-- utility:note --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:page</masterLabel>
+            <translation><!-- utility:page --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:play</masterLabel>
+            <translation><!-- utility:play --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:send</masterLabel>
+            <translation><!-- utility:send --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:setup_assistant_guide</masterLabel>
+            <translation><!-- utility:setup_assistant_guide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:signature</masterLabel>
+            <translation><!-- utility:signature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:trailblazer_ext</masterLabel>
+            <translation><!-- utility:trailblazer_ext --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>utility:world</masterLabel>
+            <translation><!-- utility:world --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Use this field to share non-donation information including anecdotal relationship context or public information from articles. --></help>
+        <label><!-- EDF Relationship Context --></label>
+        <name>EDF_Relationship_Context__c</name>
+    </CustomFieldTranslation>

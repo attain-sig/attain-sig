@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Descripiton of list purchased for prospecting. (i.e. NRDC High Donors, Nature Conservancy 2010 donors) --></help>
+        <label><!-- List Source Description --></label>
+        <name>List_Source_Description__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Most recent contribution amount (soft credit). --></help>
+        <label><!-- MRC SC Amount --></label>
+        <name>MRC_SC_Amount_Contact__c</name>
+    </CustomFieldTranslation>

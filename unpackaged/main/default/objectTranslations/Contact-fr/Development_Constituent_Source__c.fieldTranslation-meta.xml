@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Development Constituent Source --></label>
+        <name>Development_Constituent_Source__c</name>
+        <picklistValues>
+            <masterLabel>5K + New Donor</masterLabel>
+            <translation><!-- 5K + New Donor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5K+ Upgrade</masterLabel>
+            <translation><!-- 5K+ Upgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catalyst Circle</masterLabel>
+            <translation><!-- Catalyst Circle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catalyst Circle reassessment</masterLabel>
+            <translation><!-- Catalyst Circle reassessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conference / non-EDF event</masterLabel>
+            <translation><!-- Conference / non-EDF event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development Staff</masterLabel>
+            <translation><!-- Development Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation><!-- Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Staff</masterLabel>
+            <translation><!-- Executive Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formerly in portfolio</masterLabel>
+            <translation><!-- Formerly in portfolio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foundation Staff</masterLabel>
+            <translation><!-- Foundation Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Friend/Volunteer</masterLabel>
+            <translation><!-- Friend/Volunteer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Membership</masterLabel>
+            <translation><!-- Membership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Membership – Screening</masterLabel>
+            <translation><!-- Membership – Screening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned Giving</masterLabel>
+            <translation><!-- Planned Giving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program Staff</masterLabel>
+            <translation><!-- Program Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program prospecting</masterLabel>
+            <translation><!-- Program prospecting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research Staff</masterLabel>
+            <translation><!-- Research Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Partners</masterLabel>
+            <translation><!-- Strategic Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trustee</masterLabel>
+            <translation><!-- Trustee --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

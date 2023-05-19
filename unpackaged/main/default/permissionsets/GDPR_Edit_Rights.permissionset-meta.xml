@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Give edit rights to fields related specifically to GDPR</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Europe_GDPR_Consent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.GDPR_Consent_Notes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.GDPR_Declaration_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>GDPR Edit Rights</label>
+</PermissionSet>

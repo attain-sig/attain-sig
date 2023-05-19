@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Stage = Not Qualified and Notified</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Climate_Corps_Letterhead</letterhead>
+    <name>Not Qualified and Notified</name>
+    <style>freeForm</style>
+    <subject>Thank you for applying to Climate Corps</subject>
+    <textOnly>Dear {!Fellow_Application__c.Applicant_First_Name__c},
+
+Thank you for your interest in the Climate Corps program. I am writing to inform you that your application is no longer under consideration for a position with Climate Corps for this year&apos;s cohort.
+
+You were among many highly qualified Climate Corps applicants this year. Due to the high volume of candidates, we are unable to provide further feedback on your individual application at this time. If you would like to reapply next year, we recommend speaking with one of our recruitment team members in the fall. If you have questions about developing your application for opportunities beyond Climate Corps, we recommend visiting your campus career services office.
+
+You are a valuable member of the sustainability community and we wish you great success in making the world a more vibrant and healthier place for all. We hope you will stay in touch with the EDF community.
+
+We appreciate your interest in the Climate Corps program and thank you for your time and consideration of this position.
+
+Sincerely,
+
+The Climate Corps Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

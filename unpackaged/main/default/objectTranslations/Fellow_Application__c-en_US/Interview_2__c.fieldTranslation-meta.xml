@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Interviewer 2 --></label>
+        <name>Interview_2__c</name>
+        <relationshipLabel><!-- Fellow Applications (Interview 2) --></relationshipLabel>
+    </CustomFieldTranslation>

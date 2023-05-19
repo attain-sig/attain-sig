@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Hard credit; Received/Received as Unconditional Pledge; Currency Type = GBP; excl. In-Kind/Planned Gifts. --></help>
+        <label><!-- Total Amount Committed Lifetime GBP HC --></label>
+        <name>Total_Amount_Committed_Lifetime_GBP_HC__c</name>
+    </CustomFieldTranslation>

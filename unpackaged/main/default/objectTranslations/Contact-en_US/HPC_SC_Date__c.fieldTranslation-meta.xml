@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Highest previous contribution (soft credit). --></help>
+        <label><!-- HPC SC Date --></label>
+        <name>HPC_SC_Date__c</name>
+    </CustomFieldTranslation>

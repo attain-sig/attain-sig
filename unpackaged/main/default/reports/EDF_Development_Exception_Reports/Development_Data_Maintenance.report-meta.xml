@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LONG_NAME</field>
+    </columns>
+    <filter>
+        <booleanFilter>(1 AND ( 2 OR 3))</booleanFilter>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>ACT-Canceled &amp; Completed Fields,ACT-Completion Date Missing Field,ACT-Future Activities Completed,ACT-Missing Solicitors,ACT-Portfolio Manager Field Audit,CON-Sub-constituency Missing Field,ACC-Country Audit,CON w ADD-Country Audit,CON&amp;ACC-Donors Missing RM,CON&amp;ACC-Donors in Mem w Ilana as RM,CON&amp;ACC-Donors wo Const Source Fields,ACC w DON-Non-Acknowledgment Activities,CON&amp;ACC-Dual-Constituency wo RM,CON w ADD-Duplicate Address Audit,Con w ADD-Duplicate Email Audit,ACC-Empty Household Audit,CON&amp;ACC-Households in IG Audit,ACC-Households wo HoH Audit,CON-IG Foundations in Non-IG Audit,CON&amp;ACC-Mo PG Portfolio Manager Audit,CON&amp;ACC-New Cons wo RM or Dev Source,ACC w CON-Past Due Report Audit,Report Date w DON-Past Due Report Audit,CON&amp;ACC-PG Sub Const w PG PM Audit,CON&amp;ACC-RM Audit,Report Date-Removal Audit,ACC w CON-Past Due Pending Task Audit</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Development Exception Reports</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Development Exception Reports</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>SHORT_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Development Data Maintenance</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ReportList</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATEDDATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

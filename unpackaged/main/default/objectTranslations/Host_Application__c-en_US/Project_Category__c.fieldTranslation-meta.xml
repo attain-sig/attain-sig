@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Shows on ConsiderMe --></help>
+        <label><!-- Project Category --></label>
+        <name>Project_Category__c</name>
+        <picklistValues>
+            <masterLabel>Climate Commitments</masterLabel>
+            <translation><!-- Climate Commitments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Smart Agriculture</masterLabel>
+            <translation><!-- Climate Smart Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy &amp; Waste Management</masterLabel>
+            <translation><!-- Energy &amp; Waste Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental/Climate Justice</masterLabel>
+            <translation><!-- Environmental/Climate Justice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food Waste &amp; Animal Agriculture</masterLabel>
+            <translation><!-- Food Waste &amp; Animal Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GHG Accounting, Reporting, and Goal Setting</masterLabel>
+            <translation><!-- GHG Accounting, Reporting, and Goal Setting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewables &amp; Energy Efficiency</masterLabel>
+            <translation><!-- Renewables &amp; Energy Efficiency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Chain Sustainability</masterLabel>
+            <translation><!-- Supply Chain Sustainability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Chain and Freight Sustainability</masterLabel>
+            <translation><!-- Supply Chain and Freight Sustainability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustainable Construction</masterLabel>
+            <translation><!-- Sustainable Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zero-Emission Vehicles/Fleet Transition</masterLabel>
+            <translation><!-- Zero-Emission Vehicles/Fleet Transition --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

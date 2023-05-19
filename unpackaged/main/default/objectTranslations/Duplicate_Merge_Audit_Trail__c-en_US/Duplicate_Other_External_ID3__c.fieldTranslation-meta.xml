@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Duplicate Other External ID3 --></label>
+        <name>Duplicate_Other_External_ID3__c</name>
+    </CustomFieldTranslation>

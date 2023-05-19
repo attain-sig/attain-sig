@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Related Action batch record --></help>
+        <label><!-- Action Batch ID --></label>
+        <name>Action_Batch_ID__c</name>
+        <relationshipLabel><!-- Actions --></relationshipLabel>
+    </CustomFieldTranslation>

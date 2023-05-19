@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Climate Corps Engagement</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Climate Corps Engagements</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>CEA Engagements</layout>
+        <sections>
+            <label><!-- Application Details --></label>
+            <section>Application Details</section>
+        </sections>
+        <sections>
+            <label><!-- Bio --></label>
+            <section>Bio</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- End-of-Fellowship Meeting --></label>
+            <section>End-of-Fellowship Meeting</section>
+        </sections>
+        <sections>
+            <label><!-- Engagement Preparation &amp; Kickoff --></label>
+            <section>Engagement Preparation &amp; Kickoff</section>
+        </sections>
+        <sections>
+            <label><!-- Final Deliverables --></label>
+            <section>Final Deliverables</section>
+        </sections>
+        <sections>
+            <label><!-- Final Engagement Profile --></label>
+            <section>Final Engagement Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Host Questionnaire --></label>
+            <section>Host Questionnaire</section>
+        </sections>
+        <sections>
+            <label><!-- Matching Details --></label>
+            <section>Matching Details</section>
+        </sections>
+        <sections>
+            <label><!-- Midpoint --></label>
+            <section>Midpoint</section>
+        </sections>
+        <sections>
+            <label><!-- Press --></label>
+            <section>Press</section>
+        </sections>
+        <sections>
+            <label><!-- Published in Portal --></label>
+            <section>Published in Portal</section>
+        </sections>
+        <sections>
+            <label><!-- Section --></label>
+            <section>Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Climate Corps Engagement Layout</layout>
+        <sections>
+            <label><!-- Application Details (Host Profile) --></label>
+            <section>Application Details (Host Profile)</section>
+        </sections>
+        <sections>
+            <label><!-- CARE Call --></label>
+            <section>CARE Call</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- End-of-Fellowship Meeting --></label>
+            <section>End-of-Fellowship Meeting</section>
+        </sections>
+        <sections>
+            <label><!-- Engagement Preparation &amp; Kickoff --></label>
+            <section>Engagement Preparation &amp; Kickoff</section>
+        </sections>
+        <sections>
+            <label><!-- Final Deliverables --></label>
+            <section>Final Deliverables</section>
+        </sections>
+        <sections>
+            <label><!-- Final Engagement Profile --></label>
+            <section>Final Engagement Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Matching Details: Ideal Candidate Profile --></label>
+            <section>Matching Details: Ideal Candidate Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Midpoint --></label>
+            <section>Midpoint</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Published in Portals --></label>
+            <section>Published in Portals</section>
+        </sections>
+        <sections>
+            <label><!-- Recruitment Details --></label>
+            <section>Recruitment Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

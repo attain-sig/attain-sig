@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Transaction Type --></label>
+        <name>Transaction_Type__c</name>
+        <picklistValues>
+            <masterLabel>Bequest</masterLabel>
+            <translation><!-- Bequest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CGA, DGA</masterLabel>
+            <translation><!-- CGA, DGA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CGA, DGA Distribution</masterLabel>
+            <translation><!-- CGA, DGA Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLT</masterLabel>
+            <translation><!-- CLT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLT Distribution</masterLabel>
+            <translation><!-- CLT Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRT</masterLabel>
+            <translation><!-- CRT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRT Distribution</masterLabel>
+            <translation><!-- CRT Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate</masterLabel>
+            <translation><!-- Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribution</masterLabel>
+            <translation><!-- Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foundation</masterLabel>
+            <translation><!-- Foundation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government Contract</masterLabel>
+            <translation><!-- Government Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Kind</masterLabel>
+            <translation><!-- In-Kind --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual</masterLabel>
+            <translation><!-- Individual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual - Catalyst Circle</masterLabel>
+            <translation><!-- Individual - Catalyst Circle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual - Membership</masterLabel>
+            <translation><!-- Individual - Membership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matching Gift</masterLabel>
+            <translation><!-- Matching Gift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Institutional Giving</masterLabel>
+            <translation><!-- Other Institutional Giving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PIF Distribution</masterLabel>
+            <translation><!-- PIF Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workplace - Catalyst Circle</masterLabel>
+            <translation><!-- Workplace - Catalyst Circle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workplace - Membership</masterLabel>
+            <translation><!-- Workplace - Membership --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

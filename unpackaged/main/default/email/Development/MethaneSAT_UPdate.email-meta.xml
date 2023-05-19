@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>MethaneSAT Update</name>
+    <style>none</style>
+    <subject>TEST: State of the State: New York and New Jersey — Budgets! Traffic! Sustainability Plans!</subject>
+    <textOnly>Greetings from New York and New Jersey,
+
+In my role as EDF’s State Director for New York and New Jersey, I’m privileged to work with stellar colleagues in our states and to serve as a strategic advisor for EDF’s advocacy, providing local policy, partnership and political guidance.
+
+In this inaugural State of the State, I’d hoped to report on exciting climate progress attained in the New York State budget. While due on April 1, the budget still isn’t done as of this writing. But there are encouraging signs that it will be approved this week and include some high-priority climate policies like: 1) establishing rebate programs to help defray any near-term costs New Yorkers may face from an economywide cap-and-invest program and, 2) the first statewide law requiring most new building construction up to seven stories to be zero-emission starting in 2026 with larger buildings in 2029. Both policies are key drivers for New York to meet its emissions reduction goals of 40% from 1990 levels by 2030 and 85% by 2050.
+
+Moving forward, I’ll be sending this New York and New Jersey State of the State communication each quarter to share insights into EDF&apos;s work, my perspective on current events, and resources that may prove helpful in staying up to date on what’s happening. I hope you find it informative and useful and please, don&apos;t hesitate to reach out with any questions.
+
+﻿Mary Barber
+
+State of the State
+
+Supporting Congestion Pricing
+
+We expect New York will receive final federal approval to move forward with the next step of designing a congestion pricing program within the coming months (you can find a great explanation of how congestion pricing works here).
+
+As I said in my Op-Ed for Crains New York, data in other cities proves that it works so it is time for the Metropolitan Transportation Authority to implement an equitable congestion pricing program to reduce traffic congestion, fund public transit improvements and improve air quality. EDF remains a leader in the Congestion Pricing NOW coalition working with partners to maintain a constant supportive voice in the midst of some turbulent political waters and ensuring the program launches in early 2024.
+
+PlaNYC: Getting Sustainability Done
+
+The New York City Mayor’s Office recently released a climate plan that will continue the city’s progress toward a safe, healthy and equitable climate future. EDF’s Director of Climate Resilient Coasts and Watersheds for New York and New Jersey, Kate Boicourt, commended the administration for taking this bold step. We’re looking forward to partnering with them on implementation of their resilience strategies as well as on other key priorities.
+
+Climate Program Benefits the Garden State
+
+New Jersey’s participation in the Regional Greenhouse Gas Initiative (RGGI) showcases how the cap-and-invest program helps local communities, as demonstrated by Gov. Murphy’s allocation of $70 million toward electric vehicles in recent weeks including more than 114 clean school buses, many in communities dealing with poor air quality.
+
+Electrifying Fleets in New York
+
+Gov. Hochul announced a new effort to improve charging infrastructure for medium- and heavy-duty electric vehicles. This milestone came after a year-long effort from a broad coalition led by EDF including a petition to the Public Service Commission and the engagement of industry leaders and government officials.
+
+More updates:
+
+EDF launched BetterHubs Northeast to help agencies, companies and NGOs collaborate to ensure that the future of industrial decarbonization is clean, authentically equitable, transparent and accountable for local impacts.
+Governor Murphy’s new climate initiatives are a foundation for a cleaner, greener, and more resilient New Jersey and EDF made its support known in this critical area.
+New Jersey passed one of the most progressive flood risk disclosure laws in the nation, establishing a right to know for renters and buyers. EDF has championed disclosure laws in both New Jersey and New York.
+EDF is part of a team that launched a new pilot program in New York City that could help address gaps in financial assistance to low- and moderate-income households immediately after a disaster.
+
+Staff News
+
+Our New York and New Jersey teams are growing! I’m thrilled to introduce two new staff members who are helping to lead campaigns that address critical climate challenges faced by New Yorkers:
+
+Karla Sosa, New Jersey Project Manager
+
+Karla comes to us from academia where she earned a Ph.D. in evolutionary biology. She has a deep background in equity, and she is excited to use these skills to push for legislation that is equitable and based on our best available science as we tackle the multifaceted challenges posed by climate change.
+
+Braxton Bridgers, New York Project Manager
+
+Braxton is joining us from the Energy Affordability Association of San Francisco. He is especially interested in engaging with environmental justice organizations and frontline communities on policies that solve environmental issues and rectify harm done to historically marginalized communities.
+
+What I&apos;m Reading
+
+New Yorkers Want Congestion Pricing to Fix Transit
+Do You Even Decarbonize, Bro?
+A report commissioned by EDF that outlines the widespread benefits of utilities upgrading electrical grids for medium- and heavy-duty vehicle (MHDV) charging.
+
+Environmental Defense Fund
+
+257 Park Ave S. New York, NY 10010 | 212.505.2100</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Event__c.Event_Invitations__r$Contact__c.Contact_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>Event__c$Name</field>
+    </columns>
+    <columns>
+        <field>Event__c$Event_Date_Time__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Event__c.Event_Invitations__r$Attended__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Event__c.Event_Invitations__r$Contact__c.Primary_Handler__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>RISKS - Events</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Events_with_Event_Invitations_and_Contacts__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Event__c$Event_Date_Time__c</dateColumn>
+        <interval>INTERVAL_LAST90</interval>
+    </timeFrameFilter>
+</Report>

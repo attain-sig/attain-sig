@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hide_Due_Date__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Some dates that are not mandatory, may need to be hidden. This field helps to hide the Due Date on the tile</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Check this checkbox to hide Due Date on the tile.</inlineHelpText>
+    <label>Hide Due Date</label>
+    <type>Checkbox</type>
+</CustomField>

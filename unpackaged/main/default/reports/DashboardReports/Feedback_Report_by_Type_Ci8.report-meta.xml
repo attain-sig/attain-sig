@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Priority__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Feedback_Title__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Feedback_Status__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Assigned_To__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.QC_Assigned_To__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Script_Status__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Estimate__c</field>
+    </columns>
+    <description>Feedback Report by Type</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Feedback__c.Feedback_Type__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Feedback Report by Type</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Feedback__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CUST_NAME</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Feedback__c.Approval_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

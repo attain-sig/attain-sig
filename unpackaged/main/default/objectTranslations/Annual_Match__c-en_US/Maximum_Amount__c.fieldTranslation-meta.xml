@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If the Match Type equals &quot;Up to max&quot;, this field will hold the value of the Threshold Amount. Otherwise, it will be blank. --></help>
+        <label><!-- Maximum Amount --></label>
+        <name>Maximum_Amount__c</name>
+    </CustomFieldTranslation>

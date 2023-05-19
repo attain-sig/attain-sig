@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Feedback_Status__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Priority__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_NAME</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Feedback_Title__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Description__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Feedback_Type__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Object__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.User_Story__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <criteriaItems>
+            <column>CUST_CREATED_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Tina Bahtijari,Allen Campos,Kamal Williams,Tina Bahtijari (SysAdmin),Kavita Budhu</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Feedback__c.Priority__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Should,Could</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CUST_OWNER_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Tina Bahtijari,Allen Campos,Kamal Williams,Tina Bahtijari (SysAdmin),Kavita Budhu</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>GPT Should/Could Feedback</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Feedback__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Feedback__c.Feedback_Status__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Feedback__c.Approval_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

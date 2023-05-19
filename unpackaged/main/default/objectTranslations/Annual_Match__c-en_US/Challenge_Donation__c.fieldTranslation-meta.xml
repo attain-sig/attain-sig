@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Donation that is contigent upon a specific crtieria being met. --></help>
+        <label><!-- Challenge Donation --></label>
+        <name>Challenge_Donation__c</name>
+        <relationshipLabel><!-- Annual Challenge Matches --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_49375102</developerName>
+        <masterLabel>Assigned (bucketed)</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Feedback__c.Assigned_To__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Manideep Chennupalli</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Suresh Tavva</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Harpreet Singh</sourceValue>
+            </sourceValues>
+            <value>OSI</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Alicia Verstynen</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Ellen Shenette</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Josh Salzberg</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tina Bahtijari</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Kate Nimety</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Matt Duprey</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>John Stith</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jaemi Loeb</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Ilana Lester Moreno</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lauren Wolpin</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Kristin Rodriguez</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Kathryn Chiasson</sourceValue>
+            </sourceValues>
+            <value>Stakeholders</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Assigned_To__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Feedback_Status__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Feedback_Title__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Description__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Priority__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Due_Date__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>CUST_LAST_UPDATE</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Feedback__c.Assigned_To__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,hanako shigenobu,abel agramonte,alyssa buda,chris walton,maurice j. davis,wyatt zimmerman,alicia romano</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>FBs in Current Sprint</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Feedback__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>Feedback__c.Priority__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Feedback__c.Approval_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

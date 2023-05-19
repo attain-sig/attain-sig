@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Replaces Dev Temp Permission Set</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>EDF Dev Temp</label>
+    <status>Updated</status>
+</PermissionSetGroup>

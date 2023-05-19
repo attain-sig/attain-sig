@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Portfolio Manager --></label>
+        <name>Portfolio_Manager__c</name>
+        <picklistValues>
+            <masterLabel>Abigail Ettelman</masterLabel>
+            <translation><!-- Abigail Ettelman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adrienne Allen</masterLabel>
+            <translation><!-- Adrienne Allen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allison Bredbenner</masterLabel>
+            <translation><!-- Allison Bredbenner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amanda Das</masterLabel>
+            <translation><!-- Amanda Das --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amanda Lichtenberg</masterLabel>
+            <translation><!-- Amanda Lichtenberg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amy Van Ry</masterLabel>
+            <translation><!-- Amy Van Ry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amélie Poojary</masterLabel>
+            <translation><!-- Amélie Poojary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andrea Daly</masterLabel>
+            <translation><!-- Andrea Daly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andrew Malloy</masterLabel>
+            <translation><!-- Andrew Malloy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anne Marie Halsey</masterLabel>
+            <translation><!-- Anne Marie Halsey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annie Mark</masterLabel>
+            <translation><!-- Annie Mark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anouska Cheddie</masterLabel>
+            <translation><!-- Anouska Cheddie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asmita Patwardhan</masterLabel>
+            <translation><!-- Asmita Patwardhan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bao Kieu</masterLabel>
+            <translation><!-- Bao Kieu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barbara McCullough</masterLabel>
+            <translation><!-- Barbara McCullough --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bessie Taliaferro</masterLabel>
+            <translation><!-- Bessie Taliaferro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brian Dill</masterLabel>
+            <translation><!-- Brian Dill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Briana Cole</masterLabel>
+            <translation><!-- Briana Cole --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brianne Kilpatrick</masterLabel>
+            <translation><!-- Brianne Kilpatrick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brittany Janis</masterLabel>
+            <translation><!-- Brittany Janis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bryony Worthington</masterLabel>
+            <translation><!-- Bryony Worthington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caroline Schiavo</masterLabel>
+            <translation><!-- Caroline Schiavo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charlotte Mikk</masterLabel>
+            <translation><!-- Charlotte Mikk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chria Hazlitt</masterLabel>
+            <translation><!-- Chria Hazlitt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Christa Ogata</masterLabel>
+            <translation><!-- Christa Ogata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Christie Thomas</masterLabel>
+            <translation><!-- Christie Thomas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chévon Deputy</masterLabel>
+            <translation><!-- Chévon Deputy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cori Roach</masterLabel>
+            <translation><!-- Cori Roach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyane Anaya</masterLabel>
+            <translation><!-- Cyane Anaya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cynthia DiLeo</masterLabel>
+            <translation><!-- Cynthia DiLeo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cynthia Hampton</masterLabel>
+            <translation><!-- Cynthia Hampton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Danielle Jensen</masterLabel>
+            <translation><!-- Danielle Jensen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delaney Lee-Haskett</masterLabel>
+            <translation><!-- Delaney Lee-Haskett --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Derek Walker</masterLabel>
+            <translation><!-- Derek Walker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diana Wolf</masterLabel>
+            <translation><!-- Diana Wolf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dina Sperling</masterLabel>
+            <translation><!-- Dina Sperling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eleanor Krahenbuhl</masterLabel>
+            <translation><!-- Eleanor Krahenbuhl --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elizabeth Amery</masterLabel>
+            <translation><!-- Elizabeth Amery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elizabeth North</masterLabel>
+            <translation><!-- Elizabeth North --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emma Knuttel</masterLabel>
+            <translation><!-- Emma Knuttel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erica Reed</masterLabel>
+            <translation><!-- Erica Reed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Faith Betz</masterLabel>
+            <translation><!-- Faith Betz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Genevieve Turcotte</masterLabel>
+            <translation><!-- Genevieve Turcotte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgia Wei</masterLabel>
+            <translation><!-- Georgia Wei --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Georgina Bagshawe</masterLabel>
+            <translation><!-- Georgina Bagshawe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gerald Miles</masterLabel>
+            <translation><!-- Gerald Miles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jamie Thayer</masterLabel>
+            <translation><!-- Jamie Thayer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jan Brennan</masterLabel>
+            <translation><!-- Jan Brennan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jennifer Cruz</masterLabel>
+            <translation><!-- Jennifer Cruz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jenny Beirne</masterLabel>
+            <translation><!-- Jenny Beirne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jessie Dykstra</masterLabel>
+            <translation><!-- Jessie Dykstra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jill Duggan</masterLabel>
+            <translation><!-- Jill Duggan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Judith Alpert</masterLabel>
+            <translation><!-- Judith Alpert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Julia Busch</masterLabel>
+            <translation><!-- Julia Busch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KC Luce</masterLabel>
+            <translation><!-- KC Luce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Katherine Brown</masterLabel>
+            <translation><!-- Katherine Brown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Katherine Coffee</masterLabel>
+            <translation><!-- Katherine Coffee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Katie Pooser</masterLabel>
+            <translation><!-- Katie Pooser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keecha Gardner</masterLabel>
+            <translation><!-- Keecha Gardner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keely Henderson</masterLabel>
+            <translation><!-- Keely Henderson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Khadijah Al-Amin-El</masterLabel>
+            <translation><!-- Khadijah Al-Amin-El --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kristen McConnell</masterLabel>
+            <translation><!-- Kristen McConnell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lars Roth</masterLabel>
+            <translation><!-- Lars Roth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LeRoy General</masterLabel>
+            <translation><!-- LeRoy General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leigh Siatka</masterLabel>
+            <translation><!-- Leigh Siatka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liang Song</masterLabel>
+            <translation><!-- Liang Song --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lindsay Ross</masterLabel>
+            <translation><!-- Lindsay Ross --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lisa Domitrovich</masterLabel>
+            <translation><!-- Lisa Domitrovich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liza Henshaw</masterLabel>
+            <translation><!-- Liza Henshaw --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Madeleine Lesser</masterLabel>
+            <translation><!-- Madeleine Lesser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Margaret Henkels</masterLabel>
+            <translation><!-- Margaret Henkels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meryl Cohen</masterLabel>
+            <translation><!-- Meryl Cohen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michael Pohlmann</masterLabel>
+            <translation><!-- Michael Pohlmann --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missy Falkenberg</masterLabel>
+            <translation><!-- Missy Falkenberg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mo Pepin</masterLabel>
+            <translation><!-- Mo Pepin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moira Hess</masterLabel>
+            <translation><!-- Moira Hess --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Molly MacPherson</masterLabel>
+            <translation><!-- Molly MacPherson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Molly Sverdlov</masterLabel>
+            <translation><!-- Molly Sverdlov --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monica Krieger</masterLabel>
+            <translation><!-- Monica Krieger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monika von Hillebrandt</masterLabel>
+            <translation><!-- Monika von Hillebrandt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicholas Warnick</masterLabel>
+            <translation><!-- Nicholas Warnick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicole Surber</masterLabel>
+            <translation><!-- Nicole Surber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paulina Mandeville</masterLabel>
+            <translation><!-- Paulina Mandeville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rachel Murchison</masterLabel>
+            <translation><!-- Rachel Murchison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rinnie Nardone</masterLabel>
+            <translation><!-- Rinnie Nardone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Robin Johnson</masterLabel>
+            <translation><!-- Robin Johnson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ryan Williams</masterLabel>
+            <translation><!-- Ryan Williams --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Samara Dun</masterLabel>
+            <translation><!-- Samara Dun --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sang Silano</masterLabel>
+            <translation><!-- Sang Silano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sarahbeth Lindquist</masterLabel>
+            <translation><!-- Sarahbeth Lindquist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scott Reinstein</masterLabel>
+            <translation><!-- Scott Reinstein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shishir Soti</masterLabel>
+            <translation><!-- Shishir Soti --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skye DeLano</masterLabel>
+            <translation><!-- Skye DeLano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spencer Abruzzese</masterLabel>
+            <translation><!-- Spencer Abruzzese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Susan Knifed</masterLabel>
+            <translation><!-- Susan Knifed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suze Anderson</masterLabel>
+            <translation><!-- Suze Anderson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tara Nestell</masterLabel>
+            <translation><!-- Tara Nestell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tim Calabrese</masterLabel>
+            <translation><!-- Tim Calabrese --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Whitney Kollar</masterLabel>
+            <translation><!-- Whitney Kollar --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

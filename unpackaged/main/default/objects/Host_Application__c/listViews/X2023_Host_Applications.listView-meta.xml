@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2023_Host_Applications</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Organization_Name__c</columns>
+    <columns>Project_Category__c</columns>
+    <columns>Fellowship_Program__c</columns>
+    <columns>Stage__c</columns>
+    <columns>Application_Type__c</columns>
+    <columns>Climate_Corps_Engagement__c</columns>
+    <columns>Date_Application_Submitted__c</columns>
+    <columns>Supervisor__c</columns>
+    <columns>High_Level_Sponsor__c</columns>
+    <columns>EDF_Relationship_Manager__c</columns>
+    <columns>Headquarters_Address__c</columns>
+    <columns>Industry_Classification__c</columns>
+    <columns>Workplan_Content_from_Application__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>9/2/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Fellowship_Program__c</field>
+        <operation>equals</operation>
+        <value>U.S. Fellowship</value>
+    </filters>
+    <label>2023 US Host Applications</label>
+    <sharedTo>
+        <group>Climate_Corps</group>
+    </sharedTo>
+</ListView>

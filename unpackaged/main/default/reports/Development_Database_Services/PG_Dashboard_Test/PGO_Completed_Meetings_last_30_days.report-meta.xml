@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>Activity.Activity_Constituency__c</field>
+    </columns>
+    <columns>
+        <field>Account.Portfolio_Manager__c</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Primary_Handler__c</field>
+    </columns>
+    <columns>
+        <field>TASK_TYPE</field>
+    </columns>
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <columns>
+        <field>Account.Donor_Level__c</field>
+    </columns>
+    <columns>
+        <field>ADDRESS1_STATE</field>
+    </columns>
+    <columns>
+        <field>Activity.Solicitor_1__c</field>
+    </columns>
+    <columns>
+        <field>Activity.Solicitor_2__c</field>
+    </columns>
+    <columns>
+        <field>Activity.Solicitor_3__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>2 AND (1 OR (3 OR 4 OR 5 OR 6 OR 7))</booleanFilter>
+        <criteriaItems>
+            <column>Activity.Portfolio_Manager__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Monica Krieger,Cynthia DiLeo,Katherine Brown,Mo Pepin,Faith Betz,Katie Pooser,Nicholas Warnick,Christopher Hazlitt,Chria Hazlitt,Brianne Kilpatrick</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TASK_TYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Internal Meeting,Meeting</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Monica Krieger,Cynthia DiLeo,Mo Pepin,Faith Betz,Emily Preston,Katie Pooser,Nicholas Warnick,Christopher Hazlitt,Chria Hazlitt,Katherine Nolan Brown,Brianne Kilpatrick</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_2__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Monica Krieger,Cynthia DiLeo,Mo Pepin,Faith Betz,Emily Preston,Katie Pooser,Nicholas Warnick,Christopher Hazlitt,Chria Hazlitt,Katherine Nolan Brown,Brianne Kilpatrick</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_3__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Monica Krieger,Cynthia DiLeo,Mo Pepin,Faith Betz,Emily Preston,Katie Pooser,Nicholas Warnick,Christopher Hazlitt,Chria Hazlitt,Katherine Nolan Brown,Brianne Kilpatrick</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_4__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Monica Krieger,Cynthia DiLeo,Mo Pepin,Faith Betz,Emily Preston,Katie Pooser,Nicholas Warnick,Christopher Hazlitt,Chria Hazlitt,Katherine Nolan Brown,Brianne Kilpatrick</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_5__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Monica Krieger,Cynthia DiLeo,Mo Pepin,Faith Betz,Emily Preston,Katie Pooser,Nicholas Warnick,Christopher Hazlitt,Chria Hazlitt,Katherine Nolan Brown,Brianne Kilpatrick</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Activity.Portfolio_Manager__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>PGO Completed Meetings last 30 days</name>
+    <params>
+        <name>closed</name>
+        <value>closed</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>te</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountActivity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_LAST30</interval>
+    </timeFrameFilter>
+</Report>

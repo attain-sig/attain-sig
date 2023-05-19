@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field is populated by a flow when an opportunity or action is logged for the pac. --></help>
+        <label><!-- PAC Last Opt In Date --></label>
+        <name>PAC_Last_Opt_In_Date__c</name>
+    </CustomFieldTranslation>

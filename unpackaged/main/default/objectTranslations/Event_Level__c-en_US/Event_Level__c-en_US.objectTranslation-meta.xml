@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Event Level</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Event Levels</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>EDF Event Level Master Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Status Summary --></label>
+            <section>Status Summary</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Costs and benefits of event attendance for an individual constituent --></description>
+        <label><!-- Attendee Level --></label>
+        <name>Attendee_Level</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Default EDF event level --></description>
+        <label><!-- EDF Event Attendee --></label>
+        <name>EDF_Event_Attendee</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Costs and benefits of sponsoring an event --></description>
+        <label><!-- Sponsor Level --></label>
+        <name>Sponsor_Level</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

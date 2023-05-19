@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <description>Business Rule: EDFCC engagement manager should be an RM on the company record.Action Item: Run this report for each EM and contact them to identify if we should adjust EM/RM assignments.Date: Complete in August before pipeline is created.</description>
+    <filter>
+        <criteriaItems>
+            <column>Climate_Corps_Engagement__c.CC_Year__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>2021</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Climate_Corps_Engagement__c.Stage__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Engagement Confirmed</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Climate_Corps_Engagement__c.EDF_Project_Manager__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_$Account.Account_Primary_Handler__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Yearly-C-L: Ensure EM is Acct RM: CC</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Climate_Corps_Engagement__c@Climate_Corps_Engagement__c.Account__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Climate_Corps_Engagement__c.Date_Care_Call_Complete__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

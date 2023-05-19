@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Primary Volunteer - Development --></label>
+        <name>Primary_Volunteer_Development__c</name>
+        <relationshipLabel><!-- Primary Volunteer - Development --></relationshipLabel>
+    </CustomFieldTranslation>

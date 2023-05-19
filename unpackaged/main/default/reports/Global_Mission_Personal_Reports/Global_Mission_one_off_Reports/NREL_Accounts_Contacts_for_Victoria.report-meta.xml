@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Organization_Constituency__c</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Primary_Handler__c</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>TITLE</field>
+    </columns>
+    <columns>
+        <field>Contact.Employer_Lookup__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Constituency__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Primary_Handler__c</field>
+    </columns>
+    <description>NREL Contacts + Account for report request on 4/6/23.</description>
+    <filter>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Angeleno Group,BASF,Blackhorn Ventures,Deloitte,Eaton Corporation,Fortescue,Hunt Energy Enterprises,JPMorgan Chase &amp; Co.,Marvel Fusion,Procter &amp; Gamble,Shell plc,VoLo Earth Ventures,Wells Fargo &amp; Company,Xcel Energy,ZOMA Capital,Zoma Foundation,Breakthrough Energy,Energize Colorado,The MITRE Corporation,Science Philanthropy Alliance</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.X18_Digit_Contact_ID__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0038W000025yIAfQAM,0038W000025yIAgQAM,0038W000025yHtIQAU,0038W000025yIAhQAM,0038W000025yIPEQA2,0038W000025yIRZQA2,0038W000025yIZsQAM,0038W00001aATcxQAG,0038W000025yIZtQAM,0038W000025yIq7QAE,0038W000025yIwUQAU,0038W000025yJ0lQAE,0038W000025yIhPQAU,0038W000025yJ7mQAE,0038W00001aAUw3QAG,0038W000025yJBoQAM,0038W000025yJFMQA2,0038W000025yJHXQA2,0038W000025yJFNQA2</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>NREL Accounts + Contacts for Victoria</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

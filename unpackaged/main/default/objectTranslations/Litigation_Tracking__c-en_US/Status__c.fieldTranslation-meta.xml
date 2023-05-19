@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appeal Pending</masterLabel>
+            <translation><!-- Appeal Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petition Submitted</masterLabel>
+            <translation><!-- Petition Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposed</masterLabel>
+            <translation><!-- Proposed --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

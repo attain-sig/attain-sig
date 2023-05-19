@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Star__c</fullName>
+    <description>What star should be visible on Fellow Portal for this Engagement.</description>
+    <externalId>false</externalId>
+    <formula>IF (Number_Of_Consider_Me__c &gt; 20, 
+    "GOLD",  
+    IF ( Competitive_Host_Location__c = TRUE, 
+        "GOLD",  
+        IF (Prioritize_for_Consider_Mes__c = TRUE, 
+            "BLUE", 
+            ""
+        )
+    )
+)</formula>
+    <label>Star</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

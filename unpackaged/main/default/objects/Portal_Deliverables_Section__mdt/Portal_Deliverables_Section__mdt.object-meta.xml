@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Manages how various sections of Portal Deliverables are handled.</description>
+    <label>Portal Deliverables Section</label>
+    <pluralLabel>Portal Deliverables Sections</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>EDF Lead - Sys Admin</layout>
+        <sections>
+            <label><!-- Lead Acquisition Information --></label>
+            <section>Lead Acquisition Information</section>
+        </sections>
+        <sections>
+            <label><!-- Treatments --></label>
+            <section>Treatments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Lead Master Layout</layout>
+        <sections>
+            <label><!-- Lead Acquisition Information --></label>
+            <section>Lead Acquisition Information</section>
+        </sections>
+        <sections>
+            <label><!-- Treatments --></label>
+            <section>Treatments</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Leads obtained by membership for prospecting --></description>
+        <label><!-- Membership Acquisition --></label>
+        <name>Membership_Acquisition</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Require a List Source description if the Lead Source=Purchased List. --></errorMessage>
+        <name>List_Source_Description_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

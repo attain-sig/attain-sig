@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>CONTACT_ID</field>
+    </columns>
+    <columns>
+        <field>Contact.Contact_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Contact.Contact_Record_ID__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>CON-1433400,CON-1490422,CON-7261043,CON-7261044,CON-7261045,CON-7261046,CON-7261047,CON-7261048,CON-7261049,CON-1570538,CON-1023490,CON-1436976,CON-1347519,CON-7261050,CON-7261051,CON-1394120,CON-7261052,CON-7261053,CON-4370437,CON-3866245,CON-1709772,CON-7261054,CON-2706863,CON-7261055,CON-7261056,CON-7261057,CON-7261058,CON-7261059,CON-7261060,CON-7261061,CON-7239418,CON-7261062,CON-7261063,CON-7261064,CON-7261065,CON-3626224,CON-7261066,CON-130530,CON-823522,CON-7261067,CON-7261068,CON-7261069,CON-7261070,CON-7261071,CON-914460,CON-35636,CON-7261072,CON-7261073,CON-7261074,CON-2811551,CON-7151773,CON-7261075,CON-2481931,CON-4375546,CON-7261076,CON-7261077,CON-7261078,CON-7261079,CON-7246577,CON-7261080,CON-798775,CON-2596632,CON-5398554,CON-7261081,CON-7261082,CON-7261083,CON-7261084,CON-7261085,CON-7261086,CON-7261087</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>IS: MethaneSAT/ 8/11 On Invite List</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>LAST_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Notes regarding recommendation Fellow speaking to groups and/or VIP 1:1. (Entered by primary handler) --></help>
+        <label><!-- Fellow Speaking Capability Notes --></label>
+        <name>Fellow__c</name>
+    </CustomFieldTranslation>

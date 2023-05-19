@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Political_Relationship__c.EDF_Contact__c</field>
+    </columns>
+    <columns>
+        <field>Political_Relationship__c.EDF_Contact_Relationship_Manager__c</field>
+    </columns>
+    <columns>
+        <field>Political_Relationship__c.Public_Figure__c</field>
+    </columns>
+    <columns>
+        <field>Political_Relationship__c.EDF_Relationship_Context__c</field>
+    </columns>
+    <columns>
+        <field>Political_Relationship__c.Known_Financial_Support__c</field>
+    </columns>
+    <columns>
+        <field>Political_Relationship__c.Willing_to_Contact__c</field>
+    </columns>
+    <description>All relationships in the Political Relationships object.</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <field>Political_Relationship__c.Last_Verified__c</field>
+        <sortOrder>Desc</sortOrder>
+    </groupingsDown>
+    <name>All Political Relationships</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Political_Relationship__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Political_Relationship__c.EDF_Contact__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Political_Relationship__c.Last_Verified__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

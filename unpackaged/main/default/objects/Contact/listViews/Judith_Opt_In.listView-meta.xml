@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Judith_Opt_In</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>No_invitations__c</columns>
+    <columns>No_mass_email__c</columns>
+    <columns>Primary_Handler__c</columns>
+    <columns>Portfolio_Manager__c</columns>
+    <columns>npsp__Primary_Affiliation__c</columns>
+    <columns>of_Donations_this_FY__c</columns>
+    <columns>EDF_MRC_Amount_Contact__c</columns>
+    <columns>EDF_MRC_Date_Contact__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Active_EDF_Board_Member__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>npsp__Deceased__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Primary_Handler__c</field>
+        <operation>equals</operation>
+        <value>Judith Alpert</value>
+    </filters>
+    <label>Judith - Opt In</label>
+</ListView>

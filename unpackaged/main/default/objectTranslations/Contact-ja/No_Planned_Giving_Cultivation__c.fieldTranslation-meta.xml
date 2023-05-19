@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check if contact should not receive PG cultivations --></help>
+        <label><!-- No Planned Giving Cultivation --></label>
+        <name>No_Planned_Giving_Cultivation__c</name>
+    </CustomFieldTranslation>

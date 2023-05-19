@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.npsp__Allocations__r$npsp__Amount__c</field>
+    </columns>
+    <description>Will be the Membership including CC report. Do not use for FY21 and before until old transaction types added. In Kind and non-US EDF removed. Catalyst Circle is not counted in FY14 and before.</description>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity$StageName</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Received</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.npsp__Allocations__r$Reversed__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$Transaction_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Individual - Catalyst Circle,Individual - Membership,Matching Gift,Workplace - Catalyst Circle,Workplace - Membership</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$Entity__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>C3,C4,CFF,Methane SAT,NC PAC,PAC</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity$Transaction_Type__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity$Entity__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.npsp__Allocations__r$npsp__General_Accounting_Unit__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Cash Flow V6 Membership NOT READY YET</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_with_GAU_Allocations_and_Payments__c</reportType>
+    <roleHierarchyFilter>EDF_Staff</roleHierarchyFilter>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$CloseDate</dateColumn>
+        <endDate>2021-11-30</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2021-11-01</startDate>
+    </timeFrameFilter>
+</Report>

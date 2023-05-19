@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Five-digit number assigned in awarding document to most grants and cooperative agreements funded by Federal government. --></help>
+        <label><!-- CFDA Number --></label>
+        <name>CFDA_Number__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Assess the gap between the current system and the needs/requirements --></help>
+        <label><!-- Gap Scale --></label>
+        <name>Gap_Scale__c</name>
+        <picklistValues>
+            <masterLabel>Major</masterLabel>
+            <translation><!-- Major --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor</masterLabel>
+            <translation><!-- Minor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Gap</masterLabel>
+            <translation><!-- No Gap --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

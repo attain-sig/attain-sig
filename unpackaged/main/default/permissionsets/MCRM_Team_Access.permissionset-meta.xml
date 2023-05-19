@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Update_Email_or_Phone</name>
+    </customPermissions>
+    <description>Grants access to the "MCRM Submitter" lookup field on Contact</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.MCRM_User__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.Related_Contact_Report__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.Related_Contact_Report__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>MCRM Team Access</label>
+</PermissionSet>

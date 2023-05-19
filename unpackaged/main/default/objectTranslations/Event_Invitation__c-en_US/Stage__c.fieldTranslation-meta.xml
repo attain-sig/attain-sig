@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>Canceled by Constituent</masterLabel>
+            <translation><!-- Canceled by Constituent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation><!-- Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invited</masterLabel>
+            <translation><!-- Invited --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On B list invites</masterLabel>
+            <translation><!-- On B list invites --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On C list invites</masterLabel>
+            <translation><!-- On C list invites --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On invite list</masterLabel>
+            <translation><!-- On invite list --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Registered</masterLabel>
+            <translation><!-- Registered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wait list</masterLabel>
+            <translation><!-- Wait list --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

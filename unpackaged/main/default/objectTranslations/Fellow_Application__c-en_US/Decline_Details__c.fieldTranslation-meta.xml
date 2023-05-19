@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Decline Details --></label>
+        <name>Decline_Details__c</name>
+        <picklistValues>
+            <masterLabel>Application Withdrawn</masterLabel>
+            <translation><!-- Application Withdrawn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competing Offer</masterLabel>
+            <translation><!-- Competing Offer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doesn't Lead to Full-time Job</masterLabel>
+            <translation><!-- Doesn&apos;t Lead to Full-time Job --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Right Geography</masterLabel>
+            <translation><!-- Not Right Geography --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Right Host Org</masterLabel>
+            <translation><!-- Not Right Host Org --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Right Salary</masterLabel>
+            <translation><!-- Not Right Salary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Right Workplan Focus</masterLabel>
+            <translation><!-- Not Right Workplan Focus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

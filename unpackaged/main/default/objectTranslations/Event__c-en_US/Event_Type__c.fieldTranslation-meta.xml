@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Event Type --></label>
+        <name>Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Board Meeting</masterLabel>
+            <translation><!-- Board Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Breakfast</masterLabel>
+            <translation><!-- Breakfast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Forum</masterLabel>
+            <translation><!-- CC Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cohort Meeting</masterLabel>
+            <translation><!-- Cohort Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conference</masterLabel>
+            <translation><!-- Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Content Event</masterLabel>
+            <translation><!-- Content Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dinner</masterLabel>
+            <translation><!-- Dinner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lunch</masterLabel>
+            <translation><!-- Lunch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Networking Event</masterLabel>
+            <translation><!-- Networking Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reception</masterLabel>
+            <translation><!-- Reception --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teleconference</masterLabel>
+            <translation><!-- Teleconference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trip</masterLabel>
+            <translation><!-- Trip --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinar</masterLabel>
+            <translation><!-- Webinar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workshop</masterLabel>
+            <translation><!-- Workshop --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

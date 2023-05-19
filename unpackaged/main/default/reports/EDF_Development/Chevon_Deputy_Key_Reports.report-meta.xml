@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LONG_NAME</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Chévon - Past-due Activities,Chévon - Activities Next 2 Weeks,Chévon - Activities Next 6 Weeks,Chévon - Activities Next 3 Months,Phillips Dinner - Donations Post-Event,Chévon’s Portfolio - Primary Handler,Chévon&apos;s Upcoming Workplan Next Steps,Chévon - Donor Former PMs,Chévon’s Portfolio - MAJ Prospects,Chévon’s Portfolio - MAJ Donors,Chévon’s Portfolio - Dual Constituents,Chévon’s Completed Activities,Chévon’s Completed Meetings,Chévon’s Forecast Review,Chévon’s New Gift Report,Chévon’s New Membership Gifts,Chévon’s Portfolio,Chévon’s Portfolio w/wo Workplans,Chévon’s Portfolio - Workplans,Chévon’s Portfolio Adds (Organizations),Chévon’s Portfolio Adds (Individuals),Chévon’s Received/Cancelled Gifts,Chévon’s Reports/Proposals Due,Chévon- Next Steps (for Anouska Meeting),Chévon-Act. History(for Anouska Meeting)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Development</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>SHORT_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Chévon Deputy Key Reports</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ReportList</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>LONG_NAME</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATEDDATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

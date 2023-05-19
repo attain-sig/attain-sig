@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Regions in India --></label>
+        <name>Regions_in_India__c</name>
+        <picklistValues>
+            <masterLabel>Coastal Plains</masterLabel>
+            <translation><!-- Coastal Plains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indian Desert</masterLabel>
+            <translation><!-- Indian Desert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Islands</masterLabel>
+            <translation><!-- Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern Plain</masterLabel>
+            <translation><!-- Northern Plain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern and Northeastern Mountain</masterLabel>
+            <translation><!-- Northern and Northeastern Mountain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peninsular Plateau</masterLabel>
+            <translation><!-- Peninsular Plateau --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

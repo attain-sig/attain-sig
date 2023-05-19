@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>EDF Household Account - Cager</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Alert --></label>
+            <section>Alert</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Funder Attributes --></label>
+            <section>Funder Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Relationships --></label>
+            <section>Relationships</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Household Account - Development</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Alert --></label>
+            <section>Alert</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Funder Attributes --></label>
+            <section>Funder Attributes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Household Account - Member Services</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Alert --></label>
+            <section>Alert</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Funder Attributes --></label>
+            <section>Funder Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Relationships --></label>
+            <section>Relationships</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Household Account Master</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Alert --></label>
+            <section>Alert</section>
+        </sections>
+        <sections>
+            <label><!-- CFF Attributes --></label>
+            <section>CFF Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Foreign Currency Gift Summaries --></label>
+            <section>Foreign Currency Gift Summaries</section>
+        </sections>
+        <sections>
+            <label><!-- Funder Attributes --></label>
+            <section>Funder Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Giving Summary --></label>
+            <section>Giving Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Household Personalization --></label>
+            <section>Household Personalization</section>
+        </sections>
+        <sections>
+            <label><!-- Relationships --></label>
+            <section>Relationships</section>
+        </sections>
+        <sections>
+            <label><!-- Screening Data --></label>
+            <section>Screening Data</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Org Account - Cager</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alerts --></label>
+            <section>Alerts</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- Funder Attributes --></label>
+            <section>Funder Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Known EDF Interests --></label>
+            <section>Known EDF Interests</section>
+        </sections>
+        <sections>
+            <label><!-- Phone and Email --></label>
+            <section>Phone and Email</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Treatments --></label>
+            <section>Treatments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Org Account - Development</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alerts --></label>
+            <section>Alerts</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- Funder Attributes --></label>
+            <section>Funder Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Known EDF Interests --></label>
+            <section>Known EDF Interests</section>
+        </sections>
+        <sections>
+            <label><!-- Known EDF Program Interest --></label>
+            <section>Known EDF Program Interest</section>
+        </sections>
+        <sections>
+            <label><!-- Matching Gift Information --></label>
+            <section>Matching Gift Information</section>
+        </sections>
+        <sections>
+            <label><!-- Phone --></label>
+            <section>Phone</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Org Account - Member Services</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alerts --></label>
+            <section>Alerts</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- Matching Gift Information --></label>
+            <section>Matching Gift Information</section>
+        </sections>
+        <sections>
+            <label><!-- Phone --></label>
+            <section>Phone</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Treatments --></label>
+            <section>Treatments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Org Account - Program View</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alerts --></label>
+            <section>Alerts</section>
+        </sections>
+        <sections>
+            <label><!-- Climate Corps Network Information --></label>
+            <section>Climate Corps Network Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- Funder Attributes --></label>
+            <section>Funder Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Known EDF Program Interest --></label>
+            <section>Known EDF Program Interest</section>
+        </sections>
+        <sections>
+            <label><!-- Phone and Email --></label>
+            <section>Phone and Email</section>
+        </sections>
+        <sections>
+            <label><!-- Program Attributes --></label>
+            <section>Program Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Treatments --></label>
+            <section>Treatments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Org Account Master</layout>
+        <sections>
+            <label><!-- Account Information --></label>
+            <section>Account Information</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Alerts --></label>
+            <section>Alerts</section>
+        </sections>
+        <sections>
+            <label><!-- Climate Corps Network Information --></label>
+            <section>Climate Corps Network Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- EDFBIZ Attributes --></label>
+            <section>EDFBIZ Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Foreign Currency Gift Summaries --></label>
+            <section>Foreign Currency Gift Summaries</section>
+        </sections>
+        <sections>
+            <label><!-- Funder Attributes --></label>
+            <section>Funder Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Giving Summary --></label>
+            <section>Giving Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Grant Intelligence --></label>
+            <section>Grant Intelligence</section>
+        </sections>
+        <sections>
+            <label><!-- Known EDF Interests --></label>
+            <section>Known EDF Interests</section>
+        </sections>
+        <sections>
+            <label><!-- Known EDF Program Interest --></label>
+            <section>Known EDF Program Interest</section>
+        </sections>
+        <sections>
+            <label><!-- Matching Gift Information --></label>
+            <section>Matching Gift Information</section>
+        </sections>
+        <sections>
+            <label><!-- Metrics --></label>
+            <section>Metrics</section>
+        </sections>
+        <sections>
+            <label><!-- Phone --></label>
+            <section>Phone</section>
+        </sections>
+        <sections>
+            <label><!-- Political Affairs Attributes --></label>
+            <section>Political Affairs Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Program Attributes --></label>
+            <section>Program Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- Relationships --></label>
+            <section>Relationships</section>
+        </sections>
+        <sections>
+            <label><!-- Screening Data --></label>
+            <section>Screening Data</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Treatments --></label>
+            <section>Treatments</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Estate Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Estate Description --></label>
+            <section>Estate Description</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Account Fields for CC Engagement --></label>
+        <name>Account_Fields_for_CC_Engagement</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Additional Info - Org --></label>
+        <name>Additional_Info_Org</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- EDFBIZ Attributes --></label>
+        <name>EDFBiz_Attributes</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- EDF Fundraising Interests --></label>
+        <name>EDF_Fund_Interests</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- EDF Treatments --></label>
+        <name>EDF_Treatments</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Edit Strategy --></label>
+        <name>Edit_Strategy</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Funder Attributes - Orgs --></label>
+        <name>Funder_Attributes_Orgs</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Giving Summary --></label>
+        <name>Giving_Summary</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Giving Summary view --></label>
+        <name>Giving_Summary_view</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Known EDF Program Interests --></label>
+        <name>Known_EDF_Program_Interests</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Planned Gift Opportunity --></label>
+        <name>NewPlannedGiftOpp</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Donation --></label>
+        <name>New_Donation</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Grant --></label>
+        <name>New_Grant</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Major Gift --></label>
+        <name>New_Major_Gift</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Membership --></label>
+        <name>New_Membership</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Reporting Date --></label>
+        <name>New_Reporting_Date</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Political Affairs Attributes --></label>
+        <name>Political_Affairs_Attributes</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Program Attributes --></label>
+        <name>Program_Attributes</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Screening Data - Household --></label>
+        <name>Screening_Data_Household</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Treatments --></label>
+        <name>Treatments</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Dev Strat --></label>
+        <name>UpdateDevStrat</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Committee --></label>
+        <name>Committee</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Estate --></label>
+        <name>Estate</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- An Account representing a Household containing one or more individuals --></description>
+        <label><!-- Household Account --></label>
+        <name>HH_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- An Account representing an organization --></description>
+        <label><!-- Organization --></label>
+        <name>Organization</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Conga_Composer_Condolence --></label>
+        <name>Conga_Composer_Condolence</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Open_Tasks --></label>
+        <name>Open_Tasks</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Receipts_Previous_CY --></label>
+        <name>Receipts_Previous_CY</name>
+    </webLinks>
+</CustomObjectTranslation>

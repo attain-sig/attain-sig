@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Less Mail --></label>
+        <name>Less_Mail_account_edf__c</name>
+    </CustomFieldTranslation>

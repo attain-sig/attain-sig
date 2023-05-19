@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Was this organization recruited through a wholesale or partnership approach? Please indicate which organization or partner --></help>
+        <label><!-- Wholesale/Partnership --></label>
+        <name>Wholesale_Partnership__c</name>
+        <relationshipLabel><!-- Climate Corps Engagements (Wholesale/Partnership) --></relationshipLabel>
+    </CustomFieldTranslation>

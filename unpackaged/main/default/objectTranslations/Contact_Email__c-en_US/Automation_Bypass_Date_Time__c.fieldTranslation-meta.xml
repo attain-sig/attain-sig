@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Automation Bypass Date/Time --></label>
+        <name>Automation_Bypass_Date_Time__c</name>
+    </CustomFieldTranslation>

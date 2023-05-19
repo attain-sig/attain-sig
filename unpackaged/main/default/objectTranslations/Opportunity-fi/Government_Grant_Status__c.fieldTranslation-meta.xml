@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Government Grant Status --></label>
+        <name>Government_Grant_Status__c</name>
+        <picklistValues>
+            <masterLabel>Officially Closed</masterLabel>
+            <translation><!-- Officially Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Closeout</masterLabel>
+            <translation><!-- Pending Closeout --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

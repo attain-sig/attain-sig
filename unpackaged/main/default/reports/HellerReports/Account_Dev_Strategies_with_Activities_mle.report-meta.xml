@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Development_Workplans__r$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Development_Workplans__r.Activities$Priority</field>
+    </columns>
+    <columns>
+        <field>Account.Development_Workplans__r.Activities$Status</field>
+    </columns>
+    <columns>
+        <field>Account.Development_Workplans__r.Activities$Subject</field>
+    </columns>
+    <columns>
+        <field>Account.Development_Workplans__r.Activities.UserAsOwner$Name</field>
+    </columns>
+    <description>Accounts with Dev. Strategies and Activities</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Account Dev. Strategies with Activities</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_w_Dev_Strategies_Activities__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

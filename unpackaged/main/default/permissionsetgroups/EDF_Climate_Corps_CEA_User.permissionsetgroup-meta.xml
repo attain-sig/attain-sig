@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Replaces Climate Corps CEA User Permission Set</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>EDF Climate Corps CEA User</label>
+    <permissionSets>Climate_Corps_Fellowship_Program_All</permissionSets>
+    <permissionSets>Reference_Checks</permissionSets>
+    <permissionSets>sortablegrid__View_Sortable_Data_Grids</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

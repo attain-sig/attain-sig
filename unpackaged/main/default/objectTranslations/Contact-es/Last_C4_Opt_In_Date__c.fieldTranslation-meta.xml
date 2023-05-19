@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field is populated by a Flow when an Action or Opportunity is created for the C4. --></help>
+        <label><!-- Last C4 Opt In Date --></label>
+        <name>Last_C4_Opt_In_Date__c</name>
+    </CustomFieldTranslation>

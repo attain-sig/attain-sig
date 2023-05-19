@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Send to Matching Wave Two US</label>
+    <protected>false</protected>
+    <values>
+        <field>Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">On this page, you will be able to view the list of 2023 host organizations and projects and choose your preferred host placements. We encourage you to be flexible when selecting your preferred placements, as flexibility may improve your chances of being matched with a host organization. Candidates who submit their preferences by 11:59pm PT on Sunday, March 5th will be considered for the first round of matching decisions.</value>
+    </values>
+    <values>
+        <field>FellowshipApplyingFor__c</field>
+        <value xsi:type="xsd:string">U.S. Fellowship</value>
+    </values>
+    <values>
+        <field>Footer__c</field>
+        <value xsi:type="xsd:string">We will evaluate finalists and notify those chosen to participate in our program of their host placement on March 10th.</value>
+    </values>
+    <values>
+        <field>Image__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>NextStepsBody__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>NextStepsDescription__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>NextStepsFotter__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>NextStepsHeading__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Order_Number__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Stages__c</field>
+        <value xsi:type="xsd:string">Interviews Complete: Application Under Consideration</value>
+    </values>
+    <values>
+        <field>Sub_Title_Link_Label__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Sub_Title_Link__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Sub_Title__c</field>
+        <value xsi:type="xsd:string">The 2023 project list page will open in the Climate Corps fellow portal on the afternoon of March 3rd.</value>
+    </values>
+    <values>
+        <field>Title__c</field>
+        <value xsi:type="xsd:string">Placement Selection</value>
+    </values>
+</CustomMetadata>

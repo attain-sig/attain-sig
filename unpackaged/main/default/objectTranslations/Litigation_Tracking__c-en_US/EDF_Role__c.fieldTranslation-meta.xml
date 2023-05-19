@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- EDF Role --></label>
+        <name>EDF_Role__c</name>
+        <picklistValues>
+            <masterLabel>Amicus</masterLabel>
+            <translation><!-- Amicus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appellant</masterLabel>
+            <translation><!-- Appellant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appellee</masterLabel>
+            <translation><!-- Appellee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complainant</masterLabel>
+            <translation><!-- Complainant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defendant</masterLabel>
+            <translation><!-- Defendant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defendant-Intervenor</masterLabel>
+            <translation><!-- Defendant-Intervenor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intervenor</masterLabel>
+            <translation><!-- Intervenor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petitioner</masterLabel>
+            <translation><!-- Petitioner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Petitioner-Intervenor</masterLabel>
+            <translation><!-- Petitioner-Intervenor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plaintiff</masterLabel>
+            <translation><!-- Plaintiff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plaintiff-Intervenor</masterLabel>
+            <translation><!-- Plaintiff-Intervenor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respondent</masterLabel>
+            <translation><!-- Respondent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respondent-Intervenor</masterLabel>
+            <translation><!-- Respondent-Intervenor --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field is populated by a Flow when a Contact either logs an action or gives a gift to the C3. --></help>
+        <label><!-- C3 Last Opt In Date --></label>
+        <name>C3_Last_Opt_In_Date__c</name>
+    </CustomFieldTranslation>

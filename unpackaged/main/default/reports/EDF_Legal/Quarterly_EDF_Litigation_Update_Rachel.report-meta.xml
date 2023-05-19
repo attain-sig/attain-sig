@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Litigation_Tracking__c.Description__c</field>
+    </columns>
+    <columns>
+        <field>Litigation_Tracking__c.Case_Name__c</field>
+    </columns>
+    <columns>
+        <field>Litigation_Tracking__c.Case_Number__c</field>
+    </columns>
+    <columns>
+        <field>Litigation_Tracking__c.Court_Type__c</field>
+    </columns>
+    <columns>
+        <field>Litigation_Tracking__c.Venue_or_State__c</field>
+    </columns>
+    <columns>
+        <field>Litigation_Tracking__c.Commission__c</field>
+    </columns>
+    <columns>
+        <field>Litigation_Tracking__c.Lead_Attorney__c</field>
+    </columns>
+    <description>Report used by Rachel Fullmer to help prepare the internal quarterly EDF Litigation Update.</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Litigation_Tracking__c.Court_Forum__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Quarterly EDF Litigation Update - Rachel</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Litigation_Tracking__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Litigation_Tracking__c.Lead_Attorney__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2018-01-01</startDate>
+    </timeFrameFilter>
+</Report>

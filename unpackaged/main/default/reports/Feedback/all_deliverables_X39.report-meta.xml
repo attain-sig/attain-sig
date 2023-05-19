@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>npsp__Grant_Deadline__c$Name</field>
+    </columns>
+    <columns>
+        <field>npsp__Grant_Deadline__c$RecordType</field>
+    </columns>
+    <columns>
+        <field>npsp__Grant_Deadline__c$Id</field>
+    </columns>
+    <columns>
+        <field>npsp__Grant_Deadline__c$Legacy_ID__c</field>
+    </columns>
+    <columns>
+        <field>npsp__Grant_Deadline__c$npsp__Opportunity__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>all deliverables</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Deliverables_Grant_Deadline__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>npsp__Grant_Deadline__c$RecordType</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>npsp__Grant_Deadline__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

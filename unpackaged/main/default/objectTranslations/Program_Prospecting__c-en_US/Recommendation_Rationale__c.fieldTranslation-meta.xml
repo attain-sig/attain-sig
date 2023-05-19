@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Include reasoning for your recommendation - why is this constituent a prospective donor to this specific program or project? Additional context can be attached under Files as needed. --></help>
+        <label><!-- Recommendation Rationale --></label>
+        <name>Recommendation_Rationale__c</name>
+    </CustomFieldTranslation>

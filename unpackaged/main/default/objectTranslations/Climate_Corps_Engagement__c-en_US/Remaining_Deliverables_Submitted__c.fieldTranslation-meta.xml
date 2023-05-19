@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- checkbox is checked when the Remaining_Deliverables are submitted --></help>
+        <label><!-- Remaining Deliverables Submitted --></label>
+        <name>Remaining_Deliverables_Submitted__c</name>
+    </CustomFieldTranslation>

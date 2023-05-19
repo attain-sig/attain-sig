@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Constituency --></label>
+        <name>Activity_Constituency__c</name>
+        <picklistValues>
+            <masterLabel>Climate</masterLabel>
+            <translation><!-- Climate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Services</masterLabel>
+            <translation><!-- Corporate Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development</masterLabel>
+            <translation><!-- Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diversity</masterLabel>
+            <translation><!-- Diversity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDAF</masterLabel>
+            <translation><!-- EDAF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Alumni</masterLabel>
+            <translation><!-- EDF Alumni --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Europe</masterLabel>
+            <translation><!-- EDF Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Staff</masterLabel>
+            <translation><!-- EDF Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDFBIZ</masterLabel>
+            <translation><!-- EDFBIZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecosystems</masterLabel>
+            <translation><!-- Ecosystems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elected Official</masterLabel>
+            <translation><!-- Elected Official --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation><!-- Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Office</masterLabel>
+            <translation><!-- Executive Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Operations</masterLabel>
+            <translation><!-- Global Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Strategy</masterLabel>
+            <translation><!-- Global Strategy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR</masterLabel>
+            <translation><!-- HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health</masterLabel>
+            <translation><!-- Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Audit</masterLabel>
+            <translation><!-- Internal Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal and Compliance</masterLabel>
+            <translation><!-- Legal and Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MarComm</masterLabel>
+            <translation><!-- MarComm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Membership</masterLabel>
+            <translation><!-- Membership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MethaneSAT</masterLabel>
+            <translation><!-- MethaneSAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceans</masterLabel>
+            <translation><!-- Oceans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office of the Chief Economist</masterLabel>
+            <translation><!-- Office of the Chief Economist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office of the Chief Scientist</masterLabel>
+            <translation><!-- Office of the Chief Scientist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Political Affairs</masterLabel>
+            <translation><!-- Political Affairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Partners</masterLabel>
+            <translation><!-- Strategic Partners --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

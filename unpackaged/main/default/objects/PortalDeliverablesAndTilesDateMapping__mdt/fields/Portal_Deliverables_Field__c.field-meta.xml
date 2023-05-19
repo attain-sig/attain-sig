@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Portal_Deliverables_Field__c</fullName>
+    <description>Identifies the place on Portal Deliverables section where the date would be displayed</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Identifies the place on Portal Deliverables section where the date would be displayed</inlineHelpText>
+    <label>Portal Deliverables Field</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Certify_Training_Session_Attended</fullName>
+                <default>true</default>
+                <label>Certify_Training_Session_Attended</label>
+            </value>
+            <value>
+                <fullName>Complete_Post_Training_Survey</fullName>
+                <default>false</default>
+                <label>Complete_Post_Training_Survey</label>
+            </value>
+            <value>
+                <fullName>Complete_Pre_Work</fullName>
+                <default>false</default>
+                <label>Complete_Pre_Work</label>
+            </value>
+            <value>
+                <fullName>Final_Deliverables_Instructions</fullName>
+                <default>false</default>
+                <label>Final_Deliverables_Instructions</label>
+            </value>
+            <value>
+                <fullName>Pre_Training_Survey</fullName>
+                <default>false</default>
+                <label>Pre_Training_Survey</label>
+            </value>
+            <value>
+                <fullName>Training_Info_Sheet</fullName>
+                <default>false</default>
+                <label>Training_Info_Sheet</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

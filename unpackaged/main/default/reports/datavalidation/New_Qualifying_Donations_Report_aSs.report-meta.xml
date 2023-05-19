@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Qualifying_Donation__c$Name</field>
+    </columns>
+    <columns>
+        <field>Qualifying_Donation__c$Id</field>
+    </columns>
+    <columns>
+        <field>Qualifying_Donation__c$Donation_Name__c</field>
+    </columns>
+    <columns>
+        <field>Qualifying_Donation__c$Qualifying_Payment__c</field>
+    </columns>
+    <columns>
+        <field>Qualifying_Donation__c$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Qualifying_Donation__c$Annual_Match__c</field>
+    </columns>
+    <columns>
+        <field>Qualifying_Donation__c$Annual_Match_Originating_Donation__c</field>
+    </columns>
+    <columns>
+        <field>Qualifying_Donation__c$Challenge_Match__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>Audit - Qualifying Donation</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Qualifying_Donations__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Qualifying_Donation__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

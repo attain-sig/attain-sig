@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending</fullName>
+        <default>true</default>
+        <label>Pending</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualified</fullName>
+        <default>false</default>
+        <label>Qualified</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Qualified</fullName>
+        <default>false</default>
+        <label>Not Qualified</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Donor Conversion</fullName>
+        <default>false</default>
+        <label>Donor Conversion</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Action Conversion</fullName>
+        <default>false</default>
+        <label>Action Conversion</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Development Manual Conversion</fullName>
+        <default>false</default>
+        <label>Development Manual Conversion</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Membership Manual Conversion</fullName>
+        <default>false</default>
+        <label>Membership Manual Conversion</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Merkle Manual Conversion</fullName>
+        <default>false</default>
+        <label>Merkle Manual Conversion</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Open - Not Contacted</fullName>
+        <default>false</default>
+        <label>Open - Not Contacted</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Working - Contacted</fullName>
+        <default>false</default>
+        <label>Working - Contacted</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Not Converted</fullName>
+        <default>false</default>
+        <label>Closed - Not Converted</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Converted</fullName>
+        <default>false</default>
+        <label>Closed - Converted</label>
+        <converted>true</converted>
+    </standardValue>
+</StandardValueSet>

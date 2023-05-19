@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Target Analytics Wealth Rating --></label>
+        <name>Target_Analytics_Wealth_Rating__c</name>
+        <picklistValues>
+            <masterLabel>A1</masterLabel>
+            <translation><!-- A1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A2</masterLabel>
+            <translation><!-- A2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A3</masterLabel>
+            <translation><!-- A3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B1</masterLabel>
+            <translation><!-- B1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B2</masterLabel>
+            <translation><!-- B2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B3</masterLabel>
+            <translation><!-- B3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C1</masterLabel>
+            <translation><!-- C1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C2</masterLabel>
+            <translation><!-- C2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C3</masterLabel>
+            <translation><!-- C3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C4</masterLabel>
+            <translation><!-- C4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D1</masterLabel>
+            <translation><!-- D1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E1</masterLabel>
+            <translation><!-- E1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E2</masterLabel>
+            <translation><!-- E2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unrated</masterLabel>
+            <translation><!-- Unrated --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

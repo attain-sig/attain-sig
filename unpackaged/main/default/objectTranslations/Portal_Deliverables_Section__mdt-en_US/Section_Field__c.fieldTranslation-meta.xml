@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select the section for which you want to set a property. --></help>
+        <label><!-- Section / Field --></label>
+        <name>Section_Field__c</name>
+        <picklistValues>
+            <masterLabel>Field_AttendedTrainingSession</masterLabel>
+            <translation><!-- Field_AttendedTrainingSession --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_BuildingDataAnalyzed</masterLabel>
+            <translation><!-- Field_BuildingDataAnalyzed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_CommentOnFinalDeliverables</masterLabel>
+            <translation><!-- Field_CommentOnFinalDeliverables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_CompletedActivitiesReport</masterLabel>
+            <translation><!-- Field_CompletedActivitiesReport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_EndDate</masterLabel>
+            <translation><!-- Field_EndDate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_FellowAgreement</masterLabel>
+            <translation><!-- Field_FellowAgreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_FellowInitials</masterLabel>
+            <translation><!-- Field_FellowInitials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_FinalDeliverablesInstructions</masterLabel>
+            <translation><!-- Field_FinalDeliverablesInstructions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_FinalDeliverablesProjectArea</masterLabel>
+            <translation><!-- Field_FinalDeliverablesProjectArea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_FinalDeliverablesUpload</masterLabel>
+            <translation><!-- Field_FinalDeliverablesUpload --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_GHGTargetType</masterLabel>
+            <translation><!-- Field_GHGTargetType --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_HeadingPart1PublicDeliverables</masterLabel>
+            <translation><!-- Field_HeadingPart1PublicDeliverables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_HeadingPart2EDFDeliverables</masterLabel>
+            <translation><!-- Field_HeadingPart2EDFDeliverables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_HeadingPublicSummaryApprovalStatus</masterLabel>
+            <translation><!-- Field_HeadingPublicSummaryApprovalStatus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_Headshot</masterLabel>
+            <translation><!-- Field_Headshot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_LinkedIn</masterLabel>
+            <translation><!-- Field_LinkedIn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_NumberOfSuppliers</masterLabel>
+            <translation><!-- Field_NumberOfSuppliers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_NumberOfVehicles</masterLabel>
+            <translation><!-- Field_NumberOfVehicles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_OnsitePhotos</masterLabel>
+            <translation><!-- Field_OnsitePhotos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_PersonalEmail</masterLabel>
+            <translation><!-- Field_PersonalEmail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_PhotoReleaseForm</masterLabel>
+            <translation><!-- Field_PhotoReleaseForm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_PostTrainingSurvey</masterLabel>
+            <translation><!-- Field_PostTrainingSurvey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_PreTrainingSurvey</masterLabel>
+            <translation><!-- Field_PreTrainingSurvey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_PublicSummaryApprovalStatus</masterLabel>
+            <translation><!-- Field_PublicSummaryApprovalStatus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_StartDate</masterLabel>
+            <translation><!-- Field_StartDate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_TrainingInfoSheet</masterLabel>
+            <translation><!-- Field_TrainingInfoSheet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_TrainingPreWork</masterLabel>
+            <translation><!-- Field_TrainingPreWork --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_Twitter</masterLabel>
+            <translation><!-- Field_Twitter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field_Workplan</masterLabel>
+            <translation><!-- Field_Workplan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Section_FinalDeliverables</masterLabel>
+            <translation><!-- Section_FinalDeliverables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Section_MediaProfile</masterLabel>
+            <translation><!-- Section_MediaProfile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Section_PostTraining</masterLabel>
+            <translation><!-- Section_PostTraining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Section_PreTraining</masterLabel>
+            <translation><!-- Section_PreTraining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Section_StartEndDateWorkplan</masterLabel>
+            <translation><!-- Section_StartEndDateWorkplan --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

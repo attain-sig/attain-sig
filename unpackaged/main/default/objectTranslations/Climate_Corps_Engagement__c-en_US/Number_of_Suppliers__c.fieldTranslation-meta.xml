@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If you worked on a supply chain project, how many of your host company’s suppliers will your recommendations influence? --></help>
+        <label><!-- Number of Suppliers --></label>
+        <name>Number_of_Suppliers__c</name>
+    </CustomFieldTranslation>

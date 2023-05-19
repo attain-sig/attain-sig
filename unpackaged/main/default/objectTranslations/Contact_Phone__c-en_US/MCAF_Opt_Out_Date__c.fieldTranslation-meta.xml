@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicate date phone number was opted out for MCAF communications. --></help>
+        <label><!-- MCAF Opt Out Date --></label>
+        <name>MCAF_Opt_Out_Date__c</name>
+    </CustomFieldTranslation>

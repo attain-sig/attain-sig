@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Accepted</fullName>
+        <default>false</default>
+        <label>Accepted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>A list – Fred approved</fullName>
+        <default>false</default>
+        <label>A list – Fred approved</label>
+    </standardValue>
+    <standardValue>
+        <fullName>A list - Special Handling</fullName>
+        <default>false</default>
+        <label>A list - Special Handling</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended</fullName>
+        <default>false</default>
+        <label>Attended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>B list</fullName>
+        <default>false</default>
+        <label>B list</label>
+    </standardValue>
+    <standardValue>
+        <fullName>B list - hold</fullName>
+        <default>false</default>
+        <label>B list - hold</label>
+    </standardValue>
+    <standardValue>
+        <fullName>B list -- need more info</fullName>
+        <default>false</default>
+        <label>B list -- need more info</label>
+    </standardValue>
+    <standardValue>
+        <fullName>B- List - Special Handling</fullName>
+        <default>false</default>
+        <label>B- List - Special Handling</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>C-list</fullName>
+        <default>false</default>
+        <label>C-list</label>
+    </standardValue>
+    <standardValue>
+        <fullName>C-List - Special Handling</fullName>
+        <default>false</default>
+        <label>C-List - Special Handling</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Declined</fullName>
+        <default>false</default>
+        <label>Declined</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dev Opt In</fullName>
+        <default>false</default>
+        <label>Dev Opt In</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dev Opt Out</fullName>
+        <default>false</default>
+        <label>Dev Opt Out</label>
+    </standardValue>
+    <standardValue>
+        <fullName>D - List</fullName>
+        <default>false</default>
+        <label>D - List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Interested</fullName>
+        <default>false</default>
+        <label>Interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited</fullName>
+        <default>false</default>
+        <label>Invited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>On The Invite List</fullName>
+        <default>false</default>
+        <label>On The Invite List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt In</fullName>
+        <default>false</default>
+        <label>Opt In</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt-In - ADDITION</fullName>
+        <default>false</default>
+        <label>Opt-In - ADDITION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt-In - Additions</fullName>
+        <default>false</default>
+        <label>Opt-In - Additions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt-In - ADDITION - Special Handling</fullName>
+        <default>false</default>
+        <label>Opt-In - ADDITION - Special Handling</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt-In - Additions Special Handling</fullName>
+        <default>false</default>
+        <label>Opt-In - Additions Special Handling</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt In - A list</fullName>
+        <default>false</default>
+        <label>Opt In - A list</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt In - B List</fullName>
+        <default>false</default>
+        <label>Opt In - B List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt-in - B List</fullName>
+        <default>false</default>
+        <label>Opt-in - B List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt In - B list Special Handling</fullName>
+        <default>false</default>
+        <label>Opt In - B list Special Handling</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt In - FK</fullName>
+        <default>false</default>
+        <label>Opt In - FK</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt-in - HYBRID</fullName>
+        <default>false</default>
+        <label>Opt-in - HYBRID</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt In - Special Handling</fullName>
+        <default>false</default>
+        <label>Opt In - Special Handling</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt-in - VIRTUAL ONLY</fullName>
+        <default>false</default>
+        <label>Opt-in - VIRTUAL ONLY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt-In - Virtual - SH Invite by PM</fullName>
+        <default>false</default>
+        <label>Opt-In - Virtual - SH Invite by PM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt Out</fullName>
+        <default>false</default>
+        <label>Opt Out</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opt-Out</fullName>
+        <default>false</default>
+        <label>Opt-Out</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered</fullName>
+        <default>false</default>
+        <label>Registered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Attended</fullName>
+        <default>false</default>
+        <label>Registered - Attended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - No Show</fullName>
+        <default>false</default>
+        <label>Registered - No Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - Partially</fullName>
+        <default>false</default>
+        <label>Registered - Partially</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Removed</fullName>
+        <default>false</default>
+        <label>Removed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded - Attended</fullName>
+        <default>false</default>
+        <label>Responded - Attended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded No</fullName>
+        <default>false</default>
+        <label>Responded No</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded - No Show</fullName>
+        <default>false</default>
+        <label>Responded - No Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded Yes</fullName>
+        <default>false</default>
+        <label>Responded Yes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Speaker</fullName>
+        <default>false</default>
+        <label>Speaker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Special Handling - Virtual Only</fullName>
+        <default>false</default>
+        <label>Special Handling - Virtual Only</label>
+    </standardValue>
+    <standardValue>
+        <fullName>To Be Determined</fullName>
+        <default>false</default>
+        <label>To Be Determined</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_to_Matching_Pool_Wave_2</name>
+        <label>Send to Matching Pool - Wave 2</label>
+        <locationX>308</locationX>
+        <locationY>288</locationY>
+        <actionName>Fellow_Application__c.Send_to_Matching_Pool_Wave_2</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <description>Send Email when Stage is set to &apos;Send to Matching Pool&apos;. Use Version 1 for Wave 1 and Version 2 for Wave 2</description>
+    <environments>Default</environments>
+    <interviewLabel>Fellow Application - Send to Matching Pool - US {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Fellow Application - Send to Matching Pool - US</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+ ispickval({!$Record.Status__c}, &quot;Send to Matching Pool&quot;)
+&amp;&amp;
+ispickval({!$Record.Fellowship_Applying_for__c}, &quot;U.S. Fellowship&quot;)</filterFormula>
+        <object>Fellow_Application__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <name>Two_day_wait</name>
+            <connector>
+                <targetReference>Send_to_Matching_Pool_Wave_2</targetReference>
+            </connector>
+            <label>Two day wait</label>
+            <offsetNumber>2</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

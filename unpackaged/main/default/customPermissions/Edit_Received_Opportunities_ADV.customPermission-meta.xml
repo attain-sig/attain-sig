@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Grants high-level permissions to update Finance-related fields on Opportunities via Opportunity Validation Rules</description>
+    <isLicensed>false</isLicensed>
+    <label>Edit Received Opportunities-ADV</label>
+</CustomPermission>

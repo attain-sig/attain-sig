@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- PG Qualification Status --></label>
+        <name>PG_Qualification_Status__c</name>
+        <picklistValues>
+            <masterLabel>PG Gift Officer Disqualified</masterLabel>
+            <translation><!-- PG Gift Officer Disqualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PG Gift Officer Pending</masterLabel>
+            <translation><!-- PG Gift Officer Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PG Gift Officer Qualified</masterLabel>
+            <translation><!-- PG Gift Officer Qualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research Recommends PG Portfolio</masterLabel>
+            <translation><!-- Research Recommends PG Portfolio --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cant_Have_End_Date_if_Status_Preferred</fullName>
+    <active>true</active>
+    <description>Prevents saving of records with End Dates if Status is Preferred.</description>
+    <errorConditionFormula>NOT(ISBLANK(End_Date__c)) &amp;&amp;
+TEXT( Status__c ) = 'Preferred' &amp;&amp;
+ISCHANGED(Status__c) = FALSE</errorConditionFormula>
+    <errorMessage>If End Date is populated, Status cannot equal 'Preferred'.</errorMessage>
+</ValidationRule>

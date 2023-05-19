@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Which release is this solution slotted for? Releases will be reconfirmed during the planning stage of that cycle. --></help>
+        <label><!-- Release or Workstream --></label>
+        <name>Release__c</name>
+        <picklistValues>
+            <masterLabel>Email Marketing &amp; Consent Management</masterLabel>
+            <translation><!-- Email Marketing &amp; Consent Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Tool Integration</masterLabel>
+            <translation><!-- Event Tool Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release 1 - January 2023</masterLabel>
+            <translation><!-- Release 1 - January 2023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release 10</masterLabel>
+            <translation><!-- Release 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release 11</masterLabel>
+            <translation><!-- Release 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release 12</masterLabel>
+            <translation><!-- Release 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release 2 - March 2023</masterLabel>
+            <translation><!-- Release 2 - March 2023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release 3 - May 2023</masterLabel>
+            <translation><!-- Release 3 - May 2023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release 4 - June 2023</masterLabel>
+            <translation><!-- Release 4 - June 2023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release 5</masterLabel>
+            <translation><!-- Release 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release 6</masterLabel>
+            <translation><!-- Release 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release 7</masterLabel>
+            <translation><!-- Release 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release 8</masterLabel>
+            <translation><!-- Release 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release 9</masterLabel>
+            <translation><!-- Release 9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Cloud Implementation</masterLabel>
+            <translation><!-- Service Cloud Implementation --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

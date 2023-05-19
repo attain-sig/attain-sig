@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- District Region --></label>
+        <name>District_Region__c</name>
+        <picklistValues>
+            <masterLabel>Central District</masterLabel>
+            <translation><!-- Central District --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eastern District</masterLabel>
+            <translation><!-- Eastern District --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle District</masterLabel>
+            <translation><!-- Middle District --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northern District</masterLabel>
+            <translation><!-- Northern District --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern District</masterLabel>
+            <translation><!-- Southern District --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western District</masterLabel>
+            <translation><!-- Western District --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

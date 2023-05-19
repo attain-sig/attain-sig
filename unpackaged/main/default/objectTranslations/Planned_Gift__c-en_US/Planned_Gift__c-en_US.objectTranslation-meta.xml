@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Planned Gift</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Planned Gifts</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Charitable Lead Trust Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Charitable Remainder Trust Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Donor Advised Funds Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Gift Annuity Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Gift Annuity Info --></label>
+            <section>Gift Annuity Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Legacy Plans Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Other Planned Gifts Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Planned Gift Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Pooled Income Fund Layout</layout>
+        <sections>
+            <label><!-- Beneficiary Information --></label>
+            <section>Beneficiary Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Charitable Lead Trust --></label>
+        <name>Charitable_Lead_Trust</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use for Charitable Remainder Trusts planned gifts --></description>
+        <label><!-- Charitable Remainder Trust --></label>
+        <name>Charitable_Remainder_Trust</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use for Donor Advised Funds planned gifts --></description>
+        <label><!-- Donor Advised Funds --></label>
+        <name>Donor_Advised_Funds</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use for Gift Annuity planned gifts --></description>
+        <label><!-- Gift Annuity --></label>
+        <name>Gift_Annuity</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use for IRA Rollover planned gifts --></description>
+        <label><!-- IRA Rollover --></label>
+        <name>IRA_Rollover</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use for Legacy Plan planned gifts --></description>
+        <label><!-- Legacy Plan --></label>
+        <name>Legacy_Plan</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use for Other Planned Gifts --></description>
+        <label><!-- Other Planned Gifts --></label>
+        <name>Other_Planned_Gifts</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use for Pooled Income Fund planned gifts --></description>
+        <label><!-- Pooled Income Fund --></label>
+        <name>Pooled_Income_Fund</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>Activity.Solicitor_1__c</field>
+    </columns>
+    <columns>
+        <field>Activity.Solicitor_2__c</field>
+    </columns>
+    <columns>
+        <field>Activity.Solicitor_3__c</field>
+    </columns>
+    <columns>
+        <field>Activity.Solicitor_4__c</field>
+    </columns>
+    <columns>
+        <field>Activity.Solicitor_5__c</field>
+    </columns>
+    <description>Report request for where EDF has strong relationships with specific companies for the NREL event in Colorado. Requested by Victoria Mills on 4/6/23.</description>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3</booleanFilter>
+        <criteriaItems>
+            <column>SUBJECT</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Add Contact to Victoria&apos;s Business List,Add Contact to Agricultural Finance List</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Activity_Constituency__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Development</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Employer_Lookup__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Angeleno Group,BASF,Blackhorn Ventures,Deloitte,Eaton Corporation,Fortescue,Hunt Energy Enterprises,JPMorgan Chase &amp; Co.,Marvel Fusion,Procter &amp; Gamble,Shell plc,VoLo Earth Ventures,Wells Fargo &amp; Company,Xcel Energy,ZOMA Capital,Zoma Foundation,Breakthrough Energy,Energize Colorado,The MITRE Corporation,Science Philanthropy Alliance</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Contact.Employer_Lookup__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>NREL Colorado Orgs Activities</name>
+    <params>
+        <name>closed</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>te</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactActivity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_LAST90</interval>
+    </timeFrameFilter>
+</Report>

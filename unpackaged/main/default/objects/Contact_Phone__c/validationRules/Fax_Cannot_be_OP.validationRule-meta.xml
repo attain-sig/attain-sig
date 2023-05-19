@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fax_Cannot_be_OP</fullName>
+    <active>true</active>
+    <description>Prevents Fax type CPs from being marked Overall Preferred.</description>
+    <errorConditionFormula>TEXT(Type__c) = 'Fax' &amp;&amp;  Primary__c = TRUE</errorConditionFormula>
+    <errorMessage>Fax numbers cannot be Overall Preferred.</errorMessage>
+</ValidationRule>

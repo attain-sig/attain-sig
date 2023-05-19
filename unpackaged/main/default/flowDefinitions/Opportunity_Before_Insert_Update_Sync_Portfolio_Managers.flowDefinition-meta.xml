@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>DEPRECATED: Functionality more aptly met by Quick Actions. 
+Syncs Opportunity Portfolio Manager lookups with Account, or Primary Contact values.</description>
+    <masterLabel>Opportunity (Before Insert/Update) --&gt; Sync Portfolio Managers_DEL</masterLabel>
+</FlowDefinition>

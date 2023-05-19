@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LONG_NAME</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Charlotte - Past-due Activities,Charlotte - Activities Next 2 Weeks,Charlotte - Activities Next 6 Weeks,Charlotte - Activities Next 3 Months,Charlotte&apos;s Portfolio - Primary Handler,Charlotte&apos;s Upcoming Workplan Next Steps,Charlotte - Donor Former PMs,Charlotte&apos;s Portfolio - Dual Constituent,Charlotte&apos;s Portfolio - MAJ Donors,Charlotte&apos;s Portfolio - MAJ Prospects,Charlotte&apos;s Completed Activities,Charlotte&apos;s Completed Meetings,Charlotte&apos;s Forecast Review,Charlotte&apos;s New Gift Report,Charlotte&apos;s New Membership Gifts,Charlotte&apos;s Portfolio,Charlotte&apos;s Portfolio w/wo Workplans,Charlotte&apos;s Portfolio - Workplans,Charlotte&apos;s Received/Cancelled Gifts,Charlotte&apos;s Reports/Proposals Due,Charlotte Portfolio Adds (Individual),Charlotte Portfolio Adds (Organizations)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Development</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>SHORT_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Charlotte Mikk Key Reports</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ReportList</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATEDDATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

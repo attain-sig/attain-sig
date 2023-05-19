@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Recruitment Contact 3 --></label>
+        <name>Secondary_Contact__c</name>
+        <relationshipLabel><!-- Climate Corps Engagements (Secondary Contact) --></relationshipLabel>
+    </CustomFieldTranslation>

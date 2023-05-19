@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contact Phone</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contact Phones</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Contact Phone Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You cannot create a Preferred phone without making it Overall Preferred if no Overall Preferred currently exists. --></errorMessage>
+        <name>Cannot_Create_Pref_If_No_OP_CP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot create a Preferred Phone record if an Overall Preferred Phone record of the same Type currently exists. --></errorMessage>
+        <name>Cannot_Create_Pref_if_OP_Exists_CP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If End Date is populated, Status cannot equal &apos;Preferred&apos;. --></errorMessage>
+        <name>Cant_Have_End_Date_if_Status_Preferred</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fax numbers cannot be Overall Preferred. --></errorMessage>
+        <name>Fax_Cannot_be_OP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have permission to change the Phone value on an existing Contact Phone record. Please either create a new record with the updated phone number and mark this record Undeliverable, or submit a Request Case for this change. --></errorMessage>
+        <name>No_Edit_Phone_Value</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A record cannot be Primary and have a Status of Undeliverable. --></errorMessage>
+        <name>Not_Undeliverable_and_Primary</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A record cannot be Overall Preferred without having a Status of Preferred. --></errorMessage>
+        <name>Overall_Preferred_Must_Be_Preferred_CP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot remove Overall Preferred from a record while leaving Status=Preferred if there is no other Preferred Contact Phone that can replace it. --></errorMessage>
+        <name>Prevent_Contacts_with_Pref_CPs_but_no_OP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Contact can never have Current Contact Phone records without one being marked as Primary. To change which Phone record is Primary, make the change on the record that will become Primary. All other records will automatically have Primary deselected. --></errorMessage>
+        <name>Prevent_Manual_Change_Primary_to_False</name>
+    </validationRules>
+</CustomObjectTranslation>

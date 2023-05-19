@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- These are coalitions or initiatives by companies to actively advance or lobby for climate policy at the federal, state, and local levels. --></help>
+        <label><!-- EDFBIZ Company Policy Memberships --></label>
+        <name>EDFBIZ_Company_Policy_Memberships__c</name>
+        <picklistValues>
+            <masterLabel>BELC</masterLabel>
+            <translation><!-- BELC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BICEP</masterLabel>
+            <translation><!-- BICEP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEO</masterLabel>
+            <translation><!-- CEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLC</masterLabel>
+            <translation><!-- CLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WMB</masterLabel>
+            <translation><!-- WMB --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

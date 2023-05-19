@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Replaces Program Staff Profile</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>EDF Mission Staff</label>
+    <permissionSets>Create_Request_Cases</permissionSets>
+    <permissionSets>sortablegrid__View_Sortable_Data_Grids</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

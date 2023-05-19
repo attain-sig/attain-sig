@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Lookup the related Opportunity record. --></help>
+        <label><!-- Realized Opportunity --></label>
+        <name>Realized_Opportunity__c</name>
+        <relationshipLabel><!-- Planned Gifts --></relationshipLabel>
+    </CustomFieldTranslation>

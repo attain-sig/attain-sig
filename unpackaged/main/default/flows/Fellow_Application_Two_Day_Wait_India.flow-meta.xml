@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Interview_1_India</name>
+        <label>Interview 1 India</label>
+        <locationX>374</locationX>
+        <locationY>408</locationY>
+        <actionName>Fellow_Application__c.Interview_1_Complete_Not_Moving_On_India</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Not_Moving_Forward</name>
+        <label>Not Moving Forward</label>
+        <locationX>638</locationX>
+        <locationY>408</locationY>
+        <actionName>Fellow_Application__c.Not_Moving_Forward_From_Waitlist_India</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Not_Qual_Email</name>
+        <label>Not Qual Email</label>
+        <locationX>110</locationX>
+        <locationY>408</locationY>
+        <actionName>Fellow_Application__c.Not_Qualified_and_Notified_India</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <decisions>
+        <name>Stage</name>
+        <label>Stage</label>
+        <locationX>506</locationX>
+        <locationY>288</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Not_Qualified_and_Notified</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Not Qualified and Notified</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Not_Qual_Email</targetReference>
+            </connector>
+            <label>Not Qualified and Notified</label>
+        </rules>
+        <rules>
+            <name>Interview_1_Complete</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Interview 1 Complete- Not Moving On</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Interview_1_India</targetReference>
+            </connector>
+            <label>Interview 1 Complete</label>
+        </rules>
+        <rules>
+            <name>Not_Moving_Forward_from_Waitlist</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Not Moving Forward from Waitlist</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Not_Moving_Forward</targetReference>
+            </connector>
+            <label>Not Moving Forward from Waitlist</label>
+        </rules>
+    </decisions>
+    <description>For stages: Not Qualified and Notified, Interview 1 Complete - Not Moving On, and Not Moving Forward from Waitlist</description>
+    <environments>Default</environments>
+    <interviewLabel>Fellow Application - Two Day Wait - India {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Fellow Application - Two Day Wait - India</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+OR(
+ispickval({!$Record.Status__c},&quot;Not Qualified and Notified&quot;), 
+ ispickval({!$Record.Status__c}, &quot;Interview 1 Complete- Not Moving On&quot;),
+ ispickval({!$Record.Status__c}, &quot;Not Moving Forward from Waitlist&quot;)
+)
+&amp;&amp;
+ispickval({!$Record.Fellowship_Applying_for__c}, &quot;India Fellowship&quot;)</filterFormula>
+        <object>Fellow_Application__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <scheduledPaths>
+            <name>X2_day_wait</name>
+            <connector>
+                <targetReference>Stage</targetReference>
+            </connector>
+            <label>2 day wait</label>
+            <offsetNumber>2</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

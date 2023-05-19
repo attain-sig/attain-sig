@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Hold_on_Matching_Email</name>
+        <label>Hold on Matching Email</label>
+        <locationX>440</locationX>
+        <locationY>408</locationY>
+        <actionName>Fellow_Application__c.Hold_on_Matching_China</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Invite_Interview_2_China</name>
+        <label>Send Invite Interview 2 China</label>
+        <locationX>176</locationX>
+        <locationY>408</locationY>
+        <actionName>Fellow_Application__c.Send_Invite_for_Interview_2_China</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <decisions>
+        <name>Application_Stage_Change_One_Day_Wait</name>
+        <label>Application Stage Change - One Day Wait</label>
+        <locationX>440</locationX>
+        <locationY>288</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Send_Invite_for_Interview_2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Send Invite for Interview 2</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Invite_Interview_2_China</targetReference>
+            </connector>
+            <label>Send Invite for Interview 2</label>
+        </rules>
+        <rules>
+            <name>Hold_on_Matching_China</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Hold on Matching</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Hold_on_Matching_Email</targetReference>
+            </connector>
+            <label>Hold on Matching China</label>
+        </rules>
+    </decisions>
+    <description>Sends email alerts after one day for stage - send invite for interview 2 and hold on matching (china only)</description>
+    <environments>Default</environments>
+    <interviewLabel>Fellow Application - One Day Wait - China {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Fellow Application - One Day Wait - China</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+OR(
+ispickval({!$Record.Status__c}, &quot;Send invite for Interview 2&quot;),
+ispickval({!$Record.Status__c}, &quot;Hold on Matching&quot;)
+)
+&amp;&amp;
+ispickval({!$Record.Fellowship_Applying_for__c}, &quot;China Fellowship&quot;)</filterFormula>
+        <object>Fellow_Application__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <scheduledPaths>
+            <name>Wait_One_Day</name>
+            <connector>
+                <targetReference>Application_Stage_Change_One_Day_Wait</targetReference>
+            </connector>
+            <label>Wait One Day</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

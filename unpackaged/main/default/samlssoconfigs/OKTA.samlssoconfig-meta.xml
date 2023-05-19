@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>exkeqipa596SP65x82p7</issuer>
+    <loginUrl>https://edf.okta.com/app/salesforce/exkeqipa596SP65x82p7/sso/saml</loginUrl>
+    <logoutUrl>https://edf.okta.com</logoutUrl>
+    <name>OKTA</name>
+    <oauthTokenEndpoint>https://environmentaldefensefund--full.sandbox.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P18W0000047Mgu</requestSigningCertId>
+    <salesforceLoginUrl>https://environmentaldefensefund--full.sandbox.my.salesforce.com</salesforceLoginUrl>
+    <samlEntityId>https://environmentaldefensefund--full.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <useConfigRequestMethod>true</useConfigRequestMethod>
+    <useSameDigestAlgoForSigning>true</useSameDigestAlgoForSigning>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIDljCCAn6gAwIBAgIGAWO8AwBDMA0GCSqGSIb3DQEBCwUAMIGLMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxDDAKBgNVBAMMA2VkZjEcMBoGCSqGSIb3DQEJARYNaW5mb0Bva3RhLmNvbTAeFw0xODA2MDExNTQwNDNaFw0yODA2MDExNTQxNDNaMIGLMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxDDAKBgNVBAMMA2VkZjEcMBoGCSqGSIb3DQEJARYNaW5mb0Bva3RhLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANdoAik27GuvBg0rWrsf9ttZxD2IXRNmJ6HRjAzP1vsZWdq9tPGT3eF/SIGsHG4mGvaJdaAWAmdOp4HTgMI331sdQTqI5J7kBywG03XqrqnVcJu5yJz5Xn1RJ/n6Gg87ZtJS+LXImhlGdjkE0lfpRBnTMZyC9E6FW8onP1zsKGGCM4qy574L2MxXRLS/VwOQ41UOatReECARGIU5kdtR3KNpGW1eGnyhwWJnixciO2RmuHhgLFjbeOnrDCjR0NjDsmBGw38qN6ieaH7+yfe9+B2pPdRHrFBJOGXji+odt7fwxHGy1F+QjfzOukLbTWrGLGMotKJhvJioMeOdczDUuTkCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAZBUBK/Z92S0VozIfTFbdxzui63DzZ6kb/BnCMePKw6TYSrRa9V1+M0OK/bPPFlHaDVOjiNo8NCsWyPveg73ae2HKkhUMlHsCzeN/AJdYuYA80hTDL0IMLF/H5pXuuuRNeolBq0Q+QY+IzsT99zn3ew4CY89ZVWdHDI73SyC9U4UtoCEgBcdAgxrbC1Z8yMq/E7J9i4BuZzwXGFFNccRWZKMBrIyRcpQm4pwPS2so1ueggtzDEv/o15elCDzPrR20rYTQqdbjBDvBprdQqr42zxSXWQ5ozogpHjao+SowEdMH+Hs9zdPsP6WI1qKgW6FQTyKg3CGw6zPj1PuYKXkirA==</validationCert>
+</SamlSsoConfig>

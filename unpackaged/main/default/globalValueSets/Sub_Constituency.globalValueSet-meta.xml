@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Climate - Global Climate</fullName>
+        <default>false</default>
+        <label>Climate - Global Climate</label>
+    </customValue>
+    <customValue>
+        <fullName>Climate - Legal and Regulatory</fullName>
+        <default>false</default>
+        <label>Climate - Legal and Regulatory</label>
+    </customValue>
+    <customValue>
+        <fullName>Development - Government</fullName>
+        <default>false</default>
+        <label>Development - Government</label>
+    </customValue>
+    <customValue>
+        <fullName>Development - Institutional Giving</fullName>
+        <default>false</default>
+        <label>Development - Institutional Giving</label>
+    </customValue>
+    <customValue>
+        <fullName>Development - Major Gifts</fullName>
+        <default>false</default>
+        <label>Development - Major Gifts</label>
+    </customValue>
+    <customValue>
+        <fullName>Development - Planned Giving</fullName>
+        <default>false</default>
+        <label>Development - Planned Giving</label>
+    </customValue>
+    <customValue>
+        <fullName>Development - Planned Giving Estates</fullName>
+        <default>false</default>
+        <label>Development - Planned Giving Estates</label>
+    </customValue>
+    <customValue>
+        <fullName>Development - Planned Giving Ospreys</fullName>
+        <default>false</default>
+        <label>Development - Planned Giving Ospreys</label>
+    </customValue>
+    <customValue>
+        <fullName>Development - Planned Giving Prospects</fullName>
+        <default>false</default>
+        <label>Development - Planned Giving Prospects</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecosystems - Coastal</fullName>
+        <default>false</default>
+        <label>Ecosystems - Coastal</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecosystems - Habitats</fullName>
+        <default>false</default>
+        <label>Ecosystems - Habitats</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecosystems - Sustainable Agriculture</fullName>
+        <default>false</default>
+        <label>Ecosystems - Sustainable Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecosystems - Water</fullName>
+        <default>false</default>
+        <label>Ecosystems - Water</label>
+    </customValue>
+    <customValue>
+        <fullName>EDFBIZ - Climate Corps</fullName>
+        <default>false</default>
+        <label>EDFBIZ - Climate Corps</label>
+    </customValue>
+    <customValue>
+        <fullName>EDFBIZ - Corporate Climate Leadership</fullName>
+        <default>false</default>
+        <label>EDFBIZ - Corporate Climate Leadership</label>
+    </customValue>
+    <customValue>
+        <fullName>EDFBIZ - Energy and Innovation</fullName>
+        <default>false</default>
+        <label>EDFBIZ - Energy and Innovation</label>
+    </customValue>
+    <customValue>
+        <fullName>EDFBIZ - Growth States</fullName>
+        <default>false</default>
+        <label>EDFBIZ - Growth States</label>
+    </customValue>
+    <customValue>
+        <fullName>EDFBIZ - Supply Chain</fullName>
+        <default>false</default>
+        <label>EDFBIZ - Supply Chain</label>
+    </customValue>
+    <customValue>
+        <fullName>EDFBIZ - Sustainable Finance</fullName>
+        <default>false</default>
+        <label>EDFBIZ - Sustainable Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Strategy - China</fullName>
+        <default>false</default>
+        <label>Global Strategy - China</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Strategy - Europe</fullName>
+        <default>false</default>
+        <label>Global Strategy - Europe</label>
+    </customValue>
+    <customValue>
+        <fullName>MarComm - Ambassador</fullName>
+        <default>false</default>
+        <label>MarComm - Ambassador</label>
+    </customValue>
+    <customValue>
+        <fullName>MarComm - Performance Marketing</fullName>
+        <default>false</default>
+        <label>MarComm - Performance Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Membership - Catalyst Circle</fullName>
+        <default>false</default>
+        <label>Membership - Catalyst Circle</label>
+    </customValue>
+    <customValue>
+        <fullName>Oceans - Fishery Solutions Center</fullName>
+        <default>false</default>
+        <label>Oceans - Fishery Solutions Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Political Affairs - Advocacy Network</fullName>
+        <default>false</default>
+        <label>Political Affairs - Advocacy Network</label>
+    </customValue>
+    <customValue>
+        <fullName>Political Affairs - C3 Advocacy</fullName>
+        <default>false</default>
+        <label>Political Affairs - C3 Advocacy</label>
+    </customValue>
+    <customValue>
+        <fullName>Political Affairs - C4 Advocacy</fullName>
+        <default>false</default>
+        <label>Political Affairs - C4 Advocacy</label>
+    </customValue>
+    <customValue>
+        <fullName>Political Affairs - C4 Defend Our Future</fullName>
+        <default>false</default>
+        <label>Political Affairs - C4 Defend Our Future</label>
+    </customValue>
+    <customValue>
+        <fullName>Political Affairs - C4 Moms Clean Air Force</fullName>
+        <default>false</default>
+        <label>Political Affairs - C4 Moms Clean Air Force</label>
+    </customValue>
+    <customValue>
+        <fullName>Political Affairs - Defend Our Future</fullName>
+        <default>false</default>
+        <label>Political Affairs - Defend Our Future</label>
+    </customValue>
+    <customValue>
+        <fullName>Political Affairs - Moms Clean Air Force</fullName>
+        <default>false</default>
+        <label>Political Affairs - Moms Clean Air Force</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Affairs – Europe</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Global Affairs – Europe</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Affairs - Europe</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Global Affairs - Europe</label>
+    </customValue>
+    <customValue>
+        <fullName>Development - Institution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Development - Institution</label>
+    </customValue>
+    <customValue>
+        <fullName>CPP - Climate Corps</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CPP - Climate Corps</label>
+    </customValue>
+    <customValue>
+        <fullName>0</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>0</label>
+    </customValue>
+    <customValue>
+        <fullName>EDFBIZ - Supply Chain,Development - Major Gifts</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EDFBIZ - Supply Chain,Development - Major Gifts</label>
+    </customValue>
+    <customValue>
+        <fullName>Climate Corps</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Climate Corps</label>
+    </customValue>
+    <customValue>
+        <fullName>Development - Planned Giving,Membership - Catalyst Circle</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Development - Planned Giving,Membership - Catalyst Circle</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Affairs - China</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Global Affairs - China</label>
+    </customValue>
+    <customValue>
+        <fullName>Development - Catalyst Circle</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Development - Catalyst Circle</label>
+    </customValue>
+    <customValue>
+        <fullName>MarComm - Ambassador,EDFBIZ - Climate Corps</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MarComm - Ambassador,EDFBIZ - Climate Corps</label>
+    </customValue>
+    <masterLabel>Sub-Constituency</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicate Donor&apos;s Name (Household Contact First Name Last Name or Organization Name) --></help>
+        <label><!-- Unidentified Donor --></label>
+        <name>Unidentified_Donor__c</name>
+    </CustomFieldTranslation>

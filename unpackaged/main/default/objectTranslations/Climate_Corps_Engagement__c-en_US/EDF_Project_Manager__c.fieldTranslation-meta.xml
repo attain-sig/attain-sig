@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Oversees broader relationship with organization. Generally responsible for host recruiting. --></help>
+        <label><!-- CC Relationship Manager --></label>
+        <name>EDF_Project_Manager__c</name>
+        <relationshipLabel><!-- Climate Corps Engagements (CC Relationship Manager) --></relationshipLabel>
+    </CustomFieldTranslation>

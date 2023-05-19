@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Program Prospecting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Program Prospecting</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Program Prospecting Layout</layout>
+        <sections>
+            <label><!-- Close Rationale --></label>
+            <section>Close Rationale</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Qualification Details --></label>
+            <section>Qualification Details</section>
+        </sections>
+        <sections>
+            <label><!-- Rec Rationale --></label>
+            <section>Rec Rationale</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

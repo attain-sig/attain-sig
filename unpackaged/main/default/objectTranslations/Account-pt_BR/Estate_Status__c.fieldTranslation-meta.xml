@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Estate Status --></label>
+        <name>Estate_Status__c</name>
+        <picklistValues>
+            <masterLabel>CDNO - Contingency did not occur</masterLabel>
+            <translation><!-- CDNO - Contingency did not occur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLBQ – Closed estate</masterLabel>
+            <translation><!-- CLBQ – Closed estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MATR - Donor Deceased waiting for distribution</masterLabel>
+            <translation><!-- MATR - Donor Deceased waiting for distribution --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

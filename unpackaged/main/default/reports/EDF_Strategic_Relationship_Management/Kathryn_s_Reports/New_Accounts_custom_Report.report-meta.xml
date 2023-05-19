@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account$Account_Primary_Handler__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 11</booleanFilter>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,ABS,ACUMEN,Acwa Power,ADL Ventures,Advanced Emission,AECOM,AES,AGL,Agora Energiewende,Air Liquide,Air Products,Air Products &amp; Chemicals Inc.,Alliance Energy Group LLC,AllianceBernstein,Allianz,AltaSea,Alternative Aviation Fuels LLC,Amazon.com,Ambient Fuels,Ameren Illinois,Ameresco,American Center for Mobility,Amprion,AP Comms/Energy Foundation,AQUAHYDREX,Argonne National Laboratory,ARUP,AST Inc.,ATCO,Atkins,Atlas Agro,Audi (20%),Aurecon,AVANGRID,Avantus,Avina Clean Hydrogen Inc.,BAE Systems,Baker Hughes,Bakken Energy,Ballard,BayoTech</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,BayTech,Berkeley Lab,BHE Renewables,Big Rivers,Bill Budinger,Bio Carbon Fuels LLC,Biogenic Energy,Blackrock,Blackstone,Bloom Energy,Bloomberg,BlueGreen Alliance,Boeing,BorgWarner,BOSCH,BP,Breakthrough Energy,Breakthrough Energy Ventures,Brookfield Renewable US,Bundesverband der Deutschen Industrie e.V. (BDI),Business for Social Responsibility (BSR),CAC,CAELP,Cal EPA,Cal State LA,California Air Resouces Baord,California State University Long Beach,Calvert/MSIM,CAN Europe,Canadian Natural Resources (70%),Capstone Green Energy,Capture6,Carboniq Inc.,Carlyle,Carnegie Mellon University,CDPHE (CO),Cellcentric,Cemex,Center for Houston’s Future</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Iwatani Corporation,CEQ,Ceres,CF Industries,Champaign-Urbana Mass Transit District,Charbone Hydrogen Corporation,Cherokee Nation,Chevron,Chicago Metropolitan Agency for Planning,Chicago State University,Children&apos;s Investment Fund Foundation,Citi,City of Carson,City of Lancaster,City of Long Beach,City of Los of Angeles,City of Riverside,Clean Air Council,Clean Air Task Force,Clean Hydrogen Future,Clean Hydrogen Future Coalition (CHFC),Clearway,ClientEarth,Climate Action Network (CAN),ClimateWorks,Colorado Community College System,Colorado School of Mines,Colorado State University,Columbia University,Columbia University (CaMRI),ComEd,Con Edison,Connecticut Green Bank,Conservation Colorado,Conservatives for Responsible Stewardship,Consolidated Edison Company of New York,Inc.,Constellation,Constellation Energy Generation,LLC,Cornell University</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Creation Care,Crowley,CTE,CU Boulder,Cummins,Current,CWP Renewables,De Nora,Deloitte,Detroit/Wayne County Port Authority,Devils Spring Ranch,Devil&apos;s Spring Ranch,DFAT,DG Clima,DG ENERGY (DG ENER),DG RTD (Research &amp; Innovation),Discovery Partners Institute,DLVA,DOE AMO,DOE HFTO,DOE OCED,DOE Office of Policy,DOE/EERE,Dominion Energy Utah,Druckenmiller,DTE Energy,Dynamis Energy,Earthworks,ECF,Econ Energy International,EcoNavitas,ECOS,EDF consultant,Edison International,edp renewables,Electric Hydrogen,Electus,Element,elementenergy,EmmEn Marketing Consultants</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Enagas,Enagás,Energetics,Energy Foundation,Energy Futures Initiative,Energy Infrastructure Council,Energy Research Institute (ERI),Energy Transfer LP,EnerTech,Engie,Engine No. 1,Enhance Energy Inc.; Wolf Carbon Solutions,Environment Texas,EPA - OAP,OAQPS,EPRI,Equinor,Escalar Ingenieria,ETOGAS,European Climate Foundation,European Commision - H2 economy,Eversource Energy Co.,Evoloh,EWE,Exelon,ExxonMobil Low Carbon Solutions,Federated Hermes/EOS,Florida Power &amp; Light / NextERA,Food &amp; Water Action Europe,Fortescue,Fraunhofer,FTI Consulting,FuelCell Energy,Fusion Fuel,Garrett,Gasunie,General Electric,General Motors,Gevo,GH2 Partners,GHG</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,GiZ,GKN Hydrogen,GLD Partners,Goldman Sachs,Governors State University,Green Hydrogen Organisation,GreenLatinos,Grupo Fertiberia,GTI Energy,GWPC,H Gen,H2 Energy Group Inc,H2B2,Harvard&apos;s Environment and Energy Law Program,Hawaii State Energy Office,Health Air &amp; Water Colorado,Healthy Ports Community Coalition,Heliogen,Hewlett Foundation,Hilltop/Energy Foundation,Holtec,House E&amp;C Committee,House Science Committee,Hydrogen Science Coalition,Hydrogen Technologies LLC,Hyundai,Hyzon,Hyzon Motors Inc.,ICCR,ICCT,ICE,Idaho National Laboratory,IDDRI,IFC,IIGCC,IISD,Illinois Institute of Technology,Imperial College London,Independent Consultant,Industrious Labs</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Institute for Work &amp; the Economy,InterContinental Energy,Interfaith Center on Corporate Responsibility (ICCR),International Office at NSC,Invenergy,IOGCC,ITM Power,Iwatani,JERA,JPMorgan Chase,J-Power,Kansas University,Kawasaki Heavy Industries,KKR,Koch Industries,LanzaJet,LanzaTech,Inc.,Lawfirm Schjødt,Lazard Asset Management,LGIM,Libertad,Liberty Utilities (St. Lawrence Gas) Corp.,Liebrich Associates,Linde,Lise Strickler,Long Beach Waer,Long Island Power Authority (LIPA),Los Alamos National Lab,Louisiana Hubs (not sure on name),LSB Industries,Magna Fields Group,Mainstream Renewable Power,Marquis,Mass Transportation Authority-Flint,mHUB,Michelin,Mike Cannon-Brookes,Missouri University of Science and Technology,MMEX Resources Corp.,Morgan Stanley</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,MT BioMethane,Naeva,Nalco Water,an Ecolab Company,NASEO,National Grid,National Offshore Wind Research and Development Consortium,National Parks Conservation Association,Native American Voters Alliance,Natural Resources Committee,Navajo Agricultural Product Industries,Nel Hydrogen,Neste,New Jersey Legislator,New Mexico Gas Co.,New Mexico State University,New Mexico Tech,New York Power Authority (NYPA),New York University,Next Hydrogen Corporation,NextEra Energy,Florida Power &amp; Light,Nicor Gas,Nikola,NiSource,NJ Gas Utilities (SJG,Etown),NM Community College System,NOAA/GFDL,Nordea,Northwestern University,NRDC,NREL,Nuclear Energy Institute,Nutrien Feeding the Future,Nutrien,Obsidian Renewables,LLC,Office of Domestic Climate Policy,Ohio Conservative Energy Forum,Oklahoma Gas and Electric Company,OMB,ONEOK Inc.</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Open Grid Europe,OQ Energy,Orsted,Ørsted,Oshkosh,OSTP,Pacific Environment,PennEnvironment,Pennsylvania Environmental Council,PG&amp;E,PIMCO,Pipeline and Hazardous Safety Materials Administration,Plug Power,Plug Power Inc.,Port of Long Beach,Port of Oakland,Pratt Miller,PRI,Princeton,ProgressNow New Mexico,PSE&amp;G (NJ),Public Utilities Commission Staff - CA,Raffinerie Heide,Regulatory Assistance Project,Rensselaer Polytechnic Institute,Rep. Lamb Staff,Rhode Island Energy,Rio Grande International Study Center,RMI,Robertson Foundation,Rochester Institute of Technology (RIT),Rockwell Automation Inc,Rocky Mountain Farmers Union,Rocky Mountain Institute,San Juan College,San Rafael Energy Research Center,Sandia National Lab,Sempra Infrastructure</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Shell,Sierra Business Council,Sierra Club,Sierra Energy,SINTEF,Sloan,SoCalGas,Southern States Energy Board/Houston Hub Partnership,SPE,Spitzer,Standard Hydrogen Corporation,State Building and Construction Trades Council of CA,State Street,Stony Brook University / Advanced Energy Center (AERTC),Swagelok Chicago,Syntex Industries,Tallgrass New Mexico,Tallgrass Wyoming,Tamarindo Group,TC Energy,Team Pennsylvania Foundation,Texas Impact,The Chicago STEM Foundation,The City College of New York (CUNY),The Michels Family of Companies,The Port Authority of New York and New Jersey,The University of Chicago,The University of Queensland,The University of Texas at Austin,thinkstep,Tohoku Electric Power,TONZ &amp; Business for Social Responsibilty (BSR),Toshiba,Transport Energy Strategies,Transport&amp;Environment,Tsinghua University,Union of Concerned Scientists,United States Steel Corp.,University at Buffalo,The State University of New York,University of California</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,University of Connecticut,University of Illinois Chicago,University of Illinois System,University of Illinois Urbana-Champaign,University of Kentucky,University of Michigan,University of Minnesota,University of New Mexico,University of Rhode Island,University of Southern California,University of Utah,University of Wisconsin,University of Wyoming,UT Energy Institute,Utah Clean Energy,Utah State Univeristy,Utah System of Higher Education,UTBEG Hydrogen Research Program,Utrecht University,Vanguard,Varanger Kraft,Vermont Gas Systems,Vestas,WELC,Wellington,West Virginia University,Western Organization of Resource Councils,Western Resource Advocates,Williams,Woodside Energy,World Bank,Wyoming Innovation Partnership (WIP),Xcel Energy,Yara International,ZSW</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>New Accounts (custom) Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_custom__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

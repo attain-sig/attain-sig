@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Court or Forum --></label>
+        <name>Court_Forum__c</name>
+        <picklistValues>
+            <masterLabel>10th Circuit Court of Appeals</masterLabel>
+            <translation><!-- 10th Circuit Court of Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11th Circuit Court of Appeals</masterLabel>
+            <translation><!-- 11th Circuit Court of Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1st Circuit Court of Appeals</masterLabel>
+            <translation><!-- 1st Circuit Court of Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd Circuit Court of Appeals</masterLabel>
+            <translation><!-- 2nd Circuit Court of Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd Circuit Court of Appeals</masterLabel>
+            <translation><!-- 3rd Circuit Court of Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4th Circuit Court of Appeals</masterLabel>
+            <translation><!-- 4th Circuit Court of Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5th Circuit Court of Appeals</masterLabel>
+            <translation><!-- 5th Circuit Court of Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6th Circuit Court of Appeals</masterLabel>
+            <translation><!-- 6th Circuit Court of Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7th Circuit Court of Appeals</masterLabel>
+            <translation><!-- 7th Circuit Court of Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8th Circuit Court of Appeals</masterLabel>
+            <translation><!-- 8th Circuit Court of Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9th Circuit Court of Appeals</masterLabel>
+            <translation><!-- 9th Circuit Court of Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D.C. Circuit Court of Appeals</masterLabel>
+            <translation><!-- D.C. Circuit Court of Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>District of D.C.</masterLabel>
+            <translation><!-- District of D.C. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUC California</masterLabel>
+            <translation><!-- PUC California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUC Florida</masterLabel>
+            <translation><!-- PUC Florida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUC Illinois</masterLabel>
+            <translation><!-- PUC Illinois --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUC New Jersey</masterLabel>
+            <translation><!-- PUC New Jersey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUC New York</masterLabel>
+            <translation><!-- PUC New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUC North Carolina</masterLabel>
+            <translation><!-- PUC North Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUC Ohio</masterLabel>
+            <translation><!-- PUC Ohio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUC Pennsylvania</masterLabel>
+            <translation><!-- PUC Pennsylvania --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUC Texas</masterLabel>
+            <translation><!-- PUC Texas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Supreme Court</masterLabel>
+            <translation><!-- U.S. Supreme Court --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

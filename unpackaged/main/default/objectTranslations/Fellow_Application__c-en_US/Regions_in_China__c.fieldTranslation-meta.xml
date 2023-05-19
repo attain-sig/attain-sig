@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Regions in China --></label>
+        <name>Regions_in_China__c</name>
+        <picklistValues>
+            <masterLabel>Central China</masterLabel>
+            <translation><!-- Central China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>East China</masterLabel>
+            <translation><!-- East China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North China</masterLabel>
+            <translation><!-- North China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South China</masterLabel>
+            <translation><!-- South China --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

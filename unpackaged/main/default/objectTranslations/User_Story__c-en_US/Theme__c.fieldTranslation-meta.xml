@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Theme --></label>
+        <name>Theme__c</name>
+        <picklistValues>
+            <masterLabel>Activity Tracking</masterLabel>
+            <translation><!-- Activity Tracking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Corps</masterLabel>
+            <translation><!-- Climate Corps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communication Tools, Consent, Preferences</masterLabel>
+            <translation><!-- Communication Tools, Consent, Preferences --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Management</masterLabel>
+            <translation><!-- Event Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integrations &amp; Data</masterLabel>
+            <translation><!-- Integrations &amp; Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Services</masterLabel>
+            <translation><!-- Member Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity Management</masterLabel>
+            <translation><!-- Opportunity Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio/Relationship Management</masterLabel>
+            <translation><!-- Portfolio/Relationship Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Administration &amp; Documentation</masterLabel>
+            <translation><!-- System Administration &amp; Documentation --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

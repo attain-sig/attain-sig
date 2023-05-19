@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone</fullName>
+    <inlineHelpText>This phone number corresponds to the Overall Preferred Contact Phone record. To update this value, please do so by changing which Contact Phone record is marked as Overall Preferred.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+</CustomField>

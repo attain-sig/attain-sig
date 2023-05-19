@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- System through which the action was first recorded --></help>
+        <label><!-- Processed Through --></label>
+        <name>Processed_Through__c</name>
+        <picklistValues>
+            <masterLabel>Common Ground</masterLabel>
+            <translation><!-- Common Ground --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Convio Online Marketing</masterLabel>
+            <translation><!-- Convio Online Marketing --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

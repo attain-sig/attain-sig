@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pronouns --></label>
+        <name>Preferred_Pronoun__c</name>
+        <picklistValues>
+            <masterLabel>He/Him</masterLabel>
+            <translation><!-- He/Him --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>She/Her</masterLabel>
+            <translation><!-- She/Her --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>They/Them</masterLabel>
+            <translation><!-- They/Them --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ze/Zir</masterLabel>
+            <translation><!-- Ze/Zir --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

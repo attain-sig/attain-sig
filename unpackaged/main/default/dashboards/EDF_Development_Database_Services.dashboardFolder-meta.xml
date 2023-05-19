@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DashboardFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>Development_Data</sharedTo>
+        <sharedToType>Group</sharedToType>
+    </folderShares>
+    <folderShares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>PlannedGiving</sharedTo>
+        <sharedToType>Group</sharedToType>
+    </folderShares>
+    <name>EDF Development - Database Services</name>
+</DashboardFolder>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please select the category that best describes how we were introduced to this organization/how the lead developed. Be sure to fill in any follow-up fields (i.e. conference, etc). --></help>
+        <label><!-- How did we meet/origin of lead --></label>
+        <name>How_did_we_meet_origin_of_lead__c</name>
+        <picklistValues>
+            <masterLabel>Conference (see conference field)</masterLabel>
+            <translation><!-- Conference (see conference field) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultants (see consultant field)</masterLabel>
+            <translation><!-- Consultants (see consultant field) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Relationship (add note)</masterLabel>
+            <translation><!-- EDF Relationship (add note) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing pipeline organization</masterLabel>
+            <translation><!-- Existing pipeline organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Host Referral (see referral field)</masterLabel>
+            <translation><!-- Host Referral (see referral field) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (add note)</masterLabel>
+            <translation><!-- Other (add note) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pipeline research/cold lead</masterLabel>
+            <translation><!-- Pipeline research/cold lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsolicited</masterLabel>
+            <translation><!-- Unsolicited --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Webinar</masterLabel>
+            <translation><!-- Webinar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesale/partnership (see partnership field)</masterLabel>
+            <translation><!-- Wholesale/partnership (see partnership field) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

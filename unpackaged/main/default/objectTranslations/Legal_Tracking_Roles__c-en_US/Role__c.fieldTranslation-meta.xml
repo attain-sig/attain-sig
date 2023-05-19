@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Role --></label>
+        <name>Role__c</name>
+        <picklistValues>
+            <masterLabel>EDF attorney</masterLabel>
+            <translation><!-- EDF attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF non-attorney staff</masterLabel>
+            <translation><!-- EDF non-attorney staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law firm for adverse party</masterLabel>
+            <translation><!-- Law firm for adverse party --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outside counsel for EDF</masterLabel>
+            <translation><!-- Outside counsel for EDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outside expert for EDF</masterLabel>
+            <translation><!-- Outside expert for EDF --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

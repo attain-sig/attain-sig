@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Donor: $1 - $4.9K
+Supporter: $5K - $19.9K
+Mid-Level: $20K - $99.9K
+Leadership: $100K - $999.9K
+Principal: $1M+ --></help>
+        <label><!-- Donor Level --></label>
+        <name>Donor_Level__c</name>
+        <picklistValues>
+            <masterLabel>Donor</masterLabel>
+            <translation><!-- Donor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lapsed</masterLabel>
+            <translation><!-- Lapsed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leadership</masterLabel>
+            <translation><!-- Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Level</masterLabel>
+            <translation><!-- Mid-Level --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Principal</masterLabel>
+            <translation><!-- Principal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supporter</masterLabel>
+            <translation><!-- Supporter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zero Dollar</masterLabel>
+            <translation><!-- Zero Dollar --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

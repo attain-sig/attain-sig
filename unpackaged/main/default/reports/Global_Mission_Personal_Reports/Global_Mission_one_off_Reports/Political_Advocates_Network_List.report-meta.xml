@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>ADDRESS1_STATE</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Primary_Handler__c</field>
+    </columns>
+    <description>Report request for Political Affairs Partner Advocates Network accounts and the states they are located in + current relationship manager. 1/23/23.</description>
+    <filter>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1000 Friends of Iowa,7 Lakes Alliance,AK Action,Alaska Center,Alaskans Take a Stand,Alianza,Alliance for Affordable Energy,Alliance of Nurses for Healthy Environments,American Independent Business Alliance,American Sustainable Business Council,American Water Security Project,Anthropocene Alliance,Apex Group,Appalachian Voices,Arizona Forward,Arizona Hispanic Chamber of Commerce,Arizona Interfaith Power &amp; Light,Arizona PIRG (Arizona Public Interest Research Group) Education Fund,Arizona Technology Council,Arizona Wildlife Federation,ASU Pastor Center,Biscayne Nature Center,Black Millenials for Flint,Black Voters Matter Capacity Building Institute,Catawba Riverkeeper Foundation,Inc.,Center for Sustainable Communities,Centers for American Progress,Chambers for Innovation and Clean Energy,Children&apos;s Environmental Health Network,Citizens Climate Lobby,Clean Air Carolina,Clean Energy Business Network,Clean Fuels Michigan,CLEO Institute,Climate Mobilization Project,Climate Reality Project,Colorado Farm and Food,Commission Shift,Conservation Voters of South Carolina,Corazon Latino</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Creatio,Creation Justice Ministries,Dayenu: A Jewish Call to Climate Action,Deep South Center for Environmental Justice,Defenders of Wildlife,East Harris County Empowerment Council,Elders Climate Action,Emerald Cities Collaborative,Energy Alabama,Energy Consumer Market Alignment Project,Environment North Carolina,Environment Texas,Evangelical Environmental Network,Faith Alliance for Climate Solutions,Faith in Place,Florida for Good Movement,Inc,Florida Trail Association,FREED Peoples,Georgia Conservation Voters,Georgia Interfaith Power and Light,Georgia WAND Board of Directors,Good Business Colorado,Green the Church,Green Latinos,Gullah and Geechee Nation,H.E.R. Legacy International,Inc.,Haw River Assembly,Healthy Air and Water Colorado,Hispanic Access Foundation,Hispanic Federation,HK Studio,Ideas for Us,In Solidarity,Iowa Environmental Council,Iowa Policy Project,Jolt Initiative,Kingdom Living Temple,Leaders Igniting Trasformation,League of Women Voters of PA,League of Women Voters of WS</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Local First Arizona,Make the Road Nevada,Marjorie Stoneman Biscayne Nature Center,Mi Familia Vota,Michican Climate Action,Michigan Interfaith Power &amp; Light,Michigan Sustainable Business Forum,Mighty Earth,Montana Health Professionals for a Healthy Climate,Montana Water Fund,Mothers and Others for Clean Air,National Hispanic Medical Association,National Religious Partnership for the Environment,Native Peoples Action,NC Interfaith Power &amp; Light,New Alpha CDC,North Carolina Black Alliance,North Carolina Business Council,North Carolina League of Conservation Voters,NY Nest,Ohio Sustainable Business Council,Ohio Valley Environmental Coalition,One Sun Solar,Our Brothers Keeper,Our Climate,PA Interfaith Power and Light,Alabama Interfaith Power and Light / Peoples Justice Council,People&apos;s Justice Council,Philadelphians Organized to Witness Empower &amp; Rebuild (POWER),Physicians for Social Responsibility,Physicians for Social Responsibility -- Chicago,Physicians for Social Responsibility – Colorado,Arizona Chapter,Physicians for Social Responsibility--TN,Physicians for Social Responsibility--WI,Poder Latinx,Port Arthur Community Action Network,Public Citizen,Public Employees for Environmental Responsibility (PEER)</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>RDG USA/Clive,Iowa City Council,Revolution Coalition,Rio Grande International Study Center,Salmon State,Satcher Health Leadership Institute at Morehouse School of Medicine,Sierra Club,Solutions from the Land,Sound Rivers,South Carolina Small Business Chamber of Commerce,South Carolina Wildlife Federation,Southeast Climate &amp; Energy Network (SCEN),Southern Alliance for Clean Energy,Spread the Vote,Stop Flooding Now,Higher Ground Council,Str8 to the Core,Student PIRGS,Texas Impact,Texas Physicians for Social Responsibility,The Nature Conservancy,The Young People&apos;s Guild School of Performing Arts,Trout Unlimited,UnidosUS AF,Utah Valley Earth Forum,Virginia Clinicians for Climate Action,Virginia Environmental Justice Collaborative,Virginia Pediatric and Adolescent Center,Waterkeepers Chesapeake,West Michigan Sustainable Business Forum,West Virginia Climate Alliance,Western Leaders Network,Wisconsin Health Professionals for Climate Action Inc,Wisconsin Progress,WV Interfaith Power and Light,Wxman of the Mountain,Young Evangelicals for Climate Action,Native Voters Alliance of NV,Silver State Voices,Elected Officials to Protect America</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Political Advocates Network List</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>ACCOUNT.NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

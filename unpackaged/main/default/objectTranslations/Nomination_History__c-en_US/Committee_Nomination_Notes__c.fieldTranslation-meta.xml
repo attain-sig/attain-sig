@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Committee Nomination Notes --></label>
+        <name>Committee_Nomination_Notes__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check if the donor does not want to receive upfront premiums --></help>
+        <label><!-- No Upfront Premiums --></label>
+        <name>No_Upfront_Premiums__c</name>
+    </CustomFieldTranslation>

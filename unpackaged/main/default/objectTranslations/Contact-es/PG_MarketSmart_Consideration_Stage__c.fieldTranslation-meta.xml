@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- PG MarketSmart Consideration Stage --></label>
+        <name>PG_MarketSmart_Consideration_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Considering</masterLabel>
+            <translation><!-- Considering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Left a Gift</masterLabel>
+            <translation><!-- Left a Gift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Might Consider</masterLabel>
+            <translation><!-- Might Consider --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Will Not Consider</masterLabel>
+            <translation><!-- Will Not Consider --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

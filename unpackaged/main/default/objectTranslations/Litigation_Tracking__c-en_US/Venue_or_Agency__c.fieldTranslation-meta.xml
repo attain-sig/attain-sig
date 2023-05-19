@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Venue or Agency --></label>
+        <name>Venue_or_Agency__c</name>
+        <picklistValues>
+            <masterLabel>EPA</masterLabel>
+            <translation><!-- EPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FERC</masterLabel>
+            <translation><!-- FERC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUC</masterLabel>
+            <translation><!-- PUC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Court of Appeals</masterLabel>
+            <translation><!-- US Court of Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US District Court</masterLabel>
+            <translation><!-- US District Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Supreme Court</masterLabel>
+            <translation><!-- US Supreme Court --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

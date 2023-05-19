@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Completed by the user story assignee during the design stage of the release cycle and is approved by EDF before build begins. --></help>
+        <label><!-- Proposed Solution --></label>
+        <name>Initial_Configuration_Approach__c</name>
+    </CustomFieldTranslation>

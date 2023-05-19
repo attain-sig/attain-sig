@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Feedback_Title__c</field>
+    </columns>
+    <columns>
+        <field>FK_$User_Story__c.User_Story_Title__c</field>
+    </columns>
+    <columns>
+        <field>FK_$User_Story__c.Release__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Description__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Priority__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Feedback_Status__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.Assigned_To__c</field>
+    </columns>
+    <columns>
+        <field>Feedback__c.QC_Assigned_To__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <description>for dashboard</description>
+    <filter>
+        <criteriaItems>
+            <column>FK_$User_Story__c.Release__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Release 1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Feedback__c.Assigned_To__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>heller migration consultant</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>All R1 FBs logged since QC started</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Feedback__c@Feedback__c.User_Story__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <endDate>2023-02-01</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2022-12-06</startDate>
+    </timeFrameFilter>
+</Report>

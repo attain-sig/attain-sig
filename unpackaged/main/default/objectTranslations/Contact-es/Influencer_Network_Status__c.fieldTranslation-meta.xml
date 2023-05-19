@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Individuals who we know, who support EDF’s objectives, and who have a high level of influence in their communities and with Members of Congress, and in some cases, direct access to Members. --></help>
+        <label><!-- Influencer Network Status --></label>
+        <name>Influencer_Network_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active Influencer</masterLabel>
+            <translation><!-- Active Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential Influencer</masterLabel>
+            <translation><!-- Potential Influencer --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

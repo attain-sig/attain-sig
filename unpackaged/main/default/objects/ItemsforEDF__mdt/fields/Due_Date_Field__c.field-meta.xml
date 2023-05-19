@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Date_Field__c</fullName>
+    <description>Allows users to select a field on CC Engagement object to be used as the Due Date</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If your Due Date is relative to a field on CC Engagement, select the field here. If this is set, value in "Due Date" field is ignored.</inlineHelpText>
+    <label>Due Date Field</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Date_Engagement_Confirmed__c</fullName>
+                <default>true</default>
+                <label>Date_Engagement_Confirmed__c</label>
+            </value>
+            <value>
+                <fullName>End_date__c</fullName>
+                <default>false</default>
+                <label>End_date__c</label>
+            </value>
+            <value>
+                <fullName>Start_Date__c</fullName>
+                <default>false</default>
+                <label>Start_Date__c</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Level 1-Intermittent contact with one part of the company. Company Receptive to outreach. Offers information.
+Level 5-Receptive to outreach. Offers information.Takes action. Publicly supports federal climate policy and engages policy makers proactively. --></help>
+        <label><!-- CCL Level --></label>
+        <name>CCL_Level__c</name>
+        <picklistValues>
+            <masterLabel>-1</masterLabel>
+            <translation><!-- -1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

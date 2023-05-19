@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Text field for Honoree&apos;s Email Address --></help>
+        <label><!-- Honor/Memorial Notification Email --></label>
+        <name>Honor_Memorial_Notification_Email_Txt__c</name>
+    </CustomFieldTranslation>

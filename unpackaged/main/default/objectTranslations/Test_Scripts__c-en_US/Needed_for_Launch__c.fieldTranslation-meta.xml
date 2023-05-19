@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Test Script will be used for either QC or Launch Training --></help>
+        <label><!-- Needed for Launch --></label>
+        <name>Needed_for_Launch__c</name>
+    </CustomFieldTranslation>

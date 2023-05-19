@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Climate_Corps_Letterhead</letterhead>
+    <name>Fellow Confirmation Letter</name>
+    <style>freeForm</style>
+    <subject>Climate Corps: Next Steps</subject>
+    <textOnly>Dear {!Climate_Corps_Engagement__c.Fellow_first_name__c},
+
+
+
+Congratulations! I am pleased to inform you that your host organization has confirmed your fellowship placement. Our team is excited to welcome you to the Climate Corps Class of 2023, and we look forward to working with you this summer!
+
+
+Here are the most immediate next steps for you:
+
+
+1. Log into the Fellow Portal (https://edfcommunity.force.com/EDFCCFellowPortal/s/login/). You should find that it&apos;s updated, with a new tile called &quot;Portal Deliverables.&quot; Within, you&apos;ll find the first thing to do is watch the Fellow Orientation Webinar. Please watch it within the next two days.
+
+
+
+2. Review the other items required throughout the Spring in preparation for your Fellowship.
+
+
+
+3. Complete a 15-minute Orientation Call with me, your Engagement Manager (or EM), after you have watched the webinar. Come with questions!
+
+
+As a reminder, as a Climate Corps fellow, you agree to fulfill the duties as outlined in the 2023 Climate Corps Fellow Agreement. Reneging on your commitment to be a Climate Corps fellow may result in a breach in your University&apos;s recruiting policies and honor code.
+
+
+Thank you and congratulations!
+
+Best,
+
+{!Climate_Corps_Engagement__c.EDF_Engagement_Manager__c}
+
+Climate Corps
+
+EDFClimateCorps.org</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Environmental Justice Organization --></label>
+        <name>Diverse_Serving_Organization1__c</name>
+    </CustomFieldTranslation>

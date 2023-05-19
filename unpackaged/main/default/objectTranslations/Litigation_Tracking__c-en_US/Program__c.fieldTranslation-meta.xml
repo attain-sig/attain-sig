@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Program --></label>
+        <name>Program__c</name>
+        <picklistValues>
+            <masterLabel>Climate and Energy - Clean Energy</masterLabel>
+            <translation><!-- Climate and Energy - Clean Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate and Energy - Global Climate</masterLabel>
+            <translation><!-- Climate and Energy - Global Climate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate and Energy - Legal and Regulatory</masterLabel>
+            <translation><!-- Climate and Energy - Legal and Regulatory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate and Energy - Oil and Gas</masterLabel>
+            <translation><!-- Climate and Energy - Oil and Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecosystems</masterLabel>
+            <translation><!-- Ecosystems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health</masterLabel>
+            <translation><!-- Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceans</masterLabel>
+            <translation><!-- Oceans --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

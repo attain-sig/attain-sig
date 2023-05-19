@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If you would like to move this gift to a projection, please provide projection link/s in the Projection fields below. If you would like to keep and/or update this gift record, please provide notes in Gift Comments below. --></help>
+        <label><!-- Currently Committed As --></label>
+        <name>Donation__c</name>
+        <relationshipLabel><!-- Staging --></relationshipLabel>
+    </CustomFieldTranslation>

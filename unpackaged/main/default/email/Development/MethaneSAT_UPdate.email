@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+  <head>
+    <!--[if gte mso 15]>
+                        <xml>
+                                <o:OfficeDocumentSettings>
+                                <o:AllowPNG/>
+                                <o:PixelsPerInch>96</o:PixelsPerInch>
+                                </o:OfficeDocumentSettings>
+                        </xml>
+                        <![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+    body {
+    margin:0;
+    padding:0;
+    background: rgb(255,255,255);
+    }
+    table td, table th {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 0 none;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+    }
+
+    .ic-preview-text {
+    display: none !important;
+    mso-hide: all;
+    }
+
+    .fusionResponsiveColumn, .fusionNonResponsiveColumn {
+    font-weight: normal;
+    text-align:left;
+    }
+    /*+++++++++++++++++ MOBILE ++++++++++++++++++*/
+    @media only screen and (max-width: 620px) {
+    .fusionResponsiveContent {
+        width: 100%!important;
+    }
+    .fusionResponsiveColumn {
+        width: auto!important;
+        display:block;
+    }
+
+    .fusionResponsiveImage {
+        width: 100%!important;
+    }
+    .fusionResponsiveImageTable {
+        padding-bottom: 0!important;
+    }
+    .fusionResponsiveCanvas {
+        padding-top: 0px!important;
+        padding-bottom: 0px!important;
+    }
+    }
+
+    @media only screen and (max-width: 500px) {
+    .fusionResponsiveContent {
+        width: 100%!important;
+    }
+    .fusionResponsiveColumn {
+        width: auto!important;
+        display:block;
+    }
+
+    .fusionResponsiveGutter {
+        height: 0;
+    }
+
+    .fusionResponsiveImage {
+        width: 100%!important;
+    }
+    .fusionResponsiveCanvas {
+        padding-top: 0px!important;
+        padding-bottom: 0px!important;
+    }
+
+    .social-text {
+        font-size: 16px!important;
+    }
+
+    .social-block-subtext {
+        font-size: 12px!important;
+    }
+
+    .social-reaction {
+        width: 16px!important;
+        height: 16px!important;
+    }
+
+    .facebook-profile-image {
+        width: 50px!important;
+    }
+
+    .instagram-profile-image {
+        width: 50px!important;
+    }
+    }
+    </style><!--[if !mso]><!-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet"><!--<![endif]-->
+    <title></title>
+  </head>
+  <body>
+    <table cellpadding="0" cellspacing="0" border="0" style="width:100%;margin:0px auto;">
+      <tbody>
+        <tr>
+          <td class="fusionResponsiveCanvas" valign="top" style="width:100%;padding-top:0px;padding-bottom:0px;background-color:rgb(234,238,247);background-repeat:no-repeat;font-family:sans-serif;">
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(255,255,255);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(255,255,255);padding:0px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:600px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <div data-aqa="block-image" style="overflow:hidden;">
+                                      <table cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+                                        <tbody>
+                                          <tr>
+                                            <td class="null" style="padding:0px;">
+                                              <table align="center" cellpadding="0" cellspacing="0" border="0" style="margin:auto;">
+                                                <tbody>
+                                                  <tr>
+                                                    <th style="display:block;border-color:transparent;border-style:none;border-width:0px;">
+                                                      <img src="https://staticapp.icpsc.com/icp/resources/mogile/1536307/d186ccc7809566f3acf433bc0caba3d1.jpeg" class="fusionResponsiveImage" alt="" width="600" height="auto" style="display:block;width:600px;height:auto;margin:auto;background-color:transparent;">
+                                                    </th>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="Main," style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(255,255,255);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(255,255,255);padding:6px 4px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:4px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:584px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <table cellpadding="0" cellspacing="0" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="Content" style="margin:0px 7px 7px;padding:0px;border-color:transparent;border-width:0px;border-style:none;background-color:transparent;display:block;color:rgb(57,57,57);font-family:sans-serif;font-size:15px;text-align:left;">
+                                              <p style="margin-top:0px;margin-bottom:0px;">
+                                                <span style="color:rgb(57, 57, 57);font-family:sans-serif;">Greetings from New York and New Jersey,&nbsp;</span>
+                                              </p>
+                                              <p style="margin-top:16px;margin-bottom:0px;">
+                                                <span style="color:rgb(57, 57, 57);font-family:sans-serif;">In my role as EDF’s State Director for New York and New Jersey, I’m privileged to work with stellar colleagues in our states and to serve as a strategic advisor for EDF’s advocacy, providing local policy, partnership and political guidance.&nbsp;</span>
+                                              </p>
+                                              <p style="margin-top:16px;margin-bottom:0px;">
+                                                <span style="color:rgb(57, 57, 57);font-family:sans-serif;">In this inaugural State of the State, I’d hoped to report on exciting climate progress attained in the New York State budget. While due on April 1, the budget still isn’t done as of this writing. But there are encouraging signs that it will be approved this week and include some high-priority climate policies like: 1) establishing rebate programs to help defray any near-term costs New Yorkers may face from an economywide cap-and-invest program and, 2) the first statewide law requiring most new building construction up to seven stories to be zero-emission starting in 2026 with larger buildings in 2029. Both policies are key drivers for New York to meet its emissions reduction goals of 40% from 1990 levels by 2030 and 85% by 2050.&nbsp;</span>
+                                              </p>
+                                              <p style="margin-top:16px;margin-bottom:0px;">
+                                                <span style="color:rgb(57, 57, 57);font-family:sans-serif;">Moving forward, I’ll be sending this New York and New Jersey State of the State communication each quarter to share insights into EDF's work, my perspective on current events, and resources that may prove helpful in staying up to date on what’s happening. I hope you find it informative and useful and please, don't hesitate to reach out with any questions.&nbsp;</span>
+                                              </p>
+                                              <p style="margin-top:16px;margin-bottom:0px;">
+                                                <span style="color:rgb(57, 57, 57);font-family:sans-serif;">﻿</span>
+                                              </p>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <div data-aqa="block-image" style="overflow:hidden;">
+                                      <table cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+                                        <tbody>
+                                          <tr>
+                                            <td class="null" style="padding:0px 0px 10px 6px;">
+                                              <table align="left" cellpadding="0" cellspacing="0" border="0" style="width:50%;">
+                                                <tbody>
+                                                  <tr>
+                                                    <th style="display:block;border-color:transparent;border-style:none;border-width:0px;">
+                                                      <img src="https://staticapp.icpsc.com/icp/resources/mogile/1536307/0874215ee590ae1efa3a9ff6c98ede0a.jpeg" class="fusionResponsiveImage" alt="" width="286" height="auto" style="display:block;width:286px;height:auto;margin:auto;background-color:transparent;">
+                                                    </th>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding-top:10px;padding-bottom:10px;">
+                                            <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0px auto;width:100%;">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="mso-line-height-rule:exactly;font-size:0px;line-height:0px;border-bottom:1px solid rgb(85,142,190);">
+                                                    &nbsp;
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table cellpadding="0" cellspacing="0" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="" style="margin:10px 0px 0px;padding:0px;border-color:transparent;border-width:0px;border-style:none;background-color:transparent;display:block;color:rgb(57,57,57);font-family:sans-serif;font-size:15px;text-align:left;">
+                                              <h2 style="text-align:center;color:rgb(255,151,9);font-size:20px;font-family:sans-serif;margin-top:0px;margin-bottom:0px;">
+                                                <span style="color:rgb(85, 142, 190);">State of the State</span>
+                                              </h2>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:4px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(255,255,255);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(255,255,255);padding:14px 6px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:576px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <div data-aqa="block-image" style="overflow:hidden;">
+                                      <table cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+                                        <tbody>
+                                          <tr>
+                                            <td class="null" style="padding:0px;">
+                                              <table align="center" cellpadding="0" cellspacing="0" border="0" style="margin:auto;width:60%;">
+                                                <tbody>
+                                                  <tr>
+                                                    <th style="display:block;border-color:transparent;border-style:none;border-width:0px;">
+                                                      <img src="https://staticapp.icpsc.com/icp/resources/mogile/1536307/94d0bc51e779c9101efd761e9ca27116.jpeg" class="fusionResponsiveImage" alt="" width="345" height="auto" style="display:block;width:345px;height:auto;margin:auto;background-color:transparent;">
+                                                    </th>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(255,255,255);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(255,255,255);padding:10px 6px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:576px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <table cellpadding="0" cellspacing="0" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="" style="margin:0px;padding:0px;border-color:transparent;border-width:0px;border-style:none;background-color:transparent;display:block;color:rgb(57,57,57);font-family:sans-serif;font-size:15px;text-align:left;">
+                                              <p style="text-align:center;margin-top:0px;margin-bottom:0px;">
+                                                <strong style="font-family:sans-serif;font-size:18px;color:rgb(57, 57, 57);">Supporting Congestion Pricing</strong>
+                                              </p>
+                                              <p style="margin-top:16px;margin-bottom:0px;">
+                                                <span style="color:rgb(57, 57, 57);font-family:sans-serif;">We expect New York will receive final federal approval to move forward with the next step of designing a congestion pricing program within the coming months (you can find a great explanation of how congestion pricing works</span> <a href="https://nyc.streetsblog.org/2019/04/05/weekend-read-every-last-detail-about-congestion-pricing-explained/" target="_blank" style="color:rgb(85, 142, 190);font-family:sans-serif;text-decoration:underline;">here</a><span style="color:rgb(57, 57, 57);font-family:sans-serif;">).&nbsp;&nbsp;</span>
+                                              </p>
+                                              <p style="margin-top:16px;margin-bottom:0px;">
+                                                <span style="color:rgb(57, 57, 57);font-family:sans-serif;">As I said in my Op-Ed for</span> <a href="https://www.crainsnewyork.com/op-ed/ny-state-and-mta-need-implement-congestion-pricing" target="_blank" style="color:rgb(85, 142, 190);font-family:sans-serif;background-color:rgb(255, 255, 255);text-decoration:underline;"><em>Crains New York</em></a><span style="color:rgb(57, 57, 57);font-family:sans-serif;background-color:rgb(255, 255, 255);">,</span> <span style="color:rgb(57, 57, 57);font-family:sans-serif;">data in other cities proves that it works so it is time for the Metropolitan Transportation Authority to implement an equitable congestion pricing program to reduce traffic congestion, fund public transit improvements and improve air quality. EDF remains a leader in the</span> <a href="https://www.congestionpricingnow.org/about" target="_blank" style="color:rgb(85, 142, 190);font-family:sans-serif;text-decoration:underline;">Congestion Pricing NOW coalition</a> <span style="color:rgb(57, 57, 57);font-family:sans-serif;">working with partners to maintain a constant supportive voice in the midst of some</span> <a href="https://gothamist.com/news/nj-democrat-joins-ny-republicans-in-congressional-effort-to-sink-nycs-congestion-pricing" target="_blank" style="color:rgb(85, 142, 190);font-family:sans-serif;text-decoration:underline;">turbulent political waters</a> <span style="color:rgb(57, 57, 57);font-family:sans-serif;">and ensuring the program launches in early 2024.&nbsp;&nbsp;</span>
+                                              </p>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(255,255,255);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(255,255,255);padding:14px 6px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:576px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <div data-aqa="block-image" style="overflow:hidden;">
+                                      <table cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+                                        <tbody>
+                                          <tr>
+                                            <td class="null" style="padding:0px;">
+                                              <table align="center" cellpadding="0" cellspacing="0" border="0" style="margin:auto;width:60%;">
+                                                <tbody>
+                                                  <tr>
+                                                    <th style="display:block;border-color:transparent;border-style:none;border-width:0px;">
+                                                      <img src="https://staticapp.icpsc.com/icp/resources/mogile/1536307/05258523b938de6413cef063768ae4a8.jpeg" class="fusionResponsiveImage" alt="" width="345" height="auto" style="display:block;width:345px;height:auto;margin:auto;background-color:transparent;">
+                                                    </th>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(255,255,255);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(255,255,255);padding:10px 6px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:576px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <table cellpadding="0" cellspacing="0" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="" style="margin:0px;padding:0px;border-color:transparent;border-width:0px;border-style:none;background-color:transparent;display:block;color:rgb(57,57,57);font-family:sans-serif;font-size:15px;text-align:left;">
+                                              <p style="text-align:center;margin-top:0px;margin-bottom:0px;">
+                                                <strong style="font-size:18px;">PlaNYC: Getting Sustainability Done</strong>
+                                              </p>
+                                              <p style="margin-top:16px;margin-bottom:0px;">
+                                                <span style="color:rgb(57, 57, 57);font-family:sans-serif;">The New York City Mayor’s Office recently released a</span> <a href="https://climate.cityofnewyork.us/initiatives/planyc-getting-sustainability-done/" target="_blank" style="color:rgb(85, 142, 190);font-family:sans-serif;background-color:rgb(255, 255, 255);text-decoration:underline;">climate plan</a> <span style="color:rgb(57, 57, 57);font-family:sans-serif;">that will continue the city’s progress toward a safe, healthy and equitable climate future. EDF’s Director of Climate Resilient Coasts and Watersheds for New York and New Jersey,</span> <a href="https://www.edf.org/people/kate-boicourt" target="_blank" style="color:rgb(85, 142, 190);font-family:sans-serif;background-color:rgb(255, 255, 255);text-decoration:underline;">Kate Boicourt</a><span style="color:rgb(57, 57, 57);font-family:sans-serif;">,</span> <a href="https://www.edf.org/media/new-yorks-sustainability-plan-will-act-climate-resilience" target="_blank" style="color:rgb(85, 142, 190);font-family:sans-serif;background-color:rgb(255, 255, 255);text-decoration:underline;">commended</a> <span style="color:rgb(57, 57, 57);font-family:sans-serif;">the administration for taking this bold step. We’re looking forward to partnering with them on implementation of their resilience strategies as well as on other key priorities.&nbsp;&nbsp;</span>
+                                              </p>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(255,255,255);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(255,255,255);padding:10px 6px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:226px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <div data-aqa="block-image" style="overflow:hidden;">
+                                      <table cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+                                        <tbody>
+                                          <tr>
+                                            <td class="null" style="padding:0px 0px 6px;">
+                                              <table align="center" cellpadding="0" cellspacing="0" border="0" style="margin:auto;width:100%;">
+                                                <tbody>
+                                                  <tr>
+                                                    <th style="display:block;border-color:transparent;border-style:none;border-width:0px;">
+                                                      <a href="https://betterhubs.edf.org/" style=""><img src="https://staticapp.icpsc.com/icp/resources/mogile/1536307/fd59eff3a2a7149e74c0819edf6e1f53.jpeg" class="fusionResponsiveImage" alt="" width="226" height="auto" style="display:block;width:226px;height:auto;margin:auto;background-color:transparent;"></a>
+                                                    </th>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:337px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <table cellpadding="0" cellspacing="0" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="" style="margin:0px;padding:0px;border-color:transparent;border-width:0px;border-style:none;background-color:transparent;display:block;color:rgb(57,57,57);font-family:sans-serif;font-size:15px;text-align:left;">
+                                              <p style="margin-top:0px;margin-bottom:0px;">
+                                                <strong style="font-family:sans-serif;font-size:18px;color:rgb(0, 0, 0);">Climate Program Benefits the Garden State</strong><span style="font-family:sans-serif;font-size:18px;color:rgb(0, 0, 0);">&nbsp;</span>
+                                              </p>
+                                              <p class="paragraph-spacing-none" style="margin-top:0px;margin-bottom:0px;">
+                                                <span style="font-family:sans-serif;color:rgb(57, 57, 57);">New Jersey’s participation in the Regional Greenhouse Gas Initiative (RGGI) showcases how the cap-and-invest program helps local communities, as demonstrated by</span> <a href="https://www.njeda.com/murphy-administration-announces-70-million-in-rggi-proceed-awards-to-fund-electric-public-transportation-initiatives/" target="_blank" style="font-family:sans-serif;color:rgb(85, 142, 190);background-color:rgb(255, 255, 255);text-decoration:underline;">Gov. Murphy’s allocation of $70 million toward electric vehicles</a> <span style="font-family:sans-serif;color:rgb(57, 57, 57);">in recent weeks including more than 114 clean school buses, many in communities dealing with poor air quality.&nbsp;</span>
+                                              </p>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(255,255,255);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(255,255,255);padding:10px 6px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:228px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <div data-aqa="block-image" style="overflow:hidden;">
+                                      <table cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+                                        <tbody>
+                                          <tr>
+                                            <td class="null" style="padding:0px 0px 6px;">
+                                              <table align="center" cellpadding="0" cellspacing="0" border="0" style="margin:auto;">
+                                                <tbody>
+                                                  <tr>
+                                                    <th style="display:block;border-color:transparent;border-style:none;border-width:0px;">
+                                                      <a href="https://www.edf.org/inclusive-insurance" style=""><img src="https://staticapp.icpsc.com/icp/resources/mogile/1536307/0c7644fc782ee124fae86b98ca61db23.jpeg" class="fusionResponsiveImage" alt="" width="228" height="auto" style="display:block;width:228px;height:auto;margin:auto;background-color:transparent;"></a>
+                                                    </th>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:335px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <table cellpadding="0" cellspacing="0" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="" style="margin:0px;padding:0px;border-color:transparent;border-width:0px;border-style:none;background-color:transparent;display:block;color:rgb(57,57,57);font-family:sans-serif;font-size:15px;text-align:left;">
+                                              <p style="mso-line-height-rule:exactly;line-height:18px;margin-top:0px;margin-bottom:0px;">
+                                                <strong style="font-family:sans-serif;font-size:18px;color:rgb(57, 57, 57);">Electrifying Fleets in New York</strong>
+                                              </p>
+                                              <p class="paragraph-spacing-none" style="margin-top:0px;margin-bottom:0px;">
+                                                <span style="font-family:sans-serif;background-color:transparent;color:rgb(57, 57, 57);">Gov. Hochul</span> <a href="https://www.governor.ny.gov/news/governor-hochul-announces-major-milestone-advance-infrastructure-medium-and-heavy-duty" target="_blank" style="font-family:sans-serif;background-color:transparent;color:rgb(85, 142, 190);text-decoration:underline;">announced a new effort</a> <span style="font-family:sans-serif;background-color:transparent;color:rgb(57, 57, 57);">to improve charging infrastructure for medium- and heavy-duty electric vehicles. This milestone came after a year-long effort from a broad coalition led by EDF including a</span> <a href="https://blogs.edf.org/energyexchange/2022/05/11/the-time-has-come-for-the-nypsc-to-focus-on-charging-infrastructure-for-trucks-and-buses/" target="_blank" style="font-family:sans-serif;background-color:transparent;color:rgb(85, 142, 190);text-decoration:underline;">petition</a> <span style="font-family:sans-serif;background-color:transparent;color:rgb(57, 57, 57);">to the Public Service Commission and the</span> <a href="https://www.edf.org/sites/default/files/documents/EDF_%20Atlas%20MHDV%20Fleet%20Workshop%20Agenda.pdf" target="_blank" style="font-family:sans-serif;background-color:transparent;color:rgb(85, 142, 190);text-decoration:underline;">engagement of industry leade<u>r</u></a><u style="color:rgb(85, 142, 190);">s</u> <span style="color:rgb(57, 57, 57);font-family:sans-serif;background-color:transparent;">and government officials.</span>
+                                              </p>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(255,255,255);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(255,255,255);padding:0px 6px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:576px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <table cellpadding="0" cellspacing="0" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="" style="margin:0px 0px 10px;padding:0px;border-color:transparent;border-width:0px;border-style:none;background-color:transparent;display:block;color:rgb(57,57,57);font-family:sans-serif;font-size:15px;text-align:left;">
+                                              <p style="margin-top:0px;margin-bottom:0px;">
+                                                <strong style="color:rgb(57, 57, 57);">More updates</strong><span style="color:rgb(57, 57, 57);">:</span>
+                                              </p>
+                                              <ul style="margin-bottom:0px;">
+                                                <li>
+                                                  <span style="color:rgb(57, 57, 57);">EDF launched</span> <a href="https://blogs.edf.org/energyexchange/2023/02/02/the-first-step-in-a-new-industrial-revolution-raising-the-bar-for-clean-hubs/" target="_blank" style="color:rgb(85, 142, 190);text-decoration:underline;">BetterHubs Northeast</a> <span style="color:rgb(57, 57, 57);">to help agencies, companies and NGOs collaborate to ensure that the future of industrial decarbonization is clean, authentically equitable, transparent and accountable for local impacts.&nbsp;&nbsp;</span>
+                                                </li>
+                                                <li>
+                                                  <span style="color:rgb(57, 57, 57);">Governor Murphy’s new</span> <a href="https://www.nj.gov/governor/news/news/562023/approved/20230215b.shtml" target="_blank" style="color:rgb(85, 142, 190);text-decoration:underline;">climate initiatives</a> <span style="color:rgb(57, 57, 57);">are a foundation for a cleaner, greener, and more resilient New Jersey and</span> <a href="https://www.edf.org/media/gov-phil-murphy-announces-sweeping-electrification-executive-orders" target="_blank" style="color:rgb(85, 142, 190);text-decoration:underline;">EDF</a> <span style="color:rgb(57, 57, 57);">made its support known in this critical area.&nbsp;</span>
+                                                </li>
+                                                <li>
+                                                  <span style="color:rgb(57, 57, 57);">New Jersey passed one of the most</span> <a href="https://www.eenews.net/articles/flood-battered-n-j-poised-to-enact-model-disclosure-law/" target="_blank" style="color:rgb(85, 142, 190);text-decoration:underline;">progressive flood risk disclosure laws</a> <span style="color:rgb(57, 57, 57);">in the nation, establishing a right to know for renters and buyers. EDF has championed disclosure laws in both New Jersey and New York.&nbsp;&nbsp;</span>
+                                                </li>
+                                                <li>
+                                                  <span style="color:rgb(57, 57, 57);">EDF is part of a team that launched a </span><a href="https://www.edf.org/inclusive-insurance" target="_blank" style="color:rgb(85, 142, 190);text-decoration:underline;">new pilot program</a> <span style="color:rgb(57, 57, 57);">in New York City that could help address gaps in financial assistance to low- and moderate-income households immediately after a disaster.&nbsp;&nbsp;</span>
+                                                </li>
+                                              </ul>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(255,255,255);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(255,255,255);padding:0px 6px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:576px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding-top:10px;padding-bottom:6px;">
+                                            <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0px auto;width:100%;">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="mso-line-height-rule:exactly;font-size:0px;line-height:0px;border-bottom:1px solid rgb(85,142,190);">
+                                                    &nbsp;
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(255,255,255);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(255,255,255);padding:10px 6px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:576px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <table cellpadding="0" cellspacing="0" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="" style="margin:0px;padding:0px;border-color:transparent;border-width:0px;border-style:none;background-color:transparent;display:block;color:rgb(57,57,57);font-family:sans-serif;font-size:15px;text-align:left;">
+                                              <h2 style="text-align:center;color:rgb(255,151,9);font-size:20px;font-family:sans-serif;margin-top:0px;margin-bottom:0px;">
+                                                <span style="color:rgb(85, 142, 190);">Staff News</span>
+                                              </h2>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(255,255,255);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(255,255,255);padding:0px 6px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:576px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <table cellpadding="0" cellspacing="0" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="" style="margin:0px;padding:0px;border-color:transparent;border-width:0px;border-style:none;background-color:transparent;display:block;color:rgb(57,57,57);font-family:sans-serif;font-size:15px;text-align:left;">
+                                              <p style="margin-top:0px;margin-bottom:0px;">
+                                                <span style="color:rgb(57, 57, 57);font-family:sans-serif;">Our New York and New Jersey teams are growing! I’m thrilled to introduce two new staff members who are helping to lead campaigns that address critical climate challenges faced by New Yorkers:&nbsp;&nbsp;</span>
+                                              </p>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(255,255,255);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(255,255,255);padding:12px 6px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:224px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <div data-aqa="block-image" style="overflow:hidden;">
+                                      <table cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+                                        <tbody>
+                                          <tr>
+                                            <td class="null" style="padding:0px 0px 6px;">
+                                              <table align="center" cellpadding="0" cellspacing="0" border="0" style="margin:auto;">
+                                                <tbody>
+                                                  <tr>
+                                                    <th style="display:block;border-color:transparent;border-style:none;border-width:0px;">
+                                                      <img src="https://staticapp.icpsc.com/icp/resources/mogile/1536307/9b9e290696f1232e056707c9cfc83c1b.jpeg" class="fusionResponsiveImage" alt="" width="224" height="auto" style="display:block;width:224px;height:auto;margin:auto;background-color:transparent;">
+                                                    </th>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:339px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <table cellpadding="0" cellspacing="0" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="" style="margin:0px;padding:0px;border-color:transparent;border-width:0px;border-style:none;background-color:transparent;display:block;color:rgb(57,57,57);font-family:sans-serif;font-size:15px;text-align:left;">
+                                              <p style="margin-top:0px;margin-bottom:0px;">
+                                                <strong style="color:rgb(57, 57, 57);font-size:18px;">Karla Sosa, New Jersey Project Manager</strong>
+                                              </p>
+                                              <p class="paragraph-spacing-none" style="margin-top:0px;margin-bottom:0px;">
+                                                <span style="color:rgb(57, 57, 57);">Karla comes to us from academia where she earned a Ph.D. in evolutionary biology. She has a deep background in equity, and she is excited to use these skills to push for legislation that is equitable and based on our best available science as we tackle the multifaceted challenges posed by climate change.&nbsp;&nbsp;</span>
+                                              </p>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(255,255,255);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(255,255,255);padding:0px 6px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:223px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <div data-aqa="block-image" style="overflow:hidden;">
+                                      <table cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+                                        <tbody>
+                                          <tr>
+                                            <td class="null" style="padding:0px 0px 6px;">
+                                              <table align="center" cellpadding="0" cellspacing="0" border="0" style="margin:auto;">
+                                                <tbody>
+                                                  <tr>
+                                                    <th style="display:block;border-color:transparent;border-style:none;border-width:0px;">
+                                                      <img src="https://staticapp.icpsc.com/icp/resources/mogile/1536307/197c4ede5d342e9e91975289f95efe0e.jpeg" class="fusionResponsiveImage" alt="" width="223" height="auto" style="display:block;width:223px;height:auto;margin:auto;background-color:transparent;">
+                                                    </th>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:340px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <table cellpadding="0" cellspacing="0" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="" style="margin:0px;padding:0px;border-color:transparent;border-width:0px;border-style:none;background-color:transparent;display:block;color:rgb(57,57,57);font-family:sans-serif;font-size:15px;text-align:left;">
+                                              <p style="margin-top:0px;margin-bottom:0px;">
+                                                <strong style="font-size:18px;color:rgb(57, 57, 57);">Braxton Bridgers, New York Project Manager</strong>
+                                              </p>
+                                              <p class="paragraph-spacing-none" style="margin-top:0px;margin-bottom:0px;">
+                                                <span style="color:rgb(57, 57, 57);">Braxton is joining us from the Energy Affordability Association of San Francisco. He is especially interested in engaging with environmental justice organizations and frontline communities on policies that solve environmental issues and rectify harm done to historically marginalized communities.&nbsp;</span>
+                                              </p>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(255,255,255);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(255,255,255);padding:12px 6px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:576px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding-top:10px;padding-bottom:6px;">
+                                            <table cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0px auto;width:100%;">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="mso-line-height-rule:exactly;font-size:0px;line-height:0px;border-bottom:1px solid rgb(85,142,190);">
+                                                    &nbsp;
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table cellpadding="0" cellspacing="0" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="" style="margin:10px 0px;padding:0px;border-color:transparent;border-width:0px;border-style:none;background-color:transparent;display:block;color:rgb(57,57,57);font-family:sans-serif;font-size:15px;text-align:left;">
+                                              <h3 style="text-align:center;color:rgb(255,151,9);font-size:12px;font-family:sans-serif;margin-top:0px;margin-bottom:0px;">
+                                                <span style="color:rgb(85, 142, 190);font-size:20px;">What I'm Reading</span>
+                                              </h3>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table cellpadding="0" cellspacing="0" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="" style="margin:0px;padding:0px;border-color:transparent;border-width:0px;border-style:none;background-color:transparent;display:block;color:rgb(57,57,57);font-family:sans-serif;font-size:15px;text-align:left;">
+                                              <ul style="margin-top:0px;margin-bottom:0px;">
+                                                <li>
+                                                  <a href="https://www.nydailynews.com/opinion/ny-oped-congestion-pricing-nadler-goldman-20230421-ubbjpbz2ubgkxaphs7yedu7yya-story.html?oref=csny_firstread_nl&amp;sourceid=1014461&amp;emci=5ce346b1-9ddf-ed11-8e8b-00224832eb73&amp;emdi=f98e27af-8fe2-ed11-8e8b-00224832eb73&amp;ceid=1326513" target="_blank" style="color:rgb(85, 142, 190);font-family:sans-serif;text-decoration:underline;"><strong>New Yorkers Want Congestion Pricing to Fix Transit</strong></a><span style="color:rgb(85, 142, 190);font-family:sans-serif;">&nbsp;</span>
+                                                </li>
+                                                <li>
+                                                  <a href="https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.nytimes.com%2F2023%2F04%2F22%2Fbusiness%2Fdecarb-bros-climate-change.html%3Fsmid%3Dnytcore-ios-share%26referringSource%3DarticleShare&amp;data=05%7C01%7Cmbarber%40edf.org%7C20177c9b1bd146389e5108db452f1fd7%7Cfe4574edbcfd4bf0bde843713c3f434f%7C0%7C0%7C638179840926884517%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=vbtNdr15GLBVwpyT%2BG3dm8JUHzBeM5hse%2FnR6jIXRKU%3D&amp;reserved=0" target="_blank" style="background-color:rgb(255, 255, 255);color:rgb(85, 142, 190);text-decoration:underline;"><strong>Do You Even Decarbonize, Bro?</strong></a><span style="color:rgb(85, 142, 190);">&nbsp;</span>
+                                                </li>
+                                                <li>
+                                                  <a href="https://www.edf.org/media/worth-investment-report-finds-utilities-fleet-owners-consumers-benefit-when-utilities-cover" target="_blank" style="color:rgb(85, 142, 190);font-family:sans-serif;text-decoration:underline;"><strong>A repor<u>t</u></strong></a> <strong style="color:rgb(85, 142, 190);font-family:sans-serif;"><u>commissioned by EDF</u></strong> <span style="color:rgb(57, 57, 57);font-family:sans-serif;">that outlines the widespread benefits of utilities upgrading electrical grids for medium- and heavy-duty vehicle (MHDV) charging.&nbsp;&nbsp;</span>
+                                                </li>
+                                              </ul>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" border="0" data-fusion-class="Footer,Contrast" style="width:100%;margin:0px auto;">
+              <tbody>
+                <tr>
+                  <td valign="top" style="width:100%;">
+                    <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" align="center" style="margin:0px auto;width:600px;table-layout:fixed;background-color:rgb(37,61,134);">
+                      <tbody>
+                        <tr>
+                          <td style="background-color:rgb(37,61,134);padding:20px 6px;border-color:transparent;border-width:0px;border-style:none;">
+                            <table class="fusionResponsiveContent" cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+                              <tbody>
+                                <tr>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                  <th valign="top" class="fusionResponsiveColumn" data-fusion-class="" style="width:576px;background-color:transparent;padding:0px;border-color:transparent;border-style:none;border-width:0px;transition:all 0.2s ease 0s;">
+                                    <table style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="Content" style="margin:0px;">
+                                              <div style="box-sizing:content-box;text-align:center;">
+                                                <a href="https://twitter.com/EnvDefenseFund?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" style="text-decoration:none;cursor:pointer;box-sizing:content-box;"><img src="https://ui.icontact.com/assets/editor-social-icons/black/twitter.png" alt="EDF Twitter" height="40" width="40" style="height:40px;width:40px;cursor:pointer;box-sizing:content-box;border:0px;" title="EDF Twitter"></a><a href="https://www.linkedin.com/" style="text-decoration:none;cursor:pointer;box-sizing:content-box;"><img src="https://ui.icontact.com/assets/editor-social-icons/black/linkedin.png" alt="https://www.linkedin.com/in/mary-barber-2967613/" height="40" width="40" style="height:40px;width:40px;cursor:pointer;box-sizing:content-box;border:0px;" title="https://www.linkedin.com/in/mary-barber-2967613/"></a><a href="https://www.instagram.com/environmental_defense_fund/?hl=en" style="text-decoration:none;cursor:pointer;box-sizing:content-box;"><img src="https://ui.icontact.com/assets/editor-social-icons/black/instagram.png" alt="EDF Instagram" height="40" width="40" style="height:40px;width:40px;cursor:pointer;box-sizing:content-box;border:0px;" title="EDF Instagram"></a><a href="https://www.edf.org/" style="text-decoration:none;cursor:pointer;box-sizing:content-box;"><img src="https://ui.icontact.com/assets/editor-social-icons/black/website.png" alt="EDF Website" height="40" width="40" style="height:40px;width:40px;cursor:pointer;box-sizing:content-box;border:0px;" title="EDF Website"></a><a href="mailto:OfficeOfMaryBarber@edf.org" style="text-decoration:none;cursor:pointer;box-sizing:content-box;"><img src="https://ui.icontact.com/assets/editor-social-icons/black/email.png" alt="Office of Mary Barber" height="40" width="40" style="height:40px;width:40px;cursor:pointer;box-sizing:content-box;border:0px;" title="Office of Mary Barber"></a>
+                                              </div>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table cellpadding="0" cellspacing="0" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="" style="margin:6px 0px;padding:0px;border-color:transparent;border-width:0px;border-style:none;background-color:transparent;display:block;color:rgb(57,57,57);font-family:sans-serif;font-size:15px;text-align:left;">
+                                              <p style="text-align:center;margin-top:0px;margin-bottom:0px;">
+                                                <span style="color:rgb(255, 255, 255);font-family:sans-serif;background-color:transparent;">Environmental Defense Fund</span>
+                                              </p>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table cellpadding="0" cellspacing="0" style="width:100%;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div data-fusion-class="" style="margin:6px 0px;padding:0px;border-color:transparent;border-width:0px;border-style:none;background-color:transparent;display:block;color:rgb(57,57,57);font-family:sans-serif;font-size:15px;text-align:left;">
+                                              <p style="text-align:center;margin-top:0px;margin-bottom:0px;">
+                                                <span style="color:rgb(255, 255, 255);">257 Park Ave S. New York, NY 10010</span> <span style="color:rgb(255, 255, 255);font-family:sans-serif;">|</span> <span style="color:rgb(255, 255, 255);">212.505.2100</span>
+                                              </p>
+                                            </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </th>
+                                  <th class="fusionResponsiveColumn" style="mso-line-height-rule:exactly;width:6px;line-height:0;font-size:0px;">
+                                    <!--[if !mso]><!--><img src="https://ui.icontact.com/assets/1px.png" class="css-fisw11" width="1" border="0" style="display: block;"><!--<![endif]-->
+                                  </th>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

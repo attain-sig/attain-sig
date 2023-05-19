@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Done_Condition__c</fullName>
+    <description>This field identifies how Done can be marked for the Tile. It can have multiple fields and multiple files combined with " AND "</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>For e.g. FIELD:Fellow_Training_Confirmation__c  AND  FILE:Workplan. Possible values for FILE are Workplan, Photo, PhotoReleaseForm, PhotoOnsite, Completed Activities Report, RemainingDeliverables. Supported Field are from CC Engagement object only.</inlineHelpText>
+    <label>Done Condition</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

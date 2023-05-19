@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LONG_NAME</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>KC&apos;s - Past-due Activities,KC&apos;s - Activities Next 2 Weeks,KC&apos;s - Activities Next 6 Weeks,KC&apos;s - Activities Next 3 Months,KC&apos;s Workplan Next Steps,KC - Portfolio w/wo Workplans,Top 50,KC&apos;s Donors Former Portfolio Managers,KC&apos;s Dual Constituents,KC&apos;s First-Time Donors Current FY,KC&apos;s Giving Snapshot,KC&apos;s Non-Head of Household Donors,KC&apos;s Workplan Key Relationships,KC&apos;s Donor Qualification Report,KC&apos;s Completed Activities,KC&apos;s Additions to Portfolio,KC&apos;s CY Revenue,Top50,KC&apos;s Projections,KC&apos;s New Membership Gifts,KC&apos;s New Gift Report,KC&apos;s Portfolio,KC&apos;s Portfolio - Primary Handler,KC&apos;s Portfolio - Workplans,KC&apos;s Reports/Proposals Due,KC&apos;s Received/Cancelled Gifts,KC&apos;s Completed Meetings</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Development</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>SHORT_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>KC Luce Key Reports</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ReportList</reportType>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATEDDATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

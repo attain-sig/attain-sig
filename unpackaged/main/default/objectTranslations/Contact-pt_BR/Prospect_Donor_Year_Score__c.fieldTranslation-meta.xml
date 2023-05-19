@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Score based on Total # of years as EDF Donor. --></help>
+        <label><!-- Prospect Donor Year Score --></label>
+        <name>Prospect_Donor_Year_Score__c</name>
+    </CustomFieldTranslation>

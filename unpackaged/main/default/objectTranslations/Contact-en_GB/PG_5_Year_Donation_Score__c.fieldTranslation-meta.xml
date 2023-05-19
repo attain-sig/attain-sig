@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Score based on the # of Donations in the 5 years. Stage = Received or Received as Pledge. Excludes Planned Gifts or Pledge Installments.
+2-5 = 1
+6-8 = 2
+9+ = 3
+0-1 = 0 --></help>
+        <label><!-- PG 5 Year Donation Score --></label>
+        <name>PG_5_Year_Donation_Score__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Invite_from_Waitlist_India</name>
+        <label>Invite from Waitlist India</label>
+        <locationX>314</locationX>
+        <locationY>455</locationY>
+        <actionName>Fellow_Application__c.Invite_to_Interview_from_Waitlist_India</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Invite_India</name>
+        <label>Send Invite India</label>
+        <locationX>50</locationX>
+        <locationY>455</locationY>
+        <actionName>Fellow_Application__c.Send_Invite_for_Interview_1_India</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <decisions>
+        <name>Stage</name>
+        <label>Stage</label>
+        <locationX>314</locationX>
+        <locationY>335</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Send_Invite_for_Interview_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Send Invite for Interview 1</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Invite_India</targetReference>
+            </connector>
+            <label>Send Invite for Interview 1</label>
+        </rules>
+        <rules>
+            <name>Invite_to_Interview_from_Waitlist</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Invite to Interview from Waitlist</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Invite_from_Waitlist_India</targetReference>
+            </connector>
+            <label>Invite to Interview from Waitlist</label>
+        </rules>
+    </decisions>
+    <description>Stages: Send Invite for Interview 1, Invite to Interview from Waitlist</description>
+    <environments>Default</environments>
+    <interviewLabel>Fellow Application - Immediate Send - India {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Fellow Application - Immediate Send - India</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Stage</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+OR(
+ispickval({!$Record.Status__c}, &quot;Send Invite for Interview 1&quot;),
+ispickval({!$Record.Status__c}, &quot;Invite to Interview from Waitlist&quot;)
+)
+&amp;&amp;
+ispickval({!$Record.Fellowship_Applying_for__c}, &quot;India Fellowship&quot;)</filterFormula>
+        <object>Fellow_Application__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

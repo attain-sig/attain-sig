@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Opportunity$Opportunity_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Portfolio_Manager__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity.npsp__Allocations__r$Opportunity_Close_Date__c</field>
+    </columns>
+    <columns>
+        <field>Opportunity$StageName</field>
+    </columns>
+    <columns>
+        <field>Opportunity$Amount</field>
+    </columns>
+    <columns>
+        <field>Opportunity.npsp__Allocations__r$Region__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity$Portfolio_Manager__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Moira Hess,Missy Medora Falkenberg,Cyane Anaya,Julia Busch,Andrew Malloy,Rachel Murchison,Sarahbeth Lindquist,Ryan Williams</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$StageName</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Cancelled by EDF,Declined by Donor,Refunded,Refund - Chargeback,Returned Check,Invalid Donation</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.npsp__Allocations__r$npsp__General_Accounting_Unit__c.Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>IG Opportunities by Designation</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_with_GAU_Allocations_GAU_detail__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Opportunity.npsp__Allocations__r$Opportunity_Close_Date__c</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Opportunity$CloseDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

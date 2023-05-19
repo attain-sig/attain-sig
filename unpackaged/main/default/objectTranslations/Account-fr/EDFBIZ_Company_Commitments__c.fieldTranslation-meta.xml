@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- These are internal commitments or procedures companies take to lower their own carbon footprints. --></help>
+        <label><!-- EDFBIZ Company Actions --></label>
+        <name>EDFBIZ_Company_Commitments__c</name>
+        <picklistValues>
+            <masterLabel>Net Zero Commitment</masterLabel>
+            <translation><!-- Net Zero Commitment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RE100</masterLabel>
+            <translation><!-- RE100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBT</masterLabel>
+            <translation><!-- SBT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>c$</masterLabel>
+            <translation><!-- c$ --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Master Contact Name --></label>
+        <name>Master_Contact_Name__c</name>
+        <relationshipLabel><!-- Duplicate Merge Audit Trail --></relationshipLabel>
+    </CustomFieldTranslation>

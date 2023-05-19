@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <decisions>
+        <name>Profile_Type</name>
+        <label>Profile Type</label>
+        <locationX>314</locationX>
+        <locationY>311</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Dev</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Profile.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Development &amp; Membership</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Profile.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Gift Processing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Profile.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Membership</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Task</targetReference>
+            </connector>
+            <label>Dev</label>
+        </rules>
+        <rules>
+            <name>Mission</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Profile.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Climate Corps</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Profile.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Executive Management</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Profile.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Program Staff Platform</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Profile.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Program Staff</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Profile.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Climate Corps Platform</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Profile.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Climate Corps CEA User</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Task_2</targetReference>
+            </connector>
+            <label>Mission</label>
+        </rules>
+    </decisions>
+    <description>Populates Task Team field based on Assigned To User&apos;s Profile</description>
+    <environments>Default</environments>
+    <interviewLabel>Activity/Task (Before Save) - Populate Team Field {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Activity/Task (Before Save) - Populate Team Field</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Task</name>
+        <label>Update Task</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <inputAssignments>
+            <field>Team__c</field>
+            <value>
+                <stringValue>Development</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Task_2</name>
+        <label>Update Task 2</label>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
+        <inputAssignments>
+            <field>Team__c</field>
+            <value>
+                <stringValue>Mission</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Profile_Type</targetReference>
+        </connector>
+        <filterFormula>ISBLANK(TEXT({!$Record.Team__c}))=TRUE &amp;&amp;
+(
+{!$Record.Owner:User.Profile.Name}=&apos;Development &amp; Membership&apos; ||
+{!$Record.Owner:User.Profile.Name}=&apos;Gift Processing&apos; ||
+{!$Record.Owner:User.Profile.Name}=&apos;Membership&apos; ||
+{!$Record.Owner:User.Profile.Name}=&apos;Climate Corps&apos; || 
+{!$Record.Owner:User.Profile.Name}=&apos;Climate Corps CEA User&apos; || 
+{!$Record.Owner:User.Profile.Name}=&apos;Climate Corps Platform&apos; || 
+{!$Record.Owner:User.Profile.Name}=&apos;Program Staff&apos; || 
+{!$Record.Owner:User.Profile.Name}=&apos;Program Staff Platform&apos; || 
+{!$Record.Owner:User.Profile.Name}=&apos;Executive Management&apos;
+)</filterFormula>
+        <object>Task</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This box is checked if the fellow applicant is applying from an Minority Serving Institution (MSI). --></help>
+        <label><!-- MSI Applicant --></label>
+        <name>MSI_Applicant__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fellow Application</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fellow Applications</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Fellow Application Layout</layout>
+        <sections>
+            <label><!-- Application Screen --></label>
+            <section>Application Screen</section>
+        </sections>
+        <sections>
+            <label><!-- Background Information --></label>
+            <section>Background Information</section>
+        </sections>
+        <sections>
+            <label><!-- Candidate Interest/Priority --></label>
+            <section>Candidate Interest/Priority</section>
+        </sections>
+        <sections>
+            <label><!-- Cover Letter --></label>
+            <section>Cover Letter</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Education Information --></label>
+            <section>Education Information</section>
+        </sections>
+        <sections>
+            <label><!-- Interview 1 Information (Threshold) --></label>
+            <section>Interview 1 Information (Threshold)</section>
+        </sections>
+        <sections>
+            <label><!-- Interview 2 Information (Cultural Fit) --></label>
+            <section>Interview 2 Information (Cultural Fit)</section>
+        </sections>
+        <sections>
+            <label><!-- Match Preferences --></label>
+            <section>Match Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Process --></label>
+            <section>Process</section>
+        </sections>
+        <sections>
+            <label><!-- Professional Experience --></label>
+            <section>Professional Experience</section>
+        </sections>
+        <sections>
+            <label><!-- Ranking Details --></label>
+            <section>Ranking Details</section>
+        </sections>
+        <sections>
+            <label><!-- References --></label>
+            <section>References</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Portal Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

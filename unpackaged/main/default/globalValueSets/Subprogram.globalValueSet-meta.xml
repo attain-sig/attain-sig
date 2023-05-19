@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AB32</fullName>
+        <default>false</default>
+        <label>AB32</label>
+    </customValue>
+    <customValue>
+        <fullName>Academic Partnerships</fullName>
+        <default>false</default>
+        <label>Academic Partnerships</label>
+    </customValue>
+    <customValue>
+        <fullName>Advisory Board</fullName>
+        <default>false</default>
+        <label>Advisory Board</label>
+    </customValue>
+    <customValue>
+        <fullName>Agriculture</fullName>
+        <default>false</default>
+        <label>Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Agriculture / On-Farm Network</fullName>
+        <default>false</default>
+        <label>Agriculture / On-Farm Network</label>
+    </customValue>
+    <customValue>
+        <fullName>Alternative Energy</fullName>
+        <default>false</default>
+        <label>Alternative Energy</label>
+    </customValue>
+    <customValue>
+        <fullName>Campaigns</fullName>
+        <default>false</default>
+        <label>Campaigns</label>
+    </customValue>
+    <customValue>
+        <fullName>Cap and Trade</fullName>
+        <default>false</default>
+        <label>Cap and Trade</label>
+    </customValue>
+    <customValue>
+        <fullName>Catch Shares / Fisheries Management</fullName>
+        <default>false</default>
+        <label>Catch Shares / Fisheries Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Chesapeake Bay</fullName>
+        <default>false</default>
+        <label>Chesapeake Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>China</fullName>
+        <default>false</default>
+        <label>China</label>
+    </customValue>
+    <customValue>
+        <fullName>China Energy Modeling Forum</fullName>
+        <default>false</default>
+        <label>China Energy Modeling Forum</label>
+    </customValue>
+    <customValue>
+        <fullName>CLC</fullName>
+        <default>false</default>
+        <label>CLC</label>
+    </customValue>
+    <customValue>
+        <fullName>Clean Energy</fullName>
+        <default>false</default>
+        <label>Clean Energy</label>
+    </customValue>
+    <customValue>
+        <fullName>Clean Power Plan</fullName>
+        <default>false</default>
+        <label>Clean Power Plan</label>
+    </customValue>
+    <customValue>
+        <fullName>Climate Corps</fullName>
+        <default>false</default>
+        <label>Climate Corps</label>
+    </customValue>
+    <customValue>
+        <fullName>Coastal</fullName>
+        <default>false</default>
+        <label>Coastal</label>
+    </customValue>
+    <customValue>
+        <fullName>Coastal Louisiana</fullName>
+        <default>false</default>
+        <label>Coastal Louisiana</label>
+    </customValue>
+    <customValue>
+        <fullName>Colorado River Delta</fullName>
+        <default>false</default>
+        <label>Colorado River Delta</label>
+    </customValue>
+    <customValue>
+        <fullName>Communications</fullName>
+        <default>false</default>
+        <label>Communications</label>
+    </customValue>
+    <customValue>
+        <fullName>Conservative Leadership Council</fullName>
+        <default>false</default>
+        <label>Conservative Leadership Council</label>
+    </customValue>
+    <customValue>
+        <fullName>Coral</fullName>
+        <default>false</default>
+        <label>Coral</label>
+    </customValue>
+    <customValue>
+        <fullName>Defend Our Future</fullName>
+        <default>false</default>
+        <label>Defend Our Future</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital</fullName>
+        <default>false</default>
+        <label>Digital</label>
+    </customValue>
+    <customValue>
+        <fullName>EDF/TNC Partnership</fullName>
+        <default>false</default>
+        <label>EDF/TNC Partnership</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy Efficiency</fullName>
+        <default>false</default>
+        <label>Energy Efficiency</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy - Natural Gas</fullName>
+        <default>false</default>
+        <label>Energy - Natural Gas</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy – Smart Power</fullName>
+        <default>false</default>
+        <label>Energy – Smart Power</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy Transition</fullName>
+        <default>false</default>
+        <label>Energy Transition</label>
+    </customValue>
+    <customValue>
+        <fullName>Environmental Justice</fullName>
+        <default>false</default>
+        <label>Environmental Justice</label>
+    </customValue>
+    <customValue>
+        <fullName>Executive</fullName>
+        <default>false</default>
+        <label>Executive</label>
+    </customValue>
+    <customValue>
+        <fullName>Fisheries Solution Center</fullName>
+        <default>false</default>
+        <label>Fisheries Solution Center</label>
+    </customValue>
+    <customValue>
+        <fullName>General</fullName>
+        <default>false</default>
+        <label>General</label>
+    </customValue>
+    <customValue>
+        <fullName>Geoengineering</fullName>
+        <default>false</default>
+        <label>Geoengineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Climate</fullName>
+        <default>false</default>
+        <label>Global Climate</label>
+    </customValue>
+    <customValue>
+        <fullName>Green Supply Chain</fullName>
+        <default>false</default>
+        <label>Green Supply Chain</label>
+    </customValue>
+    <customValue>
+        <fullName>Habitat Restoration&amp;Protection/Land Use</fullName>
+        <default>false</default>
+        <label>Habitat Restoration&amp;Protection/Land Use</label>
+    </customValue>
+    <customValue>
+        <fullName>Habitats</fullName>
+        <default>false</default>
+        <label>Habitats</label>
+    </customValue>
+    <customValue>
+        <fullName>Heating Oil</fullName>
+        <default>false</default>
+        <label>Heating Oil</label>
+    </customValue>
+    <customValue>
+        <fullName>International Climate</fullName>
+        <default>false</default>
+        <label>International Climate</label>
+    </customValue>
+    <customValue>
+        <fullName>Investor Confidence Project</fullName>
+        <default>false</default>
+        <label>Investor Confidence Project</label>
+    </customValue>
+    <customValue>
+        <fullName>Legal &amp; regulatory</fullName>
+        <default>false</default>
+        <label>Legal &amp; regulatory</label>
+    </customValue>
+    <customValue>
+        <fullName>Living Cities</fullName>
+        <default>false</default>
+        <label>Living Cities</label>
+    </customValue>
+    <customValue>
+        <fullName>Marine Protected Areas</fullName>
+        <default>false</default>
+        <label>Marine Protected Areas</label>
+    </customValue>
+    <customValue>
+        <fullName>Mom&apos;s clean Air Force</fullName>
+        <default>false</default>
+        <label>Mom&apos;s clean Air Force</label>
+    </customValue>
+    <customValue>
+        <fullName>Moms Clean Air Fund</fullName>
+        <default>false</default>
+        <label>Moms Clean Air Fund</label>
+    </customValue>
+    <customValue>
+        <fullName>Mom’s Clean Air Force</fullName>
+        <default>false</default>
+        <label>Mom’s Clean Air Force</label>
+    </customValue>
+    <customValue>
+        <fullName>Natural Gas</fullName>
+        <default>false</default>
+        <label>Natural Gas</label>
+    </customValue>
+    <customValue>
+        <fullName>Oil &amp; Gas</fullName>
+        <default>false</default>
+        <label>Oil &amp; Gas</label>
+    </customValue>
+    <customValue>
+        <fullName>On-Bill Repayment</fullName>
+        <default>false</default>
+        <label>On-Bill Repayment</label>
+    </customValue>
+    <customValue>
+        <fullName>Organizational capacity</fullName>
+        <default>false</default>
+        <label>Organizational capacity</label>
+    </customValue>
+    <customValue>
+        <fullName>Organizational Communications</fullName>
+        <default>false</default>
+        <label>Organizational Communications</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Equity</fullName>
+        <default>false</default>
+        <label>Private Equity</label>
+    </customValue>
+    <customValue>
+        <fullName>REDD (Rainforests)</fullName>
+        <default>false</default>
+        <label>REDD (Rainforests)</label>
+    </customValue>
+    <customValue>
+        <fullName>Rivers</fullName>
+        <default>false</default>
+        <label>Rivers</label>
+    </customValue>
+    <customValue>
+        <fullName>Sacramento Bay Delta</fullName>
+        <default>false</default>
+        <label>Sacramento Bay Delta</label>
+    </customValue>
+    <customValue>
+        <fullName>San Francisco Bay Delta</fullName>
+        <default>false</default>
+        <label>San Francisco Bay Delta</label>
+    </customValue>
+    <customValue>
+        <fullName>Science</fullName>
+        <default>false</default>
+        <label>Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Smart Power</fullName>
+        <default>false</default>
+        <label>Smart Power</label>
+    </customValue>
+    <customValue>
+        <fullName>Sustainable Finance</fullName>
+        <default>false</default>
+        <label>Sustainable Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Sustainable Seafood</fullName>
+        <default>false</default>
+        <label>Sustainable Seafood</label>
+    </customValue>
+    <customValue>
+        <fullName>Toxics and Chemicals Policy</fullName>
+        <default>false</default>
+        <label>Toxics and Chemicals Policy</label>
+    </customValue>
+    <customValue>
+        <fullName>Transportation</fullName>
+        <default>false</default>
+        <label>Transportation</label>
+    </customValue>
+    <customValue>
+        <fullName>US Clean Air</fullName>
+        <default>false</default>
+        <label>US Clean Air</label>
+    </customValue>
+    <customValue>
+        <fullName>US Climate</fullName>
+        <default>false</default>
+        <label>US Climate</label>
+    </customValue>
+    <customValue>
+        <fullName>Walmart</fullName>
+        <default>false</default>
+        <label>Walmart</label>
+    </customValue>
+    <customValue>
+        <fullName>Water</fullName>
+        <default>false</default>
+        <label>Water</label>
+    </customValue>
+    <customValue>
+        <fullName>Water Markets</fullName>
+        <default>false</default>
+        <label>Water Markets</label>
+    </customValue>
+    <customValue>
+        <fullName>Wetlands</fullName>
+        <default>false</default>
+        <label>Wetlands</label>
+    </customValue>
+    <customValue>
+        <fullName>Wildlife / Endangered Species</fullName>
+        <default>false</default>
+        <label>Wildlife / Endangered Species</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Strategy - China</fullName>
+        <default>false</default>
+        <label>Global Strategy - China</label>
+    </customValue>
+    <customValue>
+        <fullName>Albemarle Sound</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Albemarle Sound</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecosystems - Agriculture</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ecosystems - Agriculture</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecosystems - Water</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ecosystems - Water</label>
+    </customValue>
+    <customValue>
+        <fullName>Agriculture/Farm Bill</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Agriculture/Farm Bill</label>
+    </customValue>
+    <masterLabel>Subprogram</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

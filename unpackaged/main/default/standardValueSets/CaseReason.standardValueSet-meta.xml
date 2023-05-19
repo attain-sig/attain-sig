@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Development</fullName>
+        <default>false</default>
+        <label>Development</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Donor Records Request</fullName>
+        <default>false</default>
+        <label>Donor Records Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Media Calls</fullName>
+        <default>false</default>
+        <label>Media Calls</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Member Services</fullName>
+        <default>false</default>
+        <label>Member Services</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Program Work</fullName>
+        <default>false</default>
+        <label>Program Work</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Other Issues</fullName>
+        <default>false</default>
+        <label>Other Issues</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Non-monetary giving</fullName>
+        <default>false</default>
+        <label>Non-monetary giving</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Online giving and activism</fullName>
+        <default>false</default>
+        <label>Online giving and activism</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Planned Giving</fullName>
+        <default>false</default>
+        <label>Planned Giving</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospect Qualification</fullName>
+        <default>false</default>
+        <label>Prospect Qualification</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Receipt Requested</fullName>
+        <default>false</default>
+        <label>Receipt Requested</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Refund</fullName>
+        <default>false</default>
+        <label>Refund</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Seeking Staff Member</fullName>
+        <default>false</default>
+        <label>Seeking Staff Member</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Sustainer</fullName>
+        <default>false</default>
+        <label>Sustainer</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Website</fullName>
+        <default>false</default>
+        <label>Website</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Facilities Issue</fullName>
+        <default>false</default>
+        <label>Facilities Issue</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>HR Issue</fullName>
+        <default>false</default>
+        <label>HR Issue</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Management</fullName>
+        <default>false</default>
+        <label>Data Management</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Reports or Dashboards</fullName>
+        <default>false</default>
+        <label>Reports or Dashboards</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>User Management/Training/How To</fullName>
+        <default>false</default>
+        <label>User Management/Training/How To</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>System Development or Technical Issue</fullName>
+        <default>false</default>
+        <label>System Development or Technical Issue</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Adjustment</fullName>
+        <default>false</default>
+        <label>Adjustment</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

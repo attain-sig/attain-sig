@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Catalyst Circle MCAF-Only --></label>
+        <name>Catalyst_Circle_MCAF_Only__c</name>
+    </CustomFieldTranslation>

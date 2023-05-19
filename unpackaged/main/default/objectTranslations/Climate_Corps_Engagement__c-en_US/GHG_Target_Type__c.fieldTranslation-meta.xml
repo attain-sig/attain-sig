@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GHG Target Type --></label>
+        <name>GHG_Target_Type__c</name>
+        <picklistValues>
+            <masterLabel>Absolute goals or targets</masterLabel>
+            <translation><!-- Absolute goals or targets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intensity-based goals or targets</masterLabel>
+            <translation><!-- Intensity-based goals or targets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Science-based goals or targets</masterLabel>
+            <translation><!-- Science-based goals or targets --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

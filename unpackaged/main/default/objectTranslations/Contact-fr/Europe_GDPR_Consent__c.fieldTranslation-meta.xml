@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Europe GDPR Consent --></label>
+        <name>Europe_GDPR_Consent__c</name>
+        <picklistValues>
+            <masterLabel>Opted-in</masterLabel>
+            <translation><!-- Opted-in --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opted-out</masterLabel>
+            <translation><!-- Opted-out --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

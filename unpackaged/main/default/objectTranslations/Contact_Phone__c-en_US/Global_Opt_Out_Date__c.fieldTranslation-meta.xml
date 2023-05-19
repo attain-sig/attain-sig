@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicate date phone number was opted out of all communications. --></help>
+        <label><!-- Global Opt Out Date --></label>
+        <name>Global_Opt_Out_Date__c</name>
+    </CustomFieldTranslation>

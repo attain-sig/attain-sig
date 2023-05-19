@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Deceased Info Source --></label>
+        <name>Deceased_Info_Source__c</name>
+        <picklistValues>
+            <masterLabel>Anecdotal</masterLabel>
+            <translation><!-- Anecdotal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estate</masterLabel>
+            <translation><!-- Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family Member</masterLabel>
+            <translation><!-- Family Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>News source</masterLabel>
+            <translation><!-- News source --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Postal Service</masterLabel>
+            <translation><!-- Postal Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Screening</masterLabel>
+            <translation><!-- Screening --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

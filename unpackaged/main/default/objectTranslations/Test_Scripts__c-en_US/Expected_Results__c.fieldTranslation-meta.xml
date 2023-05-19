@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- List out the details of what the result of a completed test should be. For example call out fields that should be updated, automations that should run, or records that should be created. --></help>
+        <label><!-- Expected Results --></label>
+        <name>Expected_Results__c</name>
+    </CustomFieldTranslation>

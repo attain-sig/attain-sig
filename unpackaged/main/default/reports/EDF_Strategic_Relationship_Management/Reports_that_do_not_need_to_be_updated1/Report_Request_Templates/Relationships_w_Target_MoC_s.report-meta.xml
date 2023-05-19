@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Contact.X18_Digit_Contact_ID__c</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$npe4__Relationship__c.npe4__Description__c</field>
+    </columns>
+    <columns>
+        <field>npe4__Relationship__c.npe4__Relationship_Explanation__c</field>
+    </columns>
+    <columns>
+        <field>npe4__Relationship__c.npe4__RelatedContact__c</field>
+    </columns>
+    <columns>
+        <field>FK_$npe4__Relationship__c.npe4__Status__c</field>
+    </columns>
+    <columns>
+        <field>FK_$npe4__Relationship__c.npe4__Type__c</field>
+    </columns>
+    <description>Action Item: Use this report when staff request contacts who have relationships with target Members of Congress in the standard Relationship object. How to modify: Adjust the name of the target MoC and add filters.</description>
+    <format>Tabular</format>
+    <name>Relationships w/ Target MoC&apos;s</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactCustomEntity$npe4__Relationship__c@npe4__Relationship__c.npe4__ReciprocalRelationship__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>LAST_ACTIVITY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

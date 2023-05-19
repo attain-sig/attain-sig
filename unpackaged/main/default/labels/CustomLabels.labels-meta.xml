@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="utf-8"?><CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Contact_Information_Disclaimer</fullName>
+        <categories>Fellow Application Page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Information Disclaimer</shortDescription>
+        <value>Climate Corps is committed to creating a diverse environment and is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. Please note that this section of the application is voluntary and your responses will be fully confidential.
+Providing us information about your identity will allow us to track the effectiveness of our recruiting and DEI efforts and ensure that the needs of all fellows are taken into consideration.</value>
+    </labels>
+    <labels>
+        <fullName>DeliverablesTracker_Heading_FellowGreetings</fullName>
+        <categories>DeliverablesTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeliverablesTracker_Heading_FellowGreetings</shortDescription>
+        <value>Hello,</value>
+    </labels>
+    <labels>
+        <fullName>DeliverablesTracker_Heading_Text</fullName>
+        <categories>DeliverablesTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeliverablesTracker_Heading_Text</shortDescription>
+        <value>Deliverables Tracker</value>
+    </labels>
+    <labels>
+        <fullName>DeliverablesTracker_Label_Done</fullName>
+        <categories>DeliverablesTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeliverablesTracker_Label_Done</shortDescription>
+        <value>Done</value>
+    </labels>
+    <labels>
+        <fullName>DeliverablesTracker_Label_DueDate</fullName>
+        <categories>DeliverablesTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeliverablesTracker_Label_DueDate</shortDescription>
+        <value>Due Date:</value>
+    </labels>
+    <labels>
+        <fullName>DeliverablesTracker_Label_NotDone</fullName>
+        <categories>DeliverablesTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeliverablesTracker_Label_NotDone</shortDescription>
+        <value>Not done</value>
+    </labels>
+    <labels>
+        <fullName>DeliverablesTracker_MessageTitle_ErrorFetchingContact</fullName>
+        <categories>DeliverablesTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeliverablesTracker_MessageTitle_ErrorFetchingContact</shortDescription>
+        <value>Error fetching Contact</value>
+    </labels>
+    <labels>
+        <fullName>DeliverablesTracker_MessageTitle_ErrorFetchingEngagement</fullName>
+        <categories>DeliverablesTracker</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeliverablesTracker_MessageTitle_ErrorFetchingEngagement</shortDescription>
+        <value>Error fetching Engagement</value>
+    </labels>
+    <labels>
+        <fullName>EDF_CoverLetter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EDF_CoverLetter</shortDescription>
+        <value>You may address your cover letter to the Climate Corps Team. Please describe any specific courses, qualifications, skills and experience (academic, professional, or personal) that have prepared you for the Climate Corps fellowship. Finally, please describe how a Climate Corps fellowship will impact your career.</value>
+    </labels>
+    <labels>
+        <fullName>EDF_DashBoard_ThankYouFillOutInformation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EDF_DashBoard_ThankYouFillOutInformation</shortDescription>
+        <value>Thank you for your interest in applying to Climate Corps. Please fill out the information below.</value>
+    </labels>
+    <labels>
+        <fullName>EDF_Engagement_Confirmed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EDF_Engagement_Confirmed</shortDescription>
+        <value>Engagement Confirmed</value>
+    </labels>
+    <labels>
+        <fullName>EDF_GenarateFellowApplicationPDF</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EDF_GenarateFellowApplicationPDF</shortDescription>
+        <value>/EDFCCFellowPortal/FellowApplicationPDF</value>
+    </labels>
+    <labels>
+        <fullName>EDF_Hello</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EDF_Hello</shortDescription>
+        <value>Hello</value>
+    </labels>
+    <labels>
+        <fullName>EDF_Prospective_Applicant</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EDF_Prospective_Applicant</shortDescription>
+        <value>Prospective Applicant</value>
+    </labels>
+    <labels>
+        <fullName>EDF_RegistrationTemporaryPassword</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EDF_RegistrationTemporaryPassword</shortDescription>
+        <value>It looks like this email is already tied to an active account, please reset your password instead.</value>
+    </labels>
+    <labels>
+        <fullName>EDF_Sharepoint_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EDF_Sharepoint_URL</shortDescription>
+        <value>https://edforg.sharepoint.com/sites/ClimateCorpsResourceLIbrary/Shared%20Documents/Forms/Prework%20View.aspx</value>
+    </labels>
+    <labels>
+        <fullName>EDF_SystemAdministrator_User_ID</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EDF SystemAdministrator User ID</shortDescription>
+        <value>0058W000009eyJC</value>
+    </labels>
+    <labels>
+        <fullName>EngList_Instruction1</fullName>
+        <categories>Engagement List</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EngList_Instruction1</shortDescription>
+        <value>&lt;p&gt;
+&lt;span&gt;Please select the top 5 projects for which you would like to be considered.&lt;/span&gt;
+To do so, select your preferred projects by opening the project description and using the arrows to adjust the rank (1-5, 1 being your top choice). In the comment box, write a paragraph (approximately 5 sentences) stating your case for each of those projects.
+&lt;/p&gt; &amp;nbsp;</value>
+    </labels>
+    <labels>
+        <fullName>EngList_Instruction2</fullName>
+        <categories>Engagement List</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EngList_Instruction2</shortDescription>
+        <value>&lt;p&gt;Be sure to reference prior work experiences and academic training that are relevant to each organization’s project description. Many projects will indicate required or additional skillset that are pertinent to the fellow’s role; please consider these as you make your selections. Remember, this is your opportunity to tell us why you’re the best choice for this project! The more detailed information you provide, the easier it will be for our matching team to place you with the placement that best aligns with your interests and skillset. &lt;em&gt;Please be sure to read all of the logistical considerations for projects to ensure they are a good match for your needs.&lt;/em&gt;&lt;/p&gt; 
+&lt;p&gt;Projects with gold starts are particularly competitive placements. Projects with blue stars are those that we would like to highlight for your consideration.&lt;/p&gt;
+&lt;p&gt;If there are projects outside of your top 5 that you would like to be considered for, use the bookmark symbol to indicate interest.&lt;/p&gt;&amp;nbsp;</value>
+    </labels>
+    <labels>
+        <fullName>EngList_Instruction3</fullName>
+        <categories>Engagement List</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EngList_Instruction3</shortDescription>
+        <value>&lt;p&gt;You can save your work at any time using the Save All button, which allows you to come back to it later. Once you Submit, you will no longer be able to make changes to your selections or comments.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;EDF does not guarantee placement with any one organization. If you do not enter any host preferences, you will not be considered for a placement.&lt;/em&gt; &lt;/p&gt; &amp;nbsp;</value>
+    </labels>
+    <labels>
+        <fullName>EngList_Instruction4</fullName>
+        <categories>Engagement List</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EngList_Instruction4</shortDescription>
+        <value>&amp;nbsp;</value>
+    </labels>
+    <labels>
+        <fullName>EngList_SearchTips_Tip1</fullName>
+        <categories>Engagement List</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EngList_SearchTips_Tip1</shortDescription>
+        <value>&lt;li class="slds-text-body_small"&gt;&lt;b style="font-size: xx-large;"&gt;.&lt;/b&gt;If you prefer on-site vs. remote fellowships, use the “Fellowship Location Preference” filter. Be sure to also look at projects marked as Fellow Preference, as those hosts have indicated they are open to on-site or remote arrangements.&lt;/li&gt;</value>
+    </labels>
+    <labels>
+        <fullName>EngList_SearchTips_Tip2</fullName>
+        <categories>Engagement List</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EngList_SearchTips_Tip2</shortDescription>
+        <value>&lt;li class="slds-text-body_small"&gt;&lt;b style="font-size: xx-large;"&gt;.&lt;/b&gt;On-site projects that are not accessible by public transportation will require a private vehicle. If you don’t have access to a private vehicle, filter for remote projects OR projects that are accessible by public transportation.&lt;/li&gt;</value>
+    </labels>
+    <labels>
+        <fullName>EngList_SearchTips_Tip3</fullName>
+        <categories>Engagement List</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EngList_SearchTips_Tip3</shortDescription>
+        <value>&lt;li class="slds-text-body_small"&gt;&lt;b style="font-size: xx-large;"&gt;.&lt;/b&gt;Make use of the search bar, particularly if you’re looking for projects outside our main project types.&lt;/li&gt;</value>
+    </labels>
+    <labels>
+        <fullName>EngList_SearchTips_Tip4</fullName>
+        <categories>Engagement List</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EngList_SearchTips_Tip4</shortDescription>
+        <value>&lt;li class="slds-text-body_small"&gt;&lt;b style="font-size: xx-large;"&gt;.&lt;/b&gt;Projects without a fellowship city or state have multiple location options, so try using the search bar if you’re not seeing projects in the state you are looking for.&lt;/li&gt;</value>
+    </labels>
+    <labels>
+        <fullName>EngList_SearchTips_Tip5</fullName>
+        <categories>Engagement List</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EngList_SearchTips_Tip5</shortDescription>
+        <value>&amp;nbsp;</value>
+    </labels>
+    <labels>
+        <fullName>FELLOWAPP_Apply_for_China_Fellowship</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FELLOWAPP Apply for China Fellowship</shortDescription>
+        <value>Would you like your application to be considered for China Fellowship program as well?</value>
+    </labels>
+    <labels>
+        <fullName>FELLOWAPP_Apply_for_India_Fellowship</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FELLOWAPP_Apply_for_India_Fellowship</shortDescription>
+        <value>Would you like your application to be considered for the India Fellowship program as well?</value>
+    </labels>
+    <labels>
+        <fullName>FELLOWAPP_CoverLetter_Header1</fullName>
+        <categories>Fellow Application Page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FELLOWAPP_CoverLetter_Header1</shortDescription>
+        <value>You may address your cover letter to the Climate Corps Team. Please describe any specific courses, qualifications, skills and experience (academic, professional, and/or personal) that have prepared you for the Climate Corps Fellowship. Finally, please describe how a Climate Corps fellowship will impact your career.</value>
+    </labels>
+    <labels>
+        <fullName>FELLOWAPP_CoverLetter_Header3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FELLOWAPP CoverLetter Header3</shortDescription>
+        <value>Please provide the contact information for three references, at least 2 of which are professional and 1 of which is a supervisor. References will be contacted via email during the interview phase. You will receive notice prior to your references being contacted.</value>
+    </labels>
+    <labels>
+        <fullName>FELLOWAPP_CoverLetter_Header4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FELLOWAPP_CoverLetter_Header4</shortDescription>
+        <value>Please add any additional information that is not already reflected in your application, cover letter, or resume that you would like the review team to know.</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_Back_ButtonLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_Back_ButtonLabel</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_Cancel_ButtonLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_Cancel_ButtonLabel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_AccessToVehicle_FieldLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_AccessToVehicle_FieldLabel</shortDescription>
+        <value>If yes, do you have access to a vehicle this summer or would you be willing to get access to one (e.g. rent)?</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_ChinaRegionPref_FieldLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_ChinaRegionPref_FieldLabel</shortDescription>
+        <value>Select regions in China you would be willing to relocate to for the fellowship</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_ChinaRegionPref_HelpText</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_ChinaRegionPref_HelpText</shortDescription>
+        <value>___HIDE___</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_IndiaRegionPref_FieldLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_IndiaRegionPref_FieldLabel</shortDescription>
+        <value>Select regions in India you would be willing to relocate to for the fellowship</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_IndiaRegionPref_HelpText</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_IndiaRegionPref_HelpText</shortDescription>
+        <value>___HIDE___</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_InterestForIndiaChina_FieldLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_InterestForIndiaChina_FieldLabel</shortDescription>
+        <value>I'm interested in also applying for</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_InterestForIndiaChina_HelpText</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_InterestForIndiaChina_HelpText</shortDescription>
+        <value>India program places fellows with organizations in India and is open to Indian nationals. The China program places fellows with organizations in China and is open to Chinese nationals</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_Page_Heading</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_Page_Heading</shortDescription>
+        <value>Match Preferences</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_ProjectTypeFirstChoice_FieldLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_ProjectTypeFirstChoice_FieldLabel</shortDescription>
+        <value>Project Type Preference One</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_ProjectTypePreference3Choices_Heading</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_ProjectTypePreference3Choices_Heading</shortDescription>
+        <value>Indicate your top three Project Type Preferences from the dropdown lists</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_ProjectTypePreference_Heading</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_ProjectTypePreference_Heading</shortDescription>
+        <value>Project Type Preferences</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_ProjectTypeSecondChoice_FieldLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_ProjectTypeSecondChoice_FieldLabel</shortDescription>
+        <value>Project Type Preference Two</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_ProjectTypeThirdChoice_FieldLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_ProjectTypeThirdChoice_FieldLabel</shortDescription>
+        <value>Project Type Preference Three</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_SectorFirstChoice_FieldLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_SectorFirstChoice_FieldLabel</shortDescription>
+        <value>Sector First Choice</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_SectorPreference3Choices_Heading</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_SectorPreference3Choices_Heading</shortDescription>
+        <value>Indicate your top three choices from the dropdown lists</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_SectorPreference_Heading</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_SectorPreference_Heading</shortDescription>
+        <value>Sector Preferences</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_SectorSecondChoice_FieldLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_SectorSecondChoice_FieldLabel</shortDescription>
+        <value>Sector Second Choice</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_SectorThirdChoice_FieldLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_SectorThirdChoice_FieldLabel</shortDescription>
+        <value>Sector Third Choice</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_USDriverLicense_FieldLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_USDriverLicense_FieldLabel</shortDescription>
+        <value>Do you have a valid US Driver's License?</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_USRegionPrefText_CharacterLimit</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_USRegionPrefText_CharacterLimit</shortDescription>
+        <value>255</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_USRegionPrefText_FieldLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_USRegionPrefText_FieldLabel</shortDescription>
+        <value>Enter information about regional preferences, including any specifics regarding cities for the matching team</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_USRegionPref_FieldLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_USRegionPref_FieldLabel</shortDescription>
+        <value>Please choose the regions you would be willing to relocate to for the fellowship</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_MatchPref_USRegionPref_HelpText</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_MatchPref_USRegionPref_HelpText</shortDescription>
+        <value>Please note, fellows are expected to pay for and organize any relocation associated with the fellowship. Fellows are also expected to pay for housing and living expenses during the fellowship.</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_SaveNext_ButtonLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_SaveNext_ButtonLabel</shortDescription>
+        <value>Save and next</value>
+    </labels>
+    <labels>
+        <fullName>FellowApp_Save_ButtonLabel</fullName>
+        <categories>Fellow Application</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowApp_Save_ButtonLabel</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>FellowPortalHomepage_HeadingLabel_ActionCenter</fullName>
+        <categories>Homepage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowPortalHomepage_HeadingLabel_ActionCenter</shortDescription>
+        <value>Action Center</value>
+    </labels>
+    <labels>
+        <fullName>FellowPortalHomepage_HeadingLabel_NextSteps</fullName>
+        <categories>Homepage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowPortalHomepage_HeadingLabel_NextSteps</shortDescription>
+        <value>Next Steps &amp; Your Status</value>
+    </labels>
+    <labels>
+        <fullName>FellowPortalHomepage_HeadingLabel_Shortcuts</fullName>
+        <categories>Homepage</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FellowPortalHomepage_HeadingLabel_Shortcuts</shortDescription>
+        <value>Shortcuts</value>
+    </labels>
+    <labels>
+        <fullName>General_Task_Record_Type_ID</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>General Task Record Type ID</shortDescription>
+        <value>0128W000000JvC5QAK</value>
+    </labels>
+    <labels>
+        <fullName>HellerFull_Org_ID</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HellerFull Org ID</shortDescription>
+        <value>00D7i0000003hZT</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_Approved_Project_Summary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS FOR EDF Help Text Approved Project Summary</shortDescription>
+        <value>As per the instructions, submit your Public Summary (including onsite photos) to your host organization by your last day. Note approval status here.</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_Comments_on_your_final_deliverables</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS_FOR_EDF_Help_Text_Comments_on_your_final_deliverables</shortDescription>
+        <value>Comments on your final deliverables</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_Complete_Training_PreWork</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS FOR EDF Help Text Complete Training PreWork</shortDescription>
+        <value>Please download, read, electronically sign and upload the photo release form here.</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_Final_Deliverables_Instructions_and_Template</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS_FOR_EDF_Help_Text_Final Deliverables Instructions and Template</shortDescription>
+        <value>Download Final Deliverables Instructions</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_For_how_many_building_did_you_analyze_data</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS_FOR_EDF_Help_Text_For_how_many_building_</shortDescription>
+        <value>If you analyzed energy data, for how many buildings did you analyze data?</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_Have_you_submitted_to_Host</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS_FOR_EDF_Help_Text_Have_you_submitted_to_Host</shortDescription>
+        <value>What should EDF know about the approval process for your public summary? What is the current status?</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_Headding_Part1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS_FOR_EDF_Help_Text_Headding_Part1</shortDescription>
+        <value>Part 1: Public Deliverables (once approved by your host, we will publish to our website)</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_If_you_worked_on_a_supply_chain</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS_FOR_EDF_Help_Text_If you worked_on_a_supply_chain</shortDescription>
+        <value>If you worked on a supply chain project, how many of your host company’s suppliers will your recommendations influence?</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_LinkedIn</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS_FOR_EDF_Help_Text_LinkedIn</shortDescription>
+        <value>Paste in a link to your LinkedIn profile to be included on your Climate Corps webpage.</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_Onsite_Photo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS FOR EDF Help Text Onsite Photo</shortDescription>
+        <value>Please upload your best 3 on-site photos from the summer. High resolution jpeg, jpg, png or gif file. If you have more photos, please email your Engagement Manager. Please be sure these were included with your public summary for host approval.</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_Personal_email_address</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS_FOR_EDF_Help_Text_Personal_email_address</shortDescription>
+        <value>Personal (non-school) email address for post-fellowship Climate Corps network communications</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_Photo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS FOR EDF Help Text Photo</shortDescription>
+        <value>Please upload a professional and well-lit photograph of yourself. The photo must have high resolution (max size of 5MB), be 90x118 pixels in size, and be in jpeg, jpg, png, or gif format.</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_Prior_Goal_Setting_Projects</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS_FOR_EDF_Help_Text_Prior_Goal_Setting_Projects</shortDescription>
+        <value>If you worked on a goal setting project, what type of GHG/energy reduction/renewable energy goals or targets did you help develop or advance?</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_Public_Summary_Approval_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Public Summary Approval Status</shortDescription>
+        <value>Public Summary Approval Status</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_Twitter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS FOR EDF Help Text Twitter</shortDescription>
+        <value>If you have a twitter handle, write it here so that @EDFbiz can follow you.</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_What_Areas_in_your_fellowship</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS_FOR_EDF_Help_Text_What_Areas_in_your_fellowship</shortDescription>
+        <value>What areas did you work on in your fellowship (select as many as apply)?</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Help_Text_Workplan_Template</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS_FOR_EDF_Help_Text_Workplan_Template</shortDescription>
+        <value>Please submit your final workplan using the template provided here. You will need to work with your host supervisor and EM to develop your summer workplan. After your workplan is submitted, please email your EM to set up a kick-off call with your host supervisor.</value>
+    </labels>
+    <labels>
+        <fullName>ITEMS_FOR_EDF_Submitted_Final_Deliverables</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEMS FOR EDF Submitted Final Deliverables</shortDescription>
+        <value>I certify that I have submitted all of my final deliverables to EDF (initial)</value>
+    </labels>
+    <labels>
+        <fullName>ITEM_FOR_EDF_HELP_dates_and_workplan_here</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ITEM_FOR_EDF_HELP_dates_and_workplan_here</shortDescription>
+        <value>Start/End Dates and Workplan</value>
+    </labels>
+    <labels>
+        <fullName>ItemsForEDF_Download_Training_Pre_work</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ItemsForEDF_Download Training Pre-work</shortDescription>
+        <value>Photo Release Form</value>
+    </labels>
+    <labels>
+        <fullName>Ledger_Entry_Feedback_Assignee_ID</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ledger Entry Feedback Assignee ID</shortDescription>
+        <value>0058W000009eyLwQAI</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_AcceptedFileFormats</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_AcceptedFileFormats</shortDescription>
+        <value>.pdf,.png,.docx,.xlsx,.xls,.xlsm</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_AcceptedPhotoFormats</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_AcceptedPhotoFormats</shortDescription>
+        <value>.png,.jpg,.jpeg,.gif</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_ButtonLabel_Save</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_ButtonLabel_Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FieldLabel_CompletedActivitiesReport</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FieldLabel_CompletedActivitiesReport</shortDescription>
+        <value>Completed Activities Report</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FieldLabel_FellowshipEndDate</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FieldLabel_FellowshipEndDate</shortDescription>
+        <value>Fellowship end date</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FieldLabel_FellowshipStartDate</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FieldLabel_FellowshipStartDate</shortDescription>
+        <value>Fellowship start date</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FieldLabel_FinalDeliverables</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FieldLabel_FinalDeliverables</shortDescription>
+        <value>Final Deliverables</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FieldLabel_Initials</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FieldLabel_Initials</shortDescription>
+        <value>Sign your initials in the box below</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FieldLabel_LinkedInProfile</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FieldLabel_LinkedInProfile</shortDescription>
+        <value>Add a LinkedIn Profile</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FieldLabel_PhotoReleaseForm</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FieldLabel_PhotoReleaseForm</shortDescription>
+        <value>Photo Release Form</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FieldLabel_PhotoReleaseUpload</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FieldLabel_PhotoReleaseUpload</shortDescription>
+        <value>Photo Release Upload</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FieldLabel_TwitterHandle</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FieldLabel_TwitterHandle</shortDescription>
+        <value>Twitter Handle</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FieldLabel_UploadYourHeadshot</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FieldLabel_UploadYourHeadshot</shortDescription>
+        <value>Upload your headshot</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FieldLabel_UploadYourWorkplan</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FieldLabel_UploadYourWorkplan</shortDescription>
+        <value>Upload your workplan</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileURL_CompletedActivitiesReport</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileURL_CompletedActivitiesReport</shortDescription>
+        <value>https://duckduckgo.com/?q=project+database+template</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileURL_CompletedActivitiesReport_CN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileURL_CompletedActivitiesReport_CN</shortDescription>
+        <value>https://duckduckgo.com/?q=project+database+template+china</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileURL_CompletedActivitiesReport_IN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileURL_CompletedActivitiesReport_IN</shortDescription>
+        <value>https://duckduckgo.com/?q=project+database+template+india</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileURL_PhotoReleaseForm</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileURL_PhotoReleaseForm</shortDescription>
+        <value>Photo_Release_Form.pdf</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileURL_PhotoReleaseForm_CN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileURL_PhotoReleaseForm_CN</shortDescription>
+        <value>2023_China_Photo_Release_Form_EN_CN_2023.pdf</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileURL_PhotoReleaseForm_IN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileURL_PhotoReleaseForm_IN</shortDescription>
+        <value>Photo_Release_Form.pdf</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileURL_WorkplanTemplate</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileURL_WorkplanTemplate</shortDescription>
+        <value>2023_Workplan_Template.docx</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileURL_WorkplanTemplate_CN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileURL_WorkplanTemplate_CN</shortDescription>
+        <value>2023_China_Workplan_Template.docx</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileURL_WorkplanTemplate_IN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileURL_WorkplanTemplate_IN</shortDescription>
+        <value>2023_India_Workplan_Template.docx</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileUrl_FellowAgreement</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileUrl_FellowAgreement</shortDescription>
+        <value>https://www.usfellowagreement.com</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileUrl_FellowAgreement_CN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileUrl_FellowAgreement_CN</shortDescription>
+        <value>2023_CC_China_Fellow_Agreement_EN_CN.pdf</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileUrl_FellowAgreement_IN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileUrl_FellowAgreement_IN</shortDescription>
+        <value>https://www.indiafellowagreement.com</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileUrl_FinalDeliverableInstructions</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileUrl_FinalDeliverableInstructions</shortDescription>
+        <value>http://edfclimatecorps.org/sites/edfclimatecorps.org/files/Final-Deliverables-Instructions.pdf</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileUrl_FinalDeliverableInstructions_CN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileUrl_FinalDeliverableInstructions_CN</shortDescription>
+        <value>http://edfclimatecorps.org/sites/edfclimatecorps.org/files/Final-Deliverables-Instructions.pdf</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileUrl_FinalDeliverableInstructions_IN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileUrl_FinalDeliverableInstructions_IN</shortDescription>
+        <value>http://edfclimatecorps.org/sites/edfclimatecorps.org/files/Final-Deliverables-Instructions-india.pdf</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileUrl_PreTrainingSurvey</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileUrl_PreTrainingSurvey</shortDescription>
+        <value>https://forms.office.com/r/VQXMas3iTE</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileUrl_PreTrainingSurvey_CN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileUrl_PreTrainingSurvey_CN</shortDescription>
+        <value>https://www.google.com</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileUrl_PreTrainingSurvey_IN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileUrl_PreTrainingSurvey_IN</shortDescription>
+        <value>https://www.google.co.in</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileUrl_PreWork</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileUrl_PreWork</shortDescription>
+        <value>http://edfclimatecorps.org/sites/edfclimatecorps.org/files/Fellowship_Training_Prework.pdf</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileUrl_PreWork_CN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileUrl_PreWork_CN</shortDescription>
+        <value>https://www.bbc.com</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileUrl_PreWork_IN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileUrl_PreWork_IN</shortDescription>
+        <value>https://www.bbc.co.in</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileUrl_TrainingInfoSheet</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileUrl_TrainingInfoSheet</shortDescription>
+        <value>https://business.edf.org/files/Climate-Corps-Training-Summary.pdf</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileUrl_TrainingInfoSheet_CN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileUrl_TrainingInfoSheet_CN</shortDescription>
+        <value>2023_CC_China_Fellow_Training_Agenda_CN.pdf</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_FileUrl_TrainingInfoSheet_IN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_FileUrl_TrainingInfoSheet_IN</shortDescription>
+        <value>https://thewireindia.in</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Heading_Text</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Heading_Text</shortDescription>
+        <value>Portal Deliverables</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_CertifyTrainingAttendance</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_CertifyTrainingAttendance</shortDescription>
+        <value>I certify that I have attended (either live or by watching recordings) the required amount of fellow training sessions in order to be compensated for the week.</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_ClickHereToDownload</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_ClickHereToDownload</shortDescription>
+        <value>Click here to download</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_ClickHereToRead</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_ClickHereToRead</shortDescription>
+        <value>Agenda coming soon</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_ClickHereToSubmit</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_ClickHereToSubmit</shortDescription>
+        <value>Click here to submit</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_CompleteNecessaryPreWork</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_CompleteNecessaryPreWork</shortDescription>
+        <value>Before the training, please complete the necessary pre-work by</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_CompletePostTrainingSurvey</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_CompletePostTrainingSurvey</shortDescription>
+        <value>Complete Post-Training Survey</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_CompletePreWork</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_CompletePreWork</shortDescription>
+        <value>Read the Climate Corps Reference Book</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_Delete</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_Download</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_Download</shortDescription>
+        <value>Download</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_DownloadExcelTemplateForCompletedActivitiesReport</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_DownloadExcelTemplateForCompletedActivitiesReport</shortDescription>
+        <value>Download excel template for completed activities report</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_DueBy</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_DueBy</shortDescription>
+        <value>Due by</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_FellowAgreement</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_FellowAgreement</shortDescription>
+        <value>China Fellow Agreement</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_MissedTrainingSession</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_MissedTrainingSession</shortDescription>
+        <value>If you missed any sessions during training or you still need to meet your training requirement:</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_PreTrainingSurveyBy</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_PreTrainingSurveyBy</shortDescription>
+        <value>Pre-Training Survey due by</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_ReminderFillSurvey</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_ReminderFillSurvey</shortDescription>
+        <value>As a reminder, you agreed to fill out the survey as a part of your fellowship agreement.</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_Submit</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_Submit</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_TrainingInfoSheet</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_TrainingInfoSheet</shortDescription>
+        <value>Training info sheet due by</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_Label_WorkplanTemplate</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_Label_WorkplanTemplate</shortDescription>
+        <value>Workplan Template</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_LinkLabel_ClickHereToAccessRecordings</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_LinkLabel_ClickHereToAccessRecordings</shortDescription>
+        <value>Recording links coming soon.</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_LinkLabel_ClickHereToComplete</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_LinkLabel_ClickHereToComplete</shortDescription>
+        <value>Survey available here</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_LinkLabel_CompletePreWork</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_LinkLabel_CompletePreWork</shortDescription>
+        <value>Complete pre-work</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_LinkLabel_ExcelTemplatXlsx</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_LinkLabel_ExcelTemplatXlsx</shortDescription>
+        <value>Excel template.xlsx</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_LinkLabel_ThreeOnsitePhotos</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_LinkLabel_ThreeOnsitePhotos</shortDescription>
+        <value>Three Onsite Photos</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_MessageLabel_AddInitials</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_MessageLabel_AddInitials</shortDescription>
+        <value>Add Initials</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_MessageLabel_ErrorWhileSaving</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_MessageLabel_ErrorWhileSaving</shortDescription>
+        <value>Error saving your information. Please contact your engagement manager for help.</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_MessageLabel_FileDeletedSuccessfully</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_MessageLabel_FileDeletedSuccessfully</shortDescription>
+        <value>File Deleted</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_MessageLabel_SavedSuccessFillOtherSection</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_MessageLabel_SavedSuccessFillOtherSection</shortDescription>
+        <value>Your information was saved!</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_MessageLabel_SelectOnly3Photos</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_MessageLabel_SelectOnly3Photos</shortDescription>
+        <value>You may only select up to 3 photos</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_MessageLabel_UnableToDeleteFile</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_MessageLabel_UnableToDeleteFile</shortDescription>
+        <value>Unable to delete the file</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_MessageTitle_Error</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_MessageTitle_Error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_MessageTitle_SavedSuccessfully</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_MessageTitle_SavedSuccessfully</shortDescription>
+        <value>Saved Successfully!</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_MessageTitle_Success</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_MessageTitle_Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_PillLabel_Approved</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_PillLabel_Approved</shortDescription>
+        <value>Approved</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_PillLabel_PendingApproval</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_PillLabel_PendingApproval</shortDescription>
+        <value>Pending Approval</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_PillStyle_Approved</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_PillStyle_Approved</shortDescription>
+        <value>color:#000000; background-color:#7ED6C0;</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_PillStyle_PendingApproval</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_PillStyle_PendingApproval</shortDescription>
+        <value>font-style: inherit;</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_SectionHeadingIcon_DatesAndWorkplan</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_SectionHeadingIcon_DatesAndWorkplan</shortDescription>
+        <value>utility:note</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_SectionHeadingIcon_FinalDeliverables</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_SectionHeadingIcon_FinalDeliverables</shortDescription>
+        <value>utility:copy</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_SectionHeadingIcon_MediaProfile</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_SectionHeadingIcon_MediaProfile</shortDescription>
+        <value>utility:people</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_SectionHeadingIcon_PostTrainingItems</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_SectionHeadingIcon_PostTrainingItems</shortDescription>
+        <value>utility:knowledge_smart_link</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_SectionHeadingIcon_PreTrainingItems</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_SectionHeadingIcon_PreTrainingItems</shortDescription>
+        <value>utility:user_role</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_SectionHeading_FinalDeliverables</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_SectionHeading_FinalDeliverables</shortDescription>
+        <value>Final Deliverables</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_SectionHeading_MediaProfile</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_SectionHeading_MediaProfile</shortDescription>
+        <value>Media Profile</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_SectionHeading_Part2InternalToEDFDeliverables</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_SectionHeading_Part2InternalToEDFDeliverables</shortDescription>
+        <value>Part 2: Internal to EDF deliverables (these are not shared)</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_SectionHeading_PostTrainingItems</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_SectionHeading_PostTrainingItems</shortDescription>
+        <value>Post-Training Items</value>
+    </labels>
+    <labels>
+        <fullName>PortalDeliverable_SectionHeading_PreTrainingItems</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PortalDeliverable_SectionHeading_PreTrainingItems</shortDescription>
+        <value>Pre-Training Items</value>
+    </labels>
+    <labels>
+        <fullName>Post_Training_Recordings</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Training Recordings</shortDescription>
+        <value>https://www.google.com/</value>
+    </labels>
+    <labels>
+        <fullName>Post_Training_Recordings_CN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Training Recordings CN</shortDescription>
+        <value>https://docs.google.com/document/d/1ElR3hCXeJ90H9eRelzvQLRaUndiVlzcXwrObwN9k2Rs/edit?usp=sharing</value>
+    </labels>
+    <labels>
+        <fullName>Post_Training_Recordings_IN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Training Recordings IN</shortDescription>
+        <value>https://docs.google.com/document/d/1ElR3hCXeJ90H9eRelzvQLRaUndiVlzcXwrObwN9k2Rs/edit?usp=sharing&amp;region=in</value>
+    </labels>
+    <labels>
+        <fullName>Post_Training_Survey</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Training Survey</shortDescription>
+        <value>https://www.surveymonkey.com/survey-closed?sm=pIDQa_2FqXqHdlEVRxhVWqdbsKTOnYFye4CXHfInzRXyfuKe74UceCg_2BBYx4SlBYBi6u07gLxZfeK5cP6Kzo8ZUN29n7Z95xBlNdN2nP4dkqs_3D</value>
+    </labels>
+    <labels>
+        <fullName>Post_Training_Survey_CN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Training Survey CN</shortDescription>
+        <value>https://www.surveymonkey.com/r/2022CNTraining</value>
+    </labels>
+    <labels>
+        <fullName>Post_Training_Survey_IN</fullName>
+        <categories>Portal Deliverable</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Post Training Survey IN</shortDescription>
+        <value>https://www.surveymonkey.com/r/2022INTraining</value>
+    </labels>
+    <labels>
+        <fullName>Reword_certifications_question</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reword certifications question</shortDescription>
+        <value>Please list any relevant coursework, training, or certifications you have completed.</value>
+    </labels>
+    <labels>
+        <fullName>SiteName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SiteName</shortDescription>
+        <value>EDFCCFellowPortal</value>
+    </labels>
+    <labels>
+        <fullName>ZeroEmissionVehicleProjectLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ZeroEmissionVehicleProjectLabel</shortDescription>
+        <value>If you worked on a zero emission vehicles project, how many vehicles did you recommend for electrification?</value>
+    </labels>
+    <labels>
+        <fullName>emailname</fullName>
+        <categories>Contact labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>emailname</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>streetname1</fullName>
+        <categories>Contact labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>streetname1</shortDescription>
+        <value>Permanent Street Address Line 1</value>
+    </labels>
+    <labels>
+        <fullName>streetname2</fullName>
+        <categories>Contact labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>streetname2</shortDescription>
+        <value>Permanent Street Address Line 2</value>
+    </labels>
+</CustomLabels>

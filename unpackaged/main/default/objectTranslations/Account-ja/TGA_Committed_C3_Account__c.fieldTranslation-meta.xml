@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- EDF Total lifetime gift amount committed for C3 - includes donations and pledges both active and completed. If household account - total of all members of the household --></help>
+        <label><!-- Total Amount Committed C3 --></label>
+        <name>TGA_Committed_C3_Account__c</name>
+    </CustomFieldTranslation>

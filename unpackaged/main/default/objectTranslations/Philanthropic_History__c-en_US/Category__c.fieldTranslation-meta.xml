@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Advocacy</masterLabel>
+            <translation><!-- Advocacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Animal Welfare</masterLabel>
+            <translation><!-- Animal Welfare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arts/Culture</masterLabel>
+            <translation><!-- Arts/Culture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Development</masterLabel>
+            <translation><!-- Community Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Foundation</masterLabel>
+            <translation><!-- Community Foundation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental</masterLabel>
+            <translation><!-- Environmental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare</masterLabel>
+            <translation><!-- Healthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Services</masterLabel>
+            <translation><!-- Human Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Humanitarian Aid</masterLabel>
+            <translation><!-- Humanitarian Aid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International</masterLabel>
+            <translation><!-- International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mental Health</masterLabel>
+            <translation><!-- Mental Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Policy</masterLabel>
+            <translation><!-- Public Policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recreation</masterLabel>
+            <translation><!-- Recreation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Religion Related</masterLabel>
+            <translation><!-- Religion Related --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Science</masterLabel>
+            <translation><!-- Science --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Youth Development</masterLabel>
+            <translation><!-- Youth Development --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

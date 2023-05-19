@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Workplan Focus --></label>
+        <name>Workplan_Focus__c</name>
+        <picklistValues>
+            <masterLabel>Behavior Change</masterLabel>
+            <translation><!-- Behavior Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Centers</masterLabel>
+            <translation><!-- Data Centers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision Support Tools</masterLabel>
+            <translation><!-- Decision Support Tools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EE Strategy</masterLabel>
+            <translation><!-- EE Strategy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Engagement</masterLabel>
+            <translation><!-- Employee Engagement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy Information Systems</masterLabel>
+            <translation><!-- Energy Information Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding Mechanisms</masterLabel>
+            <translation><!-- Funding Mechanisms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial EE</masterLabel>
+            <translation><!-- Industrial EE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Products or Services</masterLabel>
+            <translation><!-- Products or Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategy or Tools</masterLabel>
+            <translation><!-- Strategy or Tools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traditional EE Projects</masterLabel>
+            <translation><!-- Traditional EE Projects --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field is Populated by a Flow when a New Action or Opportunity is Created. --></help>
+        <label><!-- Methane SAT Last Opt In Date --></label>
+        <name>Methane_SAT_Last_Opt_In_Date__c</name>
+    </CustomFieldTranslation>

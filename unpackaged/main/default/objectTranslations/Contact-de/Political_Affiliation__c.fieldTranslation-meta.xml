@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Political Affiliation --></label>
+        <name>Political_Affiliation__c</name>
+        <picklistValues>
+            <masterLabel>Democrat</masterLabel>
+            <translation><!-- Democrat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Party</masterLabel>
+            <translation><!-- Green Party --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Independent</masterLabel>
+            <translation><!-- Independent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Libertarian</masterLabel>
+            <translation><!-- Libertarian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Republican</masterLabel>
+            <translation><!-- Republican --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working Families</masterLabel>
+            <translation><!-- Working Families --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

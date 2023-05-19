@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Stage = Send invite to Interview 2</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Climate_Corps_Letterhead</letterhead>
+    <name>Send to Invite to Interview 2 - Wave 1</name>
+    <style>freeForm</style>
+    <subject>Climate Corps: Advancement to Interview 2</subject>
+    <textOnly>Dear {!Fellow_Application__c.Applicant_First_Name__c},
+
+
+Thank you for taking the time to meet with us to discuss your interests and qualifications for the Climate Corps program. We are pleased to inform you that you are among a group of highly qualified applicants chosen to advance to next stage of the fellow selection process. Congratulations!
+
+
+Next Steps
+
+
+A member of our fellow-matching team will contact you in the next few weeks to schedule your final interview.
+On Feb 9th, the 2022 project list page will be launched in the Climate Corps fellow portal.  On this page, you will be able to view the current list of 2022 host organizations and projects, as well choose your preferred host placements.  We will take your selections into consideration as we work through the fellow selection process. Only candidates who submit their preferences by 11:59 PM PT on Sunday, February 13th will be considered for the first round of offers at the end of February. Candidates who do not receive match during this period will be re-considered for the second wave of matches in March.
+If you are an international student, please review our Work Authorization Policy and be sure to take the outlined steps to ensure you will be eligible for the summer fellowship.
+
+
+If you have competing job offer deadlines, impending travel plans that will limit your communication, or any other urgent notifications, please notify us by contacting CLIMATECORPSADMIN@CEACONSULTING.COM.
+
+
+We look forward to a positive response!
+
+
+Best regards,
+
+The Climate Corps Team
+
+
+*Please do not reply to this email. We will not respond to any inquiries sent to this address. Please follow the instructions above to contact us.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

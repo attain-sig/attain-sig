@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Gift Type --></label>
+        <name>Gift_Type__c</name>
+        <picklistValues>
+            <masterLabel>Announced</masterLabel>
+            <translation><!-- Announced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation><!-- Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capital/Campaign</masterLabel>
+            <translation><!-- Capital/Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Challenge</masterLabel>
+            <translation><!-- Challenge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cumulative</masterLabel>
+            <translation><!-- Cumulative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Endowment/Founding/Named Gifts</masterLabel>
+            <translation><!-- Endowment/Founding/Named Gifts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Attendee/Sponsorship</masterLabel>
+            <translation><!-- Event Attendee/Sponsorship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Honorary/Memorial</masterLabel>
+            <translation><!-- Honorary/Memorial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Kind Goods or Services</masterLabel>
+            <translation><!-- In-Kind Goods or Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Match</masterLabel>
+            <translation><!-- Match --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned Gift/Legacy Gift/Bequest/Deferred Gifts/Estate Gift</masterLabel>
+            <translation><!-- Planned Gift/Legacy Gift/Bequest/Deferred Gifts/Estate Gift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pledge</masterLabel>
+            <translation><!-- Pledge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program/Restricted</masterLabel>
+            <translation><!-- Program/Restricted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scholarship Gift</masterLabel>
+            <translation><!-- Scholarship Gift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle Donations</masterLabel>
+            <translation><!-- Vehicle Donations --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

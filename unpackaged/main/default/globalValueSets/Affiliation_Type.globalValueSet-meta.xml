@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Administrative Contact</fullName>
+        <default>false</default>
+        <label>Administrative Contact</label>
+    </customValue>
+    <customValue>
+        <fullName>Alum</fullName>
+        <default>false</default>
+        <label>Alum</label>
+    </customValue>
+    <customValue>
+        <fullName>Board Member</fullName>
+        <default>false</default>
+        <label>Board Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Climate Corps Fellow/Climate Corps Host</fullName>
+        <default>false</default>
+        <label>Climate Corps Fellow/Climate Corps Host</label>
+    </customValue>
+    <customValue>
+        <fullName>Committee Member</fullName>
+        <default>false</default>
+        <label>Committee Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Deceased/Estate</fullName>
+        <default>false</default>
+        <label>Deceased/Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Employer/Employee</fullName>
+        <default>false</default>
+        <label>Employer/Employee</label>
+    </customValue>
+    <customValue>
+        <fullName>Funding Vehicle</fullName>
+        <default>false</default>
+        <label>Funding Vehicle</label>
+    </customValue>
+    <customValue>
+        <fullName>Organization Primary Contact</fullName>
+        <default>false</default>
+        <label>Organization Primary Contact</label>
+    </customValue>
+    <customValue>
+        <fullName>Student/School</fullName>
+        <default>false</default>
+        <label>Student/School</label>
+    </customValue>
+    <customValue>
+        <fullName>Donor Contact</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Donor Contact</label>
+    </customValue>
+    <customValue>
+        <fullName>Donor Advised Fund</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Donor Advised Fund</label>
+    </customValue>
+    <customValue>
+        <fullName>Family Foundation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Family Foundation</label>
+    </customValue>
+    <customValue>
+        <fullName>Represented institution-Representative</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Represented institution-Representative</label>
+    </customValue>
+    <customValue>
+        <fullName>Funding Vehicle-Representative</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Funding Vehicle-Representative</label>
+    </customValue>
+    <customValue>
+        <fullName>Funding Vehicle-Philanthropic Advisor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Funding Vehicle-Philanthropic Advisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Funding Vehicle-Philanthropic Advisee</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Funding Vehicle-Philanthropic Advisee</label>
+    </customValue>
+    <customValue>
+        <fullName>Member-Member</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Member-Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Knows</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Knows</label>
+    </customValue>
+    <customValue>
+        <fullName>Funding Vehicle-Investment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Funding Vehicle-Investment</label>
+    </customValue>
+    <customValue>
+        <fullName>Funding Vehicle-Knows</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Funding Vehicle-Knows</label>
+    </customValue>
+    <customValue>
+        <fullName>Funding Vehicle-Employee</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Funding Vehicle-Employee</label>
+    </customValue>
+    <customValue>
+        <fullName>Funding Vehicle-Board Member</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Funding Vehicle-Board Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Funding Vehicle-Board</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Funding Vehicle-Board</label>
+    </customValue>
+    <customValue>
+        <fullName>Employee-Employee</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Employee-Employee</label>
+    </customValue>
+    <customValue>
+        <fullName>Employee-EDF Strategic Partner</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Employee-EDF Strategic Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>Consultant-Employer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consultant-Employer</label>
+    </customValue>
+    <customValue>
+        <fullName>Consultant-Client</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consultant-Client</label>
+    </customValue>
+    <customValue>
+        <fullName>Board-Member</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Board-Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Club-Member</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Club-Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Aunt or Uncle-Nephew or Niece</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Aunt or Uncle-Nephew or Niece</label>
+    </customValue>
+    <customValue>
+        <fullName>Funder-Board Member</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Funder-Board Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Partner-Business Partner</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Business Partner-Business Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Associate-Business Associate</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Business Associate-Business Associate</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Associate-Business Partner</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Business Associate-Business Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Associate-Employer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Business Associate-Employer</label>
+    </customValue>
+    <customValue>
+        <fullName>Parent-Child</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Parent-Child</label>
+    </customValue>
+    <customValue>
+        <fullName>Represented institution-Child</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Represented institution-Child</label>
+    </customValue>
+    <customValue>
+        <fullName>Client-Employer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Client-Employer</label>
+    </customValue>
+    <customValue>
+        <fullName>Consultant-Consultant</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consultant-Consultant</label>
+    </customValue>
+    <customValue>
+        <fullName>Consultant-Employee</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consultant-Employee</label>
+    </customValue>
+    <customValue>
+        <fullName>Consultant-Representative</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Consultant-Representative</label>
+    </customValue>
+    <customValue>
+        <fullName>Employee-Cousin</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Employee-Cousin</label>
+    </customValue>
+    <customValue>
+        <fullName>Employee-Member</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Employee-Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Employee-Philanthropic Advisee</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Employee-Philanthropic Advisee</label>
+    </customValue>
+    <customValue>
+        <fullName>Represented institution-Employee</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Represented institution-Employee</label>
+    </customValue>
+    <customValue>
+        <fullName>Employee-School</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Employee-School</label>
+    </customValue>
+    <customValue>
+        <fullName>Employer-Member</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Employer-Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Employer-Philanthropic Advisee</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Employer-Philanthropic Advisee</label>
+    </customValue>
+    <customValue>
+        <fullName>Employer-Philanthropic Advisor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Employer-Philanthropic Advisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Represented institution-Employer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Represented institution-Employer</label>
+    </customValue>
+    <customValue>
+        <fullName>Former Spouse-Former Spouse</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Former Spouse-Former Spouse</label>
+    </customValue>
+    <customValue>
+        <fullName>Friend-Friend</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Friend-Friend</label>
+    </customValue>
+    <customValue>
+        <fullName>Funder-Business Partner</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Funder-Business Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>Funder-Cousin</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Funder-Cousin</label>
+    </customValue>
+    <customValue>
+        <fullName>Funder-Funder</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Funder-Funder</label>
+    </customValue>
+    <customValue>
+        <fullName>Funder-Philanthropic Advisor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Funder-Philanthropic Advisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Funder-Representative</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Funder-Representative</label>
+    </customValue>
+    <customValue>
+        <fullName>Grandparent-Grandchild</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Grandparent-Grandchild</label>
+    </customValue>
+    <customValue>
+        <fullName>Great Grandchild-Great Granparent</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Great Grandchild-Great Granparent</label>
+    </customValue>
+    <customValue>
+        <fullName>Investor-Investment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Investor-Investment</label>
+    </customValue>
+    <customValue>
+        <fullName>Investor-Investor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Investor-Investor</label>
+    </customValue>
+    <customValue>
+        <fullName>Manager-Manager</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Manager-Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Knows-Philanthropic Advisee</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Knows-Philanthropic Advisee</label>
+    </customValue>
+    <customValue>
+        <fullName>Knows-Representative</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Knows-Representative</label>
+    </customValue>
+    <customValue>
+        <fullName>Manager-Employer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Manager-Employer</label>
+    </customValue>
+    <customValue>
+        <fullName>Member-Employer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Member-Employer</label>
+    </customValue>
+    <customValue>
+        <fullName>Represented institution-Member</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Represented institution-Member</label>
+    </customValue>
+    <customValue>
+        <fullName>Neighbor-Neighbor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Neighbor-Neighbor</label>
+    </customValue>
+    <customValue>
+        <fullName>Parent In-law-Child In-Law</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Parent In-law-Child In-Law</label>
+    </customValue>
+    <customValue>
+        <fullName>PFF - Campaign Volunteer-PFF - Campaign Prospect</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PFF - Campaign Volunteer-PFF - Campaign Prospect</label>
+    </customValue>
+    <customValue>
+        <fullName>Philanthropic Advisee-Philanthropic Advisee</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Philanthropic Advisee-Philanthropic Advisee</label>
+    </customValue>
+    <customValue>
+        <fullName>Philanthropic Advisor-Philanthropic Advisee</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Philanthropic Advisor-Philanthropic Advisee</label>
+    </customValue>
+    <customValue>
+        <fullName>Philanthropic Advisor-Funder</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Philanthropic Advisor-Funder</label>
+    </customValue>
+    <customValue>
+        <fullName>Philanthropic Advisor-Philanthropic Advisor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Philanthropic Advisor-Philanthropic Advisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Philanthropic Partner-Philanthropic Advisor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Philanthropic Partner-Philanthropic Advisor</label>
+    </customValue>
+    <customValue>
+        <fullName>Philanthropic Partner-Philanthropic Partner</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Philanthropic Partner-Philanthropic Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>Represented institution-Funder</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Represented institution-Funder</label>
+    </customValue>
+    <customValue>
+        <fullName>Representative-Cousin</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Representative-Cousin</label>
+    </customValue>
+    <customValue>
+        <fullName>Representative-Employer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Representative-Employer</label>
+    </customValue>
+    <customValue>
+        <fullName>Representative-Representative</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Representative-Representative</label>
+    </customValue>
+    <customValue>
+        <fullName>Represented institution-Philanthropic Advisor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Represented institution-Philanthropic Advisor</label>
+    </customValue>
+    <customValue>
+        <fullName>School-Board Member</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>School-Board Member</label>
+    </customValue>
+    <customValue>
+        <fullName>School-Cousin</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>School-Cousin</label>
+    </customValue>
+    <customValue>
+        <fullName>School-School</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>School-School</label>
+    </customValue>
+    <customValue>
+        <fullName>Sibling-Sibling</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sibling-Sibling</label>
+    </customValue>
+    <customValue>
+        <fullName>Spouse-Spouse</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Spouse-Spouse</label>
+    </customValue>
+    <customValue>
+        <fullName>Step Child-Step Parent</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Step Child-Step Parent</label>
+    </customValue>
+    <customValue>
+        <fullName>Student-Employer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Student-Employer</label>
+    </customValue>
+    <masterLabel>Affiliation Type</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

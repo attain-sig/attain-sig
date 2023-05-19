@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field allows senior Planned Giving staffers to sort previously qualified PG donors. --></help>
+        <label><!-- PG Qualified Donor Ranking --></label>
+        <name>PG_Qualified_Donor_Ranking__c</name>
+        <picklistValues>
+            <masterLabel>0 – Dual Constituent</masterLabel>
+            <translation><!-- 0 – Dual Constituent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1 – Identification</masterLabel>
+            <translation><!-- 1 – Identification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 – Qualification</masterLabel>
+            <translation><!-- 2 – Qualification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 – Cultivation</masterLabel>
+            <translation><!-- 3 – Cultivation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 – Solicitation</masterLabel>
+            <translation><!-- 4 – Solicitation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 – Stewardship</masterLabel>
+            <translation><!-- 5 – Stewardship --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

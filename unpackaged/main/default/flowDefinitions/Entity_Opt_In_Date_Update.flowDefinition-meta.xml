@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>3</activeVersionNumber>
+    <description>This Flow fires when an Opportunity is Created or updated to populate the Entity Opt-in Date on the Primary Contact Record.
+Added Skip Flow Decision element.</description>
+    <masterLabel>Opportunity --&gt; Entity Opt In Date Update</masterLabel>
+</FlowDefinition>

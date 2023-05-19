@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>CDNO - Contingency did not occur</masterLabel>
+            <translation><!-- CDNO - Contingency did not occur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLSD - Donor deceased, money received</masterLabel>
+            <translation><!-- CLSD - Donor deceased, money received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INFO - requested more information</masterLabel>
+            <translation><!-- INFO - requested more information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IRA - IRA Rollover</masterLabel>
+            <translation><!-- IRA - IRA Rollover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IREV - Irrevocable, legally binding</masterLabel>
+            <translation><!-- IREV - Irrevocable, legally binding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MATR - Donor deceased, waiting for distribution</masterLabel>
+            <translation><!-- MATR - Donor deceased, waiting for distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLDG - Pledged not legally binding</masterLabel>
+            <translation><!-- PLDG - Pledged not legally binding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROP - proposed, gift not received</masterLabel>
+            <translation><!-- PROP - proposed, gift not received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RNCE - Gift in, donor renounced income</masterLabel>
+            <translation><!-- RNCE - Gift in, donor renounced income --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RVK - Donor revoked legacy plan pledge</masterLabel>
+            <translation><!-- RVK - Donor revoked legacy plan pledge --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

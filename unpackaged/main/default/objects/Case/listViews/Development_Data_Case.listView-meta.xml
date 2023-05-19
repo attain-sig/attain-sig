@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Development_Data_Case</fullName>
+    <columns>CASES.REASON</columns>
+    <columns>Primary_Team__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.CLOSED_DATE</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.ESCALATION_STATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER_NAME</field>
+        <operation>equals</operation>
+        <value>Matt Duprey,Liam Leslie,Kristin Rodriguez,Camille Britton-De Jesus,Alicia Verstynen,Development Data</value>
+    </filters>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>notEqual</operation>
+        <value>another test,testing member services permission</value>
+    </filters>
+    <label>Development Data</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field is populated based on which type of application a host filled out. --></help>
+        <label><!-- Application Type --></label>
+        <name>Application_Type__c</name>
+        <picklistValues>
+            <masterLabel>EDF-Funded (Full or Partial)</masterLabel>
+            <translation><!-- EDF-Funded (Full or Partial) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Host-Funded</masterLabel>
+            <translation><!-- Host-Funded --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

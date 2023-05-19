@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>India</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>NamespacePrefix</columns>
+    <columns>Fellowship__c</columns>
+    <columns>Is_Visible__c</columns>
+    <columns>Section_Field__c</columns>
+    <columns>IsProtected</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Fellowship__c</field>
+        <operation>equals</operation>
+        <value>India Fellowship</value>
+    </filters>
+    <label>India</label>
+    <language>en_US</language>
+</ListView>

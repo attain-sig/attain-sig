@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- How did you find out about EDFCC? --></label>
+        <name>How_Did_You_Find_Us__c</name>
+        <picklistValues>
+            <masterLabel>Campus Presentation with EDF staff</masterLabel>
+            <translation><!-- Campus Presentation with EDF staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Career Services staff</masterLabel>
+            <translation><!-- Career Services staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Career services job posting</masterLabel>
+            <translation><!-- Career services job posting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Staff webinar</masterLabel>
+            <translation><!-- EDF Staff webinar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF website</masterLabel>
+            <translation><!-- EDF website --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>National Black MBA Conference</masterLabel>
+            <translation><!-- National Black MBA Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online Job postings (e.g, indeed.com, idealist.org, greenbiz.com)</masterLabel>
+            <translation><!-- Online Job postings (e.g, indeed.com, idealist.org, greenbiz.com) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (please specify)</masterLabel>
+            <translation><!-- Other (please specify) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospanica conference</masterLabel>
+            <translation><!-- Prospanica conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student group newsletter</masterLabel>
+            <translation><!-- Student group newsletter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Word of Mouth  from an Alumni Fellow</masterLabel>
+            <translation><!-- Word of Mouth  from an Alumni Fellow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Word of Mouth from another source</masterLabel>
+            <translation><!-- Word of Mouth from another source --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

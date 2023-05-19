@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Account_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Portfolio_Manager__c</field>
+    </columns>
+    <columns>
+        <field>Account.Capacity__c</field>
+    </columns>
+    <columns>
+        <field>Development_Strategy__c.Overall_Strategy__c</field>
+    </columns>
+    <columns>
+        <field>Development_Strategy__c.Short_Term_Objectives__c</field>
+    </columns>
+    <columns>
+        <field>Development_Strategy__c.Challenges__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>Top 50 Workplans</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountCustomEntity$Development_Strategy__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Account.Capacity__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Gift Vehicle --></label>
+        <name>Gift_Vehicle__c</name>
+        <picklistValues>
+            <masterLabel>Insurance Policy</masterLabel>
+            <translation><!-- Insurance Policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QRP - 401K</masterLabel>
+            <translation><!-- QRP - 401K --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QRP - IRA</masterLabel>
+            <translation><!-- QRP - IRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QRP - Keough</masterLabel>
+            <translation><!-- QRP - Keough --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QRP - Other</masterLabel>
+            <translation><!-- QRP - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security Account</masterLabel>
+            <translation><!-- Security Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust - CRT</masterLabel>
+            <translation><!-- Trust - CRT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust - Living</masterLabel>
+            <translation><!-- Trust - Living --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Will - Contingent</masterLabel>
+            <translation><!-- Will - Contingent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Will - Residual</masterLabel>
+            <translation><!-- Will - Residual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Will - Specific</masterLabel>
+            <translation><!-- Will - Specific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Will - Unknown</masterLabel>
+            <translation><!-- Will - Unknown --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

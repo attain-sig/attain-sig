@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Processed By --></label>
+        <name>Processed_By__c</name>
+        <picklistValues>
+            <masterLabel>DMP</masterLabel>
+            <translation><!-- DMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donor Records</masterLabel>
+            <translation><!-- Donor Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merkle</masterLabel>
+            <translation><!-- Merkle --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

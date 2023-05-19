@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Relevant Coursework --></label>
+        <name>Scale_Relevant_Degree__c</name>
+        <picklistValues>
+            <masterLabel>Graduate degree with concentration or certifications</masterLabel>
+            <translation><!-- Graduate degree with concentration or certifications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialized graduate degree</masterLabel>
+            <translation><!-- Specialized graduate degree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undergraduate or light course work</masterLabel>
+            <translation><!-- Undergraduate or light course work --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

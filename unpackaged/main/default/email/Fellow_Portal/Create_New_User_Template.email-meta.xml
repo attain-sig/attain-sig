@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Create New User Template</name>
+    <style>none</style>
+    <subject>Your Climate Corps Portal Username and Password</subject>
+    <textOnly>Dear {ContactFirstName},
+
+Thank you for your interest in applying for a fellowship with Climate Corps!
+
+You have been assigned the below Username and Temporary Password for the Climate Corps application portal.
+
+Username: {UserName}
+Temporary Password: {Password}
+
+To finalize your user account and set up a new password click the following link: https://edfcommunity.force.com/EDFCCFellowPortal/s/login/
+
+You may also return to the Climate Corps fellow portal at any time by using the link above.
+
+To be considered for the first round of offers, please submit your application by November 29, 2022 at 11:59 pm PT. All other applications are due on January 10, 2023 at 11:59 pm PT
+
+We look forward to receiving your completed application!
+
+Best,
+The Climate Corps Team
+EDFClimateCorps.org</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

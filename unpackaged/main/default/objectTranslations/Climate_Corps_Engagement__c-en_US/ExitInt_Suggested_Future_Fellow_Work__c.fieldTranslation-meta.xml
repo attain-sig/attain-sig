@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Suggested Future Fellow Work --></label>
+        <name>ExitInt_Suggested_Future_Fellow_Work__c</name>
+    </CustomFieldTranslation>

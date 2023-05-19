@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- An organization that works with, represents, and/or indirectly benefits communities of color, low-income/low-wealth and/or marginalized communities/disproportionately affected populations impacted by pollution, climate change or other environmental hazards. --></help>
+        <label><!-- Social and EJ Organization --></label>
+        <name>Diverse_Serving_Organization__c</name>
+    </CustomFieldTranslation>

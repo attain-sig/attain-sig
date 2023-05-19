@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Dashboard$Title</field>
+    </columns>
+    <columns>
+        <field>Dashboard$Description</field>
+    </columns>
+    <description>For dashboard template project</description>
+    <filter>
+        <criteriaItems>
+            <column>Dashboard$Folder</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Global Mission Staff Personal Dashboards</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Dashboard$Folder</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>MCRMT: All MCRM Custom Dashboards</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Dashboards__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Dashboard$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total C3/C4 gifts (Rec&apos;d, Rec&apos;d as Uncond. Pledge) this FY: soft credit, excl. In-Kind and Planned Gift. --></help>
+        <label><!-- Total Gifts this FY SC --></label>
+        <name>Total_Gifts_this_FY_SC_Contact__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Create_Pref_if_OP_Exists</fullName>
+    <active>true</active>
+    <description>Prevents creation of a Preferred Email record if a different OP of the same Type already exists.</description>
+    <errorConditionFormula>TEXT (Status__c) = 'Preferred'
+&amp;&amp; 
+ Primary__c = FALSE
+	&amp;&amp;
+	 Is_Automation_Bypassed__c = FALSE
+&amp;&amp;
+$Permission.Flow_Automations_Off = FALSE
+&amp;&amp;
+OR (
+	( TEXT (Type__c) = 'Work' &amp;&amp; TEXT (Donor__r.npe01__Preferred_Email__c ) = 'Work' &amp;&amp; Donor__r.npe01__WorkEmail__c!=Email__c &amp;&amp; NOT(Donor__r.Email =NULL)) ,
+	( TEXT (Type__c) = 'Personal' &amp;&amp; TEXT (Donor__r.npe01__Preferred_Email__c ) = 'Personal' &amp;&amp; Donor__r.npe01__HomeEmail__c!=Email__c &amp;&amp; NOT(Donor__r.Email =NULL)),
+	( OR (TEXT (Type__c) = 'Alternate', TEXT (Type__c) = 'Assistant', TEXT (Type__c) = 'Spouse') &amp;&amp; TEXT (Donor__r.npe01__Preferred_Email__c ) = 'Alternate' &amp;&amp; Donor__r.npe01__AlternateEmail__c!=Email__c &amp;&amp; NOT(Donor__r.Email =NULL))
+)</errorConditionFormula>
+    <errorMessage>You cannot create a Preferred Email record if an Overall Preferred Email record of the same Type currently exists.</errorMessage>
+</ValidationRule>

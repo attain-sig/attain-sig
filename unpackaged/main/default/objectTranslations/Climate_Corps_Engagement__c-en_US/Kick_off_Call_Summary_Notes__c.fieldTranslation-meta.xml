@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enter kick-off call summary notes here. --></help>
+        <label><!-- Kick-off Call Summary Notes --></label>
+        <name>Kick_off_Call_Summary_Notes__c</name>
+    </CustomFieldTranslation>

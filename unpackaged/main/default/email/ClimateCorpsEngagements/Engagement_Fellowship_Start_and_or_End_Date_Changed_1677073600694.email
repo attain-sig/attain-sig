@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">The start or end date for&nbsp;{{{Climate_Corps_Engagement__c.Fellow_Name__c}}}'s fellowship with&nbsp;{{{Climate_Corps_Engagement__c.Account__c}}} has changed. Click here to access record:&nbsp;{{{Climate_Corps_Engagement__c.Link}}}
+<p>Engagement Manager should perform the following tasks:</p>
+
+<ol>
+	<li>Review the "Start Date" and/or "End Date" fields in the Final Engagement Profile section of the Climate Corps Engagement record</li>
+	<li>If okay, update the fields "Start Date Approval" and/or "End Date Approval" to Approved.</li>
+</ol>
+</body>
+</html>

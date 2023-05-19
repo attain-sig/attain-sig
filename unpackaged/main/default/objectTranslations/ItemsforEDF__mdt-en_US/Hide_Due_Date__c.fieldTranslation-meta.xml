@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check this checkbox to hide Due Date on the tile. --></help>
+        <label><!-- Hide Due Date --></label>
+        <name>Hide_Due_Date__c</name>
+    </CustomFieldTranslation>

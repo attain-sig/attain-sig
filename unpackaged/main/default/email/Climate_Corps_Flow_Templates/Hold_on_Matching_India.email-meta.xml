@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Stage = Hold on Matching</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Climate_Corps_Letterhead</letterhead>
+    <name>Hold on Matching India</name>
+    <style>freeForm</style>
+    <subject>Climate Corps: Application Status</subject>
+    <textOnly>Dear {!Fellow_Application__c.Applicant_First_Name__c},
+
+
+After careful consideration of all candidates, we have narrowed the pool of finalists we are considering for the first round of offers. We have decided to waitlist your application. However, because you meet many of our preferred fellowship qualifications, we will consider your application during the next round of matching in late-March.
+
+
+
+While we cannot guarantee we will be able to place you with a host organization, we hope you will remain in our applicant pool and give us the opportunity to find the right placement for you!
+
+
+
+We realize you may have questions about the reason behind our decision to waitlist your application, but due to the high volume of applications we are unable to provide you with detailed feedback. We will contact you within a few weeks with an update on your application status. If you have competing job offer deadlines, please notify us by emailing pmishra@edf.org.
+
+
+
+Best regards,
+
+The Climate Corps Team
+
+EDFClimateCorps.org
+
+
+
+*Please do not reply to this email. We will not respond to any inquiries sent to this address. All questions should be directed to pmishra@edf.org.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

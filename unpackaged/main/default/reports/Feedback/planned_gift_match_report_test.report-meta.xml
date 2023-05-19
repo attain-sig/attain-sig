@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Planned_Gift__c$Name</field>
+    </columns>
+    <columns>
+        <field>Planned_Gift__c.Planned_Gift_Matches__r$Id</field>
+    </columns>
+    <columns>
+        <field>Planned_Gift__c.Planned_Gift_Matches__r$Name</field>
+    </columns>
+    <columns>
+        <field>Planned_Gift__c.Planned_Gift_Matches__r$Match_Amount__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>planned gift match report test</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Planned_Gifts_with_or_without_Planned_Gift_Match__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Planned_Gift__c.Planned_Gift_Matches__r$Id</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Planned_Gift__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

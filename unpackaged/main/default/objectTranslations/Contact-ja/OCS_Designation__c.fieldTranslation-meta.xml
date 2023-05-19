@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- OCS Designation --></label>
+        <name>OCS_Designation__c</name>
+        <picklistValues>
+            <masterLabel>Main Contact</masterLabel>
+            <translation><!-- Main Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary Contact</masterLabel>
+            <translation><!-- Secondary Contact --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

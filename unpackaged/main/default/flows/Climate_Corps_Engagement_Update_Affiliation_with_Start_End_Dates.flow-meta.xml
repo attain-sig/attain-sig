@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <decisions>
+        <name>Does_Affiliation_Exist</name>
+        <label>Does Affiliation Exist?</label>
+        <locationX>572</locationX>
+        <locationY>575</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Found_Affiliation</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Affiliation_Record</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Affiliation_Record</targetReference>
+            </connector>
+            <label>Found Affiliation</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Null_Checks</name>
+        <label>Null Checks</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <defaultConnector>
+            <targetReference>Get_Affiliation_Record</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Fellow_Application_is_Null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Fellow_Application__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Fellow Application is Null</label>
+        </rules>
+        <rules>
+            <name>Fellow_Contact_is_Null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Fellow_Application__r.Applicant__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Fellow Contact is Null</label>
+        </rules>
+    </decisions>
+    <description>Updates start and end dates on affiliation when status is updated to Approved.
+Null checks and silent error handling - only tries to update an affiliation if one exists.</description>
+    <environments>Default</environments>
+    <interviewLabel>Climate Corps Engagement - Update Affiliation with Start/End Dates {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Climate Corps Engagement - Update Affiliation with Start/End Dates</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Affiliation_Record</name>
+        <label>Get Affiliation Record</label>
+        <locationX>572</locationX>
+        <locationY>455</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Does_Affiliation_Exist</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>npe5__Contact__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Fellow_Application__r.Applicant__r.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>npe5__Organization__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Account__r.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>npe5__Primary__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>npe5__Affiliation__c</object>
+        <outputReference>AffiliationRecs</outputReference>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>npe5__StartDate__c</queriedFields>
+        <queriedFields>npe5__EndDate__c</queriedFields>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Affiliation_Record</name>
+        <label>Update Affiliation Record</label>
+        <locationX>308</locationX>
+        <locationY>695</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>AffiliationRecs.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>npe5__EndDate__c</field>
+            <value>
+                <elementReference>$Record.End_date__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>npe5__StartDate__c</field>
+            <value>
+                <elementReference>$Record.Start_Date__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>npe5__Affiliation__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Null_Checks</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+OR(
+ispickval({!$Record.Start_Date_Approval__c}, &quot;Approved&quot;),
+ispickval({!$Record.End_Date_Approval__c}, &quot;Approved&quot;)
+)</filterFormula>
+        <object>Climate_Corps_Engagement__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>AffiliationRecs</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>npe5__Affiliation__c</objectType>
+    </variables>
+</Flow>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Feedback</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Feedbacks</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Feedback Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information - Completed by Submitter --></label>
+            <section>Information - Completed by Submitter</section>
+        </sections>
+        <sections>
+            <label><!-- Migration Data --></label>
+            <section>Migration Data</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution --></label>
+            <section>Resolution</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Implementation --></label>
+        <name>Implementation</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Feedback for continuing support requests --></description>
+        <label><!-- Ongoing Support --></label>
+        <name>Ongoing_Support</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Use for testing configuration in Sandboxes --></description>
+        <label><!-- Testing &amp; Confirmation --></label>
+        <name>Testing_Confirmation</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Object field is required if Feedback type = Migrated Data OR Requires update to data map is TRUE --></errorMessage>
+        <name>Object_field_is_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Example URL field is required if Feedback Type is &quot;Migrated Data&quot; OR ‘Requires update to data map’ – TRUE --></errorMessage>
+        <name>URL_Feedback_is_Required</name>
+    </validationRules>
+</CustomObjectTranslation>

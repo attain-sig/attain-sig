@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Fellow confirmed they completed the training pre-work --></help>
+        <label><!-- Completed Training Pre-Work --></label>
+        <name>Completed_Training_Pre_Work__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contact Subscription</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contact Subscriptions</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Contact Subscription Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- If Must Receive is checked, End Date cannot be selected. Subscribe cannot be set to False. --></errorMessage>
+        <name>Must_Receive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Must Receive and Opt Out cannot both be set to true. --></errorMessage>
+        <name>Opt_Out_Must_Receive</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- End date cannot be later than today. --></errorMessage>
+        <name>Subscription_End_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

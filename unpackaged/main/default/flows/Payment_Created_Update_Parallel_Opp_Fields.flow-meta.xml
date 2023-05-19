@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>Payment Created --&gt; Update Parallel Opp Fields {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Payment Created --&gt; Sync Parallel Opp/Payment Fields</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Parallel_Payment_Fields</name>
+        <label>Update Parallel Payment Fields</label>
+        <locationX>308</locationX>
+        <locationY>288</locationY>
+        <inputAssignments>
+            <field>NetSuite_Bank_Account__c</field>
+            <value>
+                <elementReference>$Record.npe01__Opportunity__r.NetSuite_Bank_Account__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Processed_By__c</field>
+            <value>
+                <elementReference>$Record.npe01__Opportunity__r.Processed_By__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Processed_Through__c</field>
+            <value>
+                <elementReference>$Record.npe01__Opportunity__r.Processed_through__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Receipted_Date__c</field>
+            <value>
+                <elementReference>$Record.npe01__Opportunity__r.Receipted_Date__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Receipted_Status__c</field>
+            <value>
+                <elementReference>$Record.npe01__Opportunity__r.Receipted_Status__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Received_Date__c</field>
+            <value>
+                <elementReference>$Record.npe01__Opportunity__r.Received_Date__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+{!$Record.npe01__Paid__c} = TRUE
+&amp;&amp;
+ispickval({!$Record.npe01__Opportunity__r.StageName}, &quot;Received&quot;)</filterFormula>
+        <object>npe01__OppPayment__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <scheduledPaths>
+            <connector>
+                <targetReference>Update_Parallel_Payment_Fields</targetReference>
+            </connector>
+            <pathType>AsyncAfterCommit</pathType>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

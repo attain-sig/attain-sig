@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Close Date of the received Opportunity with the highest Amount where the Contact has a hard or soft credit gift (Planned Gifts not included). --></help>
+        <label><!-- HPC Date_DEL --></label>
+        <name>HPC_Date_Contact__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Convio ID Distinct --></label>
+        <name>Convio_ID_Distinct__c</name>
+    </CustomFieldTranslation>

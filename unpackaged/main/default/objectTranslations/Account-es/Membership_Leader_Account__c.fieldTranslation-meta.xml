@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Membership Constituent who has given a cumulative amount of $500 or more over the current or previous 3 fiscal years. --></help>
+        <label><!-- Membership Leader --></label>
+        <name>Membership_Leader_Account__c</name>
+    </CustomFieldTranslation>

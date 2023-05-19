@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LONG_NAME</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Research Reports</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Donors in Portfolio (MAJ),Donors Dropped From Portfolio- W/o Note,Top 50 Workplans - Last Edit Date,Research Qualified,Unmanaged Donors w/Campaign Targets,Dev Constituents w/o Campaign Targets,MAJ Portfolios w/Workplans,MAJ - Lower Engaged Donors w/ High Cap,IG - Lower Engaged Donors w/ High Cap,Workplan Review - Missing Targets (IG),Workplan Review - Missing Targets (MAJ),Billionaires Under Management,Newly Screened Members - to be qualified,A-E Screened Capacity - to be qualified,IG Portfolios w/Workplans,Trustee Workplans</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>SHORT_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Research - Portfolio &amp; Workplan Key</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ReportList</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATEDDATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

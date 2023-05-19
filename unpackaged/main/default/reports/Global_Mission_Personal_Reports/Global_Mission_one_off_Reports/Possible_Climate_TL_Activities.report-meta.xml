@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <columns>
+        <field>CONTACT</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>WHAT_NAME</field>
+    </columns>
+    <columns>
+        <field>FULL_DESCRIPTION</field>
+    </columns>
+    <filter>
+        <booleanFilter>((1 OR 2 OR 3 OR 4 OR 5) AND 6) AND 7</booleanFilter>
+        <criteriaItems>
+            <column>Activity.Solicitor_1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Alex Hanafi,Angela Churie,Mark Moroge,Suzi Kerr</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_2__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Alex Hanafi,Angela Churie,Mark Moroge,Suzi Kerr</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_3__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Alex Hanafi,Angela Churie,Mark Moroge,Suzi Kerr</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_4__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Alex Hanafi,Angela Churie,Mark Moroge,Suzi Kerr</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_5__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Alex Hanafi,Angela Churie,Mark Moroge,Suzi Kerr</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Activity_Constituency__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Development</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SUBJECT</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Event-Climate</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Possible Climate TL Activities</name>
+    <params>
+        <name>closed</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>te</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Activity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>DUE_DATE</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_LAST90</interval>
+    </timeFrameFilter>
+</Report>

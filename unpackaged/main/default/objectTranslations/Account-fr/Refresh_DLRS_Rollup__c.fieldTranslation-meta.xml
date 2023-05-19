@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Use this field to ensure DLRS rollups are accurate for Account. Only use with DLRS Calculate button. --></help>
+        <label><!-- Refresh DLRS Rollup --></label>
+        <name>Refresh_DLRS_Rollup__c</name>
+    </CustomFieldTranslation>

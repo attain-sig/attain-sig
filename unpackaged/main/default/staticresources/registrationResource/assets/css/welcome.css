@@ -1,0 +1,440 @@
+/* Welcome Form Section Start */
+.welcome-form-section {
+}
+.welcome-form-section .welcome-form-section-inner {
+  max-width: 776px;
+  width: 776px;
+  background-color: rgba(27, 191, 155, 0.95);
+}
+.welcome-form-section .welcome-form-section-sub {
+  padding: 66px 93px 77px 56px;
+  font-family: "Roboto", sans-serif;
+}
+.welcome-form-section .welcome-form-section-sub h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #325b6f;
+  background-color: inherit;
+  padding: 0 0 2px 0;
+  margin: 0 0 0 0;
+}
+.welcome-form-section .welcome-form-section-sub h1 span {
+  display: block;
+}
+.welcome-form-section .welcome-form-section-sub p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #58595b;
+  background-color: inherit;
+  padding: 0 0 31px 0;
+  margin: 0 0 0 0;
+}
+.welcome-form-section .welcome-form-section-sub .welcome-form-wrap {
+  padding: 0 0 22px 0;
+}
+.welcome-form-section .welcome-form-section-sub .welcome-form-wrap .form-group {
+  margin: 0 0 15px 0;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .welcome-form-wrap
+  .form-group
+  label {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #58595b;
+  background-color: inherit;
+  padding: 0 0 0 0;
+  margin: 0 0 9px 0;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .welcome-form-wrap
+  .form-group
+  .form-control {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #58595b;
+  background-color: #fff;
+  border: 1px solid #939598;
+  padding: 10px 10px 12px 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .welcome-form-wrap
+  .form-group
+  .form-control:focus {
+  box-shadow: none;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .welcome-form-wrap
+  .form-button-wrap {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 5px 0 0 0;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .welcome-form-wrap
+  .form-button-wrap
+  button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #203946;
+  background-color: #fff;
+  box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.04);
+  margin: 0 29px 0 0;
+  padding: 9px 22px 10px 21px;
+  border: 1px solid #325b6f;
+  -webkit-border-radius: 24.5px;
+  -moz-border-radius: 24.5px;
+  border-radius: 24.5px;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .welcome-form-wrap
+  .form-button-wrap
+  button:hover {
+  background-color: rgb(255 255 255 / 80%);
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .welcome-form-wrap
+  .form-button-wrap
+  a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #203946;
+  background-color: inherit;
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .welcome-form-wrap
+  .form-button-wrap
+  a:hover {
+  text-decoration: none;
+}
+
+.welcome-form-section .welcome-form-section-sub .welcome-form-footer {
+  border-top: 1px solid rgba(88, 89, 91, 0.5);
+  padding: 22px 0 0 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.welcome-form-section .welcome-form-section-sub .welcome-form-footer a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #203946;
+  background-color: inherit;
+  padding: 0;
+  margin: 0 19px 0 0;
+  text-decoration: underline;
+}
+.welcome-form-section .welcome-form-section-sub .welcome-form-footer a:hover {
+  text-decoration: none;
+}
+.welcome-form-section .welcome-form-section-sub .welcome-form-footer button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #203946;
+  background-color: #f5f9ff;
+  border: 1px solid #58595b;
+  box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.04);
+  margin: 0 0 0 0;
+  padding: 9px 22px 10px 21px;
+  -webkit-border-radius: 24.5px;
+  -moz-border-radius: 24.5px;
+  border-radius: 24.5px;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .welcome-form-footer
+  button:hover {
+  background-color: rgb(255 255 255 / 80%);
+}
+
+/* Forgot Password Modal Start */
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content {
+  color: inherit;
+  background-color: #fff;
+  border: 1px solid #828282;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-header {
+  padding: 44px 25px 23px;
+  text-align: center;
+  border-bottom: none;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: block;
+  position: relative;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-header
+  .modal-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2d637f;
+  background-color: inherit;
+  padding: 0 0 0px 0;
+  margin: 0 0 0 0;
+  width: 100%;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-header
+  .close {
+  padding: 0;
+  position: absolute;
+  right: 16px;
+  top: 15px;
+  border: none;
+  margin: 0;
+  color: #939598;
+  font-size: 25px;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-header
+  .close:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-body {
+  padding: 0 25px 30px;
+  text-align: center;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-body
+  h4 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #f22f2a;
+  background-color: inherit;
+  padding: 0 0 4px 0;
+  margin: 0 0 0 0;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-body
+  p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #58595B;
+  background-color: inherit;
+  padding: 0 0 8px 0;
+  margin: 0 0 0 0;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-footer {
+  padding: 0 25px 25px;
+  border-top: none;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-footer
+  .button-custom {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  background-color: inherit;
+  margin: 0 0 0 0;
+  padding: 9px 17px 10px 17px;
+  border: none;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border-radius: 24px;
+  border: 1px solid transparent;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-footer
+  .button-custom:focus {
+  box-shadow: none;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-footer
+  .button-custom:hover {
+  border: 1px solid transparent;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-footer
+  .green-button {
+  color: #ffffff;
+  background-color: #00a34b;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-footer
+  .green-button:hover {
+  background-color: rgb(0 163 75 / 80%);
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-footer
+  .white-button {
+  color: #5a5959;
+  background-color: #fff;
+  border: 1px solid #58595b;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-footer
+  .white-button:hover {
+  color: #5a5959;
+  border: 1px solid #58595b;
+  background-color: rgb(0 0 0 / 10%);
+}
+
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-body
+  .form-group
+  .form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #58595b;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-body
+  .form-group
+  .form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #58595b;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-body
+  .form-group
+  .form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #58595b;
+}
+.welcome-form-section
+  .welcome-form-section-sub
+  .forgot-password-modal
+  .modal-content
+  .modal-body
+  .form-group
+  .form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #58595b;
+}
+/* Forgot Password Modal End */
+
+/* Welcome Form Section End */

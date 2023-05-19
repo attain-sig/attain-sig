@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>npe4__Relationship__c$Name</field>
+    </columns>
+    <columns>
+        <field>npe4__Relationship__c$npe4__Contact__c</field>
+    </columns>
+    <columns>
+        <field>npe4__Relationship__c$npe4__RelatedContact__c</field>
+    </columns>
+    <columns>
+        <field>npe4__Relationship__c$npe4__Type__c</field>
+    </columns>
+    <columns>
+        <field>npe4__Relationship__c$npe4__Relationship_Explanation__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>npe4__Relationship__c$npe4__Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>-</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Relationship Clean Up</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Relationships__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>npe4__Relationship__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

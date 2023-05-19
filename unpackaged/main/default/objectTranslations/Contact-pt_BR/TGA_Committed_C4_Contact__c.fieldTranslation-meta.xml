@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Hard/soft credit; Received/Received as Unconditional Pledge; excl. In-Kind/Planned Gifts. --></help>
+        <label><!-- Total Amount Committed C4 --></label>
+        <name>TGA_Committed_C4_Contact__c</name>
+    </CustomFieldTranslation>

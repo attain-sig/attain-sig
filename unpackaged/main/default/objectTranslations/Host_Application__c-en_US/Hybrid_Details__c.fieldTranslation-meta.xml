@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Expectations for in-person/hybrid/remote work --></help>
+        <label><!-- Work Location Details --></label>
+        <name>Hybrid_Details__c</name>
+    </CustomFieldTranslation>

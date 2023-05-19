@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Unidentified gifts research review status. --></help>
+        <label><!-- Unidentified Gifts Review Status --></label>
+        <name>Unidentified_Gifts_Review_Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed-Unidentified</masterLabel>
+            <translation><!-- Completed-Unidentified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

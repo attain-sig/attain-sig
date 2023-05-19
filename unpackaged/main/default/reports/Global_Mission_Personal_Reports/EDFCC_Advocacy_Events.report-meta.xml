@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Event__c.Event_Invitations__r$Contact__c.X18_Digit_Contact_ID__c</field>
+    </columns>
+    <columns>
+        <field>Event__c.Event_Invitations__r$Contact__c</field>
+    </columns>
+    <columns>
+        <field>Event__c$Event_Type__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Event__c.Event_Invitations__r$Attended__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Event__c$Sub_Constituency__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>EDFBIZ - Climate Corps</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Event__c$Primary_User__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Michael Cronin,Alyssa Buda,Ruby Roca</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Event__c$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Advocacy</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <field>Event__c$Event_Date_Time__c</field>
+        <sortOrder>Desc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Event__c$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>EDFCC Advocacy Events</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Events_with_Event_Invitations_and_Contacts__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Event__c$Event_Date_Time__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-05-01</startDate>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Date_Field_Offset__c</fullName>
+    <description>Allows to set an offset. For e.g. Due Date is Engagement Confirmation Date + 7, this field stores 7. Similarly you can set a negative value too.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Enter a positive or negative value to offset the date as mentioned in Due Date Field. For e.g. if Due Date is Date Engagement Confirmed + 7, set the value as 7</inlineHelpText>
+    <label>Due Date Field Offset</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

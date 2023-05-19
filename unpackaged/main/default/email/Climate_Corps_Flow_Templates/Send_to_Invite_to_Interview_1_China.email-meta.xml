@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Stage = Send invite to Interview 1</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Climate_Corps_Letterhead</letterhead>
+    <name>Send to Invite to Interview 1 China</name>
+    <style>freeForm</style>
+    <subject>Climate Corps: Advancement to Interview 1</subject>
+    <textOnly>Dear {!Fellow_Application__c.Applicant_First_Name__c},
+
+
+We are pleased to inform you that you are under consideration for the Climate Corps fellowship – congratulations on successfully completing the first step in the fellow selection process!
+
+
+
+Please watch for a scheduling email from climatecorps@cet.net.cn in about 1-3 working days to schedule an interview. Please note that scheduling emails will be sent from climatecorps@cet.net.cn. It is advisable to add this email address to your list of safe senders. Please respond to the scheduling email as soon as possible and if you have scheduling conflicts, are traveling, etc. please communicate your availability to climatecorps@cet.net.cn as soon as possible.
+
+
+
+Be advised that scheduling emails will include time options for you to select as well as a link to connect on Zoom video. For your interview, try to find a quiet place with a strong internet connection.
+
+
+
+In the meantime, we encourage you to visit the Climate Corps website to learn more about our past projects, as well as the EDF+ Business and Climate and Energy sites to learn more about EDF’s broader efforts around engaging leading organizations to address our most challenging climate and energy issues.
+
+
+
+Finally, be sure to review our Climate Corps China Program page for more information about the fellowship.
+
+
+
+Congratulations again, and we look forward to speaking soon!
+
+
+
+
+Best regards,
+
+The Climate Corps Team
+
+
+
+
+*Please do not reply to this email. We will not respond to any inquiries sent to this address.  All questions should be directed to climatecorps@cet.net.cn.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

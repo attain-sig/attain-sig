@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Do we need to consider any UI implications with this request and its solution? Do we need to add/hide fields to certain layouts? Do we need to modify any lightning pages or apps and their assignments? --></help>
+        <label><!-- User Interface Needs --></label>
+        <name>User_Interface_Needs__c</name>
+    </CustomFieldTranslation>

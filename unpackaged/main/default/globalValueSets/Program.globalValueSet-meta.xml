@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Climate</fullName>
+        <default>false</default>
+        <label>Climate</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecosystems</fullName>
+        <default>false</default>
+        <label>Ecosystems</label>
+    </customValue>
+    <customValue>
+        <fullName>EDFBIZ</fullName>
+        <default>false</default>
+        <label>EDFBIZ</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy</fullName>
+        <default>false</default>
+        <label>Energy</label>
+    </customValue>
+    <customValue>
+        <fullName>Executive Office</fullName>
+        <default>false</default>
+        <label>Executive Office</label>
+    </customValue>
+    <customValue>
+        <fullName>General Support</fullName>
+        <default>false</default>
+        <label>General Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Strategy</fullName>
+        <default>false</default>
+        <label>Global Strategy</label>
+    </customValue>
+    <customValue>
+        <fullName>Health</fullName>
+        <default>false</default>
+        <label>Health</label>
+    </customValue>
+    <customValue>
+        <fullName>MarComm</fullName>
+        <default>false</default>
+        <label>MarComm</label>
+    </customValue>
+    <customValue>
+        <fullName>Oceans</fullName>
+        <default>false</default>
+        <label>Oceans</label>
+    </customValue>
+    <customValue>
+        <fullName>Office of the Chief Economist</fullName>
+        <default>false</default>
+        <label>Office of the Chief Economist</label>
+    </customValue>
+    <customValue>
+        <fullName>Office of the Chief Scientist</fullName>
+        <default>false</default>
+        <label>Office of the Chief Scientist</label>
+    </customValue>
+    <customValue>
+        <fullName>Political Affairs</fullName>
+        <default>false</default>
+        <label>Political Affairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Climate and Air</fullName>
+        <default>false</default>
+        <label>Climate and Air</label>
+    </customValue>
+    <customValue>
+        <fullName>Strategic Partners</fullName>
+        <default>false</default>
+        <label>Strategic Partners</label>
+    </customValue>
+    <customValue>
+        <fullName>Economics and Policy</fullName>
+        <default>false</default>
+        <label>Economics and Policy</label>
+    </customValue>
+    <customValue>
+        <fullName>Environmental Sciences</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Environmental Sciences</label>
+    </customValue>
+    <customValue>
+        <fullName>Living Cities</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Living Cities</label>
+    </customValue>
+    <customValue>
+        <fullName>IT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IT</label>
+    </customValue>
+    <customValue>
+        <fullName>OCE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OCE</label>
+    </customValue>
+    <customValue>
+        <fullName>Environmental Health</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Environmental Health</label>
+    </customValue>
+    <description>For which program is this constituent recommended as a prospective donor</description>
+    <masterLabel>Program</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

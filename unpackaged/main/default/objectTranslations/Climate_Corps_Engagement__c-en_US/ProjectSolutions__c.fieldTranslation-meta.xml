@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Describe the solutions that you arrived at including any obstacles you overcame. --></help>
+        <label><!-- Project Solutions --></label>
+        <name>ProjectSolutions__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>Activity.Solicitor_1__c</field>
+    </columns>
+    <columns>
+        <field>Activity.Solicitor_2__c</field>
+    </columns>
+    <columns>
+        <field>Activity.Solicitor_3__c</field>
+    </columns>
+    <columns>
+        <field>Activity.Solicitor_4__c</field>
+    </columns>
+    <columns>
+        <field>Activity.Solicitor_5__c</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>Contact.Employer__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND (6 OR 7 OR 8)</booleanFilter>
+        <criteriaItems>
+            <column>Activity.Solicitor_1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Felice Stadler</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_2__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Felice Stadler</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_3__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Felice Stadler</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_4__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Felice Stadler</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Solicitor_5__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Felice Stadler</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Primary_Handler__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Felice Stadler</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Additional_Handler1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Felice Stadler</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Additional_Handler_2__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Felice Stadler</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>PD-FSTA-You are RM, not in activity-CON</name>
+    <params>
+        <name>closed</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>te</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactActivity</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>DUE_DATE</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_LAST90</interval>
+    </timeFrameFilter>
+</Report>

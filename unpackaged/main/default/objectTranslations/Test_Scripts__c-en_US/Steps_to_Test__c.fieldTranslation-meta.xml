@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Detail out in a numbered list the Steps a user should take to test a specific functionality. --></help>
+        <label><!-- Steps to Test --></label>
+        <name>Steps_to_Test__c</name>
+    </CustomFieldTranslation>

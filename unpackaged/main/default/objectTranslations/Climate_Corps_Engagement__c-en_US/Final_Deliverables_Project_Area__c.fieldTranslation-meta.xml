@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Final Deliverables Project Area --></label>
+        <name>Final_Deliverables_Project_Area__c</name>
+        <picklistValues>
+            <masterLabel>Climate Resiliency</masterLabel>
+            <translation><!-- Climate Resiliency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Smart Agriculture &amp; Food Systems</masterLabel>
+            <translation><!-- Climate Smart Agriculture &amp; Food Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Energy Efficiency</masterLabel>
+            <translation><!-- Commercial Energy Efficiency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demand Response/Load Shifting</masterLabel>
+            <translation><!-- Demand Response/Load Shifting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrification</masterLabel>
+            <translation><!-- Electrification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy Benchmarking</masterLabel>
+            <translation><!-- Energy Benchmarking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy Data Analysis</masterLabel>
+            <translation><!-- Energy Data Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy Equity/Environmental Justice</masterLabel>
+            <translation><!-- Energy Equity/Environmental Justice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy Storage</masterLabel>
+            <translation><!-- Energy Storage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food Waste</masterLabel>
+            <translation><!-- Food Waste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GHG/Sustainability Strategy</masterLabel>
+            <translation><!-- GHG/Sustainability Strategy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Revolving Funds and/or creative financing solutions</masterLabel>
+            <translation><!-- Green Revolving Funds and/or creative financing solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial Energy Efficiency</masterLabel>
+            <translation><!-- Industrial Energy Efficiency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microgrids</masterLabel>
+            <translation><!-- Microgrids --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scope 3</masterLabel>
+            <translation><!-- Scope 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solar and/or Wind</masterLabel>
+            <translation><!-- Solar and/or Wind --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specify your own area</masterLabel>
+            <translation><!-- Specify your own area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stakeholder Engagement</masterLabel>
+            <translation><!-- Stakeholder Engagement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply Chain</masterLabel>
+            <translation><!-- Supply Chain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustainable Construction</masterLabel>
+            <translation><!-- Sustainable Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Target Setting &amp; Climate Commitments</masterLabel>
+            <translation><!-- Target Setting &amp; Climate Commitments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waste Management</masterLabel>
+            <translation><!-- Waste Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zero Emission Vehicles &amp; Freight Sustainability</masterLabel>
+            <translation><!-- Zero Emission Vehicles &amp; Freight Sustainability --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

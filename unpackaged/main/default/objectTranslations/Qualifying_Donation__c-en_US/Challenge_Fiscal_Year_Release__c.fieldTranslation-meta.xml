@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Fiscal Year qualifying amount is released. --></help>
+        <label><!-- Challenge Fiscal Year Release --></label>
+        <name>Challenge_Fiscal_Year_Release__c</name>
+    </CustomFieldTranslation>

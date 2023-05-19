@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Fellow_Confirmed_China</name>
+        <label>Fellow Confirmed China</label>
+        <locationX>314</locationX>
+        <locationY>575</locationY>
+        <actionName>Climate_Corps_Engagement__c.Fellow_Confirmation_Email_China</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Update_Engagement_Confirmed_Date</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Fellow_Confirmed_India</name>
+        <label>Fellow Confirmed India</label>
+        <locationX>50</locationX>
+        <locationY>575</locationY>
+        <actionName>Climate_Corps_Engagement__c.Fellow_Confirmation_Email_India</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Update_Engagement_Confirmed_Date</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>53.0</apiVersion>
+    <decisions>
+        <name>india_china</name>
+        <label>india/china</label>
+        <locationX>314</locationX>
+        <locationY>455</locationY>
+        <defaultConnector>
+            <targetReference>Update_Engagement_Confirmed_Date</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>India</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Fellowship_Program__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>India Fellowship</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Fellow_Confirmed_India</targetReference>
+            </connector>
+            <label>India</label>
+        </rules>
+        <rules>
+            <name>China</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Fellowship_Program__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>China Fellowship</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Fellow_Confirmed_China</targetReference>
+            </connector>
+            <label>China</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Fellow Confirmed - India and China {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Fellow Confirmed - India and China</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Engagement_Confirmed_Date</name>
+        <label>Update Engagement Confirmed Date</label>
+        <locationX>314</locationX>
+        <locationY>791</locationY>
+        <inputAssignments>
+            <field>Date_Engagement_Confirmed__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Fellow_Application_Status</name>
+        <label>Update Fellow Application Status</label>
+        <locationX>314</locationX>
+        <locationY>335</locationY>
+        <connector>
+            <targetReference>india_china</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Fellow_Application__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>Engagement Confirmed</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Fellow_Application__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Fellow_Application_Status</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+ispickval({!$Record.Stage__c}, &quot;Engagement Confirmed&quot;)
+&amp;&amp; 
+
+or(
+ispickval({!$Record.Fellowship_Program__c}, &quot;India Fellowship&quot;),
+ispickval({!$Record.Fellowship_Program__c}, &quot;China Fellowship&quot;)
+)</filterFormula>
+        <object>Climate_Corps_Engagement__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <triggerOrder>1</triggerOrder>
+</Flow>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Blocked</masterLabel>
+            <translation><!-- Blocked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build Complete</masterLabel>
+            <translation><!-- Build Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build in Progress</masterLabel>
+            <translation><!-- Build in Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed - Address via Feedback</masterLabel>
+            <translation><!-- Closed - Address via Feedback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed - Duplicate</masterLabel>
+            <translation><!-- Closed - Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed - No Longer Required</masterLabel>
+            <translation><!-- Closed - No Longer Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design in Progress</masterLabel>
+            <translation><!-- Design in Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Full Discovery</masterLabel>
+            <translation><!-- In Full Discovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In IT Assessment</masterLabel>
+            <translation><!-- In IT Assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In QA</masterLabel>
+            <translation><!-- In QA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In UAT</masterLabel>
+            <translation><!-- In UAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Initial Requirements</masterLabel>
+            <translation><!-- Needs Initial Requirements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Full Discovery</masterLabel>
+            <translation><!-- Ready for Full Discovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Production</masterLabel>
+            <translation><!-- Ready for Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Release Scheduling</masterLabel>
+            <translation><!-- Ready for Release Scheduling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

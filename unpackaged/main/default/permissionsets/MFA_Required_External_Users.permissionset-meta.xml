@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Meant for consultants and external users. Enables the "Multi-Factor Authentication for User Interface Logins" setting</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>MFA Required - External Users</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ForceTwoFactor</name>
+    </userPermissions>
+</PermissionSet>

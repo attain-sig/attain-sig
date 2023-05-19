@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Fellow_Application__c.Applicant_First_Name__c</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>Fellow_Application__c.Offer_Letter_Sent_for_which_Host__c</field>
+    </columns>
+    <columns>
+        <field>Fellow_Application__c.Status__c</field>
+    </columns>
+    <description>Business Rule: We update a checkbox on contacts if the fellow was dropped by the host by no fault of their own. Action Item: Run this report after all fellows have been matched for the year, update the Host Dropped, Unable to Rematch checkbox.</description>
+    <filter>
+        <criteriaItems>
+            <column>Fellow_Application__c.CC_Year__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>2021</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Fellow_Application__c.Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Host Dropped after Confirmation</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Yearly-C-L: Host Dropped Checkbox: CC</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Fellow_Application__c@Fellow_Application__c.Applicant__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CUST_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Fellow_Application__c.Application_Created_Time__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

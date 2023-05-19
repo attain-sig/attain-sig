@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Regions this contact is interested in --></help>
+        <label><!-- SRM Regional Interest --></label>
+        <name>SRM_Regional_Interest_Account_EDF__c</name>
+    </CustomFieldTranslation>

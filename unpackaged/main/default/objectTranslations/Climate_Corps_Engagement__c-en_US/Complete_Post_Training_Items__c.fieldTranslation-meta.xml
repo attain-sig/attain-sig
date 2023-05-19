@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Automatically updates when the fellow updates the Done/Not Done slider on the &quot;Complete Post Training Items&quot; tile on the Deliverables Tracker page in the fellow portal --></help>
+        <label><!-- Complete Post Training Items --></label>
+        <name>Complete_Post_Training_Items__c</name>
+    </CustomFieldTranslation>

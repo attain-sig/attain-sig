@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Date of most recent contribution (hard credit). --></help>
+        <label><!-- MRC HC Date --></label>
+        <name>MRC_HC_Date_Contact__c</name>
+    </CustomFieldTranslation>

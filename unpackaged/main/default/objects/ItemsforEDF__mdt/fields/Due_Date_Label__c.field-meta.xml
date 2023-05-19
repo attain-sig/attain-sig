@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Date_Label__c</fullName>
+    <description>Default label comes from custom label - DeliverablesTracker_Label_DueDate. If you want a different label, mention it here.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>If you want to overwrite default Due Date label, mention it here.</inlineHelpText>
+    <label>Due Date Label</label>
+    <length>50</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

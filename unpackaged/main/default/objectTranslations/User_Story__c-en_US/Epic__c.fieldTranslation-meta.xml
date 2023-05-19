@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- A way to group related user stories together --></help>
+        <label><!-- Epic --></label>
+        <name>Epic__c</name>
+        <picklistValues>
+            <masterLabel>Acknowledgements</masterLabel>
+            <translation><!-- Acknowledgements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Activity Data Points</masterLabel>
+            <translation><!-- Activity Data Points --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Activity Defaults &amp; Automation</masterLabel>
+            <translation><!-- Activity Defaults &amp; Automation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Activity Field Enhancements</masterLabel>
+            <translation><!-- Activity Field Enhancements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDQ</masterLabel>
+            <translation><!-- CDQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Classy</masterLabel>
+            <translation><!-- Classy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Corps</masterLabel>
+            <translation><!-- Climate Corps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Constituencies</masterLabel>
+            <translation><!-- Constituencies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Information</masterLabel>
+            <translation><!-- Contact Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development Opportunities</masterLabel>
+            <translation><!-- Development Opportunities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documentation</masterLabel>
+            <translation><!-- Documentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downstream Systems &amp; Integrations</masterLabel>
+            <translation><!-- Downstream Systems &amp; Integrations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Management</masterLabel>
+            <translation><!-- Duplicate Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Attendee Management</masterLabel>
+            <translation><!-- Event Attendee Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Budget and Expense management</masterLabel>
+            <translation><!-- Event Budget and Expense management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Communications</masterLabel>
+            <translation><!-- Event Communications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event List Management</masterLabel>
+            <translation><!-- Event List Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event On-site Logistics</masterLabel>
+            <translation><!-- Event On-site Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Registration</masterLabel>
+            <translation><!-- Event Registration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Reporting</masterLabel>
+            <translation><!-- Event Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Salesforce Integration</masterLabel>
+            <translation><!-- Event Salesforce Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Session Management</masterLabel>
+            <translation><!-- Event Session Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Setup</masterLabel>
+            <translation><!-- Event Setup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Venue Management</masterLabel>
+            <translation><!-- Event Venue Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event Volunteer Management</masterLabel>
+            <translation><!-- Event Volunteer Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event-related CRM Functionality</masterLabel>
+            <translation><!-- Event-related CRM Functionality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Events Calendar</masterLabel>
+            <translation><!-- Events Calendar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Events Support and Training</masterLabel>
+            <translation><!-- Events Support and Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Communication Tools</masterLabel>
+            <translation><!-- External Communication Tools --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>File Management</masterLabel>
+            <translation><!-- File Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Entry Management</masterLabel>
+            <translation><!-- Gift Entry Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grant Management</masterLabel>
+            <translation><!-- Grant Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interest Tracking</masterLabel>
+            <translation><!-- Interest Tracking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Portal</masterLabel>
+            <translation><!-- Member Portal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Services</masterLabel>
+            <translation><!-- Member Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Services Analytics</masterLabel>
+            <translation><!-- Member Services Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Services Cases</masterLabel>
+            <translation><!-- Member Services Cases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member Services Phone</masterLabel>
+            <translation><!-- Member Services Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Membership Opportunities</masterLabel>
+            <translation><!-- Membership Opportunities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Membership/Direct Response</masterLabel>
+            <translation><!-- Membership/Direct Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous Opportunity Fields</masterLabel>
+            <translation><!-- Miscellaneous Opportunity Fields --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outlook Integration</masterLabel>
+            <translation><!-- Outlook Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned Giving</masterLabel>
+            <translation><!-- Planned Giving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect Research</masterLabel>
+            <translation><!-- Prospect Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM/PM Assignments</masterLabel>
+            <translation><!-- RM/PM Assignments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RM/PM Strategies</masterLabel>
+            <translation><!-- RM/PM Strategies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting &amp; Analytics</masterLabel>
+            <translation><!-- Reporting &amp; Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Management</masterLabel>
+            <translation><!-- Request Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security and Access</masterLabel>
+            <translation><!-- Security and Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sourcing System</masterLabel>
+            <translation><!-- Sourcing System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stewardship</masterLabel>
+            <translation><!-- Stewardship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Performance &amp; Best Practices</masterLabel>
+            <translation><!-- System Performance &amp; Best Practices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treatments</masterLabel>
+            <translation><!-- Treatments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Interface</masterLabel>
+            <translation><!-- User Interface --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virtual Event Management</masterLabel>
+            <translation><!-- Virtual Event Management --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

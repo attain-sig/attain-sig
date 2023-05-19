@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Feedback meets definition for a High Impact Configuration Update as defined in the Phase 2 Release Management doc --></help>
+        <label><!-- High Impact Configuration --></label>
+        <name>High_Impact_Configuration__c</name>
+    </CustomFieldTranslation>

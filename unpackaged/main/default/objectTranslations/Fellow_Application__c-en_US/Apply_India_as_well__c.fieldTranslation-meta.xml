@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Checkbox on fellow app for US candidates if they want to be considered for India fellowship as well --></help>
+        <label><!-- Apply India as well --></label>
+        <name>Apply_India_as_well__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Include a description of the work being funded by the donor – were their funds directed to a particular aspect or with a specific outcome in mind? --></help>
+        <label><!-- Project Description --></label>
+        <name>Project_Description__c</name>
+    </CustomFieldTranslation>

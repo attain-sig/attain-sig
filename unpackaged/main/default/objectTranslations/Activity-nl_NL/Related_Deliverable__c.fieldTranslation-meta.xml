@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Reporting Date Deliverable that created the Task. --></help>
+        <label><!-- Related Deliverable --></label>
+        <name>Related_Deliverable__c</name>
+        <relationshipLabel><!-- Activities --></relationshipLabel>
+    </CustomFieldTranslation>

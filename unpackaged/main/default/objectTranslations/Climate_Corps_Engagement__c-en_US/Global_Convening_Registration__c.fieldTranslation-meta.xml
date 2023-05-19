@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used in Portal deliverables tracker for India and China (toggle done/not done) --></help>
+        <label><!-- Global Convening Registration --></label>
+        <name>Global_Convening_Registration__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Current System Meets Requirements --></label>
+        <name>Current_System_Meets_Requirements__c</name>
+        <picklistValues>
+            <masterLabel>Does Not Meet</masterLabel>
+            <translation><!-- Does Not Meet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fully Meets</masterLabel>
+            <translation><!-- Fully Meets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partially Meets</masterLabel>
+            <translation><!-- Partially Meets --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

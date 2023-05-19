@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Grants and Challenge Match edit access to gift administration fields</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Challenge_Match_Originating_Donation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Challenge_Match_Qualifying_Donation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Gift_Administration_Notes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Qualifying_Donation__c.Gift_Administration_Approved__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Gift Administration</label>
+    <recordTypeVisibilities>
+        <recordType>Challenge_Match__c.Challenge_Match</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

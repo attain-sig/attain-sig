@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Originating Bank --></label>
+        <name>Originating_Bank__c</name>
+        <picklistValues>
+            <masterLabel>C3</masterLabel>
+            <translation><!-- C3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C4</masterLabel>
+            <translation><!-- C4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Europe</masterLabel>
+            <translation><!-- EDF Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Mexico</masterLabel>
+            <translation><!-- EDF Mexico --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MethaneSAT</masterLabel>
+            <translation><!-- MethaneSAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAC</masterLabel>
+            <translation><!-- PAC --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

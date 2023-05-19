@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Stage = Send to Matching Pool</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Climate_Corps_Letterhead</letterhead>
+    <name>Send to Matching Pool - Wave 2</name>
+    <style>freeForm</style>
+    <subject>Climate Corps: Next Steps</subject>
+    <textOnly>Dear {!Fellow_Application__c.Applicant_First_Name__c},
+
+Congratulations! We will be moving you forward to our matching pool and you will be among the candidates considered for a host placement.
+
+Next Steps
+
+On the afternoon of March 3rd the 2023 project list page will be launched in the Climate Corps fellow portal. On this page, you will be able to view the list of 2022 host organizations and projects and choose your preferred host placements. You will receive a reminder email when the project list is available which will provide instructions and tips on selecting projects.
+
+Candidates who submit their preferences by 11:59pm PT on March 5th will be considered placement.
+
+We will evaluate finalists and notify those chosen to participate in our program of their host placement on March 10th. When determining your placement, we will consider your geographical and host preferences, skills, and project interests. Please note that entering into the matching pool does not guarantee a placement.
+
+If you are matched with a host organization, you will have until March 24th to accept the placement.
+
+Finally, if you are an international student, please review our Work Authorization Policy.  It details important procedures, and guidelines that will help ensure you are eligible for a summer fellowship.
+
+Due to the high volume of applications, we will be delayed in responding to emails and requests. However, should you have impending travel plans that will limit your communication or any other urgent notifications, please contact climatecorpsadmin@ceaconsulting.com. If at any time you would like to remove yourself from consideration, please let us know.
+
+Best regards,
+The Climate Corps Team
+
+*Please do not reply to this email. We will not respond to any inquiries sent to this address. Please follow the instructions above to contact us.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

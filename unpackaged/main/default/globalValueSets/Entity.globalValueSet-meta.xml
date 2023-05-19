@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>C3</fullName>
+        <default>false</default>
+        <label>C3</label>
+    </customValue>
+    <customValue>
+        <fullName>C4</fullName>
+        <default>false</default>
+        <label>C4</label>
+    </customValue>
+    <customValue>
+        <fullName>CFF</fullName>
+        <default>false</default>
+        <label>CFF</label>
+    </customValue>
+    <customValue>
+        <fullName>EDF Europe</fullName>
+        <default>false</default>
+        <label>EDF Europe</label>
+    </customValue>
+    <customValue>
+        <fullName>EDF Mexico</fullName>
+        <default>false</default>
+        <label>EDF Mexico</label>
+    </customValue>
+    <customValue>
+        <fullName>Methane SAT</fullName>
+        <default>false</default>
+        <label>Methane SAT</label>
+    </customValue>
+    <customValue>
+        <fullName>NC PAC</fullName>
+        <default>false</default>
+        <label>NC PAC</label>
+    </customValue>
+    <customValue>
+        <fullName>PAC</fullName>
+        <default>false</default>
+        <label>PAC</label>
+    </customValue>
+    <customValue>
+        <fullName>Texas PAC</fullName>
+        <default>false</default>
+        <label>Texas PAC</label>
+    </customValue>
+    <customValue>
+        <fullName>SatMgmt, LLC</fullName>
+        <default>false</default>
+        <label>SatMgmt, LLC</label>
+    </customValue>
+    <customValue>
+        <fullName>UNKNON</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>UNKNON</label>
+    </customValue>
+    <customValue>
+        <fullName>MethaneSAT</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MethaneSAT</label>
+    </customValue>
+    <customValue>
+        <fullName>UNKNOWN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>UNKNOWN</label>
+    </customValue>
+    <masterLabel>Entity</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

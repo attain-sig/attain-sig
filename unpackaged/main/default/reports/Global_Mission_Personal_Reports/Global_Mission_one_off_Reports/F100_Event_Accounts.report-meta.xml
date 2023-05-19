@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Primary_Handler__c</field>
+    </columns>
+    <columns>
+        <field>Account.Past_CC_Years__c</field>
+    </columns>
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <description>Use this report when asked for a list of companies/organizations and their relationship managers. Include additional columns as needed.</description>
+    <filter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Account.Organization</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.X18_Digit_Account_ID__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0018W00001jKgonQAC,0018W00001jIuhGQAS,0018W00001jKee3QAC,0018W00001k7yAbQAI,0018W00001jIzPBQA0,0018W00001k842FQAQ,0018W00001k7yNJQAY,0018W00001jJQC6QAO,0018W00001jQpxjQAC,0018W00001jUpk9QAC,0018W00001jW1gaQAC,0018W00001jWggBQAS,0018W00001jIuiyQAC,0018W00001jIzPUQA0,0018W00001k842IQAQ,0018W00001jJKINQA4,0018W00001jKgqiQAC,0018W00001k85UzQAI,0018W00001jJgTgQAK,0018W00001k858pQAA,0018W00001jJedjQAC,0018W00001jNKkiQAG,0018W00001k842iQAA,0018W00001k7yMKQAY,0018W00001jJYpDQAW</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>F100 Event - Accounts</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>ACCOUNT.NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

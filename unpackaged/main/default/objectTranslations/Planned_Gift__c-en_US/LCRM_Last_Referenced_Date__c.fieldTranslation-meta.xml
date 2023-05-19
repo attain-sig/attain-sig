@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Last time record was referenced in LCRM --></help>
+        <label><!-- LCRM Last Referenced Date --></label>
+        <name>LCRM_Last_Referenced_Date__c</name>
+    </CustomFieldTranslation>

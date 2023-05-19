@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Lookup EDF staff member who entered the qualification. --></help>
+        <label><!-- Qualified By --></label>
+        <name>Qualified_By__c</name>
+        <relationshipLabel><!-- Program Prospecting --></relationshipLabel>
+    </CustomFieldTranslation>

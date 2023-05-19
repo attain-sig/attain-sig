@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Contact.Contact_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Primary_Handler__c</field>
+    </columns>
+    <columns>
+        <field>ADDRESS2_CITY</field>
+    </columns>
+    <columns>
+        <field>ADDRESS2_STATE</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <column>Contact.Contact_Record_ID__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>CON-649054,CON-229162,CON-624721,CON-767632,CON-801202,CON-1003758,CON-1220698,CON-1309654,CON-1373397,CON-1403014,CON-1412020,CON-1447001,CON-1454617,CON-1504105,CON-1506204,CON-1582331,CON-1591687,CON-1591917,CON-1595339,CON-1605164,CON-1702705,CON-2810944,CON-2813283,CON-2871743,CON-26331,CON-32615,CON-36788,CON-41131,CON-53937,CON-65437,CON-66897,CON-74343,CON-79982,CON-88219,CON-88475,CON-90887,CON-108330,CON-110268,CON-110492,CON-162906,CON-165808,CON-167951,CON-182636,CON-195803,CON-215521,CON-223385,CON-332209,CON-332500,CON-340933,CON-342902,CON-343702,CON-353683,CON-374387,CON-393275,CON-393298,CON-401818,CON-402842,CON-429879,CON-430466,CON-442734,CON-446010,CON-484522,CON-485018,CON-494641,CON-502737,CON-504412,CON-513742,CON-513955,CON-516830,CON-522660,CON-527328,CON-546469,CON-551180,CON-551692,CON-551730,CON-559846,CON-562988,CON-565120,CON-567775,CON-568003,CON-568396,CON-568742,CON-568835,CON-572160,CON-572366,CON-577835,CON-579799,CON-579842,CON-582777,CON-585639</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Contact_Record_ID__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>CON-592343,CON-599749,CON-613191,CON-617341,CON-618823,CON-619113,CON-621603,CON-625770,CON-633838,CON-635861,CON-657188,CON-657371,CON-660078,CON-664291,CON-671977,CON-675768,CON-686954,CON-688221,CON-692478,CON-694990,CON-714969,CON-718611,CON-719339,CON-719651,CON-725409,CON-727701,CON-728977,CON-729125,CON-745907,CON-748111,CON-749010,CON-749051,CON-749718,CON-750944,CON-752035,CON-766983,CON-770895,CON-772345,CON-774255,CON-777450,CON-778224,CON-778366,CON-778758,CON-779723,CON-780369,CON-794661,CON-797016,CON-797756,CON-798920,CON-801770,CON-801986,CON-802013,CON-806440,CON-814643,CON-825687,CON-832477,CON-843464,CON-849180,CON-867214,CON-868310,CON-869228,CON-872246,CON-880844,CON-925849,CON-927123,CON-929268,CON-936506,CON-969545,CON-976356,CON-989414,CON-992492,CON-995335,CON-1002094,CON-1003585,CON-1003843,CON-1006081,CON-1006611,CON-1008201,CON-1008889,CON-1018066,CON-1033960,CON-1051819,CON-1056691,CON-1058946,CON-1092298,CON-1103050,CON-1106515,CON-1107184,CON-1113391</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>PM Search</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

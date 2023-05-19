@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Exchange Rate when Opportunity was Received or Received as Pledged. Set by the Opportunities Values Flow --></help>
+        <label><!-- Close Exchange Rate --></label>
+        <name>Close_Exchange_Rate__c</name>
+        <relationshipLabel><!-- Opportunities (Close Exchange Rate) --></relationshipLabel>
+    </CustomFieldTranslation>

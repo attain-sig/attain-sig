@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Approver --></label>
+        <name>Approver__c</name>
+        <picklistValues>
+            <masterLabel>Alice Hill</masterLabel>
+            <translation><!-- Alice Hill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Art Cooley</masterLabel>
+            <translation><!-- Art Cooley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brenda Mallory</masterLabel>
+            <translation><!-- Brenda Mallory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charles Hamilton</masterLabel>
+            <translation><!-- Charles Hamilton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lynn Goldman</masterLabel>
+            <translation><!-- Lynn Goldman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Richard Lazarus</masterLabel>
+            <translation><!-- Richard Lazarus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Richard Stewart</masterLabel>
+            <translation><!-- Richard Stewart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sarah Light</masterLabel>
+            <translation><!-- Sarah Light --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seema Kakade</masterLabel>
+            <translation><!-- Seema Kakade --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

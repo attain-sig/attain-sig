@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <description>Updates status of considerme to archived when stage on app = host dropped after confirmation, onboarding conversation not approved</description>
+    <environments>Default</environments>
+    <interviewLabel>Fellow Application - Update ConsiderMe to Archive {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Fellow Application - Update ConsiderMe to Archived</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>UpdateAvailable</name>
+        <label>UpdateAvailable</label>
+        <locationX>176</locationX>
+        <locationY>455</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Engagement_Available__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>Not Submitted</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Potential_Matching_From_Screeners__r</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>UpdateConsiderMes</name>
+        <label>UpdateConsiderMes</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <connector>
+            <targetReference>UpdateAvailable</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Engagement_Available__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>Archived</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Potential_Matching_From_Screeners__r</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>UpdateConsiderMes</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+OR(
+ispickval({!$Record.Status__c},&quot;Host Dropped after Confirmation&quot;), 
+ ispickval({!$Record.Status__c}, &quot;Onboarding Conversation Not Approved&quot;)
+)</filterFormula>
+        <object>Fellow_Application__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

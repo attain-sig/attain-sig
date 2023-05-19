@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Puerto Rico Newsletter</name>
+    <style>none</style>
+    <subject>EDF Puerto Rico Newsletter</subject>
+    <textOnly>August 2021 Newsletter
+
+Greetings partners, supporters and friends!
+
+We are pleased to report that we are making good progress on our community-based solar and storage project in Culebra, Puerto Rico. The project is focused on providing solar panels and batteries to low and moderate income residents, giving priority to those with special needs (e.g., elderly, single parents, health care needs, etc.). We anticipate being able to include at least 20 to 25 households in this project and, barring unforeseen circumstances, hope to begin construction this fall or winter. Below we provide more detail on this project as well as other updates about our work in Puerto Rico.
+
+As we continue to seek additional funding for this project, please don’t hesitate to reach out if you’re interested in providing support. Additionally, we would welcome introductions to companies that could donate solar panels and batteries.
+
+We look forward to hearing from you with thoughts, questions and ideas for how we can drive the greatest impact. Also, please follow us on Facebook.
+
+Thank you,
+
+Dan
+
+Daniel Whittle
+Senior Director, Caribbean
+
+TOP THINGS TO KNOW:
+
+Our project is underway in Culebra!
+
+Our Puerto Rico-based team resumed travel to Culebra this spring. Getting back out into the community enabled us to expand our education and outreach efforts, and gauge the interest and needs of local residents.
+
+In May 2021 our team traveled to Culebra to visit five neighborhoods that community organizations and residents identified as priorities based on vulnerability and need. The objective of the site visit was to assess relevant factors for the project, including demographics, structural integrity of homes, energy consumption patterns and priority loads (i.e., which appliances they need to power during a blackout). We are collaborating with local partners —Mujeres de Islas, Fundación de Culebra, and the Foundation for a better Puerto Rico — to develop criteria for participating households, questionnaires for interested residents, project timelines, and educational materials.
+
+Key to the success of this project is to build the capacity of participants to operate and maintain the systems once construction is complete. We will draw on the experiences of other communities across Puerto Rico to support Culebra’s residents in designing the model that suits them best. With our local partners, we are also working to ensure that our project is well integrated with other ongoing renewable energy and sustainability initiatives, including efforts aimed at providing solar power to businesses and critical facilities, and a utility-led effort to modernize grid infrastructure in Culebra and service residents who are still not connected to the grid.
+
+On July 21, we hosted our first in a series of community workshops for residents to learn more about the project. We will also provide opportunities for those interested to meet one-on-one with our staff. Following the workshops and individual sessions, we will review applications and schedule follow-up site visits to ensure that structures can accommodate solar panels and batteries. Once that is complete, we expect to make final selections and will prepare a request for proposals from prospective project developers, which will be published after discussing and approving it alongside participating residents.
+
+Proposed Clean Energy Accelerator to help Puerto Rico’s climate resilience
+
+EDF continues to work with Puerto Rico, congressional allies, and Washington, DC- based groups to advance federal programs and policies that will accelerate clean and resilient energy in Puerto Rico. A particularly promising opportunity is legislation to provide up to $100 billion to establish a new national Clean Energy &amp; Sustainability Accelerator. The Accelerator, which would be akin to a national green bank, would fund new green banks in states and territories, support millions of dollars worth of backlogged projects at existing green banks, and provide capital for future climate infrastructure projects. The Accelerator, which may be included in a budget “reconciliation” bill under development in the House and Senate, would allocate 40 percent of funds for disadvantaged communities and those most affected by climate change.
+
+LOOKING AHEAD:
+
+Over the next couple of months we will remain focused on identifying participants for our pilot solar and storage project in Culebra, developing models for operation and maintenance, and lining up a project developer. We will continue to support other sustainability efforts on the island, including educational programs aimed at school children and their families. We will also explore opportunities to solicit additional federal funds that may be available to support Culebra’s long-term plan to transition to clean energy.
+
+We appreciate your support!
+
+Environmental Defense Fund
+257 Park Ave S. New York, NY 10010 | 212.505.2100</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

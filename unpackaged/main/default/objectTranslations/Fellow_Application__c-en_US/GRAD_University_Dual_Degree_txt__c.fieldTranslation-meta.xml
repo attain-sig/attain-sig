@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GRAD University - Dual Degree --></label>
+        <name>GRAD_University_Dual_Degree_txt__c</name>
+    </CustomFieldTranslation>

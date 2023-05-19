@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Staging</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Staging</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Staging Layout</layout>
+        <sections>
+            <label><!-- Caging --></label>
+            <section>Caging</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- For GPT Use Only --></label>
+            <section>For GPT Use Only</section>
+        </sections>
+        <sections>
+            <label><!-- Legacy Projections --></label>
+            <section>Legacy Projections</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Staging --></description>
+        <label><!-- Staging --></label>
+        <name>Staging</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Entity Field cannot be blank. Please contact your admin for more information. --></errorMessage>
+        <name>Entity_Field_Required_Based_on_Profile</name>
+    </validationRules>
+</CustomObjectTranslation>

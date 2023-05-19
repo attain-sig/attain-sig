@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Should Done be marked as Not Done is the Done Condition is not met? --></help>
+        <label><!-- Undo Done? --></label>
+        <name>Undo_Done__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Donor Qualification Interests --></label>
+        <name>Donor_Qualification_Interests__c</name>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clean Energy</masterLabel>
+            <translation><!-- Clean Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate</masterLabel>
+            <translation><!-- Climate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Corps</masterLabel>
+            <translation><!-- Climate Corps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conservative Leadership</masterLabel>
+            <translation><!-- Conservative Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Defend Our Future</masterLabel>
+            <translation><!-- Defend Our Future --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDFBIZ</masterLabel>
+            <translation><!-- EDFBIZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economics</masterLabel>
+            <translation><!-- Economics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecosystems</masterLabel>
+            <translation><!-- Ecosystems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation><!-- Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health</masterLabel>
+            <translation><!-- Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International</masterLabel>
+            <translation><!-- International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latin America</masterLabel>
+            <translation><!-- Latin America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MCAF</masterLabel>
+            <translation><!-- MCAF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MethaneSat</masterLabel>
+            <translation><!-- MethaneSat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Natural Gas</masterLabel>
+            <translation><!-- Natural Gas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceans</masterLabel>
+            <translation><!-- Oceans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Science</masterLabel>
+            <translation><!-- Science --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>c4</masterLabel>
+            <translation><!-- c4 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

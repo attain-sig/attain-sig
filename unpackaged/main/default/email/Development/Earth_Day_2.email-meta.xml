@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Earth Day</name>
+    <style>none</style>
+    <subject>TEST: Heartfelt thanks from all of EDF</subject>
+    <textOnly>As we approach the end of the year, I wanted to share with you this short message from EDF’s Executive Director, Amanda Leland, thanking you for your support in 2022.
+
+I hope you will agree that it is a great summary of all we have achieved together this year towards ensuring a vital earth for everyone.
+
+My heartfelt thanks to you for your partnership, and best wishes for the year to come.
+
+https://www.youtube.com/watch?v=6Rhxx92Vaz8
+
+Best,
+
+Fred
+
+Fred Krupp
+President
+Environmental Defense Fund
+
+- Wall Street Journal opinion: “Quit burning tropical forests and set up carbon markets“
+- CNN opinion: “Frightening new climate report also holds the seeds of hope“
+- PBS NewsHour interview with Amna Nawaz: “Charging up“
+- Outrage + Optimism podcast (with Christiana Figueres and Tom Rivett-Carnac) “Episode 99: Hope is a verb“
+- Updates from the frontiers of environmental innovation (newsletter)
+- On Twitter @FredKrupp | On LinkedIn
+
+Click here to view EDF&apos;s 2021 Impact Report. (https://www.edf.org/Z2Cp)</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

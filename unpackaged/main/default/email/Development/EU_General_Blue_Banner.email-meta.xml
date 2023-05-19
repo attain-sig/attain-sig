@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EU - General Blue Banner</name>
+    <style>none</style>
+    <subject>Season&apos;s Greetings!</subject>
+    <textOnly>As 2022 comes to a close, we want to thank you for standing with Environmental Defense Fund Europe. The work that we’ve accomplished together this year sets the stage for big, bold action in 2023 to get the world on a rapid path to climate stability with healthy, resilient communities.
+
+Globally, this has been a year where countries came together to support a loss and damage fund at COP27, and, most recently, nearly 200 countries agreed on a new set of goals to guide global action through 2030 to halt and reverse the loss of nature at COP15 in Montreal.
+
+This 1-minute video showcases the bold spirit that we’ll embrace in the year to come. Stay tuned to the end to see a sneak peak of our new logo, which we’ll unveil next month.
+
+I know I speak for the whole team in saying how much we value your trust and interest in our work. We all wish you a very happy festive season!
+
+
+
+Sincere wishes,
+
+Georgina
+
+Development Office
+
+Environmental Defense Fund Europe
+
+3rd Floor, 41 Eastcheap, London EC3M 1DT﻿
+
+Environmental Defense Fund Europe and Environmental Defense Fund Inc. commit to securely holding your data and using it responsibly to enhance our communications and relationship with you. For more information about how we use personal data please read our Privacy Notice. If you do not wish to receive further emails from us, please contact us at members@edf.org.
+
+Environmental Defense Fund Europe is a registered charity (charity number 1164661) and a company limited by guarantee, incorporated in England and Wales (company number 09217493).
+
+﻿© Copyright 2022 Environmental Defense Fund. All Rights Reserved.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

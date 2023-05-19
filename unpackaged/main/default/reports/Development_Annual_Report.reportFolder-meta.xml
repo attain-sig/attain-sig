@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    <folderShares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>Development_Data</sharedTo>
+        <sharedToType>Group</sharedToType>
+    </folderShares>
+    <name>Development Annual Report</name>
+</ReportFolder>

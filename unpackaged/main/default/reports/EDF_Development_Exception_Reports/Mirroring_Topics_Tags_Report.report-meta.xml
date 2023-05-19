@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>TopicAssignment$Entity</field>
+    </columns>
+    <columns>
+        <field>TopicAssignment$Topic.Name</field>
+    </columns>
+    <columns>
+        <field>TopicAssignment$Id</field>
+    </columns>
+    <columns>
+        <field>TopicAssignment$DerivedRecord</field>
+    </columns>
+    <columns>
+        <field>TopicAssignment$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>TopicAssignment$Topic.CreatedDate</field>
+    </columns>
+    <columns>
+        <field>TopicAssignment$CreatedBy</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>TopicAssignment$Topic</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Advocacy,Agriculture,Air Force,Asia Pacific,Aviation,Belize,Brazil,C4,Canada,Carbon Markets,Caribbean,Central America,Chile,China,Clean Air,Clean Energy,Climate,Coastal,Cuba,Defend Our Future,DEIJ,Economics (OCE),Ecosystems,EDFBIZ,Energy,Environmental Justice,European Union,Fisheries,General Support,Global Strategy,Health,Hydrogen,Iceland,India,Indonesia,Japan,MarComm,Methane,MethaneSAT,MethaneSAT Advocacy,Mexico,Mom&apos;s Clean,Myanmar,Natural Climate Solutions,North America,Oceans,Peru,Philippines,Political Affairs,Portugal,Science (OCS),Shipping,South America,Spain,Sweden,Toxic Chemicals,Transportation,United Kingdom,United States,Vision 2030,Water</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>TopicAssignment$CreatedBy</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Heller Migration Consultant</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>TopicAssignment$Topic</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Mirroring Topics/Tags Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Topic_Assignments__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>TopicAssignment$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2022-04-26</startDate>
+    </timeFrameFilter>
+</Report>

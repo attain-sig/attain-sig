@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Classification of Protected Veteran - 
+Disabled veteran
+Recently separated veteran
+Active duty wartime or campaign badge veteran
+Armed forces service medal veteran --></help>
+        <label><!-- Veteran Status --></label>
+        <name>Veteran_Status__c</name>
+        <picklistValues>
+            <masterLabel>I am not a protected veteran</masterLabel>
+            <translation><!-- I am not a protected veteran --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I decline to self-identify</masterLabel>
+            <translation><!-- I decline to self-identify --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I identify as one or more of the classifications of protected veteran</masterLabel>
+            <translation><!-- I identify as one or more of the classifications of protected veteran --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

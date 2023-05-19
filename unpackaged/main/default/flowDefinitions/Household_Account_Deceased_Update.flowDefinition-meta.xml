@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>2</activeVersionNumber>
+    <description>This flow fires when a Contact within a Household is marked Deceased. 
+Gets Household Account and Updates Checkbox.</description>
+    <masterLabel>Contact --&gt; Household Account Deceased Update</masterLabel>
+</FlowDefinition>

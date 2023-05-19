@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>salesforcesysadmin@edf.org</email>
+    <name>Salesforce Administrator</name>
+    <queueMembers>
+        
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>User_Story__c</sobjectType>
+    </queueSobject>
+</Queue>

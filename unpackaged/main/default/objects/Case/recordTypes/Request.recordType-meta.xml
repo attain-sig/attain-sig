@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request</fullName>
+    <active>true</active>
+    <businessProcess>Request</businessProcess>
+    <compactLayoutAssignment>Request_Layout</compactLayoutAssignment>
+    <label>Request</label>
+    <picklistValues>
+        <picklist>Adjustment_Type__c</picklist>
+        <values>
+            <fullName>Admin Reclass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allocation Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amount Adjustment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appeal Code or Campaign Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bank Adjustment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Close Date Adjustment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entity Reclass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hard%2FSoft Credit Adjustment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invalid%2FGift Reversal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pledge Installment Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Type Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Write Off</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Topic__c</picklist>
+        <values>
+            <fullName>How-To Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I can%E2%80%99t do something I need to</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I received an error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I would love it if</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merge%2FDelete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Dashboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Financial Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update%2FModify Dashboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update%2FModify Financial Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update%2FModify Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upload</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Set-up%2FDeactivation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Diagnosis__c</picklist>
+        <values>
+            <fullName>Banned Corporation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donor error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donor error - recurring gift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDF error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDF test</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fraud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical error- multiple charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor error - multiple charge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Amount</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_follow_up_required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Team__c</picklist>
+        <values>
+            <fullName>Catalyst Circle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donor Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gift Administration %26 Stewardship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government Partnerships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information %26 Strategy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Institutional Giving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Major Gifts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Membership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planned Giving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect Research</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Data Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reports or Dashboards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Development or Technical Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Management%2FTraining%2FHow To</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Refund_Method__c</picklist>
+        <values>
+            <fullName>ACH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wire</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Refund_Type__c</picklist>
+        <values>
+            <fullName>Full</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sentiment__c</picklist>
+        <values>
+            <fullName>negative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>neutral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>positive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

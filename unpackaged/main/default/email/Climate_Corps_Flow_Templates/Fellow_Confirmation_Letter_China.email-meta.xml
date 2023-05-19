@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>China Engagements</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Climate_Corps_Letterhead</letterhead>
+    <name>Fellow Confirmation Letter - China</name>
+    <style>freeForm</style>
+    <subject>Climate Corps: Next Steps</subject>
+    <textOnly>Dear {!Climate_Corps_Engagement__c.Fellow_first_name__c},
+
+
+
+Congratulations! I am pleased to inform you that your host organization has confirmed your fellowship placement. Our team is excited to welcome you to the Climate Corps Class of 2023, and we look forward to working with you this summer!
+
+
+
+Here are the most immediate next steps for you:
+
+
+
+1. Log into the Fellow Portal. You should find that it&apos;s updated, with a new tile called &quot;Portal Deliverables.&quot;
+
+
+
+2. Review the items required for the upcoming weeks in preparation for your Fellowship.
+
+
+
+3. Attend the Orientation Webinar in early May, keep an eye out for the information in the WeChat Group.
+
+
+
+As a reminder, as a Climate Corps fellow, you agree to fulfill the duties outlined in the 2023 Climate Corps China Program Fellow Agreement. You can find the Fellow Agreement in the Portal Deliverables. Please download it and review it. We do not require you to submit a signed copy to upload to the portal.
+
+
+
+Thank you and congratulations!
+
+
+
+Best,
+
+
+
+Climate Corps China Team
+
+
+
+EDFClimateCorps.org
+
+
+
+*Please do not reply to this email. We will not respond to any inquiries sent to this address. All questions should be directed to climatecorps@cet.net.cn.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

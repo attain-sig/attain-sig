@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$X18_Digit_Account_ID__c</field>
+    </columns>
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <description>Pulled for Jake Hiller and Kristin Lorenzo on 3-24-23</description>
+    <filter>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Aberdeen Standard Investments,ABN AMRO,Advent International,Aegon,AIMCo,AllianceBernstein,Allianz,Amundi,AP Pension,APG,Apollo,Apollo Global Management,ArcLight Capital Partners,Aviva,AXA Investment Managers,Bain Capital,Balyasny,Bank of America,Barclays,Blackrock,Blackstone,Bluebay,BNP Paribas,BNY Mellon,Boston Walden,Breakthrough Energy Ventures,BT Financial Group,CalPRS,CalSTRS,Calvert,Capital Group,CCLA Investment Mgmt,Chubb,Church of England,Cinven,Citi,CNPC finance,CPP Investments,Credit Suisse,CVC Capital Partners</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Dodge &amp; Cox,DWS,East Capital,EIG,Encap,Engine No. 1,EQT Partners,Fidelity,Fisher Investments,Franklin Templeton,General Atlantic,Glass Lewis,Global Delta Capital,Goldman Sachs,Harding Loevner,Harvard Management Co,Hermes Investment Mgmt/EOS at Federated Hermes,HSBC,ING,Invesco,Iron Point Partners,ISS,J.P. Morgan,Jefferies,JP Morgan Asset Management,Jupiter Asset Mgmt,Kimmeridge,KKR,Lazard,Legal &amp; General,Matthews Asia,Morgan Stanley,Natixis,NGP Energy Capital Management,NinetyOne,Nordea,Norges Bank Investment Mgmt,Northern Trust,Nuveen,NYC Comptroller</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Ostrum Asset Mgmt,Permira,PIMCO,Prudential Financial,Quantum,Rathbones Charity Investment Mgmt,Riverstone,Robeco,Rothschild,Schroders,SocGen,Somerset,Standard Life,State Street,Sustainalytics,TA Associates,TD Securities,The Carlyle Group,Thornburg,TPG,Trilantic Capital Partners,Trillium Asset Management,UBS,University of Texas/Texas A&amp;M Investment Company,Vanguard,Vista Equity Partners,Warburg Pincus,Wellington Management,Wells Fargo,Wellington Management Co.</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Allianz SE,APG Group,Apollo,Apollo Management Holdings,ArcLight,Balyasny Asset Management,BlackRock Financial Management,BlueBay Asset Management,BT Financial,California Public Employees&apos; Retirement System,Carlyle Group,CCLA,CNPC,CPP Investment Board,EIG Partners,EnCap Investments,EQT Corporation,EQT Group,Fidelity Charitable,Fidelity Investments,General Atlantic LLC,General Atlantic Service Co. LLC,Goldman Sachs &amp; Co,Harvard Management Co.,Hermes Investment Management,Federated Hermes,ING Group,Iron Point Partners,J.P. Morgan Securities LLC,J.P. Morgan,Jupiter Asset Management,Legal &amp; General Investment Management,Natixis Global Asset Management,Ninety One,Norges Bank Investment Management,Office of the New York State Comptroller,Quantum Energy Partners,Rathbones,Riverstone Holdings,Riverstone Holdings LLC,Robeco Institutional Asset Management,Rothschild &amp; Co,Société Générale S.A.,Somerset Capital,State Street Corporation,TD Securities (USA) LLC,The Blackstone Group,The Church of England,Thornburg Investment Management,TPG Capital,TPG Growth,LLC,Trilantic Capital Partners,Trillium Asset Management LLC,UTIMCO,Walden Asset Management,Boston Trust &amp; Investment Management Company,Wellington Management Company LLP</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Possible Orgs For Investors</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Accounts_custom__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

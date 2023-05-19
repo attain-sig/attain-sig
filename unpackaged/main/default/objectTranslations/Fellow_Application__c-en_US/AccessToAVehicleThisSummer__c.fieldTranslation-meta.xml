@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Access to a vehicle this summer? --></label>
+        <name>AccessToAVehicleThisSummer__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes (own)</masterLabel>
+            <translation><!-- Yes (own) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes (will rent)</masterLabel>
+            <translation><!-- Yes (will rent) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template for Gwen&apos;s Monthly Update</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Monthly Update</name>
+    <style>none</style>
+    <subject>The New Yorker profile of MethaneSAT just published</subject>
+    <textOnly>I am pleased to share this New Yorker article posted online a short time ago: A Security Camera for the Planet. It is the story of how you turned this audacious idea into reality.
+
+It reminds me of how far we’ve come in the decade since EDF recognized that reducing methane pollution was an overlooked but powerful way to make climate progress. In weeks, data will start flowing from MethaneAIR, our aircraft-based version of MethaneSAT, flying over North America. And in less than a year, MethaneSAT will deliver data to motivate action to reduce methane pollution globally. The New Yorker profile appears just as Europe moves closer to its first standards to reduce methane.
+
+I hope that you’ll take pride in your own role in this story, and in all that we’ve accomplished together. On behalf of my colleagues at EDF, MethaneSAT LLC and our many partners: thank you for your trust and support. You make this bold and critical mission possible.
+
+Best,
+
+Fred
+President
+
+Environmental Defense Fund
+
+257 Park Ave S. New York, NY 10010 | 212.505.2100</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

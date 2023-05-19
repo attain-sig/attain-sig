@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Subcategory --></label>
+        <name>Subcategory__c</name>
+        <picklistValues>
+            <masterLabel>Arts/Culture</masterLabel>
+            <translation><!-- Arts/Culture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate</masterLabel>
+            <translation><!-- Climate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Development</masterLabel>
+            <translation><!-- Community Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecosystems- Agriculture</masterLabel>
+            <translation><!-- Ecosystems- Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecosystems- Land/Water</masterLabel>
+            <translation><!-- Ecosystems- Land/Water --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecosystems- Parks/Gardens</masterLabel>
+            <translation><!-- Ecosystems- Parks/Gardens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ecosystems- Wildlife/Animals</masterLabel>
+            <translation><!-- Ecosystems- Wildlife/Animals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education</masterLabel>
+            <translation><!-- Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation><!-- Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental Health</masterLabel>
+            <translation><!-- Environmental Health --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare - Advocacy</masterLabel>
+            <translation><!-- Healthcare - Advocacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare - Hospitals</masterLabel>
+            <translation><!-- Healthcare - Hospitals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare - Research</masterLabel>
+            <translation><!-- Healthcare - Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Higher Education</masterLabel>
+            <translation><!-- Higher Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Services</masterLabel>
+            <translation><!-- Human Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Humanitarian Aid</masterLabel>
+            <translation><!-- Humanitarian Aid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International</masterLabel>
+            <translation><!-- International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal/Advocacy</masterLabel>
+            <translation><!-- Legal/Advocacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Literacy</masterLabel>
+            <translation><!-- Literacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Natural History</masterLabel>
+            <translation><!-- Natural History --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceans</masterLabel>
+            <translation><!-- Oceans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other environmentally related</masterLabel>
+            <translation><!-- Other environmentally related --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Policy</masterLabel>
+            <translation><!-- Public Policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Religion Related</masterLabel>
+            <translation><!-- Religion Related --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Science</masterLabel>
+            <translation><!-- Science --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Women</masterLabel>
+            <translation><!-- Women --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Youth Development</masterLabel>
+            <translation><!-- Youth Development --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

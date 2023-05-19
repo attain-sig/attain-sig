@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please capture CPP and/or Clean Energy Alignments --></help>
+        <label><!-- Strategic Value Notes --></label>
+        <name>Strategic_Value_Notes__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fellowship__c</fullName>
+    <description>For which fellowship does this apply</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>For which fellowship does this apply</inlineHelpText>
+    <label>Fellowship</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>U.S. Fellowship</fullName>
+                <default>true</default>
+                <label>U.S. Fellowship</label>
+            </value>
+            <value>
+                <fullName>China Fellowship</fullName>
+                <default>false</default>
+                <label>China Fellowship</label>
+            </value>
+            <value>
+                <fullName>India Fellowship</fullName>
+                <default>false</default>
+                <label>India Fellowship</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

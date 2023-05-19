@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Climate_Corps_Letterhead</letterhead>
+    <name>Host Application Reviewed - External</name>
+    <style>freeForm</style>
+    <subject>Thank you for Submitting a Climate Corps Host Application</subject>
+    <textOnly>Hi {!Host_Application__c.Respondent_Name__c},
+
+Thanks so much for submitting an application to host a Climate Corps fellow for the summer of 2022. If we have questions about your application, we will follow up shortly. You’ll receive confirmation of your participation in the program by late February.
+
+Please do not hesitate to reach out to me if you have any questions.
+
+Best,
+Mali&apos;o Kodis
+Project Manager, Host Recruitment</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

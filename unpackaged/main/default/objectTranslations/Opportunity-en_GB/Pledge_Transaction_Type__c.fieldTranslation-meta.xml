@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pledge Transaction Type --></label>
+        <name>Pledge_Transaction_Type__c</name>
+        <picklistValues>
+            <masterLabel>Pledge - Corporate</masterLabel>
+            <translation><!-- Pledge - Corporate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pledge - Foundation</masterLabel>
+            <translation><!-- Pledge - Foundation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pledge - Government</masterLabel>
+            <translation><!-- Pledge - Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pledge - MG Donation</masterLabel>
+            <translation><!-- Pledge - MG Donation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pledge - Other Institutional Giving</masterLabel>
+            <translation><!-- Pledge - Other Institutional Giving --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Count of Hard and Soft Credits last calendar year. --></help>
+        <label><!-- # of Donations during Last Year --></label>
+        <name>of_Donations_Last_1_Years__c</name>
+    </CustomFieldTranslation>

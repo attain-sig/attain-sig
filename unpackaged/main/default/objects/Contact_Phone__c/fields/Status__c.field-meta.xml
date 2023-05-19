@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <description>Phone number status.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A Preferred status indicates it's the best phone number of that type and will get copied to the Contact record. Each Contact can only have 1 Preferred phone for each type (eg 1 Preferred home, 1 Preferred mobile). Deliverable indicates it's an active phone number but not preferred for its type. Undeliverable indicates the phone number isn't valid.</inlineHelpText>
+    <label>Status</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Preferred</fullName>
+                <default>true</default>
+                <label>Preferred</label>
+            </value>
+            <value>
+                <fullName>Deliverable</fullName>
+                <default>false</default>
+                <label>Deliverable</label>
+            </value>
+            <value>
+                <fullName>Undeliverable</fullName>
+                <default>false</default>
+                <label>Undeliverable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

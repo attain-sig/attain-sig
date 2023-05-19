@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Score based on Capacity rating (Factors into PG Prospect Rating)
+1M-100M+ = 4
+$500K+ = 3
+$100K+ = 2
+$25K+ = 1
+All others=0 --></help>
+        <label><!-- PG Capacity Score --></label>
+        <name>PG_Capacity_Score__c</name>
+    </CustomFieldTranslation>

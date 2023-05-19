@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fellow_Training_Survey_Confirmation__c</fullName>
+    <description>Fellow's initials indicate they completed the post training survey.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Fellow's initials indicate they completed the post training survey.</inlineHelpText>
+    <label>Fellow Training Survey Confirmation</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

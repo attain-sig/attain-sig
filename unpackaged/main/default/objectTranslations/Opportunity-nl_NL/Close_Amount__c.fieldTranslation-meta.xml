@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The USD-converted value of the &apos;Amount&apos; field using the recorded exchange rate on the gift&apos;s Close Date. --></help>
+        <label><!-- Close Amount --></label>
+        <name>Close_Amount__c</name>
+    </CustomFieldTranslation>

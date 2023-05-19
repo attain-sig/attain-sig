@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Matching Video Walkthrough</label>
+    <protected>true</protected>
+    <values>
+        <field>Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>FellowshipApplyingFor__c</field>
+        <value xsi:type="xsd:string">U.S. Fellowship</value>
+    </values>
+    <values>
+        <field>Footer__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Image__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>NextStepsBody__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>NextStepsDescription__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>NextStepsFotter__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>NextStepsHeading__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Order_Number__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Stages__c</field>
+        <value xsi:type="xsd:string">Interviews Complete: Application Under Consideration | Second Interview Scheduled</value>
+    </values>
+    <values>
+        <field>Sub_Title_Link_Label__c</field>
+        <value xsi:type="xsd:string">Recording</value>
+    </values>
+    <values>
+        <field>Sub_Title_Link__c</field>
+        <value xsi:type="xsd:string">https://edf.zoom.us/rec/share/mgncx_A8znX1hQf7oE8WuLzWXs2-9IdO4x_fxc_Y8mYPx0WDccnxrF7qNBkGnCZ3.ZlkFDkjWDyAOPLYb?startTime=1675276843000</value>
+    </values>
+    <values>
+        <field>Sub_Title__c</field>
+        <value xsi:type="xsd:string">For a walkthrough of the project selection process, please watch this brief video.</value>
+    </values>
+    <values>
+        <field>Title__c</field>
+        <value xsi:type="xsd:string">Placement Selection Walkthrough</value>
+    </values>
+</CustomMetadata>

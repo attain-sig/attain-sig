@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This formula field is calculated based on the Sum of Total Soft Credits this Year and Total Gifts this Year (FY). This field is used to calculate donor levels on the Levels Object. --></help>
+        <label><!-- Donor Level amount --></label>
+        <name>Donor_Level_amount__c</name>
+    </CustomFieldTranslation>

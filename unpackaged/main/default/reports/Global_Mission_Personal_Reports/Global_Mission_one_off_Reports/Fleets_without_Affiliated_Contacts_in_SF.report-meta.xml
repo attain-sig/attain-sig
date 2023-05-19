@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>TYPE</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Primary_Handler__c</field>
+    </columns>
+    <description>Report request from Fleet Electrification team for companies with fleets that don&apos;t have affiliated contacts in Salesforce. 11/9/2022.</description>
+    <filter>
+        <booleanFilter>(1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7) AND 8</booleanFilter>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>4 Gen Logistics,A&amp;R Logistics,Alco Iron &amp; Metal,Alsco,Altec,Amherst County,Anderson DuBose,Benore Logistic Systems,Best Transportation,Bettaway Logistics,Beyond Meat,Biagi Bros,Black Horse Carriers,Blue Earth Compost,Inc,Borough of Bergenfield,C&amp;V Contractors,Cajon Valley Union School District,Camrett Logistics,Carson-Tahoe Health,Central Hudson Gas &amp; Electric,City Furniture,City of Englewood,City of Gilbert,City of Hyattsville,City of Los Angeles Center for Green Innovation,City of Madison Fire Department,City of Mobile,City of Ocala,City of Paterson,City of Perth Amboy</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>City of Trenton,CMAC,Core-Mark,County of Chautauqua,Covenant Logistics,DHE,Dickinson Fleet Services,Dimension Fabricators,DocGo,Dole,Donlen,Dot Foods Inc./ Dot Transportation,Eco-Cycle,EcoMaine,Einride,Elate Moving,LLC,Elizabeth Board of Education,ENAT Transportation &amp; Logistics,Estes,eTrucks,EV Semi-Fleet,Evolve Logistics {FedEx Ground Contractor},F&amp;G,Fairfax County Department of Public Works and Environmental Services,Fastenal Co.,Ferguson,Firefly Transportation Services,Fleet Advantage,Fleetmaster Express Inc.,Forest River,Inc.</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Fresno Unified School District,Frito-Lay North America,GATR Truck Center,GE Appliance,Giant Food,Glovis America,GoBolt,Goodwill Industries,Harbor Freight Transportation Corp,Heniff Transportation,Hidden Arrow Inc. {FedEx Ground contractor},Hub Group,Hudson County Motors,IKEA Distribution Services North America,Intelligent Labor and Moving,International Motor Freight,J&amp;M Sanitation,Jackson Township School District,Jersey City,Karat Packaging,KeHE Distributors,Keller Trucking,Kingbee Rentals,Knight-Swift Transportation Holdings,Kraft Heinz Company,L&amp;R Group,Lazer Spot,Lemcor Solid Waste Transfer Station,Liberty Ashes,Inc,Limestone Logistics</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>McLane Company,Inc.,MDB Transportation,Mesa Fire and Medical Department,MGM Grand Hotel,MHX,Miami-Dade County Department of Solid Waste Management,Municipality of Anchorage Department of Solid Waste Services,Murphy Road Recycling,LLC,New Legend Inc,New York City Department of Sanitation,New York Department of Citywide Administrative Services (DCAS),North Carolina Department of Administration (NCDOA),Old Dominion Freight Line,Pacific Drayage,Pan-O-Gold Baking,Paterson Fire Department,Patton Logistics Group,Penske Logistics,Performance Team,PGT Trucking,Phil Haupt Electric,Pitt Ohio Transportation Group,Pride Group Enterprises,Pritchard Auto Company,Producers Dairy Foods Inc.,Purolator,Quality Custom Distribution,Quantix,Rail Management Services,Randy Marion Automotive Group</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Red Hook Terminals,Regional Industries,Republic National Distributing Company,Reyes Holding,RNR Transport Inc {FedEx Ground contractor},RoadOne,Ruan Transportation Management Systems,Inc.,Ryder System,San Diego Gas &amp; Electric,Santa Barbara Public Library,SaskPower,Shippers Transport Express,Sisa,Inc (FedEx Ground contractor),Sonepar (via Penske),Sonwil Distribution Center,In,Southern Counties Express,Staples Inc.,Sunbelt Rentals Inc.,Sunburst Truck Lines,Super Store Industries,Tacoma Harbor,Temco Logistics,Terminal Consolidation,The Kroger Co.,The Los Angeles City Fire Department,Titan Freight Systems,Toms River Township</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Total Transportation Services,Town of North Stonington,Town of West New York,Township of Woodbridge,Tradelink,Two Men and a Truck,U.S. Army,UniFirst Corporation,United Rental,UPS Inc.,USA Truck Inc.,USPS,Valley Malt,Velocity Truck Rental &amp; Leasing,Wakefern Food Corp.,Waste Connections and Operating Companies,Waste Resource Technology,Inc.,Watsontown Trucking Company,Werner Enterprises,Yellow Corp. (YRC Freight),Zeem Solutions</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ACCOUNT.NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>startsWith</operator>
+            <value>Saia Inc.,Stolt Trucking,Inc.,USA Truck Inc.,Waste Connections,Werner Enterprises,Forest River,Liberty Ashes,McLane Company,Inc,Old Dominion Freight Line,Ruan Transportation Management Systems</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Account.Organization</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Fleets without Affiliated Contacts in SF</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>ACCOUNT.NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Katie_s_Opt_In_List</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account.Capacity__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>No_invitations__c</columns>
+    <columns>No_mass_email__c</columns>
+    <columns>Primary_Handler__c</columns>
+    <columns>PG_Portfolio_Manager__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>npsp__Deceased__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>PG_Portfolio_Manager__c</field>
+        <operation>equals</operation>
+        <value>Katie Pooser</value>
+    </filters>
+    <label>Katie's Opt-In List</label>
+    <sharedTo>
+        <group>PlannedGiving</group>
+    </sharedTo>
+</ListView>

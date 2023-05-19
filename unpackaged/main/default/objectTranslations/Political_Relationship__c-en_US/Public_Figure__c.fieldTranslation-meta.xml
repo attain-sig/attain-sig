@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Name of person who holds/held public office or other public figure. --></help>
+        <label><!-- Public Figure --></label>
+        <name>Public_Figure__c</name>
+        <relationshipLabel><!-- Political Relationships (Public Figure) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
+    <authorizeUrl>https://edforg.sharepoint.com/sites/ClimateCorpsResourceLIbrary/_layouts/15/OAuthAuthorize.aspx</authorizeUrl>
+    <consumerKey>b8326969-a626-474a-b13e-5cb235d8fc30</consumerKey>
+    <consumerSecret>Placeholder_Value</consumerSecret>
+    <friendlyName>SharepointOnline</friendlyName>
+    <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <providerType>MicrosoftACS</providerType>
+    <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
+    <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
+    <sendSecretInApis>true</sendSecretInApis>
+    <tokenUrl>https://accounts.accesscontrol.windows.net/edforg.onmicrosoft.com/tokens/OAuth/2?resource=00000003-0000-0ff1-ce00-000000000000/edforg.sharepoint.com@edforg.onmicrosoft.com</tokenUrl>
+</AuthProvider>

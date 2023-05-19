@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Duplicate_Merge_Audit_Trail__c.Duplicate_Contact_External_ID__c</field>
+    </columns>
+    <columns>
+        <field>Duplicate_Merge_Audit_Trail__c.Duplicate_Other_External_ID__c</field>
+    </columns>
+    <columns>
+        <field>Duplicate_Merge_Audit_Trail__c.Duplicate_Other_External_ID2__c</field>
+    </columns>
+    <columns>
+        <field>Duplicate_Merge_Audit_Trail__c.Master_Contact_External_ID__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Contact.X18_Digit_Contact_ID__c</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_CNTC_FIRST_NAME</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <column>Duplicate_Merge_Audit_Trail__c.Duplicate_Contact_External_ID__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>CON-6755220,CON-1220590,CON-1547490,CON-6724192,CON-252931,CON-1583273,CON-3138611,CON-585963,CON-94051,CON-543295,CON-55955,CON-5521574,CON-2859421,CON-1523136,CON-1465618,CON-3258789,CON-202540,CON-28202,CON-573506,CON-728816,CON-89075,CON-1604542,CON-123976,CON-1510055,CON-1218732,CON-2750552,CON-396783,CON-694914,CON-6924676,CON-2783885,CON-1447900,CON-6295672,CON-7129055,CON-840567,CON-615251,CON-1546461,CON-303226,CON-1474658,CON-729818,CON-831521,CON-2784269,CON-1123689,CON-1364983,CON-1155003,CON-671176,CON-6902038,CON-977622,CON-1440801,CON-3269761,CON-7032353,CON-6674190,CON-3763627,CON-959571,CON-478735,CON-1372744,CON-2807302,CON-6614116,CON-1295925,CON-1499770,CON-975172,CON-3801637,CON-22024,CON-2784980,CON-1564710,CON-1556999,CON-41437,CON-3267454,CON-1321344,CON-1503709,CON-6683951,CON-302351,CON-7193981,CON-1581697,CON-423140,CON-7081814,CON-1282855,CON-33622,CON-557443,CON-5235373,CON-2787623,CON-1094112,CON-335878,CON-7131367,CON-1529752,CON-5517121,CON-1343613</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Duplicate_Merge_Audit_Trail__c.Duplicate_Contact_External_ID__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>CON-657541,CON-2858725,CON-1338119,CON-1321967,CON-958274,CON-1309680,CON-2742049,CON-1317617,CON-675330,CON-1559426,CON-1285262,CON-1465320,CON-39972,CON-524245,CON-2754380,CON-1404714,CON-1360065,CON-1434603,CON-2889255,CON-3320606,CON-998593,CON-1272698,CON-1387657,CON-82264,CON-1377274,CON-2783136,CON-6745415,CON-1275758,CON-128403,CON-2748689,CON-1492374,CON-1339888,CON-627038,CON-4552151,8-11403387,CON-1316000,CON-1185653,CON-1592765,CON-1312253,CON-3320804,CON-2782754,CON-1251280,8-11408611,CON-1598588,CON-957287,CON-4540024,CON-742965,CON-990604,CON-413177,CON-1168303,CON-21534,CON-1322752,CON-5570525,CON-1507138,CON-874450,CON-1069628,CON-1351318,CON-718815,CON-1525354,CON-1533662,CON-2784404,CON-1556967,CON-1554745,CON-1321282,CON-1352024,CON-256318,CON-834117,CON-1083790,CON-1249153,CON-1276833,CON-986180,8-11411859,CON-171423,CON-2941216,CON-1406430,CON-1304180,CON-1019095</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Duplicate Search</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Duplicate_Merge_Audit_Trail__c@Duplicate_Merge_Audit_Trail__c.Master_Contact_Name__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Duplicate_Merge_Audit_Trail__c.CreatedDate__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

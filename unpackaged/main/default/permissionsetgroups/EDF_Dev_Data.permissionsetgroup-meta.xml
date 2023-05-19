@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Replaces Dev Data Permission Set</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>EDF Dev Data</label>
+    <permissionSets>Update_Email_or_Phone</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

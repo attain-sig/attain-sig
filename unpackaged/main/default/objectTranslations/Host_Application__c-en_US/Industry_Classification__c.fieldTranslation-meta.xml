@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Shows on ConsiderMe --></help>
+        <label><!-- Industry Classification --></label>
+        <name>Industry_Classification__c</name>
+        <picklistValues>
+            <masterLabel>Arts, Media, Entertainment</masterLabel>
+            <translation><!-- Arts, Media, Entertainment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automotive</masterLabel>
+            <translation><!-- Automotive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>College or University</masterLabel>
+            <translation><!-- College or University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Package Goods</masterLabel>
+            <translation><!-- Consumer Package Goods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy or Utility</masterLabel>
+            <translation><!-- Energy or Utility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Services and Insurance</masterLabel>
+            <translation><!-- Financial Services and Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food Services</masterLabel>
+            <translation><!-- Food Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government/Public Administration</masterLabel>
+            <translation><!-- Government/Public Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Care</masterLabel>
+            <translation><!-- Health Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospitality</masterLabel>
+            <translation><!-- Hospitality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial Goods and Manufacturing</masterLabel>
+            <translation><!-- Industrial Goods and Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet, Software, and Technology Services</masterLabel>
+            <translation><!-- Internet, Software, and Technology Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military</masterLabel>
+            <translation><!-- Military --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nonprofit</masterLabel>
+            <translation><!-- Nonprofit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional and Technical Services</masterLabel>
+            <translation><!-- Professional and Technical Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Housing Authority</masterLabel>
+            <translation><!-- Public Housing Authority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation><!-- Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Religious Organization</masterLabel>
+            <translation><!-- Religious Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail and Apparel</masterLabel>
+            <translation><!-- Retail and Apparel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>School or School District</masterLabel>
+            <translation><!-- School or School District --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunications</masterLabel>
+            <translation><!-- Telecommunications --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation and Warehousing</masterLabel>
+            <translation><!-- Transportation and Warehousing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesale</masterLabel>
+            <translation><!-- Wholesale --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

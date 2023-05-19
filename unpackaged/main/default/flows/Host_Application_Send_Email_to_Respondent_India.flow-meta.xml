@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Host_App_Reviewed</name>
+        <label>Host App Reviewed</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <actionName>Host_Application__c.Host_Application_Reviewed_India</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <description>Sends email confirming receipt for India host applicants.</description>
+    <environments>Default</environments>
+    <interviewLabel>Host Application - Send Email to Respondent {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Host Application - Send Email to Respondent India</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Host_App_Reviewed</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; True
+&amp;&amp; 
+ispickval({!$Record.Stage__c}, &quot;Reviewed and Accepted&quot;)
+&amp;&amp;
+ispickval({!$Record.Fellowship_Program__c}, &quot;India Fellowship&quot;)</filterFormula>
+        <object>Host_Application__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

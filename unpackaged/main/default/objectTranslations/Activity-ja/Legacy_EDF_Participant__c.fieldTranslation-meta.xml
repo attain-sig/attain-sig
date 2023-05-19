@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- EDF Staff Contact that was involved in this Activity, but is no longer part of the picklist. --></help>
+        <label><!-- Legacy EDF Participant --></label>
+        <name>Legacy_EDF_Participant__c</name>
+    </CustomFieldTranslation>

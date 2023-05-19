@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account.npsp__Addresses__r$npsp__Formula_MailingAddress__c</field>
+    </columns>
+    <columns>
+        <field>Account.npsp__Addresses__r$Name</field>
+    </columns>
+    <columns>
+        <field>Account$Id</field>
+    </columns>
+    <description>Households with Addresses marked for sending reports or default Addresses if not reporting address is specified.</description>
+    <filter>
+        <booleanFilter>1 OR (2 AND 3)</booleanFilter>
+        <criteriaItems>
+            <column>Account.npsp__Addresses__r$Send_Reports__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.npsp__Addresses__r$npsp__Default_Address__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.npsp__Addresses__r$Send_Reports__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Household Addresses for Sending Reports</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Households_with_Related_Address_Records__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

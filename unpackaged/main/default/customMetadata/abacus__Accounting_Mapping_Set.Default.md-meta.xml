@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Default</label>
+    <protected>false</protected>
+    <values>
+        <field>abacus__Accounting_Data_Record_Type_Filter__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>abacus__Accounting_Job_Filter_Criteria__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>abacus__Accounting_Records_Start_Date__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>abacus__Default_Accrued_Account_Code__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>abacus__Default_Write_Off_Account_Code__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>abacus__Group_All_Debits_And_Credits_By_GAU__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>abacus__Group_Revenue_By_Due_Date_And_Allocation__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>abacus__In_Use__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>abacus__Is_Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>abacus__Load_Order__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>abacus__Mapping_JSON__c</field>
+        <value xsi:type="xsd:string">{&quot;objectStructures&quot;:[{&quot;objectStructureName&quot;:&quot;PrimaryObject&quot;,&quot;objectAPI&quot;:&quot;Opportunity&quot;},{&quot;objectStructureName&quot;:&quot;SecondaryObject&quot;,&quot;objectAPI&quot;:&quot;npe01__OppPayment__c&quot;},{&quot;objectStructureName&quot;:&quot;TertiaryObject&quot;,&quot;objectAPI&quot;:&quot;npsp__Allocation__c&quot;},{&quot;objectStructureName&quot;:&quot;FundObject&quot;,&quot;objectAPI&quot;:&quot;npsp__General_Accounting_Unit__c&quot;}],&quot;dataPoints&quot;:[{&quot;dataPointName&quot;:&quot;ObjectLookupToPrimary&quot;,&quot;objectReference&quot;:&quot;SecondaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npe01__Opportunity__c&quot;},{&quot;dataPointName&quot;:&quot;ObjectRelationshipToSecondary&quot;,&quot;objectReference&quot;:&quot;PrimaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npe01__OppPayment__r&quot;},{&quot;dataPointName&quot;:&quot;ObjectLookupToPrimary&quot;,&quot;objectReference&quot;:&quot;TertiaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npsp__Opportunity__c&quot;},{&quot;dataPointName&quot;:&quot;ObjectRelationshipToTertiary&quot;,&quot;objectReference&quot;:&quot;PrimaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npsp__Allocations__r&quot;},{&quot;dataPointName&quot;:&quot;ObjectLookupToSecondary&quot;,&quot;objectReference&quot;:&quot;TertiaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npsp__Payment__c&quot;},{&quot;dataPointName&quot;:&quot;ObjectRelationshipToTertiary&quot;,&quot;objectReference&quot;:&quot;SecondaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npsp__Allocations__r&quot;},{&quot;dataPointName&quot;:&quot;Amount&quot;,&quot;objectReference&quot;:&quot;PrimaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;Amount&quot;},{&quot;dataPointName&quot;:&quot;CommittedDate&quot;,&quot;objectReference&quot;:&quot;PrimaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;CloseDate&quot;},{&quot;dataPointName&quot;:&quot;LedgerEntryCreationActive&quot;,&quot;objectReference&quot;:&quot;PrimaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;IsClosed&quot;},{&quot;dataPointName&quot;:&quot;TransactionDate&quot;,&quot;objectReference&quot;:&quot;PrimaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;CloseDate&quot;},{&quot;dataPointName&quot;:&quot;Amount&quot;,&quot;objectReference&quot;:&quot;SecondaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npe01__Payment_Amount__c&quot;},{&quot;dataPointName&quot;:&quot;CheckReferenceNumber&quot;,&quot;objectReference&quot;:&quot;SecondaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npe01__Check_Reference_Number__c&quot;},{&quot;dataPointName&quot;:&quot;IsPaid&quot;,&quot;objectReference&quot;:&quot;SecondaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npe01__Paid__c&quot;},{&quot;dataPointName&quot;:&quot;IsWrittenOff&quot;,&quot;objectReference&quot;:&quot;SecondaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npe01__Written_Off__c&quot;},{&quot;dataPointName&quot;:&quot;ScheduleDate&quot;,&quot;objectReference&quot;:&quot;SecondaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npe01__Scheduled_Date__c&quot;},{&quot;dataPointName&quot;:&quot;PaidDate&quot;,&quot;objectReference&quot;:&quot;SecondaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npe01__Payment_Date__c&quot;},{&quot;dataPointName&quot;:&quot;PaymentMethod&quot;,&quot;objectReference&quot;:&quot;SecondaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npe01__Payment_Method__c&quot;},{&quot;dataPointName&quot;:&quot;TransactionDate&quot;,&quot;objectReference&quot;:&quot;SecondaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npe01__Payment_Date__c&quot;},{&quot;dataPointName&quot;:&quot;Amount&quot;,&quot;objectReference&quot;:&quot;TertiaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npsp__Amount__c&quot;},{&quot;dataPointName&quot;:&quot;FundNameField&quot;,&quot;objectReference&quot;:&quot;FundObject&quot;,&quot;objectFieldAPI&quot;:&quot;Name&quot;},{&quot;dataPointName&quot;:&quot;FundLookup&quot;,&quot;objectReference&quot;:&quot;TertiaryObject&quot;,&quot;objectFieldAPI&quot;:&quot;npsp__General_Accounting_Unit__c&quot;}]}</value>
+    </values>
+    <values>
+        <field>abacus__Type__c</field>
+        <value xsi:type="xsd:string">Revenue</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>Organization_Relationship__c.Legacy_ID__c</field>
+    </columns>
+    <columns>
+        <field>Organization_Relationship__c.Organization_1__c</field>
+    </columns>
+    <columns>
+        <field>Organization_Relationship__c.Organization_2__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Organization_Relationship__c.Political_Contribution__c</field>
+    </columns>
+    <columns>
+        <field>Organization_Relationship__c.Source_ID__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>TC ORGANIZATION_RELATIONSHIP Validation</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Organization_Relationship__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

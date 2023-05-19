@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Highest Level of Education --></label>
+        <name>Highest_Level_of_Education__c</name>
+        <picklistValues>
+            <masterLabel>Attended Vocational Technical</masterLabel>
+            <translation><!-- Attended Vocational Technical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed College</masterLabel>
+            <translation><!-- Completed College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed Graduate School</masterLabel>
+            <translation><!-- Completed Graduate School --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed High School</masterLabel>
+            <translation><!-- Completed High School --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Some College</masterLabel>
+            <translation><!-- Some College --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Some High School or Less</masterLabel>
+            <translation><!-- Some High School or Less --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

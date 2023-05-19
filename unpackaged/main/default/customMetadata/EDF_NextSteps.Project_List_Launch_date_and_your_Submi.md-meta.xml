@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Project List Launch date and your Submi</label>
+    <protected>false</protected>
+    <values>
+        <field>Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">On this page, you will be able to view the list of 2022 host organizations and projects and choose your preferred host placements. We encourage you to be flexible when selecting your preferred placements, as flexibility may improve your chances of being matched with a host organization.</value>
+    </values>
+    <values>
+        <field>FellowshipApplyingFor__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Footer__c</field>
+        <value xsi:type="xsd:string">Candidates who submit their preferences by 11:59pm PT on February 13th will be considered for the first round of matching decisions.</value>
+    </values>
+    <values>
+        <field>Image__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>NextStepsBody__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>NextStepsDescription__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>NextStepsFotter__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>NextStepsHeading__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Order_Number__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Stages__c</field>
+        <value xsi:type="xsd:string">Fast Track to Matching Pool- US|Send Invite for Interview 2- US|Interview 2 Scheduled|Interview 2 Complete- Not Moving On|Hold on Matching- US|Send to Matching Pool- US|Onboarding Conversation Not Approved</value>
+    </values>
+    <values>
+        <field>Sub_Title_Link_Label__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Sub_Title_Link__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Sub_Title__c</field>
+        <value xsi:type="xsd:string">On February 8th, the 2022 project list page will be launched in the</value>
+    </values>
+    <values>
+        <field>Title__c</field>
+        <value xsi:type="xsd:string">Project List Launch Date &amp; Your Submission</value>
+    </values>
+</CustomMetadata>

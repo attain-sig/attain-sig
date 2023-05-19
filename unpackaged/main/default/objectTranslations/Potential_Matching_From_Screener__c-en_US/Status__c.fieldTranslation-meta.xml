@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Bookmarked = Bookmarked only with no comments
+Ranked = Ranked only with no comments
+Not Submitted = Added comments but not submitted
+Submitted = Submitted
+Archived = Original submission --></help>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Archived</masterLabel>
+            <translation><!-- Archived --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bookmarked</masterLabel>
+            <translation><!-- Bookmarked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Submitted</masterLabel>
+            <translation><!-- Not Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ranked</masterLabel>
+            <translation><!-- Ranked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

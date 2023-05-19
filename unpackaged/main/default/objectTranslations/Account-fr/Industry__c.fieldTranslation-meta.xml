@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Industry --></label>
+        <name>Industry__c</name>
+        <picklistValues>
+            <masterLabel>Aerospace &amp; Defense</masterLabel>
+            <translation><!-- Aerospace &amp; Defense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Air Freight &amp; Logistics</masterLabel>
+            <translation><!-- Air Freight &amp; Logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Airlines</masterLabel>
+            <translation><!-- Airlines --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Components</masterLabel>
+            <translation><!-- Auto Components --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automobiles</masterLabel>
+            <translation><!-- Automobiles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banks</masterLabel>
+            <translation><!-- Banks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beverages</masterLabel>
+            <translation><!-- Beverages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biotechnology</masterLabel>
+            <translation><!-- Biotechnology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Building Products</masterLabel>
+            <translation><!-- Building Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capital Markets</masterLabel>
+            <translation><!-- Capital Markets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chemicals</masterLabel>
+            <translation><!-- Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Services &amp; Supplies</masterLabel>
+            <translation><!-- Commercial Services &amp; Supplies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Communications Equipment</masterLabel>
+            <translation><!-- Communications Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction &amp; Engineering</masterLabel>
+            <translation><!-- Construction &amp; Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction Materials</masterLabel>
+            <translation><!-- Construction Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Finance</masterLabel>
+            <translation><!-- Consumer Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Containers &amp; Packaging</masterLabel>
+            <translation><!-- Containers &amp; Packaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distributors</masterLabel>
+            <translation><!-- Distributors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diversified Consumer Services</masterLabel>
+            <translation><!-- Diversified Consumer Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diversified Financial Services</masterLabel>
+            <translation><!-- Diversified Financial Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diversified Telecommunication Services</masterLabel>
+            <translation><!-- Diversified Telecommunication Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electric Utilities</masterLabel>
+            <translation><!-- Electric Utilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrical Equipment</masterLabel>
+            <translation><!-- Electrical Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronic Equipment, Instruments &amp; Components</masterLabel>
+            <translation><!-- Electronic Equipment, Instruments &amp; Components --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy Equipment &amp; Services</masterLabel>
+            <translation><!-- Energy Equipment &amp; Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equity Real Estate Investment Trusts (REITs)</masterLabel>
+            <translation><!-- Equity Real Estate Investment Trusts (REITs) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Staples Retailing</masterLabel>
+            <translation><!-- Food &amp; Staples Retailing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food Products</masterLabel>
+            <translation><!-- Food Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gas Utilities</masterLabel>
+            <translation><!-- Gas Utilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Care Equipment &amp; Supplies</masterLabel>
+            <translation><!-- Health Care Equipment &amp; Supplies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Care Providers &amp; Services</masterLabel>
+            <translation><!-- Health Care Providers &amp; Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Care Technology</masterLabel>
+            <translation><!-- Health Care Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotels, Restaurants &amp; Leisure</masterLabel>
+            <translation><!-- Hotels, Restaurants &amp; Leisure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Household Durables</masterLabel>
+            <translation><!-- Household Durables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Household Products</masterLabel>
+            <translation><!-- Household Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT Services</masterLabel>
+            <translation><!-- IT Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Independent Power and Renewable Electricity Producers</masterLabel>
+            <translation><!-- Independent Power and Renewable Electricity Producers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial Conglomerates</masterLabel>
+            <translation><!-- Industrial Conglomerates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation><!-- Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet &amp; Direct Marketing Retail</masterLabel>
+            <translation><!-- Internet &amp; Direct Marketing Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet Software &amp; Services</masterLabel>
+            <translation><!-- Internet Software &amp; Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leisure Products</masterLabel>
+            <translation><!-- Leisure Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Sciences Tools &amp; Services</masterLabel>
+            <translation><!-- Life Sciences Tools &amp; Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Machinery</masterLabel>
+            <translation><!-- Machinery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marine</masterLabel>
+            <translation><!-- Marine --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metals &amp; Mining</masterLabel>
+            <translation><!-- Metals &amp; Mining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mortgage Real Estate Investment Trusts (REITs)</masterLabel>
+            <translation><!-- Mortgage Real Estate Investment Trusts (REITs) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Utilities</masterLabel>
+            <translation><!-- Multi-Utilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiline Retail</masterLabel>
+            <translation><!-- Multiline Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oil, Gas &amp; Consumable Fuels</masterLabel>
+            <translation><!-- Oil, Gas &amp; Consumable Fuels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paper &amp; Forest Products</masterLabel>
+            <translation><!-- Paper &amp; Forest Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Products</masterLabel>
+            <translation><!-- Personal Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmaceuticals</masterLabel>
+            <translation><!-- Pharmaceuticals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional Services</masterLabel>
+            <translation><!-- Professional Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate Management &amp; Development</masterLabel>
+            <translation><!-- Real Estate Management &amp; Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Road &amp; Rail</masterLabel>
+            <translation><!-- Road &amp; Rail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semiconductors &amp; Semiconductor Equipment</masterLabel>
+            <translation><!-- Semiconductors &amp; Semiconductor Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software</masterLabel>
+            <translation><!-- Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specialty Retail</masterLabel>
+            <translation><!-- Specialty Retail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology Hardware, Storage &amp; Peripherals</masterLabel>
+            <translation><!-- Technology Hardware, Storage &amp; Peripherals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Textiles, Apparel &amp; Luxury Goods</masterLabel>
+            <translation><!-- Textiles, Apparel &amp; Luxury Goods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thrifts &amp; Mortgage Finance</masterLabel>
+            <translation><!-- Thrifts &amp; Mortgage Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tobacco</masterLabel>
+            <translation><!-- Tobacco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trading Companies &amp; Distributors</masterLabel>
+            <translation><!-- Trading Companies &amp; Distributors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation Infrastructure</masterLabel>
+            <translation><!-- Transportation Infrastructure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Water Utilities</masterLabel>
+            <translation><!-- Water Utilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wireless Telecommunication Services</masterLabel>
+            <translation><!-- Wireless Telecommunication Services --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

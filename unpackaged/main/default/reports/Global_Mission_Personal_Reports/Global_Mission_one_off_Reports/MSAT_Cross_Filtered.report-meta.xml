@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>TITLE</field>
+    </columns>
+    <columns>
+        <field>ADDRESS2_CITY</field>
+    </columns>
+    <columns>
+        <field>ADDRESS2_STATE</field>
+    </columns>
+    <columns>
+        <field>PHONE3</field>
+    </columns>
+    <columns>
+        <field>EMAIL</field>
+    </columns>
+    <crossFilters>
+        <criteriaItems>
+            <column>Activity.Solicitor_1__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Cassandra Ely,Daniel Zavala-Araiza,David Lyon,Jon Goldstein,Mark Brownstein,Mark Omara,Matt Watson,Poppy Kalesi,Ritesh Gautam,Sam Kotis,Stefan Schwietzke,Tom Ingersoll,Tom Melendez</value>
+        </criteriaItems>
+        <operation>with</operation>
+        <primaryTableColumn>CONTACT_ID</primaryTableColumn>
+        <relatedTable>ActivityRelation-Activity</relatedTable>
+        <relatedTableJoinColumn>Relation</relatedTableJoinColumn>
+    </crossFilters>
+    <format>Tabular</format>
+    <name>MSAT Cross Filtered</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_PREVCURFY</interval>
+    </timeFrameFilter>
+</Report>

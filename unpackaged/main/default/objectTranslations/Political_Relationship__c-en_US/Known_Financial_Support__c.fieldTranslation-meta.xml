@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Use this field to share public political donation information. Suggested format “Gave [$amount] to [entity] in [year]”. Anything over 10 years old should be deleted. --></help>
+        <label><!-- Known Financial Support --></label>
+        <name>Known_Financial_Support__c</name>
+    </CustomFieldTranslation>

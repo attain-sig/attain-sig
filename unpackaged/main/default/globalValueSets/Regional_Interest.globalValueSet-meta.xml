@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Asia-Pacific</fullName>
+        <default>false</default>
+        <label>Asia-Pacific</label>
+    </customValue>
+    <customValue>
+        <fullName>Belize</fullName>
+        <default>false</default>
+        <label>Belize</label>
+    </customValue>
+    <customValue>
+        <fullName>Brazil</fullName>
+        <default>false</default>
+        <label>Brazil</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada</fullName>
+        <default>false</default>
+        <label>Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada Alberta</fullName>
+        <default>false</default>
+        <label>Canada Alberta</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada British Columbia</fullName>
+        <default>false</default>
+        <label>Canada British Columbia</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada Manitoba</fullName>
+        <default>false</default>
+        <label>Canada Manitoba</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada New Brunswick</fullName>
+        <default>false</default>
+        <label>Canada New Brunswick</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada Newfoundland</fullName>
+        <default>false</default>
+        <label>Canada Newfoundland</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada Nova Scotia</fullName>
+        <default>false</default>
+        <label>Canada Nova Scotia</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada Ontario</fullName>
+        <default>false</default>
+        <label>Canada Ontario</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada Prince Edward Island</fullName>
+        <default>false</default>
+        <label>Canada Prince Edward Island</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada Quebec</fullName>
+        <default>false</default>
+        <label>Canada Quebec</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada Saskatchewan</fullName>
+        <default>false</default>
+        <label>Canada Saskatchewan</label>
+    </customValue>
+    <customValue>
+        <fullName>Caribbean</fullName>
+        <default>false</default>
+        <label>Caribbean</label>
+    </customValue>
+    <customValue>
+        <fullName>Central America</fullName>
+        <default>false</default>
+        <label>Central America</label>
+    </customValue>
+    <customValue>
+        <fullName>Chile</fullName>
+        <default>false</default>
+        <label>Chile</label>
+    </customValue>
+    <customValue>
+        <fullName>China</fullName>
+        <default>false</default>
+        <label>China</label>
+    </customValue>
+    <customValue>
+        <fullName>Cuba</fullName>
+        <default>false</default>
+        <label>Cuba</label>
+    </customValue>
+    <customValue>
+        <fullName>Eurasia</fullName>
+        <default>false</default>
+        <label>Eurasia</label>
+    </customValue>
+    <customValue>
+        <fullName>European Union</fullName>
+        <default>false</default>
+        <label>European Union</label>
+    </customValue>
+    <customValue>
+        <fullName>Gulf</fullName>
+        <default>false</default>
+        <label>Gulf</label>
+    </customValue>
+    <customValue>
+        <fullName>Humboldt Current</fullName>
+        <default>false</default>
+        <label>Humboldt Current</label>
+    </customValue>
+    <customValue>
+        <fullName>India</fullName>
+        <default>false</default>
+        <label>India</label>
+    </customValue>
+    <customValue>
+        <fullName>Indonesia</fullName>
+        <default>false</default>
+        <label>Indonesia</label>
+    </customValue>
+    <customValue>
+        <fullName>International</fullName>
+        <default>false</default>
+        <label>International</label>
+    </customValue>
+    <customValue>
+        <fullName>Japan</fullName>
+        <default>false</default>
+        <label>Japan</label>
+    </customValue>
+    <customValue>
+        <fullName>Mexico</fullName>
+        <default>false</default>
+        <label>Mexico</label>
+    </customValue>
+    <customValue>
+        <fullName>Mid-Atlantic</fullName>
+        <default>false</default>
+        <label>Mid-Atlantic</label>
+    </customValue>
+    <customValue>
+        <fullName>Middle East &amp; Africa</fullName>
+        <default>false</default>
+        <label>Middle East &amp; Africa</label>
+    </customValue>
+    <customValue>
+        <fullName>Midwest</fullName>
+        <default>false</default>
+        <label>Midwest</label>
+    </customValue>
+    <customValue>
+        <fullName>Mountain</fullName>
+        <default>false</default>
+        <label>Mountain</label>
+    </customValue>
+    <customValue>
+        <fullName>Myanmar</fullName>
+        <default>false</default>
+        <label>Myanmar</label>
+    </customValue>
+    <customValue>
+        <fullName>Netherlands</fullName>
+        <default>false</default>
+        <label>Netherlands</label>
+    </customValue>
+    <customValue>
+        <fullName>New England</fullName>
+        <default>false</default>
+        <label>New England</label>
+    </customValue>
+    <customValue>
+        <fullName>North America</fullName>
+        <default>false</default>
+        <label>North America</label>
+    </customValue>
+    <customValue>
+        <fullName>Pacific</fullName>
+        <default>false</default>
+        <label>Pacific</label>
+    </customValue>
+    <customValue>
+        <fullName>Peru</fullName>
+        <default>false</default>
+        <label>Peru</label>
+    </customValue>
+    <customValue>
+        <fullName>Philippines</fullName>
+        <default>false</default>
+        <label>Philippines</label>
+    </customValue>
+    <customValue>
+        <fullName>Plains</fullName>
+        <default>false</default>
+        <label>Plains</label>
+    </customValue>
+    <customValue>
+        <fullName>PNA</fullName>
+        <default>false</default>
+        <label>PNA</label>
+    </customValue>
+    <customValue>
+        <fullName>Portugal</fullName>
+        <default>false</default>
+        <label>Portugal</label>
+    </customValue>
+    <customValue>
+        <fullName>Puerto Rico</fullName>
+        <default>false</default>
+        <label>Puerto Rico</label>
+    </customValue>
+    <customValue>
+        <fullName>South America</fullName>
+        <default>false</default>
+        <label>South America</label>
+    </customValue>
+    <customValue>
+        <fullName>Southeast</fullName>
+        <default>false</default>
+        <label>Southeast</label>
+    </customValue>
+    <customValue>
+        <fullName>Spain</fullName>
+        <default>false</default>
+        <label>Spain</label>
+    </customValue>
+    <customValue>
+        <fullName>Sweden</fullName>
+        <default>false</default>
+        <label>Sweden</label>
+    </customValue>
+    <customValue>
+        <fullName>UK</fullName>
+        <default>false</default>
+        <label>UK</label>
+    </customValue>
+    <customValue>
+        <fullName>US</fullName>
+        <default>false</default>
+        <label>US</label>
+    </customValue>
+    <customValue>
+        <fullName>US Alabama</fullName>
+        <default>false</default>
+        <label>US Alabama</label>
+    </customValue>
+    <customValue>
+        <fullName>US Alaska</fullName>
+        <default>false</default>
+        <label>US Alaska</label>
+    </customValue>
+    <customValue>
+        <fullName>US Arizona</fullName>
+        <default>false</default>
+        <label>US Arizona</label>
+    </customValue>
+    <customValue>
+        <fullName>US Arkansas</fullName>
+        <default>false</default>
+        <label>US Arkansas</label>
+    </customValue>
+    <customValue>
+        <fullName>US California</fullName>
+        <default>false</default>
+        <label>US California</label>
+    </customValue>
+    <customValue>
+        <fullName>US Colorado</fullName>
+        <default>false</default>
+        <label>US Colorado</label>
+    </customValue>
+    <customValue>
+        <fullName>US Connecticut</fullName>
+        <default>false</default>
+        <label>US Connecticut</label>
+    </customValue>
+    <customValue>
+        <fullName>US Delaware</fullName>
+        <default>false</default>
+        <label>US Delaware</label>
+    </customValue>
+    <customValue>
+        <fullName>US Florida</fullName>
+        <default>false</default>
+        <label>US Florida</label>
+    </customValue>
+    <customValue>
+        <fullName>US Georgia</fullName>
+        <default>false</default>
+        <label>US Georgia</label>
+    </customValue>
+    <customValue>
+        <fullName>US Hawaii</fullName>
+        <default>false</default>
+        <label>US Hawaii</label>
+    </customValue>
+    <customValue>
+        <fullName>US Idaho</fullName>
+        <default>false</default>
+        <label>US Idaho</label>
+    </customValue>
+    <customValue>
+        <fullName>US Illinois</fullName>
+        <default>false</default>
+        <label>US Illinois</label>
+    </customValue>
+    <customValue>
+        <fullName>US Indiana</fullName>
+        <default>false</default>
+        <label>US Indiana</label>
+    </customValue>
+    <customValue>
+        <fullName>US Iowa</fullName>
+        <default>false</default>
+        <label>US Iowa</label>
+    </customValue>
+    <customValue>
+        <fullName>US Kansas</fullName>
+        <default>false</default>
+        <label>US Kansas</label>
+    </customValue>
+    <customValue>
+        <fullName>US Kentucky</fullName>
+        <default>false</default>
+        <label>US Kentucky</label>
+    </customValue>
+    <customValue>
+        <fullName>US Lousiana</fullName>
+        <default>false</default>
+        <label>US Lousiana</label>
+    </customValue>
+    <customValue>
+        <fullName>US Maine</fullName>
+        <default>false</default>
+        <label>US Maine</label>
+    </customValue>
+    <customValue>
+        <fullName>US Maryland</fullName>
+        <default>false</default>
+        <label>US Maryland</label>
+    </customValue>
+    <customValue>
+        <fullName>US Massachusetts</fullName>
+        <default>false</default>
+        <label>US Massachusetts</label>
+    </customValue>
+    <customValue>
+        <fullName>US Michigan</fullName>
+        <default>false</default>
+        <label>US Michigan</label>
+    </customValue>
+    <customValue>
+        <fullName>US Minnesota</fullName>
+        <default>false</default>
+        <label>US Minnesota</label>
+    </customValue>
+    <customValue>
+        <fullName>US Mississippi</fullName>
+        <default>false</default>
+        <label>US Mississippi</label>
+    </customValue>
+    <customValue>
+        <fullName>US Missouri</fullName>
+        <default>false</default>
+        <label>US Missouri</label>
+    </customValue>
+    <customValue>
+        <fullName>US Montana</fullName>
+        <default>false</default>
+        <label>US Montana</label>
+    </customValue>
+    <customValue>
+        <fullName>US Nebraska</fullName>
+        <default>false</default>
+        <label>US Nebraska</label>
+    </customValue>
+    <customValue>
+        <fullName>US Nevada</fullName>
+        <default>false</default>
+        <label>US Nevada</label>
+    </customValue>
+    <customValue>
+        <fullName>US New Hampshire</fullName>
+        <default>false</default>
+        <label>US New Hampshire</label>
+    </customValue>
+    <customValue>
+        <fullName>US New Jersey</fullName>
+        <default>false</default>
+        <label>US New Jersey</label>
+    </customValue>
+    <customValue>
+        <fullName>US New Mexico</fullName>
+        <default>false</default>
+        <label>US New Mexico</label>
+    </customValue>
+    <customValue>
+        <fullName>US New York</fullName>
+        <default>false</default>
+        <label>US New York</label>
+    </customValue>
+    <customValue>
+        <fullName>US North Carolina</fullName>
+        <default>false</default>
+        <label>US North Carolina</label>
+    </customValue>
+    <customValue>
+        <fullName>US North Dakota</fullName>
+        <default>false</default>
+        <label>US North Dakota</label>
+    </customValue>
+    <customValue>
+        <fullName>US Ohio</fullName>
+        <default>false</default>
+        <label>US Ohio</label>
+    </customValue>
+    <customValue>
+        <fullName>US Oklahoma</fullName>
+        <default>false</default>
+        <label>US Oklahoma</label>
+    </customValue>
+    <customValue>
+        <fullName>US Oregon</fullName>
+        <default>false</default>
+        <label>US Oregon</label>
+    </customValue>
+    <customValue>
+        <fullName>US Pennsylvania</fullName>
+        <default>false</default>
+        <label>US Pennsylvania</label>
+    </customValue>
+    <customValue>
+        <fullName>US Rhode Island</fullName>
+        <default>false</default>
+        <label>US Rhode Island</label>
+    </customValue>
+    <customValue>
+        <fullName>US South Carolina</fullName>
+        <default>false</default>
+        <label>US South Carolina</label>
+    </customValue>
+    <customValue>
+        <fullName>US South Dakota</fullName>
+        <default>false</default>
+        <label>US South Dakota</label>
+    </customValue>
+    <customValue>
+        <fullName>US Tennessee</fullName>
+        <default>false</default>
+        <label>US Tennessee</label>
+    </customValue>
+    <customValue>
+        <fullName>US Texas</fullName>
+        <default>false</default>
+        <label>US Texas</label>
+    </customValue>
+    <customValue>
+        <fullName>US Utah</fullName>
+        <default>false</default>
+        <label>US Utah</label>
+    </customValue>
+    <customValue>
+        <fullName>US Vermont</fullName>
+        <default>false</default>
+        <label>US Vermont</label>
+    </customValue>
+    <customValue>
+        <fullName>US Virginia</fullName>
+        <default>false</default>
+        <label>US Virginia</label>
+    </customValue>
+    <customValue>
+        <fullName>US Washington</fullName>
+        <default>false</default>
+        <label>US Washington</label>
+    </customValue>
+    <customValue>
+        <fullName>US West Virginia</fullName>
+        <default>false</default>
+        <label>US West Virginia</label>
+    </customValue>
+    <customValue>
+        <fullName>US Wisconsin</fullName>
+        <default>false</default>
+        <label>US Wisconsin</label>
+    </customValue>
+    <customValue>
+        <fullName>US Wyoming</fullName>
+        <default>false</default>
+        <label>US Wyoming</label>
+    </customValue>
+    <customValue>
+        <fullName>Western Pacific</fullName>
+        <default>false</default>
+        <label>Western Pacific</label>
+    </customValue>
+    <masterLabel>Regional Interest</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

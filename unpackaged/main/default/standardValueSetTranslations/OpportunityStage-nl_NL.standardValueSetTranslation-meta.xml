@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Agreement in Negotiation</masterLabel>
+        <translation><!-- Agreement in Negotiation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cancelled by EDF</masterLabel>
+        <translation><!-- Cancelled by EDF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Declined by Donor</masterLabel>
+        <translation><!-- Declined by Donor --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In-Kind Not Yet Received</masterLabel>
+        <translation>Soortgelijk nog niet ontvangen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In-Kind Received</masterLabel>
+        <translation>Soortgelijk ontvangen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Invalid Donation</masterLabel>
+        <translation><!-- Invalid Donation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Projected</masterLabel>
+        <translation><!-- Projected --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Received</masterLabel>
+        <translation><!-- Received --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Received as Conditional Pledge</masterLabel>
+        <translation><!-- Received as Conditional Pledge --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Received as Unconditional Pledge</masterLabel>
+        <translation><!-- Received as Unconditional Pledge --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Refund - Chargeback</masterLabel>
+        <translation><!-- Refund - Chargeback --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Refunded</masterLabel>
+        <translation><!-- Refunded --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Returned Check</masterLabel>
+        <translation><!-- Returned Check --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Solicited</masterLabel>
+        <translation><!-- Solicited --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Verbally Committed</masterLabel>
+        <translation><!-- Verbally Committed --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

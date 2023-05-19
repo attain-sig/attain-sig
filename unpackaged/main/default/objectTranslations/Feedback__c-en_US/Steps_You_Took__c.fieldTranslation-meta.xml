@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What are the actions you took or click path that led to this observation? --></help>
+        <label><!-- Steps You Took --></label>
+        <name>Steps_You_Took__c</name>
+    </CustomFieldTranslation>

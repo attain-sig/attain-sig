@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Contact$Name</field>
+    </columns>
+    <columns>
+        <field>Contact$Employer_Lookup__c</field>
+    </columns>
+    <columns>
+        <field>Contact$Title</field>
+    </columns>
+    <columns>
+        <field>Contact$LinkedIn_Profile__c</field>
+    </columns>
+    <columns>
+        <field>Contact$MailingState</field>
+    </columns>
+    <columns>
+        <field>Contact$MailingCountry</field>
+    </columns>
+    <columns>
+        <field>Contact$Constituency__c</field>
+    </columns>
+    <columns>
+        <field>Contact$Sub_Constituency__c</field>
+    </columns>
+    <columns>
+        <field>Contact$Email</field>
+    </columns>
+    <columns>
+        <field>Contact$CreatedBy</field>
+    </columns>
+    <description>Owner: RH. Business Rule: All US contacts need the &quot;state&quot; field filled out.Action Item: Add the state (and other location information while you&apos;re at it) to all the records on this report.</description>
+    <filter>
+        <criteriaItems>
+            <column>Contact$Constituency__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>excludes</operator>
+            <value>EDF Staff,Membership,Development</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact$MailingCountry</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>United States</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact$MailingState</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact$CreatedBy</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Roncel Holder,Lauren Wolpin,Kathryn Chiasson,Ruby Roca,Lok Yem,Alejandro Pinerua,Chastity Queen</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Contact$X18_Digit_Contact_ID__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Cleanup-M: Add Contact State - NEW</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Contacts_Report__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Contact$CreatedDate</dateColumn>
+        <interval>INTERVAL_LAST90</interval>
+    </timeFrameFilter>
+</Report>

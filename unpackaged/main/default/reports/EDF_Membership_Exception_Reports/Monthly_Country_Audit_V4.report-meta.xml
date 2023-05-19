@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>npsp__Address__c.npsp__MailingStreet__c</field>
+    </columns>
+    <columns>
+        <field>npsp__Address__c.npsp__MailingStreet2__c</field>
+    </columns>
+    <columns>
+        <field>npsp__Address__c.npsp__MailingCity__c</field>
+    </columns>
+    <columns>
+        <field>npsp__Address__c.npsp__MailingState__c</field>
+    </columns>
+    <columns>
+        <field>npsp__Address__c.npsp__MailingPostalCode__c</field>
+    </columns>
+    <columns>
+        <field>Account.MRC_Date_Account__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>npsp__Address__c.npsp__Default_Address__c</field>
+    </columns>
+    <columns>
+        <field>Account.Organization_Constituency__c</field>
+    </columns>
+    <crossFilters>
+        <criteriaItems>
+            <column>CreatedDate</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>8/1/2020 12:00 AM</value>
+        </criteriaItems>
+        <operation>with</operation>
+        <primaryTableColumn>ACCOUNT_ID</primaryTableColumn>
+        <relatedTable>Opportunity</relatedTable>
+        <relatedTableJoinColumn>Account</relatedTableJoinColumn>
+    </crossFilters>
+    <description>as of 1/19/2023, the values that our Unica campaign flowcharts consider to be domestic are &apos;USA&apos;,&apos;US&apos;,&apos;United States&apos;,&apos;NULL&apos;
+in our Unica flowcharts we use address from Primary Contact, but this report uses Address records</description>
+    <filter>
+        <booleanFilter>1 AND 2 AND 3 AND (4 OR 5)</booleanFilter>
+        <criteriaItems>
+            <column>Account.Organization_Constituency__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>includes</operator>
+            <value>Membership</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>npsp__Address__c.npsp__MailingCountry__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>,United States,USA,US,NULL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>npsp__Address__c.npsp__Default_Address__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CUST_CREATED_DATE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>1/19/2023 12:00 AM</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CUST_LAST_UPDATE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>greaterOrEqual</operator>
+            <value>1/19/2023 12:00 AM</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>npsp__Address__c.npsp__MailingCountry__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Monthly - Country Audit V4</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountCustomEntity$npsp__Address__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Account.MRC_Date_Account__c</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

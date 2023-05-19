@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to fellow to notify that their application has been received. US fellows.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Climate_Corps_Letterhead</letterhead>
+    <name>Application Received - US</name>
+    <style>freeForm</style>
+    <subject>Climate Corps Application Received</subject>
+    <textOnly>Dear {!Fellow_Application__c.Applicant_First_Name__c},
+
+Thank you for submitting an application for Climate Corps! We have received your completed application and will be in touch in mid- to late January. For more information about our recruitment timeline, please visit our website.
+
+You may log back into the portal at any time to update your contact information and resume, and to see the status of your application in the top right-hand corner. Follow this link to log in: https://edfcommunity.force.com/EDFCCFellowPortal/s/login
+
+Best,
+
+
+The Climate Corps Team
+
+edfclimatecorps.apply@edf.org
+
+EDFClimateCorps.org</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

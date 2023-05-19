@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Project Mgmt and/or Consulting --></label>
+        <name>Scale_Project_Mgmt_Consulting__c</name>
+        <picklistValues>
+            <masterLabel>Advanced</masterLabel>
+            <translation><!-- Advanced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beginner</masterLabel>
+            <translation><!-- Beginner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermediate</masterLabel>
+            <translation><!-- Intermediate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Little to None</masterLabel>
+            <translation><!-- Little to None --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

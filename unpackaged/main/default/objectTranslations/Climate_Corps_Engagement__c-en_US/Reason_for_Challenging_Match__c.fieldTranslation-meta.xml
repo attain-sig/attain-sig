@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please indicate why this may be a difficult placement or why it&apos;s considered a priority host. --></help>
+        <label><!-- Reason for Priority or Challenging Match --></label>
+        <name>Reason_for_Challenging_Match__c</name>
+        <picklistValues>
+            <masterLabel>Important Host Relationship</masterLabel>
+            <translation><!-- Important Host Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited fellow criteria from host</masterLabel>
+            <translation><!-- Limited fellow criteria from host --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Location</masterLabel>
+            <translation><!-- Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Politically Sensitive Relationship</masterLabel>
+            <translation><!-- Politically Sensitive Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sensitive to Caliber of Fellow</masterLabel>
+            <translation><!-- Sensitive to Caliber of Fellow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Specific Value to other EDF programs</masterLabel>
+            <translation><!-- Specific Value to other EDF programs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical project scope</masterLabel>
+            <translation><!-- Technical project scope --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unique Project or Skillset Required</masterLabel>
+            <translation><!-- Unique Project or Skillset Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vague workplan</masterLabel>
+            <translation><!-- Vague workplan --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

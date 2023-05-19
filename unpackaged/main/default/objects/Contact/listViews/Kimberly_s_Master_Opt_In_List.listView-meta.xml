@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kimberly_s_Master_Opt_In_List</fullName>
+    <booleanFilter>(1 OR 3 OR 4) AND 2</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>npsp__Primary_Affiliation__c</columns>
+    <columns>Employer_Lookup__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>No_invitations__c</columns>
+    <columns>No_mass_email__c</columns>
+    <columns>Primary_Handler__c</columns>
+    <columns>Portfolio_Manager__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Primary_Handler__c</field>
+        <operation>equals</operation>
+        <value>Asmita Patwardhan,Sarahbeth Lindquist,Jessie Dykstra</value>
+    </filters>
+    <filters>
+        <field>npsp__Deceased__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>npsp__Primary_Affiliation__c</field>
+        <operation>equals</operation>
+        <value>Walton Conservation Coalition</value>
+    </filters>
+    <filters>
+        <field>Employer_Lookup__c</field>
+        <operation>equals</operation>
+        <value>Walton Conservation Coalition</value>
+    </filters>
+    <label>Kimberly's Master Opt-In List</label>
+</ListView>

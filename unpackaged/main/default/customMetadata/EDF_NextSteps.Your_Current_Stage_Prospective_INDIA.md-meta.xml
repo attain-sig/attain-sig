@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Your Current Stage-Prospective India</label>
+    <protected>false</protected>
+    <values>
+        <field>Active__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Description__c</field>
+        <value xsi:type="xsd:string">Thank you for your interest in Climate Corps. To edit or view your application, click on the &quot;Application&quot; tile above. All applications for the first deadline are due on December 23, 2022 at 11:59 pm IST. The final deadline for the program is February 3, 2023 at 11:59pm IST.</value>
+    </values>
+    <values>
+        <field>FellowshipApplyingFor__c</field>
+        <value xsi:type="xsd:string">India Fellowship</value>
+    </values>
+    <values>
+        <field>Footer__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Image__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>NextStepsBody__c</field>
+        <value xsi:type="xsd:string">Prospective Applicant</value>
+    </values>
+    <values>
+        <field>NextStepsDescription__c</field>
+        <value xsi:type="xsd:string">In Prospective Applicant Stage</value>
+    </values>
+    <values>
+        <field>NextStepsFotter__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>NextStepsHeading__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Order_Number__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Stages__c</field>
+        <value xsi:type="xsd:string">Prospective Applicant</value>
+    </values>
+    <values>
+        <field>Sub_Title_Link_Label__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Sub_Title_Link__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Sub_Title__c</field>
+        <value xsi:type="xsd:string">Your stage: Prospective Applicant</value>
+    </values>
+    <values>
+        <field>Title__c</field>
+        <value xsi:type="xsd:string">Your Current Stage</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used to mark Contacts with PSCs from PG/IK Record Type Opps. --></help>
+        <label><!-- Sys-PSC PG-IK Opps --></label>
+        <name>Sys_PSC_PG_IK_Opps__c</name>
+    </CustomFieldTranslation>

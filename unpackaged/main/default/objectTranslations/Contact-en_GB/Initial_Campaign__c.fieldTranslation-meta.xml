@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Set automatically, selecting from the oldest created Donation or Action record select the record&apos;s Campaign value. --></help>
+        <label><!-- Initial Campaign --></label>
+        <name>Initial_Campaign__c</name>
+        <relationshipLabel><!-- Campaigns --></relationshipLabel>
+    </CustomFieldTranslation>

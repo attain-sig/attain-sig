@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Regional Network --></label>
+        <name>Regional_Network__c</name>
+        <picklistValues>
+            <masterLabel>Atlanta</masterLabel>
+            <translation><!-- Atlanta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austin</masterLabel>
+            <translation><!-- Austin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boston</masterLabel>
+            <translation><!-- Boston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chicago</masterLabel>
+            <translation><!-- Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>China</masterLabel>
+            <translation><!-- China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation><!-- DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denver</masterLabel>
+            <translation><!-- Denver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Los Angeles</masterLabel>
+            <translation><!-- Los Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miami</masterLabel>
+            <translation><!-- Miami --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYC</masterLabel>
+            <translation><!-- NYC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philadelphia</masterLabel>
+            <translation><!-- Philadelphia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raleigh</masterLabel>
+            <translation><!-- Raleigh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SF Bay Area</masterLabel>
+            <translation><!-- SF Bay Area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seattle</masterLabel>
+            <translation><!-- Seattle --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

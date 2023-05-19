@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GRAD Degree(s) pursuing --></label>
+        <name>GRAD_Degree_s_pursuing__c</name>
+        <picklistValues>
+            <masterLabel>Graduate Certificate</masterLabel>
+            <translation><!-- Graduate Certificate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Juris Doctor(JD)</masterLabel>
+            <translation><!-- Juris Doctor(JD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master of Architecture (M.Arch)</masterLabel>
+            <translation><!-- Master of Architecture (M.Arch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master of Arts (MA)</masterLabel>
+            <translation><!-- Master of Arts (MA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master of Business Admin(MBA)</masterLabel>
+            <translation><!-- Master of Business Admin(MBA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master of Engineering(MEng.)</masterLabel>
+            <translation><!-- Master of Engineering(MEng.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master of Environmental Management(MEM)</masterLabel>
+            <translation><!-- Master of Environmental Management(MEM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master of Environmental Science</masterLabel>
+            <translation><!-- Master of Environmental Science --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master of Fine Arts (MFA)</masterLabel>
+            <translation><!-- Master of Fine Arts (MFA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master of Liberal Arts</masterLabel>
+            <translation><!-- Master of Liberal Arts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master of Public Admin (MPA)</masterLabel>
+            <translation><!-- Master of Public Admin (MPA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master of Public Policy (MPP)</masterLabel>
+            <translation><!-- Master of Public Policy (MPP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master of Science (MS)</masterLabel>
+            <translation><!-- Master of Science (MS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Master of Technology</masterLabel>
+            <translation><!-- Master of Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PhD</masterLabel>
+            <translation><!-- PhD --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

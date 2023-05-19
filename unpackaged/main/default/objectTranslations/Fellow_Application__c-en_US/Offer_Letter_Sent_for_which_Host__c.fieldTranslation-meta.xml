@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Offer Letter Sent for which Host? --></label>
+        <name>Offer_Letter_Sent_for_which_Host__c</name>
+        <relationshipLabel><!-- Fellow Applications (Offer Letter Sent for which Host?) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>LONG_NAME</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <column>SHORT_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Suze - Past-due Activities,Suze - Activities Next 2 Weeks,Suze - Activities Next 6 Weeks,Suze - Activities Next 3 Months,Suze - Donor Former PMs,Suze&apos;s Forecast Review,Top 50,Suze - All Past &amp; Future Reports,European Donors - All,EDF Europe Donors,Europe Contacts in Development,Suze&apos;s Portfolio - Relationship Manager,Suze - Completed Activities,Suze - Completed Meetings,Suze - Received/Cancelled Gifts,Suze - New Gift Report,Suze&apos;s Portfolio w/wo Workplans,Suze - Forecast Review,Suze&apos;s Portfolio,Suze&apos;s Workplans,Suze - Reports/Proposals Due,Gift Aid Eligible - Donations,EDFE Online Giving Report,EDFE Online Giving Report - GDPR opt-ins</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FOLDER</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>EDF Development</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>SHORT_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Suze Anderson Key Reports</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ReportList</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATEDDATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

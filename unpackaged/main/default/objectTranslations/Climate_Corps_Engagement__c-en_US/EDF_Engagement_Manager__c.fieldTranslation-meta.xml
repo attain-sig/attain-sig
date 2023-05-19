@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Manages engagement during summer. Identified after hosts have submitted applications. --></help>
+        <label><!-- CC Engagement Manager --></label>
+        <name>EDF_Engagement_Manager__c</name>
+        <relationshipLabel><!-- Climate Corps Engagements (CC Engagement Manager) --></relationshipLabel>
+    </CustomFieldTranslation>

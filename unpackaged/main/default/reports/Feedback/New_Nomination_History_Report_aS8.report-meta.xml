@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Nomination_History__c.Committee_Affiliation__c</field>
+    </columns>
+    <columns>
+        <field>Nomination_History__c.Entity__c</field>
+    </columns>
+    <columns>
+        <field>Nomination_History__c.Date_considered__c</field>
+    </columns>
+    <columns>
+        <field>Nomination_History__c.Decision__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>All Nomination History Records</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Nomination_History__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Nomination_History__c.Date_considered__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

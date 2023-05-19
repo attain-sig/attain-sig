@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adjustment_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Adjustment Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Appeal Code or Campaign Change</fullName>
+                <default>false</default>
+                <label>Appeal Code or Campaign Change</label>
+            </value>
+            <value>
+                <fullName>Admin Reclass</fullName>
+                <default>false</default>
+                <label>Admin Reclass</label>
+            </value>
+            <value>
+                <fullName>Allocation Change</fullName>
+                <default>false</default>
+                <label>Allocation Change</label>
+            </value>
+            <value>
+                <fullName>Amount Adjustment</fullName>
+                <default>false</default>
+                <label>Amount Adjustment</label>
+            </value>
+            <value>
+                <fullName>Bank Adjustment</fullName>
+                <default>false</default>
+                <label>Bank Adjustment</label>
+            </value>
+            <value>
+                <fullName>Close Date Adjustment</fullName>
+                <default>false</default>
+                <label>Close Date Adjustment</label>
+            </value>
+            <value>
+                <fullName>Entity Reclass</fullName>
+                <default>false</default>
+                <label>Entity Reclass</label>
+            </value>
+            <value>
+                <fullName>Invalid/Gift Reversal</fullName>
+                <default>false</default>
+                <label>Invalid/Gift Reversal</label>
+            </value>
+            <value>
+                <fullName>Hard/Soft Credit Adjustment</fullName>
+                <default>false</default>
+                <label>Hard/Soft Credit Adjustment</label>
+            </value>
+            <value>
+                <fullName>Pledge Installment Update</fullName>
+                <default>false</default>
+                <label>Pledge Installment Update</label>
+            </value>
+            <value>
+                <fullName>Transaction Type Change</fullName>
+                <default>false</default>
+                <label>Transaction Type Change</label>
+            </value>
+            <value>
+                <fullName>Write Off</fullName>
+                <default>false</default>
+                <label>Write Off</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

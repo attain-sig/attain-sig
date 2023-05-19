@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_$User_Story__c.User_Story_Description__c</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$User_Story__c.Guided_Walkthrough_Session__c</field>
+    </columns>
+    <columns>
+        <field>Test_Scripts__c.Testing_Completed_By__c</field>
+    </columns>
+    <columns>
+        <field>Test_Scripts__c.Testing_Team__c</field>
+    </columns>
+    <columns>
+        <field>Test_Scripts__c.Testing_Status__c</field>
+    </columns>
+    <columns>
+        <field>Test_Scripts__c.Pre_Requisite_Conditions__c</field>
+    </columns>
+    <columns>
+        <field>Test_Scripts__c.Steps_to_Test__c</field>
+    </columns>
+    <columns>
+        <field>Test_Scripts__c.Expected_Results__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Test_Scripts__c.Testing_Team__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>includes</operator>
+            <value>Development Data,Dev Comms,Donor Engagement,Planned Giving,Major Gifts,Government Partnerships,Institutional Giving,Prospect Research</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Test_Scripts__c.Testing_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>,Ready to Test,Testing in Progress,Tested - Passed,Tested - Failed,Unable to Test - Blocked</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>All Development Test Scripts</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Test_Scripts__c@Test_Scripts__c.User_Story__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>FK_$User_Story__c.User_Story_Description__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

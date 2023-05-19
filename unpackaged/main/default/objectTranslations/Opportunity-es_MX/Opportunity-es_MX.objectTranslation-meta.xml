@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>EDF Donation Master Layout</layout>
+        <sections>
+            <label><!-- Acknowledgment/Receipt Status --></label>
+            <section>Acknowledgment/Receipt Status</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Gift Processing --></label>
+            <section>Gift Processing</section>
+        </sections>
+        <sections>
+            <label><!-- Honor/Memorial Information --></label>
+            <section>Honor/Memorial Information</section>
+        </sections>
+        <sections>
+            <label><!-- Honor/Memorial Message --></label>
+            <section>Honor/Memorial Message</section>
+        </sections>
+        <sections>
+            <label><!-- Legacy Fields --></label>
+            <section>Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Matching Gift Information --></label>
+            <section>Matching Gift Information</section>
+        </sections>
+        <sections>
+            <label><!-- NetSuite Integration --></label>
+            <section>NetSuite Integration</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Grant Master Layout</layout>
+        <sections>
+            <label><!-- Acknowledgement / Receipt Status --></label>
+            <section>Acknowledgement / Receipt Status</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Roles --></label>
+            <section>Contact Roles</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- Gift Processing --></label>
+            <section>Gift Processing</section>
+        </sections>
+        <sections>
+            <label><!-- Grant/Contract Information --></label>
+            <section>Grant/Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- Legacy Fields --></label>
+            <section>Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- NetSuite Integration --></label>
+            <section>NetSuite Integration</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Information --></label>
+            <section>Opportunity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Other Information --></label>
+            <section>Other Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Major Gift Master Layout</layout>
+        <sections>
+            <label><!-- Acknowledgement / Receipt Status --></label>
+            <section>Acknowledgement / Receipt Status</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Contact Roles --></label>
+            <section>Donation Contact Roles</section>
+        </sections>
+        <sections>
+            <label><!-- Gift Processing --></label>
+            <section>Gift Processing</section>
+        </sections>
+        <sections>
+            <label><!-- Honor/Memorial Designation --></label>
+            <section>Honor/Memorial Designation</section>
+        </sections>
+        <sections>
+            <label><!-- Legacy Fields --></label>
+            <section>Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Matching Gifts --></label>
+            <section>Matching Gifts</section>
+        </sections>
+        <sections>
+            <label><!-- NetSuite Integration --></label>
+            <section>NetSuite Integration</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Information --></label>
+            <section>Opportunity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Other Information --></label>
+            <section>Other Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Planned Gift Master</layout>
+        <sections>
+            <label><!-- Acknowledgement / Receipt Status --></label>
+            <section>Acknowledgement / Receipt Status</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Roles --></label>
+            <section>Contact Roles</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- Gift Processing --></label>
+            <section>Gift Processing</section>
+        </sections>
+        <sections>
+            <label><!-- Legacy Fields --></label>
+            <section>Legacy Fields</section>
+        </sections>
+        <sections>
+            <label><!-- NetSuite Integration --></label>
+            <section>NetSuite Integration</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Information --></label>
+            <section>Opportunity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Other Information --></label>
+            <section>Other Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>EDF Recurring Gift Master Layout</layout>
+        <sections>
+            <label><!-- Acknowledgement / Receipt Status --></label>
+            <section>Acknowledgement / Receipt Status</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description Information --></label>
+            <section>Description Information</section>
+        </sections>
+        <sections>
+            <label><!-- Gift Processing --></label>
+            <section>Gift Processing</section>
+        </sections>
+        <sections>
+            <label><!-- Honor/Memorial Designation --></label>
+            <section>Honor/Memorial Designation</section>
+        </sections>
+        <sections>
+            <label><!-- Matching Gifts --></label>
+            <section>Matching Gifts</section>
+        </sections>
+        <sections>
+            <label><!-- NetSuite Integration --></label>
+            <section>NetSuite Integration</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Information --></label>
+            <section>Opportunity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Other Information --></label>
+            <section>Other Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Pending field placement --></label>
+            <section>Pending field placement</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>In-Kind Gift Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- In-Kind Information --></label>
+            <section>In-Kind Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tribute Information --></label>
+            <section>Tribute Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Matching Gift Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Membership Layout</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Member Information --></label>
+            <section>Member Information</section>
+        </sections>
+        <sections>
+            <label><!-- Recurring Donation --></label>
+            <section>Recurring Donation</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Adjustment Request --></label>
+        <name>Adjustment_Request</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Case Opportunity Update --></label>
+        <name>CaseOpportunityUpdate</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Grant/Contract Information --></label>
+        <name>Grant_Contract_Information</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Deliverable --></label>
+        <name>New_Conditional_Deliverable</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Deliverable --></label>
+        <name>New_Deliverable</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Deliverable --></label>
+        <name>New_Reporting_Date</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Reporting Date --></label>
+        <name>New_Reporting_Date_Task</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Refund Request --></label>
+        <name>Refund_Request</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Membership and Catalyst Circle Outright Gift --></description>
+        <label><!-- Donation --></label>
+        <name>Donation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Grant --></label>
+        <name>Grant</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Goods or Services received as In-Kind --></description>
+        <label><!-- In-Kind Gift --></label>
+        <name>InKindGift</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Major Gift --></label>
+        <name>MajorGift</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Matching Donation from an Donor&apos;s Employer or other Organization --></description>
+        <label><!-- Matching Gift --></label>
+        <name>MatchingGift</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A membership record type --></description>
+        <label><!-- Membership --></label>
+        <name>Membership</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Planned Gift --></label>
+        <name>Planned_Gift</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Recurring Donation --></label>
+        <name>Recurring_Donation</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You do not have permission to edit this field. Please contact the Gift Processing Team. --></errorMessage>
+        <name>Edit_Membership_Request</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This field cannot be edited when Stage is Received. Please reach out to the Gift Processing team. --></errorMessage>
+        <name>No_Edit_if_Opportunity_Received</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This field cannot be edited when Stage is Received and Posted is True. Please reach out to the Gift Processing team. --></errorMessage>
+        <name>No_Edit_if_Received_Posted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Donation records with a stage of projected, solicited or verbally committed can not be saved with a 0% probability --></errorMessage>
+        <name>Probability_greater_than_0</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_Receipt --></label>
+        <name>Conga_Composer_Receipt</name>
+    </webLinks>
+</CustomObjectTranslation>

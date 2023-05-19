@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Contact&apos;s cumulative expected value for current and next 2 FYs --></help>
+        <label><!-- 3FY Expected Value Contact --></label>
+        <name>Expected_Value_3FY_Contact__c</name>
+    </CustomFieldTranslation>

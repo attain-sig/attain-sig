@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Date Engagement Added to Portal --></label>
+        <name>Date_Engagement_Added_to_Portal__c</name>
+    </CustomFieldTranslation>

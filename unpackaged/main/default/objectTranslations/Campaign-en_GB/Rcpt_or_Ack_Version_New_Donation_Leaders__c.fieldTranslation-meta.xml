@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For Membership&apos;s data file to receipt/ack mail shop. --></help>
+        <label><!-- Rcpt or Ack Version-New Donation Leaders --></label>
+        <name>Rcpt_or_Ack_Version_New_Donation_Leaders__c</name>
+    </CustomFieldTranslation>

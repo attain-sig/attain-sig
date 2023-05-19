@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email</fullName>
+    <inlineHelpText>This email address corresponds to the Overall Preferred Contact Email record. To update this value, please do so by changing which Contact Email record is marked as Overall Preferred.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+</CustomField>

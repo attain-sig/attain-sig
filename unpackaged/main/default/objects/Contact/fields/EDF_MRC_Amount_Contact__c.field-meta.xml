@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EDF_MRC_Amount_Contact__c</fullName>
+    <description>Field used to capture the Close Amount of the most recently received Opportunity. No distinction between hard or soft credit is made. Calculated externally by IT Data team</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Close Amount of the most recently received Opportunity where the Contact has a hard or soft credit (Planned Gifts not included).</inlineHelpText>
+    <label>MRC Amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please explain any steps that must be taken prior to being able to complete this test. For example if you&apos;re applying a Pledge Payment, a Pledge Record must exist first. --></help>
+        <label><!-- Pre-Requisite Conditions --></label>
+        <name>Pre_Requisite_Conditions__c</name>
+    </CustomFieldTranslation>

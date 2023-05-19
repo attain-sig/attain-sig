@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- 5. International or Recent Grad Concerns --></label>
+        <name>X5_International_or_Recent_Grad_Concerns__c</name>
+    </CustomFieldTranslation>

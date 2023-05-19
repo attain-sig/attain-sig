@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Covers question 1 &amp; 2 --></help>
+        <label><!-- 1. Interest in EDF CC --></label>
+        <name>X1_Interest_in_EDF_CC__c</name>
+    </CustomFieldTranslation>

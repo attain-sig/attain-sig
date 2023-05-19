@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Needs Initial Requirements</fullName>
+                <default>false</default>
+                <label>Needs Initial Requirements</label>
+            </value>
+            <value>
+                <fullName>In IT Assessment</fullName>
+                <default>false</default>
+                <label>In IT Assessment</label>
+            </value>
+            <value>
+                <fullName>Ready for Full Discovery</fullName>
+                <default>false</default>
+                <label>Ready for Full Discovery</label>
+            </value>
+            <value>
+                <fullName>In Full Discovery</fullName>
+                <default>false</default>
+                <label>In Full Discovery</label>
+            </value>
+            <value>
+                <fullName>Ready for Release Scheduling</fullName>
+                <default>false</default>
+                <label>Ready for Release Scheduling</label>
+            </value>
+            <value>
+                <fullName>Scheduled</fullName>
+                <default>false</default>
+                <label>Scheduled</label>
+            </value>
+            <value>
+                <fullName>Design in Progress</fullName>
+                <default>false</default>
+                <label>Design in Progress</label>
+            </value>
+            <value>
+                <fullName>Build in Progress</fullName>
+                <default>false</default>
+                <label>Build in Progress</label>
+            </value>
+            <value>
+                <fullName>Build Complete</fullName>
+                <default>false</default>
+                <label>Build Complete</label>
+            </value>
+            <value>
+                <fullName>In QA</fullName>
+                <default>false</default>
+                <label>In QA</label>
+            </value>
+            <value>
+                <fullName>In UAT</fullName>
+                <default>false</default>
+                <label>In UAT</label>
+            </value>
+            <value>
+                <fullName>Ready for Production</fullName>
+                <default>false</default>
+                <label>Ready for Production</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Closed - No Longer Required</fullName>
+                <default>false</default>
+                <label>Closed - No Longer Required</label>
+            </value>
+            <value>
+                <fullName>Closed - Duplicate</fullName>
+                <default>false</default>
+                <label>Closed - Duplicate</label>
+            </value>
+            <value>
+                <fullName>Closed - Address via Feedback</fullName>
+                <default>false</default>
+                <label>Closed - Address via Feedback</label>
+            </value>
+            <value>
+                <fullName>Blocked</fullName>
+                <default>false</default>
+                <label>Blocked</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

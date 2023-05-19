@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Children under the age of 18 living in the household --></help>
+        <label><!-- Children living in household --></label>
+        <name>Children_living_in_household__c</name>
+    </CustomFieldTranslation>

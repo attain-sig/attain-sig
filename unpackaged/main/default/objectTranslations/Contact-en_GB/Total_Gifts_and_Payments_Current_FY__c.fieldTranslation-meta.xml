@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total Payments for current financial year (hard credits only). --></help>
+        <label><!-- Total Gifts and Payments Current FY --></label>
+        <name>Total_Gifts_and_Payments_Current_FY__c</name>
+    </CustomFieldTranslation>

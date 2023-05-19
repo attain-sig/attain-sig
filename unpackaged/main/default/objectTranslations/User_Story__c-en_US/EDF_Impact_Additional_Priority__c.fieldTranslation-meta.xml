@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- EDF Impact/Additional Priority --></label>
+        <name>EDF_Impact_Additional_Priority__c</name>
+        <picklistValues>
+            <masterLabel>1 - Executive &amp; Board Level Impact</masterLabel>
+            <translation><!-- 1 - Executive &amp; Board Level Impact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Issues to review/fix with current process</masterLabel>
+            <translation><!-- 2 - Issues to review/fix with current process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Current functionality/process enhancements</masterLabel>
+            <translation><!-- 3 - Current functionality/process enhancements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - New functionality/process - does not exist</masterLabel>
+            <translation><!-- 4 - New functionality/process - does not exist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Current functionality/process - no updates needed for launch</masterLabel>
+            <translation><!-- 5 - Current functionality/process - no updates needed for launch --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

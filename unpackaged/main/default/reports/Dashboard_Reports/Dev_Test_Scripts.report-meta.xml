@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$User_Story__c.User_Story_Title__c</field>
+    </columns>
+    <columns>
+        <field>FK_$User_Story__c.Status__c</field>
+    </columns>
+    <columns>
+        <field>Test_Scripts__c.Steps_to_Test__c</field>
+    </columns>
+    <columns>
+        <field>Test_Scripts__c.Testing_Completed_By__c</field>
+    </columns>
+    <crossFilters>
+        <criteriaItems>
+            <column>Stakeholder__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Development,Camille Britton-De Jesus,Alicia Verstynen,Kristin Rodriguez,Liam Leslie,Matthew Duprey</value>
+        </criteriaItems>
+        <operation>with</operation>
+        <primaryTableColumn>CUST_ID</primaryTableColumn>
+        <relatedTable>Stakeholder_Relationship__c</relatedTable>
+        <relatedTableJoinColumn>Test_Script__c</relatedTableJoinColumn>
+    </crossFilters>
+    <filter>
+        <criteriaItems>
+            <column>Test_Scripts__c.Testing_Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Ready to Test in Developer Sandbox,Testing in Progress,Tested - Passed in Developer Sandbox,Tested - Failed in Developer Sandbox,Ready to Test in Full Sandbox,Tested - Passed in Full Sandbox,Tested - Failed in Full Sandbox,Ready for Retesting - Full Sandbox,Unable to Test - Blocked</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$User_Story__c.Release__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Release 2</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Test_Scripts__c.Testing_Status__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Development Test Scripts</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Test_Scripts__c@Test_Scripts__c.User_Story__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CUST_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

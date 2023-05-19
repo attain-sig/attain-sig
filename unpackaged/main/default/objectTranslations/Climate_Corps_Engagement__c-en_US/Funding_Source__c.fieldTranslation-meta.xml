@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If supported by corporate foundation, please enter the account for that organization in &apos;Corporate Foundation Funding&apos; --></help>
+        <label><!-- Funding Source --></label>
+        <name>Funding_Source__c</name>
+        <picklistValues>
+            <masterLabel>Ayrshire</masterLabel>
+            <translation><!-- Ayrshire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barr Foundation</masterLabel>
+            <translation><!-- Barr Foundation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boone (TX)</masterLabel>
+            <translation><!-- Boone (TX) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Company to organization</masterLabel>
+            <translation><!-- Company to organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donor to EDF</masterLabel>
+            <translation><!-- Donor to EDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donor to Organization</masterLabel>
+            <translation><!-- Donor to Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Climate Corps/CPP</masterLabel>
+            <translation><!-- EDF Climate Corps/CPP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Paid</masterLabel>
+            <translation><!-- EDF Paid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foundation to EDF</masterLabel>
+            <translation><!-- Foundation to EDF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foundation to organization</masterLabel>
+            <translation><!-- Foundation to organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding needed</masterLabel>
+            <translation><!-- Funding needed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Host Paid</masterLabel>
+            <translation><!-- Host Paid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>McKnight Foundation</masterLabel>
+            <translation><!-- McKnight Foundation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other EDF Program</masterLabel>
+            <translation><!-- Other EDF Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reis Foundation</masterLabel>
+            <translation><!-- Reis Foundation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Robertson Foundation</masterLabel>
+            <translation><!-- Robertson Foundation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trammel Crow</masterLabel>
+            <translation><!-- Trammel Crow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wells Fargo</masterLabel>
+            <translation><!-- Wells Fargo --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "a12563b2-a362-475b-8197-9ee6287ccc47",
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "configurationTags" : [ ],
+  "id" : "3146e2e6-9d32-46ba-8673-8f6c423ba9f5",
+  "label" : "FellowResourceLibrary",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-fellowresourcelibrary",
+  "type" : "route",
+  "urlPrefix" : "fellowresourcelibrary"
+}

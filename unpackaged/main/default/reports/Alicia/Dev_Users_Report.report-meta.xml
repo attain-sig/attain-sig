@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>USER_ID</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>FULL_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Cyane Anaya,Moira Hess,Allison Bredbenner,Amelie Poojary,Andrew Malloy,Katherine Coffee,Lindsay Ross,Sarabeth Lindquist,Genevieve Turcotte,KC Luce,Leigh Siatka,Molly Sverdlov,Ryan Williams,Susan Knifed,Sunnie Outlaw,Ritu Khera,Margot Struc,Lindsay Sweet,Lindsay Harkins,Kimberly O&apos;Keeffe,Justin Westley,Georgina Bagshawe,Erik Ortega,Emma Knuttel,Brian Dill,Carly Drost,Caroline Schiavo,Cori Roach,Ebony Evans</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Dev Users Report</name>
+    <params>
+        <name>active</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>User</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>LAST_LOGIN</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

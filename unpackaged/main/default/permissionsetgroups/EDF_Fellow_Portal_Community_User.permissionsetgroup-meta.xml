@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>To accompany Fellow Portal Community User Profile and Permission Set</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>EDF Fellow Portal Community User</label>
+    <status>Updated</status>
+</PermissionSetGroup>

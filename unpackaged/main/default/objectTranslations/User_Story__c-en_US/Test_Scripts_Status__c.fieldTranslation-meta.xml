@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What&apos;s the status of the test scripts related to this user story? --></help>
+        <label><!-- Test Scripts Status --></label>
+        <name>Test_Scripts_Status__c</name>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needed</masterLabel>
+            <translation><!-- Needed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for EDF IT Review</masterLabel>
+            <translation><!-- Ready for EDF IT Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Heller Review</masterLabel>
+            <translation><!-- Ready for Heller Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Testing</masterLabel>
+            <translation><!-- Ready for Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Updates Needed</masterLabel>
+            <translation><!-- Updates Needed --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_ID</field>
+    </columns>
+    <columns>
+        <field>Fellow_Application__c.Applicant__c</field>
+    </columns>
+    <columns>
+        <field>Fellow_Application__c.Fellow_Applicant_Email__c</field>
+    </columns>
+    <columns>
+        <field>Fellow_Application__c.CC_Year__c</field>
+    </columns>
+    <columns>
+        <field>Fellow_Application__c.GRAD_Dual_Degree_School_in_University__c</field>
+    </columns>
+    <columns>
+        <field>Fellow_Application__c.GRAD_School_within_University__c</field>
+    </columns>
+    <columns>
+        <field>Fellow_Application__c.University_Other_3__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>fellow apps created this week</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Fellow_Application__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_THISWEEK</interval>
+    </timeFrameFilter>
+</Report>

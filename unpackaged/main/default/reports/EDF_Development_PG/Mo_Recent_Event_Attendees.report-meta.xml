@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Event__c.Event_Invitations__r$Contact__c.Contact_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>Event__c.Event_Invitations__r$Contact__c.FirstName</field>
+    </columns>
+    <columns>
+        <field>Event__c.Event_Invitations__r$Contact__c.LastName</field>
+    </columns>
+    <columns>
+        <field>Event__c.Event_Invitations__r$Contact__c.Constituency__c</field>
+    </columns>
+    <columns>
+        <field>Event__c.Event_Invitations__r$Contact__c.Sub_Constituency__c</field>
+    </columns>
+    <columns>
+        <field>Event__c.Event_Invitations__r$Contact__c.Primary_Handler__c</field>
+    </columns>
+    <columns>
+        <field>Event__c.Event_Invitations__r$Contact__c.Additional_Handler1__c</field>
+    </columns>
+    <columns>
+        <field>Event__c.Event_Invitations__r$Contact__c.Additional_Handler_2__c</field>
+    </columns>
+    <columns>
+        <field>Event__c.Event_Invitations__r$Contact__c.MailingCity</field>
+    </columns>
+    <columns>
+        <field>Event__c.Event_Invitations__r$Contact__c.MailingState</field>
+    </columns>
+    <columns>
+        <field>Event__c$Event_Date_Time__c</field>
+    </columns>
+    <columns>
+        <field>Event__c$Name</field>
+    </columns>
+    <columns>
+        <field>Event__c.Event_Invitations__r$Contact__c.MRC_Date_Contact__c</field>
+    </columns>
+    <columns>
+        <field>Event__c.Event_Invitations__r$Contact__c.MRC_Amount_Contact__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+        <criteriaItems>
+            <column>Event__c.Event_Invitations__r$Contact__c.Primary_Handler__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Mo Pepin</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Event__c.Event_Invitations__r$Contact__c.Additional_Handler1__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Mo Pepin</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Event__c.Event_Invitations__r$Contact__c.Additional_Handler_2__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Mo Pepin</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Event__c.Event_Invitations__r$Contact__c.Portfolio_Manager__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Mo Pepin</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Mo - Recent Event Attendees</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Events_with_Event_Invitations_and_Contacts__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Event__c$Event_Date_Time__c</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Event__c$Event_Date_Time__c</dateColumn>
+        <interval>INTERVAL_LAST60</interval>
+    </timeFrameFilter>
+</Report>

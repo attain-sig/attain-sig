@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>Contact.Sub_Constituency__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Portfolio_Manager__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Alerts__c</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_$Account.Organization_sub_constituency__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Account.Portfolio_Manager__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Account.Alert__c</field>
+    </columns>
+    <description>Needed two reports in Luminate CRM (old Salesforce), but all are in this one report here in NPSP.</description>
+    <filter>
+        <booleanFilter>1 AND 2 AND (3 OR 4) AND 5</booleanFilter>
+        <criteriaItems>
+            <column>FK_$Account.Portfolio_Manager__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Portfolio_Manager__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>FK_$Account.Organization_sub_constituency__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>includes</operator>
+            <value>Membership - Catalyst Circle</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Sub_Constituency__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>includes</operator>
+            <value>Membership - Catalyst Circle</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>npe5__Affiliation__c.npe5__Primary__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Double PM Assignments</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactCustomEntity$npe5__Affiliation__c@npe5__Affiliation__c.npe5__Organization__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>LAST_ACTIVITY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

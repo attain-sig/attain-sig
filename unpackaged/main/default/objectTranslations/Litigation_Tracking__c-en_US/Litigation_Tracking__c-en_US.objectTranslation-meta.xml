@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Legal Tracking</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Legal Tracking</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Court Cases</layout>
+        <sections>
+            <label><!-- Additional Info --></label>
+            <section>Additional Info</section>
+        </sections>
+        <sections>
+            <label><!-- Case Info --></label>
+            <section>Case Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>FERC/PUC Proceedings</layout>
+        <sections>
+            <label><!-- Additional Info --></label>
+            <section>Additional Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Proceeding Info --></label>
+            <section>Proceeding Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Litigation Tracking Layout</layout>
+        <sections>
+            <label><!-- Additional Info --></label>
+            <section>Additional Info</section>
+        </sections>
+        <sections>
+            <label><!-- Case Info --></label>
+            <section>Case Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Regulatory Matters</layout>
+        <sections>
+            <label><!-- Additional Info --></label>
+            <section>Additional Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Regulation Info --></label>
+            <section>Regulation Info</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Court Case --></label>
+        <name>Court_Case</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- FERC/PUC Proceedings --></label>
+        <name>FERC_PUC_Proceedings</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Regulatory Matters --></label>
+        <name>Regulatory_Matters</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

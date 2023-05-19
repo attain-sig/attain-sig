@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- LCRM Address Correction Status --></label>
+        <name>LCRM_Address_Correction_Status__c</name>
+        <picklistValues>
+            <masterLabel>Manually Set</masterLabel>
+            <translation><!-- Manually Set --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Standardized - Incomplete Address</masterLabel>
+            <translation><!-- Not Standardized - Incomplete Address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Standardized - Unknown Address</masterLabel>
+            <translation><!-- Not Standardized - Unknown Address --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standardization Pending</masterLabel>
+            <translation><!-- Standardization Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standardized</masterLabel>
+            <translation><!-- Standardized --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

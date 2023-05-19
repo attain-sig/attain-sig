@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Event Type --></label>
+        <name>Event_Type__c</name>
+        <picklistValues>
+            <masterLabel>Calendar Event</masterLabel>
+            <translation><!-- Calendar Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Update</masterLabel>
+            <translation><!-- Case Update --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

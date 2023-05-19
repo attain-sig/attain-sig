@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Contact.Contact_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>Account.MRC_Date_Account__c</field>
+    </columns>
+    <columns>
+        <field>Account.MRC_Amount_Account__c</field>
+    </columns>
+    <columns>
+        <field>Account.HPC_Date_Account__c</field>
+    </columns>
+    <columns>
+        <field>Account.EDF_HPC_Account__c</field>
+    </columns>
+    <columns>
+        <field>Contact.One_liner__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <column>Contact.Contact_Record_ID__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>CON-1427295,CON-1318247,CON-1598257,CON-1315830,CON-1269444,CON-1560718,CON-556659,CON-1381364,CON-538275,CON-686633,CON-1003843,CON-1426271,CON-1353542,CON-1353039,CON-964528,CON-1461533,CON-1418759,CON-1182140,CON-1329539,CON-1356669,CON-1158893,CON-1403866,CON-1336681,CON-393306,CON-694297,CON-742395,CON-1418332,CON-696365,CON-540969,CON-40398,CON-793656,CON-553488,CON-749718,CON-1006611,CON-854277,CON-1452116,CON-690144,CON-88219,CON-1424881,CON-3801152,CON-674257,CON-219259,CON-1324503,CON-1353574,CON-938982,CON-839432,x,CON-617074,CON-1195429,CON-1318291,CON-880844,CON-1556691,CON-249699,CON-1345341,CON-2756611,CON-508678,CON-1457296,CON-1332524,CON-1343883,CON-1177066,CON-1421376,CON-1573836,CON-615031,CON-1331133,CON-317934,CON-1338030,CON-1219114,CON-814175</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Contact_Record_ID__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>CON-1185358,CON-1094166,CON-1319526,CON-747212,CON-1096053,CON-3198754,CON-871312,CON-1553741,CON-750899,CON-3297957,CON-482516,CON-701594,CON-1318623,CON-753766,CON-1203753,CON-1449475,CON-645467,CON-639315,CON-3758865,CON-828380,CON-1502749,CON-2748519,CON-1128072,CON-51297,CON-118939,CON-1201714,CON-1000635,CON-1390010,CON-1454436,CON-1443873,CON-2911315,CON-1442910,CON-567776,CON-1249489,CON-1491531,CON-1435864,CON-1346998,CON-1394254,CON-1413224,CON-1502336,CON-1379135,CON-1603354,CON-806440,CON-502737,CON-1003585,CON-56730,CON-539315,CON-570843,CON-1203468,CON-1264098,CON-729125,CON-1390355,CON-773912,CON-3321324,CON-3298094,CON-657188,CON-1329327,CON-1447736,CON-1008860,CON-1364241,CON-2790984,CON-235380,CON-1463621,CON-3738518,CON-1728259,CON-688798,CON-44920,CON-1319563,CON-1379577,CON-202193,CON-3540462,CON-947155,CON-724359</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Teleconference Giving Details</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

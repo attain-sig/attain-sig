@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Source(s) of EDF’s cost-share contribution, e.g. cash or in-kind. --></help>
+        <label><!-- Cost Share Source --></label>
+        <name>Cost_Share_Source__c</name>
+    </CustomFieldTranslation>

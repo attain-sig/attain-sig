@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- 0=0; 1 or 2=3; 3 or 4=2; 5 or more =1 --></help>
+        <label><!-- Gift Count Score --></label>
+        <name>Gift_Count_Score__c</name>
+    </CustomFieldTranslation>

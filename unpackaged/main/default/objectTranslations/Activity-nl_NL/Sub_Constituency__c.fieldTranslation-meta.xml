@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sub-Constituency --></label>
+        <name>Sub_Constituency__c</name>
+        <picklistValues>
+            <masterLabel>Climate - Global Climate</masterLabel>
+            <translation><!-- Climate - Global Climate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate - Legal and Regulatory</masterLabel>
+            <translation><!-- Climate - Legal and Regulatory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development - Government</masterLabel>
+            <translation><!-- Development - Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development - Institutional Giving</masterLabel>
+            <translation><!-- Development - Institutional Giving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development - Major Gifts</masterLabel>
+            <translation><!-- Development - Major Gifts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development - Planned Giving Estates</masterLabel>
+            <translation><!-- Development - Planned Giving Estates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development - Planned Giving Ospreys</masterLabel>
+            <translation><!-- Development - Planned Giving Ospreys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development - Planned Giving Prospects</masterLabel>
+            <translation><!-- Development - Planned Giving Prospects --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDFBIZ - Climate Corps</masterLabel>
+            <translation><!-- EDFBIZ - Climate Corps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDFBIZ - Corporate Climate Leadership</masterLabel>
+            <translation><!-- EDFBIZ - Corporate Climate Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Strategy - China</masterLabel>
+            <translation><!-- Global Strategy - China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Strategy - Europe</masterLabel>
+            <translation><!-- Global Strategy - Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MarComm - Ambassador</masterLabel>
+            <translation><!-- MarComm - Ambassador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Membership - Catalyst Circle</masterLabel>
+            <translation><!-- Membership - Catalyst Circle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceans - Fishery Solutions Center</masterLabel>
+            <translation><!-- Oceans - Fishery Solutions Center --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Political Affairs - Advocacy Network</masterLabel>
+            <translation><!-- Political Affairs - Advocacy Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Political Affairs - C4 Defend Our Future</masterLabel>
+            <translation><!-- Political Affairs - C4 Defend Our Future --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Political Affairs - C4 Moms Clean Air Force</masterLabel>
+            <translation><!-- Political Affairs - C4 Moms Clean Air Force --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Political Affairs - Defend Our Future</masterLabel>
+            <translation><!-- Political Affairs - Defend Our Future --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Political Affairs - Moms Clean Air Force</masterLabel>
+            <translation><!-- Political Affairs - Moms Clean Air Force --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

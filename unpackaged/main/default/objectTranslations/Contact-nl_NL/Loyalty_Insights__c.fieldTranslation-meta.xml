@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Loyalty Insights --></label>
+        <name>Loyalty_Insights__c</name>
+        <picklistValues>
+            <masterLabel>BEST OF THE BEST</masterLabel>
+            <translation><!-- BEST OF THE BEST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOB</masterLabel>
+            <translation><!-- BOB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CON</masterLabel>
+            <translation><!-- CON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CONSTANT LOW DOLLAR</masterLabel>
+            <translation><!-- CONSTANT LOW DOLLAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HABITUALLY GENEROUS</masterLabel>
+            <translation><!-- HABITUALLY GENEROUS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HBG</masterLabel>
+            <translation><!-- HBG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOW</masterLabel>
+            <translation><!-- LOW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW</masterLabel>
+            <translation><!-- NEW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEW AND NOTEWORTHY</masterLabel>
+            <translation><!-- NEW AND NOTEWORTHY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOT</masterLabel>
+            <translation><!-- NOT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOT THAT INTO YOU</masterLabel>
+            <translation><!-- NOT THAT INTO YOU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TIP</masterLabel>
+            <translation><!-- TIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TIPPERS</masterLabel>
+            <translation><!-- TIPPERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TRULY CONNECTED</masterLabel>
+            <translation><!-- TRULY CONNECTED --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

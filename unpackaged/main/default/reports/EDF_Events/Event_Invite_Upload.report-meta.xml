@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <columns>
+        <field>Account.Account_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>CONTACT_ID</field>
+    </columns>
+    <columns>
+        <field>Contact.Contact_Record_ID__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>2 AND 1</booleanFilter>
+        <criteriaItems>
+            <column>Contact.Contact_Record_ID__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>CON-1367570,CON-696365,CON-540969,CON-619113,CON-4940169,CON-4535545,CON-5492088,CON-1441353,CON-937274,CON-1234569,CON-5250726,CON-1448960,CON-688221,CON-1452226,CON-597177,CON-3980047,CON-604919,CON-1303631,CON-2992131,CON-6618319,CON-6346587,CON-3988866,CON-5839391,CON-435051,CON-2859204,CON-6045870,CON-1230965,CON-1311407,CON-7465083,CON-1595429,CON-7457860,CON-5246669,CON-1324683</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Contact_Record_ID__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Event Invite Upload</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

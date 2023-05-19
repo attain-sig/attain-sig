@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Not Interested Reason --></label>
+        <name>Not_Interested_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Budget cycle</masterLabel>
+            <translation><!-- Budget cycle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Budget lacking</masterLabel>
+            <translation><!-- Budget lacking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not interested in EE</masterLabel>
+            <translation><!-- Not interested in EE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not right contact</masterLabel>
+            <translation><!-- Not right contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timing (unrelated to budget cycle)</masterLabel>
+            <translation><!-- Timing (unrelated to budget cycle) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unresponsive</masterLabel>
+            <translation><!-- Unresponsive --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

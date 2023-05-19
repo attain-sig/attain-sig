@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Listing Type --></label>
+        <name>Listing__c</name>
+        <picklistValues>
+            <masterLabel>Annual Report - Advisory Board</masterLabel>
+            <translation><!-- Annual Report - Advisory Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Report - Bequest</masterLabel>
+            <translation><!-- Annual Report - Bequest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Report - C4 Board</masterLabel>
+            <translation><!-- Annual Report - C4 Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Report - Honorary Trustees</masterLabel>
+            <translation><!-- Annual Report - Honorary Trustees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Report - Osprey</masterLabel>
+            <translation><!-- Annual Report - Osprey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Report - Prospect Listing</masterLabel>
+            <translation><!-- Annual Report - Prospect Listing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Report-Bequest</masterLabel>
+            <translation><!-- Annual Report-Bequest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Report-NC Advisory Board</masterLabel>
+            <translation><!-- Annual Report-NC Advisory Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Report-National Council</masterLabel>
+            <translation><!-- Annual Report-National Council --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Report-Osprey</masterLabel>
+            <translation><!-- Annual Report-Osprey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Report-TX Advisory Board</masterLabel>
+            <translation><!-- Annual Report-TX Advisory Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual Report-Trustee</masterLabel>
+            <translation><!-- Annual Report-Trustee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MethaneSAT - Donor Recognition Name</masterLabel>
+            <translation><!-- MethaneSAT - Donor Recognition Name --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

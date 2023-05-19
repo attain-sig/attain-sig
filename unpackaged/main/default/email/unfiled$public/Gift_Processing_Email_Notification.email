@@ -1,0 +1,11 @@
+Created By: {!Case.CreatedBy}
+Case Reason: {!Case.Reason}
+Priority: {!Case.Priority}
+Subject: {!Case.Subject}
+
+Opportunity Info
+Record Type: {!Case.Opportunity_Record_Type__c}
+Amount: {!Case.Opportunity_Amount__c}
+Close Date: {!Case.Opportunitity_Close_Date__c}
+
+Salesforce case record: {!Case.Link}

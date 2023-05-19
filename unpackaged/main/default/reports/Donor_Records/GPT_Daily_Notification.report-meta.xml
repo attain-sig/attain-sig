@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Staging__c$Name</field>
+    </columns>
+    <columns>
+        <field>Staging__c$Contact__c</field>
+    </columns>
+    <columns>
+        <field>Staging__c$Organization_Account__c</field>
+    </columns>
+    <columns>
+        <field>Staging__c$Unidentified_Donor__c</field>
+    </columns>
+    <columns>
+        <field>Staging__c$Entity__c</field>
+    </columns>
+    <columns>
+        <field>Staging__c$Amount__c</field>
+    </columns>
+    <columns>
+        <field>Staging__c$Currency_Type__c</field>
+    </columns>
+    <columns>
+        <field>Staging__c$Gift_Date__c</field>
+    </columns>
+    <columns>
+        <field>Staging__c$Sub_Constituency__c</field>
+    </columns>
+    <columns>
+        <field>Staging__c$Relationship_Manager__c</field>
+    </columns>
+    <columns>
+        <field>Staging__c$Source__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Staging__c$Daily_notification__c</field>
+    </columns>
+    <description>Updated for FY22. Items to be included in daily gift notification. Check off &quot;Daily Notification&quot; checkbox immediately after distribution.</description>
+    <filter>
+        <criteriaItems>
+            <column>Staging__c$Daily_notification__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Staging__c$Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Admin Not a Contribution,Reject,Archive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Staging__c$CreatedBy</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Riz Haque</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Staging__c$Contact__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Membership Anonymous</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Staging__c$Source__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Merkle Upload File</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>GPT Daily Notification</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Staging_with_Donation_Contacts_Accounts__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Staging__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

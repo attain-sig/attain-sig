@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sys_ID_from_Merged_Contact__c</fullName>
+    <description>Used by "Update Email on Contact Deletion" flow to store ID of losing Contact related to this record before it is moved to the winning Contact.</description>
+    <externalId>false</externalId>
+    <label>Sys-ID from Merged Contact</label>
+    <length>25</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

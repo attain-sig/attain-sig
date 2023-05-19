@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Last date these versions will be used. --></help>
+        <label><!-- Rcpt or Ack Version Expiration Date --></label>
+        <name>Rcpt_or_Ack_Version_Expiration_Date__c</name>
+    </CustomFieldTranslation>

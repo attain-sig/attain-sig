@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Case Request Path</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;The Request has been assigned to the person that will help resolve it and they are reviewing the Request.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Assigned</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;This Case has been escalated to a Feedback or User Story.&lt;/p&gt;</info>
+        <picklistValueName>Closed - Escalated</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;The Request has been resolved.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Closed - Resolved</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;The Request has been closed, but not resolved.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Closed - Unresolved</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Conversations and/or work are underway to resolve the Request.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>In Progress</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;The Request has been created, but not yet assigned to the staff person that will work to resolve it.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;The Request is waiting on the Point of Contact for clarification or additional details.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Waiting on Point of Contact</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Request</recordTypeName>
+</PathAssistant>

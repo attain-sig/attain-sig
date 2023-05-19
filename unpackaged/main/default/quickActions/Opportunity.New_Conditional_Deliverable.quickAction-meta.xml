@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Use this quick action to create new Conditional Deliverables.</description>
+    <fieldOverrides>
+        <field>Account__c</field>
+        <formula>Opportunity.AccountId</formula>
+    </fieldOverrides>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Name</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>npsp__Opportunity__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>npsp__Grant_Deadline_Due_Date__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>npsp__Grant_Deliverable_Requirements__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Annual_Challenge_Match__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <standardLabel>NewRecordType</standardLabel>
+    <successMessage>You have successfully created a New Conditional Deliverable</successMessage>
+    <targetObject>npsp__Grant_Deadline__c</targetObject>
+    <targetParentField>npsp__Opportunity__c</targetParentField>
+    <targetRecordType>npsp__Grant_Deadline__c.Conditional_Deliverable</targetRecordType>
+    <type>Create</type>
+</QuickAction>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- 3rd Party Gift Company --></label>
+        <name>X3rd_Party_Gift_Company__c</name>
+        <relationshipLabel><!-- Opportunities (3rd Party Gift Company) --></relationshipLabel>
+    </CustomFieldTranslation>

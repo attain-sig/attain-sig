@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Industry Group --></label>
+        <name>Industry_Group__c</name>
+        <picklistValues>
+            <masterLabel>Automobiles &amp; Components</masterLabel>
+            <translation><!-- Automobiles &amp; Components --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banks</masterLabel>
+            <translation><!-- Banks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capital Goods</masterLabel>
+            <translation><!-- Capital Goods --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial &amp; Professional Services</masterLabel>
+            <translation><!-- Commercial &amp; Professional Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Durables &amp; Apparel</masterLabel>
+            <translation><!-- Consumer Durables &amp; Apparel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Services</masterLabel>
+            <translation><!-- Consumer Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diversified Financials</masterLabel>
+            <translation><!-- Diversified Financials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy</masterLabel>
+            <translation><!-- Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Staples Retailing</masterLabel>
+            <translation><!-- Food &amp; Staples Retailing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food, Beverage &amp; Tobacco</masterLabel>
+            <translation><!-- Food, Beverage &amp; Tobacco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Care Equipment &amp; Services</masterLabel>
+            <translation><!-- Health Care Equipment &amp; Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Household &amp; Personal Products</masterLabel>
+            <translation><!-- Household &amp; Personal Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance</masterLabel>
+            <translation><!-- Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Materials</masterLabel>
+            <translation><!-- Materials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pharmaceuticals, Biotechnology &amp; Life Sciences</masterLabel>
+            <translation><!-- Pharmaceuticals, Biotechnology &amp; Life Sciences --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate</masterLabel>
+            <translation><!-- Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retailing</masterLabel>
+            <translation><!-- Retailing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semiconductors &amp; Semiconductor Equipment</masterLabel>
+            <translation><!-- Semiconductors &amp; Semiconductor Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software &amp; Services</masterLabel>
+            <translation><!-- Software &amp; Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology Hardware &amp; Equipment</masterLabel>
+            <translation><!-- Technology Hardware &amp; Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telecommunication Services</masterLabel>
+            <translation><!-- Telecommunication Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation</masterLabel>
+            <translation><!-- Transportation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

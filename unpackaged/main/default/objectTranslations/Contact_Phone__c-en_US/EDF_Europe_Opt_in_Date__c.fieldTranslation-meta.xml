@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicate date phone number was opted in for EDF Europe communications. --></help>
+        <label><!-- EDF Europe Opt in Date --></label>
+        <name>EDF_Europe_Opt_in_Date__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>AMOUNT</field>
+    </columns>
+    <description>Doesn&apos;t have restriction breakout while we work on GAU Allocation issues. See &quot;BAD&quot; version. Do not use for FY16 and before; assumes correct transaction types.</description>
+    <filter>
+        <criteriaItems>
+            <column>STAGE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Received</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Transaction_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>Recurring Gift - Donation,Single Donation - Earth Share,Single Donation - Matching Gift,Single Donation - Outright Donation,Single Donation - United Way,Single Donation - Workplace,Single Donation - Catalyst Circle Outright Donation,Recurring Gift - Catalyst Circle Donation,Individual - Catalyst Circle,Individual - Membership,Matching Gift,Workplace - Catalyst Circle,Workplace - Membership</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.Entity__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>C3,C4,CFF,MethaneSAT,Methane SAT,NC PAC,PAC,&quot;SatMgmt, LLC&quot;,Texas PAC</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Opportunity.Entity__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Cash Flow V6 Membership including CC</name>
+    <params>
+        <name>open</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>probability</name>
+        <value>&gt;0</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunity</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CLOSE_DATE</dateColumn>
+        <endDate>2022-06-30</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2021-10-01</startDate>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>TopicAssignment$Topic</field>
+    </columns>
+    <columns>
+        <field>TopicAssignment$Entity</field>
+    </columns>
+    <columns>
+        <field>TopicAssignment$DerivedRecord</field>
+    </columns>
+    <columns>
+        <field>TopicAssignment$Id</field>
+    </columns>
+    <columns>
+        <field>TopicAssignment$Topic.CreatedDate</field>
+    </columns>
+    <columns>
+        <field>TopicAssignment$Topic.Name</field>
+    </columns>
+    <columns>
+        <field>TopicAssignment$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>TopicAssignment$CreatedBy</field>
+    </columns>
+    <description>Testing Topic Assignment with filters to pull records that don&apos;t show with filters set to All records</description>
+    <format>Tabular</format>
+    <name>Copy of Topics Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Topic_Assignments__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>TopicAssignment$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

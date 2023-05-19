@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Feedback_assigned_to_you</name>
+        <label>Feedback assigned to you</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <actionName>chatterPost</actionName>
+        <actionType>chatterPost</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>text</name>
+            <value>
+                <elementReference>plainMessage</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>subjectNameOrId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>57.0</apiVersion>
+    <environments>Default</environments>
+    <formulas>
+        <name>URL</name>
+        <dataType>String</dataType>
+        <expression>LEFT($Api.Enterprise_Server_URL_510, FIND( &apos;/services&apos;,$Api.Enterprise_Server_URL_510)) &amp; {!$Record.Id}</expression>
+    </formulas>
+    <interviewLabel>Feedback - New Record Created Chatter Notification {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Feedback - New Record Created Chatter Notification</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Feedback_assigned_to_you</targetReference>
+        </connector>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+not(isblank({!$Record.Assigned_To__c}))
+&amp;&amp;
+(isnew() || ischanged({!$Record.Assigned_To__c}))</filterFormula>
+        <object>Feedback__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>Message</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;@[{!$Record.Assigned_To__r.Id}]&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The following feedback record is assigned to you:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;{!URL}&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;{!$Record.Name}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;{!URL}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;{!$Record.Feedback_Title__c}&lt;/p&gt;&lt;p&gt;Status: {!$Record.Feedback_Status__c}&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>MessageNew</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;@[{!$Record.Assigned_To__r.Id}]&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The following feedback record is assigned to you:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://environmentaldefensefund--full.sandbox.lightning.force.com/builder_platform_interaction/%7B!URL%7D&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;{!$Record.Name}&lt;/a&gt;&lt;/p&gt;&lt;p&gt;{!URL}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;{!$Record.Feedback_Title__c}&lt;/p&gt;&lt;p&gt;Status: {!$Record.Feedback_Status__c}&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>plainMessage</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>@[{!$Record.Assigned_To__r.Id}]
+The following feedback record is assigned to you:
+{!$Record.Name}
+{!URL}
+
+{!$Record.Feedback_Title__c}
+Status: {!$Record.Feedback_Status__c}</text>
+    </textTemplates>
+</Flow>

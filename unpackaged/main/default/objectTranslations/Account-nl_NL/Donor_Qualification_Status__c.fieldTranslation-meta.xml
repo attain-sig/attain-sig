@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Donor Qualification Status --></label>
+        <name>Donor_Qualification_Status__c</name>
+        <picklistValues>
+            <masterLabel>Associated Organization</masterLabel>
+            <translation><!-- Associated Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Catalyst Circle disqualified</masterLabel>
+            <translation><!-- Catalyst Circle disqualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift Officer recommends cc portfolio</masterLabel>
+            <translation><!-- Gift Officer recommends cc portfolio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift officer disqualified</masterLabel>
+            <translation><!-- Gift officer disqualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift officer qualification pending</masterLabel>
+            <translation><!-- Gift officer qualification pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift officer qualified</masterLabel>
+            <translation><!-- Gift officer qualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift officer recommends Membership LT</masterLabel>
+            <translation><!-- Gift officer recommends Membership LT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gift officer recommends new portfolio</masterLabel>
+            <translation><!-- Gift officer recommends new portfolio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research Recommends IG Portfolio</masterLabel>
+            <translation><!-- Research Recommends IG Portfolio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research Recommends MG Portfolio</masterLabel>
+            <translation><!-- Research Recommends MG Portfolio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research disqualified</masterLabel>
+            <translation><!-- Research disqualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research qualification pending</masterLabel>
+            <translation><!-- Research qualification pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research recommends -  need intro</masterLabel>
+            <translation><!-- Research recommends -  need intro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research recommends CC portfolio</masterLabel>
+            <translation><!-- Research recommends CC portfolio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research recommends Membership LT</masterLabel>
+            <translation><!-- Research recommends Membership LT --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

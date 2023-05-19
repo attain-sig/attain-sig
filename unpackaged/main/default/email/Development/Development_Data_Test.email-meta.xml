@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Blank_Letterhead_no_logo</letterhead>
+    <name>Random Template</name>
+    <style>freeForm</style>
+    <subject>EDF Action Biweekly Update</subject>
+    <textOnly>Friends,
+
+The countdown to election day is steadily ticking away, and we are full steam ahead. It’s inspiring to be part of the nationwide movement to stand up, speak out, and mobilize for a better future. I’m excited to share the following updates with you today – I hope you find them educational and motivating.
+
+Joe Bonfiglio
+President, EDF Action
+
+Issue Updates
+
+Here Comes Green Wave 2020: For the first time, five of the nation’s leading environmental organizations are working together in full force, building a Green Wave that is big and strong enough to turn the tide towards a pro-environment Congress and White House. Green Wave 2020, which launched last week, is mobilizing the combined strength of members to support candidates with good environmental records or platforms in more than 30 races, often running against a candidate who denies the scientific reality of climate change. Organizers from Sierra Club, the League of Conservation Voters, EDF Action, the NRDC Action Fund, and the National Wildlife Federation Action Fund are arranging volunteer opportunities for remote phone- and text-banking and other online tools to engage members and supporters.
+
+What you can do: Become an EDF Action member, and volunteer for candidates, and find many more opportunities at edfaction.org/2020
+
+The Latest Ads from EDF Action and EDF Action Votes: EDF Action launched a new series of ads in Florida, South Carolina, New Mexico, and Arizona as part of our campaign to make sure voters understand the priorities and voting records of candidates in their states.
+
+In Florida, EDF Action Votes launched an additional $1 million ad campaign that will highlight the stark contrast between Donald Trump’s climate denial and Joe Biden’s bold plan to tackle this challenge while creating good paying clean energy jobs and protecting Florida’s beaches and coastline. The ad, “Deserves” is geared toward Hispanic voters and will run on premium streaming services in the Tampa area. The ad is also being run in Spanish.
+
+In South Carolina, the television ad, “Buy,” exposes Nancy Mace’s record of putting special interest  donors before South Carolina. These interests include polluters who are endangering the coastline and harming the tourism economy.
+In New Mexico, a four-piece mail program launched in support of State House candidates Meredith Dixon (HD-20), Jessica Velasquez (HD-22), Representative Melanie Stansbury (HD 28) and State Senate candidate Katy Duhigg (SD-10). All four candidates are strong voices in Santa Fe for their constituents, the environment, and New Mexican conservation values.
+
+In Arizona, EDF Action announced a mail and digital campaign in support of Arizona state legislative candidates Representative Jennifer Pawlik (Legislative District 17), House candidate Judy Schwiebert (Legislative District 20), and Senate candidate Felicia French (Legislative District 6). Arizonans’ water, air and health are top priorities for all three and they will fight to preserve the environment and ensure that we leave our children and grandchildren a cleaner, healthier planet.
+
+What you can do: Share your support for Joe Cunningham, the New Mexico State House candidates here, and Jennifer Pawlik, Judy Schwiebert, and Felicia French
+
+Environmental Debates Worth Watching: EDF Action is paying particular attention to debates taking place in key districts and states, many of them likely to reveal critical differences between candidates when it comes to the environment. Last week, Senator Cory Gardner and former Governor John Hickenlooper had their first debate. Cory Gardner may try to sound like an independent voice in Washington, but his record speaks for itself. He has racked up an extensive and egregious anti-environmental voting record – putting industry lobbyists in charge of government agencies and falling in-line with Donald Trump and his pro-polluter agenda..
+
+What you can do: Fact check Gardner’s bad climate record here. You can also share this with friends and families here.
+
+EDF Action’s Social Distancing Activity of the Week
+Start an indoor garden. No matter your local climate, fall does not have to be the end of growing season. Here are some tips on how to start an indoor veggie and herb garden, plus a guide on how to grow plants indoors. It’s not too late to start planning for your first garden in the spring! For beginners here is a guide to starting a garden. If you want to grow food, here is a veggie garden guide and an herb guide.
+
+Something Fun
+I want to encourage you to take a break, have a laugh, and feel good with some fun bits of news to take your mind off of the pandemic:
+
+Want to Know Where the Best Fall Colors Are? Check Out This Interactive U.S. Map
+A New Generation of Young Poll Workers is Stepping Up to Protect the Elderly from COVID-19
+Egypt Tomb: Sarcophagi Buried for 2,500 Years Unearthed in Saqqara
+
+What We’re Reading
+EDF Action: Pence has a Dangerous History of Climate Denial (you can share here)
+Hill: Voter Enthusiasm Running Higher Than 2016, 2012
+Nature: How Trump Damaged Science – And Why It Could Take Decades to Recover
+Washington Post: The Oil Sector’s Political Spending Is Down During the Pandemic
+Politico: Biden Notches 16-Point National Lead with Less Than a Month Until Election Day
+New York Times: Hotter Days Widen Racial Gap in U.S. Schools, Data Shows
+Hill: EPA Gives Oklahoma Authority Over Many Tribal Environmental Issues</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

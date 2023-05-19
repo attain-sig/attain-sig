@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Event Invitation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Event Invitations</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>EDF Event Attendee Registration</layout>
+        <sections>
+            <label><!-- Attendee Summary --></label>
+            <section>Attendee Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Benefits --></label>
+            <section>Benefits</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Event Invitation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Event Sponsor Registration Layout</layout>
+        <sections>
+            <label><!-- Attendee Summary --></label>
+            <section>Attendee Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Benefits --></label>
+            <section>Benefits</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Golf Event Attendee Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Check-In Notes --></label>
+            <section>Check-In Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Team --></label>
+            <section>Team</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Attendee --></label>
+        <name>Attendee</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- EDF Event Attendee --></label>
+        <name>EDF_Event_Attendee</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A person who is attending a dinner, party or other non-sports fundraiser --></description>
+        <label><!-- Gala Event Attendee --></label>
+        <name>Gala_Event_Attendee</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- A person who is attending a golf tournament fundraiser --></description>
+        <label><!-- Golf Event Attendee --></label>
+        <name>Golf_Event_Attendee</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Invitation --></label>
+        <name>Invitation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sponser --></label>
+        <name>Sponser</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

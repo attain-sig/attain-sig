@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Writer Assigned --></label>
+        <name>Writer_Assigned__c</name>
+        <picklistValues>
+            <masterLabel>Allison Cobb</masterLabel>
+            <translation><!-- Allison Cobb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dana Weidig</masterLabel>
+            <translation><!-- Dana Weidig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emily Whitted</masterLabel>
+            <translation><!-- Emily Whitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erika Reuter</masterLabel>
+            <translation><!-- Erika Reuter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gabrielle Antoniadis</masterLabel>
+            <translation><!-- Gabrielle Antoniadis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jason Martin</masterLabel>
+            <translation><!-- Jason Martin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jen Coleman</masterLabel>
+            <translation><!-- Jen Coleman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jennifer Freeman</masterLabel>
+            <translation><!-- Jennifer Freeman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Judy Stoeven Davies</masterLabel>
+            <translation><!-- Judy Stoeven Davies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Katie Wang</masterLabel>
+            <translation><!-- Katie Wang --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laura Lea Rubino</masterLabel>
+            <translation><!-- Laura Lea Rubino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lindsay Ross</masterLabel>
+            <translation><!-- Lindsay Ross --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lisa Fullerton</masterLabel>
+            <translation><!-- Lisa Fullerton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lucy Henry</masterLabel>
+            <translation><!-- Lucy Henry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Writer Assigned</masterLabel>
+            <translation><!-- No Writer Assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio Manager</masterLabel>
+            <translation><!-- Portfolio Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sharon Nadel</masterLabel>
+            <translation><!-- Sharon Nadel --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

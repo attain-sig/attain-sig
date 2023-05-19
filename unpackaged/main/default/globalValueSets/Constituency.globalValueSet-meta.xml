@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CFF</fullName>
+        <default>false</default>
+        <label>CFF</label>
+    </customValue>
+    <customValue>
+        <fullName>Climate</fullName>
+        <default>false</default>
+        <label>Climate</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate Services</fullName>
+        <default>false</default>
+        <label>Corporate Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Development</fullName>
+        <default>false</default>
+        <label>Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Diversity</fullName>
+        <default>false</default>
+        <label>Diversity</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecosystems</fullName>
+        <default>false</default>
+        <label>Ecosystems</label>
+    </customValue>
+    <customValue>
+        <fullName>EDAF</fullName>
+        <default>false</default>
+        <label>EDAF</label>
+    </customValue>
+    <customValue>
+        <fullName>EDF Alumni</fullName>
+        <default>false</default>
+        <label>EDF Alumni</label>
+    </customValue>
+    <customValue>
+        <fullName>EDFBIZ</fullName>
+        <default>false</default>
+        <label>EDFBIZ</label>
+    </customValue>
+    <customValue>
+        <fullName>EDF Europe</fullName>
+        <default>false</default>
+        <label>EDF Europe</label>
+    </customValue>
+    <customValue>
+        <fullName>EDF Staff</fullName>
+        <default>false</default>
+        <label>EDF Staff</label>
+    </customValue>
+    <customValue>
+        <fullName>Elected Official</fullName>
+        <default>false</default>
+        <label>Elected Official</label>
+    </customValue>
+    <customValue>
+        <fullName>Energy</fullName>
+        <default>false</default>
+        <label>Energy</label>
+    </customValue>
+    <customValue>
+        <fullName>Environmental Health</fullName>
+        <default>false</default>
+        <label>Environmental Health</label>
+    </customValue>
+    <customValue>
+        <fullName>Executive Office</fullName>
+        <default>false</default>
+        <label>Executive Office</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance</fullName>
+        <default>false</default>
+        <label>Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Climate</fullName>
+        <default>false</default>
+        <label>Global Climate</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Operations</fullName>
+        <default>false</default>
+        <label>Global Operations</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Strategy</fullName>
+        <default>false</default>
+        <label>Global Strategy</label>
+    </customValue>
+    <customValue>
+        <fullName>Health</fullName>
+        <default>false</default>
+        <label>Health</label>
+    </customValue>
+    <customValue>
+        <fullName>HR</fullName>
+        <default>false</default>
+        <label>HR</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal Audit</fullName>
+        <default>false</default>
+        <label>Internal Audit</label>
+    </customValue>
+    <customValue>
+        <fullName>IT</fullName>
+        <default>false</default>
+        <label>IT</label>
+    </customValue>
+    <customValue>
+        <fullName>Legal and Compliance</fullName>
+        <default>false</default>
+        <label>Legal and Compliance</label>
+    </customValue>
+    <customValue>
+        <fullName>MarComm</fullName>
+        <default>false</default>
+        <label>MarComm</label>
+    </customValue>
+    <customValue>
+        <fullName>Membership</fullName>
+        <default>false</default>
+        <label>Membership</label>
+    </customValue>
+    <customValue>
+        <fullName>MethaneSAT</fullName>
+        <default>false</default>
+        <label>MethaneSAT</label>
+    </customValue>
+    <customValue>
+        <fullName>Oceans</fullName>
+        <default>false</default>
+        <label>Oceans</label>
+    </customValue>
+    <customValue>
+        <fullName>OEPA</fullName>
+        <default>false</default>
+        <label>OEPA</label>
+    </customValue>
+    <customValue>
+        <fullName>Office of the Chief Economist</fullName>
+        <default>false</default>
+        <label>Office of the Chief Economist</label>
+    </customValue>
+    <customValue>
+        <fullName>Office of the Chief Scientist</fullName>
+        <default>false</default>
+        <label>Office of the Chief Scientist</label>
+    </customValue>
+    <customValue>
+        <fullName>Political Affairs</fullName>
+        <default>false</default>
+        <label>Political Affairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Strategic Partners</fullName>
+        <default>false</default>
+        <label>Strategic Partners</label>
+    </customValue>
+    <customValue>
+        <fullName>TRED</fullName>
+        <default>false</default>
+        <label>TRED</label>
+    </customValue>
+    <customValue>
+        <fullName>US Climate &amp; Energy</fullName>
+        <default>false</default>
+        <label>US Climate &amp; Energy</label>
+    </customValue>
+    <customValue>
+        <fullName>US Climate Legal and Regulatory</fullName>
+        <default>false</default>
+        <label>US Climate Legal and Regulatory</label>
+    </customValue>
+    <customValue>
+        <fullName>China</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>China</label>
+    </customValue>
+    <customValue>
+        <fullName>00960-8877</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>00960-8877</label>
+    </customValue>
+    <customValue>
+        <fullName>Membership:Oceans</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Membership:Oceans</label>
+    </customValue>
+    <customValue>
+        <fullName>Economics</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Economics</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Affairs</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Global Affairs</label>
+    </customValue>
+    <customValue>
+        <fullName>Office of Chief Economist</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Office of Chief Economist</label>
+    </customValue>
+    <customValue>
+        <fullName>United States</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>United States</label>
+    </customValue>
+    <customValue>
+        <fullName>EDF Aumni</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>EDF Aumni</label>
+    </customValue>
+    <customValue>
+        <fullName>NULL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NULL</label>
+    </customValue>
+    <customValue>
+        <fullName>02802-0111</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>02802-0111</label>
+    </customValue>
+    <customValue>
+        <fullName>Diversity Ecosystems</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Diversity Ecosystems</label>
+    </customValue>
+    <customValue>
+        <fullName>Polical Affairs</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Polical Affairs</label>
+    </customValue>
+    <customValue>
+        <fullName>International Climate</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>International Climate</label>
+    </customValue>
+    <masterLabel>Constituency</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

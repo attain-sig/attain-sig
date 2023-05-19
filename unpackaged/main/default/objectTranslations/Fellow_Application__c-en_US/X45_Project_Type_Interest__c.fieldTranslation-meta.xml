@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Include notes for questions 4&amp;5 --></help>
+        <label><!-- 4-5. Project Type Interest --></label>
+        <name>X45_Project_Type_Interest__c</name>
+    </CustomFieldTranslation>

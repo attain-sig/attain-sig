@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Score based on ResearchPoint Private Company Ownership --></help>
+        <label><!-- Prospect Private Company Ownership Score --></label>
+        <name>Prospect_Private_Company_Ownership_Score__c</name>
+    </CustomFieldTranslation>

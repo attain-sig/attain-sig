@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Case_Request_Catalyst</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Request Catalyst</label>
+        <sharedTo>
+            <group>Catalyst_Circle</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Request</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Case_Request_Climate_Corps</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Request Climate Corps</label>
+        <sharedTo>
+            <group>Climate_Corps</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Request</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Case_Request_Development</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Request Development</label>
+        <sharedTo>
+            <group>Development</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Request</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Case_Request_Development_Finance</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Request Development Finance</label>
+        <sharedTo>
+            <group>Development_Finance</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Request</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Case_Request_Finance</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Request Finance</label>
+        <sharedTo>
+            <group>Finance</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Request</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Case_Request_Litigation_Tracking_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Request Litigation Tracking Users</label>
+        <sharedTo>
+            <group>Litigation_Tracking_Users</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Request</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Case_Request_Membership_sans_Member_Services</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Request Membership sans Member Services</label>
+        <sharedTo>
+            <group>Membership_Sans_Member_Services</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Request</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Case_Request_Mission_Finance</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Request Mission Finance</label>
+        <sharedTo>
+            <group>Mission_Finance</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Request</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Case_Request_Program_Staff</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Request Program Staff</label>
+        <sharedTo>
+            <group>Program_Staff</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Request</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Catalyst_Circle</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Catalyst Circle</label>
+        <sharedTo>
+            <group>Catalyst_Circle</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Member Services</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Development</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Development</label>
+        <sharedTo>
+            <group>Development</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Member Services</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Edit_Gift_Processing_Cases_Dev_Finance</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Edit Gift Processing Cases - Dev Finance</label>
+        <sharedTo>
+            <group>Development_Finance</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Gift Processing</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Edit_Gift_Processing_Cases_Development</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Edit Gift Processing Cases - Development</label>
+        <sharedTo>
+            <group>Development</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Gift Processing</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Edit_Gift_Processing_Cases_Membership</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Edit Gift Processing Cases - Membership</label>
+        <sharedTo>
+            <group>Membership</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Gift Processing</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Finance_Refund_and_Adjustment_Review</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Finance Refund and Adjustment Review</label>
+        <sharedTo>
+            <group>Finance_Refund_and_Adjustment_Review</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Gift Processing</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>MemberServices</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Member Services</label>
+        <sharedTo>
+            <group>MemberServices</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Member Services</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Membership</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Membership</label>
+        <sharedTo>
+            <group>Membership</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Member Services</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Request_Case_IT</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Request IT</label>
+        <sharedTo>
+            <group>IT</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Request</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

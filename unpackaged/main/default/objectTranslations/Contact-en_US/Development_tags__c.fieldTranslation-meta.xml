@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Development tags --></label>
+        <name>Development_tags__c</name>
+        <picklistValues>
+            <masterLabel>CC Tailored Handling</masterLabel>
+            <translation><!-- CC Tailored Handling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Action Influentials</masterLabel>
+            <translation><!-- EDF Action Influentials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental Leaders Initiative</masterLabel>
+            <translation><!-- Environmental Leaders Initiative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influential</masterLabel>
+            <translation><!-- Influential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential Board Candidate</masterLabel>
+            <translation><!-- Potential Board Candidate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential China Board Candidate</masterLabel>
+            <translation><!-- Potential China Board Candidate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential Development Invites</masterLabel>
+            <translation><!-- Potential Development Invites --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential Domestic Traveler</masterLabel>
+            <translation><!-- Potential Domestic Traveler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential EDF Action Board Candidate</masterLabel>
+            <translation><!-- Potential EDF Action Board Candidate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential Europe Board Candidate</masterLabel>
+            <translation><!-- Potential Europe Board Candidate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential Event Host</masterLabel>
+            <translation><!-- Potential Event Host --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Potential International Traveler</masterLabel>
+            <translation><!-- Potential International Traveler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research Recommends – Need Intro</masterLabel>
+            <translation><!-- Research Recommends – Need Intro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top 25</masterLabel>
+            <translation><!-- Top 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top 50</masterLabel>
+            <translation><!-- Top 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Up-and-Comer</masterLabel>
+            <translation><!-- Up-and-Comer --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

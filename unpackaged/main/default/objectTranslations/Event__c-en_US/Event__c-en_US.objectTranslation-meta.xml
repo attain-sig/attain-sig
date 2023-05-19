@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Event</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Events</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>EDF Event Master Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Status Summary --></label>
+            <section>Status Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Venue Information --></label>
+            <section>Venue Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Standard EDF Event --></description>
+        <label><!-- EDF Event --></label>
+        <name>EDF_Event</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Dinners, parties and other non-sports fundraisers --></description>
+        <label><!-- Gala Event --></label>
+        <name>Gala_Event</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Golf tournament fundraiser --></description>
+        <label><!-- Golf Event --></label>
+        <name>Golf_Event</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

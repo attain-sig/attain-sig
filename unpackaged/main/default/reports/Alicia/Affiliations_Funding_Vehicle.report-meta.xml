@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>npe5__Affiliation__c.npe5__Role__c</field>
+    </columns>
+    <columns>
+        <field>npe5__Affiliation__c.Affiliation_Type__c</field>
+    </columns>
+    <columns>
+        <field>npe5__Affiliation__c.npsp__Related_Opportunity_Contact_Role__c</field>
+    </columns>
+    <columns>
+        <field>npe5__Affiliation__c.npe5__Status__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>npe5__Affiliation__c.npe5__Primary__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>npe5__Affiliation__c.Affiliation_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Funding Vehicle</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Affiliations: Funding Vehicle</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactCustomEntity$npe5__Affiliation__c@npe5__Affiliation__c.npe5__Organization__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>LAST_ACTIVITY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Feedback Status --></label>
+        <name>Feedback_Status__c</name>
+        <picklistValues>
+            <masterLabel>Assigned to Sprint</masterLabel>
+            <translation><!-- Assigned to Sprint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blocked</masterLabel>
+            <translation><!-- Blocked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build Complete</masterLabel>
+            <translation><!-- Build Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build in Progress</masterLabel>
+            <translation><!-- Build in Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed - Address via User Story</masterLabel>
+            <translation><!-- Closed - Address via User Story --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed - Deferred</masterLabel>
+            <translation><!-- Closed - Deferred --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed - Duplicate</masterLabel>
+            <translation><!-- Closed - Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed - Known Salesforce Limitation</masterLabel>
+            <translation><!-- Closed - Known Salesforce Limitation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed - No Longer Required</masterLabel>
+            <translation><!-- Closed - No Longer Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In IT Assessment</masterLabel>
+            <translation><!-- In IT Assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In QA</masterLabel>
+            <translation><!-- In QA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In UAT</masterLabel>
+            <translation><!-- In UAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Requirements</masterLabel>
+            <translation><!-- Needs Requirements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Production</masterLabel>
+            <translation><!-- Ready for Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Sprint Scheduling</masterLabel>
+            <translation><!-- Ready for Sprint Scheduling --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

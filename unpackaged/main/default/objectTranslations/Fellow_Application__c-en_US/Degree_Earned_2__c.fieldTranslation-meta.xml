@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- UG Degree(s) --></label>
+        <name>Degree_Earned_2__c</name>
+        <picklistValues>
+            <masterLabel>Associate of Applied Science (AAS)</masterLabel>
+            <translation><!-- Associate of Applied Science (AAS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Associate of Arts (AA)</masterLabel>
+            <translation><!-- Associate of Arts (AA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Associate of Science (AS)</masterLabel>
+            <translation><!-- Associate of Science (AS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bachelor of Arts (BA)</masterLabel>
+            <translation><!-- Bachelor of Arts (BA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bachelor of Commerce</masterLabel>
+            <translation><!-- Bachelor of Commerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bachelor of Science (BS)</masterLabel>
+            <translation><!-- Bachelor of Science (BS) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

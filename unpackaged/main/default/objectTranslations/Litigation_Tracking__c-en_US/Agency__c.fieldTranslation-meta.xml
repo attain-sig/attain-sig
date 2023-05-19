@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Agency --></label>
+        <name>Agency__c</name>
+        <picklistValues>
+            <masterLabel>Bureau of Land Mgmt</masterLabel>
+            <translation><!-- Bureau of Land Mgmt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorado Air Quality Control Commission</masterLabel>
+            <translation><!-- Colorado Air Quality Control Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dept of Energy</masterLabel>
+            <translation><!-- Dept of Energy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dept of Interior</masterLabel>
+            <translation><!-- Dept of Interior --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPA</masterLabel>
+            <translation><!-- EPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FDA</masterLabel>
+            <translation><!-- FDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intl Civil Aviation Organization</masterLabel>
+            <translation><!-- Intl Civil Aviation Organization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Natl Oceanic &amp; Atmospheric Admin</masterLabel>
+            <translation><!-- Natl Oceanic &amp; Atmospheric Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State environmental agency</masterLabel>
+            <translation><!-- State environmental agency --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

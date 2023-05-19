@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reviewed_HR_Webinar__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Triggered by a change to Done/Not Done slider on the "EDF paid fellows watch HR webinar" tile in the Deliverables Tracker section of the fellow portal.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Automatically updates when the fellow updates the Done/Not Done slider on the "EDF paid fellows watch HR webinar" tile on the Deliverables Tracker page in the fellow portal. Only applies for EDF-paid fellows.</inlineHelpText>
+    <label>Reviewed HR Webinar</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

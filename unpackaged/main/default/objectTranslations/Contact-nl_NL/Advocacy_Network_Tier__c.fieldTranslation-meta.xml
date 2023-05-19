@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Advocacy Network Tier --></label>
+        <name>Advocacy_Network_Tier__c</name>
+        <picklistValues>
+            <masterLabel>Bottom Tier-Engager</masterLabel>
+            <translation><!-- Bottom Tier-Engager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid-Tier Engager</masterLabel>
+            <translation><!-- Mid-Tier Engager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Engagement</masterLabel>
+            <translation><!-- No Engagement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top-Tier Engager</masterLabel>
+            <translation><!-- Top-Tier Engager --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

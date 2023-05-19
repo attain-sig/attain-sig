@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Donor</fullName>
+        <default>false</default>
+        <label>Donor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Funder - Soft Credit</fullName>
+        <default>false</default>
+        <label>Funder - Soft Credit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gift of Membership</fullName>
+        <default>false</default>
+        <label>Gift of Membership</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Corporate Match</fullName>
+        <default>false</default>
+        <label>Corporate Match</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Solicitor</fullName>
+        <default>false</default>
+        <label>Solicitor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Influencer</fullName>
+        <default>false</default>
+        <label>Influencer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DAF</fullName>
+        <default>false</default>
+        <label>DAF</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Workplace Giving</fullName>
+        <default>false</default>
+        <label>Workplace Giving</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sponsor</fullName>
+        <default>false</default>
+        <label>Sponsor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Agency</fullName>
+        <default>false</default>
+        <label>Agency</label>
+    </standardValue>
+</StandardValueSet>

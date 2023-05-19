@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Identifies the place on Portal Deliverables section where the date would be displayed --></help>
+        <label><!-- Portal Deliverables Field --></label>
+        <name>Portal_Deliverables_Field__c</name>
+        <picklistValues>
+            <masterLabel>Certify_Training_Session_Attended</masterLabel>
+            <translation><!-- Certify_Training_Session_Attended --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete_Post_Training_Survey</masterLabel>
+            <translation><!-- Complete_Post_Training_Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete_Pre_Work</masterLabel>
+            <translation><!-- Complete_Pre_Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final_Deliverables_Instructions</masterLabel>
+            <translation><!-- Final_Deliverables_Instructions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre_Training_Survey</masterLabel>
+            <translation><!-- Pre_Training_Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training_Info_Sheet</masterLabel>
+            <translation><!-- Training_Info_Sheet --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

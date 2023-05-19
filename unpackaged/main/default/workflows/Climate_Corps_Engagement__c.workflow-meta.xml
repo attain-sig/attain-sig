@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Fellow_Confirmation_Email</fullName>
+        <description>Fellow Confirmation Email</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Fellow_Email_from_app__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>EDF_Engagement_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Climate_Corps_Flow_Templates/Fellow_Confirmation_Letter</template>
+    </alerts>
+    <alerts>
+        <fullName>Fellow_Confirmation_Email_China</fullName>
+        <description>Fellow Confirmation Email - China</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Fellow_Email_from_app__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>EDF_Engagement_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Climate_Corps_Flow_Templates/Fellow_Confirmation_Letter_China</template>
+    </alerts>
+    <alerts>
+        <fullName>Fellow_Confirmation_Email_India</fullName>
+        <description>Fellow Confirmation Email - India</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Fellow_Email_from_app__c</field>
+            <type>email</type>
+        </recipients>
+        <recipients>
+            <field>EDF_Engagement_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>pmishra@edf.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Climate_Corps_Flow_Templates/Fellow_Confirmation_Letter_India</template>
+    </alerts>
+    <alerts>
+        <fullName>Fellow_Initials_Signed</fullName>
+        <description>Fellow Initials Signed</description>
+        <protected>false</protected>
+        <recipients>
+            <field>EDF_Engagement_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>Climate_Corps_Flow_Templates/Fellow_Initials_Signed</template>
+    </alerts>
+    <alerts>
+        <fullName>Fellowship_Start_End_Date_Changed</fullName>
+        <description>Fellowship Start and/or End Date Changed</description>
+        <protected>false</protected>
+        <recipients>
+            <field>EDF_Engagement_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>ClimateCorpsEngagements/Engagement_Fellowship_Start_and_or_End_Date_Changed_1677073600694</template>
+    </alerts>
+    <alerts>
+        <fullName>Matching_offer_to_work</fullName>
+        <description>Matching offer to work</description>
+        <protected>false</protected>
+        <recipients>
+            <field>EDF_Engagement_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Climate_Corps_Flow_Templates/Match_Acceptance_Email</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_email_to_EDF_Manager_Work_Authorization</fullName>
+        <description>Send email to EDF Engagement Manager - Work Authorization</description>
+        <protected>false</protected>
+        <recipients>
+            <field>EDF_Engagement_Manager__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>ClimateCorpsEngagements/Engagement_Confirmed_Work_Authorization_Email_Notification_1676914619618</template>
+    </alerts>
+</Workflow>

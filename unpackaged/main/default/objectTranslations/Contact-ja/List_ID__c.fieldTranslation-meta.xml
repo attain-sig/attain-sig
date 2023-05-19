@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Organization from which the prospect list containing the lead name was acquired. (i.e. NRDC, Nature Conservancy) --></help>
+        <label><!-- List ID --></label>
+        <name>List_ID__c</name>
+    </CustomFieldTranslation>

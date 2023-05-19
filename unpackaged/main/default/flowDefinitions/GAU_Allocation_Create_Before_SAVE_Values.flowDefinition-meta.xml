@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>2</activeVersionNumber>
+    <description>v3 Optimize flow per FB-1490</description>
+    <masterLabel>GAU Allocation Create Before SAVE Values</masterLabel>
+</FlowDefinition>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Include all notes, especially those helpful to relationship management + check-ins. How will the host measure success? --></help>
+        <label><!-- Project Overview --></label>
+        <name>ExitInt_Project_Overview__c</name>
+    </CustomFieldTranslation>

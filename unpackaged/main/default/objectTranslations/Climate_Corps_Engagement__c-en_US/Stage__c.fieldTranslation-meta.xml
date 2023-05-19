@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Lead - Cold lead, not yet responded
+Contact - Contact responded, open to learning more
+Interested - Contact interested, not convinced
+Readied - Wants to participate
+Committed - Verbally
+Confirmed - Signed app
+Special consideration - see notes --></help>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>Application Submitted</masterLabel>
+            <translation><!-- Application Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austin is recruiting</masterLabel>
+            <translation><!-- Austin is recruiting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Committed</masterLabel>
+            <translation><!-- Committed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed Participation</masterLabel>
+            <translation><!-- Confirmed Participation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact</masterLabel>
+            <translation><!-- Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customized - Host Recruits Fellow(s)</masterLabel>
+            <translation><!-- Customized - Host Recruits Fellow(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disqualified</masterLabel>
+            <translation><!-- Disqualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engagement Confirmed</masterLabel>
+            <translation><!-- Engagement Confirmed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Deliverables Received</masterLabel>
+            <translation><!-- Final Deliverables Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gib is recruiting</masterLabel>
+            <translation><!-- Gib is recruiting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interested</masterLabel>
+            <translation><!-- Interested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead</masterLabel>
+            <translation><!-- Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Match Conversation Complete</masterLabel>
+            <translation><!-- Match Conversation Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Interested</masterLabel>
+            <translation><!-- Not Interested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Accepted</masterLabel>
+            <translation><!-- Offer Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offer Sent</masterLabel>
+            <translation><!-- Offer Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding Conversation Complete</masterLabel>
+            <translation><!-- Onboarding Conversation Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding Conversation In Progress</masterLabel>
+            <translation><!-- Onboarding Conversation In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding Conversation Not Accepted</masterLabel>
+            <translation><!-- Onboarding Conversation Not Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Readied</masterLabel>
+            <translation><!-- Readied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Consideration (see notes)</masterLabel>
+            <translation><!-- Special Consideration (see notes) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

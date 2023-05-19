@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GDPR Consent Notes --></label>
+        <name>GDPR_Consent_Notes__c</name>
+    </CustomFieldTranslation>

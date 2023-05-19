@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>4</activeVersionNumber>
+    <description>Adds Dev Opt In and Dev Opt Out Campaign Statuses for new Campaigns.</description>
+    <masterLabel>Campaign --&gt; Add Dev Opt Campaign Statuses</masterLabel>
+</FlowDefinition>

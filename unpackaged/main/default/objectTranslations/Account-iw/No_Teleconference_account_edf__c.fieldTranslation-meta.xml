@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check if the donor does not want to participate in teleconferences --></help>
+        <label><!-- No Teleconference --></label>
+        <name>No_Teleconference_account_edf__c</name>
+    </CustomFieldTranslation>

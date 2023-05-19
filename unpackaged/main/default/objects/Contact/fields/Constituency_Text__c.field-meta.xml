@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Constituency_Text__c</fullName>
+    <description>Returns Contact Constituency as text (for Compact Layouts).</description>
+    <externalId>false</externalId>
+    <formula>IF ( INCLUDES ( Constituency__c , "CFF" ), "CFF; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Climate" ), "Climate; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Corporate Services" ), "Corporate Services; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Development" ), "Development; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Diversity" ), "Diversity; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Ecosystems" ), "Ecosystems; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "EDAF" ), "EDAF; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "EDF Alumni" ), "EDF Alumni; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "EDFBIZ" ), "EDFBIZ; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "EDF Europe" ), "EDF Europe; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "EDF Staff" ), "EDF Staff; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Elected Official" ), "Elected Official; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Energy" ), "Energy; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Executive Office" ), "Executive Office; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Finance" ), "Finance; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Global Climate" ), "Global Climate; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Global Operations" ), "Global Operations; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Global Strategy" ), "Global Strategy; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Health" ), "Health; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "HR" ), "HR; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Internal Audit" ), "Internal Audit; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "IT" ), "IT; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Legal and Compliance" ), "Legal and Compliance; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "MarComm" ), "MarComm; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Membership" ), "Membership; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "MethaneSAT" ), "MethaneSAT; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Oceans" ), "Oceans; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "OEPA" ), "OEPA; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Office of the Chief Economist" ), "Office of the Chief Economist; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Office of the Chief Scientist" ), "Office of the Chief Scientist; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "Political Affairs" ), "Political Affairs; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "TRED" ), "TRED; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "US Climate &amp; Energy" ), "US Climate &amp; Energy; ",null ) &amp;
+IF ( INCLUDES ( Constituency__c , "US Climate Legal and Regulatory" ), "US Climate Legal and Regulatory; ",null )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Returns Contact Constituency as text (for Compact Layouts).</inlineHelpText>
+    <label>Constituency Text</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

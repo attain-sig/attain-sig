@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Contacts_with_Pref_CPs_but_no_OP</fullName>
+    <active>true</active>
+    <description>Prevents user from changing a record from Overall Preferred TRUE to FALSE while leaving it Status=Preferred when there are no other Preferred CPs to make OP.</description>
+    <errorConditionFormula>(PRIORVALUE(Primary__c) = TRUE &amp;&amp; Primary__c = FALSE) &amp;&amp;
+TEXT (Status__c) = 'Preferred' &amp;&amp;
+Is_Automation_Bypassed__c = FALSE &amp;&amp;
+$Permission.Flow_Automations_Off = FALSE &amp;&amp;
+(
+(TEXT(Type__c) = 'Home' &amp;&amp; ISBLANK(Donor__r.npe01__WorkPhone__c) &amp;&amp; ISBLANK( Donor__r.MobilePhone) &amp;&amp; ISBLANK( Donor__r.OtherPhone)) ||
+(TEXT(Type__c) = 'Work' &amp;&amp; ISBLANK(Donor__r.HomePhone) &amp;&amp; ISBLANK( Donor__r.MobilePhone) &amp;&amp; ISBLANK( Donor__r.OtherPhone)) ||
+(TEXT(Type__c) = 'Mobile' &amp;&amp; ISBLANK(Donor__r.HomePhone) &amp;&amp; ISBLANK( Donor__r.npe01__WorkPhone__c) &amp;&amp; ISBLANK( Donor__r.OtherPhone)) ||
+(OR(TEXT(Type__c) = 'Other', TEXT(Type__c) = 'Fax', TEXT(Type__c) = 'Assistant') &amp;&amp; ISBLANK(Donor__r.HomePhone) &amp;&amp; ISBLANK( Donor__r.MobilePhone) &amp;&amp; ISBLANK(Donor__r.npe01__WorkPhone__c ))
+)</errorConditionFormula>
+    <errorMessage>You cannot remove Overall Preferred from a record while leaving Status=Preferred if there is no other Preferred Contact Phone that can replace it.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If you received the expected result, simply stating &quot;received expected result&quot; otherwise call out exactly what result you received. --></help>
+        <label><!-- Observed Result --></label>
+        <name>Observed_Result__c</name>
+    </CustomFieldTranslation>

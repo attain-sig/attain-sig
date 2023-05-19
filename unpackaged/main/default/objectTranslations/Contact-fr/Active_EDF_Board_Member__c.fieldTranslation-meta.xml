@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This checkbox is checked when an affiliation is created or updated where the Organization is = EDF Board, EDAF, EDF Eurpoe Board and Status = Current, the corresponding Contact is updated --></help>
+        <label><!-- Active EDF Board Member --></label>
+        <name>Active_EDF_Board_Member__c</name>
+    </CustomFieldTranslation>

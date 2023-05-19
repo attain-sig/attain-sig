@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Subscription Name --></label>
+        <name>Subscription_Name__c</name>
+        <picklistValues>
+            <masterLabel>Annual Report</masterLabel>
+            <translation><!-- Annual Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Advocacy Network Grasstop List</masterLabel>
+            <translation><!-- EDF Advocacy Network Grasstop List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDFBIZ - SCSC Webinar Invitations</masterLabel>
+            <translation><!-- EDFBIZ - SCSC Webinar Invitations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDFBIZ - Tom Murray Subscription</masterLabel>
+            <translation><!-- EDFBIZ - Tom Murray Subscription --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Membership - Results</masterLabel>
+            <translation><!-- Membership - Results --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Membership - Special Reports</masterLabel>
+            <translation><!-- Membership - Special Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceans - FSC Newsletter</masterLabel>
+            <translation><!-- Oceans - FSC Newsletter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceans - Gulf Newsletter</masterLabel>
+            <translation><!-- Oceans - Gulf Newsletter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceans - Northeast Newsletter</masterLabel>
+            <translation><!-- Oceans - Northeast Newsletter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oceans - Pacific Newsletter</masterLabel>
+            <translation><!-- Oceans - Pacific Newsletter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Osprey Watch</masterLabel>
+            <translation><!-- Osprey Watch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solutions</masterLabel>
+            <translation><!-- Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic Plan</masterLabel>
+            <translation><!-- Strategic Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summer of Action Advocates Network</masterLabel>
+            <translation><!-- Summer of Action Advocates Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summer of Action Contacts – Current Year</masterLabel>
+            <translation><!-- Summer of Action Contacts – Current Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summer of Action Contacts – Past Recipients</masterLabel>
+            <translation><!-- Summer of Action Contacts – Past Recipients --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

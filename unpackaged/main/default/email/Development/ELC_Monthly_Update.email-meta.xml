@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>ELC Monthly Update</name>
+    <style>none</style>
+    <subject>TEST: Oceans of progress - Environmental Leaders Update</subject>
+    <textOnly>Dear Environmental Leaders,
+
+Hope you all are having a fabulous start to your summers! The UN Oceans Conference was last week in Lisbon and EDF was out in force. We will be sharing a powerful video series called Portraits of Change that calls on governments, civil society and the private sector to recognize the rich diversity of small-scale fishing communities, the crucial role they play in supporting food security and livelihoods, and the contribution they make to economies around the world. Though small-scale fishing communities are on the front lines of climate change and face declining fish populations, these portraits give us hope in the power of people to make change.
+
+Read on for additional updates and event opportunities.
+
+Sincerely,
+
+
+Stefanie Rubin
+Senior Director, Development
+
+FEATURE OF THE MONTH
+
+New mapping tool reveals where traffic pollution harms children&apos;s lungs.
+
+EDF worked with partners to develop maps that visualize the impact of traffic-related pollution on childhood asthma. Research shows an estimated 1.8 million children worldwide develop asthma each year due to air pollution. The health impacts are not equally distributed. Around Boston, Massachusetts, one in five childhood asthma cases are attributed to pollution, but this increases to one in three in neighborhoods with the worst traffic-related pollution. We plan to release similar maps for a half dozen U.S. cities in coming months.
+
+What it reveals: Our traffic pollution maps reveal how zero-emission vehicles can benefit communities&apos; health and the climate, helping our advocacy around children&apos;s health and the transition to clean vehicles..
+
+READ MORE
+
+ISSUE UPDATES
+
+US-Mexico diplomacy accelerates methane reduction
+
+President Lopez Obrador announced in June that Pemex, Mexico’s national gas company, will pursue methane gas capture. The first-of-its-kind gas capture project is a recommendation EDF made to both the Biden Administration and the Mexican Government, based on EDF’s methane measurement studies in Mexico.
+
+READ MORE
+
+Korea joins EDF methane reduction efforts
+
+EDF has entered into an agreement with Seoul National University to study where and how much methane escapes from the gas delivery system in Seoul. The partnership will also help industry, government and scientists collaborate to develop new policies and practices to reduce methane emissions across Korea’s gas system.
+
+READ MORE
+
+One-stop solution center advances safer food packaging
+
+EDF’s new web-based tool helps companies visualize how toxic chemicals enter everyday food packaging materials and provides actionable information on how to reduce such chemicals. We designed the site to mobilize corporate efforts toward a safer and more sustainable food supply chain.
+
+READ MORE
+
+EDF guide will help companies stop tropical forest loss
+
+In May, EDF and seven other environmental and Indigenous Peoples groups published a Tropical Forest Credit Integrity Guide, with principles companies can follow when investing in tropical forest carbon credits to fight climate change.
+
+READ MORE
+
+PAST EVENTS
+
+Science Day Series: Getting to Net Zero - Does Pathway Matter?   There is no time to waste: the global community has pinned its future on achieving net zero — a balance between greenhouse gases released and removed from the atmosphere — by 2050. Yet the challenge is complex. Watch the three part webinar below.
+
+Session 1 - Pathways and feeback
+
+Session 2 - Methane Reductions on the Path to Net Zero
+
+Session 3 - Impacts of the Path Taken
+
+Password: NetZero
+
+Interested in learning more about how you can join in the fight to protect the health of our planet and people? Contact Stefanie Rubin at srubin@edf.org to discuss ways you can get more involved.
+
+FOLLOW US</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

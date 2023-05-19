@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Geographic Flexibility --></label>
+        <name>Geographic_Flexibility__c</name>
+        <picklistValues>
+            <masterLabel>I can only relocate within a specific regional area</masterLabel>
+            <translation><!-- I can only relocate within a specific regional area --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I can relocate to a couple of regional areas</masterLabel>
+            <translation><!-- I can relocate to a couple of regional areas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I will go anywhere</masterLabel>
+            <translation><!-- I will go anywhere --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

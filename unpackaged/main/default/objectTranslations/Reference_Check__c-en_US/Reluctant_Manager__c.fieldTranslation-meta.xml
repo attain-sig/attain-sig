@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- How would the applicant fare if asked to convince a reluctant manager or executive team to implement a project? --></help>
+        <label><!-- Reluctant Manager --></label>
+        <name>Reluctant_Manager__c</name>
+    </CustomFieldTranslation>

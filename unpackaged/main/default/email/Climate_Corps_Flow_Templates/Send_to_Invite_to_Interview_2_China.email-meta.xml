@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Stage = Send invite to Interview 2</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Climate_Corps_Letterhead</letterhead>
+    <name>Send to Invite to Interview 2 China</name>
+    <style>freeForm</style>
+    <subject>Climate Corps: Advancement to Interview 2</subject>
+    <textOnly>Dear {!Fellow_Application__c.Applicant_First_Name__c},
+
+Thank you for meeting with our interviewer to discuss your interests and qualifications for the Climate Corps China program. We are pleased to inform you that you are among a group of highly qualified applicants chosen to advance to the next stage of the fellow selection process. Congratulations!
+
+Next Steps
+
+A Climate Corps China fellow-matching team member will contact you after the Chinese New Year holiday week to schedule your final interview.
+If you have competing job offer deadlines, impending travel plans that will limit your communication, or any other urgent notifications, please notify us by contacting climatecorps@cet.net.cn.
+
+We look forward to discussing your application in your next interview!
+
+Best regards,
+
+The Climate Corps Team
+
+*Please do not reply to this email. We will not respond to any inquiries sent to this address. Please follow the instructions above to contact us.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

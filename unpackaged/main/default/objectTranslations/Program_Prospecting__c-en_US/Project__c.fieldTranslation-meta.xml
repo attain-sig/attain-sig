@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For which projects is this constituent recommended as a prospective donor? Pick all that apply. --></help>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <picklistValues>
+            <masterLabel>Activism</masterLabel>
+            <translation><!-- Activism --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advocacy</masterLabel>
+            <translation><!-- Advocacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Air Quality</masterLabel>
+            <translation><!-- Air Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate &amp; Air</masterLabel>
+            <translation><!-- Climate &amp; Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Corps</masterLabel>
+            <translation><!-- Climate Corps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Policy</masterLabel>
+            <translation><!-- Climate Policy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead</masterLabel>
+            <translation><!-- Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legislation</masterLabel>
+            <translation><!-- Legislation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legislative Affairs - State</masterLabel>
+            <translation><!-- Legislative Affairs - State --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Court Type --></label>
+        <name>Court_Type__c</name>
+        <picklistValues>
+            <masterLabel>International Tribunal</masterLabel>
+            <translation><!-- International Tribunal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Appellate Court</masterLabel>
+            <translation><!-- State Appellate Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State District Court</masterLabel>
+            <translation><!-- State District Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Supreme Court</masterLabel>
+            <translation><!-- State Supreme Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Court of Appeals</masterLabel>
+            <translation><!-- US Court of Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US District Court</masterLabel>
+            <translation><!-- US District Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US Supreme Court</masterLabel>
+            <translation><!-- US Supreme Court --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

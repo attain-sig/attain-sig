@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Interviewer 1 --></label>
+        <name>Interviewer_1__c</name>
+        <picklistValues>
+            <masterLabel>Aaron Saliman</masterLabel>
+            <translation><!-- Aaron Saliman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eileen Ashton</masterLabel>
+            <translation><!-- Eileen Ashton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lauren Apollaro</masterLabel>
+            <translation><!-- Lauren Apollaro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sarrynna Sou</masterLabel>
+            <translation><!-- Sarrynna Sou --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shimul Bijoor</masterLabel>
+            <translation><!-- Shimul Bijoor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tamara Evans</masterLabel>
+            <translation><!-- Tamara Evans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tanya Mahadwar</masterLabel>
+            <translation><!-- Tanya Mahadwar --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

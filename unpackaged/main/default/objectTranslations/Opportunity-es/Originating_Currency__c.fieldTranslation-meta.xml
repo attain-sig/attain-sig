@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Complete if award amount is in a currency other than USD. --></help>
+        <label><!-- Originating Currency --></label>
+        <name>Originating_Currency__c</name>
+    </CustomFieldTranslation>

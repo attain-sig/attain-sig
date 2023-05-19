@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Match type --></label>
+        <name>Match_type__c</name>
+        <picklistValues>
+            <masterLabel>Increase</masterLabel>
+            <translation><!-- Increase --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>EDF Assignment Rules</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>MemberServicesEscalationQueue</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Member Services</value>
+            </criteriaItems>
+            <template>Case_Notifications/SupportCaseAssignmentNotification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Dev_Finance_Operations</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Request</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Case_Topic__c</field>
+                <operation>equals</operation>
+                <value>New Financial Report,Update/Modify Financial Report</value>
+            </criteriaItems>
+            <template>unfiled$public/Request_Case_Email_Notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Development_Data</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Request</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>acampos-npsp@edf.org.npsp</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>IF(Opportunity__r.RecordType.DeveloperName = "MajorGift", true, false)||IF(Opportunity__r.RecordType.DeveloperName = "Grant", true, false)||IF(Opportunity__r.RecordType.DeveloperName = "Planned_Gift", true, false)</formula>
+            <template>unfiled$public/Gift_Processing_Email_Notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>jhernandez-npsp@edf.org.npsp</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.Reason</field>
+                <operation>equals</operation>
+                <value>Refund</value>
+            </criteriaItems>
+            <template>unfiled$public/Gift_Processing_Email_Notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>GiftProcessingRequests</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Gift Processing</value>
+            </criteriaItems>
+            <template>unfiled$public/Gift_Processing_Email_Notification</template>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

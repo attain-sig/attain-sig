@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Account_Record_ID__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT_ID</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Account.Account_Record_ID__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ACC-544048,ACC-7077316,ACC-6161747,ACC-4457721,ACC-6148106,ACC-751401,ACC-1317362,ACC-813767,ACC-4049045,ACC-7076551,ACC-5471701,ACC-7077467,ACC-706748,ACC-3415890,ACC-5390487,ACC-1241148,ACC-749393,ACC-640631,ACC-7086167,ACC-3911507,ACC-1055108,ACC-892939,ACC-6230964,ACC-1564465,ACC-6496920,ACC-4134434,ACC-1927052,ACC-3726143,ACC-3919691,ACC-6608552,ACC-3395533,ACC-924315,ACC-7077382,ACC-7279086,ACC-6478298,ACC-7064190,ACC-4103703,ACC-4475682,ACC-993763,ACC-5724186,ACC-4463062,ACC-546166,ACC-7052488,ACC-1408580,ACC-6194979</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>ACC Record ID to ACC ID</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Stage = Waitlist- Interview 1</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Climate_Corps_Letterhead</letterhead>
+    <name>Waitlist- Interview 1</name>
+    <style>freeForm</style>
+    <subject>Climate Corps: Application Status</subject>
+    <textOnly>Dear {!Fellow_Application__c.Applicant_First_Name__c},
+
+
+Thank you for your interest in the Climate Corps program. Our team has reviewed many highly competitive and qualified applicants, making it especially difficult to narrow down the applicant pool.
+
+We have decided to waitlist your application. However, because you meet our fellowship qualifications your application is still under consideration. While we cannot guarantee you will be invited for an interview, we remain optimistic in our ability to advance waitlist candidates to interviews and beyond.
+
+We realize you may have questions as to the reason behind our decision, but due to the high volume of applications we are unable to provide you with detailed feedback at this time. We appreciate your interest in our program, and we will contact you within the next few weeks regarding your application status. However, should you have competing job offer deadlines, impending travel plans that will limit your communication, or any other urgent notifications, please notify our recruiting partners, CEA, by emailing CLIMATECORPSADMIN@CEACONSULTING.COM.
+
+Best regards,
+
+The Climate Corps Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

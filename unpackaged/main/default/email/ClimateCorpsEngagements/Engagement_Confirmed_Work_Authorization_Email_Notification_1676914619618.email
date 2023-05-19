@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>{{{Climate_Corps_Engagement__c.EDF_Engagement_Manager__c}}}, Your international fellow’s start and end dates have been confirmed. Please copy and paste the below template into the international fellow confirmation letter, found in OneNote, and send to the fellow immediately to help aid their work authorization process.</p>
+
+<p>Before sending please review the template and edit details as necessary including: verifying address (due to Salesforce field upgrades this may not pull through), and simplifying work plan to a few bullets and removing "about the organization" completely.</p>
+
+<p>To whom it may concern,</p>
+
+<p>This letter is to confirm that Environmental Defense Fund has matched {{{Climate_Corps_Engagement__c.Fellow_Name__c}}} with {{{Climate_Corps_Engagement__c.Account__c}}}, for a full-time fellowship position in our Climate Corps Fellowship Program, from {{{Climate_Corps_Engagement__c.Start_Date__c}}} to&nbsp; {{{Climate_Corps_Engagement__c.End_date__c}}}. {{{Climate_Corps_Engagement__c.Account__c}}} is located in {{{Climate_Corps_Engagement__c.Fellowship_City__c}}},&nbsp; {{{Climate_Corps_Engagement__c.Fellowship_State__c}}}.</p>
+
+<p>This student will be doing the following work for {{{Climate_Corps_Engagement__c.Account__c}}}:</p>
+
+<p>{{{Climate_Corps_Engagement__c.Workplan_for_Student_Portal__c}}}</p>
+
+<p>This student will be expected to work at least 40 hours per week for $1,400 per week.</p>
+</body>
+</html>

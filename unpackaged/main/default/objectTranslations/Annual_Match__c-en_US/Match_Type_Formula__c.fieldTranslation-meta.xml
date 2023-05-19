@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Match Type of the linked Challenge Match --></help>
+        <label><!-- Match Type --></label>
+        <name>Match_Type_Formula__c</name>
+    </CustomFieldTranslation>

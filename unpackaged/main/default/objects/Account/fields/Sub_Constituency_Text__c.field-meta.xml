@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Constituency_Text__c</fullName>
+    <description>Returns Account Sub-Constituency as text for Compact Layouts.</description>
+    <externalId>false</externalId>
+    <formula>IF ( INCLUDES ( Organization_sub_constituency__c  , "Climate - Global Climate" ), "Climate - Global Climate; ",null ) &amp; 
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Climate - Legal and Regulatory" ), "Climate - Legal and Regulatory; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Development - Government" ), "Development - Government; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Development - Institutional Giving" ), "Development - Institutional Giving; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c , "Development - Major Gifts" ), "Development - Major Gifts; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Development - Planned Giving Estates" ), "Development - Planned Giving Estates; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Development - Planned Giving Ospreys" ), "Development - Planned Giving Ospreys; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Development - Planned Giving Prospects" ), "Development - Planned Giving Prospects; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "EDFBIZ - Climate Corps" ), "EDFBIZ - Climate Corps; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "EDFBIZ - Corporate Climate Leadership" ), "EDFBIZ - Corporate Climate Leadership; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Global Strategy - China" ), "Global Strategy - China; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Global Strategy - Europe" ), "Global Strategy - Europe; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "MarComm - Ambassador" ), "MarComm - Ambassador; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "MarComm - Performance Marketing" ), "MarComm - Performance Marketing; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Membership - Catalyst Circle" ), "Membership - Catalyst Circle; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Oceans - Fishery Solutions Center" ), "Oceans - Fishery Solutions Center; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Political Affairs - Advocacy Network" ), "Political Affairs - Advocacy Network; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Political Affairs - C3 Advocacy" ), "Political Affairs - C3 Advocacy; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Political Affairs - C4 Advocacy" ), "Political Affairs - C4 Advocacy; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Political Affairs - C4 Defend Our Future" ), "Political Affairs - C4 Defend Our Future; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Political Affairs - C4 Moms Clean Air Force" ), "Political Affairs - C4 Moms Clean Air Force; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Political Affairs - Defend Our Future" ), "Political Affairs - Defend Our Future; ",null ) &amp;
+IF ( INCLUDES ( Organization_sub_constituency__c  , "Political Affairs - Moms Clean Air Force" ), "Political Affairs - Moms Clean Air Force; ",null )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Returns Account Sub-Constituency as text for Compact Layouts.</inlineHelpText>
+    <label>Sub-Constituency Text</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

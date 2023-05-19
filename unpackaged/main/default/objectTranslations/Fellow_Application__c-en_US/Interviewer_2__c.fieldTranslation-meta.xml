@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Interviewer 2 --></label>
+        <name>Interviewer_2__c</name>
+        <picklistValues>
+            <masterLabel>Amy Burns</masterLabel>
+            <translation><!-- Amy Burns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eileen Ashton</masterLabel>
+            <translation><!-- Eileen Ashton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marie Farneth</masterLabel>
+            <translation><!-- Marie Farneth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Megna Patel</masterLabel>
+            <translation><!-- Megna Patel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tamara Evans</masterLabel>
+            <translation><!-- Tamara Evans --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>For Feedback Email Alert Flow</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>npsp__NPSP_Sample_Letterhead</letterhead>
+    <name>Critical Feedback Notify Heller Lead</name>
+    <style>freeForm</style>
+    <subject>EDF Critical Feedback for Assignment</subject>
+    <textOnly>Hello Heller Lead,
+
+The following Critical Feedback needs assignment
+
+{!Feedback__c.Name}
+Record Type {!Feedback__c.RecordType}
+Feedback Title {!Feedback__c.Feedback_Title__c}
+Status {!Feedback__c.Feedback_Status__c}
+Priority {!Feedback__c.Priority__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

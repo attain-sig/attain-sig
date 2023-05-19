@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- EDFBIZ Tags --></label>
+        <name>EDFBIZ_Tags__c</name>
+        <picklistValues>
+            <masterLabel>Consumer Health Target Company</masterLabel>
+            <translation><!-- Consumer Health Target Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deforestation Company</masterLabel>
+            <translation><!-- Deforestation Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDFBIZ Top Company</masterLabel>
+            <translation><!-- EDFBIZ Top Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F100</masterLabel>
+            <translation><!-- F100 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

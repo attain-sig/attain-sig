@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Oceans Industry --></label>
+        <name>Oceans_Industry__c</name>
+        <picklistValues>
+            <masterLabel>Aquarium</masterLabel>
+            <translation><!-- Aquarium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chefs &amp; Restauranteurs</masterLabel>
+            <translation><!-- Chefs &amp; Restauranteurs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fishermen</masterLabel>
+            <translation><!-- Fishermen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seafood &amp; Marine</masterLabel>
+            <translation><!-- Seafood &amp; Marine --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

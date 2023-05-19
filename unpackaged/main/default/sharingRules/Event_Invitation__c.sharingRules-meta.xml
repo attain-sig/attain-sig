@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Event_Invitation_Sharing_with_EDF_US_Staffs</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Event Invitation Sharing with EDF US Staffs</label>
+        <sharedTo>
+            <group>All_EDF</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>All_EDF</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

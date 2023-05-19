@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Decision --></label>
+        <name>Decision__c</name>
+        <picklistValues>
+            <masterLabel>Disqualified - Decline</masterLabel>
+            <translation><!-- Disqualified - Decline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified - Advance</masterLabel>
+            <translation><!-- Qualified - Advance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Qualified - Hold</masterLabel>
+            <translation><!-- Qualified - Hold --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

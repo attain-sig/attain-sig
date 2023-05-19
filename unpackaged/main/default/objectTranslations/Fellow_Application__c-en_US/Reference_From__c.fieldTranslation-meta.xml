@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reference From? --></label>
+        <name>Reference_From__c</name>
+        <picklistValues>
+            <masterLabel>Alumni</masterLabel>
+            <translation><!-- Alumni --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Host City/Other</masterLabel>
+            <translation><!-- CC Host City/Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Host Company</masterLabel>
+            <translation><!-- CC Host Company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CC Host University</masterLabel>
+            <translation><!-- CC Host University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Board</masterLabel>
+            <translation><!-- EDF Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Donor</masterLabel>
+            <translation><!-- EDF Donor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDF Staff</masterLabel>
+            <translation><!-- EDF Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDFCC Staff</masterLabel>
+            <translation><!-- EDFCC Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Organization</masterLabel>
+            <translation><!-- Partner Organization --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

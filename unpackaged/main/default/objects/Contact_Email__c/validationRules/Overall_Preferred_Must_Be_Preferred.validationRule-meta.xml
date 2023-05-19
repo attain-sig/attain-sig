@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Overall_Preferred_Must_Be_Preferred</fullName>
+    <active>true</active>
+    <description>Prevents records from being marked Overall Preferred while having a Status not equal to Preferred.</description>
+    <errorConditionFormula>AND (NOT(ISPICKVAL(Status__c, "Preferred")),
+Primary__c = TRUE, $Permission.Flow_Automations_Off = FALSE)</errorConditionFormula>
+    <errorMessage>A record cannot be Overall Preferred without having a Status of Preferred.</errorMessage>
+</ValidationRule>

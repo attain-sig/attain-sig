@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Organization 2 --></label>
+        <name>Organization_2__c</name>
+        <relationshipLabel><!-- Organization Relationships (Organization 2) --></relationshipLabel>
+    </CustomFieldTranslation>

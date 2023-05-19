@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Grant Term --></label>
+        <name>Grant_Term__c</name>
+        <picklistValues>
+            <masterLabel>Multi-Year</masterLabel>
+            <translation><!-- Multi-Year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single Year</masterLabel>
+            <translation><!-- Single Year --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

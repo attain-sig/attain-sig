@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <assignments>
+        <name>End_Date_Null_Approval</name>
+        <label>End Date Null Approval</label>
+        <locationX>182</locationX>
+        <locationY>1223</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.End_Date_Approval__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Set_End_Date_Approval</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>End_Date_Pending_Approval</name>
+        <label>End Date Pending Approval</label>
+        <locationX>446</locationX>
+        <locationY>1223</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.End_Date_Approval__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Pending Approval</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Set_End_Date_Approval</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_End_Date_Approval</name>
+        <label>Set End Date Approval</label>
+        <locationX>314</locationX>
+        <locationY>1439</locationY>
+        <assignmentItems>
+            <assignToReference>IsDataUpdated</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_Start_End_Date_Updated</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Start_Date_Null_Approval</name>
+        <label>Start Date Null Approval</label>
+        <locationX>50</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Start_Date_Approval__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Var_Start_Date_Updated</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Start_Date_Pending_Approval</name>
+        <label>Start Date Pending Approval</label>
+        <locationX>314</locationX>
+        <locationY>551</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Start_Date_Approval__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Pending Approval</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Var_Start_Date_Updated</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Var_Start_Date_Updated</name>
+        <label>Var Start Date Updated</label>
+        <locationX>182</locationX>
+        <locationY>767</locationY>
+        <assignmentItems>
+            <assignToReference>IsDataUpdated</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Is_End_Date_changed</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Is_End_Date_Blank</name>
+        <label>Is End Date Blank</label>
+        <locationX>314</locationX>
+        <locationY>1103</locationY>
+        <defaultConnector>
+            <targetReference>End_Date_Pending_Approval</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>End_Date_is_Blank</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.End_date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>End_Date_Null_Approval</targetReference>
+            </connector>
+            <label>End Date is Blank</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_End_Date_changed</name>
+        <label>Is End Date changed?</label>
+        <locationX>512</locationX>
+        <locationY>983</locationY>
+        <defaultConnector>
+            <targetReference>Is_Start_End_Date_Updated</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>End_Date_changed</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.End_date__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record__Prior.End_date__c</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.End_date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_End_Date_Blank</targetReference>
+            </connector>
+            <label>End Date changed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_Start_Date_Blank</name>
+        <label>Is Start Date Blank</label>
+        <locationX>182</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Start_Date_Pending_Approval</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Start_Date_is_Blank</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Start_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Start_Date_Null_Approval</targetReference>
+            </connector>
+            <label>Start Date is Blank</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_Start_Date_changed</name>
+        <label>Is Start Date changed?</label>
+        <locationX>512</locationX>
+        <locationY>311</locationY>
+        <defaultConnector>
+            <targetReference>Is_End_Date_changed</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Start_Date_changed</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Start_Date__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record__Prior.Start_Date__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_Start_Date_Blank</targetReference>
+            </connector>
+            <label>Start Date changed</label>
+        </rules>
+        <rules>
+            <name>Is_Start_Date_Field_Blank</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Start_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <isGoTo>true</isGoTo>
+                <targetReference>Is_Start_Date_Blank</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Is Start Date Field Blank</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_Start_End_Date_Updated</name>
+        <label>Is Start End Date Updated?</label>
+        <locationX>512</locationX>
+        <locationY>1655</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Start_End_Date_is_Updated</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>IsDataUpdated</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Engagement</targetReference>
+            </connector>
+            <label>Start End Date is Updated</label>
+        </rules>
+    </decisions>
+    <description>Based on Start Date and End Date changes, Start Date Approval and End Date Approval fields are updated and set to &quot;Pending Approval&quot;</description>
+    <environments>Default</environments>
+    <interviewLabel>Set Start End Date Approval {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Set Start End Date Approval</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Engagement</name>
+        <label>Update Engagement</label>
+        <locationX>380</locationX>
+        <locationY>1775</locationY>
+        <inputAssignments>
+            <field>End_Date_Approval__c</field>
+            <value>
+                <elementReference>$Record.End_Date_Approval__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Start_Date_Approval__c</field>
+            <value>
+                <elementReference>$Record.Start_Date_Approval__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>386</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Is_Start_Date_changed</targetReference>
+        </connector>
+        <object>Climate_Corps_Engagement__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>IsDataUpdated</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </variables>
+</Flow>

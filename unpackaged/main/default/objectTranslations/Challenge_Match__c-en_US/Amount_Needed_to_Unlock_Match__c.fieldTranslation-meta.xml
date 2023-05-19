@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Amount needed to unlock match if Match type is &quot;All of Nothing&quot; --></help>
+        <label><!-- Amount Needed to Unlock Match --></label>
+        <name>Amount_Needed_to_Unlock_Match__c</name>
+    </CustomFieldTranslation>

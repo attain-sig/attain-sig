@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- A succinct description of the request --></help>
+        <label><!-- User Story Title --></label>
+        <name>User_Story_Title__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Close Amount of the first received Opportunity where the Contact has a hard or soft credit (not including Planned Gifts) --></help>
+        <label><!-- First Gift Amount --></label>
+        <name>EDF_First_Gift_Amount_Contact__c</name>
+    </CustomFieldTranslation>

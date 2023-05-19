@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check box if Donor has directed the gift to be spent on a specific project --></help>
+        <label><!-- Donor Designated --></label>
+        <name>Donor_Designated__c</name>
+    </CustomFieldTranslation>

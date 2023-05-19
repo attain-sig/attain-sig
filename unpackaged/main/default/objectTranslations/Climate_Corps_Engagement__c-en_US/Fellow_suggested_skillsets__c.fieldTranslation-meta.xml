@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Fellow suggested skillsets --></label>
+        <name>Fellow_suggested_skillsets__c</name>
+        <picklistValues>
+            <masterLabel>Advanced Communication Skills</masterLabel>
+            <translation><!-- Advanced Communication Skills --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advanced Data Analysis</masterLabel>
+            <translation><!-- Advanced Data Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advanced Financial Analysis</masterLabel>
+            <translation><!-- Advanced Financial Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil Engineers/Enviro Engineer</masterLabel>
+            <translation><!-- Civil Engineers/Enviro Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Center Experience</masterLabel>
+            <translation><!-- Data Center Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electrical Engineer</masterLabel>
+            <translation><!-- Electrical Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy Auditing Experience</masterLabel>
+            <translation><!-- Energy Auditing Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial/Mechanical Engineer</masterLabel>
+            <translation><!-- Industrial/Mechanical Engineer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEED, ISO or EStar Experience</masterLabel>
+            <translation><!-- LEED, ISO or EStar Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management/Strategy Consulting</masterLabel>
+            <translation><!-- Management/Strategy Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing on-site experience</masterLabel>
+            <translation><!-- Manufacturing on-site experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (See Matching Notes)</masterLabel>
+            <translation><!-- Other (See Matching Notes) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Engineer(s)</masterLabel>
+            <translation><!-- Other Engineer(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Power Grid Knowledge</masterLabel>
+            <translation><!-- Power Grid Knowledge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewables Experience</masterLabel>
+            <translation><!-- Renewables Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strong leadership/people skills</masterLabel>
+            <translation><!-- Strong leadership/people skills --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply chain/Product logistics</masterLabel>
+            <translation><!-- Supply chain/Product logistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech/IT Skills</masterLabel>
+            <translation><!-- Tech/IT Skills --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

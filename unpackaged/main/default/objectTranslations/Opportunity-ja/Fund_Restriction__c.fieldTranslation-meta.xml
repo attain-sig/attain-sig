@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Fund Restriction --></label>
+        <name>Fund_Restriction__c</name>
+        <picklistValues>
+            <masterLabel>100 - Unrestricted</masterLabel>
+            <translation><!-- 100 - Unrestricted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>102 - Unrestricted - EDF Allocated (Current Year Use)</masterLabel>
+            <translation><!-- 102 - Unrestricted - EDF Allocated (Current Year Use) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>110 - PAC</masterLabel>
+            <translation><!-- 110 - PAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>115 - NC PAC</masterLabel>
+            <translation><!-- 115 - NC PAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>150 - CGA, DGA</masterLabel>
+            <translation><!-- 150 - CGA, DGA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>151 - Deceased CRT</masterLabel>
+            <translation><!-- 151 - Deceased CRT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>155 - Deceased PIF</masterLabel>
+            <translation><!-- 155 - Deceased PIF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>190 - Unrestricted - EDF Allocated (Future Years Use)</masterLabel>
+            <translation><!-- 190 - Unrestricted - EDF Allocated (Future Years Use) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200 - MG - Time and/or Program Restricted</masterLabel>
+            <translation><!-- 200 - MG - Time and/or Program Restricted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>202 - MG - Time restricted, EDF Allocated</masterLabel>
+            <translation><!-- 202 - MG - Time restricted, EDF Allocated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>270 - EDF DAF</masterLabel>
+            <translation><!-- 270 - EDF DAF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300 - FDN - Time and/or Program Restricted</masterLabel>
+            <translation><!-- 300 - FDN - Time and/or Program Restricted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>302 - FDN - Time restricted, EDF Allocated</masterLabel>
+            <translation><!-- 302 - FDN - Time restricted, EDF Allocated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>400 - MEMB - Program Restricted</masterLabel>
+            <translation><!-- 400 - MEMB - Program Restricted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500 - CORP - Time and/or Program Restricted</masterLabel>
+            <translation><!-- 500 - CORP - Time and/or Program Restricted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>502 - CORP - Time restricted, EDF Allocated</masterLabel>
+            <translation><!-- 502 - CORP - Time restricted, EDF Allocated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>550 - In Kind</masterLabel>
+            <translation><!-- 550 - In Kind --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>700 - Government</masterLabel>
+            <translation><!-- 700 - Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>800 - PG - Time and/or Program Restricted</masterLabel>
+            <translation><!-- 800 - PG - Time and/or Program Restricted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>851 - CRT</masterLabel>
+            <translation><!-- 851 - CRT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>855 - PIF</masterLabel>
+            <translation><!-- 855 - PIF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>961 - General Endowed Funds PRNA</masterLabel>
+            <translation><!-- 961 - General Endowed Funds PRNA --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>
