@@ -68,7 +68,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>DMP</value>
+            <value>DMP,Merkle</value>
         </criteriaItems>
         <criteriaItems>
             <column>Campaign.Opportunities__r$Processed_through__c</column>

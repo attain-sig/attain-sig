@@ -71,7 +71,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value></value>
+            <value>Merkle</value>
         </criteriaItems>
         <criteriaItems>
             <column>FK_OPP_STAGE_NAME</column>

@@ -1557,7 +1557,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>notEqual</operator>
-            <value></value>
+            <value>Merkle</value>
         </criteriaItems>
         <criteriaItems>
             <column>STAGE_NAME</column>

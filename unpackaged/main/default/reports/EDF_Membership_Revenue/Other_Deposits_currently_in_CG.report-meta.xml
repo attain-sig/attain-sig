@@ -63,7 +63,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>notEqual</operator>
-            <value>DMP</value>
+            <value>DMP,Merkle</value>
         </criteriaItems>
         <criteriaItems>
             <column>Opportunity.Transaction_Type__c</column>

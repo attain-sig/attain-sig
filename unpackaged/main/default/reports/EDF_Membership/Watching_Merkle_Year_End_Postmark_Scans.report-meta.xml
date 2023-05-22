@@ -48,7 +48,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value></value>
+            <value>Merkle</value>
         </criteriaItems>
         <criteriaItems>
             <column>Opportunity.NPSP_Data_Import_Batch__c</column>

@@ -41,7 +41,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value></value>
+            <value>Merkle</value>
         </criteriaItems>
         <criteriaItems>
             <column>Opportunity$Campaign</column>
