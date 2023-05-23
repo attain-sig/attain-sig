@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customApplications>
         <label><!-- Subledger --></label>
         <name>Accounting_Subledger</name>
@@ -1509,18 +1509,6 @@
         <fullName>User_Portal_User_Update_Con_Sub_Con_on_Related_Contact_After_Save</fullName>
     </flowDefinitions>
     <quickActions>
-        <label><!-- Conga Composer (Deprecated) --></label>
-        <name>Composer_for_Sf1</name>
-    </quickActions>
-    <quickActions>
-        <label><!-- Conga Composer SF1 EU --></label>
-        <name>Conga_Composer_SF1_EU</name>
-    </quickActions>
-    <quickActions>
-        <label><!-- Conga Composer --></label>
-        <name>Conga_Composer_Sf1</name>
-    </quickActions>
-    <quickActions>
         <label><!-- New Feedback --></label>
         <name>Create_Feedback_Form</name>
     </quickActions>
@@ -1531,10 +1519,6 @@
     <quickActions>
         <label><!-- LogACall --></label>
         <name>LogACall</name>
-    </quickActions>
-    <quickActions>
-        <label><!-- New Account --></label>
-        <name>NewAccount</name>
     </quickActions>
     <quickActions>
         <label><!-- New Case --></label>
@@ -1574,10 +1558,6 @@
     </quickActions>
     <quickActions>
         <label><!-- New Task --></label>
-        <name>NewTask</name>
-    </quickActions>
-    <quickActions>
-        <label><!-- New Task --></label>
         <name>NewTaskGeneral</name>
     </quickActions>
     <quickActions>
@@ -1587,10 +1567,6 @@
     <quickActions>
         <label><!-- New User Story --></label>
         <name>NewUserStory</name>
-    </quickActions>
-    <quickActions>
-        <label><!-- New Campaign --></label>
-        <name>New_Campaign</name>
     </quickActions>
     <quickActions>
         <label><!-- New Donation --></label>
@@ -1611,10 +1587,6 @@
     <quickActions>
         <label><!-- New Organization --></label>
         <name>New_Organization</name>
-    </quickActions>
-    <quickActions>
-        <label><!-- New Recurring Donation --></label>
-        <name>New_Recurring_Donation</name>
     </quickActions>
     <quickActions>
         <label><!-- SendEmail --></label>
