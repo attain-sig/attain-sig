@@ -77,7 +77,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>notEqual</operator>
-            <value>Merkle</value>
+            <value>Merkle,Cager</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>

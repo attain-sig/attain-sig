@@ -61,7 +61,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>notEqual</operator>
-            <value>Merkle</value>
+            <value>Merkle,Cager</value>
         </criteriaItems>
         <criteriaItems>
             <column>Opportunity$RecordType</column>

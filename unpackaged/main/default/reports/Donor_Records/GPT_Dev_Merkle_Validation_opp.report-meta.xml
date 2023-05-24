@@ -112,7 +112,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>Merkle</value>
+            <value>Merkle,Cager</value>
         </criteriaItems>
         <criteriaItems>
             <column>Opportunity.npe01__OppPayment__r$Notes__c</column>

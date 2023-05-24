@@ -47,11 +47,6 @@
                 <label>Membership</label>
             </value>
             <value>
-                <fullName>Cager</fullName>
-                <default>false</default>
-                <label>Cager</label>
-            </value>
-            <value>
                 <fullName>Payment Solutions</fullName>
                 <default>false</default>
                 <label>Payment Solutions</label>
@@ -60,6 +55,11 @@
                 <fullName>Telemarketer</fullName>
                 <default>false</default>
                 <label>Telemarketer</label>
+            </value>
+            <value>
+                <fullName>Merkle</fullName>
+                <default>false</default>
+                <label>Cager</label>
             </value>
         </valueSetDefinition>
     </valueSet>

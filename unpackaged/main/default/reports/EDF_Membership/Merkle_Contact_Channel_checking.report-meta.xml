@@ -50,7 +50,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>Merkle</value>
+            <value>Merkle,Cager</value>
         </criteriaItems>
         <criteriaItems>
             <column>Opportunity.Processed_through__c</column>

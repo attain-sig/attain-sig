@@ -30,7 +30,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>Merkle</value>
+            <value>Merkle,Cager</value>
         </criteriaItems>
         <criteriaItems>
             <column>STAGE_NAME</column>

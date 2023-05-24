@@ -62,7 +62,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>Merkle</value>
+            <value>Merkle,Cager</value>
         </criteriaItems>
         <criteriaItems>
             <column>FK_$Opportunity.Processed_through__c</column>

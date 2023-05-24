@@ -65,7 +65,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>notEqual</operator>
-            <value>Merkle,DMP</value>
+            <value>Merkle,Cager,DMP</value>
         </criteriaItems>
         <criteriaItems>
             <column>Opportunity.Processed_through__c</column>

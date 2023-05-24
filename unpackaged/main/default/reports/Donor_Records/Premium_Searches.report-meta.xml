@@ -56,7 +56,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>Merkle</value>
+            <value>Merkle,Cager</value>
         </criteriaItems>
         <criteriaItems>
             <column>FK_OPP_STAGE_NAME</column>
@@ -96,6 +96,6 @@
     <sortOrder>Asc</sortOrder>
     <timeFrameFilter>
         <dateColumn>npsp__DataImport__c.npsp__Donation_Date__c</dateColumn>
-        <interval>INTERVAL_LAST7</interval>
+        <interval>INTERVAL_CURFY</interval>
     </timeFrameFilter>
 </Report>

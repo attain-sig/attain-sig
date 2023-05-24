@@ -778,10 +778,6 @@
     <picklistValues>
         <picklist>Processed_By__c</picklist>
         <values>
-            <fullName>Cager</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Customer Service</fullName>
             <default>false</default>
         </values>
@@ -807,6 +803,10 @@
         </values>
         <values>
             <fullName>Membership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merkle</fullName>
             <default>false</default>
         </values>
         <values>
