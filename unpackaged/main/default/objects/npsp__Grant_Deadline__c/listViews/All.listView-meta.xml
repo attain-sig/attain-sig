@@ -4,11 +4,7 @@
     <columns>NAME</columns>
     <columns>RECORDTYPE</columns>
     <columns>npsp__Opportunity__c</columns>
+    <columns>Condition_Met__c</columns>
     <filterScope>Everything</filterScope>
-    <filters>
-        <field>npsp__Grant_Deliverable_Close_Date__c</field>
-        <operation>greaterOrEqual</operation>
-        <value>1/1/2022</value>
-    </filters>
     <label>All</label>
 </ListView>
