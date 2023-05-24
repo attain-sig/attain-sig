@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customApplications>
         <label><!-- Subledger --></label>
         <name>Accounting_Subledger</name>
@@ -2883,6 +2883,23 @@
         <sections>
             <label><!-- User Stories --></label>
             <name>User Stories</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Testing Report Type --></description>
+        <label><!-- Testing Report Type --></label>
+        <name>Testing_Report_Type</name>
+        <sections>
+            <label><!-- Contact Roles --></label>
+            <name>Contact Roles</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Partial Soft Credits --></label>
+            <name>Partial Soft Credits</name>
         </sections>
     </reportTypes>
     <reportTypes>
