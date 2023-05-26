@@ -217,6 +217,21 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Pledge_Reminder_Status__c</picklist>
+        <values>
+            <fullName>Pledge Reminder Not Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pledge Reminder Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pledge Reminder Will Not be Sent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Processed_By__c</picklist>
         <values>
             <fullName>Customer Service</fullName>

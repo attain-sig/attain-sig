@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pledge_Reminder_Status__c</fullName>
+    <description>Allows user to indicate if a pledge reminder was sent to a donor.</description>
+    <externalId>false</externalId>
+    <label>Pledge Reminder Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pledge Reminder Sent</fullName>
+                <default>false</default>
+                <label>Pledge Reminder Sent</label>
+            </value>
+            <value>
+                <fullName>Pledge Reminder Not Sent</fullName>
+                <default>false</default>
+                <label>Pledge Reminder Not Sent</label>
+            </value>
+            <value>
+                <fullName>Pledge Reminder Will Not be Sent</fullName>
+                <default>false</default>
+                <label>Pledge Reminder Will Not be Sent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

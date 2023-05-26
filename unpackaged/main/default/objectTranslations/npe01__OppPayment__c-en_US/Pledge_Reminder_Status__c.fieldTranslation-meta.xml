@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Pledge Reminder Status --></label>
+        <name>Pledge_Reminder_Status__c</name>
+        <picklistValues>
+            <masterLabel>Pledge Reminder Not Sent</masterLabel>
+            <translation><!-- Pledge Reminder Not Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pledge Reminder Sent</masterLabel>
+            <translation><!-- Pledge Reminder Sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pledge Reminder Will Not be Sent</masterLabel>
+            <translation><!-- Pledge Reminder Will Not be Sent --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pledge_Reminder_Date__c</fullName>
+    <description>Used for capturing when a Pledge reminder is sent. Manually maintained, primarily by the Development Stewardship team</description>
+    <externalId>false</externalId>
+    <label>Pledge Reminder Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>
