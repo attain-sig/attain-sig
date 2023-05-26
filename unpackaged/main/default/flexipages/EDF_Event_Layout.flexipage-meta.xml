@@ -125,6 +125,16 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>runtime_hello_studio:meetingPrep</componentName>
+                <identifier>runtime_hello_studio_meetingPrep</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-10c23fe2-7c0a-4edb-8dd2-d22c1548af72</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
                     <value>Facet-4463a278-b7a8-4e9f-84ee-08a9bd81e394</value>
@@ -149,6 +159,20 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
                 <identifier>flexipage_tab</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-10c23fe2-7c0a-4edb-8dd2-d22c1548af72</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Standard.Tab.meetingPrep</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>flexipage_tab3</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-8f6082b0-7927-47e9-a931-61eb2a609453</name>
