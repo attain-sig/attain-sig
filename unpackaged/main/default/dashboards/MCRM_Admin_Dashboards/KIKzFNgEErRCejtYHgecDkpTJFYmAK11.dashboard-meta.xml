@@ -213,7 +213,7 @@
                 <indicatorHighColor>#00716B</indicatorHighColor>
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
-                <report>EDF_Strategic_Relationship_Management/EDF_Business_Exception_Reports/CC_Events_to_enter</report>
+                <report>EDF_Business_Exception_Reports/CC_Events_to_enter</report>
                 <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>16</rowIndex>
