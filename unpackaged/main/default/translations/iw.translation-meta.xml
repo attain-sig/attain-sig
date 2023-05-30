@@ -1357,6 +1357,14 @@
         <fullName>Opportunity_AFTER_SAVE_Update_Allocations</fullName>
     </flowDefinitions>
     <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>AcknowledgmentReason</name>
+            </textTemplates>
+        </flows>
+        <fullName>Opportunity_After_Save_Auto_Update_Government_or_Government_Contract_Ack_Fields</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows />
         <fullName>Opportunity_After_Save_Push_Grant_Name_to_Allocation</fullName>
     </flowDefinitions>
