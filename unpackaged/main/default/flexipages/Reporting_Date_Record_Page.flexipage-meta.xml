@@ -182,7 +182,7 @@
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>NPSP Deliverable</masterLabel>
+    <masterLabel>Reporting Date Record Page</masterLabel>
     <sobjectType>npsp__Grant_Deadline__c</sobjectType>
     <template>
         <name>flexipage:recordHomeTemplateDesktop</name>

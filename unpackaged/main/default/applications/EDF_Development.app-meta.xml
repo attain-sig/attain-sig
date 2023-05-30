@@ -50,6 +50,96 @@
     <navType>Standard</navType>
     <profileActionOverrides>
         <actionName>View</actionName>
+        <content>Reporting_Date_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>npsp__Grant_Deadline__c</pageOrSobjectType>
+        <recordType>npsp__Grant_Deadline__c.Reporting_Date</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Reporting_Date_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>npsp__Grant_Deadline__c</pageOrSobjectType>
+        <recordType>npsp__Grant_Deadline__c.Reporting_Date</recordType>
+        <type>Flexipage</type>
+        <profile>Development &amp; Membership</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Reporting_Date_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>npsp__Grant_Deadline__c</pageOrSobjectType>
+        <recordType>npsp__Grant_Deadline__c.Reporting_Date</recordType>
+        <type>Flexipage</type>
+        <profile>Development &amp; Membership</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Reporting_Date_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>npsp__Grant_Deadline__c</pageOrSobjectType>
+        <recordType>npsp__Grant_Deadline__c.Reporting_Date</recordType>
+        <type>Flexipage</type>
+        <profile>Finance</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Reporting_Date_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>npsp__Grant_Deadline__c</pageOrSobjectType>
+        <recordType>npsp__Grant_Deadline__c.Reporting_Date</recordType>
+        <type>Flexipage</type>
+        <profile>Finance</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Reporting_Date_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>npsp__Grant_Deadline__c</pageOrSobjectType>
+        <recordType>npsp__Grant_Deadline__c.Reporting_Date</recordType>
+        <type>Flexipage</type>
+        <profile>Fundraising and Development</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Reporting_Date_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>npsp__Grant_Deadline__c</pageOrSobjectType>
+        <recordType>npsp__Grant_Deadline__c.Reporting_Date</recordType>
+        <type>Flexipage</type>
+        <profile>Fundraising and Development</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Reporting_Date_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>npsp__Grant_Deadline__c</pageOrSobjectType>
+        <recordType>npsp__Grant_Deadline__c.Reporting_Date</recordType>
+        <type>Flexipage</type>
+        <profile>Gift Processing</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Reporting_Date_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>npsp__Grant_Deadline__c</pageOrSobjectType>
+        <recordType>npsp__Grant_Deadline__c.Reporting_Date</recordType>
+        <type>Flexipage</type>
+        <profile>Gift Processing</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Reporting_Date_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>npsp__Grant_Deadline__c</pageOrSobjectType>
+        <recordType>npsp__Grant_Deadline__c.Reporting_Date</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
         <content>CaseRequestPage</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Case</pageOrSobjectType>
