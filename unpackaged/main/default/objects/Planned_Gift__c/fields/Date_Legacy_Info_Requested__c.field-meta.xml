@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Legacy_Info_Requested__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Date prospective donor reaches out to EDF about this gift</inlineHelpText>
+    <label>Date Info Requested</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

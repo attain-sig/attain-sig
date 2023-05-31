@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The likelihood that the donor will commit to the gift or the likelihood that EDF will actually see money --></help>
         <label><!-- PG Probability --></label>
         <name>PG_Probability__c</name>
         <picklistValues>

@@ -1510,7 +1510,15 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows />
+        <fullName>Update_the_Planned_Gift_Name_After_Save_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
         <fullName>Update_the_Planned_Gift_Record_ID_After_Save_Flow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_the_Planned_Gift_Status</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows />

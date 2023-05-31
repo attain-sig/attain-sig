@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>PG_Probability__c</fullName>
     <externalId>false</externalId>
+    <inlineHelpText>The likelihood that the donor will commit to the gift or the likelihood that EDF will actually see money</inlineHelpText>
     <label>PG Probability</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

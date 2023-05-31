@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Funds from the gift are received at EDF, administration completed --></help>
+        <label><!-- Date Closed --></label>
+        <name>Date_Legacy_Closed__c</name>
+    </CustomFieldTranslation>

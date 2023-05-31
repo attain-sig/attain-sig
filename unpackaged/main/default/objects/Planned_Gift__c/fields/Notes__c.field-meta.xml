@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Notes__c</fullName>
     <externalId>false</externalId>
+    <inlineHelpText>Important information about the Planned Gift that is not captured in another field.</inlineHelpText>
     <label>Notes</label>
     <length>32000</length>
     <trackFeedHistory>false</trackFeedHistory>

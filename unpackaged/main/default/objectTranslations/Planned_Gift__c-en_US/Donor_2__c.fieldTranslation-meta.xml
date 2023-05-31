@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The secondary person funding the Planned Gift, if applicable --></help>
         <label><!-- Donor 2 --></label>
         <name>Donor_2__c</name>
         <relationshipLabel><!-- Planned Gifts (Donor 2) --></relationshipLabel>

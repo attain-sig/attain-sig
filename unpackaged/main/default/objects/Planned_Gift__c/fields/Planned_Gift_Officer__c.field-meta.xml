@@ -3,6 +3,7 @@
     <fullName>Planned_Gift_Officer__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <externalId>false</externalId>
+    <inlineHelpText>The Planned Giving Portfolio Manager that is responsible for closing this Planned Gift.</inlineHelpText>
     <label>Planned Gift Officer</label>
     <lookupFilter>
         <active>true</active>

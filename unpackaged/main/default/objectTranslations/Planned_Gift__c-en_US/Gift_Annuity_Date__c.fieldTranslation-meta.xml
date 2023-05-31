@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Gift Annuity Date --></label>
+        <help><!-- The date of agreement that was sent.  Update for each subsequent agreement sent and the date of the final agreement. --></help>
+        <label><!-- Annuity Agreement Date --></label>
         <name>Gift_Annuity_Date__c</name>
     </CustomFieldTranslation>

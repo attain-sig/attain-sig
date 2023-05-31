@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Proposal documents provided to prospective donor --></help>
+        <label><!-- Date Proposal Sent --></label>
+        <name>Date_Legacy_Proposal_Sent__c</name>
+    </CustomFieldTranslation>

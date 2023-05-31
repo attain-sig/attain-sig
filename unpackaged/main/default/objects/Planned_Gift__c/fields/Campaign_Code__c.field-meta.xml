@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
     <inlineHelpText>Campaign that generated the planned gift</inlineHelpText>
-    <label>Campaign Code</label>
+    <label>Campaign</label>
     <referenceTo>Campaign</referenceTo>
     <relationshipLabel>Planned Gifts</relationshipLabel>
     <relationshipName>Planned_Gifts</relationshipName>

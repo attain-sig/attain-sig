@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Gift_Annuity_Type__c</fullName>
     <externalId>false</externalId>
+    <inlineHelpText>Select whether the Annuity is immediate (CGA) or deferred (DGA)</inlineHelpText>
     <label>Gift Annuity Type</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

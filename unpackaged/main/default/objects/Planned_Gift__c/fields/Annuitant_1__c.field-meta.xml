@@ -3,6 +3,7 @@
     <fullName>Annuitant_1__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
+    <inlineHelpText>The person that will be listed as the Annuitant and receive the Annuity payments (may be the same as the Donor)</inlineHelpText>
     <label>Annuitant 1</label>
     <referenceTo>Contact</referenceTo>
     <relationshipLabel>Planned Gifts (Annuitant 1)</relationshipLabel>

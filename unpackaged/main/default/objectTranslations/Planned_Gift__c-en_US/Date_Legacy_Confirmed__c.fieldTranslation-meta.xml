@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- CGA or Trust funding received, or date of legacy pledge confirmation --></help>
+        <label><!-- Date Confirmed --></label>
+        <name>Date_Legacy_Confirmed__c</name>
+    </CustomFieldTranslation>

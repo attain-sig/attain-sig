@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The person that will be listed as the Annuitant and receive the Annuity payments (may be the same as the Donor) --></help>
         <label><!-- Annuitant 1 --></label>
         <name>Annuitant_1__c</name>
         <relationshipLabel><!-- Planned Gifts (Annuitant 1) --></relationshipLabel>

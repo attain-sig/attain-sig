@@ -2,7 +2,8 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Legacy_Plan_Notes__c</fullName>
     <externalId>false</externalId>
-    <label>Legacy Plan Notes</label>
+    <inlineHelpText>Enter any important information about the Planned Gift that is not captured in another field.</inlineHelpText>
+    <label>Planned Giving Notes</label>
     <length>32000</length>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

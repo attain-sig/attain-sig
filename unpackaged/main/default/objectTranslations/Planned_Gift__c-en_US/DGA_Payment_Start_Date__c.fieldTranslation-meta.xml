@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- DGA Payment Start Date --></label>
+        <help><!-- The date of the first payment if the Annuity is a DGA --></help>
+        <label><!-- Payment Start Date --></label>
         <name>DGA_Payment_Start_Date__c</name>
     </CustomFieldTranslation>

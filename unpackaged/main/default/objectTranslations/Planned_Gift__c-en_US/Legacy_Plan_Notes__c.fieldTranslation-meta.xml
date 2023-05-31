@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Legacy Plan Notes --></label>
+        <help><!-- Enter any important information about the Planned Gift that is not captured in another field. --></help>
+        <label><!-- Planned Giving Notes --></label>
         <name>Legacy_Plan_Notes__c</name>
     </CustomFieldTranslation>

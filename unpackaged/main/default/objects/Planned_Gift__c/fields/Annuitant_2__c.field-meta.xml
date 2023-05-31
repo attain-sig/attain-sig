@@ -3,6 +3,7 @@
     <fullName>Annuitant_2__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
+    <inlineHelpText>The secondary person that will be listed as the Annuitant and receive the Annuity payments, if applicable.</inlineHelpText>
     <label>Annuitant 2</label>
     <referenceTo>Contact</referenceTo>
     <relationshipLabel>Planned Gifts (Annuitant 2)</relationshipLabel>

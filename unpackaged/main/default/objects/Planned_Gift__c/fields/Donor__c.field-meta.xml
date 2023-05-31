@@ -3,6 +3,7 @@
     <fullName>Donor__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
+    <inlineHelpText>The person funding the Planned Gift</inlineHelpText>
     <label>Donor</label>
     <referenceTo>Contact</referenceTo>
     <relationshipLabel>Planned Gifts</relationshipLabel>
