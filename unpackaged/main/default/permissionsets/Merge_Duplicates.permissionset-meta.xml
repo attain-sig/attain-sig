@@ -3027,6 +3027,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <pageAccesses>
+        <apexPage>npe01__ContactMerge</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>npe01__ContactNewOverride</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
