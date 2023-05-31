@@ -133,4 +133,10 @@
         <label>Adjustment</label>
         <cssExposed>false</cssExposed>
     </standardValue>
+    <standardValue>
+        <fullName>Fund Request</fullName>
+        <default>false</default>
+        <label>Fund Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
 </StandardValueSet>
