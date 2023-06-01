@@ -21,6 +21,11 @@
                 <default>false</default>
                 <label>Unitrust</label>
             </value>
+            <value>
+                <fullName>Unitrust with Flip Provision</fullName>
+                <default>false</default>
+                <label>Unitrust with Flip Provision</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

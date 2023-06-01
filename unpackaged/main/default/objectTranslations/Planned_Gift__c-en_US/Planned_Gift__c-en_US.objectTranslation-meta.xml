@@ -41,10 +41,21 @@
         </sections>
     </layouts>
     <layouts>
+        <layout>IRA Rollover Plan Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
         <layout>Legacy Plans Layout</layout>
         <sections>
             <label><!-- Custom Links --></label>
             <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Points in Time --></label>
+            <section>Points in Time</section>
         </sections>
     </layouts>
     <layouts>
@@ -111,6 +122,8 @@
         <label><!-- Pooled Income Fund --></label>
         <name>Pooled_Income_Fund</name>
     </recordTypes>
+    
+    
     
     
     

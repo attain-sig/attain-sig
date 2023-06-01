@@ -50,6 +50,123 @@
     <navType>Standard</navType>
     <profileActionOverrides>
         <actionName>View</actionName>
+        <content>Charitable_Remainder_Trust</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Remainder_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>UAT Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Remainder_Trust</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Remainder_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Remainder_Trust</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Remainder_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Remainder_Trust</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Remainder_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>Gift Processing</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Remainder_Trust</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Remainder_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>Gift Processing</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Remainder_Trust</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Remainder_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>Fundraising and Development</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Remainder_Trust</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Remainder_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>Fundraising and Development</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Remainder_Trust</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Remainder_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>Development &amp; Membership</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Remainder_Trust</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Remainder_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>Development &amp; Membership</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Lead_Trust</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Lead_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>UAT Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Remainder_Trust</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Remainder_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>UAT Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Lead_Trust</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Lead_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>UAT Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Lead_Trust</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Lead_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
         <content>Reporting_Date_Record_Page</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>npsp__Grant_Deadline__c</pageOrSobjectType>
@@ -137,6 +254,339 @@
         <recordType>npsp__Grant_Deadline__c.Reporting_Date</recordType>
         <type>Flexipage</type>
         <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Lead_Trust</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Lead_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Lead_Trust</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Lead_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>Development &amp; Membership</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Lead_Trust</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Lead_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>Development &amp; Membership</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Lead_Trust</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Lead_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>Gift Processing</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Lead_Trust</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Charitable_Lead_Trust</recordType>
+        <type>Flexipage</type>
+        <profile>Gift Processing</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>IRA_Rollover_Layout</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.IRA_Rollover</recordType>
+        <type>Flexipage</type>
+        <profile>UAT Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>IRA_Rollover_Layout</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.IRA_Rollover</recordType>
+        <type>Flexipage</type>
+        <profile>UAT Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>IRA_Rollover_Layout</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.IRA_Rollover</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>IRA_Rollover_Layout</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.IRA_Rollover</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>IRA_Rollover_Layout</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.IRA_Rollover</recordType>
+        <type>Flexipage</type>
+        <profile>Development &amp; Membership</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>IRA_Rollover_Layout</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.IRA_Rollover</recordType>
+        <type>Flexipage</type>
+        <profile>Development &amp; Membership</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>IRA_Rollover_Layout</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.IRA_Rollover</recordType>
+        <type>Flexipage</type>
+        <profile>Fundraising and Development</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>IRA_Rollover_Layout</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.IRA_Rollover</recordType>
+        <type>Flexipage</type>
+        <profile>Fundraising and Development</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>IRA_Rollover_Layout</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.IRA_Rollover</recordType>
+        <type>Flexipage</type>
+        <profile>Gift Processing</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>IRA_Rollover_Layout</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.IRA_Rollover</recordType>
+        <type>Flexipage</type>
+        <profile>Gift Processing</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Legacy_Plan_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Legacy_Plan</recordType>
+        <type>Flexipage</type>
+        <profile>Development &amp; Membership</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Legacy_Plan_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Legacy_Plan</recordType>
+        <type>Flexipage</type>
+        <profile>Development &amp; Membership</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Legacy_Plan_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Legacy_Plan</recordType>
+        <type>Flexipage</type>
+        <profile>Gift Processing</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Legacy_Plan_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Legacy_Plan</recordType>
+        <type>Flexipage</type>
+        <profile>Gift Processing</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Legacy_Plan_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Legacy_Plan</recordType>
+        <type>Flexipage</type>
+        <profile>Fundraising and Development</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Legacy_Plan_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Legacy_Plan</recordType>
+        <type>Flexipage</type>
+        <profile>Fundraising and Development</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Legacy_Plan_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Legacy_Plan</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Legacy_Plan_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Legacy_Plan</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Legacy_Plan_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Legacy_Plan</recordType>
+        <type>Flexipage</type>
+        <profile>UAT Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Legacy_Plan_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Legacy_Plan</recordType>
+        <type>Flexipage</type>
+        <profile>UAT Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Gift_Annuity</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Gift_Annuity</recordType>
+        <type>Flexipage</type>
+        <profile>Fundraising and Development</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Gift_Annuity</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Gift_Annuity</recordType>
+        <type>Flexipage</type>
+        <profile>Fundraising and Development</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Gift_Annuity</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Gift_Annuity</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Gift_Annuity</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Gift_Annuity</recordType>
+        <type>Flexipage</type>
+        <profile>UAT Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Gift_Annuity</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Gift_Annuity</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Gift_Annuity</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Gift_Annuity</recordType>
+        <type>Flexipage</type>
+        <profile>UAT Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Gift_Annuity</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Gift_Annuity</recordType>
+        <type>Flexipage</type>
+        <profile>Caging Vendor</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Gift_Annuity</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Gift_Annuity</recordType>
+        <type>Flexipage</type>
+        <profile>Caging Vendor</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Gift_Annuity</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Gift_Annuity</recordType>
+        <type>Flexipage</type>
+        <profile>Development &amp; Membership</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Gift_Annuity</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Gift_Annuity</recordType>
+        <type>Flexipage</type>
+        <profile>Development &amp; Membership</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Gift_Annuity</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Gift_Annuity</recordType>
+        <type>Flexipage</type>
+        <profile>Gift Processing</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Charitable_Gift_Annuity</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Gift_Annuity</recordType>
+        <type>Flexipage</type>
+        <profile>Gift Processing</profile>
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>

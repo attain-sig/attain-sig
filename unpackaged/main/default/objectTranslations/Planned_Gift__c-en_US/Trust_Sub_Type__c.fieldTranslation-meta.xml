@@ -10,4 +10,8 @@
             <masterLabel>Unitrust</masterLabel>
             <translation><!-- Unitrust --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>Unitrust with Flip Provision</masterLabel>
+            <translation><!-- Unitrust with Flip Provision --></translation>
+        </picklistValues>
     </CustomFieldTranslation>

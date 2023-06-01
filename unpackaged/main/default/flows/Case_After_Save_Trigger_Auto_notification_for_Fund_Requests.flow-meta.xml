@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_Fund_Request_Email</name>
+        <label>Send Fund Request Email</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Owner:User.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>salesforcesysadmin@edf.org</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <elementReference>EmailSubjectFundRequest</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>EmailBodyFundRequest</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>58.0</apiVersion>
+    <description>Flow that triggers an auto email to a recipient (Finance) once a Fund Request case is &quot;Approved&quot; requesting them to create the new fund in NetSuite.</description>
+    <environments>Default</environments>
+    <interviewLabel>Case After Save ---&gt; Trigger Auto-notification for Fund Requests {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case After Save ---&gt; Trigger Auto-notification for Fund Requests</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Send_Fund_Request_Email</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Reason</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Fund Request</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Closed - Resolved</stringValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <description>Email body for Fund Request email.</description>
+        <name>EmailBodyFundRequest</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;Hello,&lt;/p&gt;&lt;p&gt;I’d like to request the following new Fund.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;{!$Record.New_Fund_Name__c}&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;{!$Record.Fund_Administrator__r.FirstName} {!$Record.Fund_Administrator__r.LastName}&lt;/strong&gt;&lt;span style=&quot;color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);&quot;&gt; should be assigned as Fund Administrator.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;New Fund Request Link: &lt;strong style=&quot;color: rgb(0, 0, 0);&quot;&gt; &lt;/strong&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;https://environmentaldefensefund--shareddev.sandbox.lightning.force.com/lightning/r/Case/{!$Record.Id}/view&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Thank you!&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <description>Email Subject for Fund Request approval.</description>
+        <name>EmailSubjectFundRequest</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>New Fund Request:  {!$Record.New_Fund_Name__c}</text>
+    </textTemplates>
+    <triggerOrder>1</triggerOrder>
+</Flow>
