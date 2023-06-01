@@ -633,7 +633,15 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Donor Agreement Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Fund Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grant Approval</fullName>
             <default>false</default>
         </values>
         <values>

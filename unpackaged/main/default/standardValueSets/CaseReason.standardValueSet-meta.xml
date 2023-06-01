@@ -139,4 +139,16 @@
         <label>Fund Request</label>
         <cssExposed>false</cssExposed>
     </standardValue>
+    <standardValue>
+        <fullName>Donor Agreement Approval</fullName>
+        <default>false</default>
+        <label>Donor Agreement Approval</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Grant Approval</fullName>
+        <default>false</default>
+        <label>Grant Approval</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
 </StandardValueSet>
