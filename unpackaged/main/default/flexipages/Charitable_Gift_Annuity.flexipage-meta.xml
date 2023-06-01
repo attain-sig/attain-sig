@@ -100,10 +100,10 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>readonly</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Record_Type_Name__c</fieldItem>
-                <identifier>RecordRecord_Type_Name_cField</identifier>
+                <fieldItem>Record.RecordTypeId</fieldItem>
+                <identifier>RecordRecordTypeIdField2</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>

@@ -76,6 +76,78 @@
     <navType>Standard</navType>
     <profileActionOverrides>
         <actionName>View</actionName>
+        <content>Planned_Gift_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
+        <type>Flexipage</type>
+        <profile>Development &amp; Membership</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Planned_Gift_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
+        <type>Flexipage</type>
+        <profile>Development &amp; Membership</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Planned_Gift_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
+        <type>Flexipage</type>
+        <profile>Executive Management</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Planned_Gift_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
+        <type>Flexipage</type>
+        <profile>Executive Management</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Planned_Gift_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
+        <type>Flexipage</type>
+        <profile>Fundraising and Development</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Planned_Gift_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
+        <type>Flexipage</type>
+        <profile>Fundraising and Development</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Planned_Gift_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
+        <type>Flexipage</type>
+        <profile>Gift Processing</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Planned_Gift_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
+        <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
+        <type>Flexipage</type>
+        <profile>Gift Processing</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
         <content>Gift_Processing_Lightning_Layout</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Case</pageOrSobjectType>

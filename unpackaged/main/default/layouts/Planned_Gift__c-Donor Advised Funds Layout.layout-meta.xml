@@ -41,7 +41,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Record_Type_Name__c</field>
+                <field>DEL_Record_Type_Name__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
