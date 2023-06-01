@@ -3,5 +3,6 @@
     <description>Replaces Dev Admin Permission Set</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>EDF Dev Coordinator</label>
+    <permissionSets>Manage_Donor_Agreement_Approvals</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

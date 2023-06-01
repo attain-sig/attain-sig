@@ -3,8 +3,9 @@
     <fullName>Qualifying_Payment__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Qualifying Payment</label>
+    <label>DEL_Qualifying Payment</label>
     <referenceTo>npe01__OppPayment__c</referenceTo>
+    <relationshipLabel>Qualifying Opportunities</relationshipLabel>
     <relationshipName>Qualifying_Donations</relationshipName>
     <required>false</required>
     <trackHistory>false</trackHistory>

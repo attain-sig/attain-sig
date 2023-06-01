@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>Donation_Name__r.Amount</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Donation Amount</label>
+    <label>Opportunity Amount</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

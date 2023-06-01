@@ -5,5 +5,7 @@
     <label>EDF Development</label>
     <permissionSets>Create_Request_Cases</permissionSets>
     <permissionSets>Manage_Gift_Processing_Cases</permissionSets>
+    <permissionSets>Manage_Grant_Approvals</permissionSets>
+    <permissionSets>Read_Only_Donor_Agreement_Approvals</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

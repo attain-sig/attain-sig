@@ -3,8 +3,9 @@
     <fullName>Donation_Name__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <externalId>false</externalId>
-    <label>Donation Name</label>
+    <label>Qualifying Opportunity Name</label>
     <referenceTo>Opportunity</referenceTo>
+    <relationshipLabel>Qualifying Opportunities (Donation Name)</relationshipLabel>
     <relationshipName>Qualifying_Matches</relationshipName>
     <required>true</required>
     <trackHistory>false</trackHistory>

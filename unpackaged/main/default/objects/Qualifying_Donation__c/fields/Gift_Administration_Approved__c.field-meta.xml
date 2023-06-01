@@ -3,7 +3,7 @@
     <fullName>Gift_Administration_Approved__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>Gift Administration Approved</label>
+    <label>DEL_Gift Administration Approved</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

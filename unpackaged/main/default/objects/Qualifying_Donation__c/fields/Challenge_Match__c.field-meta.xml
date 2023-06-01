@@ -3,8 +3,9 @@
     <fullName>Challenge_Match__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Challenge Match</label>
+    <label>DEL_Challenge Match</label>
     <referenceTo>Challenge_Match__c</referenceTo>
+    <relationshipLabel>Qualifying Opportunities</relationshipLabel>
     <relationshipName>Qualifying_Donations</relationshipName>
     <required>false</required>
     <trackHistory>false</trackHistory>

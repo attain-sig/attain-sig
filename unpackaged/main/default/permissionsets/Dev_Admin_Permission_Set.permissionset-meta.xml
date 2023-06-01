@@ -3859,27 +3859,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Qualifying_Donation__c.Challenge_Fiscal_Year_Release__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Qualifying_Donation__c.Challenge_Match__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Qualifying_Donation__c.Donation_Amount__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Qualifying_Donation__c.Donation_Last_Modified_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Qualifying_Donation__c.Gift_Administration_Approved__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
