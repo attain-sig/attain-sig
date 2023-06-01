@@ -1092,6 +1092,17 @@
         <fullName>Annual_Challenge_Match_Deliverable_Update_Numeric_Field_for_Roll_Up</fullName>
     </flowDefinitions>
     <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>EmailBodyFundRequest</name>
+            </textTemplates>
+            <textTemplates>
+                <name>EmailSubjectFundRequest</name>
+            </textTemplates>
+        </flows>
+        <fullName>Case_After_Save_Trigger_Auto_notification_for_Fund_Requests</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows />
         <fullName>Chatter_Notification_to_User</fullName>
     </flowDefinitions>

@@ -313,6 +313,10 @@
         <name>Fund_Request</name>
     </quickActions>
     <quickActions>
+        <label><!-- Fund Request Opportunity Update --></label>
+        <name>Fund_Request_Opportunity_Update</name>
+    </quickActions>
+    <quickActions>
         <label><!-- Grant Approval --></label>
         <name>Grant_Approval</name>
     </quickActions>

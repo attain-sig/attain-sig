@@ -15,7 +15,7 @@
     <permissionSets>Events_Permission_Set</permissionSets>
     <permissionSets>Manage_Challenge_Matches_and_Annual_Challenges</permissionSets>
     <permissionSets>Manage_Donor_Agreement_Approvals</permissionSets>
-    <permissionSets>Manage_Gift_Processing_Cases</permissionSets>
+    <permissionSets>Manage_Fund_Requests</permissionSets>
     <permissionSets>Manage_Grant_Approvals</permissionSets>
     <permissionSets>Merge_Duplicates</permissionSets>
     <permissionSets>Planned_Giving_Permission_Set</permissionSets>

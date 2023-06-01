@@ -4,6 +4,7 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>EDF Finance</label>
     <permissionSets>Create_Request_Cases</permissionSets>
+    <permissionSets>Manage_Fund_Requests_Finance</permissionSets>
     <permissionSets>Read_Only_Donor_Agreement_Approvals</permissionSets>
     <permissionSets>Read_Only_Grant_Approvals</permissionSets>
     <status>Updated</status>

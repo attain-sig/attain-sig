@@ -4,5 +4,6 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>EDF Dev Coordinator</label>
     <permissionSets>Manage_Donor_Agreement_Approvals</permissionSets>
+    <permissionSets>Manage_Fund_Requests</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>
