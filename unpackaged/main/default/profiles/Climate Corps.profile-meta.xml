@@ -3865,11 +3865,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Annual_Match__c.Amount_Matched_by_Donors__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Annual_Match__c.Amount_Needed_to_Unlock_Match__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3917,11 +3912,6 @@
         <editable>false</editable>
         <field>Annual_Match__c.Purpose__c</field>
         <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <readable>false</readable>
-        <field>Annual_Match__c.Raised_to_Date_for_Match__c</field>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>

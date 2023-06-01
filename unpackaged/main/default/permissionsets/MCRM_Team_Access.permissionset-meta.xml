@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customPermissions>
         <enabled>true</enabled>
         <name>Update_Email_or_Phone</name>
@@ -12,11 +12,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Event.Related_Contact_Report__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

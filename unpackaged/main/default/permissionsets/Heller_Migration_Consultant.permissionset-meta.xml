@@ -7293,8 +7293,8 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
+        <editable>true</editable>
+        <field>Qualifying_Donation__c.Annual_Challenge_Match__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

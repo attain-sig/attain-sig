@@ -103,14 +103,6 @@
             <layoutItems>
                 <emptySpace>true</emptySpace>
             </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Raised_to_Date_for_Match__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Amount_Matched_by_Donors__c</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -173,15 +165,6 @@
         <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
-    <relatedLists>
-        <fields>NAME</fields>
-        <fields>Donation_Name__c</fields>
-        <fields>Qualifying_Amount__c</fields>
-        <fields>Challenge_Fiscal_Year_Release__c</fields>
-        <fields>Stage__c</fields>
-        <fields>Gift_Administration_Approved__c</fields>
-        <relatedList>Qualifying_Donation__c.Annual_Match__c</relatedList>
-    </relatedLists>
     <relatedLists>
         <relatedList>RelatedFileList</relatedList>
     </relatedLists>

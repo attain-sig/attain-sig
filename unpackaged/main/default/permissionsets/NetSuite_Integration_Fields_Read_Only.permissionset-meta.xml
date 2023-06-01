@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Provide Read Only rights to NetSuite integration fields</description>
     <fieldPermissions>
         <editable>false</editable>
@@ -173,11 +173,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Netsuite_Record__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

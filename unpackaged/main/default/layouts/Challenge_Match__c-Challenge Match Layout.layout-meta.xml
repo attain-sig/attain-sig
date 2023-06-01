@@ -181,7 +181,6 @@
         <fields>Match_Ratio__c</fields>
         <fields>Threshold_Amount__c</fields>
         <fields>Raised_to_Date_for_Match_numeric__c</fields>
-        <fields>Amount_Matched_by_Donors__c</fields>
         <fields>Total_Raised_by_Challenge_Match__c</fields>
         <fields>Status__c</fields>
         <relatedList>Annual_Match__c.Challenge_Match__c</relatedList>

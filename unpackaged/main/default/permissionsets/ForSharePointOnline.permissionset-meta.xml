@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <hasActivationRequired>false</hasActivationRequired>
     <label>ForSharePointOnline</label>
     <userPermissions>
         <enabled>true</enabled>
         <name>ContentHubUser</name>
     </userPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
 </PermissionSet>

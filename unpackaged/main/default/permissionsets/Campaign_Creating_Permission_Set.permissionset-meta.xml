@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customPermissions>
         <enabled>true</enabled>
         <name>Campaign_Creation_Permission_Set</name>
@@ -36,11 +36,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.Series__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>

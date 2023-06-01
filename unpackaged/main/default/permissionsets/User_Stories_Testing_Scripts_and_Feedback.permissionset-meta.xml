@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>Build_Management</application>
         <visible>true</visible>
@@ -262,11 +262,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Feedback__c.User_Story__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

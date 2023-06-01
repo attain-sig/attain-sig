@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+﻿<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Grants read access to all donation information on donation and payment records, as well as read access to aggregate donation information on contacts, accounts, households, and campaigns.</description>
     <fieldPermissions>
         <editable>false</editable>
@@ -228,11 +228,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Natural_Code_Text__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
