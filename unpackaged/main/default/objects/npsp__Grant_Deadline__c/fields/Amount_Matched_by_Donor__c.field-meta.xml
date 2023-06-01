@@ -5,6 +5,7 @@
     <externalId>false</externalId>
     <formula>if ( Condition_Met__c = TRUE,  Payment_Amount__c , 0)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Shows the Payment Amount when Condition Met = TRUE; otherwise $0.</inlineHelpText>
     <label>Amount Matched by Donor</label>
     <precision>18</precision>
     <required>false</required>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Shows the Payment Amount when Condition Met = TRUE; otherwise $0. --></help>
         <label><!-- Amount Matched by Donor --></label>
         <name>Amount_Matched_by_Donor__c</name>
     </CustomFieldTranslation>

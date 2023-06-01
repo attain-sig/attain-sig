@@ -11,6 +11,16 @@
         <template>unfiled$public/External_Grant_Approval_Email_Template</template>
     </alerts>
     <alerts>
+        <fullName>Grant_Approval_Case_Assignment_Email_Alert</fullName>
+        <description>Grant Approval Case Assignment Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>DefaultWorkflowUser</senderType>
+        <template>unfiled$public/Grant_Approval_Email_Notification</template>
+    </alerts>
+    <alerts>
         <fullName>Request_Case_Assignment_Email_Alert</fullName>
         <description>Request Case Assignment Email Alert</description>
         <protected>false</protected>

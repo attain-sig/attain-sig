@@ -3,6 +3,7 @@
     <fullName>Annual_Match_Originating_Donation__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <externalId>false</externalId>
+    <inlineHelpText>Will automatically populate with the Challenge Match Opportunity of the linked Annual Match Deliverable upon save.</inlineHelpText>
     <label>Challenge Match</label>
     <lookupFilter>
         <active>true</active>
