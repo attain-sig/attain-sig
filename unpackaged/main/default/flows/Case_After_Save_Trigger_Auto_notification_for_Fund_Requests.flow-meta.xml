@@ -11,7 +11,7 @@
         <inputParameters>
             <name>emailAddresses</name>
             <value>
-                <elementReference>$Record.Owner:User.Email</elementReference>
+                <stringValue>{!$Record.Owner:User.Email}, erpsupport@edf.org</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -89,7 +89,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <textTemplates>
         <description>Email body for Fund Request email.</description>
         <name>EmailBodyFundRequest</name>
