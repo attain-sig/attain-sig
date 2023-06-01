@@ -2805,6 +2805,10 @@
             <label><!-- Qualifying Donations --></label>
             <name>Qualifying Donations</name>
         </sections>
+        <sections>
+            <label><!-- Qualifying Opportunities --></label>
+            <name>Qualifying Opportunities</name>
+        </sections>
     </reportTypes>
     <reportTypes>
         <description><!-- RM History with Contacts and Accounts --></description>

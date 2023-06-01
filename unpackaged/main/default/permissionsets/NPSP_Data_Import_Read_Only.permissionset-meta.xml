@@ -88,6 +88,11 @@
     </pageAccesses>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>npsp__DataImportBatch__c.npsp__Batch_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>

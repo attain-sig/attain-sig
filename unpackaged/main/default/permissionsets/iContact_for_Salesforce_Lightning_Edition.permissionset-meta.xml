@@ -61,6 +61,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>iCLightning__iContact_Sent_Message__c.iCLightning__Body_HTML__c</field>
         <readable>true</readable>

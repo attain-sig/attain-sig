@@ -2050,12 +2050,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Qualifying_Donation__c.Annual_Match_Name__c</field>
+        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Qualifying_Donation__c.Annual_Match_Originating_Donation_Name__c</field>
+        <editable>true</editable>
+        <field>Qualifying_Donation__c.Annual_Match_Lookup__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2066,11 +2066,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Qualifying_Donation__c.Challenge_Fiscal_Year_Release__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Qualifying_Donation__c.Challenge_Match_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2090,27 +2085,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Qualifying_Donation__c.Fiscal_Year__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Qualifying_Donation__c.Gift_Administration_Approved__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Qualifying_Donation__c.Legacy_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Qualifying_Donation__c.Pledge_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Qualifying_Donation__c.Portfolio_Manager__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

@@ -4,6 +4,11 @@
         <name>Edit_Received_Opportunities</name>
     </customPermissions>
     <description>Works with Opportunity Validation Rules to permit Users with Caging Vendor Profile or Membership Profile to update fields on Opportunity</description>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Edit Received Opportunities</label>
     <license>Salesforce</license>

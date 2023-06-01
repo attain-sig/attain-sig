@@ -54,4 +54,9 @@
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
     </userPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
 </PermissionSet>

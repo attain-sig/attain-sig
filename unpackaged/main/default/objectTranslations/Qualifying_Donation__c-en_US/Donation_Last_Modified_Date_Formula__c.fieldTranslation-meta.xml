@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Last Modified Date of the linked Donation Name --></help>
-        <label><!-- Donation Last Modified Date --></label>
-        <name>Donation_Last_Modified_Date_Formula__c</name>
-    </CustomFieldTranslation>

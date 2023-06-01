@@ -2,5 +2,5 @@
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
         <label><!-- Qualifying Payment --></label>
         <name>Qualifying_Payment__c</name>
-        <relationshipLabel><!-- Qualifying Donations --></relationshipLabel>
+        <relationshipLabel><!-- Qualifying Opportunities --></relationshipLabel>
     </CustomFieldTranslation>

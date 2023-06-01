@@ -36,6 +36,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>npe4__Relationship__c.Created_From_FellowApp__c</field>
         <readable>true</readable>
     </fieldPermissions>

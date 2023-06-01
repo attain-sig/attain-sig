@@ -160,6 +160,11 @@ Additional permissions for LAC approvals</description>
         <field>Litigation_Tracking__c.Venue_or_State__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Litigation Tracking All Admin</label>
     <objectPermissions>

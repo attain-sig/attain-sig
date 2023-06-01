@@ -44,16 +44,6 @@
         <field>Challenge_Match__c.Challenge_Match_Name__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <groupingsDown>
-        <dateGranularity>Day</dateGranularity>
-        <field>Annual_Match__c.Raised_to_Date_for_Match__c</field>
-        <sortOrder>Asc</sortOrder>
-    </groupingsDown>
-    <groupingsDown>
-        <dateGranularity>Day</dateGranularity>
-        <field>Annual_Match__c.Gap__c</field>
-        <sortOrder>Asc</sortOrder>
-    </groupingsDown>
     <name>Annual Challenges Matches Due FYE</name>
     <params>
         <name>co</name>

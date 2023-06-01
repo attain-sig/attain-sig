@@ -4,6 +4,11 @@
         <field>Opportunity.UK_Gift_Aid_Eligible__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Edit Opportunity UK Gift Aid Eligible</label>
 </PermissionSet>

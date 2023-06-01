@@ -5,7 +5,6 @@
     <externalId>false</externalId>
     <label>Donation Name</label>
     <referenceTo>Opportunity</referenceTo>
-    <relationshipLabel>Qualifying Matches</relationshipLabel>
     <relationshipName>Qualifying_Matches</relationshipName>
     <required>true</required>
     <trackHistory>false</trackHistory>

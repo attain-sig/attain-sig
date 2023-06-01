@@ -232,6 +232,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>npe01__OppPayment__c.Fiscal_Year__c</field>
         <readable>true</readable>
     </fieldPermissions>

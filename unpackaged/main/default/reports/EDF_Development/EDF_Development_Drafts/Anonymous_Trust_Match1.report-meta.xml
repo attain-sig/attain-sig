@@ -13,9 +13,6 @@
         <field>FK_NAME</field>
     </columns>
     <columns>
-        <field>Annual_Match__c.Raised_to_Date_for_Match__c</field>
-    </columns>
-    <columns>
         <field>Annual_Match__c.Status__c</field>
     </columns>
     <columns>
@@ -46,11 +43,6 @@
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
         <field>Annual_Match__c.Annual_Match_Name__c</field>
-        <sortOrder>Asc</sortOrder>
-    </groupingsDown>
-    <groupingsDown>
-        <dateGranularity>Day</dateGranularity>
-        <field>Annual_Match__c.Gap__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <name>Anonymous Trust Match</name>

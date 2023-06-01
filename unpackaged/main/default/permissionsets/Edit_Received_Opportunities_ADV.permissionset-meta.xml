@@ -89,6 +89,11 @@
         <field>Opportunity.Transaction_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Edit Received Opportunities-ADV</label>
     <license>Salesforce</license>

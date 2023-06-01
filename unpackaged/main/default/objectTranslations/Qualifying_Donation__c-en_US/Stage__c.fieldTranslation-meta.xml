@@ -3,40 +3,20 @@
         <label><!-- Stage --></label>
         <name>Stage__c</name>
         <picklistValues>
+            <masterLabel>Agreement in Negotiation</masterLabel>
+            <translation><!-- Agreement in Negotiation --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Cancelled by EDF</masterLabel>
             <translation><!-- Cancelled by EDF --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Closed Lost</masterLabel>
-            <translation><!-- Closed Lost --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Closed Won</masterLabel>
-            <translation><!-- Closed Won --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Conditional</masterLabel>
-            <translation><!-- Conditional --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Declined Credit Card</masterLabel>
-            <translation><!-- Declined Credit Card --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Declined by Donor</masterLabel>
             <translation><!-- Declined by Donor --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Intention</masterLabel>
-            <translation><!-- Intention --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Invalid Donation</masterLabel>
             <translation><!-- Invalid Donation --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Pending Installment</masterLabel>
-            <translation><!-- Pending Installment --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Projected</masterLabel>
@@ -47,12 +27,12 @@
             <translation><!-- Received --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Received as Pledge</masterLabel>
-            <translation><!-- Received as Pledge --></translation>
+            <masterLabel>Received as Conditional Pledge</masterLabel>
+            <translation><!-- Received as Conditional Pledge --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Refund - Chargeback</masterLabel>
-            <translation><!-- Refund - Chargeback --></translation>
+            <masterLabel>Received as Unconditional Pledge</masterLabel>
+            <translation><!-- Received as Unconditional Pledge --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Refunded</masterLabel>

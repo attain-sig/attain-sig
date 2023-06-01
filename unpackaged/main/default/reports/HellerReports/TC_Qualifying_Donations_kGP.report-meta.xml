@@ -13,9 +13,6 @@
         <field>Qualifying_Donation__c$CreatedBy</field>
     </columns>
     <columns>
-        <field>Qualifying_Donation__c$Annual_Match__c</field>
-    </columns>
-    <columns>
         <field>Qualifying_Donation__c$Annual_Match_Originating_Donation__c</field>
     </columns>
     <columns>

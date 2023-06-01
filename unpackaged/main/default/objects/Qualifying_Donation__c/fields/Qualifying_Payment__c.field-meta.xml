@@ -5,7 +5,6 @@
     <externalId>false</externalId>
     <label>Qualifying Payment</label>
     <referenceTo>npe01__OppPayment__c</referenceTo>
-    <relationshipLabel>Qualifying Donations</relationshipLabel>
     <relationshipName>Qualifying_Donations</relationshipName>
     <required>false</required>
     <trackHistory>false</trackHistory>

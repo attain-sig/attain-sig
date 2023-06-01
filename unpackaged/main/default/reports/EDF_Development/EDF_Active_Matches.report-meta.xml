@@ -10,9 +10,6 @@
         <field>Annual_Match__c.Total_Raised_by_Challenge_Match__c</field>
     </columns>
     <columns>
-        <field>Annual_Match__c.Gap__c</field>
-    </columns>
-    <columns>
         <field>Challenge_Match__c.Purpose__c</field>
     </columns>
     <columns>

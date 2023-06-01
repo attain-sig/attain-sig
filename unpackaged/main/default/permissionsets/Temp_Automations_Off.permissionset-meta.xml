@@ -4,6 +4,11 @@
         <name>Flow_Automations_Off</name>
     </customPermissions>
     <description>Use this for Users that might temporarily need to upload high volumes of data without triggering auto-launched flows</description>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Temp Automations Off</label>
     <license>Salesforce</license>

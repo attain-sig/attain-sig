@@ -149,7 +149,7 @@
     <allowInChatterGroups>true</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Donations that qualify and related to challenge matches</description>
+    <description>Opportunities that qualify and related to challenge matches</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -160,14 +160,14 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Qualifying Donation</label>
+    <label>Qualifying Opportunity</label>
     <nameField>
         <displayFormat>CMQD-{00000}</displayFormat>
-        <label>Qualifying Donation Record ID</label>
+        <label>Qualifying Opportunity Record ID</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Qualifying Donations</pluralLabel>
+    <pluralLabel>Qualifying Opportunities</pluralLabel>
     <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

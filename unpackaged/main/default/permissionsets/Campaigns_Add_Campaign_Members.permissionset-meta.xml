@@ -13,4 +13,9 @@ This is meant for users that need access to add Campaign Members to a Campaign f
         <object>Campaign</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Qualifying_Donation__c.Annual_Match_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
 </PermissionSet>
