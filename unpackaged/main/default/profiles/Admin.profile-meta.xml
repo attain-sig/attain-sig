@@ -12965,6 +12965,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Planned_Gift__c.Payment_Amount_or_Formula__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Program_Reporting_Contact__c.Contact__c</field>
         <readable>true</readable>
