@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Development_Coordinator__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Used on a few GP Case Reasons (fund, donor agreements, grant approvals). Indicates which dev coordinator is point on the request</description>
+    <externalId>false</externalId>
+    <label>Development Coordinator</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Cases1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

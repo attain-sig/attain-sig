@@ -6,6 +6,36 @@
     <compactLayoutAssignment>NPSP_Grant_and_Major_Gift_Compact_Layout</compactLayoutAssignment>
     <label>Grant</label>
     <picklistValues>
+        <picklist>Challenge_Match_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed - Met</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed - Not Met</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Challenge_Match_Type__c</picklist>
+        <values>
+            <fullName>All or nothing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>As much as possible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Up to max</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Contact_Channel__c</picklist>
         <values>
             <fullName>Ad</fullName>

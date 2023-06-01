@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Raised_to_Date_for_Annual_Match__c</fullName>
+    <description>Roll-up SUM of the Qualifying Donations' "Qualifying Amount" where stage is received</description>
+    <externalId>false</externalId>
+    <label>Raised to Date for Annual Match</label>
+    <summarizedField>Qualifying_Donation__c.Qualifying_Amount__c</summarizedField>
+    <summaryFilterItems>
+        <field>Qualifying_Donation__c.Stage__c</field>
+        <operation>equals</operation>
+        <value>Received, Received as Unconditional Pledge, Received as Conditional Pledge</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Qualifying_Donation__c.Annual_Challenge_Match__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

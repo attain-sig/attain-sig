@@ -3,8 +3,8 @@
     <actionCalls>
         <name>Run_Assignment_Rules</name>
         <label>Run Assignment Rules</label>
-        <locationX>490</locationX>
-        <locationY>288</locationY>
+        <locationX>842</locationX>
+        <locationY>276</locationY>
         <actionName>Run_Assignment__Invocable_StandardAssignmentV2</actionName>
         <actionType>apex</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -38,7 +38,10 @@
         <name>Payment_Found</name>
         <label>Payment Found?</label>
         <locationX>182</locationX>
-        <locationY>408</locationY>
+        <locationY>492</locationY>
+        <defaultConnector>
+            <targetReference>Update_Case_Fields</targetReference>
+        </defaultConnector>
         <defaultConnectorLabel>No</defaultConnectorLabel>
         <rules>
             <name>Yes</name>
@@ -51,9 +54,34 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Update_Case_Payment_Method</targetReference>
+                <targetReference>Update_Case_Fields_Payment</targetReference>
             </connector>
             <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>What_is_Case_Reason</name>
+        <label>What is Case Reason?</label>
+        <locationX>380</locationX>
+        <locationY>276</locationY>
+        <defaultConnector>
+            <targetReference>Update_Case_Fields_Other</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Other</defaultConnectorLabel>
+        <rules>
+            <name>Refund</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Reason</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Refund</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_First_Payment</targetReference>
+            </connector>
+            <label>Refund</label>
         </rules>
     </decisions>
     <environments>Default</environments>
@@ -87,7 +115,7 @@
         <name>Get_First_Payment</name>
         <label>Get First Payment</label>
         <locationX>182</locationX>
-        <locationY>288</locationY>
+        <locationY>384</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Payment_Found</targetReference>
@@ -107,10 +135,42 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
-        <name>Update_Case_Payment_Method</name>
-        <label>Update Case Payment Method</label>
+        <name>Update_Case_Fields</name>
+        <label>Update Case Fields</label>
+        <locationX>314</locationX>
+        <locationY>600</locationY>
+        <inputAssignments>
+            <field>Opportunity_Amount__c</field>
+            <value>
+                <elementReference>$Record.Opportunity__r.Amount</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Case_Fields_Other</name>
+        <label>Update Case Fields</label>
+        <locationX>578</locationX>
+        <locationY>384</locationY>
+        <inputAssignments>
+            <field>Opportunity_Amount__c</field>
+            <value>
+                <elementReference>$Record.Opportunity__r.Amount</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Case_Fields_Payment</name>
+        <label>Update Case Fields</label>
         <locationX>50</locationX>
-        <locationY>528</locationY>
+        <locationY>600</locationY>
+        <inputAssignments>
+            <field>Opportunity_Amount__c</field>
+            <value>
+                <elementReference>$Record.Opportunity__r.Amount</elementReference>
+            </value>
+        </inputAssignments>
         <inputAssignments>
             <field>Payment_Method__c</field>
             <value>
@@ -120,14 +180,14 @@
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <start>
-        <locationX>210</locationX>
+        <locationX>485</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Get_First_Payment</targetReference>
+            <targetReference>What_is_Case_Reason</targetReference>
         </connector>
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
 &amp;&amp;
-{!$Record.Flow_Assignment__c} = TRUE</filterFormula>
+{!$Record.RecordType.DeveloperName} = &quot;Gift_Processing&quot;</filterFormula>
         <object>Case</object>
         <recordTriggerType>Create</recordTriggerType>
         <scheduledPaths>

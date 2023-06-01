@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Officer__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Entered upon case creation. Gets passed to the equivalent field on Opp when the case is Closed - Resolved. Tracks the staff member we're working with at the grantmaking org; not EDF staff.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Staff member(s) overseeing award at grantmaking institution.</inlineHelpText>
+    <label>Program Officer</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Cases (Program Officer)</relationshipLabel>
+    <relationshipName>Cases1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

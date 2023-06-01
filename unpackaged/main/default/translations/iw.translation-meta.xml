@@ -1089,6 +1089,10 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows />
+        <fullName>Annual_Challenge_Match_Deliverable_Update_Numeric_Field_for_Roll_Up</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
         <fullName>Chatter_Notification_to_User</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -1313,6 +1317,24 @@
         <fullName>GAU_Allocation_Create_Before_SAVE_Values</fullName>
     </flowDefinitions>
     <flowDefinitions>
+        <flows />
+        <fullName>Grant_Approval_Case_Updated_Update_Related_Opportunity</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>DonorAgreementChatterMessageBody</name>
+            </textTemplates>
+            <textTemplates>
+                <name>FundChatterMessageBody</name>
+            </textTemplates>
+            <textTemplates>
+                <name>GrantChatterMessageBody</name>
+            </textTemplates>
+        </flows>
+        <fullName>Grant_Donor_Agreement_Approval_Case_Closed_Send_Chatter_Notification</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows>
             <textTemplates>
                 <name>messageBodyforTask</name>
@@ -1414,6 +1436,10 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows />
+        <fullName>Opportunity_Stage_Updated_Update_Qualifying_Opportunities</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
         <fullName>Payment_AFTER_SAVE_Amount_Values</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -1439,6 +1465,10 @@
     <flowDefinitions>
         <flows />
         <fullName>Projection_Before_Insert</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Qualifying_Opportunity_Created_Update_Opportunity</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows />
@@ -2654,6 +2684,23 @@
         <sections>
             <label><!-- Payments --></label>
             <name>Payments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Opportunities with Deliverables with Qualifying Opportunities --></description>
+        <label><!-- Opportunities with Deliverables with Qualifying Opportunities --></label>
+        <name>Opportunities_with_Deliverables_with_Qualifying_Opportunities</name>
+        <sections>
+            <label><!-- Deliverables --></label>
+            <name>Deliverables</name>
+        </sections>
+        <sections>
+            <label><!-- Opportunities --></label>
+            <name>Opportunities</name>
+        </sections>
+        <sections>
+            <label><!-- Qualifying Opportunities --></label>
+            <name>Qualifying Opportunities</name>
         </sections>
     </reportTypes>
     <reportTypes>

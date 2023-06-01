@@ -34,6 +34,10 @@
                 <behavior>Edit</behavior>
                 <field>Challenge_Fiscal_Year_Release__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Annual_Challenge_Match__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

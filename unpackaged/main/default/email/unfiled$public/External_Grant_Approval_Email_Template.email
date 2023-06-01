@@ -1,0 +1,3 @@
+Hi - Please add {!Case.Grant_Manager__c} as the Grant Manager for this new grant.
+
+Salesforce case record: {!Case.Link}

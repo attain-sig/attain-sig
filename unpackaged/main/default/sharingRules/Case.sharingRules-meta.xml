@@ -193,6 +193,11 @@
             <operation>equals</operation>
             <value>Gift Processing</value>
         </criteriaItems>
+        <criteriaItems>
+            <field>Reason</field>
+            <operation>equals</operation>
+            <value>Refund,Adjustment</value>
+        </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
@@ -206,6 +211,11 @@
             <field>RecordTypeId</field>
             <operation>equals</operation>
             <value>Gift Processing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Reason</field>
+            <operation>equals</operation>
+            <value>Refund,Adjustment</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
@@ -234,6 +244,44 @@
             <field>RecordTypeId</field>
             <operation>equals</operation>
             <value>Member Services</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Read_Gift_Processing_Cases_Finance</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Read Gift Processing Cases - Finance</label>
+        <sharedTo>
+            <group>Finance</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Gift Processing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Reason</field>
+            <operation>equals</operation>
+            <value>Grant Approval</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Read_Gift_Processing_Cases_Mission_Finance</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Read Gift Processing Cases - Mission Finance</label>
+        <sharedTo>
+            <group>Mission_Finance</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Gift Processing</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Reason</field>
+            <operation>equals</operation>
+            <value>Grant Approval</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>

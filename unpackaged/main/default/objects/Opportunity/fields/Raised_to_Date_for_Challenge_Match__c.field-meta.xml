@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Raised_to_Date_for_Challenge_Match__c</fullName>
+    <description>Roll-up SUM of the Qualifying Donations' "Qualifying Amount" where stage is received.</description>
+    <externalId>false</externalId>
+    <label>Raised to Date for Challenge Match</label>
+    <summarizedField>npsp__Grant_Deadline__c.Raised_to_Date_for_Annual_Match__c</summarizedField>
+    <summaryForeignKey>npsp__Grant_Deadline__c.npsp__Opportunity__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -297,8 +297,32 @@
         <name>CaseOpportunityUpdate</name>
     </quickActions>
     <quickActions>
+        <label><!-- Case Grant Opportunity Update --></label>
+        <name>Case_Grant_Opportunity_Update</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Challenge Match Opportunity --></label>
+        <name>Challenge_Match_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Donor Agreement Approval --></label>
+        <name>Donor_Agreement_Approval</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Fund Request --></label>
+        <name>Fund_Request</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Grant Approval --></label>
+        <name>Grant_Approval</name>
+    </quickActions>
+    <quickActions>
         <label><!-- Grant/Contract Information --></label>
         <name>Grant_Contract_Information</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Annual Match Deliverable --></label>
+        <name>New_Annual_Match_Deliverable</name>
     </quickActions>
     <quickActions>
         <label><!-- New Deliverable --></label>
@@ -393,6 +417,10 @@
         <name>Conga_Composer_Receipt</name>
     </webLinks>
     <webLinks>
+        <label><!-- New_Qualifying_Opportunity --></label>
+        <name>New_Qualifying_Opportunity</name>
+    </webLinks>
+    <webLinks>
         <label><!-- Add_Matching_Donation --></label>
         <name>npe01__Add_Matching_Donation</name>
     </webLinks>
@@ -436,6 +464,21 @@
         <label><!-- New BDE List v2 --></label>
         <name>npsp__BDE_List_FS_v2</name>
     </fieldSets>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     

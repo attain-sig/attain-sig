@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Challenge_Match_Name__c</fullName>
+    <description>Manually entered by users. Used to reflect what the match is, which is separate from the Opportunity Name. user should be using a standard naming convention.</description>
+    <externalId>false</externalId>
+    <label>Challenge Match Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -39,7 +39,7 @@
         <ruleEntry>
             <assignedTo>acampos-npsp@edf.org.npsp</assignedTo>
             <assignedToType>User</assignedToType>
-            <formula>IF(Opportunity__r.RecordType.DeveloperName = "MajorGift", true, false)||IF(Opportunity__r.RecordType.DeveloperName = "Grant", true, false)||IF(Opportunity__r.RecordType.DeveloperName = "Planned_Gift", true, false)</formula>
+            <formula>IF( (ispickval(Reason, "Refund") || ispickval(Reason, "Adjustment")) &amp;&amp; (Opportunity__r.RecordType.DeveloperName = "MajorGift" || Opportunity__r.RecordType.DeveloperName = "Grant" || Opportunity__r.RecordType.DeveloperName = "Planned_Gift"), true, false)</formula>
             <template>unfiled$public/Gift_Processing_Email_Notification</template>
         </ruleEntry>
         <ruleEntry>
@@ -51,6 +51,36 @@
                 <value>Refund</value>
             </criteriaItems>
             <template>unfiled$public/Gift_Processing_Email_Notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Fund_Requests</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Reason</field>
+                <operation>equals</operation>
+                <value>Fund Request</value>
+            </criteriaItems>
+            <template>unfiled$public/Fund_Request_Email_Notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>vgreenaway-npsp@edf.org.npsp</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.Reason</field>
+                <operation>equals</operation>
+                <value>Donor Agreement Approval</value>
+            </criteriaItems>
+            <template>unfiled$public/Donor_Agreement_Email_Notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Grant_Approvals</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Reason</field>
+                <operation>equals</operation>
+                <value>Grant Approval</value>
+            </criteriaItems>
+            <template>unfiled$public/Grant_Approval_Email_Notification</template>
         </ruleEntry>
         <ruleEntry>
             <assignedTo>GiftProcessingRequests</assignedTo>

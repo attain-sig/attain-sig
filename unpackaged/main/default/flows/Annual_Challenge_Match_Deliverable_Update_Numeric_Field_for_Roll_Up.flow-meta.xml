@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>Annual Challenge Match Deliverable --&gt; Update Numeric Roll-Up Field {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Annual Challenge Match Deliverable --&gt; Update Numeric Field for Roll-Up</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Amount_Matched_by_Donor_Numeric_Field</name>
+        <label>Update Amount Matched by Donor Numeric Field</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <inputAssignments>
+            <field>Amount_Matched_by_Donor_Numeric__c</field>
+            <value>
+                <elementReference>$Record.Amount_Matched_by_Donor__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Annual_Match__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Amount_Matched_by_Donor_Numeric_Field</targetReference>
+        </connector>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+(not(isblank({!$Record.Annual_Match_Start_Date__c})) || not(isblank({!$Record.Annual_Match_End_Date__c})) || not(isblank(text({!$Record.Annual_Match_Status__c}))))</filterFormula>
+        <object>npsp__Grant_Deadline__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

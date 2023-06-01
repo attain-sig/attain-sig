@@ -256,6 +256,14 @@
             <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3p</field>
+            <label>Amount Matched by Donor Summary</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3T</field>
+            <label>Amount Needed to Unlock Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv0XJ</field>
             <label>Anonymous</label>
         </opportunityListFieldsLabelMappings>
@@ -312,12 +320,52 @@
             <label>CFDA Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3U</field>
+            <label>Challenge Match Criteria</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3V</field>
+            <label>Challenge Match End Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3k</field>
+            <label>Challenge Match Gap</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3W</field>
+            <label>Challenge Match Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1j</field>
             <label>Challenge Match Originating Donation</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3X</field>
+            <label>Challenge Match Percent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Y</field>
+            <label>Challenge Match Purpose</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1k</field>
             <label>Challenge Match Qualifying Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3l</field>
+            <label>Challenge Match Ratio</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Z</field>
+            <label>Challenge Match Start Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3a</field>
+            <label>Challenge Match Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3b</field>
+            <label>Challenge Match Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1l</field>
@@ -510,6 +558,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2E</field>
             <label>Grant Lead</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD65</field>
+            <label>Grant Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2F</field>
@@ -1080,6 +1132,10 @@
             <label>Qualified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3q</field>
+            <label>Raised to Date for Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EO</field>
             <label>Receipt Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -1164,6 +1220,10 @@
             <label>Tax Deductible Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3m</field>
+            <label>Total Raised by Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EY</field>
             <label>Transaction Type</label>
         </opportunityListFieldsLabelMappings>
@@ -1238,6 +1298,8 @@
             <field>00N5e00000f1X1Y</field>
             <field>00N5e00000f1X1Z</field>
             <field>00N5e00000f1X1a</field>
+            <field>00N7d000008GD3p</field>
+            <field>00N7d000008GD3T</field>
             <field>00N5e00000cv0XJ</field>
             <field>00N8W00000OzyGO</field>
             <field>00N5e00000dMV4Q</field>
@@ -1252,8 +1314,18 @@
             <field>00N5e00000f1X1h</field>
             <field>00N5e00000f1X1i</field>
             <field>00N5e00000f1X1c</field>
+            <field>00N7d000008GD3U</field>
+            <field>00N7d000008GD3V</field>
+            <field>00N7d000008GD3k</field>
+            <field>00N7d000008GD3W</field>
             <field>00N5e00000f1X1j</field>
+            <field>00N7d000008GD3X</field>
+            <field>00N7d000008GD3Y</field>
             <field>00N5e00000f1X1k</field>
+            <field>00N7d000008GD3l</field>
+            <field>00N7d000008GD3Z</field>
+            <field>00N7d000008GD3a</field>
+            <field>00N7d000008GD3b</field>
             <field>00N5e00000f1X1l</field>
             <field>00N5e00000f1X1m</field>
             <field>00N5e00000dMV4R</field>
@@ -1302,6 +1374,7 @@
             <field>00N5e00000dMVDB</field>
             <field>00N5e00000f1X2D</field>
             <field>00N5e00000f1X2E</field>
+            <field>00N7d000008GD65</field>
             <field>00N5e00000f1X2F</field>
             <field>00N5e00000f1X2G</field>
             <field>00N5e00000dMVDC</field>
@@ -1444,6 +1517,7 @@
             <field>00N5e00000cv1IV</field>
             <field>00N5e00000f1X3W</field>
             <field>00N5e00000dMV4T</field>
+            <field>00N7d000008GD3q</field>
             <field>00N5e00000cv1EO</field>
             <field>00N5e00000cv1Du</field>
             <field>00N5e00000cv1Da</field>
@@ -1465,6 +1539,7 @@
             <field>00N5e00000f1X3f</field>
             <field>00N5e00000f1X3h</field>
             <field>00N5e00000cv1F7</field>
+            <field>00N7d000008GD3m</field>
             <field>00N5e00000cv1EY</field>
             <field>00N8W00000OzgLy</field>
             <field>00N8W00000OzgLz</field>
@@ -1657,6 +1732,14 @@
             <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3p</field>
+            <label>Amount Matched by Donor Summary</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3T</field>
+            <label>Amount Needed to Unlock Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv0XJ</field>
             <label>Anonymous</label>
         </opportunityListFieldsLabelMappings>
@@ -1713,12 +1796,52 @@
             <label>CFDA Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3U</field>
+            <label>Challenge Match Criteria</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3V</field>
+            <label>Challenge Match End Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3k</field>
+            <label>Challenge Match Gap</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3W</field>
+            <label>Challenge Match Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1j</field>
             <label>Challenge Match Originating Donation</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3X</field>
+            <label>Challenge Match Percent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Y</field>
+            <label>Challenge Match Purpose</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1k</field>
             <label>Challenge Match Qualifying Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3l</field>
+            <label>Challenge Match Ratio</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Z</field>
+            <label>Challenge Match Start Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3a</field>
+            <label>Challenge Match Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3b</field>
+            <label>Challenge Match Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1l</field>
@@ -1911,6 +2034,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2E</field>
             <label>Grant Lead</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD65</field>
+            <label>Grant Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2F</field>
@@ -2481,6 +2608,10 @@
             <label>Qualified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3q</field>
+            <label>Raised to Date for Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EO</field>
             <label>Receipt Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -2565,6 +2696,10 @@
             <label>Tax Deductible Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3m</field>
+            <label>Total Raised by Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EY</field>
             <label>Transaction Type</label>
         </opportunityListFieldsLabelMappings>
@@ -2640,6 +2775,8 @@
             <field>00N5e00000f1X1Y</field>
             <field>00N5e00000f1X1Z</field>
             <field>00N5e00000f1X1a</field>
+            <field>00N7d000008GD3p</field>
+            <field>00N7d000008GD3T</field>
             <field>00N5e00000cv0XJ</field>
             <field>00N8W00000OzyGO</field>
             <field>00N5e00000dMV4Q</field>
@@ -2654,8 +2791,18 @@
             <field>00N5e00000f1X1h</field>
             <field>00N5e00000f1X1i</field>
             <field>00N5e00000f1X1c</field>
+            <field>00N7d000008GD3U</field>
+            <field>00N7d000008GD3V</field>
+            <field>00N7d000008GD3k</field>
+            <field>00N7d000008GD3W</field>
             <field>00N5e00000f1X1j</field>
+            <field>00N7d000008GD3X</field>
+            <field>00N7d000008GD3Y</field>
             <field>00N5e00000f1X1k</field>
+            <field>00N7d000008GD3l</field>
+            <field>00N7d000008GD3Z</field>
+            <field>00N7d000008GD3a</field>
+            <field>00N7d000008GD3b</field>
             <field>00N5e00000f1X1l</field>
             <field>00N5e00000f1X1m</field>
             <field>00N5e00000dMV4R</field>
@@ -2704,6 +2851,7 @@
             <field>00N5e00000dMVDB</field>
             <field>00N5e00000f1X2D</field>
             <field>00N5e00000f1X2E</field>
+            <field>00N7d000008GD65</field>
             <field>00N5e00000f1X2F</field>
             <field>00N5e00000f1X2G</field>
             <field>00N5e00000dMVDC</field>
@@ -2846,6 +2994,7 @@
             <field>00N5e00000cv1IV</field>
             <field>00N5e00000f1X3W</field>
             <field>00N5e00000dMV4T</field>
+            <field>00N7d000008GD3q</field>
             <field>00N5e00000cv1EO</field>
             <field>00N5e00000cv1Du</field>
             <field>00N5e00000cv1Da</field>
@@ -2867,6 +3016,7 @@
             <field>00N5e00000f1X3f</field>
             <field>00N5e00000f1X3h</field>
             <field>00N5e00000cv1F7</field>
+            <field>00N7d000008GD3m</field>
             <field>00N5e00000cv1EY</field>
             <field>00N8W00000OzgLy</field>
             <field>00N8W00000OzgLz</field>
@@ -3055,6 +3205,14 @@
             <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3p</field>
+            <label>Amount Matched by Donor Summary</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3T</field>
+            <label>Amount Needed to Unlock Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv0XJ</field>
             <label>Anonymous</label>
         </opportunityListFieldsLabelMappings>
@@ -3111,12 +3269,52 @@
             <label>CFDA Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3U</field>
+            <label>Challenge Match Criteria</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3V</field>
+            <label>Challenge Match End Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3k</field>
+            <label>Challenge Match Gap</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3W</field>
+            <label>Challenge Match Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1j</field>
             <label>Challenge Match Originating Donation</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3X</field>
+            <label>Challenge Match Percent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Y</field>
+            <label>Challenge Match Purpose</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1k</field>
             <label>Challenge Match Qualifying Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3l</field>
+            <label>Challenge Match Ratio</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Z</field>
+            <label>Challenge Match Start Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3a</field>
+            <label>Challenge Match Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3b</field>
+            <label>Challenge Match Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1l</field>
@@ -3309,6 +3507,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2E</field>
             <label>Grant Lead</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD65</field>
+            <label>Grant Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2F</field>
@@ -3879,6 +4081,10 @@
             <label>Qualified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3q</field>
+            <label>Raised to Date for Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EO</field>
             <label>Receipt Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -3963,6 +4169,10 @@
             <label>Tax Deductible Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3m</field>
+            <label>Total Raised by Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EY</field>
             <label>Transaction Type</label>
         </opportunityListFieldsLabelMappings>
@@ -4037,6 +4247,8 @@
             <field>00N5e00000f1X1Y</field>
             <field>00N5e00000f1X1Z</field>
             <field>00N5e00000f1X1a</field>
+            <field>00N7d000008GD3p</field>
+            <field>00N7d000008GD3T</field>
             <field>00N5e00000cv0XJ</field>
             <field>00N8W00000OzyGO</field>
             <field>00N5e00000dMV4Q</field>
@@ -4051,8 +4263,18 @@
             <field>00N5e00000f1X1h</field>
             <field>00N5e00000f1X1i</field>
             <field>00N5e00000f1X1c</field>
+            <field>00N7d000008GD3U</field>
+            <field>00N7d000008GD3V</field>
+            <field>00N7d000008GD3k</field>
+            <field>00N7d000008GD3W</field>
             <field>00N5e00000f1X1j</field>
+            <field>00N7d000008GD3X</field>
+            <field>00N7d000008GD3Y</field>
             <field>00N5e00000f1X1k</field>
+            <field>00N7d000008GD3l</field>
+            <field>00N7d000008GD3Z</field>
+            <field>00N7d000008GD3a</field>
+            <field>00N7d000008GD3b</field>
             <field>00N5e00000f1X1l</field>
             <field>00N5e00000f1X1m</field>
             <field>00N5e00000dMV4R</field>
@@ -4101,6 +4323,7 @@
             <field>00N5e00000dMVDB</field>
             <field>00N5e00000f1X2D</field>
             <field>00N5e00000f1X2E</field>
+            <field>00N7d000008GD65</field>
             <field>00N5e00000f1X2F</field>
             <field>00N5e00000f1X2G</field>
             <field>00N5e00000dMVDC</field>
@@ -4243,6 +4466,7 @@
             <field>00N5e00000cv1IV</field>
             <field>00N5e00000f1X3W</field>
             <field>00N5e00000dMV4T</field>
+            <field>00N7d000008GD3q</field>
             <field>00N5e00000cv1EO</field>
             <field>00N5e00000cv1Du</field>
             <field>00N5e00000cv1Da</field>
@@ -4264,6 +4488,7 @@
             <field>00N5e00000f1X3f</field>
             <field>00N5e00000f1X3h</field>
             <field>00N5e00000cv1F7</field>
+            <field>00N7d000008GD3m</field>
             <field>00N5e00000cv1EY</field>
             <field>00N8W00000OzgLy</field>
             <field>00N8W00000OzgLz</field>
@@ -4452,6 +4677,14 @@
             <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3p</field>
+            <label>Amount Matched by Donor Summary</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3T</field>
+            <label>Amount Needed to Unlock Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv0XJ</field>
             <label>Anonymous</label>
         </opportunityListFieldsLabelMappings>
@@ -4508,12 +4741,52 @@
             <label>CFDA Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3U</field>
+            <label>Challenge Match Criteria</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3V</field>
+            <label>Challenge Match End Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3k</field>
+            <label>Challenge Match Gap</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3W</field>
+            <label>Challenge Match Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1j</field>
             <label>Challenge Match Originating Donation</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3X</field>
+            <label>Challenge Match Percent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Y</field>
+            <label>Challenge Match Purpose</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1k</field>
             <label>Challenge Match Qualifying Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3l</field>
+            <label>Challenge Match Ratio</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Z</field>
+            <label>Challenge Match Start Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3a</field>
+            <label>Challenge Match Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3b</field>
+            <label>Challenge Match Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1l</field>
@@ -4706,6 +4979,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2E</field>
             <label>Grant Lead</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD65</field>
+            <label>Grant Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2F</field>
@@ -5276,6 +5553,10 @@
             <label>Qualified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3q</field>
+            <label>Raised to Date for Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EO</field>
             <label>Receipt Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -5360,6 +5641,10 @@
             <label>Tax Deductible Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3m</field>
+            <label>Total Raised by Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EY</field>
             <label>Transaction Type</label>
         </opportunityListFieldsLabelMappings>
@@ -5434,6 +5719,8 @@
             <field>00N5e00000f1X1Y</field>
             <field>00N5e00000f1X1Z</field>
             <field>00N5e00000f1X1a</field>
+            <field>00N7d000008GD3p</field>
+            <field>00N7d000008GD3T</field>
             <field>00N5e00000cv0XJ</field>
             <field>00N8W00000OzyGO</field>
             <field>00N5e00000dMV4Q</field>
@@ -5448,8 +5735,18 @@
             <field>00N5e00000f1X1h</field>
             <field>00N5e00000f1X1i</field>
             <field>00N5e00000f1X1c</field>
+            <field>00N7d000008GD3U</field>
+            <field>00N7d000008GD3V</field>
+            <field>00N7d000008GD3k</field>
+            <field>00N7d000008GD3W</field>
             <field>00N5e00000f1X1j</field>
+            <field>00N7d000008GD3X</field>
+            <field>00N7d000008GD3Y</field>
             <field>00N5e00000f1X1k</field>
+            <field>00N7d000008GD3l</field>
+            <field>00N7d000008GD3Z</field>
+            <field>00N7d000008GD3a</field>
+            <field>00N7d000008GD3b</field>
             <field>00N5e00000f1X1l</field>
             <field>00N5e00000f1X1m</field>
             <field>00N5e00000dMV4R</field>
@@ -5498,6 +5795,7 @@
             <field>00N5e00000dMVDB</field>
             <field>00N5e00000f1X2D</field>
             <field>00N5e00000f1X2E</field>
+            <field>00N7d000008GD65</field>
             <field>00N5e00000f1X2F</field>
             <field>00N5e00000f1X2G</field>
             <field>00N5e00000dMVDC</field>
@@ -5640,6 +5938,7 @@
             <field>00N5e00000cv1IV</field>
             <field>00N5e00000f1X3W</field>
             <field>00N5e00000dMV4T</field>
+            <field>00N7d000008GD3q</field>
             <field>00N5e00000cv1EO</field>
             <field>00N5e00000cv1Du</field>
             <field>00N5e00000cv1Da</field>
@@ -5661,6 +5960,7 @@
             <field>00N5e00000f1X3f</field>
             <field>00N5e00000f1X3h</field>
             <field>00N5e00000cv1F7</field>
+            <field>00N7d000008GD3m</field>
             <field>00N5e00000cv1EY</field>
             <field>00N8W00000OzgLy</field>
             <field>00N8W00000OzgLz</field>
@@ -5853,6 +6153,14 @@
             <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3p</field>
+            <label>Amount Matched by Donor Summary</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3T</field>
+            <label>Amount Needed to Unlock Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv0XJ</field>
             <label>Anonymous</label>
         </opportunityListFieldsLabelMappings>
@@ -5909,12 +6217,52 @@
             <label>CFDA Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3U</field>
+            <label>Challenge Match Criteria</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3V</field>
+            <label>Challenge Match End Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3k</field>
+            <label>Challenge Match Gap</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3W</field>
+            <label>Challenge Match Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1j</field>
             <label>Challenge Match Originating Donation</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3X</field>
+            <label>Challenge Match Percent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Y</field>
+            <label>Challenge Match Purpose</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1k</field>
             <label>Challenge Match Qualifying Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3l</field>
+            <label>Challenge Match Ratio</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Z</field>
+            <label>Challenge Match Start Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3a</field>
+            <label>Challenge Match Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3b</field>
+            <label>Challenge Match Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1l</field>
@@ -6107,6 +6455,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2E</field>
             <label>Grant Lead</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD65</field>
+            <label>Grant Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2F</field>
@@ -6677,6 +7029,10 @@
             <label>Qualified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3q</field>
+            <label>Raised to Date for Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EO</field>
             <label>Receipt Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -6761,6 +7117,10 @@
             <label>Tax Deductible Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3m</field>
+            <label>Total Raised by Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EY</field>
             <label>Transaction Type</label>
         </opportunityListFieldsLabelMappings>
@@ -6836,6 +7196,8 @@
             <field>00N5e00000f1X1Y</field>
             <field>00N5e00000f1X1Z</field>
             <field>00N5e00000f1X1a</field>
+            <field>00N7d000008GD3p</field>
+            <field>00N7d000008GD3T</field>
             <field>00N5e00000cv0XJ</field>
             <field>00N8W00000OzyGO</field>
             <field>00N5e00000dMV4Q</field>
@@ -6850,8 +7212,18 @@
             <field>00N5e00000f1X1h</field>
             <field>00N5e00000f1X1i</field>
             <field>00N5e00000f1X1c</field>
+            <field>00N7d000008GD3U</field>
+            <field>00N7d000008GD3V</field>
+            <field>00N7d000008GD3k</field>
+            <field>00N7d000008GD3W</field>
             <field>00N5e00000f1X1j</field>
+            <field>00N7d000008GD3X</field>
+            <field>00N7d000008GD3Y</field>
             <field>00N5e00000f1X1k</field>
+            <field>00N7d000008GD3l</field>
+            <field>00N7d000008GD3Z</field>
+            <field>00N7d000008GD3a</field>
+            <field>00N7d000008GD3b</field>
             <field>00N5e00000f1X1l</field>
             <field>00N5e00000f1X1m</field>
             <field>00N5e00000dMV4R</field>
@@ -6900,6 +7272,7 @@
             <field>00N5e00000dMVDB</field>
             <field>00N5e00000f1X2D</field>
             <field>00N5e00000f1X2E</field>
+            <field>00N7d000008GD65</field>
             <field>00N5e00000f1X2F</field>
             <field>00N5e00000f1X2G</field>
             <field>00N5e00000dMVDC</field>
@@ -7042,6 +7415,7 @@
             <field>00N5e00000cv1IV</field>
             <field>00N5e00000f1X3W</field>
             <field>00N5e00000dMV4T</field>
+            <field>00N7d000008GD3q</field>
             <field>00N5e00000cv1EO</field>
             <field>00N5e00000cv1Du</field>
             <field>00N5e00000cv1Da</field>
@@ -7063,6 +7437,7 @@
             <field>00N5e00000f1X3f</field>
             <field>00N5e00000f1X3h</field>
             <field>00N5e00000cv1F7</field>
+            <field>00N7d000008GD3m</field>
             <field>00N5e00000cv1EY</field>
             <field>00N8W00000OzgLy</field>
             <field>00N8W00000OzgLz</field>
@@ -7251,6 +7626,14 @@
             <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3p</field>
+            <label>Amount Matched by Donor Summary</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3T</field>
+            <label>Amount Needed to Unlock Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv0XJ</field>
             <label>Anonymous</label>
         </opportunityListFieldsLabelMappings>
@@ -7307,12 +7690,52 @@
             <label>CFDA Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3U</field>
+            <label>Challenge Match Criteria</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3V</field>
+            <label>Challenge Match End Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3k</field>
+            <label>Challenge Match Gap</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3W</field>
+            <label>Challenge Match Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1j</field>
             <label>Challenge Match Originating Donation</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3X</field>
+            <label>Challenge Match Percent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Y</field>
+            <label>Challenge Match Purpose</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1k</field>
             <label>Challenge Match Qualifying Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3l</field>
+            <label>Challenge Match Ratio</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Z</field>
+            <label>Challenge Match Start Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3a</field>
+            <label>Challenge Match Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3b</field>
+            <label>Challenge Match Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1l</field>
@@ -7505,6 +7928,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2E</field>
             <label>Grant Lead</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD65</field>
+            <label>Grant Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2F</field>
@@ -8075,6 +8502,10 @@
             <label>Qualified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3q</field>
+            <label>Raised to Date for Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EO</field>
             <label>Receipt Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -8159,6 +8590,10 @@
             <label>Tax Deductible Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3m</field>
+            <label>Total Raised by Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EY</field>
             <label>Transaction Type</label>
         </opportunityListFieldsLabelMappings>
@@ -8233,6 +8668,8 @@
             <field>00N5e00000f1X1Y</field>
             <field>00N5e00000f1X1Z</field>
             <field>00N5e00000f1X1a</field>
+            <field>00N7d000008GD3p</field>
+            <field>00N7d000008GD3T</field>
             <field>00N5e00000cv0XJ</field>
             <field>00N8W00000OzyGO</field>
             <field>00N5e00000dMV4Q</field>
@@ -8247,8 +8684,18 @@
             <field>00N5e00000f1X1h</field>
             <field>00N5e00000f1X1i</field>
             <field>00N5e00000f1X1c</field>
+            <field>00N7d000008GD3U</field>
+            <field>00N7d000008GD3V</field>
+            <field>00N7d000008GD3k</field>
+            <field>00N7d000008GD3W</field>
             <field>00N5e00000f1X1j</field>
+            <field>00N7d000008GD3X</field>
+            <field>00N7d000008GD3Y</field>
             <field>00N5e00000f1X1k</field>
+            <field>00N7d000008GD3l</field>
+            <field>00N7d000008GD3Z</field>
+            <field>00N7d000008GD3a</field>
+            <field>00N7d000008GD3b</field>
             <field>00N5e00000f1X1l</field>
             <field>00N5e00000f1X1m</field>
             <field>00N5e00000dMV4R</field>
@@ -8297,6 +8744,7 @@
             <field>00N5e00000dMVDB</field>
             <field>00N5e00000f1X2D</field>
             <field>00N5e00000f1X2E</field>
+            <field>00N7d000008GD65</field>
             <field>00N5e00000f1X2F</field>
             <field>00N5e00000f1X2G</field>
             <field>00N5e00000dMVDC</field>
@@ -8439,6 +8887,7 @@
             <field>00N5e00000cv1IV</field>
             <field>00N5e00000f1X3W</field>
             <field>00N5e00000dMV4T</field>
+            <field>00N7d000008GD3q</field>
             <field>00N5e00000cv1EO</field>
             <field>00N5e00000cv1Du</field>
             <field>00N5e00000cv1Da</field>
@@ -8460,6 +8909,7 @@
             <field>00N5e00000f1X3f</field>
             <field>00N5e00000f1X3h</field>
             <field>00N5e00000cv1F7</field>
+            <field>00N7d000008GD3m</field>
             <field>00N5e00000cv1EY</field>
             <field>00N8W00000OzgLy</field>
             <field>00N8W00000OzgLz</field>
@@ -8652,6 +9102,14 @@
             <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3p</field>
+            <label>Amount Matched by Donor Summary</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3T</field>
+            <label>Amount Needed to Unlock Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv0XJ</field>
             <label>Anonymous</label>
         </opportunityListFieldsLabelMappings>
@@ -8708,12 +9166,52 @@
             <label>CFDA Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3U</field>
+            <label>Challenge Match Criteria</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3V</field>
+            <label>Challenge Match End Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3k</field>
+            <label>Challenge Match Gap</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3W</field>
+            <label>Challenge Match Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1j</field>
             <label>Challenge Match Originating Donation</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3X</field>
+            <label>Challenge Match Percent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Y</field>
+            <label>Challenge Match Purpose</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1k</field>
             <label>Challenge Match Qualifying Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3l</field>
+            <label>Challenge Match Ratio</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Z</field>
+            <label>Challenge Match Start Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3a</field>
+            <label>Challenge Match Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3b</field>
+            <label>Challenge Match Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1l</field>
@@ -8906,6 +9404,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2E</field>
             <label>Grant Lead</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD65</field>
+            <label>Grant Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2F</field>
@@ -9476,6 +9978,10 @@
             <label>Qualified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3q</field>
+            <label>Raised to Date for Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EO</field>
             <label>Receipt Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -9560,6 +10066,10 @@
             <label>Tax Deductible Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3m</field>
+            <label>Total Raised by Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EY</field>
             <label>Transaction Type</label>
         </opportunityListFieldsLabelMappings>
@@ -9635,6 +10145,8 @@
             <field>00N5e00000f1X1Y</field>
             <field>00N5e00000f1X1Z</field>
             <field>00N5e00000f1X1a</field>
+            <field>00N7d000008GD3p</field>
+            <field>00N7d000008GD3T</field>
             <field>00N5e00000cv0XJ</field>
             <field>00N8W00000OzyGO</field>
             <field>00N5e00000dMV4Q</field>
@@ -9649,8 +10161,18 @@
             <field>00N5e00000f1X1h</field>
             <field>00N5e00000f1X1i</field>
             <field>00N5e00000f1X1c</field>
+            <field>00N7d000008GD3U</field>
+            <field>00N7d000008GD3V</field>
+            <field>00N7d000008GD3k</field>
+            <field>00N7d000008GD3W</field>
             <field>00N5e00000f1X1j</field>
+            <field>00N7d000008GD3X</field>
+            <field>00N7d000008GD3Y</field>
             <field>00N5e00000f1X1k</field>
+            <field>00N7d000008GD3l</field>
+            <field>00N7d000008GD3Z</field>
+            <field>00N7d000008GD3a</field>
+            <field>00N7d000008GD3b</field>
             <field>00N5e00000f1X1l</field>
             <field>00N5e00000f1X1m</field>
             <field>00N5e00000dMV4R</field>
@@ -9699,6 +10221,7 @@
             <field>00N5e00000dMVDB</field>
             <field>00N5e00000f1X2D</field>
             <field>00N5e00000f1X2E</field>
+            <field>00N7d000008GD65</field>
             <field>00N5e00000f1X2F</field>
             <field>00N5e00000f1X2G</field>
             <field>00N5e00000dMVDC</field>
@@ -9841,6 +10364,7 @@
             <field>00N5e00000cv1IV</field>
             <field>00N5e00000f1X3W</field>
             <field>00N5e00000dMV4T</field>
+            <field>00N7d000008GD3q</field>
             <field>00N5e00000cv1EO</field>
             <field>00N5e00000cv1Du</field>
             <field>00N5e00000cv1Da</field>
@@ -9862,6 +10386,7 @@
             <field>00N5e00000f1X3f</field>
             <field>00N5e00000f1X3h</field>
             <field>00N5e00000cv1F7</field>
+            <field>00N7d000008GD3m</field>
             <field>00N5e00000cv1EY</field>
             <field>00N8W00000OzgLy</field>
             <field>00N8W00000OzgLz</field>
@@ -10050,6 +10575,14 @@
             <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3p</field>
+            <label>Amount Matched by Donor Summary</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3T</field>
+            <label>Amount Needed to Unlock Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv0XJ</field>
             <label>Anonymous</label>
         </opportunityListFieldsLabelMappings>
@@ -10106,12 +10639,52 @@
             <label>CFDA Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3U</field>
+            <label>Challenge Match Criteria</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3V</field>
+            <label>Challenge Match End Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3k</field>
+            <label>Challenge Match Gap</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3W</field>
+            <label>Challenge Match Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1j</field>
             <label>Challenge Match Originating Donation</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3X</field>
+            <label>Challenge Match Percent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Y</field>
+            <label>Challenge Match Purpose</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1k</field>
             <label>Challenge Match Qualifying Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3l</field>
+            <label>Challenge Match Ratio</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Z</field>
+            <label>Challenge Match Start Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3a</field>
+            <label>Challenge Match Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3b</field>
+            <label>Challenge Match Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1l</field>
@@ -10304,6 +10877,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2E</field>
             <label>Grant Lead</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD65</field>
+            <label>Grant Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2F</field>
@@ -10874,6 +11451,10 @@
             <label>Qualified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3q</field>
+            <label>Raised to Date for Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EO</field>
             <label>Receipt Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -10958,6 +11539,10 @@
             <label>Tax Deductible Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3m</field>
+            <label>Total Raised by Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EY</field>
             <label>Transaction Type</label>
         </opportunityListFieldsLabelMappings>
@@ -11032,6 +11617,8 @@
             <field>00N5e00000f1X1Y</field>
             <field>00N5e00000f1X1Z</field>
             <field>00N5e00000f1X1a</field>
+            <field>00N7d000008GD3p</field>
+            <field>00N7d000008GD3T</field>
             <field>00N5e00000cv0XJ</field>
             <field>00N8W00000OzyGO</field>
             <field>00N5e00000dMV4Q</field>
@@ -11046,8 +11633,18 @@
             <field>00N5e00000f1X1h</field>
             <field>00N5e00000f1X1i</field>
             <field>00N5e00000f1X1c</field>
+            <field>00N7d000008GD3U</field>
+            <field>00N7d000008GD3V</field>
+            <field>00N7d000008GD3k</field>
+            <field>00N7d000008GD3W</field>
             <field>00N5e00000f1X1j</field>
+            <field>00N7d000008GD3X</field>
+            <field>00N7d000008GD3Y</field>
             <field>00N5e00000f1X1k</field>
+            <field>00N7d000008GD3l</field>
+            <field>00N7d000008GD3Z</field>
+            <field>00N7d000008GD3a</field>
+            <field>00N7d000008GD3b</field>
             <field>00N5e00000f1X1l</field>
             <field>00N5e00000f1X1m</field>
             <field>00N5e00000dMV4R</field>
@@ -11096,6 +11693,7 @@
             <field>00N5e00000dMVDB</field>
             <field>00N5e00000f1X2D</field>
             <field>00N5e00000f1X2E</field>
+            <field>00N7d000008GD65</field>
             <field>00N5e00000f1X2F</field>
             <field>00N5e00000f1X2G</field>
             <field>00N5e00000dMVDC</field>
@@ -11238,6 +11836,7 @@
             <field>00N5e00000cv1IV</field>
             <field>00N5e00000f1X3W</field>
             <field>00N5e00000dMV4T</field>
+            <field>00N7d000008GD3q</field>
             <field>00N5e00000cv1EO</field>
             <field>00N5e00000cv1Du</field>
             <field>00N5e00000cv1Da</field>
@@ -11259,6 +11858,7 @@
             <field>00N5e00000f1X3f</field>
             <field>00N5e00000f1X3h</field>
             <field>00N5e00000cv1F7</field>
+            <field>00N7d000008GD3m</field>
             <field>00N5e00000cv1EY</field>
             <field>00N8W00000OzgLy</field>
             <field>00N8W00000OzgLz</field>
@@ -11451,6 +12051,14 @@
             <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3p</field>
+            <label>Amount Matched by Donor Summary</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3T</field>
+            <label>Amount Needed to Unlock Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv0XJ</field>
             <label>Anonymous</label>
         </opportunityListFieldsLabelMappings>
@@ -11507,12 +12115,52 @@
             <label>CFDA Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3U</field>
+            <label>Challenge Match Criteria</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3V</field>
+            <label>Challenge Match End Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3k</field>
+            <label>Challenge Match Gap</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3W</field>
+            <label>Challenge Match Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1j</field>
             <label>Challenge Match Originating Donation</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3X</field>
+            <label>Challenge Match Percent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Y</field>
+            <label>Challenge Match Purpose</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1k</field>
             <label>Challenge Match Qualifying Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3l</field>
+            <label>Challenge Match Ratio</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Z</field>
+            <label>Challenge Match Start Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3a</field>
+            <label>Challenge Match Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3b</field>
+            <label>Challenge Match Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1l</field>
@@ -11705,6 +12353,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2E</field>
             <label>Grant Lead</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD65</field>
+            <label>Grant Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2F</field>
@@ -12275,6 +12927,10 @@
             <label>Qualified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3q</field>
+            <label>Raised to Date for Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EO</field>
             <label>Receipt Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -12359,6 +13015,10 @@
             <label>Tax Deductible Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3m</field>
+            <label>Total Raised by Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EY</field>
             <label>Transaction Type</label>
         </opportunityListFieldsLabelMappings>
@@ -12434,6 +13094,8 @@
             <field>00N5e00000f1X1Y</field>
             <field>00N5e00000f1X1Z</field>
             <field>00N5e00000f1X1a</field>
+            <field>00N7d000008GD3p</field>
+            <field>00N7d000008GD3T</field>
             <field>00N5e00000cv0XJ</field>
             <field>00N8W00000OzyGO</field>
             <field>00N5e00000dMV4Q</field>
@@ -12448,8 +13110,18 @@
             <field>00N5e00000f1X1h</field>
             <field>00N5e00000f1X1i</field>
             <field>00N5e00000f1X1c</field>
+            <field>00N7d000008GD3U</field>
+            <field>00N7d000008GD3V</field>
+            <field>00N7d000008GD3k</field>
+            <field>00N7d000008GD3W</field>
             <field>00N5e00000f1X1j</field>
+            <field>00N7d000008GD3X</field>
+            <field>00N7d000008GD3Y</field>
             <field>00N5e00000f1X1k</field>
+            <field>00N7d000008GD3l</field>
+            <field>00N7d000008GD3Z</field>
+            <field>00N7d000008GD3a</field>
+            <field>00N7d000008GD3b</field>
             <field>00N5e00000f1X1l</field>
             <field>00N5e00000f1X1m</field>
             <field>00N5e00000dMV4R</field>
@@ -12498,6 +13170,7 @@
             <field>00N5e00000dMVDB</field>
             <field>00N5e00000f1X2D</field>
             <field>00N5e00000f1X2E</field>
+            <field>00N7d000008GD65</field>
             <field>00N5e00000f1X2F</field>
             <field>00N5e00000f1X2G</field>
             <field>00N5e00000dMVDC</field>
@@ -12640,6 +13313,7 @@
             <field>00N5e00000cv1IV</field>
             <field>00N5e00000f1X3W</field>
             <field>00N5e00000dMV4T</field>
+            <field>00N7d000008GD3q</field>
             <field>00N5e00000cv1EO</field>
             <field>00N5e00000cv1Du</field>
             <field>00N5e00000cv1Da</field>
@@ -12661,6 +13335,7 @@
             <field>00N5e00000f1X3f</field>
             <field>00N5e00000f1X3h</field>
             <field>00N5e00000cv1F7</field>
+            <field>00N7d000008GD3m</field>
             <field>00N5e00000cv1EY</field>
             <field>00N8W00000OzgLy</field>
             <field>00N8W00000OzgLz</field>
@@ -12849,6 +13524,14 @@
             <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3p</field>
+            <label>Amount Matched by Donor Summary</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3T</field>
+            <label>Amount Needed to Unlock Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv0XJ</field>
             <label>Anonymous</label>
         </opportunityListFieldsLabelMappings>
@@ -12905,12 +13588,52 @@
             <label>CFDA Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3U</field>
+            <label>Challenge Match Criteria</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3V</field>
+            <label>Challenge Match End Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3k</field>
+            <label>Challenge Match Gap</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3W</field>
+            <label>Challenge Match Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1j</field>
             <label>Challenge Match Originating Donation</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3X</field>
+            <label>Challenge Match Percent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Y</field>
+            <label>Challenge Match Purpose</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1k</field>
             <label>Challenge Match Qualifying Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3l</field>
+            <label>Challenge Match Ratio</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Z</field>
+            <label>Challenge Match Start Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3a</field>
+            <label>Challenge Match Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3b</field>
+            <label>Challenge Match Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1l</field>
@@ -13103,6 +13826,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2E</field>
             <label>Grant Lead</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD65</field>
+            <label>Grant Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2F</field>
@@ -13673,6 +14400,10 @@
             <label>Qualified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3q</field>
+            <label>Raised to Date for Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EO</field>
             <label>Receipt Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -13757,6 +14488,10 @@
             <label>Tax Deductible Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3m</field>
+            <label>Total Raised by Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EY</field>
             <label>Transaction Type</label>
         </opportunityListFieldsLabelMappings>
@@ -13831,6 +14566,8 @@
             <field>00N5e00000f1X1Y</field>
             <field>00N5e00000f1X1Z</field>
             <field>00N5e00000f1X1a</field>
+            <field>00N7d000008GD3p</field>
+            <field>00N7d000008GD3T</field>
             <field>00N5e00000cv0XJ</field>
             <field>00N8W00000OzyGO</field>
             <field>00N5e00000dMV4Q</field>
@@ -13845,8 +14582,18 @@
             <field>00N5e00000f1X1h</field>
             <field>00N5e00000f1X1i</field>
             <field>00N5e00000f1X1c</field>
+            <field>00N7d000008GD3U</field>
+            <field>00N7d000008GD3V</field>
+            <field>00N7d000008GD3k</field>
+            <field>00N7d000008GD3W</field>
             <field>00N5e00000f1X1j</field>
+            <field>00N7d000008GD3X</field>
+            <field>00N7d000008GD3Y</field>
             <field>00N5e00000f1X1k</field>
+            <field>00N7d000008GD3l</field>
+            <field>00N7d000008GD3Z</field>
+            <field>00N7d000008GD3a</field>
+            <field>00N7d000008GD3b</field>
             <field>00N5e00000f1X1l</field>
             <field>00N5e00000f1X1m</field>
             <field>00N5e00000dMV4R</field>
@@ -13895,6 +14642,7 @@
             <field>00N5e00000dMVDB</field>
             <field>00N5e00000f1X2D</field>
             <field>00N5e00000f1X2E</field>
+            <field>00N7d000008GD65</field>
             <field>00N5e00000f1X2F</field>
             <field>00N5e00000f1X2G</field>
             <field>00N5e00000dMVDC</field>
@@ -14037,6 +14785,7 @@
             <field>00N5e00000cv1IV</field>
             <field>00N5e00000f1X3W</field>
             <field>00N5e00000dMV4T</field>
+            <field>00N7d000008GD3q</field>
             <field>00N5e00000cv1EO</field>
             <field>00N5e00000cv1Du</field>
             <field>00N5e00000cv1Da</field>
@@ -14058,6 +14807,7 @@
             <field>00N5e00000f1X3f</field>
             <field>00N5e00000f1X3h</field>
             <field>00N5e00000cv1F7</field>
+            <field>00N7d000008GD3m</field>
             <field>00N5e00000cv1EY</field>
             <field>00N8W00000OzgLy</field>
             <field>00N8W00000OzgLz</field>
@@ -14250,6 +15000,14 @@
             <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3p</field>
+            <label>Amount Matched by Donor Summary</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3T</field>
+            <label>Amount Needed to Unlock Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv0XJ</field>
             <label>Anonymous</label>
         </opportunityListFieldsLabelMappings>
@@ -14306,12 +15064,52 @@
             <label>CFDA Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3U</field>
+            <label>Challenge Match Criteria</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3V</field>
+            <label>Challenge Match End Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3k</field>
+            <label>Challenge Match Gap</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3W</field>
+            <label>Challenge Match Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1j</field>
             <label>Challenge Match Originating Donation</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3X</field>
+            <label>Challenge Match Percent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Y</field>
+            <label>Challenge Match Purpose</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1k</field>
             <label>Challenge Match Qualifying Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3l</field>
+            <label>Challenge Match Ratio</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Z</field>
+            <label>Challenge Match Start Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3a</field>
+            <label>Challenge Match Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3b</field>
+            <label>Challenge Match Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1l</field>
@@ -14504,6 +15302,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2E</field>
             <label>Grant Lead</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD65</field>
+            <label>Grant Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2F</field>
@@ -15074,6 +15876,10 @@
             <label>Qualified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3q</field>
+            <label>Raised to Date for Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EO</field>
             <label>Receipt Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -15158,6 +15964,10 @@
             <label>Tax Deductible Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3m</field>
+            <label>Total Raised by Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EY</field>
             <label>Transaction Type</label>
         </opportunityListFieldsLabelMappings>
@@ -15233,6 +16043,8 @@
             <field>00N5e00000f1X1Y</field>
             <field>00N5e00000f1X1Z</field>
             <field>00N5e00000f1X1a</field>
+            <field>00N7d000008GD3p</field>
+            <field>00N7d000008GD3T</field>
             <field>00N5e00000cv0XJ</field>
             <field>00N8W00000OzyGO</field>
             <field>00N5e00000dMV4Q</field>
@@ -15247,8 +16059,18 @@
             <field>00N5e00000f1X1h</field>
             <field>00N5e00000f1X1i</field>
             <field>00N5e00000f1X1c</field>
+            <field>00N7d000008GD3U</field>
+            <field>00N7d000008GD3V</field>
+            <field>00N7d000008GD3k</field>
+            <field>00N7d000008GD3W</field>
             <field>00N5e00000f1X1j</field>
+            <field>00N7d000008GD3X</field>
+            <field>00N7d000008GD3Y</field>
             <field>00N5e00000f1X1k</field>
+            <field>00N7d000008GD3l</field>
+            <field>00N7d000008GD3Z</field>
+            <field>00N7d000008GD3a</field>
+            <field>00N7d000008GD3b</field>
             <field>00N5e00000f1X1l</field>
             <field>00N5e00000f1X1m</field>
             <field>00N5e00000dMV4R</field>
@@ -15297,6 +16119,7 @@
             <field>00N5e00000dMVDB</field>
             <field>00N5e00000f1X2D</field>
             <field>00N5e00000f1X2E</field>
+            <field>00N7d000008GD65</field>
             <field>00N5e00000f1X2F</field>
             <field>00N5e00000f1X2G</field>
             <field>00N5e00000dMVDC</field>
@@ -15439,6 +16262,7 @@
             <field>00N5e00000cv1IV</field>
             <field>00N5e00000f1X3W</field>
             <field>00N5e00000dMV4T</field>
+            <field>00N7d000008GD3q</field>
             <field>00N5e00000cv1EO</field>
             <field>00N5e00000cv1Du</field>
             <field>00N5e00000cv1Da</field>
@@ -15460,6 +16284,7 @@
             <field>00N5e00000f1X3f</field>
             <field>00N5e00000f1X3h</field>
             <field>00N5e00000cv1F7</field>
+            <field>00N7d000008GD3m</field>
             <field>00N5e00000cv1EY</field>
             <field>00N8W00000OzgLy</field>
             <field>00N8W00000OzgLz</field>
@@ -15648,6 +16473,14 @@
             <label>Agency</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3p</field>
+            <label>Amount Matched by Donor Summary</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3T</field>
+            <label>Amount Needed to Unlock Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv0XJ</field>
             <label>Anonymous</label>
         </opportunityListFieldsLabelMappings>
@@ -15704,12 +16537,52 @@
             <label>CFDA Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3U</field>
+            <label>Challenge Match Criteria</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3V</field>
+            <label>Challenge Match End Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3k</field>
+            <label>Challenge Match Gap</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3W</field>
+            <label>Challenge Match Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1j</field>
             <label>Challenge Match Originating Donation</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3X</field>
+            <label>Challenge Match Percent</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Y</field>
+            <label>Challenge Match Purpose</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1k</field>
             <label>Challenge Match Qualifying Donation</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3l</field>
+            <label>Challenge Match Ratio</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3Z</field>
+            <label>Challenge Match Start Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3a</field>
+            <label>Challenge Match Status</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3b</field>
+            <label>Challenge Match Type</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X1l</field>
@@ -15902,6 +16775,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2E</field>
             <label>Grant Lead</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD65</field>
+            <label>Grant Manager</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N5e00000f1X2F</field>
@@ -16472,6 +17349,10 @@
             <label>Qualified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3q</field>
+            <label>Raised to Date for Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EO</field>
             <label>Receipt Amount</label>
         </opportunityListFieldsLabelMappings>
@@ -16556,6 +17437,10 @@
             <label>Tax Deductible Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N7d000008GD3m</field>
+            <label>Total Raised by Challenge Match</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5e00000cv1EY</field>
             <label>Transaction Type</label>
         </opportunityListFieldsLabelMappings>
@@ -16630,6 +17515,8 @@
             <field>00N5e00000f1X1Y</field>
             <field>00N5e00000f1X1Z</field>
             <field>00N5e00000f1X1a</field>
+            <field>00N7d000008GD3p</field>
+            <field>00N7d000008GD3T</field>
             <field>00N5e00000cv0XJ</field>
             <field>00N8W00000OzyGO</field>
             <field>00N5e00000dMV4Q</field>
@@ -16644,8 +17531,18 @@
             <field>00N5e00000f1X1h</field>
             <field>00N5e00000f1X1i</field>
             <field>00N5e00000f1X1c</field>
+            <field>00N7d000008GD3U</field>
+            <field>00N7d000008GD3V</field>
+            <field>00N7d000008GD3k</field>
+            <field>00N7d000008GD3W</field>
             <field>00N5e00000f1X1j</field>
+            <field>00N7d000008GD3X</field>
+            <field>00N7d000008GD3Y</field>
             <field>00N5e00000f1X1k</field>
+            <field>00N7d000008GD3l</field>
+            <field>00N7d000008GD3Z</field>
+            <field>00N7d000008GD3a</field>
+            <field>00N7d000008GD3b</field>
             <field>00N5e00000f1X1l</field>
             <field>00N5e00000f1X1m</field>
             <field>00N5e00000dMV4R</field>
@@ -16694,6 +17591,7 @@
             <field>00N5e00000dMVDB</field>
             <field>00N5e00000f1X2D</field>
             <field>00N5e00000f1X2E</field>
+            <field>00N7d000008GD65</field>
             <field>00N5e00000f1X2F</field>
             <field>00N5e00000f1X2G</field>
             <field>00N5e00000dMVDC</field>
@@ -16836,6 +17734,7 @@
             <field>00N5e00000cv1IV</field>
             <field>00N5e00000f1X3W</field>
             <field>00N5e00000dMV4T</field>
+            <field>00N7d000008GD3q</field>
             <field>00N5e00000cv1EO</field>
             <field>00N5e00000cv1Du</field>
             <field>00N5e00000cv1Da</field>
@@ -16857,6 +17756,7 @@
             <field>00N5e00000f1X3f</field>
             <field>00N5e00000f1X3h</field>
             <field>00N5e00000cv1F7</field>
+            <field>00N7d000008GD3m</field>
             <field>00N5e00000cv1EY</field>
             <field>00N8W00000OzgLy</field>
             <field>00N8W00000OzgLz</field>

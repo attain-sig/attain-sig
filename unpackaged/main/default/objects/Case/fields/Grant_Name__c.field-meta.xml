@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grant_Name__c</fullName>
+    <description>Manually entered by the user submitting the Grant Approval Case. Once the Case is approved, a flow passes this value into the Grant Name field on the Opp, which triggers the Netsuite integration and propogates the Grant Name to the GAU Allocation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>EX. GR_NORAD_Deforestation_2016to2020</inlineHelpText>
+    <label>Grant Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Challenge_Match_Type__c</fullName>
+    <description>Maximum Amount field gets populated if 'Up to Max' selected
+Amount Needed to Unlock Match field populated if 'All or nothing' selected
+Target Amount field populated if 'As much as Possible' selected</description>
+    <externalId>false</externalId>
+    <label>Challenge Match Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Up to max</fullName>
+                <default>false</default>
+                <label>Up to max</label>
+            </value>
+            <value>
+                <fullName>All or nothing</fullName>
+                <default>false</default>
+                <label>All or nothing</label>
+            </value>
+            <value>
+                <fullName>As much as possible</fullName>
+                <default>false</default>
+                <label>As much as possible</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

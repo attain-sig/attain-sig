@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Challenge Match Type --></label>
+        <name>Challenge_Match_Type__c</name>
+        <picklistValues>
+            <masterLabel>All or nothing</masterLabel>
+            <translation><!-- All or nothing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As much as possible</masterLabel>
+            <translation><!-- As much as possible --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Up to max</masterLabel>
+            <translation><!-- Up to max --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

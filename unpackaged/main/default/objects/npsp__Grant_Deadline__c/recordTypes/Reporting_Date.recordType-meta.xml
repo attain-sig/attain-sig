@@ -5,6 +5,21 @@
     <description>Use this Deliverable Record Type to record Reporting Dates</description>
     <label>Reporting Date</label>
     <picklistValues>
+        <picklist>Annual_Match_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed - Met</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed - Not Met</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Document_Category__c</picklist>
         <values>
             <fullName>Financial</fullName>

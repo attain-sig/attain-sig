@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Member of EDF Mission Finance team overseeing the grant. --></help>
+        <label><!-- Grant Manager --></label>
+        <name>Grant_Manager__c</name>
+        <relationshipLabel><!-- Opportunities (Grant Manager) --></relationshipLabel>
+    </CustomFieldTranslation>

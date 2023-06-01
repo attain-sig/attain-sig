@@ -263,6 +263,10 @@
                 <behavior>Edit</behavior>
                 <field>Program_Officer__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Grant_Manager__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -868,14 +872,29 @@
             <sortOrder>18</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>Opportunity.Refund_Request</actionName>
+            <actionName>Opportunity.Donor_Agreement_Approval</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>19</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>Opportunity.Adjustment_Request</actionName>
+            <actionName>Opportunity.Grant_Approval</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>20</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Opportunity.Refund_Request</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>21</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Opportunity.Adjustment_Request</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>22</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Opportunity.Fund_Request</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>23</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <quickActionList>
@@ -895,10 +914,19 @@
             <quickActionName>NewEvent</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
+            <quickActionName>Opportunity.Donor_Agreement_Approval</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Opportunity.Grant_Approval</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
             <quickActionName>Opportunity.Refund_Request</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>Opportunity.Adjustment_Request</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Opportunity.Fund_Request</quickActionName>
         </quickActionListItems>
     </quickActionList>
     <relatedContent>
@@ -1021,17 +1049,17 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>Annual_Match_Name__c</fields>
-        <fields>Threshold_Amount__c</fields>
-        <relatedList>Annual_Match__c.Challenge_Donation__c</relatedList>
+        <fields>Donation_Name__c</fields>
+        <fields>Donation_Amount__c</fields>
+        <fields>Qualifying_Amount__c</fields>
+        <fields>Stage__c</fields>
+        <relatedList>Qualifying_Donation__c.Annual_Match_Originating_Donation__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Donation_Amount__c</fields>
         <fields>Qualifying_Amount__c</fields>
-        <fields>Challenge_Fiscal_Year_Release__c</fields>
         <fields>Stage__c</fields>
-        <fields>Gift_Administration_Approved__c</fields>
-        <fields>Challenge_Match__c</fields>
         <relatedList>Qualifying_Donation__c.Donation_Name__c</relatedList>
     </relatedLists>
     <relatedLists>

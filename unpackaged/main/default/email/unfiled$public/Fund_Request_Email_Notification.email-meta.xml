@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template that triggers when a Fund Request is added to a Fund Request Case Queue</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Fund Request Email Notification</name>
+    <style>none</style>
+    <subject>New {!Case.Reason} Case Created</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

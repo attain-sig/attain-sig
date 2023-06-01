@@ -1,48 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <layouts>
         <layout>Conditional Deliverable Layout</layout>
+        <sections>
+            <label><!-- Annual Challenge Match --></label>
+            <section>Annual Challenge Match</section>
+        </sections>
         <sections>
             <label><!-- GPT Only --></label>
             <section>GPT Only</section>
@@ -69,4 +32,59 @@
         <label><!-- Reporting Date --></label>
         <name>Reporting_Date</name>
     </recordTypes>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <quickActions>
+        <label><!-- New Qualifying Opportunity --></label>
+        <name>New_Qualifying_Opportunity</name>
+    </quickActions>
 </CustomObjectTranslation>

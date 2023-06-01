@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reporting_Requirements__c</fullName>
+    <description>Used for GP Fund Request Cases; manually entered by the submitter. not tied to Deliverables in any systematic way</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Does the donor require detailed reporting on the use of their specific gift or is reporting at the initiative or program level?</inlineHelpText>
+    <label>Reporting Requirements</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

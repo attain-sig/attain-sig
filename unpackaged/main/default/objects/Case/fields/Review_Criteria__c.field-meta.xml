@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Review_Criteria__c</fullName>
+    <description>Indicates which criteria the gift meets that requires the donor agreement to go through the formal approval process before getting signed. Manually entered by the Case submitter.</description>
+    <externalId>false</externalId>
+    <label>Review Criteria</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lobbying Activity</fullName>
+                <default>false</default>
+                <label>Lobbying Activity</label>
+            </value>
+            <value>
+                <fullName>Geography Outside US/Europe</fullName>
+                <default>false</default>
+                <label>Geography Outside US/Europe</label>
+            </value>
+            <value>
+                <fullName>EDF Board Member</fullName>
+                <default>false</default>
+                <label>EDF Board Member</label>
+            </value>
+            <value>
+                <fullName>Audit Clauses/Claw-Back Provision</fullName>
+                <default>false</default>
+                <label>Audit Clauses/Claw-Back Provision</label>
+            </value>
+            <value>
+                <fullName>Creation of New FTEs</fullName>
+                <default>false</default>
+                <label>Creation of New FTEs</label>
+            </value>
+            <value>
+                <fullName>Publishing Rights/Intellectual Property</fullName>
+                <default>false</default>
+                <label>Publishing Rights/Intellectual Property</label>
+            </value>
+            <value>
+                <fullName>Time Restriction</fullName>
+                <default>false</default>
+                <label>Time Restriction</label>
+            </value>
+            <value>
+                <fullName>&gt; $500K</fullName>
+                <default>false</default>
+                <label>&gt; $500K</label>
+            </value>
+            <value>
+                <fullName>Challenge/Matching Components</fullName>
+                <default>false</default>
+                <label>Challenge/Matching Components</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

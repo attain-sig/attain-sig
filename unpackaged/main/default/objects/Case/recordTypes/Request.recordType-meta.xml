@@ -167,7 +167,95 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Donor_Fund_Type__c</picklist>
+        <values>
+            <fullName>Multi-Donor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single-Donor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EDF_Role__c</picklist>
+        <values>
+            <fullName>Prime</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sub-Awardee</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Endowment__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Indirect_Cap_Donor_Imposed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Is_follow_up_required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_Area_of_Work_Approved__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_Area_of_Work__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_Fund_Requested__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_Originating_Currency__c</picklist>
         <values>
             <fullName>No</fullName>
             <default>false</default>
@@ -320,6 +408,45 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Review_Criteria__c</picklist>
+        <values>
+            <fullName>%3E %24500K</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Audit Clauses%2FClaw-Back Provision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Challenge%2FMatching Components</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creation of New FTEs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDF Board Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Geography Outside US%2FEurope</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lobbying Activity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Publishing Rights%2FIntellectual Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time Restriction</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Sentiment__c</picklist>
         <values>
             <fullName>negative</fullName>
@@ -331,6 +458,28 @@
         </values>
         <values>
             <fullName>positive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subcontract_Components__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Time_Restriction__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
             <default>false</default>
         </values>
     </picklistValues>

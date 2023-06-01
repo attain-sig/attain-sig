@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Donor_Fund_Type__c</fullName>
+    <description>Used for GP Fund Request Cases; manually entered by the submitter</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If the funder has imposed an indirect cap, please submit a request for a new Grant instead of a Single-Donor Fund.</inlineHelpText>
+    <label>Donor Fund Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Single-Donor</fullName>
+                <default>false</default>
+                <label>Single-Donor</label>
+            </value>
+            <value>
+                <fullName>Multi-Donor</fullName>
+                <default>false</default>
+                <label>Multi-Donor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

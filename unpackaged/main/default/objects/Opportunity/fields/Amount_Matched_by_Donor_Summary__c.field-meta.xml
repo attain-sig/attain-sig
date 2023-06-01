@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount_Matched_by_Donor_Summary__c</fullName>
+    <description>Roll-up sum of the Amount Matched by Donor field on Deliverable when the “Condition Met” checkbox on the corresponding Annual Matches is true.</description>
+    <externalId>false</externalId>
+    <label>Amount Matched by Donor Summary</label>
+    <summarizedField>npsp__Grant_Deadline__c.Amount_Matched_by_Donor_Numeric__c</summarizedField>
+    <summaryFilterItems>
+        <field>npsp__Grant_Deadline__c.Condition_Met__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>npsp__Grant_Deadline__c.npsp__Opportunity__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

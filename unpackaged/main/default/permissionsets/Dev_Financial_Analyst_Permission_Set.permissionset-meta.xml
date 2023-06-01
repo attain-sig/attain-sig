@@ -2036,11 +2036,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Qualifying_Donation__c.Annual_Challenge_Match__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Qualifying_Donation__c.Annual_Match_Lookup__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2763,15 +2758,6 @@
         <modifyAllRecords>false</modifyAllRecords>
         <object>Planned_Gift__c</object>
         <viewAllRecords>false</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>Qualifying_Donation__c</object>
-        <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
