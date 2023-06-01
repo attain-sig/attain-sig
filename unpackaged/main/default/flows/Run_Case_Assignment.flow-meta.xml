@@ -23,7 +23,7 @@
         <inputParameters>
             <name>triggerOtherEmail</name>
             <value>
-                <booleanValue>false</booleanValue>
+                <booleanValue>true</booleanValue>
             </value>
         </inputParameters>
         <inputParameters>
