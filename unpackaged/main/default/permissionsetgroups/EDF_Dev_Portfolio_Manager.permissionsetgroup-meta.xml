@@ -3,5 +3,6 @@
     <description>Replaces Dev Portfolio Manager Permission Set</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>EDF Dev Portfolio Manager</label>
+    <permissionSets>Manage_Fund_Requests</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

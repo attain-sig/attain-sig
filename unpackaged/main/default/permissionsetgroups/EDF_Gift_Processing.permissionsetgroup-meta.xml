@@ -8,6 +8,7 @@
     <permissionSets>Manage_Gift_Processing_Cases</permissionSets>
     <permissionSets>Manage_Grant_Approvals</permissionSets>
     <permissionSets>Read_Only_Donor_Agreement_Approvals</permissionSets>
+    <permissionSets>Read_Only_Fund_Requests</permissionSets>
     <permissionSets>sortablegrid__View_Sortable_Data_Grids</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>
