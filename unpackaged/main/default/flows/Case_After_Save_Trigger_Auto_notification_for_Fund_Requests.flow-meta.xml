@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
-        <name>Send_Fund_Request_Email</name>
-        <label>Send Fund Request Email</label>
+        <description>Send Fund Request Email to Case Owner</description>
+        <name>Send_Fund_Request_Email_Case_Owner</name>
+        <label>Send Fund Request Email to Case Owner</label>
         <locationX>176</locationX>
         <locationY>323</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Send_Fund_Request_Email_to_ERPSupport</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Owner:User.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <stringValue>salesforcesysadmin@edf.org</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <elementReference>EmailSubjectFundRequest</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>EmailBodyFundRequest</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <description>Send Fund Request Email to ERPSupport</description>
+        <name>Send_Fund_Request_Email_to_ERPSupport</name>
+        <label>Send Fund Request Email to ERPSupport</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>emailAddresses</name>
             <value>
-                <elementReference>$Record.Owner:User.Email</elementReference>
+                <stringValue>erpsupport@edf.org</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -67,7 +111,7 @@
         <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Send_Fund_Request_Email</targetReference>
+            <targetReference>Send_Fund_Request_Email_Case_Owner</targetReference>
         </connector>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterLogic>and</filterLogic>
