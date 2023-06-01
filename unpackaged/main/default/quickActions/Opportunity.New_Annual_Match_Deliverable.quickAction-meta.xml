@@ -21,6 +21,11 @@
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
+                <field>Annual_Match_End_Date__c</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
                 <field>Annual_Match_Status__c</field>
                 <uiBehavior>Required</uiBehavior>
             </quickActionLayoutItems>
@@ -33,8 +38,8 @@
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>Annual_Match_End_Date__c</field>
-                <uiBehavior>Required</uiBehavior>
+                <field>Pledge_Installment_Payment__c</field>
+                <uiBehavior>Edit</uiBehavior>
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
