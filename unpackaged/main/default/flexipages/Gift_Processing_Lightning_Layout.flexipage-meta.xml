@@ -419,6 +419,23 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
+                    <value>required</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Time_Restriction__c</fieldItem>
+                <identifier>RecordTime_Restriction_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Reason}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Grant Approval</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Grant_Term_Start_Date__c</fieldItem>
@@ -445,23 +462,6 @@
                         <leftValue>{!Record.Reason}</leftValue>
                         <operator>EQUAL</operator>
                         <rightValue>Grant Approval</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.New_Fund_Name__c</fieldItem>
-                <identifier>RecordNew_Fund_Name_cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Reason}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Fund Request</rightValue>
                     </criteria>
                 </visibilityRule>
             </fieldInstance>
@@ -564,23 +564,6 @@
                     <name>uiBehavior</name>
                     <value>required</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Time_Restriction__c</fieldItem>
-                <identifier>RecordTime_Restriction_cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Reason}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Grant Approval</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
                 <fieldItem>Record.Subcontract_Components__c</fieldItem>
                 <identifier>RecordSubcontract_Components_cField</identifier>
                 <visibilityRule>
@@ -609,6 +592,23 @@
                 </visibilityRule>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>required</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.New_Fund_Name__c</fieldItem>
+                <identifier>RecordNew_Fund_Name_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Reason}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Fund Request</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-3d8864c7-cbdc-4a18-968d-ee6a8408f882</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -621,6 +621,23 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.EDF_Role__c</fieldItem>
                 <identifier>RecordEDF_Role_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Reason}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Grant Approval</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>required</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Grant_Manager__c</fieldItem>
+                <identifier>RecordGrant_Manager_cField</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!Record.Reason}</leftValue>
@@ -670,8 +687,42 @@
                     <name>uiBehavior</name>
                     <value>required</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Grant_Manager__c</fieldItem>
-                <identifier>RecordGrant_Manager_cField</identifier>
+                <fieldItem>Record.Indirect_Rate__c</fieldItem>
+                <identifier>RecordIndirect_Rate_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Reason}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Grant Approval</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Indirect_Amount__c</fieldItem>
+                <identifier>RecordIndirect_Amount_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Reason}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Grant Approval</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>required</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Indirect_Cap_Donor_Imposed__c</fieldItem>
+                <identifier>RecordIndirect_Cap_Donor_Imposed_cField</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!Record.Reason}</leftValue>
@@ -723,57 +774,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Originating_Currency_Amount__c</fieldItem>
                 <identifier>RecordOriginating_Currency_Amount_cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Reason}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Grant Approval</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Indirect_Cap_Donor_Imposed__c</fieldItem>
-                <identifier>RecordIndirect_Cap_Donor_Imposed_cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Reason}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Grant Approval</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Indirect_Rate__c</fieldItem>
-                <identifier>RecordIndirect_Rate_cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Reason}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Grant Approval</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Indirect_Amount__c</fieldItem>
-                <identifier>RecordIndirect_Amount_cField</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!Record.Reason}</leftValue>
