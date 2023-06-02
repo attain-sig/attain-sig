@@ -66,6 +66,10 @@
                 <behavior>Edit</behavior>
                 <field>npsp__Primary_Affiliation__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Contact_Name__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
