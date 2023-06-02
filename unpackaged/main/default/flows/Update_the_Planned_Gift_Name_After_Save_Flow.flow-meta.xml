@@ -5,7 +5,7 @@
         <name>Is_This_a_New_Record_or_An_Update</name>
         <label>Is This a New Record or An Update</label>
         <locationX>182</locationX>
-        <locationY>335</locationY>
+        <locationY>323</locationY>
         <defaultConnector>
             <targetReference>Update_Existing_Planned_Gift_Name</targetReference>
         </defaultConnector>
@@ -26,6 +26,7 @@
             <label>New Record</label>
         </rules>
     </decisions>
+    <description>Add Automations Off Condition</description>
     <environments>Default</environments>
     <formulas>
         <description>Check if this a new Planned Gift record</description>
@@ -64,7 +65,7 @@
         <name>Set_Name_of_New_Planned_Gift</name>
         <label>Set Name of New Planned Gift</label>
         <locationX>50</locationX>
-        <locationY>455</locationY>
+        <locationY>431</locationY>
         <inputAssignments>
             <field>Name</field>
             <value>
@@ -77,7 +78,7 @@
         <name>Update_Existing_Planned_Gift_Name</name>
         <label>Update Existing Planned Gift Name</label>
         <locationX>314</locationX>
-        <locationY>455</locationY>
+        <locationY>431</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Name</field>
@@ -100,6 +101,7 @@
         <connector>
             <targetReference>Is_This_a_New_Record_or_An_Update</targetReference>
         </connector>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE</filterFormula>
         <object>Planned_Gift__c</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
