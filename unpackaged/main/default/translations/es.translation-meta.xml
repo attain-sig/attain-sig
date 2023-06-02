@@ -2471,6 +2471,10 @@
         <label><!-- Households and Donations --></label>
         <name>Households_and_Donations</name>
         <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
             <label><!-- Household Members --></label>
             <name>Household Members</name>
         </sections>

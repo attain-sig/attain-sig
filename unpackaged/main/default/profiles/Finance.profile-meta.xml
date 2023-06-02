@@ -14580,6 +14580,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>npe01__OppPayment__c.Pledge_Reminder_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>npe01__OppPayment__c.Pledge_Reminder_Reason_Not_Sent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>npe01__OppPayment__c.Pledge_Reminder_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>npe01__OppPayment__c.Reversed_Date_donation_edf__c</field>
         <readable>true</readable>
     </fieldPermissions>

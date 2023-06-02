@@ -3873,6 +3873,11 @@
             <field>Address_Check__c</field>
             <table>Account.Contacts</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Contact_Name__c</field>
+            <table>Account.Contacts</table>
+        </columns>
         <masterLabel>Contacts</masterLabel>
     </sections>
     <sections>

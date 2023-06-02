@@ -16845,6 +16845,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>npe01__OppPayment__c.Pledge_Reminder_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>npe01__OppPayment__c.Pledge_Reminder_Reason_Not_Sent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>npe01__OppPayment__c.Pledge_Reminder_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>npe01__OppPayment__c.Refund_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -22048,7 +22063,7 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Q9__Set_Active_Partner_Result__e</object>
-        <viewAllRecords>true</viewAllRecords>
+        <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
