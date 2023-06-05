@@ -300,7 +300,7 @@
     <relatedLists>
         <fields>NAME</fields>
         <fields>Donation_Name__c</fields>
-        <fields>Donation_Amount__c</fields>
+        <fields>Stage__c</fields>
         <fields>Qualifying_Amount__c</fields>
         <relatedList>Qualifying_Donation__c.Annual_Challenge_Match__c</relatedList>
     </relatedLists>

@@ -55,7 +55,7 @@
         <inputParameters>
             <name>emailAddresses</name>
             <value>
-                <stringValue>erpsupport@edf.org</stringValue>
+                <stringValue>dbahtijari@edf.org</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -133,7 +133,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
     <textTemplates>
         <description>Email body for Fund Request email.</description>
         <name>EmailBodyFundRequest</name>

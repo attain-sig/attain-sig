@@ -7,6 +7,10 @@
         <default>false</default>
     </values>
     <values>
+        <fullName>Closed - Cancelled</fullName>
+        <default>false</default>
+    </values>
+    <values>
         <fullName>Closed - Escalated</fullName>
         <default>false</default>
     </values>

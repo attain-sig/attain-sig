@@ -908,7 +908,7 @@
                             <value>Donation_Name__c</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>Donation_Amount__c</value>
+                            <value>Stage__c</value>
                         </valueListItems>
                         <valueListItems>
                             <value>Qualifying_Amount__c</value>
