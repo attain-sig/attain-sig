@@ -3,11 +3,10 @@
     <fullName>Donor_Agreement_Approvals_Open</fullName>
     <columns>CASES.CASE_NUMBER</columns>
     <columns>NAME</columns>
-    <columns>CASES.SUBJECT</columns>
+    <columns>Review_Criteria__c</columns>
     <columns>CASES.STATUS</columns>
-    <columns>CASES.PRIORITY</columns>
     <columns>CASES.CREATED_DATE</columns>
-    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OWNER_NAME</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>CASES.REASON</field>

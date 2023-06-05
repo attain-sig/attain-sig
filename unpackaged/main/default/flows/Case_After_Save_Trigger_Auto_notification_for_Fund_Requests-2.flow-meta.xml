@@ -133,7 +133,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <textTemplates>
         <description>Email body for Fund Request email.</description>
         <name>EmailBodyFundRequest</name>

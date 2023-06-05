@@ -50,15 +50,15 @@
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>Closed - Cancelled</fullName>
-        <default>false</default>
-        <label>Closed - Cancelled</label>
-        <closed>true</closed>
-    </standardValue>
-    <standardValue>
         <fullName>Closed - Resolved</fullName>
         <default>false</default>
         <label>Closed - Resolved</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Cancelled</fullName>
+        <default>false</default>
+        <label>Closed - Cancelled</label>
         <closed>true</closed>
     </standardValue>
     <standardValue>
