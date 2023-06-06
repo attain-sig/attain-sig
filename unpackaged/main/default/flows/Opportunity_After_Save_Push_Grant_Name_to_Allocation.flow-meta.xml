@@ -1,41 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>53.0</apiVersion>
-    <decisions>
-        <name>Flow_Automations_Off</name>
-        <label>Flow Automations Off</label>
-        <locationX>176</locationX>
-        <locationY>335</locationY>
-        <defaultConnector>
-            <targetReference>Update_Allocation</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>User_Has_Flows_Off_Permission_Set</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Permission.Flow_Automations_Off</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <label>User Has Flows Off Permission Set</label>
-        </rules>
-    </decisions>
+    <assignments>
+        <name>Add_to_Record_Collection</name>
+        <label>Add to Record Collection</label>
+        <locationX>264</locationX>
+        <locationY>755</locationY>
+        <assignmentItems>
+            <assignToReference>GAUAllocationCollection</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Loop_Through_Payment_Allocations</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_Through_Payment_Allocations</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_New_Grant_Name_to_Variable</name>
+        <label>Assign New Grant Name to Variable</label>
+        <locationX>264</locationX>
+        <locationY>647</locationY>
+        <assignmentItems>
+            <assignToReference>Loop_Through_Payment_Allocations.Grant_Segment__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Grant_Name__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_to_Record_Collection</targetReference>
+        </connector>
+    </assignments>
+    <description>Updated and corrected per FB-3084</description>
     <environments>Default</environments>
     <interviewLabel>Opportunity After Save Push Grant Name to Allocation {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Opportunity After Save Push Grant Name to Allocation</label>
     <loops>
-        <name>looptest</name>
-        <label>looptest</label>
-        <locationX>352</locationX>
-        <locationY>695</locationY>
-        <collectionReference>Get_Opportunity_Payments</collectionReference>
+        <name>Loop_Through_Payment_Allocations</name>
+        <label>Loop Through Payment Allocations</label>
+        <locationX>176</locationX>
+        <locationY>539</locationY>
+        <collectionReference>Get_Payment_Allocations</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
-            <targetReference>test</targetReference>
+            <targetReference>Assign_New_Grant_Name_to_Variable</targetReference>
         </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Update_GAU_Allocation_Collection</targetReference>
+        </noMoreValuesConnector>
     </loops>
     <processMetadataValues>
         <name>BuilderType</name>
@@ -57,57 +71,33 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordLookups>
-        <name>Get_Opportunity_Payments</name>
-        <label>Get Opportunity Payments</label>
-        <locationX>352</locationX>
-        <locationY>575</locationY>
+        <name>Get_Payment_Allocations</name>
+        <label>Get Payment Allocations</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>looptest</targetReference>
+            <targetReference>Loop_Through_Payment_Allocations</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>npe01__Opportunity__c</field>
+            <field>Oppty_Record_ID__c</field>
             <operator>EqualTo</operator>
             <value>
                 <elementReference>$Record.Id</elementReference>
             </value>
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
-        <object>npe01__OppPayment__c</object>
+        <object>npsp__Allocation__c</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
-        <name>test</name>
-        <label>test</label>
-        <locationX>440</locationX>
-        <locationY>815</locationY>
-        <connector>
-            <targetReference>looptest</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>npsp__Payment__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>looptest.Id</elementReference>
-            </value>
-        </filters>
-        <inputAssignments>
-            <field>Grant_Segment__c</field>
-            <value>
-                <elementReference>$Record.Grant_Name__c</elementReference>
-            </value>
-        </inputAssignments>
-        <object>npsp__Allocation__c</object>
-    </recordUpdates>
-    <recordUpdates>
         <name>Update_Allocation</name>
         <label>Update Allocation</label>
-        <locationX>352</locationX>
-        <locationY>455</locationY>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
         <connector>
-            <targetReference>Get_Opportunity_Payments</targetReference>
+            <targetReference>Get_Payment_Allocations</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -125,24 +115,41 @@
         </inputAssignments>
         <object>npsp__Allocation__c</object>
     </recordUpdates>
+    <recordUpdates>
+        <name>Update_GAU_Allocation_Collection</name>
+        <label>Update GAU Allocation Collection</label>
+        <locationX>176</locationX>
+        <locationY>947</locationY>
+        <inputReference>GAUAllocationCollection</inputReference>
+    </recordUpdates>
     <start>
         <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Flow_Automations_Off</targetReference>
+            <targetReference>Update_Allocation</targetReference>
         </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Grant_Name__c</field>
-            <operator>IsChanged</operator>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </filters>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+ischanged({!$Record.Grant_Name__c})</filterFormula>
         <object>Opportunity</object>
-        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>
     <triggerOrder>5</triggerOrder>
+    <variables>
+        <name>GAUAllocationCollection</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>npsp__Allocation__c</objectType>
+    </variables>
+    <variables>
+        <name>GrantName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
 </Flow>
