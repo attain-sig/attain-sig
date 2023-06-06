@@ -41,7 +41,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>Merkle,Cager</value>
+            <value>Merkle</value>
         </criteriaItems>
         <criteriaItems>
             <column>Opportunity.Postmark_Year__c</column>

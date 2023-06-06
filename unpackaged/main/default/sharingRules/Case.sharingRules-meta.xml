@@ -169,7 +169,7 @@
     </sharingCriteriaRules>
     <sharingCriteriaRules>
         <fullName>Edit_Gift_Processing_Cases_Development</fullName>
-        <accessLevel>Edit</accessLevel>
+        <accessLevel>Read</accessLevel>
         <label>Edit Gift Processing Cases - Development</label>
         <sharedTo>
             <group>Development</group>

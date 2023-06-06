@@ -50,7 +50,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>Merkle,Cager</value>
+            <value>Merkle</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>

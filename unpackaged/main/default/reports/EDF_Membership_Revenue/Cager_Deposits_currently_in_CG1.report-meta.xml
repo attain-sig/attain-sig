@@ -66,7 +66,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>DMP,Merkle,Cager</value>
+            <value>DMP,Merkle</value>
         </criteriaItems>
         <criteriaItems>
             <column>Opportunity.Transaction_Type__c</column>

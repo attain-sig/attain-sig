@@ -77,7 +77,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>notEqual</operator>
-            <value>Merkle,Cager</value>
+            <value>Merkle</value>
         </criteriaItems>
         <criteriaItems>
             <column>npe01__OppPayment__c$npe01__Opportunity__c.RecordType</column>

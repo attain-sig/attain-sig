@@ -59,7 +59,7 @@
             <value>
                 <fullName>Merkle</fullName>
                 <default>false</default>
-                <label>Cager</label>
+                <label>Merkle</label>
             </value>
         </valueSetDefinition>
     </valueSet>

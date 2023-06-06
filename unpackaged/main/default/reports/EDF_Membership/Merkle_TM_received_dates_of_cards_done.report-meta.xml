@@ -39,7 +39,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>Merkle,Cager</value>
+            <value>Merkle</value>
         </criteriaItems>
         <criteriaItems>
             <column>npe01__OppPayment__c.npe01__Payment_Method__c</column>

@@ -3,10 +3,6 @@
         <label><!-- Processed By --></label>
         <name>Processed_By__c</name>
         <picklistValues>
-            <masterLabel>Cager</masterLabel>
-            <translation><!-- Cager --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Customer Service</masterLabel>
             <translation><!-- Customer Service --></translation>
         </picklistValues>
@@ -33,6 +29,10 @@
         <picklistValues>
             <masterLabel>Membership</masterLabel>
             <translation><!-- Membership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Merkle</masterLabel>
+            <translation><!-- Merkle --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Payment Solutions</masterLabel>
