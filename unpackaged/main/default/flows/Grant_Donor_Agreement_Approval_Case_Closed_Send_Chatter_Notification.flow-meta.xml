@@ -173,11 +173,15 @@
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
     <textTemplates>
         <name>DonorAgreementChatterMessageBody</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
-        <text>@[{!$Record.CreatedById}] Your {!$Record.Reason} Case was updated to {!$Record.Status} for {!$Record.Opportunity__r.Name}</text>
+        <text>@[{!$Record.CreatedById}] Your {!$Record.Reason} Case was updated to {!$Record.Status} for {!$Record.Opportunity__r.Name}
+
+Opportunity Amount: {!$Record.Opportunity_Amount__c}
+Close Date: {!$Record.Opportunitity_Close_Date__c}
+Review Criteria: {!$Record.Review_Criteria__c}</text>
     </textTemplates>
     <textTemplates>
         <name>FundChatterMessageBody</name>
@@ -187,7 +191,11 @@
     <textTemplates>
         <name>GrantChatterMessageBody</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
-        <text>@[{!$Record.CreatedById}] @[{!$Record.Grant_Manager__r.Id}] Your {!$Record.Reason} Case was updated to {!$Record.Status} for {!$Record.Opportunity__r.Name}</text>
+        <text>@[{!$Record.CreatedById}] @[{!$Record.Grant_Manager__r.Id}] Your {!$Record.Reason} Case was updated to {!$Record.Status} for {!$Record.Opportunity__r.Name}
+
+Opportunity Amount: {!$Record.Opportunity_Amount__c}
+Close Date: {!$Record.Opportunitity_Close_Date__c}
+Grant Name: {!$Record.Grant_Name__c}</text>
     </textTemplates>
     <triggerOrder>10</triggerOrder>
 </Flow>
