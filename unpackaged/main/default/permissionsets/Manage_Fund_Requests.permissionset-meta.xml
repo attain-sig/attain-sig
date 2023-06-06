@@ -141,7 +141,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Manage Fund Requests</label>
+    <label>Create/Edit Fund Request Cases</label>
     <license>Salesforce</license>
     <objectPermissions>
         <allowCreate>true</allowCreate>

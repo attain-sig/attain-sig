@@ -472,6 +472,23 @@
                     <name>uiBehavior</name>
                     <value>required</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.New_Fund_Name__c</fieldItem>
+                <identifier>RecordNew_Fund_Name_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Reason}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Fund Request</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>required</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Purpose__c</fieldItem>
                 <identifier>RecordPurpose_cField</identifier>
                 <visibilityRule>
@@ -588,23 +605,6 @@
                         <leftValue>{!Record.Subcontract_Components__c}</leftValue>
                         <operator>EQUAL</operator>
                         <rightValue>Yes</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.New_Fund_Name__c</fieldItem>
-                <identifier>RecordNew_Fund_Name_cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Reason}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Fund Request</rightValue>
                     </criteria>
                 </visibilityRule>
             </fieldInstance>
@@ -806,6 +806,23 @@
                     <name>uiBehavior</name>
                     <value>required</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.Donor_Fund_Type__c</fieldItem>
+                <identifier>RecordDonor_Fund_Type_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Reason}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Fund Request</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>required</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Endowment__c</fieldItem>
                 <identifier>RecordEndowment_cField</identifier>
                 <visibilityRule>
@@ -842,23 +859,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.New_Area_of_Work_Approved__c</fieldItem>
                 <identifier>RecordNew_Area_of_Work_Approved_cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Reason}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Fund Request</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Donor_Fund_Type__c</fieldItem>
-                <identifier>RecordDonor_Fund_Type_cField</identifier>
                 <visibilityRule>
                     <criteria>
                         <leftValue>{!Record.Reason}</leftValue>

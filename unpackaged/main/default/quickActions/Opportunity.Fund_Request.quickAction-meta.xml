@@ -43,7 +43,7 @@
         <quickActionLayoutColumns>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>Endowment__c</field>
+                <field>New_Fund_Name__c</field>
                 <uiBehavior>Required</uiBehavior>
             </quickActionLayoutItems>
             <quickActionLayoutItems>
@@ -63,17 +63,17 @@
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>New_Area_of_Work__c</field>
+                <field>Reporting_Requirements__c</field>
                 <uiBehavior>Required</uiBehavior>
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>New_Area_of_Work_Approved__c</field>
-                <uiBehavior>Edit</uiBehavior>
+                <field>Donor_Fund_Type__c</field>
+                <uiBehavior>Required</uiBehavior>
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>Reporting_Requirements__c</field>
+                <field>Endowment__c</field>
                 <uiBehavior>Required</uiBehavior>
             </quickActionLayoutItems>
             <quickActionLayoutItems>
@@ -83,11 +83,6 @@
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
         <quickActionLayoutColumns>
-            <quickActionLayoutItems>
-                <emptySpace>false</emptySpace>
-                <field>New_Fund_Name__c</field>
-                <uiBehavior>Required</uiBehavior>
-            </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
                 <field>AccountId</field>
@@ -110,8 +105,13 @@
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>Donor_Fund_Type__c</field>
+                <field>New_Area_of_Work__c</field>
                 <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>New_Area_of_Work_Approved__c</field>
+                <uiBehavior>Edit</uiBehavior>
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
     </quickActionLayout>
