@@ -8,19 +8,6 @@
         <plural>true</plural>
         <value>Actions</value>
     </caseValues>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <layouts>
         <layout>Action Layout</layout>
         <sections>
@@ -28,5 +15,18 @@
             <section>Custom Links</section>
         </sections>
     </layouts>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <startsWith>Vowel</startsWith>
 </CustomObjectTranslation>

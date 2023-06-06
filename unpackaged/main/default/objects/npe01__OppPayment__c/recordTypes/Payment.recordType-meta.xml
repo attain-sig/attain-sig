@@ -250,11 +250,11 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Donor Records</fullName>
+            <fullName>Electronic Billing</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Electronic Billing</fullName>
+            <fullName>Gift Processing</fullName>
             <default>false</default>
         </values>
         <values>
@@ -263,6 +263,10 @@
         </values>
         <values>
             <fullName>Merkle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moore</fullName>
             <default>false</default>
         </values>
         <values>

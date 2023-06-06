@@ -11,9 +11,9 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Donor Records</fullName>
+                <fullName>Gift Processing</fullName>
                 <default>false</default>
-                <label>Donor Records</label>
+                <label>Gift Processing</label>
             </value>
             <value>
                 <fullName>DMP</fullName>
@@ -24,6 +24,11 @@
                 <fullName>Merkle</fullName>
                 <default>false</default>
                 <label>Merkle</label>
+            </value>
+            <value>
+                <fullName>Moore</fullName>
+                <default>false</default>
+                <label>Moore</label>
             </value>
         </valueSetDefinition>
     </valueSet>

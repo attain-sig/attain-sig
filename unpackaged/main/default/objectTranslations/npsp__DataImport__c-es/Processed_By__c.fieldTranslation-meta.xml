@@ -19,16 +19,20 @@
             <translation><!-- Donor --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Donor Records</masterLabel>
-            <translation><!-- Donor Records --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Electronic Billing</masterLabel>
             <translation><!-- Electronic Billing --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Gift Processing</masterLabel>
+            <translation><!-- Gift Processing --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Merkle</masterLabel>
             <translation><!-- Merkle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moore</masterLabel>
+            <translation><!-- Moore --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Payment Solutions</masterLabel>

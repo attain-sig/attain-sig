@@ -674,15 +674,19 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Donor Records</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Electronic Billing</fullName>
             <default>false</default>
         </values>
         <values>
+            <fullName>Gift Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Merkle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moore</fullName>
             <default>false</default>
         </values>
         <values>

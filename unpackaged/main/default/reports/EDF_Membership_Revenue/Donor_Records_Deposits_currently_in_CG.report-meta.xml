@@ -65,7 +65,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>equals</operator>
-            <value>Donor Records</value>
+            <value></value>
         </criteriaItems>
         <criteriaItems>
             <column>Opportunity.Transaction_Type__c</column>

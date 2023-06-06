@@ -33,7 +33,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>notEqual</operator>
-            <value>Donor Records,Electronic Billing</value>
+            <value>Electronic Billing</value>
         </criteriaItems>
         <criteriaItems>
             <column>AMOUNT</column>
