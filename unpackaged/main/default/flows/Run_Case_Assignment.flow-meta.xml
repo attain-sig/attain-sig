@@ -23,7 +23,7 @@
         <inputParameters>
             <name>triggerOtherEmail</name>
             <value>
-                <booleanValue>true</booleanValue>
+                <booleanValue>false</booleanValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -198,7 +198,8 @@
         </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
+    <triggerOrder>1</triggerOrder>
     <variables>
         <name>CaseId</name>
         <dataType>String</dataType>

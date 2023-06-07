@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>APXTConga4__CongaMerge</application>
         <default>false</default>
@@ -1487,6 +1487,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Program_Reporting_Contact__c.Types__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Q9__Batch_Helper__c.Q9__Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

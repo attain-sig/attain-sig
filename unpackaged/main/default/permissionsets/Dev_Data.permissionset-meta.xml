@@ -2290,6 +2290,26 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>npe01__OppPayment__c.Payment_Do_Not_Acknowledge_Reason__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>npe01__OppPayment__c.Pledge_Reminder_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>npe01__OppPayment__c.Pledge_Reminder_Reason_Not_Sent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>npe01__OppPayment__c.Pledge_Reminder_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>npe01__OppPayment__c.Processed_By__c</field>
         <readable>true</readable>
     </fieldPermissions>

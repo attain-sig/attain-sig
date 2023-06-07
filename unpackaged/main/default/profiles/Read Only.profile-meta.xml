@@ -2934,6 +2934,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Q9__Batch_Helper__c.Q9__Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Relationship_Manager_History__c.RMH_Check__c</field>
         <readable>true</readable>

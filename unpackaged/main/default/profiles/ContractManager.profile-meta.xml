@@ -2945,6 +2945,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Q9__Batch_Helper__c.Q9__Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Region__c.Legacy_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
