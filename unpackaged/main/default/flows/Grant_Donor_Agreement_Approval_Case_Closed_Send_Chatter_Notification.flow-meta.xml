@@ -205,9 +205,9 @@
         <name>Case_Reason_Decision_New</name>
         <label>Case Reason Decision</label>
         <locationX>314</locationX>
-        <locationY>539</locationY>
+        <locationY>431</locationY>
         <defaultConnector>
-            <targetReference>Send_Chatter_Notification_to_Case_Owner_DonorAgreement</targetReference>
+            <targetReference>Get_Donor_Agreement_Approvals_Chatter_Group_ID</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Donor Agreement Approval</defaultConnectorLabel>
         <rules>
@@ -221,7 +221,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Send_Chatter_Notification_to_Case_Owner</targetReference>
+                <targetReference>Get_Grant_Approvals_Chatter_Group_ID</targetReference>
             </connector>
             <label>Grant Approval</label>
         </rules>
@@ -236,7 +236,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Send_Chatter_Notification_to_Case_Owner_Fund</targetReference>
+                <targetReference>Get_Fund_Requests_Chatter_Group_ID</targetReference>
             </connector>
             <label>Fund Request</label>
         </rules>
@@ -258,7 +258,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Get_Chatter_Group_ID</targetReference>
+                <targetReference>Case_Reason_Decision_New</targetReference>
             </connector>
             <label>New</label>
         </rules>
@@ -301,20 +301,66 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordLookups>
-        <name>Get_Chatter_Group_ID</name>
-        <label>Get Chatter Group ID</label>
-        <locationX>314</locationX>
-        <locationY>431</locationY>
+        <name>Get_Donor_Agreement_Approvals_Chatter_Group_ID</name>
+        <label>Get Donor Agreement Approvals Chatter Group ID</label>
+        <locationX>578</locationX>
+        <locationY>539</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Case_Reason_Decision_New</targetReference>
+            <targetReference>Send_Chatter_Notification_to_Case_Owner_DonorAgreement</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Name</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>Grant Approvals/Fund Requests Queue</stringValue>
+                <stringValue>Donor Agreement Approvals Queue</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>CollaborationGroup</object>
+        <sortField>Id</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Fund_Requests_Chatter_Group_ID</name>
+        <label>Get Fund Requests Chatter Group ID</label>
+        <locationX>314</locationX>
+        <locationY>539</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Send_Chatter_Notification_to_Case_Owner_Fund</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Fund Requests Queue</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>CollaborationGroup</object>
+        <sortField>Id</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Grant_Approvals_Chatter_Group_ID</name>
+        <label>Get Grant Approvals Chatter Group ID</label>
+        <locationX>50</locationX>
+        <locationY>539</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Send_Chatter_Notification_to_Case_Owner</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Grant Approvals Queue</stringValue>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
@@ -372,7 +418,7 @@ Grant Name: {!$Record.Grant_Name__c}</text>
     <textTemplates>
         <name>NewDonorAgreementChatter</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
-        <text>@[{!$Record.OwnerId}] A new {!$Record.Reason} Case was opened for {!$Record.Opportunity__r.Name}
+        <text>@[{!Get_Fund_Requests_Chatter_Group_ID.Id}] A new {!$Record.Reason} Case was opened for {!$Record.Opportunity__r.Name}
 
 Additional Information:
 Account: {!$Record.Account.Name}
@@ -384,7 +430,7 @@ Review Criteria: {!$Record.Review_Criteria__c}</text>
     <textTemplates>
         <name>NewFundRequestChatter</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
-        <text>@[{!Get_Chatter_Group_ID.Id}] A new {!$Record.Reason} Case was opened for {!$Record.Opportunity__r.Name}
+        <text>@[{!Get_Fund_Requests_Chatter_Group_ID.Id}] A new {!$Record.Reason} Case was opened for {!$Record.Opportunity__r.Name}
 
 Additional Information:
 Fund Name: {!$Record.New_Fund_Name__c}
@@ -399,7 +445,7 @@ Close Date: {!$Record.Opportunitity_Close_Date__c}</text>
     <textTemplates>
         <name>NewGrantApprovalChatter</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
-        <text>@[{!Get_Chatter_Group_ID.Id}] A new {!$Record.Reason} Case was opened for {!$Record.Opportunity__r.Name}
+        <text>@[{!Get_Grant_Approvals_Chatter_Group_ID.Id}] A new {!$Record.Reason} Case was opened for {!$Record.Opportunity__r.Name}
 
 Additional Information:
 Grant Name: {!$Record.Grant_Name__c}
