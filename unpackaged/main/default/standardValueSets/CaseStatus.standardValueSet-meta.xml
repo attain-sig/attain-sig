@@ -52,13 +52,13 @@
     <standardValue>
         <fullName>Closed - Resolved</fullName>
         <default>false</default>
-        <label>Closed - Resolved</label>
+        <label>Closed - Approved/Resolved</label>
         <closed>true</closed>
     </standardValue>
     <standardValue>
         <fullName>Closed - Cancelled</fullName>
         <default>false</default>
-        <label>Closed - Cancelled</label>
+        <label>Closed - Cancelled/Not Approved</label>
         <closed>true</closed>
     </standardValue>
     <standardValue>

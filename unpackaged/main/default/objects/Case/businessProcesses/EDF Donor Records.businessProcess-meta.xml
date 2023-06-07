@@ -4,7 +4,7 @@
     <description>Requests directed to the Donor Records department</description>
     <isActive>true</isActive>
     <values>
-        <fullName>Closed - Resolved</fullName>
+        <fullName>Closed - Approved%2FResolved</fullName>
         <default>false</default>
     </values>
     <values>

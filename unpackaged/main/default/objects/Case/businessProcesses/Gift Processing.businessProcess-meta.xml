@@ -3,11 +3,11 @@
     <fullName>Gift Processing</fullName>
     <isActive>true</isActive>
     <values>
-        <fullName>Closed - Cancelled</fullName>
+        <fullName>Closed - Approved%2FResolved</fullName>
         <default>false</default>
     </values>
     <values>
-        <fullName>Closed - Resolved</fullName>
+        <fullName>Closed - Cancelled%2FNot Approved</fullName>
         <default>false</default>
     </values>
     <values>
