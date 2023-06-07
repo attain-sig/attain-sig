@@ -12,6 +12,10 @@
     <rules>
         <fullName>Q9__EvaluateDiagramId</fullName>
         <actions>
+            <name>Q9__Is_workflow_rule_fired</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
             <name>Q9__DiagramId</name>
             <type>FieldUpdate</type>
         </actions>
