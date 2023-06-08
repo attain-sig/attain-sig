@@ -18,6 +18,10 @@
     <layouts>
         <layout>Charitable Remainder Trust Layout</layout>
         <sections>
+            <label><!-- CRT Finance Information --></label>
+            <section>CRT Finance Information</section>
+        </sections>
+        <sections>
             <label><!-- Custom Links --></label>
             <section>Custom Links</section>
         </sections>
@@ -64,6 +68,14 @@
             <label><!-- Custom Links --></label>
             <section>Custom Links</section>
         </sections>
+        <sections>
+            <label><!-- Other Planned Gifts Finance Information --></label>
+            <section>Other Planned Gifts Finance Information</section>
+        </sections>
+        <sections>
+            <label><!-- Other Planned Gifts Status Timeline --></label>
+            <section>Other Planned Gifts Status Timeline</section>
+        </sections>
     </layouts>
     <layouts>
         <layout>Planned Gift Layout</layout>
@@ -75,12 +87,12 @@
     <layouts>
         <layout>Pooled Income Fund Layout</layout>
         <sections>
-            <label><!-- Beneficiary Information --></label>
-            <section>Beneficiary Information</section>
-        </sections>
-        <sections>
             <label><!-- Custom Links --></label>
             <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- PIF Finance Information --></label>
+            <section>PIF Finance Information</section>
         </sections>
     </layouts>
     <recordTypes>
@@ -122,7 +134,6 @@
         <label><!-- Pooled Income Fund --></label>
         <name>Pooled_Income_Fund</name>
     </recordTypes>
-    
     
     
     

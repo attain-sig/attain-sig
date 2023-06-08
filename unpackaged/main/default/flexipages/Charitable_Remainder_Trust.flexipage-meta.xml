@@ -81,16 +81,6 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Asset_Type__c</fieldItem>
-                <identifier>RecordAsset_Type_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
                 <fieldItem>Record.Trust_Date__c</fieldItem>
                 <identifier>RecordTrust_Date_cField</identifier>
             </fieldInstance>
@@ -123,16 +113,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Term_of_Years__c</fieldItem>
                 <identifier>RecordTerm_of_Years_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Payment_Frequency__c</fieldItem>
-                <identifier>RecordPayment_Frequency_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -229,16 +209,68 @@
                 <identifier>RecordStatus_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <name>Facet-aaa281d7-d6d5-44f1-b282-ac301005a90f</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-f1e3bb97-5abb-4457-ae60-acc76848fb20</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-aaa281d7-d6d5-44f1-b282-ac301005a90f</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column2</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-26362d09-081c-4300-86ec-b17488b41372</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
         <itemInstances>
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Annual_Payout__c</fieldItem>
-                <identifier>RecordAnnual_Payout_cField</identifier>
+                <fieldItem>Record.Asset_Type__c</fieldItem>
+                <identifier>RecordAsset_Type_cField2</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Payment_Frequency__c</fieldItem>
+                <identifier>RecordPayment_Frequency_cField2</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Annual_Payout__c</fieldItem>
+                <identifier>RecordAnnual_Payout_cField2</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-0b18bb7b-59c2-46c1-9031-ba4debc98e63</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
         <itemInstances>
             <fieldInstance>
                 <fieldInstanceProperties>
@@ -269,7 +301,7 @@
                 <identifier>RecordRate_cField</identifier>
             </fieldInstance>
         </itemInstances>
-        <name>Facet-aaa281d7-d6d5-44f1-b282-ac301005a90f</name>
+        <name>Facet-a0a68ab1-6d20-43da-b752-aebf6f962548</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -277,23 +309,23 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
-                    <value>Facet-f1e3bb97-5abb-4457-ae60-acc76848fb20</value>
+                    <value>Facet-0b18bb7b-59c2-46c1-9031-ba4debc98e63</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column</identifier>
+                <identifier>flexipage_column7</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
-                    <value>Facet-aaa281d7-d6d5-44f1-b282-ac301005a90f</value>
+                    <value>Facet-a0a68ab1-6d20-43da-b752-aebf6f962548</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:column</componentName>
-                <identifier>flexipage_column2</identifier>
+                <identifier>flexipage_column8</identifier>
             </componentInstance>
         </itemInstances>
-        <name>Facet-26362d09-081c-4300-86ec-b17488b41372</name>
+        <name>Facet-1150c0fc-3de9-4a5a-8e37-8bbb19eda749</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -443,6 +475,20 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-1150c0fc-3de9-4a5a-8e37-8bbb19eda749</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>label</name>
+                    <value>CRT Finance Information</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:fieldSection</componentName>
+                <identifier>flexipage_fieldSection4</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
