@@ -102,10 +102,6 @@
     <picklistValues>
         <picklist>Status__c</picklist>
         <values>
-            <fullName>CDNO - Contingency did not occur</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>CLSD - Donor deceased%2C money received</fullName>
             <default>false</default>
         </values>
@@ -122,19 +118,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>PLDG - Pledged not legally binding</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>PROP - proposed%2C gift not received</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>RNCE - Gift in%2C donor renounced income</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>RVK - Donor revoked legacy plan pledge</fullName>
             <default>false</default>
         </values>
     </picklistValues>

@@ -22,10 +22,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>QRP - 401K</fullName>
             <default>false</default>
         </values>
@@ -119,10 +115,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>IRA - IRA Rollover</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>IREV - Irrevocable%2C legally binding</fullName>
             <default>false</default>
         </values>
@@ -136,10 +128,6 @@
         </values>
         <values>
             <fullName>PROP - proposed%2C gift not received</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>RNCE - Gift in%2C donor renounced income</fullName>
             <default>false</default>
         </values>
         <values>
