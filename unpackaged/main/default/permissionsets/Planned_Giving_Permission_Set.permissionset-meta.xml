@@ -1768,6 +1768,10 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <recordType>Planned_Gift__c.Charitable_Lead_Trust</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <recordType>Planned_Gift__c.Charitable_Remainder_Trust</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
