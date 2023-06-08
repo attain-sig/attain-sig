@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <inlineHelpText>EX. GR_NORAD_Deforestation_2016to2020</inlineHelpText>
     <label>Grant Name</label>
-    <length>255</length>
+    <length>64</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

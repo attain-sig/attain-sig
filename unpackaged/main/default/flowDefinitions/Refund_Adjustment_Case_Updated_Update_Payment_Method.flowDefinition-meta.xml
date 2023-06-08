@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
     <activeVersionNumber>1</activeVersionNumber>
+    <description>Created as a part of 2023 R3 and R4 Case enhancements. This flow triggers when a Gift Processing Case is updated and populates the values of the &quot;Opportunity Amount&quot; and &quot;Payment Amount&quot; fields (for Refund Cases) accordingly.</description>
+    <masterLabel>GP Cases Updated --&gt; Update Payment Method</masterLabel>
 </FlowDefinition>

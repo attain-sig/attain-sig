@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
     <activeVersionNumber>4</activeVersionNumber>
+    <description>Created as a part of 2023 R3 and R4 Case enhancements. This flow triggers when a Gift Processing Case is created and asynchronously runs the Run_Assignment__Invocable_StandardAssignmentV2 Apex action, so the Case Assignment Rules trigger correctly from Quick Actions.</description>
+    <masterLabel>Run Case Assignment</masterLabel>
 </FlowDefinition>

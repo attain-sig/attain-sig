@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
     <activeVersionNumber>1</activeVersionNumber>
-    <description>Created as a part of 2023 R1 enhancements (US-740). This flow triggers when an Annual Match Deliverable record is created or updated and copies the value from the &quot;Amount Matched by Donor&quot; formula field to the &quot;Amount Matched by Donor ($)&quot; numeric field in order for it to be used in Challenge Match Roll-Up fields.</description>
+    <description>Created as a part of 2023 R4 enhancements (US-740). This flow triggers when an Annual Match Deliverable record is created or updated and copies the value from the &quot;Amount Matched by Donor&quot; formula field to the &quot;Amount Matched by Donor ($)&quot; numeric field in order for it to be used in Challenge Match Roll-Up fields.</description>
     <masterLabel>Annual Challenge Match Deliverable --&gt; Update Numeric Field for Roll-Up</masterLabel>
 </FlowDefinition>

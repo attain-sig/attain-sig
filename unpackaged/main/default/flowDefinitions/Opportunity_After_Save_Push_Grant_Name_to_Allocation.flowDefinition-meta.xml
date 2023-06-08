@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
     <activeVersionNumber>4</activeVersionNumber>
+    <description>This After-Save Flow triggers when the Grant Name on an Opportunity is updated and updates the Grant Name on the related Opportunity Allocation and Payment Allocation records.
+
+Updated and corrected per FB-3084</description>
+    <masterLabel>Opportunity After Save Push Grant Name to Allocation</masterLabel>
 </FlowDefinition>
