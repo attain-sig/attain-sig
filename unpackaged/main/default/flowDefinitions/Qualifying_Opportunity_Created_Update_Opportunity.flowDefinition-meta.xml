@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
     <activeVersionNumber>1</activeVersionNumber>
+    <description>Created as a part of 2023 R1 enhancements (US-740). This flow triggers when a Qualifying Opportunity is created and updates the values of the &quot;Annual Match Originating Donation&quot; and &quot;Stage&quot; fields on the record itself. It also ensures that the &quot;Challenge Match Qualifying Donation&quot; field is checked off as TRUE on the referenced Opportunity.</description>
+    <masterLabel>Qualifying Opportunity Created --&gt; Update Opportunity</masterLabel>
 </FlowDefinition>

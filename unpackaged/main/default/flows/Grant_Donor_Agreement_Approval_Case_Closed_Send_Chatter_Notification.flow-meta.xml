@@ -420,9 +420,7 @@ Grant Name: {!$Record.Grant_Name__c}</text>
         <isViewedAsPlainText>true</isViewedAsPlainText>
         <text>@[{!Get_Fund_Requests_Chatter_Group_ID.Id}] A new {!$Record.Reason} Case was opened for {!$Record.Opportunity__r.Name}
 
-Additional Information:
-Account: {!$Record.Account.Name}
-Opportunity Record Type: {!$Record.Opportunity_Record_Type__c}
+Additional Information
 Opportunity Amount: ${!$Record.Opportunity_Amount__c}
 Close Date: {!$Record.Opportunitity_Close_Date__c}
 Review Criteria: {!$Record.Review_Criteria__c}</text>
@@ -432,13 +430,11 @@ Review Criteria: {!$Record.Review_Criteria__c}</text>
         <isViewedAsPlainText>true</isViewedAsPlainText>
         <text>@[{!Get_Fund_Requests_Chatter_Group_ID.Id}] A new {!$Record.Reason} Case was opened for {!$Record.Opportunity__r.Name}
 
-Additional Information:
-Fund Name: {!$Record.New_Fund_Name__c}
+Additional Information
+New Fund Name: {!$Record.New_Fund_Name__c}
 Purpose: {!$Record.Purpose__c}
 Program/Fund Hierarchy: {!$Record.Program_Fund_Hierarchy__c}
 Region: {!$Record.Region__c}
-Account: {!$Record.Account.Name}
-Opportunity Record Type: {!$Record.Opportunity_Record_Type__c}
 Opportunity Amount: ${!$Record.Opportunity_Amount__c}
 Close Date: {!$Record.Opportunitity_Close_Date__c}</text>
     </textTemplates>
@@ -447,13 +443,11 @@ Close Date: {!$Record.Opportunitity_Close_Date__c}</text>
         <isViewedAsPlainText>true</isViewedAsPlainText>
         <text>@[{!Get_Grant_Approvals_Chatter_Group_ID.Id}] A new {!$Record.Reason} Case was opened for {!$Record.Opportunity__r.Name}
 
-Additional Information:
+Additional Information
 Grant Name: {!$Record.Grant_Name__c}
 Purpose: {!$Record.Purpose__c}
 Program/Fund Hierarchy: {!$Record.Program_Fund_Hierarchy__c}
 Region: {!$Record.Region__c}
-Account: {!$Record.Account.Name}
-Opportunity Record Type: {!$Record.Opportunity_Record_Type__c}
 Opportunity Amount: ${!$Record.Opportunity_Amount__c}
 Close Date: {!$Record.Opportunitity_Close_Date__c}</text>
     </textTemplates>

@@ -1,11 +1,10 @@
+Case Details
 Created By: {!Case.CreatedBy}
 Case Reason: {!Case.Reason}
 Review Criteria: {!Case.Review_Criteria__c}
 
-Opportunity Info
+Opportunity Information
 Opportunity: {!Case.Opportunity__c}
-Account Name: {!Case.Account}
-Record Type: {!Case.Opportunity_Record_Type__c}
 Amount: {!Case.Opportunity_Amount__c}
 Close Date: {!Case.Opportunitity_Close_Date__c}
 
