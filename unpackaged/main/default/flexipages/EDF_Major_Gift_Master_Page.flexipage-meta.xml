@@ -97,16 +97,6 @@
                             </visibilityRule>
                         </valueListItems>
                         <valueListItems>
-                            <value>CustomButton.Opportunity.New_Qualifying_Opportunity</value>
-                            <visibilityRule>
-                                <criteria>
-                                    <leftValue>{!Record.Challenge_Match_Originating_Donation__c}</leftValue>
-                                    <operator>EQUAL</operator>
-                                    <rightValue>false</rightValue>
-                                </criteria>
-                            </visibilityRule>
-                        </valueListItems>
-                        <valueListItems>
                             <value>Opportunity.New_Annual_Match_Deliverable</value>
                             <visibilityRule>
                                 <criteria>

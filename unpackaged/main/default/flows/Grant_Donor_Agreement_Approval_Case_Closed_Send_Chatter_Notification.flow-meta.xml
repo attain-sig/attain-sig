@@ -69,7 +69,7 @@
     <actionCalls>
         <name>Send_Chatter_Notification_to_Submitter</name>
         <label>Send Chatter Notification to Submitter</label>
-        <locationX>1370</locationX>
+        <locationX>1898</locationX>
         <locationY>539</locationY>
         <actionName>chatterPost</actionName>
         <actionType>chatterPost</actionType>
@@ -90,8 +90,8 @@
     </actionCalls>
     <actionCalls>
         <name>Send_Chatter_Notification_to_Submitter_Fund</name>
-        <label>Send Chatter Notification to Submitter</label>
-        <locationX>1106</locationX>
+        <label>Send Chatter Notification to Submitter and Fund Admin</label>
+        <locationX>1370</locationX>
         <locationY>539</locationY>
         <actionName>chatterPost</actionName>
         <actionType>chatterPost</actionType>
@@ -111,8 +111,30 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </actionCalls>
     <actionCalls>
-        <name>Send_Chatter_Notification_to_Submitter_Grant</name>
+        <name>Send_Chatter_Notification_to_Submitter_Fundv2</name>
         <label>Send Chatter Notification to Submitter</label>
+        <locationX>1634</locationX>
+        <locationY>539</locationY>
+        <actionName>chatterPost</actionName>
+        <actionType>chatterPost</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>text</name>
+            <value>
+                <elementReference>FundChatterMessageBodyV2</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>subjectNameOrId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Chatter_Notification_to_Submitter_Grant</name>
+        <label>Send Chatter Notification to Submitter and Grant Manager</label>
         <locationX>842</locationX>
         <locationY>539</locationY>
         <actionName>chatterPost</actionName>
@@ -132,16 +154,35 @@
         </inputParameters>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </actionCalls>
+    <actionCalls>
+        <name>Send_Chatter_Notification_to_Submitter_Grantv2</name>
+        <label>Send Chatter Notification to Submitter</label>
+        <locationX>1106</locationX>
+        <locationY>539</locationY>
+        <actionName>chatterPost</actionName>
+        <actionType>chatterPost</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>text</name>
+            <value>
+                <elementReference>GrantChatterMessageBodyV2</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>subjectNameOrId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
     <apiVersion>58.0</apiVersion>
     <decisions>
         <name>Case_Reason_Decision</name>
         <label>Case Reason Decision</label>
-        <locationX>1106</locationX>
+        <locationX>1502</locationX>
         <locationY>431</locationY>
-        <defaultConnector>
-            <targetReference>Send_Chatter_Notification_to_Submitter</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Only Created By User</defaultConnectorLabel>
+        <defaultConnectorLabel>Fault</defaultConnectorLabel>
         <rules>
             <name>Include_Grant_Manager</name>
             <conditionLogic>and</conditionLogic>
@@ -172,6 +213,21 @@
             <label>Include Grant Manager</label>
         </rules>
         <rules>
+            <name>Grant_Approvals</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Reason</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Grant Approval</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Chatter_Notification_to_Submitter_Grantv2</targetReference>
+            </connector>
+            <label>Grant Approvals</label>
+        </rules>
+        <rules>
             <name>Include_Fund_Administrator</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
@@ -199,6 +255,36 @@
                 <targetReference>Send_Chatter_Notification_to_Submitter_Fund</targetReference>
             </connector>
             <label>Include Fund Administrator</label>
+        </rules>
+        <rules>
+            <name>Fund_Requests</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Reason</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Fund Request</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Chatter_Notification_to_Submitter_Fundv2</targetReference>
+            </connector>
+            <label>Fund Requests</label>
+        </rules>
+        <rules>
+            <name>Donor_Agreement_Approvals</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Reason</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Donor Agreement Approval</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_Chatter_Notification_to_Submitter</targetReference>
+            </connector>
+            <label>Donor Agreement Approvals</label>
         </rules>
     </decisions>
     <decisions>
@@ -244,7 +330,7 @@
     <decisions>
         <name>Case_Status_Decision</name>
         <label>Case Status Decision</label>
-        <locationX>974</locationX>
+        <locationX>1370</locationX>
         <locationY>323</locationY>
         <defaultConnectorLabel>Other Status</defaultConnectorLabel>
         <rules>
@@ -370,7 +456,7 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <start>
-        <locationX>848</locationX>
+        <locationX>1244</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Case_Status_Decision</targetReference>
@@ -406,9 +492,29 @@ Close Date: {!$Record.Opportunitity_Close_Date__c}
 Fund Name: {!$Record.New_Fund_Name__c}</text>
     </textTemplates>
     <textTemplates>
+        <name>FundChatterMessageBodyV2</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>@[{!$Record.CreatedById}] Your {!$Record.Reason} Case was updated to {!$Record.Status} for {!$Record.Opportunity__r.Name}
+
+Additional Information:
+Opportunity Amount: ${!$Record.Opportunity_Amount__c}
+Close Date: {!$Record.Opportunitity_Close_Date__c}
+Fund Name: {!$Record.New_Fund_Name__c}</text>
+    </textTemplates>
+    <textTemplates>
         <name>GrantChatterMessageBody</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
         <text>@[{!$Record.CreatedById}] @[{!$Record.Grant_Manager__r.Id}] Your {!$Record.Reason} Case was updated to {!$Record.Status} for {!$Record.Opportunity__r.Name}
+
+Additional Information:
+Opportunity Amount: ${!$Record.Opportunity_Amount__c}
+Close Date: {!$Record.Opportunitity_Close_Date__c}
+Grant Name: {!$Record.Grant_Name__c}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>GrantChatterMessageBodyV2</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>@[{!$Record.CreatedById}] Your {!$Record.Reason} Case was updated to {!$Record.Status} for {!$Record.Opportunity__r.Name}
 
 Additional Information:
 Opportunity Amount: ${!$Record.Opportunity_Amount__c}

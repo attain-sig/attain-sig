@@ -1340,7 +1340,13 @@
                 <name>FundChatterMessageBody</name>
             </textTemplates>
             <textTemplates>
+                <name>FundChatterMessageBodyV2</name>
+            </textTemplates>
+            <textTemplates>
                 <name>GrantChatterMessageBody</name>
+            </textTemplates>
+            <textTemplates>
+                <name>GrantChatterMessageBodyV2</name>
             </textTemplates>
             <textTemplates>
                 <name>NewDonorAgreementChatter</name>

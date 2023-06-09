@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeVersionNumber>7</activeVersionNumber>
+    <activeVersionNumber>8</activeVersionNumber>
     <description>Created as a part of 2023 R4 enhancements (US-717, US-741, US-868). This flow triggers when a Grant Approval, Donor Agreement, or Fund Request Case is created or updated to a Closed status. Depending on the Case Reason and Status, it sends a Chatter Notification to the relevant user(s).</description>
     <masterLabel>GP Cases Created/Closed --&gt; Send Chatter Notification</masterLabel>
 </FlowDefinition>
