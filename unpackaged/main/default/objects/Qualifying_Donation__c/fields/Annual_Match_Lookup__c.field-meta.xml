@@ -3,6 +3,7 @@
     <fullName>Annual_Match_Lookup__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <externalId>false</externalId>
+    <inlineHelpText>This is the legacy Lookup to Annual Challenge Match.</inlineHelpText>
     <label>Annual Match</label>
     <referenceTo>Annual_Match__c</referenceTo>
     <relationshipLabel>Qualifying Opportunities (Annual Match)</relationshipLabel>

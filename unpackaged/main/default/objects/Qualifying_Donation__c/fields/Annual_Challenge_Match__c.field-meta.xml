@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Annual_Challenge_Match__c</fullName>
     <externalId>false</externalId>
+    <inlineHelpText>This is the Master-Detail relationship to Deliverable.</inlineHelpText>
     <label>Annual Challenge Match</label>
     <referenceTo>npsp__Grant_Deadline__c</referenceTo>
     <relationshipLabel>Qualifying Opportunitites</relationshipLabel>
