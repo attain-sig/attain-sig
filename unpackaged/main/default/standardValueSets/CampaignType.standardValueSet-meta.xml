@@ -136,4 +136,9 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
+    <standardValue>
+        <fullName>MethaneSat Email</fullName>
+        <default>false</default>
+        <label>MethaneSat Email</label>
+    </standardValue>
 </StandardValueSet>
