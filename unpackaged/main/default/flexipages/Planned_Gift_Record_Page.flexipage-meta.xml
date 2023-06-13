@@ -99,16 +99,6 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Payment_Frequency__c</fieldItem>
-                <identifier>RecordPayment_Frequency_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Campaign_Code__c</fieldItem>
@@ -187,36 +177,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Status__c</fieldItem>
                 <identifier>RecordStatus_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Deduction__c</fieldItem>
-                <identifier>RecordDeduction_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Present_Value__c</fieldItem>
-                <identifier>RecordPresent_Value_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Face_Value__c</fieldItem>
-                <identifier>RecordFace_Value_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -359,10 +319,40 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>required</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Payment_Frequency__c</fieldItem>
+                <identifier>RecordPayment_Frequency_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Deduction__c</fieldItem>
+                <identifier>RecordDeduction_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-0eb28109-c118-4fe1-bd5b-d93f6e65974c</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>required</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Face_Value__c</fieldItem>
+                <identifier>RecordFace_Value_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-c6c7a7dc-5222-4e54-9888-611c70b5af05</name>
         <type>Facet</type>
     </flexiPageRegions>

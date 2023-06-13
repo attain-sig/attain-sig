@@ -275,7 +275,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Deduction__c</fieldItem>
                 <identifier>RecordDeduction_cField</identifier>

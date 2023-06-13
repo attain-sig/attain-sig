@@ -260,7 +260,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>none</value>
+                    <value>required</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Gift_Annuity_Type__c</fieldItem>
                 <identifier>RecordGift_Annuity_Type_cField</identifier>
@@ -280,7 +280,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>none</value>
+                    <value>required</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Annuitant_1__c</fieldItem>
                 <identifier>RecordAnnuitant_1_cField2</identifier>
@@ -344,7 +344,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Deduction__c</fieldItem>
                 <identifier>RecordDeduction_cField</identifier>

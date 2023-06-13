@@ -36,7 +36,7 @@
                 <field>Gift_Annuity_Date__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>Gift_Annuity_Type__c</field>
             </layoutItems>
             <layoutItems>
@@ -82,7 +82,7 @@
                 <field>Annual_Payout__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>Deduction__c</field>
             </layoutItems>
             <layoutItems>

@@ -9,12 +9,12 @@
         <picklistValueName>Assigned</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
-        <info>&lt;p&gt;This Case has been escalated to a Feedback or User Story.&lt;/p&gt;</info>
-        <picklistValueName>Closed - Escalated</picklistValueName>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;The Request has been resolved.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Closed - Approved/Resolved</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
-        <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;The Request has been resolved.&lt;/span&gt;&lt;/p&gt;</info>
-        <picklistValueName>Closed - Resolved</picklistValueName>
+        <info>&lt;p&gt;This Case has been escalated to a Feedback or User Story.&lt;/p&gt;</info>
+        <picklistValueName>Closed - Escalated</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
         <info>&lt;p&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;The Request has been closed, but not resolved.&lt;/span&gt;&lt;/p&gt;</info>

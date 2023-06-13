@@ -11,7 +11,7 @@
                 <field>Annual_Payout__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
+                <behavior>Edit</behavior>
                 <field>Deduction__c</field>
             </layoutItems>
             <layoutItems>
