@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Stage__c</fullName>
+    <description>automatically set via flow (Opportunity Stage Updated --&gt; Update Qualifying Opportunities), used for a roll-up summary on Deliverable.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Will automatically populate with Qualifying Opportunity's Stage upon save</inlineHelpText>
     <label>Stage</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

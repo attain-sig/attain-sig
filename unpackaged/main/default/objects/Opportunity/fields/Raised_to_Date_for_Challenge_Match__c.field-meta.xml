@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Raised_to_Date_for_Challenge_Match__c</fullName>
-    <description>Created as a part of 2023 R4 enhancements (US-740). Roll-up SUM of "Raised to Date for Annual Match" on Deliverable.</description>
+    <description>Created as a part of 2023 R4 enhancements (US-740). Roll-up SUM of "Raised to Date for Annual Match" on Deliverable (which is a sum of Qualifying Amount on all related Qualifying Opportunities)</description>
     <externalId>false</externalId>
     <label>Raised to Date for Challenge Match</label>
     <summarizedField>npsp__Grant_Deadline__c.Raised_to_Date_for_Annual_Match__c</summarizedField>

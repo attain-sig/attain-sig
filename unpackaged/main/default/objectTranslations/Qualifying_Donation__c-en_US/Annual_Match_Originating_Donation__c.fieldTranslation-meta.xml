@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Will automatically populate with the Challenge Match Opportunity of the linked Annual Match Deliverable upon save. --></help>
         <label><!-- Challenge Match --></label>
         <name>Annual_Match_Originating_Donation__c</name>
         <relationshipLabel><!-- Qualifying Opportunities (Annual Match Originating Donation) --></relationshipLabel>

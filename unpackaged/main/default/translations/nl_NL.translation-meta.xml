@@ -1425,6 +1425,10 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows />
+        <fullName>Opportunity_Amount_Updated_Update_GP_Case_Amount</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
         <fullName>Opportunity_Before_Insert_Update_Sync_Portfolio_Managers</fullName>
     </flowDefinitions>
     <flowDefinitions>

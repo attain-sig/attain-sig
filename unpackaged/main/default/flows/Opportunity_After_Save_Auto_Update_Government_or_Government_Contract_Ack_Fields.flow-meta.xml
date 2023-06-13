@@ -40,12 +40,6 @@
             </value>
         </inputAssignments>
         <inputAssignments>
-            <field>npsp__Acknowledgment_Date__c</field>
-            <value>
-                <elementReference>$Flow.CurrentDate</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
             <field>npsp__Acknowledgment_Status__c</field>
             <value>
                 <stringValue>Do Not Acknowledge</stringValue>
@@ -71,12 +65,6 @@
             <field>Payment_Do_Not_Acknowledge_Reason__c</field>
             <value>
                 <elementReference>AcknowledgmentReason</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>npsp__Payment_Acknowledged_Date__c</field>
-            <value>
-                <elementReference>$Flow.CurrentDate</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
