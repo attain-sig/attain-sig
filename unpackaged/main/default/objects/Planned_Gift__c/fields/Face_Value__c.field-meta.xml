@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Face_Value__c</fullName>
     <externalId>false</externalId>
-    <inlineHelpText>The amount of the Annuity at its inception</inlineHelpText>
+    <inlineHelpText>The amount of the gift at its inception</inlineHelpText>
     <label>Face Value</label>
     <precision>18</precision>
     <required>false</required>

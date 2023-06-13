@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Rate__c</fullName>
     <externalId>false</externalId>
-    <inlineHelpText>The rate of the Annuity</inlineHelpText>
+    <inlineHelpText>The payout rate</inlineHelpText>
     <label>Rate</label>
     <precision>7</precision>
     <required>false</required>

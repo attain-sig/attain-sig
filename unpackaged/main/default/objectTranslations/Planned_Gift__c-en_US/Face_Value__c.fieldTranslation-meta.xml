@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- The amount of the Annuity at its inception --></help>
+        <help><!-- The amount of the gift at its inception --></help>
         <label><!-- Face Value --></label>
         <name>Face_Value__c</name>
     </CustomFieldTranslation>

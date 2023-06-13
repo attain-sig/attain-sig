@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- The deduction the Donor received for this Annuity --></help>
+        <help><!-- The deduction amount the donor receives --></help>
         <label><!-- Charitable Deduction --></label>
         <name>Deduction__c</name>
     </CustomFieldTranslation>

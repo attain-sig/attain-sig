@@ -1348,15 +1348,6 @@
             <textTemplates>
                 <name>GrantChatterMessageBodyV2</name>
             </textTemplates>
-            <textTemplates>
-                <name>NewDonorAgreementChatter</name>
-            </textTemplates>
-            <textTemplates>
-                <name>NewFundRequestChatter</name>
-            </textTemplates>
-            <textTemplates>
-                <name>NewGrantApprovalChatter</name>
-            </textTemplates>
         </flows>
         <fullName>Grant_Donor_Agreement_Approval_Case_Closed_Send_Chatter_Notification</fullName>
     </flowDefinitions>

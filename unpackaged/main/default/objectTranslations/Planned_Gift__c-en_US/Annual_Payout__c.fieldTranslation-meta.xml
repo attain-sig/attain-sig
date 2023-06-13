@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- The annual payout to the Annuitant for this Annuity --></help>
+        <help><!-- The annual payout to the beneficiary --></help>
         <label><!-- Annual Payout --></label>
         <name>Annual_Payout__c</name>
     </CustomFieldTranslation>

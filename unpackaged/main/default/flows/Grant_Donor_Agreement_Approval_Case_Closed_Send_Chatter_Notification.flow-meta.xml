@@ -1,76 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
-        <name>Send_Chatter_Notification_to_Case_Owner</name>
-        <label>Send Chatter Notification to Case Owner</label>
-        <locationX>50</locationX>
-        <locationY>647</locationY>
-        <actionName>chatterPost</actionName>
-        <actionType>chatterPost</actionType>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>text</name>
-            <value>
-                <elementReference>NewGrantApprovalChatter</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>subjectNameOrId</name>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputParameters>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </actionCalls>
-    <actionCalls>
-        <name>Send_Chatter_Notification_to_Case_Owner_DonorAgreement</name>
-        <label>Send Chatter Notification to Case Owner</label>
-        <locationX>578</locationX>
-        <locationY>647</locationY>
-        <actionName>chatterPost</actionName>
-        <actionType>chatterPost</actionType>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>text</name>
-            <value>
-                <elementReference>NewDonorAgreementChatter</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>subjectNameOrId</name>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputParameters>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </actionCalls>
-    <actionCalls>
-        <name>Send_Chatter_Notification_to_Case_Owner_Fund</name>
-        <label>Send Chatter Notification to Case Owner</label>
-        <locationX>314</locationX>
-        <locationY>647</locationY>
-        <actionName>chatterPost</actionName>
-        <actionType>chatterPost</actionType>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>text</name>
-            <value>
-                <elementReference>NewFundRequestChatter</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>subjectNameOrId</name>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputParameters>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </actionCalls>
-    <actionCalls>
         <name>Send_Chatter_Notification_to_Submitter</name>
         <label>Send Chatter Notification to Submitter</label>
-        <locationX>1898</locationX>
-        <locationY>539</locationY>
+        <locationX>1106</locationX>
+        <locationY>431</locationY>
         <actionName>chatterPost</actionName>
         <actionType>chatterPost</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -91,8 +25,8 @@
     <actionCalls>
         <name>Send_Chatter_Notification_to_Submitter_Fund</name>
         <label>Send Chatter Notification to Submitter and Fund Admin</label>
-        <locationX>1370</locationX>
-        <locationY>539</locationY>
+        <locationX>578</locationX>
+        <locationY>431</locationY>
         <actionName>chatterPost</actionName>
         <actionType>chatterPost</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -113,8 +47,8 @@
     <actionCalls>
         <name>Send_Chatter_Notification_to_Submitter_Fundv2</name>
         <label>Send Chatter Notification to Submitter</label>
-        <locationX>1634</locationX>
-        <locationY>539</locationY>
+        <locationX>842</locationX>
+        <locationY>431</locationY>
         <actionName>chatterPost</actionName>
         <actionType>chatterPost</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -135,8 +69,8 @@
     <actionCalls>
         <name>Send_Chatter_Notification_to_Submitter_Grant</name>
         <label>Send Chatter Notification to Submitter and Grant Manager</label>
-        <locationX>842</locationX>
-        <locationY>539</locationY>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
         <actionName>chatterPost</actionName>
         <actionType>chatterPost</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -157,8 +91,8 @@
     <actionCalls>
         <name>Send_Chatter_Notification_to_Submitter_Grantv2</name>
         <label>Send Chatter Notification to Submitter</label>
-        <locationX>1106</locationX>
-        <locationY>539</locationY>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
         <actionName>chatterPost</actionName>
         <actionType>chatterPost</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -180,8 +114,8 @@
     <decisions>
         <name>Case_Reason_Decision</name>
         <label>Case Reason Decision</label>
-        <locationX>1502</locationX>
-        <locationY>431</locationY>
+        <locationX>710</locationX>
+        <locationY>323</locationY>
         <defaultConnectorLabel>Fault</defaultConnectorLabel>
         <rules>
             <name>Include_Grant_Manager</name>
@@ -287,86 +221,9 @@
             <label>Donor Agreement Approvals</label>
         </rules>
     </decisions>
-    <decisions>
-        <name>Case_Reason_Decision_New</name>
-        <label>Case Reason Decision</label>
-        <locationX>314</locationX>
-        <locationY>431</locationY>
-        <defaultConnector>
-            <targetReference>Get_Donor_Agreement_Approvals_Chatter_Group_ID</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Donor Agreement Approval</defaultConnectorLabel>
-        <rules>
-            <name>Grant_Approval</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Reason</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Grant Approval</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Get_Grant_Approvals_Chatter_Group_ID</targetReference>
-            </connector>
-            <label>Grant Approval</label>
-        </rules>
-        <rules>
-            <name>Fund_Request</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Reason</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Fund Request</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Get_Fund_Requests_Chatter_Group_ID</targetReference>
-            </connector>
-            <label>Fund Request</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>Case_Status_Decision</name>
-        <label>Case Status Decision</label>
-        <locationX>1370</locationX>
-        <locationY>323</locationY>
-        <defaultConnectorLabel>Other Status</defaultConnectorLabel>
-        <rules>
-            <name>New</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Status</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>New</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Case_Reason_Decision_New</targetReference>
-            </connector>
-            <label>New</label>
-        </rules>
-        <rules>
-            <name>Closed</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Status</leftValueReference>
-                <operator>Contains</operator>
-                <rightValue>
-                    <stringValue>Closed</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Case_Reason_Decision</targetReference>
-            </connector>
-            <label>Closed</label>
-        </rules>
-    </decisions>
     <environments>Default</environments>
     <interviewLabel>Grant/Donor Agreement Approval Case Closed --&gt; Send Chatter Notification {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>GP Cases Created/Closed --&gt; Send Chatter Notification</label>
+    <label>GP Cases Closed --&gt; Send Chatter Notification</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -386,91 +243,22 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
-    <recordLookups>
-        <name>Get_Donor_Agreement_Approvals_Chatter_Group_ID</name>
-        <label>Get Donor Agreement Approvals Chatter Group ID</label>
-        <locationX>578</locationX>
-        <locationY>539</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Send_Chatter_Notification_to_Case_Owner_DonorAgreement</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Name</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Donor Agreement Approvals Queue</stringValue>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>CollaborationGroup</object>
-        <sortField>Id</sortField>
-        <sortOrder>Asc</sortOrder>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-    <recordLookups>
-        <name>Get_Fund_Requests_Chatter_Group_ID</name>
-        <label>Get Fund Requests Chatter Group ID</label>
-        <locationX>314</locationX>
-        <locationY>539</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Send_Chatter_Notification_to_Case_Owner_Fund</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Name</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Fund Requests Queue</stringValue>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>CollaborationGroup</object>
-        <sortField>Id</sortField>
-        <sortOrder>Asc</sortOrder>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-    <recordLookups>
-        <name>Get_Grant_Approvals_Chatter_Group_ID</name>
-        <label>Get Grant Approvals Chatter Group ID</label>
-        <locationX>50</locationX>
-        <locationY>539</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Send_Chatter_Notification_to_Case_Owner</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Name</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Grant Approvals Queue</stringValue>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>CollaborationGroup</object>
-        <sortField>Id</sortField>
-        <sortOrder>Asc</sortOrder>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
     <start>
-        <locationX>1244</locationX>
+        <locationX>584</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Case_Status_Decision</targetReference>
+            <targetReference>Case_Reason_Decision</targetReference>
         </connector>
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
 &amp;&amp;
 (ispickval({!$Record.Reason}, &quot;Grant Approval&quot;) || ispickval({!$Record.Reason}, &quot;Donor Agreement Approval&quot;) || ispickval({!$Record.Reason}, &quot;Fund Request&quot;))
 &amp;&amp;
-(isnew() || ischanged({!$Record.Status}))</filterFormula>
+contains(text({!$Record.Status}), &quot;Closed&quot;)</filterFormula>
         <object>Case</object>
-        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
     <textTemplates>
         <name>DonorAgreementChatterMessageBody</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
@@ -520,42 +308,6 @@ Additional Information:
 Opportunity Amount: ${!$Record.Opportunity_Amount__c}
 Close Date: {!$Record.Opportunitity_Close_Date__c}
 Grant Name: {!$Record.Grant_Name__c}</text>
-    </textTemplates>
-    <textTemplates>
-        <name>NewDonorAgreementChatter</name>
-        <isViewedAsPlainText>true</isViewedAsPlainText>
-        <text>@[{!Get_Fund_Requests_Chatter_Group_ID.Id}] A new {!$Record.Reason} Case was opened for {!$Record.Opportunity__r.Name}
-
-Additional Information
-Opportunity Amount: ${!$Record.Opportunity_Amount__c}
-Close Date: {!$Record.Opportunitity_Close_Date__c}
-Review Criteria: {!$Record.Review_Criteria__c}</text>
-    </textTemplates>
-    <textTemplates>
-        <name>NewFundRequestChatter</name>
-        <isViewedAsPlainText>true</isViewedAsPlainText>
-        <text>@[{!Get_Fund_Requests_Chatter_Group_ID.Id}] A new {!$Record.Reason} Case was opened for {!$Record.Opportunity__r.Name}
-
-Additional Information
-New Fund Name: {!$Record.New_Fund_Name__c}
-Purpose: {!$Record.Purpose__c}
-Program/Fund Hierarchy: {!$Record.Program_Fund_Hierarchy__c}
-Region: {!$Record.Region__c}
-Opportunity Amount: ${!$Record.Opportunity_Amount__c}
-Close Date: {!$Record.Opportunitity_Close_Date__c}</text>
-    </textTemplates>
-    <textTemplates>
-        <name>NewGrantApprovalChatter</name>
-        <isViewedAsPlainText>true</isViewedAsPlainText>
-        <text>@[{!Get_Grant_Approvals_Chatter_Group_ID.Id}] A new {!$Record.Reason} Case was opened for {!$Record.Opportunity__r.Name}
-
-Additional Information
-Grant Name: {!$Record.Grant_Name__c}
-Purpose: {!$Record.Purpose__c}
-Program/Fund Hierarchy: {!$Record.Program_Fund_Hierarchy__c}
-Region: {!$Record.Region__c}
-Opportunity Amount: ${!$Record.Opportunity_Amount__c}
-Close Date: {!$Record.Opportunitity_Close_Date__c}</text>
     </textTemplates>
     <triggerOrder>10</triggerOrder>
 </Flow>

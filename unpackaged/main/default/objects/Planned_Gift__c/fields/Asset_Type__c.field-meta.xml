@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Asset_Type__c</fullName>
     <externalId>false</externalId>
-    <inlineHelpText>Details on how the Annuity was funded: cash or stock and any relevant details such as check number or stock name.</inlineHelpText>
+    <inlineHelpText>Details on the how the gift was funded: cash or stock or any relevant details such as check number or stock name</inlineHelpText>
     <label>Asset Type</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
