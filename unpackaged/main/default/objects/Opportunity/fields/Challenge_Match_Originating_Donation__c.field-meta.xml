@@ -4,7 +4,7 @@
     <defaultValue>false</defaultValue>
     <description>Donation is a challenge match originating donation.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Donation is a challenge match originating donation.</inlineHelpText>
+    <inlineHelpText>Donation is a challenge match originating donation. If set to TRUE, allows the Challenge Match fields to be inputted on a Grant or Major Gift Opportunity.</inlineHelpText>
     <label>Challenge Match Originating Donation</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

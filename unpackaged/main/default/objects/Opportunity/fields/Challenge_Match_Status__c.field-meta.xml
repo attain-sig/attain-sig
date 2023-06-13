@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Challenge_Match_Status__c</fullName>
-    <description>Manually maintained to track the overall status of the match - is it active or closed?</description>
+    <description>Created as a part of 2023 R4 enhancements (US-740). Manually maintained to track the overall status of the match - is it active or closed?</description>
     <externalId>false</externalId>
     <label>Challenge Match Status</label>
     <required>false</required>
