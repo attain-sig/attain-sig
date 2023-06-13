@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If set to TRUE, allows the Annual Match fields to be inputted on a Conditional Deliverable. --></help>
         <label><!-- Annual Match --></label>
         <name>Annual_Match__c</name>
     </CustomFieldTranslation>

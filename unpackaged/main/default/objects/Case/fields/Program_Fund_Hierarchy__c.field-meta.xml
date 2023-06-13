@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Program_Fund_Hierarchy__c</fullName>
+    <description>Created as a part of 2023 R4 enhancements (US-717, 868). Used for GP Fund and Grant Cases; manually entered by the Case submitter and isn't tied to the GAU object in any way</description>
     <externalId>false</externalId>
     <inlineHelpText>EX: Climate : Global Climate : Reducing Deforestation.</inlineHelpText>
     <label>Program/Fund Hierarchy</label>

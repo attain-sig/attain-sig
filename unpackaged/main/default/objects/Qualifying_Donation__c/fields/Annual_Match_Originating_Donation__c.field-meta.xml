@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Annual_Match_Originating_Donation__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
+    <description>Updated label as a part of 2023 R4 enhancements (US-740).</description>
     <externalId>false</externalId>
     <inlineHelpText>Will automatically populate with the Challenge Match Opportunity of the linked Annual Match Deliverable upon save.</inlineHelpText>
     <label>Challenge Match</label>

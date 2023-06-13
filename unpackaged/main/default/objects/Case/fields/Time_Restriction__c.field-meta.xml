@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Time_Restriction__c</fullName>
+    <description>Created as a part of 2023 R4 enhancements (US-717). Used for Gift Processing "Grant Approval" Cases.</description>
     <externalId>false</externalId>
     <inlineHelpText>No cost extension required for spending beyond grant end date.</inlineHelpText>
     <label>Time Restriction</label>

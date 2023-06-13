@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Grant_Manager__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
-    <description>EDF Mission Finance staff member who is point on managing the grant financials. Should be entered from the Grant Approval Case and passed to this opp field via flow that triggers upon 'Closed - Resolved'. Should be in sync with the Grant Manager field in NetSuite.</description>
+    <description>Created as a part of 2023 R4 enhancements (US-717). EDF Mission Finance staff member who is point on managing the grant financials. Should be entered from the Grant Approval Case and passed to this opp field via flow that triggers upon 'Closed - Approved/Resolved'. Should be in sync with the Grant Manager field in NetSuite.</description>
     <externalId>false</externalId>
     <inlineHelpText>Member of EDF Mission Finance team overseeing the grant.</inlineHelpText>
     <label>Grant Manager</label>

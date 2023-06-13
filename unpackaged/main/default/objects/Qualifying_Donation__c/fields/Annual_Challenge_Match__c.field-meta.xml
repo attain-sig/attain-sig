@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Annual_Challenge_Match__c</fullName>
+    <description>Created as a part of 2023 R4 enhancements (US-740).</description>
     <externalId>false</externalId>
-    <inlineHelpText>This is the Master-Detail relationship to Deliverable.</inlineHelpText>
+    <inlineHelpText>Master-Detail relationship to Deliverable</inlineHelpText>
     <label>Annual Challenge Match</label>
     <referenceTo>npsp__Grant_Deadline__c</referenceTo>
     <relationshipLabel>Qualifying Opportunitites</relationshipLabel>

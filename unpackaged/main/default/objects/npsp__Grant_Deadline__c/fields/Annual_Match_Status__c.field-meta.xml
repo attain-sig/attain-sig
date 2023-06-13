@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Annual_Match_Status__c</fullName>
-    <description>Manually maintained and tracks the status of the annual match. Doesn't have any automatic connection between this field and the Condition Met field.</description>
+    <description>Created as a part of 2023 R4 enhancements (US-740). Manually maintained and tracks the status of the annual match. Doesn't have any automatic connection between this field and the Condition Met field.</description>
     <externalId>false</externalId>
     <label>Annual Match Status</label>
     <required>false</required>

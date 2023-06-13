@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Created_in_NetSuite_By__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
-    <description>Used on GP Fund Request Cases; is entered after the Case is created and the ERPSupport ticket is completed. Either the Case Owner or the Finance user will go into the Case to enter the user who created the Fund in NetSuite</description>
+    <description>Created as a part of 2023 R4 enhancements (US-868). Used on GP Fund Request Cases; is entered after the Case is created and the ERPSupport ticket is completed. Either the Case Owner or the Finance user will go into the Case to enter the user who created the Fund in NetSuite</description>
     <externalId>false</externalId>
     <label>Created in NetSuite By</label>
     <referenceTo>User</referenceTo>

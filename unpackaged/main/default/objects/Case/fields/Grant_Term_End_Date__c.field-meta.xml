@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Grant_Term_End_Date__c</fullName>
-    <description>Entered upon case creation if the submitter has the award at the point of requesting an approval. Gets passed to the equivalent field on Opp when the case is Closed - Resolved.</description>
+    <description>Created as a part of 2023 R4 enhancements (US-717). Entered upon case creation if the submitter has the award at the point of requesting an approval. Gets passed to the equivalent field on Opp when the case is Closed - Approved/Resolved.</description>
     <externalId>false</externalId>
     <label>Grant Term End Date</label>
     <required>false</required>

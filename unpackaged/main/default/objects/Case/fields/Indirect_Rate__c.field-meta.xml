@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Indirect_Rate__c</fullName>
+    <description>Created as a part of 2023 R4 enhancements (US-717). Used for Gift Processing "Grant Approval" Cases.</description>
     <externalId>false</externalId>
     <inlineHelpText>If there is no donor imposed indirect rate, enter the EDF standard rate of 27.5%.</inlineHelpText>
     <label>Indirect Rate %</label>

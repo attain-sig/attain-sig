@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Amount_Matched_by_Donor__c</fullName>
-    <description>Shows the Payment Amount when Condition Met = TRUE; otherwise $0.</description>
+    <description>Created as a part of 2023 R4 enhancements (US-740). Shows the Payment Amount when Condition Met = TRUE; otherwise $0.</description>
     <externalId>false</externalId>
     <formula>if ( Condition_Met__c = TRUE,  Payment_Amount__c , 0)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Created_in_NetSuite_Date__c</fullName>
-    <description>Used on GP Fund Request Cases; is entered after the Case is created and the ERPSupport ticket is completed. Either the Case Owner or the Finance user will go into the Case to enter the date the Fund was created in NetSuite</description>
+    <description>Created as a part of 2023 R4 enhancements (US-868). Used on GP Fund Request Cases; is entered after the Case is created and the ERPSupport ticket is completed. Either the Case Owner or the Finance user will go into the Case to enter the date the Fund was created in NetSuite</description>
     <externalId>false</externalId>
     <label>Created in NetSuite Date</label>
     <required>false</required>

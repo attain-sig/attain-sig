@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>EDF_Role__c</fullName>
-    <description>Entered upon case creation. Gets passed to the equivalent field on Opp when the case is Closed - Resolved.</description>
+    <description>Created as a part of 2023 R4 enhancements (US-717). Entered upon case creation for Grant Approvals. Gets passed to the equivalent field on Opp when the case is Closed - Approved/Resolved.</description>
     <externalId>false</externalId>
     <inlineHelpText>Select “Prime” if EDF is the lead organization on the award. Select “Sub-Awardee” if EDF is a partner under another organization.</inlineHelpText>
     <label>EDF Role</label>

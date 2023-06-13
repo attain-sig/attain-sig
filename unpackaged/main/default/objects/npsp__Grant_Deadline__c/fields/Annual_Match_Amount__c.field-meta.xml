@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Annual_Match_Amount__c</fullName>
+    <description>Created as a part of 2023 R4 enhancements (US-740). Manually maintained field that tracks the amount EDF needs to raise in qualifying opps in order to receive annual match payments. Is used in Gap calculations.</description>
     <externalId>false</externalId>
     <label>Amount Needed to Unlock Annual Match</label>
     <precision>18</precision>

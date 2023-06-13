@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Grant_Number__c</fullName>
-    <description>Entered manually by users if they have the award when they're submitting the case. gets passed to the equivalent field on Opp when the case is Closed - Resolved.</description>
+    <description>Created as a part of 2023 R4 enhancements (US-717). Entered manually by users if they have the award when they're submitting the case. gets passed to the equivalent field on Opp when the case is Closed - Approved/Resolved.</description>
     <externalId>false</externalId>
     <inlineHelpText>Identifying number found in the awarding document of most grants and contracts.</inlineHelpText>
     <label>Grant Number</label>

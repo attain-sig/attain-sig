@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Review_Criteria__c</fullName>
-    <description>Indicates which criteria the gift meets that requires the donor agreement to go through the formal approval process before getting signed. Manually entered by the Case submitter.</description>
+    <description>Created as a part of 2023 R4 enhancements (US-741). Indicates which criteria the gift meets that requires the donor agreement to go through the formal approval process before getting signed. Manually entered by the Case submitter.</description>
     <externalId>false</externalId>
     <label>Review Criteria</label>
     <required>false</required>

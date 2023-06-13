@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Annual_Match_Gap__c</fullName>
+    <description>Created as a part of 2023 R4 enhancements (US-740). If the Amount Needed to Unlock Annual Match is greater than the Raised to Date for Match, this field will display the difference between the two fields. Otherwise, it will be 0.</description>
     <externalId>false</externalId>
     <formula>If( Annual_Match_Amount__c  &gt; Raised_to_Date_for_Annual_Match__c, Annual_Match_Amount__c - Raised_to_Date_for_Annual_Match__c, 0)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>

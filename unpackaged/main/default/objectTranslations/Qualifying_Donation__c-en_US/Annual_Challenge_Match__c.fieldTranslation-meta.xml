@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- This is the Master-Detail relationship to Deliverable. --></help>
+        <help><!-- Master-Detail relationship to Deliverable --></help>
         <label><!-- Annual Challenge Match --></label>
         <name>Annual_Challenge_Match__c</name>
         <relationshipLabel><!-- Qualifying Opportunitites --></relationshipLabel>
