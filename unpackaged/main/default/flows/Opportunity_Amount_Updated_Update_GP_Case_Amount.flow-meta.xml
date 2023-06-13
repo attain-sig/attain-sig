@@ -23,7 +23,7 @@
         <locationX>138</locationX>
         <locationY>647</locationY>
         <assignmentItems>
-            <assignToReference>varOpportunityAmount</assignToReference>
+            <assignToReference>Loop_Through_Cases.Opportunity_Amount__c</assignToReference>
             <operator>Assign</operator>
             <value>
                 <elementReference>$Record.Amount</elementReference>
@@ -100,7 +100,7 @@
         <connector>
             <targetReference>Gift_Processing_Cases_Found</targetReference>
         </connector>
-        <filterLogic>and</filterLogic>
+        <filterLogic>1 and 2 and (3 or 4 or 5)</filterLogic>
         <filters>
             <field>Opportunity__c</field>
             <operator>EqualTo</operator>

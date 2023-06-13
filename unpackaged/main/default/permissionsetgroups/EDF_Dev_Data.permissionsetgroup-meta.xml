@@ -3,6 +3,7 @@
     <description>Replaces Dev Data Permission Set</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>EDF Dev Data</label>
+    <permissionSets>Create_Edit_Qualifying_Opportunities</permissionSets>
     <permissionSets>Update_Email_or_Phone</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

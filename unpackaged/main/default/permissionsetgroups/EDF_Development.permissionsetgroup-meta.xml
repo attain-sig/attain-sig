@@ -6,6 +6,7 @@
     <permissionSets>Create_Request_Cases</permissionSets>
     <permissionSets>Manage_Gift_Processing_Cases</permissionSets>
     <permissionSets>Manage_Grant_Approvals</permissionSets>
+    <permissionSets>Read_Only_Challenge_Matches_and_Annual_Challenges</permissionSets>
     <permissionSets>Read_Only_Donor_Agreement_Approvals</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

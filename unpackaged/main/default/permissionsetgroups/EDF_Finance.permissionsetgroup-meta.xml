@@ -5,6 +5,7 @@
     <label>EDF Finance</label>
     <permissionSets>Create_Request_Cases</permissionSets>
     <permissionSets>Manage_Fund_Requests_Finance</permissionSets>
+    <permissionSets>Read_Only_Challenge_Matches_and_Annual_Challenges</permissionSets>
     <permissionSets>Read_Only_Donor_Agreement_Approvals</permissionSets>
     <permissionSets>Read_Only_Grant_Approvals</permissionSets>
     <status>Updated</status>

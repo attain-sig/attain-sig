@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeVersionNumber>3</activeVersionNumber>
+    <activeVersionNumber>4</activeVersionNumber>
+    <description>Created as a part of 2023 R4 enhancements. This flow triggers when the Amount on an Opportunity is updated. It updates the &quot;Opportunity Amount&quot; field on any related, open Gift Processing Cases (excluding Refunds).</description>
+    <masterLabel>Opportunity Amount Updated --&gt; Update GP Case Amount</masterLabel>
 </FlowDefinition>
