@@ -3,7 +3,7 @@
     <fullName>Convio_Receipt__c</fullName>
     <description>Created as part of heller Migration 2021.</description>
     <externalId>false</externalId>
-    <label>Convio Receipt #</label>
+    <label>Merchant Transaction ID</label>
     <length>40</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
         <help><!-- Donation is a challenge match originating donation. If set to TRUE, allows the Challenge Match fields to be inputted on a Grant or Major Gift Opportunity. --></help>
-        <label><!-- Challenge Match Originating Donation --></label>
+        <label><!-- Challenge Match Originating Opportunity --></label>
         <name>Challenge_Match_Originating_Donation__c</name>
     </CustomFieldTranslation>

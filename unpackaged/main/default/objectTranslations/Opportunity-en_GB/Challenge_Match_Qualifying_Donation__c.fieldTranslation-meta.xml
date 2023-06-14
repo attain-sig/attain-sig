@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
         <help><!-- Updates automatically via automation if a Qualifying Opportunity is created for a particular Opp. --></help>
-        <label><!-- Challenge Match Qualifying Donation --></label>
+        <label><!-- Challenge Match Qualifying Opportunity --></label>
         <name>Challenge_Match_Qualifying_Donation__c</name>
     </CustomFieldTranslation>
