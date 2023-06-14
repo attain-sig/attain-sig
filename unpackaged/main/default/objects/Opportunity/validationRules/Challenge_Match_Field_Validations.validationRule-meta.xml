@@ -2,14 +2,14 @@
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Challenge_Match_Field_Validations</fullName>
     <active>true</active>
-    <errorConditionFormula>Challenge_Match_Originating_Donation__c = TRUE
+    <errorConditionFormula>not(ischanged(Challenge_Match_Originating_Donation__c))
 
 &amp;&amp;
 
-(isblank( Challenge_Match_Name__c ) || isblank ( Challenge_Match_Start_Date__c ) || isblank ( Challenge_Match_End_Date__c ) || isblank ( text(Challenge_Match_Status__c )) || isblank ( text(Challenge_Match_Type__c )) || isblank ( Amount_Needed_to_Unlock_Challenge_Match__c ))
+Challenge_Match_Originating_Donation__c = TRUE
 
 &amp;&amp;
 
-(not(ischanged(Challenge_Match_Originating_Donation__c)) &amp;&amp; Challenge_Match_Originating_Donation__c = FALSE)</errorConditionFormula>
+(isblank( Challenge_Match_Name__c ) || isblank ( Challenge_Match_Start_Date__c ) || isblank ( Challenge_Match_End_Date__c ) || isblank ( text(Challenge_Match_Status__c )) || isblank ( text(Challenge_Match_Type__c )) || isblank ( Amount_Needed_to_Unlock_Challenge_Match__c ))</errorConditionFormula>
     <errorMessage>If this is a Challenge Match Originating Opportunity, please input Challenge Match Name, Challenge Match Start Date, Challenge Match End Date, Challenge Match Status, Challenge Match Type, and Amount Needed to Unlock Challenge Match.</errorMessage>
 </ValidationRule>
