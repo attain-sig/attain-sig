@@ -607,7 +607,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Challenge_Match_Name__c</fieldItem>
                 <identifier>RecordChallenge_Match_Name_cField</identifier>
@@ -617,7 +617,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Challenge_Match_Start_Date__c</fieldItem>
                 <identifier>RecordChallenge_Match_Start_Date_cField</identifier>
@@ -627,7 +627,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Challenge_Match_End_Date__c</fieldItem>
                 <identifier>RecordChallenge_Match_End_Date_cField</identifier>
@@ -661,7 +661,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Challenge_Match_Status__c</fieldItem>
                 <identifier>RecordChallenge_Match_Status_cField</identifier>
@@ -671,7 +671,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Challenge_Match_Type__c</fieldItem>
                 <identifier>RecordChallenge_Match_Type_cField</identifier>
@@ -701,7 +701,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Amount_Needed_to_Unlock_Challenge_Match__c</fieldItem>
                 <identifier>RecordAmount_Needed_to_Unlock_Challenge_Match_cField</identifier>

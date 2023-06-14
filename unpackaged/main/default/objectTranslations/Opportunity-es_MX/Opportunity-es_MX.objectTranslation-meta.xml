@@ -393,6 +393,10 @@
         <name>Recurring_Donation</name>
     </recordTypes>
     <validationRules>
+        <errorMessage><!-- If this is a Challenge Match Originating Opportunity, please input Challenge Match Name, Challenge Match Start Date, Challenge Match End Date, Challenge Match Status, Challenge Match Type, and Amount Needed to Unlock Challenge Match. --></errorMessage>
+        <name>Challenge_Match_Field_Validations</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- You do not have permission to edit this field. Please contact the Gift Processing Team. --></errorMessage>
         <name>Edit_Membership_Request</name>
     </validationRules>
