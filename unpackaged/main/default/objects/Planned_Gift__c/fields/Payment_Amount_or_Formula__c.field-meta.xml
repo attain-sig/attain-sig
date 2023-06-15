@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Payment_Amount_or_Formula__c</fullName>
     <externalId>false</externalId>
+    <inlineHelpText>The payment amount of the Trust is an Annuity, or the payment rate of the trust is a Unitrust</inlineHelpText>
     <label>Payment Amount or Rate</label>
     <length>225</length>
     <required>false</required>

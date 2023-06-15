@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The payment amount of the Trust is an Annuity, or the payment rate of the trust is a Unitrust --></help>
         <label><!-- Payment Amount or Rate --></label>
         <name>Payment_Amount_or_Formula__c</name>
     </CustomFieldTranslation>
