@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Provides access to System Permissions for Mass Emails, List Emails, and Send Emails.</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>iContact Email Permissions</label>
@@ -27,10 +27,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>EmailSingle</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ListEmailSend</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
