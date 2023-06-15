@@ -76,7 +76,7 @@
     <navType>Standard</navType>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page</content>
+        <content>Pooled_Income_Fund_GPT_Mem</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -85,7 +85,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page</content>
+        <content>Pooled_Income_Fund_GPT_Mem</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -94,7 +94,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page</content>
+        <content>Pooled_Income_Fund_GPT_Mem</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -103,7 +103,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page</content>
+        <content>Pooled_Income_Fund_GPT_Mem</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -112,7 +112,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page</content>
+        <content>Pooled_Income_Fund_GPT_Mem</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -121,7 +121,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page</content>
+        <content>Pooled_Income_Fund_GPT_Mem</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -130,7 +130,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page</content>
+        <content>Pooled_Income_Fund_GPT_Mem</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -139,7 +139,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page</content>
+        <content>Pooled_Income_Fund_GPT_Mem</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>

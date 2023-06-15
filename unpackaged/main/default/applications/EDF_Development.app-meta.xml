@@ -500,7 +500,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page1</content>
+        <content>Pooled_Income_Fund</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -509,7 +509,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page1</content>
+        <content>Pooled_Income_Fund</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -518,7 +518,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page1</content>
+        <content>Pooled_Income_Fund</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -527,7 +527,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page1</content>
+        <content>Pooled_Income_Fund</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -536,7 +536,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page1</content>
+        <content>Pooled_Income_Fund</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -545,7 +545,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page1</content>
+        <content>Pooled_Income_Fund</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -554,7 +554,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page1</content>
+        <content>Pooled_Income_Fund</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -563,7 +563,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page1</content>
+        <content>Pooled_Income_Fund</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -572,7 +572,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page1</content>
+        <content>Pooled_Income_Fund</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -581,7 +581,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page1</content>
+        <content>Pooled_Income_Fund</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -590,7 +590,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page1</content>
+        <content>Pooled_Income_Fund</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -599,7 +599,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page1</content>
+        <content>Pooled_Income_Fund</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Pooled_Income_Fund</recordType>
@@ -608,7 +608,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page2</content>
+        <content>Donor_Advised_Fund</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Donor_Advised_Funds</recordType>
@@ -617,7 +617,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page2</content>
+        <content>Donor_Advised_Fund</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Donor_Advised_Funds</recordType>
@@ -716,7 +716,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page2</content>
+        <content>Donor_Advised_Fund</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Donor_Advised_Funds</recordType>
@@ -725,7 +725,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page2</content>
+        <content>Donor_Advised_Fund</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Donor_Advised_Funds</recordType>
@@ -734,7 +734,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page2</content>
+        <content>Donor_Advised_Fund</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Donor_Advised_Funds</recordType>
@@ -743,7 +743,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page2</content>
+        <content>Donor_Advised_Fund</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Donor_Advised_Funds</recordType>
@@ -752,7 +752,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page2</content>
+        <content>Donor_Advised_Fund</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Donor_Advised_Funds</recordType>
@@ -761,7 +761,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page2</content>
+        <content>Donor_Advised_Fund</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Donor_Advised_Funds</recordType>
@@ -770,7 +770,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page2</content>
+        <content>Donor_Advised_Fund</content>
         <formFactor>Large</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Donor_Advised_Funds</recordType>
@@ -779,7 +779,7 @@
     </profileActionOverrides>
     <profileActionOverrides>
         <actionName>View</actionName>
-        <content>Planned_Gift_Record_Page2</content>
+        <content>Donor_Advised_Fund</content>
         <formFactor>Small</formFactor>
         <pageOrSobjectType>Planned_Gift__c</pageOrSobjectType>
         <recordType>Planned_Gift__c.Donor_Advised_Funds</recordType>

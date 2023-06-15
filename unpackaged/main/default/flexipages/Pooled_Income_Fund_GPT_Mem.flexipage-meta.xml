@@ -629,7 +629,7 @@
         <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Planned Gift Record Page</masterLabel>
+    <masterLabel>Pooled Income Fund - GPT &amp; Mem</masterLabel>
     <parentFlexiPage>flexipage__default_rec_L</parentFlexiPage>
     <sobjectType>Planned_Gift__c</sobjectType>
     <template>
