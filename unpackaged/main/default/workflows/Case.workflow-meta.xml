@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
     <alerts>
         <fullName>External_Grant_Approval_Email_Alert</fullName>
-        <ccEmails>dbahtijari@edf.org</ccEmails>
+        <ccEmails>ERPSupport@edf.org</ccEmails>
         <description>External Grant Approval Email Alert</description>
         <protected>false</protected>
         <recipients>
