@@ -699,10 +699,10 @@
     </relatedContent>
     <relatedLists>
         <fields>CASES.CASE_NUMBER</fields>
-        <fields>CASES.SUBJECT</fields>
         <fields>CASES.REASON</fields>
+        <fields>CASES.STATUS</fields>
+        <fields>OWNER_NAME</fields>
         <fields>CASES.CREATED_DATE</fields>
-        <fields>CASES.PRIORITY</fields>
         <relatedList>Case.Opportunity__c</relatedList>
     </relatedLists>
     <relatedLists>
