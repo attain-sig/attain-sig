@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Provide Edit rights to Netsuite Fields. Meant for ERP User(s)</description>
     <fieldPermissions>
         <editable>true</editable>
@@ -458,6 +458,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>npe01__OppPayment__c.Received_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>npsp__General_Accounting_Unit__c.NetSuite_External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
