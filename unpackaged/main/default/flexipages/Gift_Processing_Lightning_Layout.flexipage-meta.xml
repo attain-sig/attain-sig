@@ -1343,6 +1343,24 @@
                 </componentInstanceProperties>
                 <componentName>force:relatedListSingleContainer</componentName>
                 <identifier>force_relatedListSingleContainer3</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+                    <criteria>
+                        <leftValue>{!Record.Reason}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Fund Request</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.Reason}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Grant Approval</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.Reason}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Donor Agreement Approval</rightValue>
+                    </criteria>
+                </visibilityRule>
             </componentInstance>
         </itemInstances>
         <itemInstances>
