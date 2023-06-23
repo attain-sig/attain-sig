@@ -14,15 +14,6 @@
         <operation>equals</operation>
         <value>1</value>
     </filters>
-    <filters>
-        <field>CORE.PROFILE.NAME</field>
-        <operation>equals</operation>
-        <value>Fellow Portal Community User</value>
-    </filters>
-    <filters>
-        <field>CORE.USERS.FIRST_NAME</field>
-        <operation>contains</operation>
-        <value>Hanako</value>
-    </filters>
     <label>All Users</label>
+    <language>en_US</language>
 </ListView>
