@@ -1,40 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <layouts>
         <layout>Fund Layout</layout>
         <sections>
-            <label><!-- GL Codes/Fields pending placement --></label>
-            <section>GL Codes/Fields pending placement</section>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
         </sections>
     </layouts>
     <layouts>
@@ -47,15 +17,15 @@
     <layouts>
         <layout>Program Layout</layout>
         <sections>
-            <label><!-- GL Codes/Field pending placement --></label>
-            <section>GL Codes/Field pending placement</section>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
         </sections>
     </layouts>
     <layouts>
         <layout>Subprogram Layout</layout>
         <sections>
-            <label><!-- GL Codes/Fields pending placement --></label>
-            <section>GL Codes/Fields pending placement</section>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
         </sections>
     </layouts>
     <recordTypes>
@@ -74,4 +44,34 @@
         <label><!-- Recalculate_Rollups --></label>
         <name>npsp__Recalculate_Rollups</name>
     </webLinks>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </CustomObjectTranslation>

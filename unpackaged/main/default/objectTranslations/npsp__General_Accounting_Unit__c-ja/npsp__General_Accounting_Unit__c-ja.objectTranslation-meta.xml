@@ -4,41 +4,11 @@
         <plural>false</plural>
         <value>一般会計単位</value>
     </caseValues>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <layouts>
         <layout>Fund Layout</layout>
         <sections>
-            <label><!-- GL Codes/Fields pending placement --></label>
-            <section>GL Codes/Fields pending placement</section>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
         </sections>
     </layouts>
     <layouts>
@@ -51,15 +21,15 @@
     <layouts>
         <layout>Program Layout</layout>
         <sections>
-            <label><!-- GL Codes/Field pending placement --></label>
-            <section>GL Codes/Field pending placement</section>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
         </sections>
     </layouts>
     <layouts>
         <layout>Subprogram Layout</layout>
         <sections>
-            <label><!-- GL Codes/Fields pending placement --></label>
-            <section>GL Codes/Fields pending placement</section>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
         </sections>
     </layouts>
     <nameFieldLabel>一般会計単位名</nameFieldLabel>
@@ -79,4 +49,34 @@
         <label><!-- Recalculate_Rollups --></label>
         <name>npsp__Recalculate_Rollups</name>
     </webLinks>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </CustomObjectTranslation>

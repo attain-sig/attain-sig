@@ -42,8 +42,8 @@
     <layouts>
         <layout>Fund Layout</layout>
         <sections>
-            <label><!-- GL Codes/Fields pending placement --></label>
-            <section>GL Codes/Fields pending placement</section>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
         </sections>
     </layouts>
     <layouts>
@@ -56,15 +56,15 @@
     <layouts>
         <layout>Program Layout</layout>
         <sections>
-            <label><!-- GL Codes/Field pending placement --></label>
-            <section>GL Codes/Field pending placement</section>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
         </sections>
     </layouts>
     <layouts>
         <layout>Subprogram Layout</layout>
         <sections>
-            <label><!-- GL Codes/Fields pending placement --></label>
-            <section>GL Codes/Fields pending placement</section>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
         </sections>
     </layouts>
     <nameFieldLabel>Nom de l’unité comptable générale</nameFieldLabel>
@@ -85,4 +85,34 @@
         <label><!-- Recalculate_Rollups --></label>
         <name>npsp__Recalculate_Rollups</name>
     </webLinks>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </CustomObjectTranslation>
