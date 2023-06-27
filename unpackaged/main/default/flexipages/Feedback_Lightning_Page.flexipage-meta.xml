@@ -108,6 +108,10 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>showLegacyActivityComposer</name>
+                    <value>false</value>
+                </componentInstanceProperties>
                 <componentName>runtime_sales_activities:activityPanel</componentName>
                 <identifier>runtime_sales_activities_activityPanel</identifier>
             </componentInstance>
@@ -143,26 +147,19 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>numberOfTopicsToDisplay</name>
-                    <value>10</value>
+                    <name>parentFieldApiName</name>
+                    <value>Feedback__c.Id</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>searchHint</name>
-                    <value>Type a topic name and press Enter.</value>
+                    <name>relatedListApiName</name>
+                    <value>AttachedContentDocuments</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>title</name>
-                    <value>Topics</value>
+                    <name>relatedListComponentOverride</name>
+                    <value>NONE</value>
                 </componentInstanceProperties>
-                <componentName>forceChatter:topicsOnRecordWrapper</componentName>
-                <identifier>forceChatter_topicsOnRecordWrapper</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!$User.Profile.Name}</leftValue>
-                        <operator>CONTAINS</operator>
-                        <rightValue>System Administrator</rightValue>
-                    </criteria>
-                </visibilityRule>
+                <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
