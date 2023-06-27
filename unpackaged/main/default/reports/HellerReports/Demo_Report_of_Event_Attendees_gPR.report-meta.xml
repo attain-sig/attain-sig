@@ -18,6 +18,16 @@
     <columns>
         <field>INVITEE_STATUS</field>
     </columns>
+    <filter>
+        <criteriaItems>
+            <column>INVITEE_NAME</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>alyssa buda</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
@@ -47,6 +57,5 @@
     <timeFrameFilter>
         <dateColumn>DUE_DATE</dateColumn>
         <interval>INTERVAL_CUSTOM</interval>
-        <startDate>2023-05-01</startDate>
     </timeFrameFilter>
 </Report>
