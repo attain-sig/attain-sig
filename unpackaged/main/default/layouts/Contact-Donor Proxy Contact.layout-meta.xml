@@ -59,6 +59,10 @@
                 <behavior>Readonly</behavior>
                 <field>Contact_Name__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Affiliation_Relationship_Manager__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

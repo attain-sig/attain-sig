@@ -578,6 +578,11 @@
             <field>Contact_Name__c</field>
             <table>npo02__Household__c.npo02__Contacts__r</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Affiliation_Relationship_Manager__c</field>
+            <table>npo02__Household__c.npo02__Contacts__r</table>
+        </columns>
         <masterLabel>Contacts</masterLabel>
     </sections>
 </ReportType>

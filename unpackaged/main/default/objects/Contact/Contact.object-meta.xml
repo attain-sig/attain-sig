@@ -453,9 +453,9 @@
         <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Constituency__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Sub_Constituency__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Portfolio_Manager__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Primary_Handler__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Affiliation_Relationship_Manager__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Employer_Lookup__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Capacity__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CONTACT.ADDRESS2_CITY</searchResultsAdditionalFields>

@@ -1960,6 +1960,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.Affiliation_Relationship_Manager__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.Contact_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
