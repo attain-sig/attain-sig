@@ -404,9 +404,9 @@
         <fields>CONTACT.ADDRESS2_STATE</fields>
         <fields>CONTACT.ADDRESS2_COUNTRY</fields>
         <fields>Constituency__c</fields>
-        <fields>Sub_Constituency__c</fields>
         <fields>Contact_Record_ID__c</fields>
         <fields>ACCOUNT.NAME</fields>
+        <fields>Affiliation_Relationship_Manager__c</fields>
         <profileName>Climate Corps</profileName>
     </profileSearchLayouts>
     <profileSearchLayouts>
