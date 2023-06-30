@@ -2,8 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Diverse_Serving_Organization1__c</fullName>
     <defaultValue>false</defaultValue>
+    <description>think this was cloned and used to create the Social and EJ Organization field, which is in use.</description>
     <externalId>false</externalId>
-    <label>Environmental Justice Organization</label>
+    <label>DEL_Environmental Justice Organization</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>

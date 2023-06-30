@@ -2,9 +2,10 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Planned_Gift_Soft_Credit_Total__c</fullName>
     <defaultValue>0.0</defaultValue>
-    <description>This field is created to get the soft credit roll up for Estate Account</description>
+    <description>[HS] Not currently doing anything useful
+JS 2/9: Stakeholders agreed with deprecating these old summary fields, given that the deprecation process will include usage research and a field label change so we have some time to find any use of them in existing reports.</description>
     <externalId>false</externalId>
-    <label>Planned Gift Soft Credit Total</label>
+    <label>DEL_Planned Gift Soft Credit Total</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

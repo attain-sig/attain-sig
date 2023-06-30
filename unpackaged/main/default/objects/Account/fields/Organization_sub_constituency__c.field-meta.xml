@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Organization_sub_constituency__c</fullName>
+    <description>Synced from the Primary Contact's Sub-Constituency  for households and syncs down to the donor proxy contact for organizations. Isn't currently required on Estate Accounts.</description>
     <externalId>false</externalId>
+    <inlineHelpText>Additonal EDF departments that mange the Contact or Account</inlineHelpText>
     <label>Sub-constituency</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

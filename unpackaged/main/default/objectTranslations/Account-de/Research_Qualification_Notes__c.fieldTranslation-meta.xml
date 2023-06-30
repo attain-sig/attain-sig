@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- A brief rationale from Prospect Research supporting the Donor Qualification Status. --></help>
         <label><!-- Research Qualification Notes --></label>
         <name>Research_Qualification_Notes__c</name>
     </CustomFieldTranslation>

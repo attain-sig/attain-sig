@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Accept_Donation__c</fullName>
-    <description>Heller created 2021</description>
+    <description>Before 2022, Membership used this data to track its own corporate donation policy reviews. This data is no longer in active use, but the overall method of enforcing EDF's Corporate Donation Policy is under review by Emily, Michele, and Kristin, so we want to keep this data in case they incorporate it into a future method.</description>
     <externalId>false</externalId>
     <label>Accept Outright Donations</label>
     <required>false</required>
@@ -11,7 +11,7 @@
     <valueSet>
         <restricted>true</restricted>
         <valueSetDefinition>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
             <value>
                 <fullName>No</fullName>
                 <default>false</default>

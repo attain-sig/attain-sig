@@ -2,9 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>No_Renewal_This_Year_account_edf__c</fullName>
     <defaultValue>false</defaultValue>
-    <description>Check if a renewal notice should not be sent for this year's renewal cycle</description>
+    <description>Only displayed on non-Household Accounts, because for Households we keep this information on the individual Contacts. So only the data on non-Household Accounts should be used.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Check if a renewal notice should not be sent for this year's renewal cycle</inlineHelpText>
+    <inlineHelpText>As requested by the organization. Membership will stop mailing renewal letters for the calendar year we're currently asking for, but other channels may continue.</inlineHelpText>
     <label>No Renewal This Year</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

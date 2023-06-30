@@ -2,7 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>No_C4_Communication__c</fullName>
     <defaultValue>false</defaultValue>
+    <description>Only displayed on non-Household Accounts, because for Households we keep this information on the individual Contacts. So only the data on non-Household Accounts should be used.</description>
     <externalId>false</externalId>
+    <inlineHelpText>As requested by the organization. Includes stopping EDF Action PAC communications. Each EDF department determines whether this applies to only their mail or to all channels, and how this applies to acknowledging donations and actions.</inlineHelpText>
     <label>No C4 Communication</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

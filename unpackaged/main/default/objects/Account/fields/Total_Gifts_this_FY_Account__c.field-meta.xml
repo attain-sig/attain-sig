@@ -4,7 +4,7 @@
     <description>For all HH Members: Total C3/C4 gifts (Rec'd, Rec'd as Uncond. Pledge) this FY - hard and soft credit, excl. In-Kind and Planned Gift.</description>
     <externalId>false</externalId>
     <inlineHelpText>For all HH Members: Total C3/C4 gifts (Rec'd, Rec'd as Uncond. Pledge) this FY - hard/soft credit, excl. In-Kind and Planned Gift.</inlineHelpText>
-    <label>Total Gifts this FY</label>
+    <label>DEL_Total Gifts this FY</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

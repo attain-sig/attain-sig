@@ -3,7 +3,7 @@
     <fullName>of_Donations_Last_1_Years__c</fullName>
     <description>Total hard and soft credits for all Contacts in HH last calendar year.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Total hard and soft credits for all Contacts in HH last calendar year.</inlineHelpText>
+    <inlineHelpText>Count of hard and soft credits for all Contacts in Household last calendar year.</inlineHelpText>
     <label># of Donations during Last Year</label>
     <precision>6</precision>
     <required>false</required>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Donor Qualification Notes --></label>
+        <help><!-- Brief rationale supporting the Donor Qualification Status provided by Portfolio Manager or Development Staff --></help>
+        <label><!-- Development Qualification Notes --></label>
         <name>Donor_Qualification_Notes__c</name>
     </CustomFieldTranslation>

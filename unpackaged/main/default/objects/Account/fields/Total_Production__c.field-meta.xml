@@ -6,7 +6,7 @@
     <formula>npo02__TotalOppAmount__c +  Total_Soft_Credits__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Automatically totals hard and soft credits.</inlineHelpText>
-    <label>Total Production</label>
+    <label>DEL_Total Production</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

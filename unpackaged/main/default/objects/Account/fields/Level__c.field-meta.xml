@@ -5,7 +5,7 @@
     <description>Sample Level field for use with Level feature. May be deleted or edited as needed.</description>
     <externalId>false</externalId>
     <inlineHelpText>This field is populated with the Level a donor is at based on a calculation of the Donor Level Amount field on a nightly basis.</inlineHelpText>
-    <label>Level</label>
+    <label>DEL_Level</label>
     <referenceTo>npsp__Level__c</referenceTo>
     <relationshipLabel>Households</relationshipLabel>
     <relationshipName>Accounts</relationshipName>

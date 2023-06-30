@@ -2,9 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Membership_Leader_Account__c</fullName>
     <defaultValue>false</defaultValue>
-    <description>Membership Constituent who has given a cumulative amount of $500 or more over the current or previous 3 fiscal years.</description>
+    <description>Regular Membership donor (not Catalyst Circle) who has given a single gift of at least $500 in the last 24 months, or a recurring Sustainer payment of at least $41.67 in the last six months. Calculated nightly by Informatica process.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Membership Constituent who has given a cumulative amount of $500 or more over the current or previous 3 fiscal years.</inlineHelpText>
+    <inlineHelpText>Mid-level giving circle in Regular Membership: Typically $500-$4,999 donors.</inlineHelpText>
     <label>Membership Leader</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

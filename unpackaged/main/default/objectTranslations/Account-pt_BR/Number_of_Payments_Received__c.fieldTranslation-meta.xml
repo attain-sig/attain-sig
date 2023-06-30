@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Number of Payments Received --></label>
+        <label><!-- DEL_Number of Payments Received --></label>
         <name>Number_of_Payments_Received__c</name>
     </CustomFieldTranslation>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SicDesc</fullName>
+    <description>The plain language description for their SIC and secondary SIC codes.</description>
+    <inlineHelpText>Enter codes in the SIC Code and Secondary SIC Code sections. This is for narrative only.</inlineHelpText>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
 </CustomField>

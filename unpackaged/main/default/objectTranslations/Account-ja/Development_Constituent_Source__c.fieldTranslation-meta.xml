@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- How the Constituent was introduced to EDF Development (excludes Membership) and not necessarily how they were introduced to the EDF organization. --></help>
         <label><!-- Development Constituent Source --></label>
         <name>Development_Constituent_Source__c</name>
         <picklistValues>

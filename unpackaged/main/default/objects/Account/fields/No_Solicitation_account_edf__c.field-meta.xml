@@ -2,9 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>No_Solicitation_account_edf__c</fullName>
     <defaultValue>false</defaultValue>
-    <description>Check if the donor does not want to receive solicitations</description>
+    <description>Only displayed on non-Household Accounts, because for Households we keep this information on the individual Contacts. So only the data on non-Household Accounts should be used.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Check if the donor does not want to receive solicitations</inlineHelpText>
+    <inlineHelpText>As requested by the organization. Each EDF department decides which specific messages are not sent. Cultivation mailings with soft asks may still be sent.</inlineHelpText>
     <label>No Solicitation</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>

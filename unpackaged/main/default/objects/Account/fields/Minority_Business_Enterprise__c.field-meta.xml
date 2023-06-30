@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Minority_Business_Enterprise__c</fullName>
     <externalId>false</externalId>
-    <label>Minority Business Enterprise</label>
+    <label>DEL_Minority Business Enterprise</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

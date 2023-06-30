@@ -3,7 +3,7 @@
     <fullName>npo02__Informal_Greeting__c</fullName>
     <deprecated>false</deprecated>
     <externalId>false</externalId>
-    <inlineHelpText>For Household Accounts, uses fields of non-excluded, ordered related Contacts. Generated automatically.</inlineHelpText>
+    <inlineHelpText>An informal and casual greeting used when a familial greeting is appropriate.  Edit in the Manage Household screen.</inlineHelpText>
     <label>Informal Greeting</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

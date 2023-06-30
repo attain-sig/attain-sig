@@ -2,6 +2,12 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Highest_Previous_DL__c</fullName>
     <externalId>false</externalId>
+    <inlineHelpText>The highest previous giving level of the Donor. The levels are:
+Donor: $1 - $4.9K
+Supporter: $5K - $19.9K
+Mid-Level: $20K - $99.9K
+Leadership: $100K - $999.9K
+Principal: $1M+</inlineHelpText>
     <label>Highest Previous DL</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

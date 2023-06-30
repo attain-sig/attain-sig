@@ -4,7 +4,7 @@
     <description>Roll-up of Soft Credits with following Role values (Influencer, Donation Source, Funder - Soft Credit).</description>
     <externalId>false</externalId>
     <inlineHelpText>Automatic roll-up of Soft Credits with following Role values (Influencer, Donation Source, Funder - Soft Credit).</inlineHelpText>
-    <label>Total Soft Credits</label>
+    <label>DEL_Total Soft Credits</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

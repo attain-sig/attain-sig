@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Strategic Value --></label>
+        <label><!-- Climate Corps Strategic Value --></label>
         <name>Strategic_Value__c</name>
         <picklistValues>
             <masterLabel>High</masterLabel>

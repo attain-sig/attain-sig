@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>OwnerId</fullName>
+    <description>This is the standard Salesforce Account Owner field that will default to the creating user. Is referenced in sharing rules.</description>
     <trackFeedHistory>true</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Lookup</type>

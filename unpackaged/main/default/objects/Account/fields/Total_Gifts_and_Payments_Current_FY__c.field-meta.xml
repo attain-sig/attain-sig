@@ -4,7 +4,7 @@
     <description>Total amount of gifts and Payments for current financial year for all Account Contacts.  Payment: Date = Current FY; Paid = True. Opp: Stage = Received, Received as Unconditional Pledge, or Received as Conditional Pledge. DLRS.</description>
     <externalId>false</externalId>
     <inlineHelpText>Total amount of gifts and Payments for current financial year for all Account Contacts.</inlineHelpText>
-    <label>Total Gifts and Payments Current FY</label>
+    <label>DEL_Total Gifts and Payments Current FY</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

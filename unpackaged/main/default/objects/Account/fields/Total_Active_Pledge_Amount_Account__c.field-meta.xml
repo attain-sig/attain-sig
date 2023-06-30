@@ -3,8 +3,8 @@
     <fullName>Total_Active_Pledge_Amount_Account__c</fullName>
     <description>Sum of all unpaid Payments on Opportunities (pledged) for all Contacts in HH.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Sum of all unpaid Payments on Opportunities (pledged) for all Contacts in HH.</inlineHelpText>
-    <label>Total Active Pledge Amount</label>
+    <inlineHelpText>Sum of all unpaid Payments on Opportunities (pledged) for all Contacts in Household.</inlineHelpText>
+    <label>DEL_Total Active Pledge Amount</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

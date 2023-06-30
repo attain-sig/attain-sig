@@ -5,6 +5,7 @@
     <deprecated>false</deprecated>
     <description>The primary contact for the Account, or the One2One contact for a One2One account.</description>
     <externalId>false</externalId>
+    <inlineHelpText>All Households should have a Primary Contact. Organizations may have one. In all cases, it should be a person, not a "donor proxy" Contact.</inlineHelpText>
     <label>Primary Contact</label>
     <referenceTo>Contact</referenceTo>
     <relationshipLabel>Account</relationshipLabel>

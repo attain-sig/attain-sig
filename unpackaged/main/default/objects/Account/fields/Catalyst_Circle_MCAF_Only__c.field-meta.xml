@@ -2,7 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Catalyst_Circle_MCAF_Only__c</fullName>
     <defaultValue>false</defaultValue>
+    <description>Account is in Catalyst Circle sub-constituency and has only opted in to communication from the Moms Clean Air Force brand, not from Environmental Defense Fund in general. This field is a workaround until we have a field to track brand opt-ins.</description>
     <externalId>false</externalId>
+    <inlineHelpText>Account is in Catalyst Circle sub-constituency and has only opted in to communication from the Moms Clean Air Force brand, not from Environmental Defense Fund in general.</inlineHelpText>
     <label>Catalyst Circle MCAF-Only</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

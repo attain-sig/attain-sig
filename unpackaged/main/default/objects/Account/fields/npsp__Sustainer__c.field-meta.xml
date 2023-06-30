@@ -4,7 +4,7 @@
     <deprecated>false</deprecated>
     <description>Indicates if this Account is an active, lapsed, or former recurring donor. The value is based on the Status of the related Recurring Donations.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Indicates if this Account is an active, lapsed, or former recurring donor. The value is based on the Status of the related Recurring Donations.</inlineHelpText>
+    <inlineHelpText>Field not currently used by EDF.</inlineHelpText>
     <label>Sustainer</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

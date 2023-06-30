@@ -3,7 +3,7 @@
     <fullName>Number_of_Payments_Received__c</fullName>
     <description>Created as a part of Data Migration 2021.</description>
     <externalId>false</externalId>
-    <label>Number of Payments Received</label>
+    <label>DEL_Number of Payments Received</label>
     <precision>3</precision>
     <required>false</required>
     <scale>0</scale>

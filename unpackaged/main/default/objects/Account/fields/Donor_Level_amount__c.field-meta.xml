@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>Total_Soft_Credits_this_Year__c +  npo02__OppAmountThisYear__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <inlineHelpText>This formula field is calculated based on the Sum of Total Soft Credits this Year and Total Gifts this Year (FY). This field is used to calculate donor levels on the Levels Object.</inlineHelpText>
+    <inlineHelpText>The sum of all gifts and soft credits in the current Fiscal Year</inlineHelpText>
     <label>Donor Level amount</label>
     <precision>18</precision>
     <required>false</required>

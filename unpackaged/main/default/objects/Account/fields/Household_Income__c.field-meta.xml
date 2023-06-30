@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Household_Income__c</fullName>
+    <description>JS 2/9/2023: Research, do you use this field? If not, it may be old Membership data.
+Camille 2/9: Not a Research field. Not on our layout. Up to Membership.
+Camille 4/24: Reconfirming that this is not a Research field and not a field on Development's layout
+JS 5/8/2023: OK let's DEPRECATE! Membership is buying this data for segmentation but we keep it in Snowflake -- it's not worth loading to Salesforce just for our use.</description>
     <externalId>false</externalId>
-    <label>Household Income</label>
+    <label>DEL_Household Income</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

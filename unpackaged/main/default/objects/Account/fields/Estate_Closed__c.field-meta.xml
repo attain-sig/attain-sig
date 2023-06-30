@@ -3,6 +3,7 @@
     <fullName>Estate_Closed__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
+    <inlineHelpText>The date at which EDF has received all the estate funds it is due and final correspondence and receipts have been sent to the estate contact/s</inlineHelpText>
     <label>Estate Closed</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

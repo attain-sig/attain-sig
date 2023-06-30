@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SRM_EDF_Entity_Interest_Account__c</fullName>
-    <description>EDF organizations this contact is interested in. For Program Staff use</description>
+    <description>EDF organizations this contact is interested in. For Mission staff use.</description>
     <externalId>false</externalId>
-    <inlineHelpText>EDF organizations this contact is interested in</inlineHelpText>
-    <label>SRM EDF Entity Interest</label>
+    <inlineHelpText>EDF organizations this contact is interested in. For Mission staff use.</inlineHelpText>
+    <label>MCRM EDF Entity Interest</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

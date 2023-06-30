@@ -3,7 +3,7 @@
     <fullName>of_Donations_Last_5_Years__c</fullName>
     <description>Total number of donations (HC + SC) in past 5 calendar years made to C3/C4 excluding In-Kind and Planned Gift for all Contacts in HH.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Count of donations in past 5 years (C3/C4, excl. In-Kind and Planned Gifts) for all Contacts in HH.</inlineHelpText>
+    <inlineHelpText>Count of c3 and c4 donations in past 5 years for all Contacts in Household (excludes In-Kind and Planned Gifts).</inlineHelpText>
     <label># of Donations Last 5 Years</label>
     <precision>6</precision>
     <required>false</required>

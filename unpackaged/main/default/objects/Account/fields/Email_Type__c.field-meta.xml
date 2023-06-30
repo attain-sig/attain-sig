@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Email_Type__c</fullName>
+    <description>We're considering whether there are email "type" values that would have any use on Organization Accounts. If we don't think of a purpose, this field may be deleted in the future.</description>
     <externalId>false</externalId>
+    <inlineHelpText>Use of this field to be determined.</inlineHelpText>
     <label>Email Type</label>
     <length>255</length>
     <required>false</required>

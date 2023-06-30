@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>EDFBIZ_Tags__c</fullName>
+    <description>These are categories the EDF+Business team is tracking at an organization level.</description>
     <externalId>false</externalId>
     <label>EDFBIZ Tags</label>
     <required>false</required>

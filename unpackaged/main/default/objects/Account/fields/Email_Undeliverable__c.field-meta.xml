@@ -2,7 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Email_Undeliverable__c</fullName>
     <defaultValue>false</defaultValue>
+    <description>Undeliverable indicates the email isn't valid.</description>
     <externalId>false</externalId>
+    <inlineHelpText>Email address is not valid.</inlineHelpText>
     <label>Email Undeliverable</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

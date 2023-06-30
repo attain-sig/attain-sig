@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
         <help><!-- Automatic roll-up of Soft Credits with following Role values (Influencer, Donation Source, Funder - Soft Credit). --></help>
-        <label><!-- Total Soft Credits --></label>
+        <label><!-- DEL_Total Soft Credits --></label>
         <name>Total_Soft_Credits__c</name>
     </CustomFieldTranslation>

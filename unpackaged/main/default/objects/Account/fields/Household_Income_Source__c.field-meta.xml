@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Household_Income_Source__c</fullName>
+    <description>JS 2/9/2023: Research, do you use this field? If not, it may be old Membership data.
+Camille 4/24: Reconfirming that this is not a Research field and not a field on Development's layout
+JS 5/8/2023: DEPRECATE</description>
     <externalId>false</externalId>
-    <label>Household Income Source</label>
+    <label>DEL_Household Income Source</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

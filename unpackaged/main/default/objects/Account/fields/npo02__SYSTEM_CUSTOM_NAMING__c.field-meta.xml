@@ -3,7 +3,7 @@
     <fullName>npo02__SYSTEM_CUSTOM_NAMING__c</fullName>
     <deprecated>false</deprecated>
     <externalId>false</externalId>
-    <inlineHelpText>For Household Accounts, specifies which name related fields should not be automatically populated by the Householding code.</inlineHelpText>
+    <inlineHelpText>On Organization Accounts, add “Formal_Greeting__c” to have your custom Formal Greeting used in Membership mailings. Add "Informal_Greeting__c” to have your custom Informal Greeting used.</inlineHelpText>
     <label>_SYSTEM: CUSTOM NAMING</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

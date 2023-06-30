@@ -2,9 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Refresh_DLRS_Rollup__c</fullName>
     <defaultValue>false</defaultValue>
+    <description>Use this field to ensure DLRS rollups are accurate for Account. Only use with DLRS Calculate button.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Use this field to ensure DLRS rollups are accurate for Account. Only use with DLRS Calculate button.</inlineHelpText>
-    <label>Refresh DLRS Rollup</label>
+    <label>DEL_Refresh DLRS Rollup</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>

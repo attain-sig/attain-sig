@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Report containing all of the Account&apos;s hard and soft credits for received and projected opportunities. --></help>
+        <help><!-- Report containing all of the Account&apos;s hard and soft credits for received and projected Opportunities. --></help>
         <label><!-- Donor Gifts and Projections --></label>
         <name>Giving_History_Report__c</name>
     </CustomFieldTranslation>

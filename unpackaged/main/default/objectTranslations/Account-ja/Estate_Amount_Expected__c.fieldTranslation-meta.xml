@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The value of the bequest due to EDF --></help>
         <label><!-- Estate Amount Expected --></label>
         <name>Estate_Amount_Expected__c</name>
     </CustomFieldTranslation>

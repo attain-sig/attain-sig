@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Record_Type_Name_c__c</fullName>
-    <description>Used by Membership in external platforms to easily identify the Account Record Type without having to use the record type IDs.</description>
+    <description>Holds the "Record Type Name" value, not the "Record Type Label" value, from the Record Type section of the Setup for the Account object. As of March 2023, values are "HH_Account", "Organization", "Committee", and "Estate".</description>
     <externalId>false</externalId>
     <formula>$RecordType.DeveloperName</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Determines which data fields are made available for entry on this Account.</inlineHelpText>
     <label>Record Type Name</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

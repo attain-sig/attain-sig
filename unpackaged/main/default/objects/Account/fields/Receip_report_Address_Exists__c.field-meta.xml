@@ -4,7 +4,7 @@
     <defaultValue>false</defaultValue>
     <description>Populated by flow when related Address receipt/report checkbox values change.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Populated by flow when related Address receipt/report checkbox values change.</inlineHelpText>
+    <inlineHelpText>Alerts user that the Send Receipts or Send Reports checkboxes are checked on the Address record.</inlineHelpText>
     <label>Receipt/Report Address Exists</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

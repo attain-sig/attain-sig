@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>HPC_Date_Account__c</fullName>
-    <description>Date of the constituent's highest previous donation</description>
+    <description>Date of the highest previous contribution from this account. Compares HPC Date for all related contacts and grabs the largest. If multiple gifts of the same amount, the most recent one wins out. Includes hard and soft credits; excludes planned gifts. Calculated in Snowflake and pushed into Salesforce when there's a qualifying change.</description>
     <externalId>false</externalId>
-    <inlineHelpText>The Close Date of the received Opportunity with the highest Amount on this Account (Planned Gifts not included).</inlineHelpText>
+    <inlineHelpText>Date of the constituent's highest previous donation</inlineHelpText>
     <label>HPC Date</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Legacy_Source_Table__c</fullName>
+    <description>tracks which LCRM table the data was migrated from. For Accounts, this is Accounts, Estates, Committees. End users don't need access to this field</description>
     <externalId>false</externalId>
     <label>Legacy Source Table</label>
     <required>false</required>

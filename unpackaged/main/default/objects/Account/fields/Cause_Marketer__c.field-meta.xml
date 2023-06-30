@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Cause_Marketer__c</fullName>
+    <description>Cause Marketers are companies that get people to buy or participate in things with the promise that part of the proceeds will go to charities. When we receive donations from Cause Marketers, the original buyers/participants are not identified, and we assign the Donor Contact Role for the donation (Opportunity) to the Cause Marketer's Account. This field exists because we report on our revenue from Cause Marketers, and we tailor our communications with them as a segment.</description>
     <externalId>false</externalId>
+    <inlineHelpText>Indicates that the Account is a Cause Marketing company that encourage consumers to buy or participate with the promise that a portion of the proceeds will go to charities.</inlineHelpText>
     <label>Cause Marketer</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

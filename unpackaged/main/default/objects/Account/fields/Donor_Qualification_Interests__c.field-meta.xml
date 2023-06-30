@@ -2,7 +2,8 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Donor_Qualification_Interests__c</fullName>
     <externalId>false</externalId>
-    <label>Donor Qualification Interests</label>
+    <inlineHelpText>The constituent's potential interests based on research by Prospect Research</inlineHelpText>
+    <label>Research Qualification Interests</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

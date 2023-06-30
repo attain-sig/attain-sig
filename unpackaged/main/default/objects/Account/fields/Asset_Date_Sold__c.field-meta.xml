@@ -3,7 +3,7 @@
     <fullName>Asset_Date_Sold__c</fullName>
     <description>Created as a part of Heller Migration 2021.</description>
     <externalId>false</externalId>
-    <label>DELETE_Asset Date Sold</label>
+    <label>DEL_Asset Date Sold</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

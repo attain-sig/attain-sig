@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- The main EDF contact for this Organization. Do not contact until speaking with handler. --></help>
+        <help><!-- The EDF staff person responsible for maintaining the relationship with this constituent in collaboration with the Portfolio Manager if one is assigned --></help>
         <label><!-- Relationship Manager --></label>
         <name>Account_Primary_Handler__c</name>
         <relationshipLabel><!-- Organization Primary Handler --></relationshipLabel>

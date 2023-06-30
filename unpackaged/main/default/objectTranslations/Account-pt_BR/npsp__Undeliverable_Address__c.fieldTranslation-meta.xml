@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Mail to this address would be returned. Constituent no longer lives at this address. --></help>
         <label><!-- Undeliverable Billing Address --></label>
         <name>npsp__Undeliverable_Address__c</name>
     </CustomFieldTranslation>

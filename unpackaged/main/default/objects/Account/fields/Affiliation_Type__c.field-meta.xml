@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Affiliation_Type__c</fullName>
+    <description>DEPRECATE - there had been some discussion about building automation for this but stakeholders didn't want to pursue it. Not in use and not referenced in any flows</description>
     <externalId>false</externalId>
     <inlineHelpText>Value in this field will be pushed to the Affiliation record for the Organization and the Contact in the Primary Contact field.</inlineHelpText>
-    <label>Affiliation Type</label>
+    <label>DEL_Affiliation Type</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

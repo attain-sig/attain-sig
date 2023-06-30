@@ -2,7 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>PG_Portfolio_Manager__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
+    <description>All changes to PG PM post-launch are tracked in the Relationship Manager History object. PG PM is also getting passed from the Account to the Opportunity</description>
     <externalId>false</externalId>
+    <inlineHelpText>The EDF staff person that is primarily responsible for the constituent's planned giving relationship with EDF.  Works in collaboration with Relationship and Portfolio Managers</inlineHelpText>
     <label>PG Portfolio Manager</label>
     <lookupFilter>
         <active>true</active>

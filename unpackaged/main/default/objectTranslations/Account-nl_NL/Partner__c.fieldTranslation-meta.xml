@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- A partner is an organization that EDF has cultivated a relationship with—a
+        <help><!-- A partner is an organization that the Political Affairs team has cultivated a relationship with—a
 partner might be an environmental ally, a validator, or a grantee. --></help>
         <label><!-- Political Affairs Partner --></label>
         <name>Partner__c</name>

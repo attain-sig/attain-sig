@@ -2,9 +2,10 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Banned_Account__c</fullName>
     <defaultValue>false</defaultValue>
+    <description>5/9/23: CBJ All teams (DevData, CC, GPT, MS) agree to deprecate this field</description>
     <externalId>false</externalId>
     <inlineHelpText>Check to indicate account is banned.</inlineHelpText>
-    <label>Banned Account</label>
+    <label>DEL_Banned Account</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The date that EDF is notified of the new estate --></help>
         <label><!-- Estate Notification Date --></label>
         <name>Estate_Notification_Date__c</name>
     </CustomFieldTranslation>

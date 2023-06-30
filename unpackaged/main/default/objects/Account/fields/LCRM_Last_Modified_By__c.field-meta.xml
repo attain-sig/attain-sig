@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>LCRM_Last_Modified_By__c</fullName>
-    <description>Heller created 2021</description>
+    <description>Legacy field that tracks the name of the person who last modified the record in Luminate CRM. Cutover from LCRM to Salesforce NPSP was 5/23/22.</description>
     <externalId>false</externalId>
     <label>LCRM Last Modified By</label>
     <length>255</length>

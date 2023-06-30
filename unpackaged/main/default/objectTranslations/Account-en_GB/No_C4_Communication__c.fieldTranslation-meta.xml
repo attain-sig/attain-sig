@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- As requested by the organization. Includes stopping EDF Action PAC communications. Each EDF department determines whether this applies to only their mail or to all channels, and how this applies to acknowledging donations and actions. --></help>
         <label><!-- No C4 Communication --></label>
         <name>No_C4_Communication__c</name>
     </CustomFieldTranslation>

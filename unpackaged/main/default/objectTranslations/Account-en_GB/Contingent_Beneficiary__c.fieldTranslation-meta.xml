@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- EDF is a beneficiary that is contingent on a specific condition outlined in the governing estate document --></help>
         <label><!-- Contingent Beneficiary --></label>
         <name>Contingent_Beneficiary__c</name>
     </CustomFieldTranslation>

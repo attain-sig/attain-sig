@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Development_tags__c</fullName>
     <externalId>false</externalId>
+    <inlineHelpText>Used to apply specific Development-related attributes to Development constituents (excludes Membership)</inlineHelpText>
     <label>Development tags</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

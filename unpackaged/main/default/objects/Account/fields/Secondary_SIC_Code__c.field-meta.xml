@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Secondary_SIC_Code__c</fullName>
+    <description>Corresponds to the type of business a company is engaged in.</description>
     <externalId>false</externalId>
+    <inlineHelpText>SIC code stands for Standard Industrial Classification.</inlineHelpText>
     <label>Secondary SIC Code</label>
     <length>20</length>
     <required>false</required>

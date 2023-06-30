@@ -5,7 +5,7 @@
     <description>Sample Previous Level field for use with new Level feature. May be edited or deleted as needed.</description>
     <externalId>false</externalId>
     <inlineHelpText>This field is populated with the Previous Level a donor is at based on a calculation of the Donor Level Amount field on a nightly basis.</inlineHelpText>
-    <label>Previous Level</label>
+    <label>DEL_Previous Level</label>
     <referenceTo>npsp__Level__c</referenceTo>
     <relationshipLabel>Households (Previous Level)</relationshipLabel>
     <relationshipName>Accounts1</relationshipName>

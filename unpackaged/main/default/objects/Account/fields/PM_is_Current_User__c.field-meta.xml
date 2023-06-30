@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>PM_is_Current_User__c</fullName>
+    <description>Formula field that looks at the running user's User Contact ID (field on the user record that ties the user to their contact record) and compares it to the Contact ID from the Portfolio Manager lookup. Used to return the running users' accounts where they are the PM</description>
     <externalId>false</externalId>
     <formula>$User.User_Contact_ID__c =  Portfolio_Manager__c</formula>
     <label>PM is Current User</label>

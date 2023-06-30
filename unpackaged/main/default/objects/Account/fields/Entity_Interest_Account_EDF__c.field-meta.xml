@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Entity_Interest_Account_EDF__c</fullName>
     <externalId>false</externalId>
+    <inlineHelpText>EDF Entity in which the constituent is interested, either by self-identification or Development assigned</inlineHelpText>
     <label>Entity Interest</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

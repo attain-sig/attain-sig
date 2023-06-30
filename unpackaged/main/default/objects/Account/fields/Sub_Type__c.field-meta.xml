@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Sub_Type__c</fullName>
-    <description>Heller created 2021</description>
+    <description>Detailed tagging for organization type.</description>
     <externalId>false</externalId>
+    <inlineHelpText>This field is dependent on Type.</inlineHelpText>
     <label>Sub Type</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

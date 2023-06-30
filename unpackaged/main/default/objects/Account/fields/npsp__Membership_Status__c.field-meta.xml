@@ -7,7 +7,7 @@
     <formula>if ( npo02__MembershipEndDate__c  &lt;today(), if (npo02__MembershipEndDate__c  &gt; ( TODAY() -
 IF(NOT(ISNULL($Setup.npo02__Households_Settings__c.npo02__Membership_Grace_Period__c)), $Setup.npo02__Households_Settings__c.npo02__Membership_Grace_Period__c, 30)) , "Grace Period" , "Expired") , if(isnull(npo02__MembershipEndDate__c ),"","Current"))</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <inlineHelpText>The Membership status of this Household, for example, Current, Expired, or Grace Period. The value is based on Membership End Date and Grace Period. The Default Grace Period is set in NPSP Settings, under Household Settings. This field is read only.</inlineHelpText>
+    <inlineHelpText>Field not currently used by EDF.</inlineHelpText>
     <label>Membership Status</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

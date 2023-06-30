@@ -3,7 +3,7 @@
     <fullName>Total_Soft_Credits_this_Year__c</fullName>
     <externalId>false</externalId>
     <inlineHelpText>This field is populated by a customizable roll-up.</inlineHelpText>
-    <label>Total Soft Credits this Year</label>
+    <label>DEL_Total Soft Credits this Year</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

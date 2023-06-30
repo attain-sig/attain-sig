@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The date at which EDF has received all the estate funds it is due and final correspondence and receipts have been sent to the estate contact/s --></help>
         <label><!-- Estate Closed --></label>
         <name>Estate_Closed__c</name>
     </CustomFieldTranslation>

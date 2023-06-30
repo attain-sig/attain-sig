@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Email__c</fullName>
-    <description>For Households, Head of Household Contact's Primary Email. For Organizations, email for the org as a whole.</description>
+    <description>Email address to contact the Organization as a whole. Emails to contact individual people having Affiliations with the Organization should be kept at those individual people's Contact records.</description>
     <externalId>false</externalId>
-    <inlineHelpText>For Households, Head of Household Contact's Primary Email. For Organizations, email for the org as a whole.</inlineHelpText>
+    <inlineHelpText>Email address to contact the Organization as a whole.</inlineHelpText>
     <label>Email</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

@@ -3,6 +3,7 @@
     <fullName>Declaration_Date__c</fullName>
     <description>Date EDF received the Gift Aid declaration form</description>
     <externalId>false</externalId>
+    <inlineHelpText>Date EDF received the Gift Aid declaration form.</inlineHelpText>
     <label>Declaration Date</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

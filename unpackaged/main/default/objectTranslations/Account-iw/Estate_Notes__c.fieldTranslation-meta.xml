@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Detailed notes on all the estate contacts (including but not limited to, attorney information, executor/trustee/personal representative information, addresses, phone numbers &amp; emails), as well as notes throughout the administration that are helpful to understanding the timeline (known delays, creditor periods, asset updates, etc… --></help>
         <label><!-- Estate Notes --></label>
         <name>Estate_Notes__c</name>
     </CustomFieldTranslation>

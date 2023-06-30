@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Past CC Years --></label>
+        <help><!-- The past year(s) when this organization hosted one or more Climate Corps fellows. --></help>
+        <label><!-- Past Climate Corps Years --></label>
         <name>Past_CC_Years__c</name>
         <picklistValues>
             <masterLabel>2007</masterLabel>

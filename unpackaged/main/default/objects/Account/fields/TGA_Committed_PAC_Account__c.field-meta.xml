@@ -4,7 +4,7 @@
     <description>EDF Total gift amount committed lifetime for PAC - includes donations and pledges both active and completed. if household account - total of all members of the household</description>
     <externalId>false</externalId>
     <inlineHelpText>EDF Total gift amount committed lifetime for PAC - includes donations and pledges both active and completed. if household account - total of all members of the household</inlineHelpText>
-    <label>Total Amount Committed PAC</label>
+    <label>DEL_Total Amount Committed PAC</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

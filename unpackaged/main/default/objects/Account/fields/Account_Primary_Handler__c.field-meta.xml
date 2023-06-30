@@ -2,9 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Account_Primary_Handler__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
-    <description>The main EDF contact for this Organization. Do not contact until speaking with handler.</description>
+    <description>The EDF staff person who maintains the relationship with this organization or household</description>
     <externalId>false</externalId>
-    <inlineHelpText>The main EDF contact for this Organization. Do not contact until speaking with handler.</inlineHelpText>
+    <inlineHelpText>The EDF staff person responsible for maintaining the relationship with this constituent in collaboration with the Portfolio Manager if one is assigned</inlineHelpText>
     <label>Relationship Manager</label>
     <referenceTo>Contact</referenceTo>
     <relationshipLabel>Organization Primary Handler</relationshipLabel>

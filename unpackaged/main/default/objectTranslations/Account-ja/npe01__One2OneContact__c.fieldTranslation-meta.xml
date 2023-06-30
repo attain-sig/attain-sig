@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- All Households should have a Primary Contact. Organizations may have one. In all cases, it should be a person, not a &quot;donor proxy&quot; Contact. --></help>
         <label><!-- Primary Contact --></label>
         <name>npe01__One2OneContact__c</name>
         <relationshipLabel><!-- Account --></relationshipLabel>

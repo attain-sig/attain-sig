@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The date Prospect Research recommends the constituents potential relationship to EDF. --></help>
         <label><!-- Research Qualification Date --></label>
         <name>Research_Qualification_Date__c</name>
     </CustomFieldTranslation>

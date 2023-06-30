@@ -2,9 +2,10 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Workplace_giving_participant__c</fullName>
     <defaultValue>false</defaultValue>
+    <description>3/23/23- Field can be deprecated as per Andrew M. and Kavita.</description>
     <externalId>false</externalId>
     <inlineHelpText>Participates in workplace giving program</inlineHelpText>
-    <label>Workplace giving participant</label>
+    <label>DEL_Workplace giving participant</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>

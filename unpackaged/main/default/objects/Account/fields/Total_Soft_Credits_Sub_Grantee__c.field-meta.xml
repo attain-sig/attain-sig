@@ -4,7 +4,7 @@
     <description>Returns total of Sub-Grantee Role Account Soft Credits.</description>
     <externalId>false</externalId>
     <inlineHelpText>Automatically returns total of Sub-Grantee Role Account Soft Credits.</inlineHelpText>
-    <label>Total Soft Credits, Sub-Grantee</label>
+    <label>DEL_Total Soft Credits, Sub-Grantee</label>
     <precision>18</precision>
     <required>false</required>
     <scale>0</scale>

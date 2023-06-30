@@ -3,6 +3,7 @@
     <fullName>Contingent_Beneficiary__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
+    <inlineHelpText>EDF is a beneficiary that is contingent on a specific condition outlined in the governing estate document</inlineHelpText>
     <label>Contingent Beneficiary</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

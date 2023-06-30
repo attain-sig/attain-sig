@@ -2,9 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Active__c</fullName>
     <defaultValue>false</defaultValue>
-    <description>Field created for Heller migration 2021.</description>
+    <description>Membership is not using this and from our point of view it could be deprecated. Stakeholders agreed on DEPRECATE</description>
     <externalId>false</externalId>
-    <label>Active</label>
+    <label>DEL_Active</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>

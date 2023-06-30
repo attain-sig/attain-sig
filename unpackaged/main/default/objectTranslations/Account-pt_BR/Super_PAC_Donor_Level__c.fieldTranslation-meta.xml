@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Donor: $1 - $4.9K
+        <help><!-- Total Super PAC gifts and payments for the current Fiscal Year
+Donor: $1 - $4.9K
 Supporter: $5K - $19.9K
 Mid-Level: $20K - $99.9K
 Leadership: $100K - $999.9K

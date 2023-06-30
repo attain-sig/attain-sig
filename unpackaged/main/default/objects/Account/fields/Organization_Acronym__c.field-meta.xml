@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Organization_Acronym__c</fullName>
+    <description>This organization's acronym or acronyms.</description>
     <externalId>false</externalId>
+    <inlineHelpText>This organization's acronym or acronyms.</inlineHelpText>
     <label>Organization Acronym</label>
     <length>50</length>
     <required>false</required>

@@ -2,10 +2,13 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Children_living_in_household__c</fullName>
     <defaultValue>false</defaultValue>
-    <description>Children under the age of 18 living in the household</description>
+    <description>JS 12/19/2022: DEPRECATE? Currently 108,805 TRUE and the rest FALSE. This is append data purchased by Membership about ten years ago. It is out of date and should be deprecated, unless Research has been populating it on Development constituents and thus wants to keep it?
+2/9 Camille will finish checking.
+3/10/13: This field is not surfaced on Dev Layout. Reassigning to Memb.
+JS 4/20/2023: OK, DEPRECATE it is!"</description>
     <externalId>false</externalId>
     <inlineHelpText>Children under the age of 18 living in the household</inlineHelpText>
-    <label>Children living in household</label>
+    <label>DEL_Children living in household</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>

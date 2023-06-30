@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>On_Campus_Audience_Attendance__c</fullName>
     <externalId>false</externalId>
-    <label>On-Campus Audience Attendance</label>
+    <label>DEL_On-Campus Audience Attendance</label>
     <length>32768</length>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

@@ -2,9 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Secondary_Contact__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
-    <description>This contact will be used when creating the formal and informal salutations.  For example, formulas that reference secondary titles or names will use the information from this contact.</description>
+    <description>Membership includes the Primary Contact and this Secondary Contact when they construct address blocks and letter salutations for mass mailings. They don't include any of the other Contacts in the Account. On households where the Auto fields are unchecked in the Manage Household screen, those manually entered Formal Greeting and Informal Greeting values will override Membership's use of Primary Contact and Secondary Contact.</description>
     <externalId>false</externalId>
-    <inlineHelpText>This contact will be used when creating the formal and informal salutations.  For example, formulas that reference secondary titles or names will use the information from this contact.</inlineHelpText>
+    <inlineHelpText>Included in address blocks and letter salutations in Membership's mailings.</inlineHelpText>
     <label>Secondary Contact</label>
     <referenceTo>Contact</referenceTo>
     <relationshipLabel>Accounts (Secondary Contact)</relationshipLabel>

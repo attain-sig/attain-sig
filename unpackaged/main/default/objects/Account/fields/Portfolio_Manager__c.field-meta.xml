@@ -2,7 +2,11 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Portfolio_Manager__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
+    <description>The EDF staff person that manages the constiuent in their portfolio and is primarily responsible for the constituent's relationship with EDF.  Works in collaboration with Relationship Managers.
+
+All changes to PM post-launch are tracked in the Relationship Manager History object, and values from the Account PM are passed to any new Opportunities for that donor.</description>
     <externalId>false</externalId>
+    <inlineHelpText>The EDF staff person that manages the constiuent in their portfolio and is primarily responsible for the constituent's relationship with EDF.  Works in collaboration with other Relationship Managers</inlineHelpText>
     <label>Portfolio Manager</label>
     <lookupFilter>
         <active>true</active>

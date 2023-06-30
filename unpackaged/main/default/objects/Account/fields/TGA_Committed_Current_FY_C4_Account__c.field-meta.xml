@@ -4,7 +4,7 @@
     <description>EDF Total gift amount committed to C4 in current FY- includes donations and pledges both active and completed. If household account - total includes sum of all household member's gifts.</description>
     <externalId>false</externalId>
     <inlineHelpText>EDF Total gift amount committed to C4 in current FY- includes donations and pledges both active and completed. If household account - total includes sum of all household member's gifts.</inlineHelpText>
-    <label>Total Amount Committed Current FY C4</label>
+    <label>DEL_Total Amount Committed Current FY C4</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Industry_Group__c</fullName>
+    <description>High level industry classification for general EDF use.</description>
     <externalId>false</externalId>
+    <inlineHelpText>Corresponds to GICS: Global Industry Classification Standard.</inlineHelpText>
     <label>Industry Group</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

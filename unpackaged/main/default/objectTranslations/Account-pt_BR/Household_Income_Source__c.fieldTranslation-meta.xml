@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Household Income Source --></label>
+        <label><!-- DEL_Household Income Source --></label>
         <name>Household_Income_Source__c</name>
         <picklistValues>
             <masterLabel>Screening</masterLabel>

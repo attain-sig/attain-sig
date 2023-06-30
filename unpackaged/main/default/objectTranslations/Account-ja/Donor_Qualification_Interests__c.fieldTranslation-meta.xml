@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Donor Qualification Interests --></label>
+        <help><!-- The constituent&apos;s potential interests based on research by Prospect Research --></help>
+        <label><!-- Research Qualification Interests --></label>
         <name>Donor_Qualification_Interests__c</name>
         <picklistValues>
             <masterLabel>China</masterLabel>

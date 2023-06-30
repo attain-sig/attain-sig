@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>LCRM_Address_Correction_Status__c</fullName>
-    <description>Heller created 2021</description>
+    <description>Indicates if the address was standardized through a mass process in LCRM. Is under consideration to repurpose in NPSP.</description>
     <externalId>false</externalId>
     <label>LCRM Address Standardization Status</label>
     <length>50</length>

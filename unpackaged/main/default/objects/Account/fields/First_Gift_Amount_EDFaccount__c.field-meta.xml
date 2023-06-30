@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>First_Gift_Amount_EDFaccount__c</fullName>
-    <description>DLRS returning amount of first gift from any Contact in Account.</description>
+    <description>First gift from this account. Compares First Gift Amount for all related contacts and grabs the earliest. If multiple gifts of different amounts are given on the same day, largest one wins. Includes hard and soft credits; excludes planned gifts. Calculated in Snowflake and pushed into Salesforce when there's a qualifying change.</description>
     <externalId>false</externalId>
-    <inlineHelpText>The Close Amount of the first received Opportunity on this Account (Planned Gifts not included)</inlineHelpText>
+    <inlineHelpText>The Close Amount of the first received Opportunity on this Account (excludes Planned Gifts)</inlineHelpText>
     <label>First Gift Amount</label>
     <precision>18</precision>
     <required>false</required>

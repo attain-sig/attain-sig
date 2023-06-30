@@ -5,6 +5,7 @@
     <deprecated>false</deprecated>
     <description>Indicates the address is undeliverable.</description>
     <externalId>false</externalId>
+    <inlineHelpText>Mail to this address would be returned. Constituent no longer lives at this address.</inlineHelpText>
     <label>Undeliverable Billing Address</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>

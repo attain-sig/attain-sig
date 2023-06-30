@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The more granular programmatic interest of the constituent --></help>
         <label><!-- Program Sub Interest --></label>
         <name>Program_Sub_Interest_Account_EDF__c</name>
     </CustomFieldTranslation>

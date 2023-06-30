@@ -3,6 +3,7 @@
     <fullName>Estate_Amount_Expected__c</fullName>
     <description>Created as a part of Heller Migration 2021.</description>
     <externalId>false</externalId>
+    <inlineHelpText>The value of the bequest due to EDF</inlineHelpText>
     <label>Estate Amount Expected</label>
     <precision>18</precision>
     <required>false</required>

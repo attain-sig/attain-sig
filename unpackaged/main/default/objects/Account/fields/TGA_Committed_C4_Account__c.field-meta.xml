@@ -3,7 +3,7 @@
     <fullName>TGA_Committed_C4_Account__c</fullName>
     <description>EDF Total gift amount committed lifetime to C4 - total of gifts received or received as pledge regardless of pending installments. If household account - total of all members in the household.</description>
     <externalId>false</externalId>
-    <label>Total Amount Committed C4</label>
+    <label>DEL_Total Amount Committed C4</label>
     <precision>18</precision>
     <required>false</required>
     <scale>2</scale>

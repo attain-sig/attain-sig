@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
         <help><!-- Participates in workplace giving program --></help>
-        <label><!-- Workplace giving participant --></label>
+        <label><!-- DEL_Workplace giving participant --></label>
         <name>Workplace_giving_participant__c</name>
     </CustomFieldTranslation>

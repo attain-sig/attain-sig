@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- A description of the bequest to EDF (including but not limited to type of gift, Trust name and date, amendments and dates, value, retirement claim information such as financial institution, account #, etc…) --></help>
         <label><!-- Estate Description --></label>
         <name>Estate_Description__c</name>
     </CustomFieldTranslation>

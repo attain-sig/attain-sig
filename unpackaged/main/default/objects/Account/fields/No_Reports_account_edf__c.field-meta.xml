@@ -2,9 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>No_Reports_account_edf__c</fullName>
     <defaultValue>false</defaultValue>
-    <description>Check if the donor does not want to receive reports</description>
+    <description>Only displayed on non-Household Accounts, because for Households we keep this information on the individual Contacts. So only the data on non-Household Accounts should be used.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Check if the donor does not want to receive reports</inlineHelpText>
+    <inlineHelpText>As requested by the organization. Each EDF department decides which specific mailings are not sent, such as the annual Impact Report.</inlineHelpText>
     <label>No Reports</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

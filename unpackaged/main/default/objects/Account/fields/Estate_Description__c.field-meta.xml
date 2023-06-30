@@ -3,6 +3,7 @@
     <fullName>Estate_Description__c</fullName>
     <description>Created as a part of Heller Data Migration 2021.</description>
     <externalId>false</externalId>
+    <inlineHelpText>A description of the bequest to EDF (including but not limited to type of gift, Trust name and date, amendments and dates, value, retirement claim information such as financial institution, account #, etc…)</inlineHelpText>
     <label>Estate Description</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

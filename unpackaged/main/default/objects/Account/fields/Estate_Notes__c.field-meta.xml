@@ -3,6 +3,7 @@
     <fullName>Estate_Notes__c</fullName>
     <description>Created as a part of Heller Data Migration 2021.</description>
     <externalId>false</externalId>
+    <inlineHelpText>Detailed notes on all the estate contacts (including but not limited to, attorney information, executor/trustee/personal representative information, addresses, phone numbers &amp; emails), as well as notes throughout the administration that are helpful to understanding the timeline (known delays, creditor periods, asset updates, etc…</inlineHelpText>
     <label>Estate Notes</label>
     <length>32000</length>
     <trackFeedHistory>false</trackFeedHistory>

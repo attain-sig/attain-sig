@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- The Close Date of the first received Opportunity on this Account (Planned Gifts not included) --></help>
+        <help><!-- The oldest received hard or soft credit ‘Close Date’ for all contacts in this account (excludes Planned Gifts) --></help>
         <label><!-- First Gift Date --></label>
         <name>First_Gift_Date_EDFaccount__c</name>
     </CustomFieldTranslation>

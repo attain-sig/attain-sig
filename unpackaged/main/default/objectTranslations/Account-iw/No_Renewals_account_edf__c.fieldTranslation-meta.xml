@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Check if a renewal notice should never be sent. --></help>
+        <help><!-- As requested by the organization. Membership will stop mailing renewal letters, but other channels may continue. --></help>
         <label><!-- No Renewals --></label>
         <name>No_Renewals_account_edf__c</name>
     </CustomFieldTranslation>

@@ -3,7 +3,7 @@
     <fullName>Property_Asset__c</fullName>
     <description>Created as a part of Data Migration Heller 2021.</description>
     <externalId>false</externalId>
-    <label>Property/Asset</label>
+    <label>DEL_Property/Asset</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

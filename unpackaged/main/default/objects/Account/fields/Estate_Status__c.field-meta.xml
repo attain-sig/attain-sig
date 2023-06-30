@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Estate_Status__c</fullName>
     <externalId>false</externalId>
+    <inlineHelpText>The stage of estate administration</inlineHelpText>
     <label>Estate Status</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

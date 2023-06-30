@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Relationship_Strength__c</fullName>
+    <description>Recruitment data for tailoring communications with Climate Corps hosts</description>
     <externalId>false</externalId>
-    <label>Relationship Strength</label>
+    <label>Climate Corps Relationship Strength</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

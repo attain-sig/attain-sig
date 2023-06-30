@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- System used to qualify PG donors.     
+0 – Dual Constituent/Not Managed in PG
+1 – Identification
+2 – Qualification
+3 – Cultivation
+4 – Solicitation
+5 – Stewardship --></help>
         <label><!-- PG Qualified Donor Ranking --></label>
         <name>PG_Qualified_Donor_Ranking__c</name>
         <picklistValues>

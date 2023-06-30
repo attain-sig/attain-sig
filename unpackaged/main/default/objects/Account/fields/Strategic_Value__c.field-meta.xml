@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Strategic_Value__c</fullName>
+    <description>Recruitment data for tracking Climate Corps host alignment to strategic goals.</description>
     <externalId>false</externalId>
-    <label>Strategic Value</label>
+    <label>Climate Corps Strategic Value</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

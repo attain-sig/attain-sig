@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Additonal EDF departments that mange the Contact or Account --></help>
         <label><!-- Sub-constituency --></label>
         <name>Organization_sub_constituency__c</name>
     </CustomFieldTranslation>
