@@ -1,0 +1,46 @@
+{
+  "appPageId" : "b3f556da-3437-477c-9860-7dc771a29a40",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "00a3d330-d773-4736-9793-0298791b0c5c",
+  "label" : "Sign In",
+  "regions" : [ {
+    "id" : "124f84c2-8271-4198-b016-9027eacf6cda",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "c:eDF03_ccLoginpage",
+      "id" : "5968dfca-83fc-4c4c-9303-823c110abd03",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ffcb3620-cf3a-44c0-849f-ddadf6851796",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "d7fde15d-45fb-42c8-99e5-76c8e91e80a7",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Sign In"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8fb2a3df-832b-4780-989e-9c5b6e70022b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5b5d8e4b-9654-4495-8d85-3a18befd06e3",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-signin"
+}

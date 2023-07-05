@@ -1,0 +1,11 @@
+{
+  "activeViewId" : "dd50ea13-3a40-4d36-9c52-cf720a454432",
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "configurationTags" : [ ],
+  "id" : "63af5bba-adbf-4a4d-992c-f8767155f537",
+  "label" : "CoverLetter",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-coverletter",
+  "type" : "route",
+  "urlPrefix" : "coverletter"
+}
