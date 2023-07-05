@@ -37,6 +37,11 @@
                 <default>false</default>
                 <label>ACH</label>
             </value>
+            <value>
+                <fullName>PayPal</fullName>
+                <default>false</default>
+                <label>PayPal</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

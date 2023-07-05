@@ -756,6 +756,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>PayPal</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Wire</fullName>
             <default>false</default>
         </values>
