@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <decisions>
+        <name>Affiliation_Type_Update</name>
+        <label>Affiliation Type Update</label>
+        <locationX>314</locationX>
+        <locationY>287</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Affiliation_type_not_Funding_Vehicle</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Affiliation_Type__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Funding Vehicle</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Affiliation_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Funding Vehicle</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Clear_Related_OCR</targetReference>
+            </connector>
+            <label>Affiliation type not Funding Vehicle</label>
+        </rules>
+        <rules>
+            <name>Funding_Vehicle</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Affiliation_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Funding Vehicle</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_OCR_to_Funder_Soft_Credit</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Funding Vehicle</label>
+        </rules>
+    </decisions>
+    <description>Only clears OCR value if prior value was Funding Vehicle.</description>
+    <environments>Default</environments>
+    <interviewLabel>Affiliation - BEFORE - Funding Vehicle OCR {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Affiliation - BEFORE - Funding Vehicle OCR</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Clear_Related_OCR</name>
+        <label>Clear Related OCR</label>
+        <locationX>50</locationX>
+        <locationY>395</locationY>
+        <inputAssignments>
+            <field>npsp__Related_Opportunity_Contact_Role__c</field>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Set_OCR_to_Funder_Soft_Credit</name>
+        <label>Set OCR to Funder Soft Credit</label>
+        <locationX>314</locationX>
+        <locationY>395</locationY>
+        <inputAssignments>
+            <field>npsp__Related_Opportunity_Contact_Role__c</field>
+            <value>
+                <stringValue>Funder - Soft Credit</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Affiliation_Type_Update</targetReference>
+        </connector>
+        <filterFormula>ISNEW() || ISCHANGED({!$Record.Affiliation_Type__c})</filterFormula>
+        <object>npe5__Affiliation__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>
