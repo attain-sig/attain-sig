@@ -2106,6 +2106,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>npsp__Grant_Deadline__c.Legacy_Source_Table__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>npsp__Grant_Deadline__c.Narrative_Needs__c</field>
         <readable>true</readable>
     </fieldPermissions>
