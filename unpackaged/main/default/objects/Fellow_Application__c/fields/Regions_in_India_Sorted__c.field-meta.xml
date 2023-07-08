@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Regions_in_India_Sorted__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Order in which it was saved by Applicant</inlineHelpText>
+    <label>Regions in India Sorted</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

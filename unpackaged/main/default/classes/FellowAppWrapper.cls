@@ -218,6 +218,13 @@ public class FellowAppWrapper {
     @AuraEnabled
     public String projectTypePreferenceThree {get; set;}
 
+    @AuraEnabled public String availabilityStartDate {get; set;}
+    @AuraEnabled public String availabilityEndDate {get; set;}
+    @AuraEnabled public String availabilityAdditional {get; set;}
+    @AuraEnabled public String projectTypePreference {get; set;}
+    @AuraEnabled public String areaOfInterestSelected {get; set;}
+    @AuraEnabled public String areasOfInterestOthers {get; set;}
+
     //Cover Letter
     @AuraEnabled
     public String coverLetter {get; set;}

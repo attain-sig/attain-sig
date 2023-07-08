@@ -125,7 +125,11 @@ public with sharing class EdfContactController {
 
                 Fellow_Application__c fellowApp = fellowApps.get(0);
 
-                fellowApp.Fellowship_Applying_for__c = fellowAppWrapper.fellowshipApplyingFor;
+                /**
+                 * FB-3196 HS Commented below line since now
+                 * Felloship Region is set during Registration and not here.
+                 */
+                // fellowApp.Fellowship_Applying_for__c = fellowAppWrapper.fellowshipApplyingFor;
                 fellowApp.Pronouns__c = fellowAppWrapper.pronouns;
                 fellowApp.Pronouns_Self_Describe__c = fellowAppWrapper.pronounsSelfDescribe;
                 fellowApp.How_Did_You_Find_Us__c = fellowAppWrapper.howDidYouFindUs;

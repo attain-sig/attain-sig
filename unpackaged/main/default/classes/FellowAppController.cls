@@ -159,6 +159,7 @@ public with sharing class FellowAppController {
                                 Apply_India_as_well__c,
                                 Apply_for_China_Fellowship_as_well__c,
                                 Regions_in_India__c,
+                                Regions_in_India_Sorted__c,
                                 Regions_in_China__c,
                                 US_regional_preferences__c,
                                 ValidUSDriversLicense__c,
@@ -169,8 +170,16 @@ public with sharing class FellowAppController {
                                 Project_Type_Preference_One__c,
                                 Project_Type_Preference_Two__c,
                                 Project_Type_Preference_Three__c,
-                                Geographic_Yes_Region__c
+                                Geographic_Yes_Region__c,
 
+                                Project_Type_Preference__c,
+                                Project_Type_Preference_Sorted__c,
+                                Availability_Start_Date__c,
+                                Availability_End_Date__c,
+                                Availability_Additional__c,
+                                Areas_of_Interest_India__c,
+                                Areas_of_Interest_India_Sorted__c,
+                                Areas_of_Interest_Other__c
                             FROM
                                 Fellow_Application__c
                             WHERE
@@ -183,7 +192,7 @@ public with sharing class FellowAppController {
             fw.fellowshipApplyingFor = fellowApp.Fellowship_Applying_for__c;
             fw.applyIndia = fellowApp.Apply_India_as_well__c;
             fw.applyChina = fellowApp.Apply_for_China_Fellowship_as_well__c;
-            fw.regionsInIndia = fellowApp.Regions_in_India__c;
+            fw.regionsInIndia = fellowApp.Regions_in_India_Sorted__c;
             fw.regionsInChina = fellowApp.Regions_in_China__c;
             fw.usRegionalPreferences = fellowApp.US_regional_preferences__c;
             fw.validUSDriversLicense = fellowApp.ValidUSDriversLicense__c;
@@ -195,6 +204,13 @@ public with sharing class FellowAppController {
             fw.projectTypePreferenceTwo = fellowApp.Project_Type_Preference_Two__c;
             fw.projectTypePreferenceThree = fellowApp.Project_Type_Preference_Three__c;
         	fw.regionsInUS = fellowApp.Geographic_Yes_Region__c;
+
+            if (fellowApp.Availability_Start_Date__c != null) fw.availabilityStartDate = String.valueOf(fellowApp.Availability_Start_Date__c);
+            if (fellowApp.Availability_End_Date__c != null) fw.availabilityEndDate = String.valueOf(fellowApp.Availability_End_Date__c);
+            fw.availabilityAdditional = fellowApp.Availability_Additional__c;
+            fw.projectTypePreference = fellowApp.Project_Type_Preference_Sorted__c;
+            fw.areaOfInterestSelected = fellowApp.Areas_of_Interest_India_Sorted__c;
+            fw.areasOfInterestOthers = fellowApp.Areas_of_Interest_Other__c;
 
             return fw;
 
@@ -265,10 +281,10 @@ public with sharing class FellowAppController {
 
     }
     @AuraEnabled
-    public static string  submitApplication(){
+    public static string  submitApplication() {
 
         String contactId = getContactId();
-        string status;
+        String status;
         String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
 
         Fellow_Application__c[]  fellowApps = [SELECT Id,
@@ -304,9 +320,11 @@ public with sharing class FellowAppController {
                                 Applicant__c  =:contactId AND CC_Year__c=:fellowshipYear];
         return  fellowApps[0].Status__c;
     }
+
     /**
     * Description : This method returns the Accounts whose record type is organization and parent equal to null.
     **/
+    // TODO: Confirm if this method is being used or are we using the one from UniversityHelper class
     @AuraEnabled(cacheable=true)
     public static List<Account> retrieveUniversityAccounts() {
         List<Account> univList
@@ -322,9 +340,12 @@ public with sharing class FellowAppController {
                 System.debug('univList:'+univList);
         return univList;
     }
+
+
     /**
     * Description : This method returns the Accounts whose record type is organization and parent not equal to null.
     **/
+    // TODO: Confirm if this method is being used or are we using the one from UniversityHelper class
     @AuraEnabled(cacheable=true)
     public static List<Account> retrieveUniversitySchoolAccounts(String parentId) {
         System.debug('parentId:'+parentId);
@@ -342,6 +363,7 @@ public with sharing class FellowAppController {
         return univList;
     }
 
+    // TODO: Confirm if this method is being used or are we using the one from UniversityHelper class
     @AuraEnabled(cacheable=true)
     public static List<Account> retrieveUniversitySchoolAccountsWithParents() {
         List<Account> univList
@@ -601,8 +623,14 @@ public with sharing class FellowAppController {
             }
         }
 
-        if(!String.isBlank(validationMessage)){
-            validationMessage = validationMessage.trim().removeEnd(',');
+        if (!String.isBlank(validationMessage)){
+            validationMessage = 'Mandatory field data is missing in these tabs - ' + validationMessage.trim().removeEnd(',');
+        }
+        else if (fellowApps != null  &&  fellowApps.size() > 0) {
+            Fellow_Application__c fa = fellowApps.get(0);
+            FellowAppValidationHelper fav = new FellowAppValidationHelper();
+            String[] errors = fav.validateOnSubmit(fa);
+            if (errors.size() > 0) validationMessage = errors[0];
         }
 
         return validationMessage;
@@ -690,5 +718,40 @@ public with sharing class FellowAppController {
         } */
         System.debug('retVal :: ' + retVal);
         return retVal;
+    }
+
+
+    @AuraEnabled
+    public static String updateBackgroundInfo(Fellow_Application__c fa) {
+        System.debug('FellowAppController :: updateBackgroundInfo :: fa ::' + fa);
+        return updateFellowApp(fa, 'Background');
+    }
+
+    @AuraEnabled
+    public static String updatePreference(Fellow_Application__c fa) {
+        System.debug('FellowAppController :: updatePreference :: fa ::' + fa);
+        return updateFellowApp(fa, 'Preference');
+    }
+
+    @AuraEnabled
+    public static String updateCoverLetter(Fellow_Application__c fa) {
+        System.debug('FellowAppController :: updateCoverLetterInfo :: fa ::' + fa);
+        return updateFellowApp(fa, 'CoverLetter');
+    }
+
+    public static String updateFellowApp(Fellow_Application__c fa, String tabName) {
+        System.debug('FellowAppController :: updateBackgroundInfo :: fa ::' + fa);
+
+        FellowAppValidationHelper fav = new FellowAppValidationHelper();
+        String[] errors = fav.validateOnSave(fa, tabName);
+
+        if (errors != null  &&  errors.size() <= 0) {
+
+            update fa;
+            return '';
+        }
+        else {
+            return errors[0];
+        }
     }
 }

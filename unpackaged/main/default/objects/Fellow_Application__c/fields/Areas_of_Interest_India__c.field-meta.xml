@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Areas_of_Interest_India__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>From Match Preference section of Portal</inlineHelpText>
+    <label>Areas of Interest - India</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Industrial efficiency</fullName>
+                <default>false</default>
+                <label>Industrial efficiency</label>
+            </value>
+            <value>
+                <fullName>Climate Commitments</fullName>
+                <default>false</default>
+                <label>Climate Commitments</label>
+            </value>
+            <value>
+                <fullName>Climate smart food and agricultural systems</fullName>
+                <default>false</default>
+                <label>Climate smart food and agricultural systems</label>
+            </value>
+            <value>
+                <fullName>Energy and waste management</fullName>
+                <default>false</default>
+                <label>Energy and waste management</label>
+            </value>
+            <value>
+                <fullName>Sustainable construction</fullName>
+                <default>false</default>
+                <label>Sustainable construction</label>
+            </value>
+            <value>
+                <fullName>Supply chain &amp; freight sustainability</fullName>
+                <default>false</default>
+                <label>Supply chain &amp; freight sustainability</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

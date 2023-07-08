@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- From Match Preference section of Portal --></help>
+        <label><!-- Areas of Interest - India --></label>
+        <name>Areas_of_Interest_India__c</name>
+        <picklistValues>
+            <masterLabel>Climate Commitments</masterLabel>
+            <translation><!-- Climate Commitments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate smart food and agricultural systems</masterLabel>
+            <translation><!-- Climate smart food and agricultural systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy and waste management</masterLabel>
+            <translation><!-- Energy and waste management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industrial efficiency</masterLabel>
+            <translation><!-- Industrial efficiency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Others</masterLabel>
+            <translation><!-- Others --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supply chain &amp; freight sustainability</masterLabel>
+            <translation><!-- Supply chain &amp; freight sustainability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustainable construction</masterLabel>
+            <translation><!-- Sustainable construction --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

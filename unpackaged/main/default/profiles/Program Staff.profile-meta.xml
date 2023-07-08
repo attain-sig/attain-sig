@@ -3886,6 +3886,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.Latest_Fellow_Application__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.iCLightning__Number_Test__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4525,6 +4530,36 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Areas_of_Interest_India_Sorted__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Areas_of_Interest_India__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Areas_of_Interest_Other__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Availability_Additional__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Availability_End_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Availability_Start_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Fellow_Application__c.GRAD_University_Dual_Degree_txt__c</field>
         <readable>true</readable>
@@ -4532,6 +4567,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Fellow_Application__c.GRAD_University__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Project_Type_Preference_Sorted__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Project_Type_Preference__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Regions_in_India_Sorted__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4982,6 +5032,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>User.EDF_User_Management_Contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.Fellowship_Region__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13959,6 +14014,9 @@
     <layoutAssignments>
         <layout>Feedback__c-Feedback Layout</layout>
         <recordType>Feedback__c.Testing_Confirmation</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Fellow_App_Validation__mdt-Fellow App Validation Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Fellow_Application_Engagement__mdt-Fellow Application - Engagement Layout</layout>

@@ -28,7 +28,7 @@ public class EDF28_RegisterController_Test {
                           LocaleSidKey='en_US', ProfileId = p.Id,isActive = false, 
                           TimeZoneSidKey='America/Los_Angeles', UserName='someone@abc.bix.edf', FirstName='TestFN', ContactId=c.Id);
         insert u;
-        EDF28_RegisterController.isEmailExists(c.Email);
+        EDF28_RegisterController.isEmailExists(c.Email, 'U.S. Fellowship');
         EDF28_RegisterController.getCountries();
         EDF28_RegisterController.getStatesByCountry(c.MailingCountry);
         EDF28_RegisterController.saveUser(c, c.Email);
@@ -101,7 +101,7 @@ public class EDF28_RegisterController_Test {
                           TimeZoneSidKey='America/Los_Angeles', UserName=c.Email, FirstName='TestFN', ContactId=c.Id);
         insert u;
         EDF28_RegisterController.forgotPassword(u.Email) ;
-        EDF28_RegisterController.isEmailExists(c.Email);
+        EDF28_RegisterController.isEmailExists(c.Email, 'U.S. Fellowship');
         EDF28_RegisterController.isFellowAppExist(c.Email, '2022', c.Id);
         EDF28_RegisterController.updateContactEmail(ce);
         EDF28_RegisterController.updateContactRecord(c);

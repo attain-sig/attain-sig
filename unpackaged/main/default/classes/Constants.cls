@@ -20,6 +20,11 @@ public without sharing class Constants {
 
     @AuraEnabled public final Integer MAX_FILES_ONSITE_PHOTOS = 3;
 
+    @AuraEnabled public final Integer REG_CHECK_CONT_NOT_EXIST = 0;
+    @AuraEnabled public final Integer REG_CHECK_CONT_EXIST_LATEST_FELLOW_EXIST_USER_ACTIVE = 1;
+    @AuraEnabled public final Integer REG_CHECK_CONT_EXIST_LATEST_FELLOW_NOT_EXIST = 2;
+    @AuraEnabled public final Integer REG_CHECK_CONT_EXIST_USER_ACTIVE = 3;
+
 
     @AuraEnabled(cacheable=true)
     public static Constants getAllConstants() {

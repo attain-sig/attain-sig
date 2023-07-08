@@ -216,6 +216,70 @@ public without sharing class LoginController {
         return response;
     }
 
+    /**
+     * Performs the forgot password operation based on the email.
+     * Return values:
+     * 0 - ERROR
+     * 1 - Active user present with provided email address with current year Fellow App record. Performed ForgotPassword.
+     * 2 - Active user present with provided email address with previous year Fellow App record. Performed ForgotPassword.
+     * 5 - Active user present with provided email address with NO Fellow App record. Not performed ForgotPassword.
+     * 6 - Active user present with provided email address but with NO Contact link. Not performed ForgotPassword.
+     * 3 - No active user present with provided email address. Not performed ForgotPassword.
+     * 4 - No user present with provided email address. Not performed ForgotPassword.
+     */
+    @AuraEnabled
+    public static Integer forgotPasswordByEmailV2(String email) {
+        Integer response;
+
+        try {
+            System.debug('email:'+email);
+            User[] users = [SELECT Id, Name, FirstName, LastName, Alias, Username, Email, Profile.Name, IsActive, ContactId FROM User WHERE email = :email];
+            System.debug('users:'+users);
+
+            if(users!= null && users.size()>0) {
+                User user = users[0];
+                if (!user.IsActive) {
+                    response = 3;
+                }
+                else {
+                    if (user.ContactId != null) {
+                        Fellow_Application__c[] fApps = [SELECT Id, Name, CC_Year__c FROM Fellow_Application__c WHERE Applicant__c = :user.ContactId];
+                        if (fApps!= null && fApps.size()>0) {
+                            Fellow_Application__c fApp = fApps[0];
+                            String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
+
+                            System.debug('Username:' + user.Username);
+                            boolean reset = Site.forgotPassword(user.Username);
+                            system.debug('reset:' + reset);
+
+                            if (reset) {
+                                if (fApp.CC_Year__c == fellowshipYear) response = 1;
+                                else response = 2;
+                            }
+                            else {
+                                response = 0;
+                            }
+                        }
+                        else {
+                            response = 5;
+                        }
+                    }
+                    else {
+                        response = 6;
+                    }
+                }
+            }
+            else {
+                response = 4;
+            }
+        }
+        catch (Exception ex) {
+            response = 0;
+        }
+
+        return response;
+    }
+
     public static String getUsernameByEmail(String email) {
         String username = '';
         System.debug('email:'+email);

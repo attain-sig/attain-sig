@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Order in which it was saved by Applicant --></help>
+        <label><!-- Regions in India Sorted --></label>
+        <name>Regions_in_India_Sorted__c</name>
+    </CustomFieldTranslation>
