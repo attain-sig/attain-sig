@@ -4,8 +4,30 @@
     <isExposed>true</isExposed>
     <targets>
         <target>lightningCommunity__Page</target>
-        <target>lightning__AppPage</target>
-        <target>lightning__HomePage</target>
-        <target>lightning__RecordPage</target>
+		<target>lightningCommunity__Default</target>
     </targets>
+	<targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="levelOfExperienceCoverLetter" label="Level of Experience for Cover Letter including info icon" type="String" default="You may address your cover letter to the Climate Corps Team. Please describe any specific courses, qualifications, skills and experience (academic and professional) that have prepared you for the Climate Corps Fellowship. Finally, please describe how a Climate Corps fellowship will impact your career."></property>
+            <property name="uploadResumePdf" label="Upload Resume as PDF document including info icon" type="String" default="Upload your resume as a PDF document. To the extent possible, please customize your resume by highlighting relevant experience including professional work experience, internships, academic coursework, volunteer experience or other extracurricular. PDFs should not exceed 1 MB in size."></property>
+            <property name="additionalInformationIcon" label="Additional Information including info icon" type="String" default="Please add any additional information that is not already reflected in your application, cover letter, or resume that you would like the review team to know."></property>
+            <property name="contactInformationIcon" label="Contact Information including info icon" type="String" default="Please provide the contact information for three references, at least 2 of which are professional and 1 of which is a supervisor. References will be contacted via email during the interview phase. You will receive notice prior to your references being contacted."></property>
+            <property name="anyAdditionalInformation" label="Label - Any Additional Information" type="String" default="Any Additional Information"></property>
+            <property name="coverLetterClimateCorps" label="Label - Cover Letter" type="String" default="Cover Letter"></property>
+            <property name="uploadResume" label="Label - Upload Resume" type="String" default="Upload Resume"></property>
+            <property name="addReference1" label="Label - Add Reference 1" type="String" default="Add Reference 1"></property>
+            <property name="addReference2" label="Label - Add Reference 2" type="String" default="Add Reference 2"></property>
+            <property name="addReference3" label="Label - Add Reference 3" type="String" default="Add Reference 3"></property>
+            <property name="titleReference1" label="Label - Title Reference 1" type="String" default="Title"></property>
+            <property name="titleReference2" label="Label - Title Reference 2" type="String" default="Title"></property>
+            <property name="titleReference3" label="Label - Title Reference 3" type="String" default="Title"></property>
+            <property name="showReference1Phone" label="Show Reference 1 Phone" type="Boolean" default="true"></property>
+            <property name="showReference2Phone" label="Show Reference 2 Phone" type="Boolean" default="true"></property>
+            <property name="showReference3Phone" label="Show Reference 3 Phone" type="Boolean" default="true"></property>
+
+			<property name="saveSuccessTitle" label="Save Success Title" type="String" default="Updated"></property>
+			<property name="saveSuccessMessage" label="Save Success Message" type="String" default="Cover Letter &amp; Resume Saved. Please proceed for Review &amp; Submit"></property>
+            <property name="isChild" label="For Review Page?" type="Boolean" default="false"></property>
+        </targetConfig>
+    </targetConfigs>
 </LightningComponentBundle>

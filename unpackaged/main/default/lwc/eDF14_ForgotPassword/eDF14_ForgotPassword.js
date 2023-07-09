@@ -1,10 +1,22 @@
-import { LightningElement } from 'lwc';
+import { LightningElement, api } from 'lwc';
+import { NavigationMixin } from 'lightning/navigation';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 import BOOTSTRAPData from '@salesforce/resourceUrl/bootstrapdata';
 import { loadStyle, loadScript } from 'lightning/platformResourceLoader';
 // import forgotPassword from '@salesforce/apex/EDF01_RegisterController.forgotPassword';
+import forgotPasswordByEmail from '@salesforce/apex/LoginController.forgotPasswordByEmailV2';
 
-export default class EDF14_ForgotPassword extends LightningElement {
+export default class EDF14_ForgotPassword extends NavigationMixin(LightningElement) {
+
+    @api msgPwdResetEmailSent;
+    @api msgPwdResetError;
+    @api msgNotRegistered;
+    @api placeholderEmailField;
+    @api labelSubmit;
+    @api btnLogin;
+    @api btnRegister;
+    @api titleDialog;
+
     emailEntered;
     forgotPassword=false;
     forgotPasswordLink= true;
@@ -13,7 +25,9 @@ export default class EDF14_ForgotPassword extends LightningElement {
             loadScript(this, BOOTSTRAPData +'/assets/js/bootstrap.min.js'),
             loadScript(this, BOOTSTRAPData + '/assets/js/jquery-3.2.1.slim.min.js'),
             loadScript(this, BOOTSTRAPData + '/assets/js/popper-1.12.9.min.js'),
-            loadStyle(this, BOOTSTRAPData + '/assets/css/bootstrap-4.0.0.min.css')
+            loadStyle(this, BOOTSTRAPData + '/assets/css/bootstrap-4.0.0.min.css'),
+            loadStyle(this, BOOTSTRAPData + '/assets/css/custom.css'),
+            loadStyle(this, BOOTSTRAPData + '/assets/css/header.css'),
         ]).then(() => {
                 console.log("All scripts and CSS are loaded.")
             })
@@ -21,59 +35,137 @@ export default class EDF14_ForgotPassword extends LightningElement {
                 console.log("Error page")
             });
     }
-    handleSubmit(){        
-        const input = this.template.querySelector(".form-control");
-        this.emailEntered = input.value;
-        if(this.emailEntered != undefined && this.emailEntered!='' && this.validateEmail(this.emailEntered)){
-            /*forgotPassword({ username: this.emailEntered })
-            .then(result => {
-                console.log('result:'+result);
-                if(result === true){
-                    const event = new ShowToastEvent({
-                        mode: 'sticky',
-                        variant:'Success',
-                        title: 'We have sent you a password reset link to your email',
-                        message:
-                            'Please click on the link and follow the instructions to reset your password',                
-                    });
-                    this.dispatchEvent(event);
 
-                }else{
-                    const event = new ShowToastEvent({
-                        mode: 'sticky',
-                        variant:'error',
-                        title: 'Enter Valid User Address',
-                        message:
-                            'Please Enter an Valid User Address to reset the password',                
-                    });
-                    this.dispatchEvent(event);
-                    
+
+
+    // handleSubmit(){
+    //     const input = this.template.querySelector(".form-control");
+    //     this.emailEntered = input.value;
+    //     if(this.emailEntered != undefined && this.emailEntered!='' && this.validateEmail(this.emailEntered)){
+    //         /*forgotPassword({ username: this.emailEntered })
+    //         .then(result => {
+    //             console.log('result:'+result);
+    //             if(result === true){
+    //                 const event = new ShowToastEvent({
+    //                     mode: 'sticky',
+    //                     variant:'Success',
+    //                     title: 'We have sent you a password reset link to your email',
+    //                     message:
+    //                         'Please click on the link and follow the instructions to reset your password',
+    //                 });
+    //                 this.dispatchEvent(event);
+
+    //             }else{
+    //                 const event = new ShowToastEvent({
+    //                     mode: 'sticky',
+    //                     variant:'error',
+    //                     title: 'Enter Valid User Address',
+    //                     message:
+    //                         'Please Enter an Valid User Address to reset the password',
+    //                 });
+    //                 this.dispatchEvent(event);
+
+    //             }
+    //         })
+    //         .catch(error => {
+
+    //         });*/
+    //     }else{
+    //         const event = new ShowToastEvent({
+    //             mode: 'sticky',
+    //             variant:'error',
+    //             title: 'Enter Valid Email Address',
+    //             message:
+    //                 'Please Enter an Valid Email Address to move further',
+    //         });
+    //         this.dispatchEvent(event);
+    //     }
+    // }
+
+
+    // validateEmail(str){
+    //     var lastAtPos = str.lastIndexOf('@');
+    //     var lastDotPos = str.lastIndexOf('.');
+    //     return (lastAtPos < lastDotPos && lastAtPos > 0 && str.indexOf('@@') == -1 && lastDotPos > 2 && (str.length - lastDotPos) > 2);
+    // }
+
+
+    // handleForgotPassword(){
+    //     this.forgotPassword=true;
+    // }
+    // closeModel(){
+    //     this.forgotPassword=false;
+    // }
+
+
+
+    resetLink = false;
+    registerLink = false;
+    isSubmitted = false;
+    forgotPasswordMessage = '';
+
+    forgotPasswordHandler() {
+        this.isSubmitted = false;
+        this.resetLink = false;
+        this.registerLink = false;
+
+        const input = this.template.querySelector(".email");
+        this.email = input.value;
+        console.log('email:', this.email);
+        if (this.email) {
+            forgotPasswordByEmail({ email: this.email }).then(response => {
+                this.isSubmitted = true;
+                console.log('response:', response);
+                if (response === 1  ||  response === 2) {
+                    this.resetLink = true;
+                    this.forgotPasswordMessage = this.msgPwdResetEmailSent;
                 }
-            })
-            .catch(error => {
+                else if (response === 0) {
+                    this.forgotPasswordMessage = this.msgPwdResetError;
+                }
+                else {
+                    this.registerLink = true;
+                    this.forgotPasswordMessage = this.msgNotRegistered;
+                }
 
-            });*/
-        }else{
-            const event = new ShowToastEvent({
-                mode: 'sticky',
-                variant:'error',
-                title: 'Enter Valid Email Address',
-                message:
-                    'Please Enter an Valid Email Address to move further',                
+            }).error(error => {
+                this.isSubmitted = true;
+                console.log('Error:', error);
+                this.resetLink = false;
+                this.forgotPasswordMessage = this.msgPwdResetError;
             });
-            this.dispatchEvent(event);
         }
 
     }
-    validateEmail(str){
-        var lastAtPos = str.lastIndexOf('@');
-        var lastDotPos = str.lastIndexOf('.');
-        return (lastAtPos < lastDotPos && lastAtPos > 0 && str.indexOf('@@') == -1 && lastDotPos > 2 && (str.length - lastDotPos) > 2);
+
+    navigateToHome() {
+        let urlstring = window.location.href;
+        let startUrl = urlstring.substring(0,urlstring.indexOf("/s/"));
+        let registerUrl = startUrl+'/s/login'
+        this[NavigationMixin.Navigate]({
+            type: "standard__webPage",
+            attributes: {
+              url: registerUrl
+            }
+          });
     }
-    handleForgotPassword(){
-        this.forgotPassword=true;
+
+    navigateToRegister() {
+        let urlstring = window.location.href;
+        let startUrl = urlstring.substring(0,urlstring.indexOf("/s/"));
+        let registerUrl = startUrl+'/s/login/SelfRegister'
+        this[NavigationMixin.Navigate]({
+            type: "standard__webPage",
+            attributes: {
+              url: registerUrl
+            }
+          });
     }
-    closeModel(){
-        this.forgotPassword=false;
+
+    closeModalAction() {
+        this.resetLink = false;
+        this.registerLink = false;
+        this.isSubmitted = false;
     }
+
 }

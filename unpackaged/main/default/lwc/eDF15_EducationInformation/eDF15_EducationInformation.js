@@ -10,6 +10,11 @@ import retrieveUniversitySchoolAccountsWithParents from '@salesforce/apex/Univer
 import { getPicklistValues, getObjectInfo } from 'lightning/uiObjectInfoApi';
 import { getRecord, getFieldValue, updateRecord } from "lightning/uiRecordApi";
 import updateEducationInformation from '@salesforce/apex/UniversityHelper.updateEducationInformation';
+import { onHeadingClick } from 'c/edfCommonUtils';
+
+// Import message service features required for subscribing and the message channel
+import { subscribe, MessageContext } from 'lightning/messageService';
+import FAPP_SUBMITTED_CHANNEL from '@salesforce/messageChannel/Application_Submitted__c';
 
 // Import reference to the object and the fields
 import FELLOW_APPLICATION_OBJECT from '@salesforce/schema/Fellow_Application__c';
@@ -45,10 +50,22 @@ import { loadStyle, loadScript } from 'lightning/platformResourceLoader';
 import registrationgbImage from '@salesforce/resourceUrl/registrationgbImage';
 import checkDeadlinePassed from '@salesforce/apex/FellowAppController.isDeadlinePassed'; // Added by HSingh - FB-2039
 
-let i=0;
-let j=0;
+let i=0; // Do we need this? If yes, create better variable names
+let j=0; // Do we need this? If yes, create better variable names
 export default class EDF15_EducationInformation extends NavigationMixin(LightningElement) {
 
+    @api courseWorkLabel;
+    @api underGraduateMajor;
+    @api Undergraduatedegreeearned;
+    @api undergraduateuniversity;
+    @api undergraduniversity;
+    @api expectedgraduationdate;
+    @api graduatedegreestartdate;
+    @api graduatedegreeconcentration;
+    @api graduatedegreenotlisted;
+    @api schooluniversitynotlisted;
+    @api schoolwithinuniversity;
+    @api graduateuniversity;
     userId = Id;
     currentUserName;
     currentUserEmailId;
@@ -82,6 +99,8 @@ export default class EDF15_EducationInformation extends NavigationMixin(Lightnin
 
     @api backgroundImageClass = 'body-bg-image-application';
 
+    @api saveSuccessTitle;
+    @api saveSuccessMessage;
     @api isChild = false;
     @api readOnly = false;
     @track graduateDegreeSelected = [];
@@ -100,11 +119,48 @@ export default class EDF15_EducationInformation extends NavigationMixin(Lightnin
     childDualtOptions = '';
     @track parentId='';
 
+    // Following custom variables are used for Review Fellow App Page
+    contentCSS = '';
+    expCollSign;
+    cssSection = 'registration-application-section';
+    cssSectionSub = 'registration-application-section-sub';
+
     _isDeadlinePassed = null; // FB-2039
+
+    // By using the MessageContext @wire adapter, unsubscribe will be called
+    // implicitly during the component descruction lifecycle.
+    @wire(MessageContext)
+    messageContext;
+
+    subscription = null;
+
+    // Encapsulate logic for LMS subscribe.
+    subscribeToMessageChannel() {
+        this.subscription = subscribe(
+            this.messageContext,
+            FAPP_SUBMITTED_CHANNEL,
+            (message) => this.handleFAppSubmission(message)
+        );
+    }
+
+    // Handler for message received by component
+    handleFAppSubmission(message) {
+        // let fAppId = message.fAppId; // Ignore fAppId for now.
+        this.readOnly = true;
+    }
 
     connectedCallback() {
         this.getEducationInfo();
         this.checkDeadline(); // FB-2039
+
+        if (this.isChild) {
+            this.contentCSS = 'content';
+            this.expCollSign = '+';
+            this.cssSection += ' no-padding-top no-padding-bottom';
+            this.cssSectionSub += ' no-padding-top no-padding-bottom';
+
+            this.subscribeToMessageChannel();
+        }
     }
 
     getEducationInfo() {
@@ -176,7 +232,7 @@ export default class EDF15_EducationInformation extends NavigationMixin(Lightnin
     @wire(getObjectInfo, { objectApiName: FELLOW_APPLICATION_OBJECT })
     fellowAppObjectInfo;
 
-    setDefaultValues() {
+    /* setDefaultValues() { // HS - Commenting this method as it is not being used.
 
         this.graduateUniversity = getFieldValue(this.fellowApp.data, GRADUATE_UNIVERSITY_FIELD);
         alert('this.graduateUniversity ::' + this.graduateUniversity);
@@ -208,7 +264,7 @@ export default class EDF15_EducationInformation extends NavigationMixin(Lightnin
         // this.template.querySelector('.undergraduate-degree-earned-other').value = this.undergraduateDegreeEarnedOther;
         // this.template.querySelector('.undergrad-major').value = this.undergradMajor;
         // this.template.querySelector('.other-courses-certifications').value = this.otherCoursesCertifications;
-    }
+    } */
 
     // Get "Graduate Degree(s) you are Pursuing" Picklist values.
     @wire(getPicklistValues, { recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: GRADUATE_DEGREE_FIELD })
@@ -474,16 +530,17 @@ export default class EDF15_EducationInformation extends NavigationMixin(Lightnin
         console.log('fields', fields);
         if(this.isInputValid()){
             // updateRecord(recordInput).then((record) => {
-            updateEducationInformation({fa:fields}).then((record) => {
-                console.log('updateEducationInformation', record);
-                const toastEvent = new ShowToastEvent({
-                    title: 'Education Information Updated',
-                    message: 'Education Information Updated',
-                    variant: 'success'
-                });
-                this.dispatchEvent(toastEvent);
-                this.connectedCallback();
-                this.saveNext();
+            updateEducationInformation({fa:fields}).then((result) => {
+                console.log('updateEducationInformation', result);
+                if (result == '') {
+                    this.showToast(this.saveSuccessTitle, 'success', this.saveSuccessMessage);
+                    this.connectedCallback(); // Do we need to call this on save? // Perhaps for Review Page
+                    this.saveNext();
+                }
+                else {
+                    console.log('INSIDE SAVE ERROR ::', result);
+                    this.showStickyToast('Education Information', 'error', result);
+                }
 
             }).catch(error => {
                 alert(JSON.stringify(error));
@@ -590,5 +647,29 @@ export default class EDF15_EducationInformation extends NavigationMixin(Lightnin
                 pageName: 'home'
             }
         });
+    }
+
+
+    showToast(titleTxt, variantType, msgTxt, mode) {
+        this.dispatchEvent(
+            new ShowToastEvent({
+                title: titleTxt,
+                message: msgTxt,
+                variant: variantType,
+                mode: mode == null ? 'dismissible' : mode
+            })
+        );
+    }
+
+    showDismissibleToast(titleTxt, variantType, msgTxt) {
+        this.showToast(titleTxt, variantType, msgTxt, 'dismissible');
+    }
+
+    showStickyToast(titleTxt, variantType, msgTxt) {
+        this.showToast(titleTxt, variantType, msgTxt, 'sticky');
+    }
+
+    onHeadingClick() {
+        this.expCollSign = onHeadingClick(this.isChild, this.template);
     }
 }

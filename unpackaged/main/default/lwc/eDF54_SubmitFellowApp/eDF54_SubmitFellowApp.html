@@ -1,0 +1,29 @@
+<!--
+  @description       :
+  @author            : Harpreet Singh
+  @last modified on  : 06-22-2023
+  @last modified by  :
+-->
+<template>
+    <div class="">
+
+        <div class="">
+            <div class="registration-application-section no-padding-top">
+                <div class="registration-application-section-inner" style="background-color:transparent">
+                    <div class="registration-application-section-sub no-padding-top">
+                        <div class="registration-application-form-wrap">
+                            <div>
+                                <template if:false={isDeadlinePassed}>
+                                    <div class="form-button-wrap no-padding-top no-padding-bottom">
+                                        <button disabled={blockRegister} class="btn btn-primary green-button margin-right" onclick={submitApplication}>{labelSubmitAppBtn}</button>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- c-e-d-f22_footer></c-e-d-f22_footer -->
+</template>

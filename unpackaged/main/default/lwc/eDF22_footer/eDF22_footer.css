@@ -225,3 +225,193 @@
 }
 /* Footer Bottom End */
 /* Footer End */
+
+
+
+.site-footer {
+  background: #d9eff9;
+  clear: both;
+  color: #494a50;
+  font-family: Libre Franklin, sans-serif;
+  line-height: 1;
+  padding-bottom: 40px;
+  padding-top: 60px
+}
+
+.site-footer .link-column dt {
+  font-family: Libre Franklin, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.5
+}
+
+.site-footer .copyright p {
+  font-family: Libre Franklin, sans-serif;
+  font-size: .75rem;
+  font-weight: 400;
+  line-height: 1.5
+}
+
+.site-footer div,
+.site-footer dl,
+.site-footer dt {
+  border: 0;
+  font-weight: 400;
+  margin: 0;
+  padding: 0
+}
+
+.site-footer .inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1134px
+}
+
+.site-footer ul {
+  list-style: none;
+  margin: unset;
+  padding: unset
+}
+
+.site-footer .first-columns {
+  display: grid;
+  gap: 40px;
+  padding-bottom: 30px
+}
+
+.site-footer .branding-column {
+  display: grid;
+  grid-template-columns: 1fr
+}
+
+.site-footer .social-networks li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: .75em
+}
+
+.site-footer .social-networks li a {
+  color: #03c
+}
+
+.site-footer .social-networks li a:hover {
+  color: #029eda
+}
+
+.site-footer .social-networks li svg {
+  fill: currentcolor;
+  height: 1.75rem;
+  width: 1.75rem
+}
+
+.site-footer .link-column dt,
+.site-footer .link-column li {
+  margin-bottom: 1em
+}
+
+.site-footer .link-column a {
+  color: #03c;
+  text-decoration: none
+}
+
+.site-footer .link-column a:hover {
+  text-decoration: underline
+}
+
+.site-footer .second-columns {
+  border-top: 1px solid rgba(0, 0, 0, .25);
+  display: grid;
+  gap: 40px;
+  padding-top: 30px
+}
+
+.site-footer .second-columns a {
+  font-weight: 700;
+  text-decoration: none;
+  text-underline-offset: .2em
+}
+
+.site-footer .second-columns a:focus,
+.site-footer .second-columns a:hover {
+  color: currentcolor;
+  text-decoration: underline
+}
+
+.site-footer .last-links li {
+  display: inline-block;
+  margin-right: 1em
+}
+
+.site-footer .copyright {
+  padding-right: 20px
+}
+
+.site-footer .copyright p {
+  line-height: 150%;
+  margin-bottom: 1.5em
+}
+
+@media (max-width:1174px) {
+  .site-footer .inner {
+      padding-left: 20px;
+      padding-right: 20px;
+      width: 100%
+  }
+}
+
+@media (min-width:861px) {
+  .site-footer .mobile-logo {
+      display: none
+  }
+
+  .site-footer .first-columns {
+      grid-template-columns: 3fr 2fr 2fr 2fr
+  }
+
+  .site-footer .branding-column {
+      gap: 20px
+  }
+
+  .site-footer .site-logo {
+      max-width: 240px
+  }
+
+  .site-footer .second-columns {
+      grid-template-columns: 4fr 9fr
+  }
+}
+
+@media (max-width:860px) {
+  .site-footer .inner {
+      width: auto
+  }
+
+  .site-footer .branding-column {
+      gap: 40px;
+      text-align: center
+  }
+
+  .site-footer .mobile-logo {
+      display: none
+  }
+
+  .site-footer .site-logo {
+      max-width: 200px
+  }
+
+  .site-footer .social-networks {
+      padding-top: 20px;
+      text-align: center
+  }
+
+  .site-footer .link-column {
+      margin: 0 auto;
+      text-align: center
+  }
+
+  .site-footer .second-columns {
+      padding: 0;
+      text-align: center
+  }
+}

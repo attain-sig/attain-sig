@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="labelThankYou" label="Label - Thank You Message" type="String" default="Thank you for your interest in applying to Climate Corps. Please fill out the information below."></property>
+            <property name="pillNames" label="Pill Names" type="String" default="Dashboard | Contact | Education | Background | Preferences | Cover Letter"></property>
+            <property name="pillURLs" label="Pill URLs" type="String" default="home | contactinfo | educationinformation | backgroundinformation | preferences | coverletter"></property>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

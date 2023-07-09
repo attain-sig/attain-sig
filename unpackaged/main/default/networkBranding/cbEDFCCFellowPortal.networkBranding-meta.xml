@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <NetworkBranding xmlns="http://soap.sforce.com/2006/04/metadata">
     <loginFooterText>salesforce.com</loginFooterText>
+    <loginLogo>Experiences_Shared_Document_Folder/edflogocolor_250x75_png.png</loginLogo>
+    <loginLogoName>edflogocolor_250x75.png</loginLogoName>
     <loginPrimaryColor>#1797C0</loginPrimaryColor>
-    <loginQuaternaryColor>#B1BAC1</loginQuaternaryColor>
+    <loginQuaternaryColor>#FFFFFF</loginQuaternaryColor>
     <network>EDFCCFellowPortal</network>
     <primaryColor>#1797C0</primaryColor>
     <primaryComplementColor>#FFFFFF</primaryComplementColor>

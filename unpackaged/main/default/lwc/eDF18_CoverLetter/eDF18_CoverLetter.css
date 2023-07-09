@@ -64,3 +64,10 @@
   color: rgb(252, 4, 4);
   margin-left: 15px;
 }
+.content {
+  padding: 0 18px;
+  overflow: hidden;
+  max-height: 0;
+  display: none;
+  transition: max-height 0.7s ease-out;
+}

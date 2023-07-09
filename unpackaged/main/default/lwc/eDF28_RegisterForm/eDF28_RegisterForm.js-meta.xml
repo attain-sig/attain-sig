@@ -4,9 +4,50 @@
     <isExposed>true</isExposed>
     <targets>
         <target>lightningCommunity__Page</target>
-        <target>lightning__AppPage</target>
-        <target>lightning__HomePage</target>
-        <target>lightning__RecordPage</target>
-        <target>lightning__Tab</target>
+        <target>lightningCommunity__Default</target>
     </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+
+            <property name="placeholderRegEmail" label="Placeholder - Email Field" type="String" default="Enter your email address here"></property>
+            <property name="titleEnterValidEmail" label="Title - Enter Valid Email" type="String" default="Enter Valid Email Address"></property>
+            <property name="msgEnterValidEmail" label="Message - Enter Valid Email" type="String" default="Please Enter an Valid Email Address to move further"></property>
+
+            <property name="titleUserAlreadyExists" label="Title - User Already Exists" type="String" default="Email already exists"></property>
+            <property name="msgUserAlreadyExists" label="Message - User Already Exists" type="String" default="It looks like this email is already tied to an active account. If you don't remember the password, please reset your password."></property>
+            <property name="btnUserAlreadyExists" label="Btn Label - User Already Exists" type="String" default="Login"></property>
+
+            <property name="titleNewUserCreatedOrActivated" label="Title - User Created or Activated" type="String" default="Email already exists"></property>
+            <property name="msgNewUserCreatedOrActivated" label="Message - User Created or Activated" type="String" default="Your account was activated. Please check your email for details."></property>
+            <property name="btnNewUserCreatedOrActivated" label="Btn Label - User Created or Activated" type="String" default="Login"></property>
+
+            <property name="titleUserAlreadyActive" label="Title - User Already Active" type="String" default="User already active for previous fellowship"></property>
+            <property name="msgUserAlreadyActive" label="Message - User Already Active" type="String" default="Your previous fellowship is in process. Please come back again once your current year fellowship is complete."></property>
+            <property name="btnUserAlreadyActive" label="Btn Label - User Already Active" type="String" default="Login"></property>
+
+            <property name="titleReadyToRegister" label="Title - Register" type="String" default="Email ID verified"></property>
+            <property name="msgReadyToRegister" label="Message - Register" type="String" default="Now you can register with this email ID"></property>
+            <property name="btnReadyToRegister" label="Btn Label - Register" type="String" default="Register"></property>
+
+            <property name="msgThankForRegistering" label="Message - Thank for Registering" type="String" default="Thank you for registering. Please check your email for your login credentials."></property>
+            <property name="linkHomeThankForRegistering" label="Link To Home - Thank for Registering" type="String" default="You can go back to the login page by clicking here."></property>
+
+            <property name="lblEmail" label="Label - Email" type="String" default="Email address (User ID)"></property>
+            <property name="lblFirstName" label="Label - First Name" type="String" default="First Name"></property>
+            <property name="lblLastName" label="Label - Last Name" type="String" default="Last Name"></property>
+            <property name="lblPhone" label="Label - Phone" type="String" default="Phone"></property>
+            <property name="lblIncCountryCode" label="Label - Phone Include Country Code" type="String" default="Include country code if outside U.S"></property>
+            <property name="lblCountry" label="Label - Country" type="String" default="Country"></property>
+            <property name="lblPostalCode" label="Label - Postal Code" type="String" default="Postal Code"></property>
+            <property name="lblState" label="Label - State" type="String" default="State"></property>
+            <property name="lblCity" label="Label - City" type="String" default="City"></property>
+            <property name="lblAddress1" label="Label - Address 1" type="String" default="Permanent Street Address Line 1"></property>
+            <property name="lblAddress2" label="Label - Address 2" type="String" default="Permanent Street Address Line 2"></property>
+            <property name="btnRegister" label="Button Label - Register" type="String" default="Register"></property>
+            <property name="headingRegisterPage" label="Heading - Register Page" type="String" default="Climate Corps Registration"></property>
+
+            <property name="fellowships" description="Separate each fellowship with | pipe symbol. Make sure that they match Region options on Fellow Application." label="Allowed fellowships" type="String" default="India Fellowship"></property>
+
+        </targetConfig>
+    </targetConfigs>
 </LightningComponentBundle>

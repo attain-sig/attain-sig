@@ -1,16 +1,18 @@
 <template>
-             <div class="header">
-            <div class="header-inner">
-                <!-- Logo Start -->
-                <div class="logo-wrap">
-                    <div class="logo">
-                        <a href="javascript:void(0);" title=""><img src={headerLogo} alt="" title="" /></a>
-                    </div>
-                    <!-- <span class="logo-line">Climate Corps</span> -->
+    <div class="header">
+        <div class="header-inner">
+            <div class="logoContainer">&nbsp;</div>
+            <!-- Logo Start -->
+            <!-- div class="logo-wrap">
+                <div class="logo">
+                    <a href="javascript:void(0);" title=""><img src={headerLogo} alt="" title="" /></a>
                 </div>
-                <!-- Logo End -->
-    
-                <!-- Header Top Right Section Start -->
+                <! - - <span class="logo-line">Climate Corps</span> - - >
+            </div -->
+            <!-- Logo End -->
+
+            <!-- Header Top Right Section Start -->
+            <template if:true={isShowUserDetails}>
                 <div class="header-top-right-section">
                     <!-- Header Top Right User & Status Start -->
                     <div class="header-user-status-outer" onclick={showHideUserLogout}>
@@ -41,19 +43,20 @@
                                 </ul>
                             </div>
                         </template>
-                        
+
                         <!-- Dropdown Section End -->
                     </div>
                     <!-- Header Top Right User & Status End -->
-    
+
                     <!-- Header Menu Start -->
                     <div class="header-menu">
                         <span class="header-menu"></span>
                     </div>
                     <!-- Header Menu End -->
                 </div>
-                <!-- Header Top Right Section End -->
-            </div>
+            </template>
+            <!-- Header Top Right Section End -->
         </div>
-        <!-- Header End -->
+    </div>
+    <!-- Header End -->
 </template>

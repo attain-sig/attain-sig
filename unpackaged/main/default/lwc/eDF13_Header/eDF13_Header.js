@@ -5,19 +5,21 @@ import getApplicationStatus from '@salesforce/apex/LoginController.getApplicatio
 import basePath from "@salesforce/community/basePath";
 import { NavigationMixin } from 'lightning/navigation';
 import BOOTSTRAPData from '@salesforce/resourceUrl/bootstrapdata';
-import { ShowToastEvent } from 'lightning/platformShowToastEvent';       
+import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 import { loadStyle, loadScript } from 'lightning/platformResourceLoader';
 
 
 export default class EDF13_Header extends NavigationMixin(LightningElement) {
-    
+
+    @api isShowUserDetails;
+
     headerLogo = BOOTSTRAPData + '/assets/img/logo.svg';
     uploadIcon = BOOTSTRAPData + '/assets/img/uploads-icon.svg';
     logoutIcon = BOOTSTRAPData + '/assets/img/logout-icon.svg';
 
     @api applicationStatus = '';
     // @track userDetail;
-    
+
 
     // @wire(getUserDetails)
     // wiredUserDetails({ error, data }) {
@@ -31,14 +33,14 @@ export default class EDF13_Header extends NavigationMixin(LightningElement) {
     // }
 
     @wire(getUserName)
-    userName;  
+    userName;
 
     // @wire(getApplicationStatus)
-    // applicationStatus; 
-    
+    // applicationStatus;
+
     showUserLogout = false;
 
-    connectedCallback() { 
+    connectedCallback() {
         getApplicationStatus().then(response => {
             this.applicationStatus = response;
         }).catch(error => {
@@ -62,9 +64,9 @@ export default class EDF13_Header extends NavigationMixin(LightningElement) {
                 console.log("Error page")
             });
         //console.log('firstName', firstName);
-        
+
         //this.getUserInfo();
-        
+
     }
 
     showHideUserLogout() {
@@ -83,5 +85,5 @@ export default class EDF13_Header extends NavigationMixin(LightningElement) {
         return sitePrefix + "/secur/logout.jsp";
     }
 
-   
+
 }

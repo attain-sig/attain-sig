@@ -32,7 +32,7 @@
     display: block;
     max-width: 100%;
   }
-  /* .header-inner .logo-wrap .logo:after{ 
+  /* .header-inner .logo-wrap .logo:after{
       content: "";
       background-color: #325B6F;
       width: 1px;
@@ -51,7 +51,7 @@
     background-color: inherit;
     text-transform: uppercase;
   }
-  
+
   /* Header Top Right Section Start */
   .header .header-inner .header-top-right-section {
     display: -webkit-box;
@@ -102,7 +102,7 @@
     -moz-border-radius: 100%;
     border-radius: 100%;
   }
-  
+
   .header
     .header-inner
     .header-top-right-section
@@ -119,7 +119,7 @@
     .user-name {
     display: block;
   }
-  
+
   /* User Dropdown Section Start */
   .header
     .header-inner
@@ -241,13 +241,13 @@
     color: #d23d1e;
   }
   /* User Dropdown Section End */
-  
+
   /* Header Top Right User & Status End */
-  
+
   /* Header Top Right Section End */
-  
+
   /* Header End */
-  
+
   /* Header Bottom Section Start */
   .header-bottom {
     color: inherit;
@@ -269,7 +269,7 @@
     background-color: inherit;
   }
   /* Header Bottom Section End */
-  
+
   /* Breadcrumb Menu Start */
   .header-bottom .header-bottom-inner .breadcrumb-menu-wrap ul {
     padding: 0;
@@ -363,7 +363,7 @@
     display: block;
     max-width: 100%;
   }
-  /* .header-inner .logo-wrap .logo:after{ 
+  /* .header-inner .logo-wrap .logo:after{
       content: "";
       background-color: #325B6F;
       width: 1px;
@@ -382,7 +382,7 @@
     background-color: inherit;
     text-transform: uppercase;
   }
-  
+
   /* Header Top Right Section Start */
   .header .header-inner .header-top-right-section {
     display: -webkit-box;
@@ -433,7 +433,7 @@
     -moz-border-radius: 100%;
     border-radius: 100%;
   }
-  
+
   .header
     .header-inner
     .header-top-right-section
@@ -450,7 +450,7 @@
     .user-name {
     display: block;
   }
-  
+
   /* User Dropdown Section Start */
   .header
     .header-inner
@@ -572,9 +572,26 @@
     color: #d23d1e;
   }
   /* User Dropdown Section End */
-  
+
   /* Header Top Right User & Status End */
-  
+
   /* Header Top Right Section End */
-  
+
   /* Header End */
+
+.logoContainer {
+  background-image: t('url(' + brandLogoImage  + ')');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 99;
+  cursor: pointer;
+  position: relative;
+  max-width: 100%;
+  max-height: 52px;
+  display: block;
+  outline: 0;
+  height: 50px;
+  margin-top: 10px;
+  width: 400px;
+  }

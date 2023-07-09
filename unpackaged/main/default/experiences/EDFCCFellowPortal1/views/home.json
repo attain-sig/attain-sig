@@ -21,14 +21,6 @@
     "regionName" : "content",
     "type" : "region"
   }, {
-    "components" : [ {
-      "componentAttributes" : { },
-      "componentName" : "c:eDF22_footer",
-      "id" : "95b1f041-484d-4897-9838-48e96d68b830",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "498d4990-f232-4f33-ad52-90f55e38de80",
     "regionName" : "footer",
     "type" : "region"
@@ -48,7 +40,7 @@
     "regionName" : "sfdcHiddenRegion",
     "type" : "region"
   } ],
-  "themeLayoutType" : "Inner",
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
   "type" : "view",
   "viewType" : "home"
 }

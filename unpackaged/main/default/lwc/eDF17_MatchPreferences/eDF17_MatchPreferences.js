@@ -3,13 +3,22 @@ import { NavigationMixin } from 'lightning/navigation';
 import getMatchPreferences from '@salesforce/apex/FellowAppController.getMatchPreferences';
 import { getPicklistValues, getObjectInfo } from 'lightning/uiObjectInfoApi';
 import { getRecord, getFieldValue, updateRecord } from "lightning/uiRecordApi";
+import { onHeadingClick } from 'c/edfCommonUtils';
+import updatePreference from '@salesforce/apex/FellowAppController.updatePreference';
+
+// Import message service features required for subscribing and the message channel
+import { subscribe, MessageContext } from 'lightning/messageService';
+import FAPP_SUBMITTED_CHANNEL from '@salesforce/messageChannel/Application_Submitted__c';
 
 // Import reference to the object and the fields
 import FELLOW_APPLICATION_OBJECT from '@salesforce/schema/Fellow_Application__c';
 import FELLOW_APPLICATION_ID_FIELD from '@salesforce/schema/Fellow_Application__c.Id';
+// import AVALIBLITY_CLIMATE from '@salesforce/schema/Fellow_Application__c.Availability_Climates__c';
+// import STATECITIES from '@salesforce/schema/Fellow_Application__c.State_Cities__c';
 import APPLY_INDIA_FIELD from '@salesforce/schema/Fellow_Application__c.Apply_India_as_well__c';
 import APPLY_CHINA_FIELD from '@salesforce/schema/Fellow_Application__c.Apply_for_China_Fellowship_as_well__c';
 import REGIONS_IN_INDIA_FIELD from '@salesforce/schema/Fellow_Application__c.Regions_in_India__c';
+import REGIONS_IN_INDIA_SORTED from '@salesforce/schema/Fellow_Application__c.Regions_in_India_Sorted__c';
 import REGIONS_IN_CHINA_FIELD from '@salesforce/schema/Fellow_Application__c.Regions_in_China__c';
 import REGIONS_IN_US_FIELD from '@salesforce/schema/Fellow_Application__c.Geographic_Yes_Region__c';
 import US_REGIONAL_PREFERENCES_FIELD from '@salesforce/schema/Fellow_Application__c.US_regional_preferences__c';
@@ -22,7 +31,21 @@ import PROJECT_TYPE_PREFERENCE_ONE from '@salesforce/schema/Fellow_Application__
 import PROJECT_TYPE_PREFERENCE_TWO from '@salesforce/schema/Fellow_Application__c.Project_Type_Preference_Two__c';
 import PROJECT_TYPE_PREFERENCE_THREE from '@salesforce/schema/Fellow_Application__c.Project_Type_Preference_Three__c';
 
+import AVAILABILITY_START_DATE from '@salesforce/schema/Fellow_Application__c.Availability_Start_Date__c';
+import AVAILABILITY_END_DATE from '@salesforce/schema/Fellow_Application__c.Availability_End_Date__c';
+import AVAILABILITY_ADDITIONAL from '@salesforce/schema/Fellow_Application__c.Availability_Additional__c';
+import PROJECT_TYPE_PREFERENCE from '@salesforce/schema/Fellow_Application__c.Project_Type_Preference__c';
+import PROJECT_TYPE_PREFERENCE_SORTED from '@salesforce/schema/Fellow_Application__c.Project_Type_Preference_Sorted__c';
+import AREAS_OF_INTEREST_INDIA from '@salesforce/schema/Fellow_Application__c.Areas_of_Interest_India__c';
+import AREAS_OF_INTEREST_INDIA_SORTED from '@salesforce/schema/Fellow_Application__c.Areas_of_Interest_India_Sorted__c';
+import AREAS_OF_INTEREST_OTHER from '@salesforce/schema/Fellow_Application__c.Areas_of_Interest_Other__c';
+
 // Labels added by Harpreet on 04-Jan-2022
+
+// import AreaOfIntrestl from '@salesforce/label/c.AreaOfIntrest';
+// import availabilityClimate from '@salesforce/label/c.availabilityClimate';
+// import Statescities from '@salesforce/label/c.Statescities';
+// import Project_Type_Preference from '@salesforce/label/c.Project_Type_Preference';
 import Page_Heading from '@salesforce/label/c.FellowApp_MatchPref_Page_Heading';
 import USRegionPref_HelpText from '@salesforce/label/c.FellowApp_MatchPref_USRegionPref_HelpText';
 import IndiaRegionPref_HelpText from '@salesforce/label/c.FellowApp_MatchPref_IndiaRegionPref_HelpText';
@@ -64,6 +87,10 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
     // Labels added by Harpreet on 04-Jan-2022
     label = {
         Page_Heading: this.getCustomLabel(Page_Heading),
+		// AreaOfIntrestl: this.getCustomLabel(AreaOfIntrestl),
+		// Statescities: this.getCustomLabel(Statescities),
+		Project_Type_Preference: 'this.getCustomLabel(Project_Type_Preference)',
+		// availabilityClimate: this.getCustomLabel(availabilityClimate),
         USRegionPref_HelpText: this.getCustomLabel(USRegionPref_HelpText),
         IndiaRegionPref_HelpText: this.getCustomLabel(IndiaRegionPref_HelpText),
         ChinaRegionPref_HelpText: this.getCustomLabel(ChinaRegionPref_HelpText),
@@ -92,13 +119,21 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
         Cancel_ButtonLabel: this.getCustomLabel(Cancel_ButtonLabel),
         Save_ButtonLabel: this.getCustomLabel(Save_ButtonLabel),
     }
-     // variables
+    // variables
+    availabilityStartDate = '';
+    availabilityEndDate = '';
+    availabilityAdditional = '';
+    @track projectTypePreference = [];
+    @track areaOfInterestSelected = [];
+    areasOfInterestOthers = '';
+
     fellowApplicationId = '';
     fellowshipApplyingFor = '';
     applyIndia = false;
     applyChina = false;
     regionsInIndia = '';
     regionsInChina = '';
+	AreaOfIntrests = '';
     regionsInUS = '';
     usRegionalPreferences = '';
     validUSDriversLicense = '';
@@ -125,19 +160,102 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
     @track regionsInChinaSelected = [];
     @track regionsInChinaOptions = [];
 
+	@track areaOfIntSelected = []; // May not be used
+    @track areaOfIntOptions = [];
+
     @track regionsInUSSelected = [];
     @track regionsInUSOptions = [];
 
     @api backgroundImageClass = 'body-bg-image-application';
 
+    @api showInterestForIndiaChina;
+    @api lblInterestForIndiaChina;
+    @api lblInterestForIndiaChinaHelpText;
+    @api showUSRegionPref;
+    @api lblUSRegionPref;
+    @api lblUSRegionPrefHelpText;
+    @api charsUSRegionPrefText;
+    @api showUSDriverLicense;
+    @api lblUSDriverLicense;
+    @api showAccessToVehicle;
+    @api lblAccessToVehicle;
+    @api showSectorPreference;
+    @api lblSectorPreferenceHeader;
+    @api lblSectorPreferenceNote;
+    @api lblSectorFirstChoice;
+    @api lblSectorSecondChoice;
+    @api lblSectorThirdChoice;
+    @api showProjectTypePreferenceSection;
+    @api lblProjectTypePreferenceHeader;
+    @api lblProjectTypePreferenceNote;
+    @api lblProjectTypeFirstChoice;
+    @api lblProjectTypeSecondChoice;
+    @api lblProjectTypeThirdChoice;
+    @api showRegionsChina;
+    @api lblRegionalPreferenceChina;
+
+    @api showAvailability;
+    @api lblAvailabilityHeader;
+    @api lblAvailabilityNote;
+    @api lblAvailabilityStartDate;
+    @api lblAvailabilityEndDate;
+    @api lblAvailabilityAdditionalDetails;
+    @api charsAvailabilityAdditional;
+    @api showProjectTypePreference;
+    @api lblProjectTypePreference;
+    @api showRegionsIndia;
+    @api lblRegionalPreferenceIndia;
+    @api showAreasOfInterest;
+    @api showAreasOfInterestIndia;
+    @api lblAreasOfInterestIndia;
+    @api lblAreasOfInterestOther;
+    @api charsAreasOfInterestOther;
+    @api saveSuccessTitle;
+    @api saveSuccessMessage;
     @api isChild = false;
     @api readOnly = false;
 
+    // Following custom variables are used for Review Fellow App Page
+    contentCSS = '';
+    expCollSign;
+    cssSection = 'registration-application-section';
+    cssSectionSub = 'registration-application-section-sub';
+
     _isDeadlinePassed = null; // FB-2039
+
+    // By using the MessageContext @wire adapter, unsubscribe will be called
+    // implicitly during the component descruction lifecycle.
+    @wire(MessageContext)
+    messageContext;
+
+    subscription = null;
+
+    // Encapsulate logic for LMS subscribe.
+    subscribeToMessageChannel() {
+        this.subscription = subscribe(
+            this.messageContext,
+            FAPP_SUBMITTED_CHANNEL,
+            (message) => this.handleFAppSubmission(message)
+        );
+    }
+
+    // Handler for message received by component
+    handleFAppSubmission(message) {
+        // let fAppId = message.fAppId; // Ignore fAppId for now.
+        this.readOnly = true;
+    }
 
     connectedCallback() {
         this.getMatchPref();
         this.checkDeadline(); // FB-2039
+        if (this.isChild) {
+            this.contentCSS = 'content';
+            this.expCollSign = '+';
+            this.cssSection += ' no-padding-top no-padding-bottom';
+            this.cssSectionSub += ' no-padding-top no-padding-bottom';
+
+            this.subscribeToMessageChannel();
+        }
     }
 
     getMatchPref() {
@@ -175,6 +293,7 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
             if (response.regionsInUS) {
                 this.regionsInUSSelected = response.regionsInUS.split(';');
             }
+			// this.areaOfIntSelected = response.AreaOfIntrests.split(';');
             this.usRegionalPreferences = response.usRegionalPreferences ?? '';
             this.validUSDriversLicense = response.validUSDriversLicense ?? '';
             this.accessToVehicle = response.accessToVehicle ?? '';
@@ -184,6 +303,13 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
             this.projectTypePreferenceOne = response.projectTypePreferenceOne ?? '';
             this.projectTypePreferenceTwo = response.projectTypePreferenceTwo ?? '';
             this.projectTypePreferenceThree = response.projectTypePreferenceThree ?? '';
+
+			this.availabilityStartDate = response.availabilityStartDate ?? '';
+            this.availabilityEndDate = response.availabilityEndDate ?? '';
+            this.availabilityAdditional = response.availabilityAdditional ?? '';
+            if (response.projectTypePreference) this.projectTypePreference = response.projectTypePreference.split(';');
+            if (response.areaOfInterestSelected) this.areaOfInterestSelected = response.areaOfInterestSelected.split(';');
+            this.areasOfInterestOthers = response.areasOfInterestOthers ?? '';
 
             this.handleFieldsValidity();
 
@@ -218,6 +344,7 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
     @wire (getObjectInfo, {objectApiName: FELLOW_APPLICATION_OBJECT})
     fellowAppObjectInfo;
 
+    // Perhaps, this method is not being used.
     setDefaultValues(){
 
         this.template.querySelector('.apply-india').checked = this.applyIndia;
@@ -236,6 +363,7 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
     @wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: REGIONS_IN_INDIA_FIELD })
     regionsInIndiaPickListValues(data, error){
         if(data && data.data && data.data.values){
+            console.log('regionsInIndiaPickListValues :: ', JSON.stringify(data.data.values));
             data.data.values.forEach( objPicklist => {
                 this.regionsInIndiaOptions.push({
                     label: objPicklist.label,
@@ -251,6 +379,7 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
     @wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: REGIONS_IN_CHINA_FIELD })
     regionsInChinaPickListValues(data, error){
         if(data && data.data && data.data.values){
+            console.log('regionsInChinaPickListValues :: ', JSON.stringify(data.data.values));
             data.data.values.forEach( objPicklist => {
                 this.regionsInChinaOptions.push({
                     label: objPicklist.label,
@@ -266,6 +395,7 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
     @wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: REGIONS_IN_US_FIELD })
     regionsInUSPickListValues(data, error){
         if(data && data.data && data.data.values){
+            console.log('regionsInUSPickListValues :: ', JSON.stringify(data.data.values));
             data.data.values.forEach( objPicklist => {
                 this.regionsInUSOptions.push({
                     label: objPicklist.label,
@@ -311,6 +441,26 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
     @wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: PROJECT_TYPE_PREFERENCE_THREE })
     projectTypePreferenceThreePickList;
 
+	// Get "Project Type Preference" Picklist values.
+	@wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: PROJECT_TYPE_PREFERENCE })
+    projectTypePreferencePickList;
+
+	// Get "Areas of Interest" Picklist values.
+	@wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: AREAS_OF_INTEREST_INDIA })
+    areaOfIntrestPickList(data, error){
+		if(data && data.data && data.data.values){
+            console.log('areaOfIntrestPickList :: ', JSON.stringify(data.data.values));
+			data.data.values.forEach( objPicklist => {
+				this.areaOfIntOptions.push({
+					label: objPicklist.label,
+					value: objPicklist.value
+				});
+			});
+		} else if(error){
+			console.log(error);
+		}
+	}
+
     //Change Handlers
     applyIndiaChangeHandler(event){
         this.applyIndia = event.target.checked;
@@ -326,6 +476,9 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
 
     regionsInChinaChangeHandler(event) {
         this.regionsInChinaSelected = event.detail.value;
+    }
+	areaOfIntChangeHandler(event) {
+        this.areaOfIntSelected = event.detail.value;
     }
     regionsInUSChangeHandler(event) {
         this.regionsInUSSelected = event.detail.value;
@@ -367,6 +520,28 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
         this.projectTypePreferenceThree = event.target.value;
     }
 
+    availabilityStartDateChangeHandler(event) {
+		this.availabilityStartDate = event.target.value;
+	}
+    availabilityEndDateChangeHandler(event) {
+		this.availabilityEndDate = event.target.value;
+	}
+    availabilityAdditionalChangeHandler(event) {
+		this.availabilityAdditional = event.target.value;
+	}
+
+	projectTypePreferenceHandler(event){
+        this.projectTypePreference = event.target.value;
+    }
+	/* StatescitiesHandler(event) {
+		this.Statescitiess = event.target.value;
+	} */
+	areaOfInterestChangeHandler(event) {
+        this.areaOfInterestSelected = event.target.value;
+    }
+    areasOfInterestOthersChangeHandler(event) {
+        this.areasOfInterestOthers = event.target.value;
+    }
 
     //update details
     updateMatchPreferences(){
@@ -376,8 +551,10 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
         fields[APPLY_INDIA_FIELD.fieldApiName] = this.applyIndia;
         fields[APPLY_CHINA_FIELD.fieldApiName] = this.applyChina;
         fields[REGIONS_IN_INDIA_FIELD.fieldApiName] = this.regionsInIndiaSelected.join(';');
+        fields[REGIONS_IN_INDIA_SORTED.fieldApiName] = this.regionsInIndiaSelected.join(';');
         fields[REGIONS_IN_CHINA_FIELD.fieldApiName] = this.regionsInChinaSelected.join(';');
         fields[REGIONS_IN_US_FIELD.fieldApiName] = this.regionsInUSSelected.join(';');
+        console.log('updateMatchPreferences :: 1. fields ::', fields);
         fields[US_REGIONAL_PREFERENCES_FIELD.fieldApiName] = this.usRegionalPreferences;
         fields[VALID_US_DRIVERS_LICENSE_FIELD.fieldApiName] = this.validUSDriversLicense;
         fields[ACCESS_TO_VEHICLE_FIELD.fieldApiName] = this.accessToVehicle;
@@ -387,30 +564,50 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
         fields[PROJECT_TYPE_PREFERENCE_ONE.fieldApiName] = this.projectTypePreferenceOne;
         fields[PROJECT_TYPE_PREFERENCE_TWO.fieldApiName] = this.projectTypePreferenceTwo;
         fields[PROJECT_TYPE_PREFERENCE_THREE.fieldApiName] = this.projectTypePreferenceThree;
+        console.log('updateMatchPreferences :: 2. fields ::', fields);
 
+		fields[AVAILABILITY_START_DATE.fieldApiName] = this.availabilityStartDate;
+        console.log('updateMatchPreferences :: 2.1. fields ::', fields);
+		fields[AVAILABILITY_END_DATE.fieldApiName] = this.availabilityEndDate;
+        console.log('updateMatchPreferences :: 2.2. fields ::', fields);
+		fields[AVAILABILITY_ADDITIONAL.fieldApiName] = this.availabilityAdditional;
+		console.log('updateMatchPreferences :: 2.3. fields ::', fields);
+        console.log('updateMatchPreferences :: this.projectTypePreference ::', this.projectTypePreference);
+        fields[PROJECT_TYPE_PREFERENCE.fieldApiName] = this.projectTypePreference.join(';');
+        fields[PROJECT_TYPE_PREFERENCE_SORTED.fieldApiName] = this.projectTypePreference.join(';');
+		console.log('updateMatchPreferences :: 2.4. fields ::', fields);
+		fields[AREAS_OF_INTEREST_INDIA.fieldApiName] = this.areaOfInterestSelected.join(';');
+		fields[AREAS_OF_INTEREST_INDIA_SORTED.fieldApiName] = this.areaOfInterestSelected.join(';');
+		console.log('updateMatchPreferences :: 2.5. fields ::', fields);
+		fields[AREAS_OF_INTEREST_OTHER.fieldApiName] = this.areasOfInterestOthers;
+        console.log('updateMatchPreferences :: 3. fields ::', fields);
+		// fields[STATECITIES.fieldApiName] = this.Statescitiess;
         const recordInput = {
             fields: fields
         };
 
+        console.log('updateMatchPreferences :: calling isInputValid()');
         if(this.isInputValid()){
-            updateRecord(recordInput).then((record) => {
-                console.log('updateMatchPreferences', record);
-                const toastEvent = new ShowToastEvent({
-                    title:'Updated',
-                    message:'Match Preferences Updated',
-                    variant:'success'
-                });
-                this.dispatchEvent(toastEvent);
+            // updateRecord(recordInput).then((record) => {
+            console.log('updateMatchPreferences :: fields ::', fields);
+            updatePreference({fa:fields}).then((result) => {
+                console.log('updateMatchPreferences', result);
+                if (result == '') {
+                    this.showToast(this.saveSuccessTitle, 'success', this.saveSuccessMessage);
 
-                this.getMatchPref();
-                //this.setDefaultValues();
-                this.saveNext();
+                    this.getMatchPref();
+                    //this.setDefaultValues();
+                    this.saveNext();
+                }
+                else {
+                    console.log('INSIDE SAVE ERROR ::', result);
+                    this.showStickyToast('Match Preferences', 'error', result);
+                }
             }).error(error => {
 
                 console.log('Match Preferences Updated:Error:', error);
             });
         }
-
     }
 
     saveNext() {
@@ -440,7 +637,7 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
         });
     }
     handleFieldsValidity(){
-        if(this.fellowshipApplyingFor == 'U.S. Fellowship' ){
+        /* if(this.fellowshipApplyingFor == 'U.S. Fellowship' ){
             this.isUsRelocation = true;
             this.isFirstChoice = true;
             this.isSecondChoice = true;
@@ -451,13 +648,15 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
         }
         if(this.fellowshipApplyingFor == 'India Fellowship'){
             this.isIndiaRelocation = true;
-        }
+        } */
     }
 
     isInputValid() {
         let isValid = true;
         let inputFields = this.template.querySelectorAll('lightning-combobox');
+        console.log('inputFields :: ' + JSON.stringify(inputFields));
         let multiSelect = this.template.querySelectorAll('lightning-dual-listbox');
+        console.log('multiSelect :: ' + JSON.stringify(multiSelect));
         inputFields.forEach(inputField => {
             if (!inputField.checkValidity()) {
                 inputField.reportValidity();
@@ -509,5 +708,29 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
 
     getCustomLabel(labelText) {
         return (labelText == '___HIDE___') ? null : labelText;
+    }
+
+
+    showToast(titleTxt, variantType, msgTxt, mode) {
+        this.dispatchEvent(
+            new ShowToastEvent({
+                title: titleTxt,
+                message: msgTxt,
+                variant: variantType,
+                mode: mode == null ? 'dismissible' : mode
+            })
+        );
+    }
+
+    showDismissibleToast(titleTxt, variantType, msgTxt) {
+        this.showToast(titleTxt, variantType, msgTxt, 'dismissible');
+    }
+
+    showStickyToast(titleTxt, variantType, msgTxt) {
+        this.showToast(titleTxt, variantType, msgTxt, 'sticky');
+    }
+
+    onHeadingClick() {
+        this.expCollSign = onHeadingClick(this.isChild, this.template);
     }
 }

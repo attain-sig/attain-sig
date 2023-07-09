@@ -4,8 +4,25 @@
     <isExposed>true</isExposed>
     <targets>
         <target>lightningCommunity__Page</target>
-        <target>lightning__AppPage</target>
-        <target>lightning__HomePage</target>
-        <target>lightning__RecordPage</target>
+        <target>lightningCommunity__Default</target>
     </targets>
+	<targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="graduateuniversity" label="Label - Graduate University" type="String" default="Graduate University"></property>
+            <property name="schoolwithinuniversity" label="Label - School within University" type="String" default="School within University"></property>
+            <property name="schooluniversitynotlisted" label="Label - School/Unviversity(not listed)" type="String" default="School / University, if not listed above"></property>
+            <property name="graduatedegreenotlisted" label="Label - Graduate Degree(not listed above)" type="String" default="Graduate Degree(s), if not listed above"></property>
+            <property name="graduatedegreeconcentration" label="Label - Graduate Degree Concentration" type="String" default="Graduate Degree Concentration(s)"></property>
+            <property name="graduatedegreestartdate" label="Label - Graduate Degree Start Date" type="String" default="Graduate Degree Start Date"></property>
+            <property name="expectedgraduationdate" label="Label - Expected Graduation Date" type="String" default="Expected Graduation Date"></property>
+            <property name="undergraduniversity" label="Label - Undergraduate University" type="String" default="Undergraduate University"></property>
+            <property name="undergraduateuniversity" label="Label - Undergraduate University(not listed)" type="String" default="Undergraduate University, if not listed above"></property>
+            <property name="Undergraduatedegreeearned" label="Label - Undergraduate Degree earned" type="String" default="Undergraduate Degree(s) earned, if not listed above"></property>
+            <property name="underGraduateMajor" label="Label - UnderGraduate Major" type="String" default="UnderGraduate Major(s)"></property>
+            <property name="courseWorkLabel" label="Label - Course Work" type="String" default="Please list any relevant coursework, training, or certifications that you will have completed by the start of the fellowship."></property>
+			<property name="saveSuccessTitle" label="Save Success Title" type="String" default="Education Information"></property>
+			<property name="saveSuccessMessage" label="Save Success Message" type="String" default="Education Information Updated"></property>
+            <property name="isChild" label="For Review Page?" type="Boolean" default="false"></property>
+        </targetConfig>
+    </targetConfigs>
 </LightningComponentBundle>

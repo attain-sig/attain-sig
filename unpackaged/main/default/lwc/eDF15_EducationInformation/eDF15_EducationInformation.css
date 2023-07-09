@@ -4,3 +4,10 @@
 .THIS .slds-dueling-list__column_responsive .slds-dueling-list__options {
     min-width: 100%;
 } */
+.content {
+    padding: 0 18px;
+    overflow: hidden;
+    max-height: 0;
+    display: none;
+    transition: max-height 0.7s ease-out;
+}

@@ -1,0 +1,73 @@
+{
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "0c700432-9e50-4343-abb6-2bf695102c3f",
+  "label" : "PreferencesV2",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "labelThankYou" : "Thank you for your interest in applying to Climate Corps. Please fill out the information below.",
+        "pillNames" : "Dashboard | Contact | Education | Background | Preferences | Cover Letter",
+        "pillURLs" : "home | contactinfo | educationinformation | backgroundinformation | preferences | coverletter"
+      },
+      "componentName" : "c:eDF53_DashboardMenuGeneric",
+      "id" : "520ef142-92bd-404c-8b3c-9e424d0b1877",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "891db2e9-6a22-4284-aa7b-825eb5d9e0d8",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "isChild" : false,
+        "lblInterestForIndiaChina" : "I'm interested in also applying for",
+        "lblUSRegionPref" : "Please choose the regions you would be willing to relocate to for the fellowship",
+        "lblUSRegionPrefHelpText" : "Please note, fellows are expected to pay for and organize any relocation associated with the fellowship. Fellows are also expected to pay for housing and living expenses during the fellowship.",
+        "saveSuccessMessage" : "Match Preferences Updated",
+        "saveSuccessTitle" : "Updated",
+        "showAreasOfInterest" : true,
+        "showAreasOfInterestIndia" : true,
+        "showAvailability" : true,
+        "showInterestForIndiaChina" : false,
+        "showProjectTypePreference" : true,
+        "showRegionsChina" : true,
+        "showRegionsIndia" : true,
+        "showUSDriverLicense" : false
+      },
+      "componentName" : "c:eDF17_MatchPreferences",
+      "id" : "972da8b2-31b5-4150-bf75-e6bb1af4cb70",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0545a8fe-0d17-496f-aeaa-42823f93d774",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "2b8c0433-0f70-4682-827e-ca49608a938e",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Preferences"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e04fe67a-2f30-4a79-b450-4e87abf2891a",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c0d00e18-bfad-4e4c-bbb9-037cc935eba0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
+  "type" : "view",
+  "viewType" : "custom-preferences"
+}

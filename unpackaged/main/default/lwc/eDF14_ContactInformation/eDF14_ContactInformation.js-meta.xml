@@ -4,8 +4,20 @@
     <isExposed>true</isExposed>
     <targets>
         <target>lightningCommunity__Page</target>
-        <target>lightning__AppPage</target>
-        <target>lightning__HomePage</target>
-        <target>lightning__RecordPage</target>
+        <target>lightningCommunity__Default</target>
     </targets>
+	<targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+
+			<property name="showGenderIdentity" label="Show Gender Identity" type="Boolean" default="true"></property>
+            <property name="showRaceEthnicity" label="Show Race Ethnicity" type="Boolean" default="true"></property>
+            <property name="showLatinxHispanic" label="Show Latinx or Hispanic" type="Boolean" default="true"></property>
+            <property name="showVeteranStatus" label="Show Veteran Status" type="Boolean" default="true"></property>
+            <property name="saveSuccessTitle" label="Save Success Title" type="String" default="Contact Information Saved"></property>
+			<property name="saveSuccessMessage" label="Save Success Message" type="String" default="Contact Information saved successfully!"></property>
+            <property name="isChild" label="For Review Page?" type="Boolean" default="false"></property>
+
+
+        </targetConfig>
+    </targetConfigs>
 </LightningComponentBundle>

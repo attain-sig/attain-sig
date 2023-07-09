@@ -26,9 +26,28 @@
       "id" : "da3f80e9-d8a7-4e3f-854c-4bdfba4735bf",
       "regions" : [ {
         "components" : [ {
-          "componentAttributes" : { },
+          "componentAttributes" : {
+            "labelThankYou" : "Thank you for your interest in applying to Climate Corps. Please fill out the information below.",
+            "pillNames" : "Dashboard | Contact | Education | Background | Preferences | Cover Letter",
+            "pillURLs" : "home | contactinfo | educationinformation | backgroundinformation | preferences | coverletter"
+          },
+          "componentName" : "c:eDF53_DashboardMenuGeneric",
+          "id" : "3ec6097b-fb9b-4de7-8fee-04b35c90a2d6",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "showDataAnalysis" : true,
+            "showEnergyEfficiencyRenewables" : true,
+            "showExperienceInfoHeading" : true,
+            "showFinancialAnalysis" : true,
+            "showGreenhouseGasAccounting" : true,
+            "showSupplyChain" : true,
+            "showYearsOfExperience" : true
+          },
           "componentName" : "c:eDF16_BackgroundInformation",
-          "id" : "aa3b236a-686b-4f08-acc5-03eafb19e019",
+          "id" : "5d18da92-328b-4065-bd4c-f911cf702eda",
           "renderPriority" : "NEUTRAL",
           "renditionMap" : { },
           "type" : "component"
@@ -62,7 +81,7 @@
     "regionName" : "sfdcHiddenRegion",
     "type" : "region"
   } ],
-  "themeLayoutType" : "Inner",
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
   "type" : "view",
   "viewType" : "custom-backgroundinformation"
 }

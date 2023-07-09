@@ -41,6 +41,7 @@
         <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
     </networkPageOverrides>
     <picassoSite>EDFCCFellowPortal1</picassoSite>
+    <selfRegProfile>Fellow Portal Community User</selfRegProfile>
     <selfRegistration>true</selfRegistration>
     <sendWelcomeEmail>false</sendWelcomeEmail>
     <site>EDFCCFellowPortal</site>

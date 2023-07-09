@@ -1,4 +1,4 @@
-import { LightningElement, wire } from 'lwc';
+import { LightningElement, wire, api } from 'lwc';
 import { loadStyle, loadScript } from 'lightning/platformResourceLoader';
 import { NavigationMixin } from 'lightning/navigation';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
@@ -13,8 +13,47 @@ import registrationTempPwd  from '@salesforce/label/c.EDF_RegistrationTemporaryP
 
 export default class EDF28_RegisterForm extends NavigationMixin(LightningElement) {
 
+    @api titleUserAlreadyExists;
+    @api msgUserAlreadyExists;
+    @api btnUserAlreadyExists;
+    @api titleNewUserCreatedOrActivated;
+    @api msgNewUserCreatedOrActivated;
+    @api btnNewUserCreatedOrActivated;
+    @api titleUserAlreadyActive;
+    @api msgUserAlreadyActive;
+    @api btnUserAlreadyActive;
+    @api titleReadyToRegister;
+    @api msgReadyToRegister;
+    @api btnReadyToRegister;
+
+    @api placeholderRegEmail;
+    @api titleEnterValidEmail;
+    @api msgEnterValidEmail;
+
+    @api msgThankForRegistering;
+    @api linkHomeThankForRegistering;
+
+    @api lblEmail;
+    @api lblFirstName;
+    @api lblLastName;
+    @api lblPhone;
+    @api lblIncCountryCode;
+    @api lblCountry;
+    @api lblPostalCode;
+    @api lblState;
+    @api lblCity;
+    @api lblAddress1;
+    @api lblAddress2;
+    @api btnRegister;
+    @api headingRegisterPage;
+
+    @api fellowships;
+    fellowshipArr;
+    selectedFellowship;
+
     emailAddressValue;
     emailExists=false;
+    emailExistsUserCreated = false;
     emailDoesNotExists=false;
     openRegistrationForm = false;
     fNameVal='';
@@ -32,33 +71,33 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
     greenTicker = '';
 	isDropDownField = false;
     blockRegister = false;
-    
+
     label = {
         registrationTempPwd
     };
 
     @wire(getCountries)
     myCountries({data, error}){
-       
+
         if (data) {
              // set the default value
             this.selectedCountry = '--Select--';
             this.countryOptions = []; //Clear list
             for(const list of data){
-                console.log(list)
+                // console.log(list)
                 const option = {
                     label: list,
                     value: list
                 };
                 this.countryOptions = [ ...this.countryOptions, option ];
-            
+
             }
         }
         else if (error) {
             console.error("wiredRecordTypeInfo Error Occured => " + JSON.stringify(error));
         }
     }
-   
+
 
     renderedCallback() {
         Promise.all([
@@ -67,7 +106,7 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
             loadStyle(this, registratioResource + '/assets/css/header.css'),
             loadStyle(this, registratioResource + '/assets/css/registration.css'),
             loadScript(this, registratioResource + '/assets/js/jquery-3.2.1.slim.min.js')
-            
+
         ]).then(() => {
                 console.log("All scripts and CSS are loaded.");
                 this.greenTicker = registratioResource+'/assets/img/circle-check-full.svg';
@@ -76,8 +115,9 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
                 console.log("Error page")
             });
     }
-    closeModalAction() {    
+    closeModalAction() {
         this.emailExists = false;
+        this.emailExistsUserCreated = false;
         this.emailDoesNotExists = false;
     }
     handleChange(event) {
@@ -118,37 +158,50 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
     handleClick(event) {
         console.log('Button Label'+event.target.label);
         this.emailAddressValue = this.template.querySelector("[data-name='registrationemail']").value;
+        this.selectedFellowship = this.template.querySelector("[data-name='registrationfellowship']").value;
         this.emailExists = false;
+        this.emailExistsUserCreated = false;
         this.emailDoesNotExists = false;
+        this.showSpinner(true);
         if (this.emailAddressValue != undefined && this.emailAddressValue != '' && this.validateEmail(this.emailAddressValue)) {
-            emailExistenceCheck({ email: this.emailAddressValue })
+            emailExistenceCheck({ email: this.emailAddressValue, fellowship: this.selectedFellowship })
                 .then(result => {
                     console.log('inside success'+JSON.stringify(result));
-                    if(result){
+                    if (result === 1) {
                         this.emailExists = true;
-                        this.sendEmailWithTempPswd();
+                        // this.sendEmailWithTempPswd(); // May be sending duplicate email, one from emailExistenceCheck and other from this.
                     }
-                    else if(result==null){
+                    else if(result === 2) {
+                        this.emailExistsUserCreated = true;
+                        // this.sendEmailWithTempPswd(); // May be sending duplicate email, one from emailExistenceCheck and other from this.
+                    }
+                    else if(result === 3) {
+                        this.emailExistsUserActive = true;
+                        // this.sendEmailWithTempPswd(); // May be sending duplicate email, one from emailExistenceCheck and other from this.
+                    }
+                    else {
                         this.emailDoesNotExists = true;
                     }
+                    this.showSpinner(false);
 
                 })
                 .catch(error => {
                     console.log('error==>'+JSON.stringify(result))
+                    this.showSpinner(false);
                 });
-            
+
         } else {
+            this.showSpinner(false);
             const event = new ShowToastEvent({
                 mode: 'sticky',
                 variant: 'error',
-                title: 'Enter Valid Email Address',
-                message:
-                    'Please Enter an Valid Email Address to move further',
+                title: this.titleEnterValidEmail,
+                message: this.msgEnterValidEmail,
             });
             this.dispatchEvent(event);
         }
     }
-    
+
     validateEmail(str) {
         var lastAtPos = str.lastIndexOf('@');
         var lastDotPos = str.lastIndexOf('.');
@@ -198,31 +251,31 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
 						getStatesByCountry({ countrySelected: this.selectedCountry })
             .then((result) => {
                 console.log('result==>'+ JSON.stringify(result))
-								this.stateOptions = []; //Empty list 
+								this.stateOptions = []; //Empty list
                  // set the default value
             this.selectedState = '--Select--';
             for(const list of result){
-                console.log(list)
+                // console.log(list)
                 const option = {
                     label: list,
                     value: list
                 };
                 // this.selectOptions.push(option);
                 this.stateOptions = [ ...this.stateOptions, option ];
-            
+
             }
-                
+
                 this.error = undefined;
             })
             .catch((error) => {
                 this.error = error;
-               
+
             });
 				} else{
                     this.isDropDownField = false;
                     this.selectedState = '';
                 }
-        
+
     }
 
     sendEmailWithTempPswd(){
@@ -248,10 +301,18 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
             return false;
         }
 
-        emailExistenceCheck({ email: this.emailAddressValue })
+        emailExistenceCheck({ email: this.emailAddressValue, fellowship:this.selectedFellowship })
                 .then(result => {
                     console.log('inside success'+JSON.stringify(result));
-                    if(result){
+                    if (result === 1) {
+                        this.showToast(this.titleUserAlreadyExists, 'error', this.msgUserAlreadyExists);
+                        this.navigateToHome();
+                    }
+                    else if(result === 2) {
+                        this.showToast(this.titleNewUserCreatedOrActivated, 'error', this.msgNewUserCreatedOrActivated);
+                        this.navigateToHome();
+                    }
+                    /* if (result) {
                         this.dispatchEvent(
                             new ShowToastEvent({
                                 title : 'Error',
@@ -260,7 +321,7 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
                             })
                         );
                         this.navigateToHome();
-                    }
+                    } */
                     else {
                         const payloadData = {
                             firstName : this.fNameVal,
@@ -272,47 +333,71 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
                             postalCode : this.postalCodeVal,
                             city : this.cityVal,
                             address1 : this.addressLine1Val,
-                            address2 : this.addressLine2Val
+                            address2 : this.addressLine2Val,
+                            fellowship : this.selectedFellowship
                         }
                         registerFellow({payload : payloadData})
                         .then(result=>{
                             this.isSaving = false;
-                            this.dispatchEvent(
+                            this.showToast('Success', 'success', 'Registration Successful, please check your email for login details');
+
+                            /* this.dispatchEvent(
                                 new ShowToastEvent({
                                     title : 'Success',
                                     message : 'Registration Successful, please check your email for login details',
                                     variant : 'success'
                                 })
-                            );
+                            ); */
                             this.blockRegister = true;
                         })
                         .catch(error=>{
                             this.isSaving= false;
-                            this.dispatchEvent(
+                            this.showToast('Error', 'error', 'Error in Registration');
+                            /* this.dispatchEvent(
                                 new ShowToastEvent({
                                     title : 'error',
                                     message : 'Error in Registration',
                                     variant : 'error'
                                 })
-                            );
-                        }); 
-                       
-                    } 
+                            ); */
+                        });
+
+                    }
 
                 })
                 .catch(error => {
                     console.log('error==>'+JSON.stringify(result))
                 });
     }
-		handlePhoneValidation() {
-		 let phoneCheck = this.template.querySelector('.phone');
-     let phoneCheckVal = phoneCheck.value;
-		 var numbers =/^\d{10}$/;
-		  if(!phoneCheckVal.match(numbers)){
+
+    handlePhoneValidation() {
+		let phoneCheck = this.template.querySelector('.phone');
+        let phoneCheckVal = phoneCheck.value;
+		var numbers =/^\d{10}$/;
+		if(!phoneCheckVal.match(numbers)){
             phoneCheck.setCustomValidity('Please Enter Phone');
         }else{
             phoneCheck.setCustomValidity('');
         }
         phoneCheck.reportValidity();
-		}
+	}
+
+    showSpinner(isShow) {
+        if (isShow) this.isSaving = true;
+        else this.isSaving = false;
+    }
+
+    connectedCallback() {
+        this.fellowshipArr = this.fellowships.split('|');
+    }
+
+    showToast(titleTxt, variantType, msgTxt) {
+        this.dispatchEvent(
+            new ShowToastEvent({
+                title: titleTxt,
+                message: msgTxt,
+                variant: variantType
+            })
+        );
+    }
 }

@@ -1,0 +1,80 @@
+{
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "a8a471cf-22f8-4cb7-adc3-5542d34686ec",
+  "label" : "PreferencesV2_India",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "labelThankYou" : "Thank you for your interest in applying to Climate Corps. Please fill out the information below.",
+        "pillNames" : "Dashboard | Contact | Education | Background | Preferences | Cover Letter",
+        "pillURLs" : "home | contactinfo | educationinformation | backgroundinformation | preferences | coverletter"
+      },
+      "componentName" : "c:eDF53_DashboardMenuGeneric",
+      "id" : "6d4326fe-374e-4f60-b807-a3da95caffa7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "244ceae2-595c-45b5-9f65-336402a15098",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "charsAreasOfInterestOther" : "255",
+        "charsAvailabilityAdditional" : "1800",
+        "isChild" : false,
+        "lblAreasOfInterestIndia" : "Areas of Interest",
+        "lblAreasOfInterestOther" : "Other Area of Interest",
+        "lblAvailabilityAdditionalDetails" : "List any additional detail about your availability during the fellowship period",
+        "lblAvailabilityEndDate" : "Latest Available Date to End",
+        "lblAvailabilityHeader" : "Availability",
+        "lblAvailabilityNote" : "Climate Corps Program requires your full-time commitment for the 8-12 weeks long fellowship project. Please indicate your availability between April-September for a full-time commitment to a Climate Corps fellowship project.",
+        "lblAvailabilityStartDate" : "Earliest Available Date to Start",
+        "lblProjectTypePreference" : "Project Type Preference",
+        "lblProjectTypePreferenceHeader" : "Project Type Preferences",
+        "lblRegionalPreferenceIndia" : "Regional Preferences",
+        "saveSuccessMessage" : "Match Preferences Updated",
+        "saveSuccessTitle" : "Updated",
+        "showAreasOfInterest" : true,
+        "showAreasOfInterestIndia" : true,
+        "showAvailability" : true,
+        "showProjectTypePreference" : true,
+        "showRegionsChina" : false,
+        "showRegionsIndia" : true
+      },
+      "componentName" : "c:eDF17_MatchPreferences",
+      "id" : "e945a8f8-b5cb-454f-bc67-39a45caa52c8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "84ba01d3-4ca6-47e9-9773-66f59c473862",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "7e786196-7953-4b54-9f29-500476c55513",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Preferences"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5c600760-b9ed-4094-9bfa-b3e610706840",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b955f810-56a5-4fd5-a5be-412192add146",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
+  "type" : "view",
+  "viewType" : "custom-preferences"
+}

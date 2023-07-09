@@ -4,8 +4,47 @@
     <isExposed>true</isExposed>
     <targets>
         <target>lightningCommunity__Page</target>
-        <target>lightning__AppPage</target>
-        <target>lightning__HomePage</target>
-        <target>lightning__RecordPage</target>
+        <target>lightningCommunity__Default</target>
     </targets>
+	<targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="showAuthWorkUS" label="Show Authorized to Work in U.S.?" type="Boolean" default="true"></property>
+            <property name="labelAuthWorkUS" label="Label - Authorized to Work in U.S." type="String" default="Are you legally authorized to work in the U.S.?"></property>
+            <property name="labelRequireWorkAuth" label="Label - Require Work Authoriation" type="String" default="Will you now or in the future require work authorization"></property>
+
+            <property name="showUploadedIdentification" label="Show Uploaded Identification?" type="Boolean" default="false"></property>
+            <property name="labelUploadedIdentification" label="Label - Uploaded Identification" type="String" default="Uploaded Identification"></property>
+            <property name="labelUploadedIdentificationNote" label="Label - Uploaded Identification Note" type="String" default="Please upload a copy of your Chinese Identification Card or India ID"></property>
+            <property name="helpTextUploadedIdentification" label="HelpText - Uploaded Identification" type="String" default="The following set of documents can be uploaded - (1) Voter Id (2) Aadhaar (3) Passport (4) Driver's License (5) Attested/Official College Id (with the dates of joining and ending mentioned)"></property>
+            <property name="showNativeEnglishSpeaker" label="Show Native English Speaker?" type="Boolean" default="false"></property>
+            <property name="labelNativeEnglishSpeaker" label="Label - Native English Speaker" type="String" default="English proficiency is required for this position. Are you fluent or proficient in English?"></property>
+
+            <property name="showChinaResidency" label="Show China Residency?" type="Boolean" default="false"></property>
+            <property name="labelChinaResidency" label="Label - China Residency" type="String" default="Please select your residency in China."></property>
+            <property name="showPassport" label="Show Passport?" type="Boolean" default="false"></property>
+            <property name="labelPassport" label="Label - Passport" type="String" default="Please check the box if you have a passport"></property>
+            <property name="showChinaTestAndScore" label="Show China Test and Score?" type="Boolean" default="false"></property>
+            <property name="labelChinaTestAndScore" label="Label - China Test And Score" type="String" default="Please choose one of the following tests and input your score in the text box below."></property>
+
+            <property name="showYearsOfExperience" label="Show Years of Professional Experience?" type="Boolean" default="true"></property>
+            <property name="labelYearsOfExperience" label="Label - Years of Professional Experience" type="String" default="How many years of professional work experience do you have?"></property>
+
+			<property name="showExperienceInfoHeading" label="Show Level of Experience heading including info icon?" type="Boolean" default="true"></property>
+            <property name="headingExperienceInfo" label="Heading - Level of Experience" type="String" default="Please indicate your level of experience (None, Basic, Moderate, and Advanced) with the following project types."></property>
+			<property name="showFinancialAnalysis" label="Show Financial Analysis?" type="Boolean" default="true"></property>
+			<property name="labelFinancialAnalysis" label="Label - FinancialAnalysis" type="String" default="Financial Analysis"></property>
+			<property name="showGreenhouseGasAccounting" label="Show Greenhouse Gas Accounting?" type="Boolean" default="true"></property>
+			<property name="labelGreenhouseGasAccounting" label="Label - Greenhouse Gas Accounting" type="String" default="Greenhouse Gas Accounting"></property>
+			<property name="showDataAnalysis" label="Show Data Analysis?" type="Boolean" default="true"></property>
+			<property name="labelDataAnalysis" label="Label - Data Analysis" type="String" default="Data Analysis"></property>
+			<property name="showSupplyChain" label="Show Supply Chain?" type="Boolean" default="true"></property>
+			<property name="labelSupplyChain" label="Label - Supply Chain" type="String" default="Supply Chain"></property>
+			<property name="showEnergyEfficiencyRenewables" label="Show Energy Efficiency Renewables?" type="Boolean" default="true"></property>
+			<property name="labelEnergyEfficiencyRenewables" label="Label - Energy Efficiency Renewables" type="String" default="Energy Efficiency and/or Renewables"></property>
+
+			<property name="saveSuccessTitle" label="Save Success Title" type="String" default="Background Information Updated"></property>
+			<property name="saveSuccessMessage" label="Save Success Message" type="String" default="Background Information Updated"></property>
+            <property name="isChild" label="For Review Page?" type="Boolean" default="false"></property>
+        </targetConfig>
+    </targetConfigs>
 </LightningComponentBundle>

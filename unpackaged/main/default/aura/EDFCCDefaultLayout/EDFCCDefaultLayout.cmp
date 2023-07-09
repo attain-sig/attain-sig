@@ -1,0 +1,17 @@
+<aura:component implements="forceCommunity:themeLayout">
+    <aura:attribute name="subHeader" type="Aura.Component[]"/>
+    <div class="slds-grid slds-grid--align-center slds-grid--vertical">
+        <div class="slds-col">
+            <c:eDF13_Header isShowUserDetails="true"></c:eDF13_Header>
+        </div>
+        <div class="slds-col">
+            {!v.subHeader}
+        </div>
+        <div class="slds-col content">
+            {!v.body}
+        </div>
+        <div class="slds-col">
+            <c:eDF22_footer></c:eDF22_footer>
+        </div>
+    </div>
+</aura:component>

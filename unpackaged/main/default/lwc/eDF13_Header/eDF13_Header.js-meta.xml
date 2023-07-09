@@ -4,8 +4,11 @@
     <isExposed>true</isExposed>
     <targets>
         <target>lightningCommunity__Page</target>
-        <target>lightning__AppPage</target>
-        <target>lightning__HomePage</target>
-        <target>lightning__RecordPage</target>
+        <target>lightningCommunity__Default</target>
     </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="isShowUserDetails" label="Show User Details" type="Boolean" default="true"></property>
+        </targetConfig>
+    </targetConfigs>
 </LightningComponentBundle>

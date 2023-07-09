@@ -26,9 +26,11 @@
       "id" : "f09fb4f6-1087-450d-8d79-df8f9525b0da",
       "regions" : [ {
         "components" : [ {
-          "componentAttributes" : { },
+          "componentAttributes" : {
+            "courseWorkLabel" : "Please list any relevant course work, training, or certifications that you will have completed by the start of the fellowship."
+          },
           "componentName" : "c:eDF15_EducationInformation",
-          "id" : "ee517718-becd-46ae-99a7-9a5c6df6f887",
+          "id" : "8314219e-8b63-481c-9061-f24650bc9b3f",
           "renderPriority" : "NEUTRAL",
           "renditionMap" : { },
           "type" : "component"
@@ -62,7 +64,7 @@
     "regionName" : "sfdcHiddenRegion",
     "type" : "region"
   } ],
-  "themeLayoutType" : "Inner",
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
   "type" : "view",
   "viewType" : "custom-educationinformation"
 }

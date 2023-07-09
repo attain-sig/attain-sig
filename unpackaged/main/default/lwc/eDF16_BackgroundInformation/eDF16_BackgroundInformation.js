@@ -3,6 +3,12 @@ import { NavigationMixin } from 'lightning/navigation';
 import getBackgroundInformation from '@salesforce/apex/FellowAppController.getBackgroundInformation';
 import { getPicklistValues, getObjectInfo } from 'lightning/uiObjectInfoApi';
 import { getRecord, getFieldValue, updateRecord } from "lightning/uiRecordApi";
+import { onHeadingClick } from 'c/edfCommonUtils';
+import updateBackgroundInfo from '@salesforce/apex/FellowAppController.updateBackgroundInfo';
+
+// Import message service features required for subscribing and the message channel
+import { subscribe, MessageContext } from 'lightning/messageService';
+import FAPP_SUBMITTED_CHANNEL from '@salesforce/messageChannel/Application_Submitted__c';
 
 // Import reference to the object and the fields
 import FELLOW_APPLICATION_OBJECT from '@salesforce/schema/Fellow_Application__c';
@@ -65,15 +71,77 @@ export default class EDF16_BackgroundInformation extends NavigationMixin(Lightni
     showUploaded = false;
     @api backgroundImageClass = 'body-bg-image-application';
 
-    @api isChild = false;
+    @api saveSuccessTitle;
+    @api saveSuccessMessage;
+    @api isChild;
     @api readOnly = false;
+    @api showYearsOfExperience;
+    @api labelYearsOfExperience;
+	@api showExperienceInfoHeading;
+	@api headingExperienceInfo;
+	@api showFinancialAnalysis;
+	@api labelFinancialAnalysis;
+	@api showGreenhouseGasAccounting;
+	@api labelGreenhouseGasAccounting;
+    @api showDataAnalysis;
+    @api labelDataAnalysis;
+	@api showSupplyChain;
+	@api labelSupplyChain;
+	@api showEnergyEfficiencyRenewables;
+	@api labelEnergyEfficiencyRenewables;
+
+    @api showUploadedIdentification;
+    @api labelUploadedIdentification;
+    @api labelUploadedIdentificationNote;
+    @api helpTextUploadedIdentification;
+    @api showNativeEnglishSpeaker;
+    @api labelNativeEnglishSpeaker;
+    @api showAuthWorkUS;
+    @api labelAuthWorkUS;
+    @api labelRequireWorkAuth;
+
+    @api showChinaResidency;
+    @api labelChinaResidency;
+    @api showPassport;
+    @api labelPassport;
+    @api showChinaTestAndScore;
+    @api labelChinaTestAndScore;
+
+    // Following custom variables are used for Review Fellow App Page
+    contentCSS = '';
+    expCollSign;
+    cssSection = 'registration-application-section';
+    cssSectionSub = 'registration-application-section-sub';
 
     _isDeadlinePassed = null; // FB-2039
+
+    // Encapsulate logic for LMS subscribe.
+    subscribeToMessageChannel() {
+        this.subscription = subscribe(
+            this.messageContext,
+            FAPP_SUBMITTED_CHANNEL,
+            (message) => this.handleFAppSubmission(message)
+        );
+    }
+
+    // Handler for message received by component
+    handleFAppSubmission(message) {
+        // let fAppId = message.fAppId; // Ignore fAppId for now.
+        this.readOnly = true;
+    }
 
     connectedCallback() {
         this.getBackgroundInfo();
         //this.handleFieldsValidity();
         this.checkDeadline(); // FB-2039
+        if (this.isChild) {
+            this.contentCSS = 'content';
+            this.expCollSign = '+';
+            this.cssSection += ' no-padding-top no-padding-bottom';
+            this.cssSectionSub += ' no-padding-top no-padding-bottom';
+
+            this.subscribeToMessageChannel();
+        }
     }
 
     getBackgroundInfo() {
@@ -142,8 +210,15 @@ export default class EDF16_BackgroundInformation extends NavigationMixin(Lightni
 
          //this.setDefaultValues();
 
-
     }
+
+
+    // By using the MessageContext @wire adapter, unsubscribe will be called
+    // implicitly during the component descruction lifecycle.
+    @wire(MessageContext)
+    messageContext;
+
+    subscription = null;
 
     // Get Object Info.
     @wire (getObjectInfo, {objectApiName: FELLOW_APPLICATION_OBJECT})
@@ -294,18 +369,20 @@ export default class EDF16_BackgroundInformation extends NavigationMixin(Lightni
         };
 
         if (this.isInputValid()) {
-        updateRecord(recordInput).then((record) => {
-            console.log('updateBackgroundInformation', record);
-            const toastEvent = new ShowToastEvent({
-                title:'Background Information Updated',
-                message:'Background Information Updated',
-                variant:'success'
-            });
-            this.dispatchEvent(toastEvent);
+        // updateRecord(recordInput).then((record) => {
+        updateBackgroundInfo({fa:fields}).then((result) => {
+            console.log('updateBackgroundInformation', result);
+            if (result == '') {
+                this.showToast(this.saveSuccessTitle, 'success', this.saveSuccessMessage);
 
-            this.getBackgroundInfo();
-            //this.setDefaultValues();
-            this.saveNext();
+                this.getBackgroundInfo();
+                //this.setDefaultValues();
+                this.saveNext();
+            }
+            else {
+                console.log('INSIDE SAVE ERROR ::', result);
+                this.showStickyToast('Background Information', 'error', result);
+            }
         }).error(error => {
 
             console.log('Background Information Updated:Error:', error);
@@ -411,5 +488,29 @@ export default class EDF16_BackgroundInformation extends NavigationMixin(Lightni
                 pageName: 'home'
             }
         });
+    }
+
+
+    showToast(titleTxt, variantType, msgTxt, mode) {
+        this.dispatchEvent(
+            new ShowToastEvent({
+                title: titleTxt,
+                message: msgTxt,
+                variant: variantType,
+                mode: mode == null ? 'dismissible' : mode
+            })
+        );
+    }
+
+    showDismissibleToast(titleTxt, variantType, msgTxt) {
+        this.showToast(titleTxt, variantType, msgTxt, 'dismissible');
+    }
+
+    showStickyToast(titleTxt, variantType, msgTxt) {
+        this.showToast(titleTxt, variantType, msgTxt, 'sticky');
+    }
+
+    onHeadingClick() {
+        this.expCollSign = onHeadingClick(this.isChild, this.template);
     }
 }

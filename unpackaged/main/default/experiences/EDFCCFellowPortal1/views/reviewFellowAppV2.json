@@ -1,0 +1,67 @@
+{
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "c2dba76e-5916-49a1-97a8-7311bc921b92",
+  "label" : "ReviewFellowAppV2",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "currentPageLabel" : "Application"
+      },
+      "componentName" : "c:eDF30_Breadcrumb",
+      "id" : "30222ab3-c2bb-4777-949e-ed06796fd45a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c6738d29-35d6-405a-b70a-a3ab05e2843b",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "labelBackgroundInformationSection" : "Background Information",
+        "labelContactInformationSection" : "Contact Information",
+        "labelCoverLetterResumeSection" : "Cover Letter & Resume",
+        "labelEducationInformationSection" : "Education Information",
+        "labelMatchPreferenceSection" : "Match Preferences",
+        "labelSubmitAppBtn" : "Submit Application",
+        "textGetYourAppPDFLine1" : "Get your application",
+        "textGetYourAppPDFLine2" : "in PDF format",
+        "textPageHeading" : "Application",
+        "textThankYouForSubmitting" : "Thank you for submitting your Climate Corps fellow application."
+      },
+      "componentName" : "c:eDF06_FellowApplication",
+      "id" : "b14a743c-e60f-4ce4-ad50-c8a2f7ba8056",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "5b37554e-f06d-45ff-91ce-00424e75b032",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "6dbaba2e-df09-4581-81cc-4fe3807baac3",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "ReviewFellowApplication"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8b7aba74-41d5-4eea-9375-5df5659c8aee",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a646b5b5-d7df-440b-9510-76ce918dbfc4",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
+  "type" : "view",
+  "viewType" : "custom-reviewfellowapplication"
+}

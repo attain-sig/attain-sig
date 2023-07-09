@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="labelSubmitAppBtn" type="String" default="Submit Application" label="Label - Submit Application button" />
+            <property name="msgFAppSubmitted" type="String" default="Your Application Submitted successfully!" label="Message - Application Submitted" />
+            <property name="titleFAppSubmitted" type="String" default="Application Submitted" label="Title - Application Submitted" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

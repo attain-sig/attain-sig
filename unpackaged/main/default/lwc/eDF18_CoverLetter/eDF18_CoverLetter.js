@@ -4,6 +4,11 @@ import getCoverLetter from '@salesforce/apex/FellowAppController.getCoverLetter'
 import validateReviewSubmit from '@salesforce/apex/FellowAppController.validateReviewSubmit';
 import { getPicklistValues, getObjectInfo } from 'lightning/uiObjectInfoApi';
 import { getRecord, getFieldValue, updateRecord } from "lightning/uiRecordApi";
+import { onHeadingClick } from 'c/edfCommonUtils';
+
+// Import message service features required for subscribing and the message channel
+import { subscribe, MessageContext } from 'lightning/messageService';
+import FAPP_SUBMITTED_CHANNEL from '@salesforce/messageChannel/Application_Submitted__c';
 
 import FELLOW_APPLICATION_ID_FIELD from '@salesforce/schema/Fellow_Application__c.Id';
 import COVER_LETTER from '@salesforce/schema/Fellow_Application__c.Cover_Letter__c';
@@ -63,7 +68,24 @@ export default class EDF18_CoverLetter extends NavigationMixin(LightningElement)
     isSaveSuccess = false;
 
     @api backgroundImageClass = 'body-bg-image-registration';
-
+    @api levelOfExperienceCoverLetter;
+	@api uploadResumePdf;
+    @api additionalInformationIcon;
+    @api contactInformationIcon;
+    @api anyAdditionalInformation;
+    @api coverLetterClimateCorps;
+    @api uploadResume;
+    @api addReference1;
+    @api addReference2;
+    @api addReference3;
+    @api showReference1Phone;
+    @api showReference2Phone;
+    @api showReference3Phone;
+    @api titleReference1;
+    @api titleReference2;
+    @api titleReference3;
+    @api saveSuccessTitle;
+    @api saveSuccessMessage;
     @api isChild = false;
     @api readOnly = false;
 
@@ -74,7 +96,35 @@ export default class EDF18_CoverLetter extends NavigationMixin(LightningElement)
     @track activeReferenceSections = ['AddReference1', 'AddReference2', 'AddReference3'];
     @track activeTutorSections = ['AddReference1'];
 
+    // Following custom variables are used for Review Fellow App Page
+    contentCSS = '';
+    expCollSign;
+    cssSection = 'registration-application-section';
+    cssSectionSub = 'registration-application-section-sub';
+
     _isDeadlinePassed = null; // FB-2039
+
+    // By using the MessageContext @wire adapter, unsubscribe will be called
+    // implicitly during the component descruction lifecycle.
+    @wire(MessageContext)
+    messageContext;
+
+    subscription = null;
+
+    // Encapsulate logic for LMS subscribe.
+    subscribeToMessageChannel() {
+        this.subscription = subscribe(
+            this.messageContext,
+            FAPP_SUBMITTED_CHANNEL,
+            (message) => this.handleFAppSubmission(message)
+        );
+    }
+
+    // Handler for message received by component
+    handleFAppSubmission(message) {
+        // let fAppId = message.fAppId; // Ignore fAppId for now.
+        this.readOnly = true;
+    }
 
     connectedCallback() {
         this.getcoverLetterDetails();
@@ -82,6 +132,14 @@ export default class EDF18_CoverLetter extends NavigationMixin(LightningElement)
         this.validateAllTabs();
         this.checkDeadline(); // FB-2039
 
+        if (this.isChild) {
+            this.contentCSS = 'content';
+            this.expCollSign = '+';
+            this.cssSection += ' no-padding-top no-padding-bottom';
+            this.cssSectionSub += ' no-padding-top no-padding-bottom';
+
+            this.subscribeToMessageChannel();
+        }
     }
 
     getcoverLetterDetails() {
@@ -199,9 +257,10 @@ export default class EDF18_CoverLetter extends NavigationMixin(LightningElement)
             if (response) {
                 console.log('response true', response);
                 const toastEvent = new ShowToastEvent({
-                    title:'Mandatory Field data is missing in following tabs',
+                    title: 'Error',
                     message: response,
-                    variant:'error'
+                    variant: 'error',
+                    mode: 'sticky'
                 });
                 this.dispatchEvent(toastEvent);
 
@@ -227,7 +286,7 @@ export default class EDF18_CoverLetter extends NavigationMixin(LightningElement)
                 console.log('Is Page Load:', this.isPageLoad);
                 if(!this.isPageLoad){
                     const toastEvent = new ShowToastEvent({
-                        title:'Mandatory Field data is missing in following tabs, please fill the data before submit',
+                        title:'Error',
                         message: response,
                         variant:'error'
                     });
@@ -241,9 +300,9 @@ export default class EDF18_CoverLetter extends NavigationMixin(LightningElement)
                     console.log('Is Save Success:', this.isSaveSuccess);
                     if(this.isSaveSuccess){
                         const toastEvent = new ShowToastEvent({
-                            title:'Updated',
-                            message:'Cover Letter & Resume Saved. Please proceed for Review & Submit',
-                            variant:'success'
+                            title: this.saveSuccessTitle,
+                            message: this.saveSuccessMessage,
+                            variant: 'success'
                         });
                         this.dispatchEvent(toastEvent);
                     }
@@ -406,5 +465,9 @@ export default class EDF18_CoverLetter extends NavigationMixin(LightningElement)
                 pageName: 'home'
             }
         });
+    }
+
+    onHeadingClick() {
+        this.expCollSign = onHeadingClick(this.isChild, this.template);
     }
 }

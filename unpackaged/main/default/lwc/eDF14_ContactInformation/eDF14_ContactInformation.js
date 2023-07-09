@@ -1,6 +1,11 @@
 import { LightningElement, track, wire, api } from 'lwc';
 import { NavigationMixin } from 'lightning/navigation';
 import { getPicklistValues, getObjectInfo } from 'lightning/uiObjectInfoApi';
+import { onHeadingClick } from 'c/edfCommonUtils';
+
+// Import message service features required for subscribing and the message channel
+import { subscribe, MessageContext } from 'lightning/messageService';
+import FAPP_SUBMITTED_CHANNEL from '@salesforce/messageChannel/Application_Submitted__c';
 
 import CONTACT_OBJECT from "@salesforce/schema/Contact";
 import CONTACT_ID_FIELD from "@salesforce/schema/Contact.Id";
@@ -43,7 +48,7 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     contactId = '';
     // @track fellowApplicationId = 'a141D000001NYhLQAW';
     fellowApplicationId = '';
-    fellowshipApplyingFor = '';
+    fellowshipApplyingFor = ''; // Fellowship region is now set at the time of registration
     firstName = '';
     lastName = '';
     email = '';
@@ -96,19 +101,45 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
 
     @api backgroundImageClass = 'body-bg-image-application';
 
+    @api saveSuccessTitle;
+    @api saveSuccessMessage;
     @api isChild = false;
     @api readOnly = false;
+    @api showVeteranStatus;
+    @api showLatinxHispanic;
+    @api showRaceEthnicity;
+    @api showGenderIdentity;
 
     statePickListValues = [];
     countryPickListValues = [];
-    @track fellowshipApplyingForPickListValues = [];
+    @track fellowshipApplyingForPickListValues = []; // HS - Not sure if this is being used anywhere
     howDidYouFindUsPickListValues = [];
 
     @track lstRaceSelected = [];
     @track lstRaceOptions = [];
 
+    // Following custom variables are used for Review Fellow App Page
+    contentCSS = '';
+    expCollSign;
+    cssSection = 'registration-application-section';
+    cssSectionSub = 'registration-application-section-sub';
+
     _isDeadlinePassed = null; // FB-2039
 
+    // Encapsulate logic for LMS subscribe.
+    subscribeToMessageChannel() {
+        this.subscription = subscribe(
+            this.messageContext,
+            FAPP_SUBMITTED_CHANNEL,
+            (message) => this.handleFAppSubmission(message)
+        );
+    }
+
+    // Handler for message received by component
+    handleFAppSubmission(message) {
+        // let fAppId = message.fAppId; // Ignore fAppId for now.
+        this.readOnly = true;
+    }
 
     // Get Object Info.
     @wire (getObjectInfo, {objectApiName: FELLOW_APPLICATION_OBJECT})
@@ -129,9 +160,11 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
         }
     };
 
-    // Get "Fellowship Applying For" Picklist values.
+    // "Fellowship Applying For" is now shown as part of registration, not available here.
+    /*
     @wire(getPicklistValues, {recordTypeId: '$fellowApplicationObjectInfo.data.defaultRecordTypeId', fieldApiName: FELLOWSHIP_APPLYING_FOR_FIELD })
     fellowshipApplyingForPickList;
+    */
 
     // Get "How Did You Find Us" Picklist values.
     @wire(getPicklistValues, {recordTypeId: '$fellowApplicationObjectInfo.data.defaultRecordTypeId', fieldApiName: HOW_DID_YOU_FIND_US_FIELD })
@@ -157,6 +190,13 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     @wire(getPicklistValues, {recordTypeId: '$fellowApplicationObjectInfo.data.defaultRecordTypeId', fieldApiName: PRONOUNS_FIELD })
     pronounsPickList;
 
+    // By using the MessageContext @wire adapter, unsubscribe will be called
+    // implicitly during the component descruction lifecycle.
+    @wire(MessageContext)
+    messageContext;
+
+    subscription = null;
+
     raceChangeHandler(event) {
         this.lstRaceSelected = event.detail.value;
     }
@@ -164,6 +204,14 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     connectedCallback(){
         this.getContactInformation();
         this.checkDeadline();
+        if (this.isChild) {
+            this.contentCSS = 'content';
+            this.expCollSign = '+';
+            this.cssSection += ' no-padding-top no-padding-bottom';
+            this.cssSectionSub += ' no-padding-top no-padding-bottom';
+
+            this.subscribeToMessageChannel();
+        }
     }
 
     renderedCallback() {
@@ -349,7 +397,9 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
         const fields2 = {};
 
         fields2[FELLOW_APPLICATION_ID_FIELD.fieldApiName] = this.fellowApplicationId;
-        fields2[FELLOWSHIP_APPLYING_FOR_FIELD.fieldApiName] = this.fellowshipApplyingFor;
+
+        // Fellowship region is now set at the time of registration.
+        // fields2[FELLOWSHIP_APPLYING_FOR_FIELD.fieldApiName] = this.fellowshipApplyingFor;
         fields2[PRONOUNS_FIELD.fieldApiName] = this.pronouns;
         fields2[PRONOUNS_SELF_DESCRIBE_FIELD.fieldApiName] = this.pronounsSelfDescribe;
         fields2[SKYPE_FIELD.fieldApiName] = this.skypeID;
@@ -368,8 +418,8 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
         updateRecord(recordInput).then((record) => {
             console.log('updateFellowApp', record);
             const toastEvent = new ShowToastEvent({
-                title:'Contact Information',
-                message:'Contact Information Saved',
+                title: this.saveSuccessTitle,
+                message: this.saveSuccessMessage,
                 variant:'success'
             });
             this.dispatchEvent(toastEvent);
@@ -395,7 +445,9 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
             id: this.fellowApplicationId,
             contactId:this.contactId,
             fellowApplicationId: this.fellowApplicationId,
-            fellowshipApplyingFor: this.fellowshipApplyingFor,
+
+            // Fellowship region is now set at the time of registration.
+            // fellowshipApplyingFor: this.fellowshipApplyingFor,
             firstName: this.firstName,
             lastName: this.lastName,
             email: this.email,
@@ -426,8 +478,8 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
                 console.log('Records updated: ', response);
                 //alert('Records updated: ' + response);
                 const toastEvent = new ShowToastEvent({
-                    title:'Contact Information Saved',
-                    message:'Contact Information saved successfully!',
+                    title: this.saveSuccessTitle,
+                    message: this.saveSuccessMessage,
                     variant:'success'
                 });
                 this.dispatchEvent(toastEvent);
@@ -469,6 +521,8 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
         this.showVeteranStatusDefinitionModel = false;
     }
 
+    // Fellowship region is now set at the time of registration.
+    /*
     fellowshipApplyChangeHandler(event){
         this.fellowshipApplyingFor = event.target.value;
         console.log('this.fellowshipApplyingFor'+this.fellowshipApplyingFor);
@@ -487,6 +541,8 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
         }
         this.handleFieldsValidity();
     }
+    */
+
     firstNameChangeHandler(event){
         this.firstName = event.target.value;
     }
@@ -718,5 +774,9 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
                 pageName: 'home'
             }
         });
+    }
+
+    onHeadingClick() {
+        this.expCollSign = onHeadingClick(this.isChild, this.template);
     }
 }

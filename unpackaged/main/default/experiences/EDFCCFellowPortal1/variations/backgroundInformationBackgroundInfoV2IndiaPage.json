@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "f6e13ec3-4aaa-42ff-8c67-942b2e5e3e97",
+    "propertyOverrides" : {
+      "activeViewId" : "f0754600-2317-457f-85ca-3a429a5c674a"
+    },
+    "targetId" : "0d31acf3-ae44-46e5-a451-804a96946538",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "BackgroundInformation_BackgroundInfoV2_India_Page",
+  "id" : "d0c98a46-f3a7-46d5-b18c-0358df9f6eac",
+  "type" : "experienceVariation"
+}

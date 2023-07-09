@@ -23,9 +23,21 @@
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <serverIsDown>SNA_EDFCCFellowPortal1_sf_default_cdn_ut4mQ</serverIsDown>
+    <serverIsDown>SNA_EDFCCFellowPortal1_sf_default_cdn_mCrOJ</serverIsDown>
     
     
+    <siteRedirectMappings>
+        <action>Permanent</action>
+        <isActive>true</isActive>
+        <source>/login</source>
+        <target>/s/login</target>
+    </siteRedirectMappings>
+    <siteRedirectMappings>
+        <action>Permanent</action>
+        <isActive>true</isActive>
+        <source>/login?ec=302&amp;startURL=%2FEDFCCFellowPortal%2Fs%2F</source>
+        <target>/s/login</target>
+    </siteRedirectMappings>
     <siteType>ChatterNetwork</siteType>
     <subdomain>edfcommunity</subdomain>
     <urlPathPrefix>EDFCCFellowPortal</urlPathPrefix>

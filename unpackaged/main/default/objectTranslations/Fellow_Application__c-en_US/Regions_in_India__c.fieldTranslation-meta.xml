@@ -31,10 +31,6 @@
             <translation><!-- Chhattisgarh --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Coastal Plains</masterLabel>
-            <translation><!-- Coastal Plains --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Dadra and Nagar Haveli</masterLabel>
             <translation><!-- Dadra and Nagar Haveli --></translation>
         </picklistValues>
@@ -45,10 +41,6 @@
         <picklistValues>
             <masterLabel>Delhi</masterLabel>
             <translation><!-- Delhi --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>East</masterLabel>
-            <translation><!-- East --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Goa</masterLabel>
@@ -65,14 +57,6 @@
         <picklistValues>
             <masterLabel>Himachal Pradesh</masterLabel>
             <translation><!-- Himachal Pradesh --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Indian Desert</masterLabel>
-            <translation><!-- Indian Desert --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Islands</masterLabel>
-            <translation><!-- Islands --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Jammu &amp; Kashmir</masterLabel>
@@ -123,24 +107,8 @@
             <translation><!-- Nagaland --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>North</masterLabel>
-            <translation><!-- North --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Northern Plain</masterLabel>
-            <translation><!-- Northern Plain --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Northern and Northeastern Mountain</masterLabel>
-            <translation><!-- Northern and Northeastern Mountain --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Odisha</masterLabel>
             <translation><!-- Odisha --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Peninsular Plateau</masterLabel>
-            <translation><!-- Peninsular Plateau --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Puducherry</masterLabel>
@@ -157,10 +125,6 @@
         <picklistValues>
             <masterLabel>Sikkim</masterLabel>
             <translation><!-- Sikkim --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>South</masterLabel>
-            <translation><!-- South --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Tamil Nadu</masterLabel>
@@ -185,10 +149,6 @@
         <picklistValues>
             <masterLabel>Uttarakhand</masterLabel>
             <translation><!-- Uttarakhand --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>West</masterLabel>
-            <translation><!-- West --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>West Bengal</masterLabel>

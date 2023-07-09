@@ -8,6 +8,7 @@
     <trackTrending>false</trackTrending>
     <type>MultiselectPicklist</type>
     <valueSet>
+        <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
@@ -203,51 +204,61 @@
             <value>
                 <fullName>Coastal Plains</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Coastal Plains</label>
             </value>
             <value>
                 <fullName>East</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>East</label>
             </value>
             <value>
                 <fullName>Indian Desert</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Indian Desert</label>
             </value>
             <value>
                 <fullName>Islands</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Islands</label>
             </value>
             <value>
                 <fullName>North</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>North</label>
             </value>
             <value>
                 <fullName>Northern Plain</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Northern Plain</label>
             </value>
             <value>
                 <fullName>Northern and Northeastern Mountain</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Northern and Northeastern Mountain</label>
             </value>
             <value>
                 <fullName>Peninsular Plateau</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Peninsular Plateau</label>
             </value>
             <value>
                 <fullName>South</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>South</label>
             </value>
             <value>
                 <fullName>West</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>West</label>
             </value>
         </valueSetDefinition>

@@ -1,0 +1,73 @@
+{
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "4278743c-6152-4eae-ab7d-25453b509497",
+  "label" : "EducationInfoV2_India",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "labelThankYou" : "Thank you for your interest in applying to Climate Corps. Please fill out the information below.",
+        "pillNames" : "Dashboard | Contact | Education | Background | Preferences | Cover Letter",
+        "pillURLs" : "home | contactinfo | educationinformation | backgroundinformation | preferences | coverletter"
+      },
+      "componentName" : "c:eDF53_DashboardMenuGeneric",
+      "id" : "d6dabdda-19d3-4cc2-880f-1a97289be983",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "e1c9b5d6-53bb-40b0-a662-9b1e7f152840",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "Undergraduatedegreeearned" : "Undergraduate Degree(s) earned if not listed above",
+        "courseWorkLabel" : "Please list any relevant coursework, training, or certifications that you will have completed by the start of the fellowship.",
+        "expectedgraduationdate" : "Expected Graduation Date",
+        "graduatedegreeconcentration" : "Graduate Degree Concentration(s)",
+        "graduatedegreenotlisted" : "Graduate Degree(s), if not listed above",
+        "graduatedegreestartdate" : "Graduate Degree Start Date",
+        "graduateuniversity" : "Graduate University",
+        "saveSuccessMessage" : "Education Information Updated",
+        "saveSuccessTitle" : "Education Information",
+        "schooluniversitynotlisted" : "School / University, if not listed above",
+        "schoolwithinuniversity" : "School within University",
+        "underGraduateMajor" : "UnderGraduate Major(s)",
+        "undergraduateuniversity" : "Undergraduate University, if not listed above",
+        "undergraduniversity" : "Undergraduate University"
+      },
+      "componentName" : "c:eDF15_EducationInformation",
+      "id" : "e42bc72a-5e23-4d89-819a-34b1737b878d",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f40657a6-386d-4685-8d4b-9eca16333451",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "a4882382-a55f-4c5f-86b5-9da055a49f80",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "EducationInformation"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8a60ae64-bacc-4e0b-ab82-1d3b9da1ad0d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "1f3b40df-1ccd-48ae-bee0-573b2d2ab277",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
+  "type" : "view",
+  "viewType" : "custom-educationinformation"
+}

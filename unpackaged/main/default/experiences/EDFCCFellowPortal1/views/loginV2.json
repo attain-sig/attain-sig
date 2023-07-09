@@ -1,0 +1,128 @@
+{
+  "appPageId" : "43af69ad-c0f1-4ffc-a902-069fdc638659",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "6c20dc40-6c7f-43a8-8263-5bdd893ac3c4",
+  "label" : "LoginV2",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,255,255) url(/sfsites/c/file-asset/v2HAN_4205?v=1) center center /cover",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 65,
+        "sectionConfig" : {
+          "UUID" : "73d6488a-9004-4cec-8529-520d9e69dcd6",
+          "columns" : [ {
+            "UUID" : "56918658-92d3-477c-9a96-6d645c67943f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "29bf8c7a-d37d-4873-ab63-733e85e5621f",
+            "columnKey" : "703fe",
+            "columnName" : "Column 2",
+            "columnWidth" : "5",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "7e805ccb-dbba-4b57-8cfc-28ca60b75f75",
+            "columnKey" : "730c5",
+            "columnName" : "Column 3",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "73d6488a-9004-4cec-8529-520d9e69dcd6",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><br></h1><h1 style=\"text-align: center;\"> </h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a6a6a889-84dd-479c-a696-428234ce28eb",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><br></h1><h1 style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">Welcome to EDF Climate Corps Portal</span></h1><p style=\"text-align: center;\"><br></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "cd25e0c5-d722-41f4-af5a-c565f391f560",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "forgotPasswordLabel" : "",
+            "forgotPasswordUrl" : "/ForgotPassword",
+            "loginButtonLabel" : "Log in",
+            "passwordLabel" : "Password",
+            "selfRegisterLabel" : "",
+            "selfRegisterUrl" : "/SelfRegister",
+            "startUrl" : "",
+            "usernameLabel" : "Username"
+          },
+          "componentName" : "salesforceIdentity:loginForm2",
+          "id" : "06fccf8f-3827-41c4-a716-0dc1890e4596",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"ForgotPassword\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 16px;\">Forgot your password?</a></p><p style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255); font-size: 16px;\">Not yet registered? Click </span><a href=\"SelfRegister\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 16px;\">here</a><span style=\"color: rgb(255, 255, 255); font-size: 16px;\"> to register yourself</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "c2e5fc0c-f12d-49bb-a323-1f59990e223e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "56918658-92d3-477c-9a96-6d645c67943f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "29bf8c7a-d37d-4873-ab63-733e85e5621f",
+        "regionLabel" : "Column 2",
+        "regionName" : "703fe",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "7e805ccb-dbba-4b57-8cfc-28ca60b75f75",
+        "regionLabel" : "Column 3",
+        "regionName" : "730c5",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "39ba821b-6399-48c1-b273-9df5393924eb",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : ""
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "a06e7272-6bd4-4392-abec-0559ab831c27",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c3a0f652-2c91-4889-9589-b1b8edef7df7",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ZsNFQirH7DaZm8PSpA3ZNkGa3LCL5m",
+  "type" : "view",
+  "viewType" : "login-home"
+}
