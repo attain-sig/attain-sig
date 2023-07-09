@@ -18,12 +18,6 @@
     <isDefaultAudience>false</isDefaultAudience>
     <targets>
         <target>
-            <groupName>0d31acf3-ae44-46e5-a451-804a96946538</groupName>
-            <priority>1</priority>
-            <targetType>ExperienceVariation</targetType>
-            <targetValue>BackgroundInformation_BackgroundInfoV2_India_Page</targetValue>
-        </target>
-        <target>
             <groupName>8aaec787-f2a2-486c-930b-09f722047631</groupName>
             <priority>1</priority>
             <targetType>ExperienceVariation</targetType>
@@ -52,6 +46,12 @@
             <priority>1</priority>
             <targetType>ExperienceVariation</targetType>
             <targetValue>ReviewFellowApplication_ReviewFellowAppV3_India_Page</targetValue>
+        </target>
+        <target>
+            <groupName>0d31acf3-ae44-46e5-a451-804a96946538</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>BackgroundInformation_BackgroundInfoV2_India_Page</targetValue>
         </target>
     </targets>
 </Audience>
