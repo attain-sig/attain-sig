@@ -54,11 +54,11 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "btnNewUserCreatedOrActivated" : "Login",
+            "btnNewUserCreatedOrActivated" : "Log in",
             "btnReadyToRegister" : "Register",
             "btnRegister" : "Register",
-            "btnUserAlreadyActive" : "Login",
-            "btnUserAlreadyExists" : "Login",
+            "btnUserAlreadyActive" : "Log in",
+            "btnUserAlreadyExists" : "Log in",
             "fellowships" : "India Fellowship",
             "headingRegisterPage" : "Climate Corps Registration",
             "lblAddress1" : "Permanent Street Address Line 1",
