@@ -24,6 +24,8 @@
     "components" : [ {
       "componentAttributes" : {
         "isChild" : false,
+        "saveSuccessMessage" : "Contact Information saved successfully!",
+        "saveSuccessTitle" : "Contact Information Saved1",
         "showGenderIdentity" : true,
         "showLatinxHispanic" : false,
         "showRaceEthnicity" : false,

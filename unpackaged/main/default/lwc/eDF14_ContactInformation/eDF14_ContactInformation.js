@@ -109,6 +109,7 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     @api showLatinxHispanic;
     @api showRaceEthnicity;
     @api showGenderIdentity;
+    @api identityInfoNote;
 
     statePickListValues = [];
     countryPickListValues = [];
