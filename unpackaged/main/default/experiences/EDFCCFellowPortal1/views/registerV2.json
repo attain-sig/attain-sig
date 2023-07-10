@@ -7,9 +7,9 @@
   "regions" : [ {
     "components" : [ {
       "componentAttributes" : {
-        "background" : "background: rgba(255,255,255,0)",
-        "backgroundOverlay" : "rgba(0,0,0,0.5)",
-        "contentAreaWidth" : 100,
+        "background" : "background: rgb(255,255,255) url(/sfsites/c/file-asset/v2HAN_42052?v=1) center center /cover",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0.58)",
+        "contentAreaWidth" : 90,
         "sectionConfig" : {
           "UUID" : "c88170f3-df24-474d-8b7d-cd30f365d55a",
           "columns" : [ {
@@ -73,17 +73,17 @@
             "lblPostalCode" : "Postal Code",
             "lblState" : "State",
             "linkHomeThankForRegistering" : "You can go back to the login page by clicking here.",
-            "msgEnterValidEmail" : "Please Enter an Valid Email Address to move further",
-            "msgNewUserCreatedOrActivated" : "Your account was activated. Please check your email for details.",
-            "msgReadyToRegister" : "Now you can register with this email ID",
+            "msgEnterValidEmail" : "Please enter a valid email Address to continue. ",
+            "msgNewUserCreatedOrActivated" : "We emailed you a temporary password. Follow the instructions in the email to finish registering.",
+            "msgReadyToRegister" : "Please select Register below to complete your account setup.",
             "msgThankForRegistering" : "Thank you for registering. Please check your email for your login credentials.",
-            "msgUserAlreadyActive" : "Your previous fellowship is in process. Please come back again once your current year fellowship is complete.",
+            "msgUserAlreadyActive" : "Your previous fellowship is in progress. Please come back again once your current year fellowship is complete.",
             "msgUserAlreadyExists" : "It looks like this email is already tied to an active account. If you don't remember the password, please reset your password.",
             "placeholderRegEmail" : "Enter your email address here",
             "titleEnterValidEmail" : "Enter Valid Email Address",
-            "titleNewUserCreatedOrActivated" : "Email already exists",
-            "titleReadyToRegister" : "Email ID verified",
-            "titleUserAlreadyActive" : "User already active for previous fellowship",
+            "titleNewUserCreatedOrActivated" : "Welcome!",
+            "titleReadyToRegister" : "Email Verified",
+            "titleUserAlreadyActive" : "Active Fellowship in Progress",
             "titleUserAlreadyExists" : "Email already exists"
           },
           "componentName" : "c:eDF28_RegisterForm",
@@ -93,7 +93,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"./\" rel=\"noopener noreferrer\" target=\"_self\">Already have an account?</a></p><p>&nbsp;</p>"
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"./\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(255, 255, 255);\">Already have an account?</a></p><p>&nbsp;</p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "b3bfea11-1abd-426d-8cc5-757d1b64ffc7",
