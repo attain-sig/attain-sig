@@ -48,7 +48,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<h1 style=\"text-align: center;\"><br></h1><h1 style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">Welcome to Climate Corps Portal</span></h1><p style=\"text-align: center;\"><br></p>"
+            "richTextValue" : "<h1 style=\"text-align: center;\"><strong style=\"color: rgb(255, 255, 255); font-family: arial;\">Welcome to the </strong></h1><h1 style=\"text-align: center;\"><strong style=\"color: rgb(255, 255, 255); font-family: arial;\">Climate Corps Portal</strong></h1><p style=\"text-align: center;\"><br></p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "cd25e0c5-d722-41f4-af5a-c565f391f560",
@@ -73,7 +73,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"ForgotPassword\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 16px;\">Forgot your password?</a></p><p style=\"text-align: center;\"><span style=\"font-size: 16px; color: rgb(255, 255, 255);\">Don't have an account? Create one </span><a href=\"SelfRegister\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 16px;\">here</a><span style=\"color: rgb(255, 255, 255);\">.</span></p>"
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"ForgotPassword\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 16px; font-family: arial;\">Forgot your password?</a></p><p style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255); font-size: 16px; font-family: arial;\">Don't have an account? Create one </span><a href=\"SelfRegister\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-size: 16px; font-family: arial;\">here</a><span style=\"color: rgb(255, 255, 255); font-family: arial;\">.</span></p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "c2e5fc0c-f12d-49bb-a323-1f59990e223e",

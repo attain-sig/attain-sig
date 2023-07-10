@@ -93,7 +93,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"./\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(255, 255, 255);\">Already have an account?</a></p><p>&nbsp;</p>"
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"./\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(255, 255, 255); font-family: arial;\">Already have an account?</a></p><p>&nbsp;</p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "b3bfea11-1abd-426d-8cc5-757d1b64ffc7",
