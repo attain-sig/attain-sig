@@ -37,9 +37,9 @@
         "showReference1Phone" : false,
         "showReference2Phone" : false,
         "showReference3Phone" : false,
-        "titleReference1" : "Title",
-        "titleReference2" : "Title",
-        "titleReference3" : "Title",
+        "titleReference1" : "Job Title",
+        "titleReference2" : "Job Title",
+        "titleReference3" : "Job Title",
         "uploadResume" : "Upload Resume",
         "uploadResumePdf" : "Upload your resume as a PDF document. To the extent possible, please customize your resume by highlighting relevant experience including professional work experience, internships, academic coursework, volunteer experience or other extracurricular. PDFs should not exceed 1 MB in size."
       },
