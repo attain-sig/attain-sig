@@ -37,6 +37,16 @@
       "componentName" : "forceCommunity:section",
       "id" : "c88170f3-df24-474d-8b7d-cd30f365d55a",
       "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "29853bc4-2e68-4aa4-bbb7-67992ae59fa1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
         "id" : "be749eec-f13f-4612-b35e-4fe466526aec",
         "regionLabel" : "Column 1",
         "regionName" : "1",
@@ -45,7 +55,7 @@
       }, {
         "components" : [ {
           "componentAttributes" : {
-            "richTextValue" : "<p><span style=\"font-family: arial; color: rgb(255, 255, 255);\">If you do not have a current Climate Corps account, please register for one below. If you have applied for Climate Corps in a previous year, you will need to register again.</span></p>"
+            "richTextValue" : "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "a2c72324-3911-4548-b593-a22a44e32a51",
@@ -65,18 +75,18 @@
             "lblAddress2" : "Permanent Street Address Line 2",
             "lblCity" : "City",
             "lblCountry" : "Country",
-            "lblEmail" : "Email address (User ID)",
+            "lblEmail" : "Email Address (Username)",
             "lblFirstName" : "First Name",
             "lblIncCountryCode" : "Include country code if outside U.S",
             "lblLastName" : "Last Name",
             "lblPhone" : "Phone",
             "lblPostalCode" : "Postal Code",
             "lblState" : "State",
-            "linkHomeThankForRegistering" : "You can go back to the login page by clicking here.",
+            "linkHomeThankForRegistering" : " here.",
             "msgEnterValidEmail" : "Please enter a valid email Address to continue. ",
             "msgNewUserCreatedOrActivated" : "We emailed you a temporary password. Follow the instructions in the email to finish registering.",
             "msgReadyToRegister" : "Please select Register below to complete your account setup.",
-            "msgThankForRegistering" : "Thank you for registering. Please check your email for your login credentials.",
+            "msgThankForRegistering" : "Thank you for registering for a Climate Corps account! Please check your email for your login credentials. You can use these credentials to login ",
             "msgUserAlreadyActive" : "Your previous fellowship is in progress. Please come back again once your current year fellowship is complete. If you think you’ve received this message in error, please reach out to edfclimatecorps.apply@edf.org.",
             "msgUserAlreadyExists" : "It looks like this email is already tied to an active account. If you don't remember the password, please reset your password.",
             "placeholderRegEmail" : "Enter your email address here",
@@ -93,7 +103,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"./\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-family: arial; color: rgb(255, 255, 255);\">Already have an account?</a></p><p>&nbsp;</p>"
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"./\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(255, 255, 255); font-family: arial;\">Already have an account?</a></p><p style=\"text-align: center;\"><em style=\"font-family: arial; color: rgb(255, 255, 255);\">The application period for the US and China programs will open in mid-September. Please check back at that time.</em></p><p> </p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "b3bfea11-1abd-426d-8cc5-757d1b64ffc7",

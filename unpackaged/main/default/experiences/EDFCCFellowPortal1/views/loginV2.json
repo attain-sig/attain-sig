@@ -73,7 +73,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"ForgotPassword\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 102, 204); font-family: arial; font-size: 16px;\">Forgot your password?</a></p><p style=\"text-align: center;\"><a href=\"SelfRegister\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-family: arial; color: rgb(0, 102, 204);\">Register</a><a href=\"SelfRegister\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-family: arial; color: rgb(0, 102, 204); font-size: 16px;\"> here</a><a href=\"SelfRegister\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-family: arial; color: rgb(0, 102, 204);\">.</a></p>"
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"ForgotPassword\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 102, 204); font-family: arial; font-size: 16px;\">Forgot your password?</a></p><p style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">Don't have an account? Create one </span><a href=\"SelfRegister\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(0, 102, 204);\">here</a><span style=\"color: rgb(255, 255, 255);\">.</span></p><p style=\"text-align: center;\"><br></p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "c2e5fc0c-f12d-49bb-a323-1f59990e223e",

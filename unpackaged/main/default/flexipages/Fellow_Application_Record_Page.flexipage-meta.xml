@@ -1156,8 +1156,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Project_Type_Preference__c</fieldItem>
-                <identifier>RecordProject_Type_Preference_cField</identifier>
+                <fieldItem>Record.Project_Type_Preference_Sorted__c</fieldItem>
+                <identifier>RecordProject_Type_Preference_Sorted_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1166,8 +1166,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Regions_in_India__c</fieldItem>
-                <identifier>RecordRegions_in_India_cField2</identifier>
+                <fieldItem>Record.Regions_in_India_Sorted__c</fieldItem>
+                <identifier>RecordRegions_in_India_Sorted_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1176,8 +1176,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Areas_of_Interest_India__c</fieldItem>
-                <identifier>RecordAreas_of_Interest_India_cField</identifier>
+                <fieldItem>Record.Areas_of_Interest_India_Sorted__c</fieldItem>
+                <identifier>RecordAreas_of_Interest_India_Sorted_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
