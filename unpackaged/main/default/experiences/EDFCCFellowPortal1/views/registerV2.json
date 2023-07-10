@@ -77,7 +77,7 @@
             "msgNewUserCreatedOrActivated" : "We emailed you a temporary password. Follow the instructions in the email to finish registering.",
             "msgReadyToRegister" : "Please select Register below to complete your account setup.",
             "msgThankForRegistering" : "Thank you for registering. Please check your email for your login credentials.",
-            "msgUserAlreadyActive" : "Your previous fellowship is in progress. Please come back again once your current year fellowship is complete.",
+            "msgUserAlreadyActive" : "Your previous fellowship is in progress. Please come back again once your current year fellowship is complete. If you think you’ve received this message in error, please reach out to edfclimatecorps.apply@edf.org.",
             "msgUserAlreadyExists" : "It looks like this email is already tied to an active account. If you don't remember the password, please reset your password.",
             "placeholderRegEmail" : "Enter your email address here",
             "titleEnterValidEmail" : "Enter Valid Email Address",
