@@ -97,7 +97,7 @@
                 "isChild" : true,
                 "schooluniversitynotlisted" : "School / University, if not listed above",
                 "schoolwithinuniversity" : "School within University",
-                "underGraduateMajor" : "UnderGraduate Major(s)",
+                "underGraduateMajor" : "Undergraduate Major(s)",
                 "undergraduateuniversity" : "Undergraduate University, if not listed above",
                 "undergraduniversity" : "Undergraduate University"
               },
@@ -145,7 +145,7 @@
             }, {
               "componentAttributes" : {
                 "charsAreasOfInterestOther" : "255",
-                "charsAvailabilityAdditional" : "1800",
+                "charsAvailabilityAdditional" : "255",
                 "isChild" : true,
                 "lblAreasOfInterestIndia" : "Areas of Interest",
                 "lblAreasOfInterestOther" : "Other Area of Interest",
