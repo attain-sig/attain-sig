@@ -36,7 +36,7 @@
         "labelPassport" : "Please check the box if you have a passport",
         "labelRequireWorkAuth" : "Will you now or in the future require work authorization",
         "labelSupplyChain" : "Supply Chain",
-        "labelUploadedIdentification" : "Uploaded Identification",
+        "labelUploadedIdentification" : "Upload Identification",
         "labelUploadedIdentificationNote" : "Please upload a copy of your Chinese Identification Card or India ID",
         "labelYearsOfExperience" : "How many years of professional work experience do you have?",
         "showAuthWorkUS" : true,

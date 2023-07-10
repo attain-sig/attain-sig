@@ -28,5 +28,24 @@
     
     
     
+    <layouts>
+        <layout>Fellow App Validation Layout</layout>
+        <sections>
+            <label><!-- Condition 1 --></label>
+            <section>Condition 1</section>
+        </sections>
+        <sections>
+            <label><!-- Condition 2 --></label>
+            <section>Condition 2</section>
+        </sections>
+        <sections>
+            <label><!-- Condition 3 --></label>
+            <section>Condition 3</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -43,6 +43,7 @@
             "showExperienceInfoHeading" : true,
             "showFinancialAnalysis" : true,
             "showGreenhouseGasAccounting" : true,
+            "showPassport" : false,
             "showSupplyChain" : true,
             "showYearsOfExperience" : true
           },

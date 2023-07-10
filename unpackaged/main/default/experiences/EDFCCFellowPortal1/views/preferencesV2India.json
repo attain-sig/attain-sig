@@ -24,11 +24,11 @@
     "components" : [ {
       "componentAttributes" : {
         "charsAreasOfInterestOther" : "255",
-        "charsAvailabilityAdditional" : "1800",
+        "charsAvailabilityAdditional" : "255",
         "isChild" : false,
         "lblAreasOfInterestIndia" : "Areas of Interest",
         "lblAreasOfInterestOther" : "Other Area of Interest",
-        "lblAvailabilityAdditionalDetails" : "List any additional detail about your availability during the fellowship period",
+        "lblAvailabilityAdditionalDetails" : "List any additional details about your availability during the fellowship period",
         "lblAvailabilityEndDate" : "Latest Available Date to End",
         "lblAvailabilityHeader" : "Availability",
         "lblAvailabilityNote" : "Climate Corps Program requires your full-time commitment for the 8-12 weeks long fellowship project. Please indicate your availability between April-September for a full-time commitment to a Climate Corps fellowship project.",
