@@ -45,7 +45,7 @@
       }, {
         "components" : [ {
           "componentAttributes" : {
-            "richTextValue" : "<p> </p>"
+            "richTextValue" : "<p><span style=\"font-family: arial; color: rgb(255, 255, 255);\">If you do not have a current Climate Corps account, please register for one below. If you have applied for Climate Corps in a previous year, you will need to register again.</span></p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "a2c72324-3911-4548-b593-a22a44e32a51",
@@ -82,7 +82,7 @@
             "placeholderRegEmail" : "Enter your email address here",
             "titleEnterValidEmail" : "Enter Valid Email Address",
             "titleNewUserCreatedOrActivated" : "Welcome!",
-            "titleReadyToRegister" : "Email Verified",
+            "titleReadyToRegister" : "Registration Email Verified",
             "titleUserAlreadyActive" : "Active Fellowship in Progress",
             "titleUserAlreadyExists" : "Email already exists"
           },
@@ -93,7 +93,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"./\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(255, 255, 255); font-family: arial;\">Already have an account?</a></p><p>&nbsp;</p>"
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"./\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-family: arial; color: rgb(255, 255, 255);\">Already have an account?</a></p><p>&nbsp;</p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "b3bfea11-1abd-426d-8cc5-757d1b64ffc7",
