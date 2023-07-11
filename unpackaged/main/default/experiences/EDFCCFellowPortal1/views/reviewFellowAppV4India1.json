@@ -73,6 +73,14 @@
           "regions" : [ {
             "components" : [ {
               "componentAttributes" : {
+                "richTextValue" : ""
+              },
+              "componentName" : "forceCommunity:htmlBlock",
+              "id" : "662155e2-d5d9-4157-b953-85ddcd5988f8",
+              "renditionMap" : { },
+              "type" : "component"
+            }, {
+              "componentAttributes" : {
                 "identityInfoNote" : "Climate Corps is committed to creating a diverse environment and is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. Please note that this section of the application is voluntary and your responses will be fully confidential. Providing us information about your identity will allow us to track the effectiveness of our recruiting and DEI efforts and ensure that the needs of all fellows are taken into consideration.",
                 "isChild" : true,
                 "saveSuccessMessage" : "Contact Information saved successfully!",
@@ -238,7 +246,7 @@
       "componentAttributes" : {
         "customHeadTags" : "",
         "description" : "",
-        "title" : "ReviewFellowApplication"
+        "title" : "Review Application"
       },
       "componentName" : "forceCommunity:seoAssistant",
       "id" : "bb03088a-c163-490d-890b-fba568ac4306",
