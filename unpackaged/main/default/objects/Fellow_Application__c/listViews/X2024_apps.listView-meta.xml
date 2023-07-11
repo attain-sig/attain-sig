@@ -5,6 +5,7 @@
     <columns>Applicant__c</columns>
     <columns>Status__c</columns>
     <columns>CC_Year__c</columns>
+    <columns>CREATEDBY_USER</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>CREATED_DATE</field>
