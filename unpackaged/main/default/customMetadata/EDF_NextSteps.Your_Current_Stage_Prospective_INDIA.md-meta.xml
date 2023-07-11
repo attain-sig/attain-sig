@@ -8,7 +8,7 @@
     </values>
     <values>
         <field>Description__c</field>
-        <value xsi:type="xsd:string">Thank you for your interest in Climate Corps. To edit or view your application, click on the &quot;Application&quot; tile above. All applications for the first deadline are due on December 23, 2022 at 11:59 pm IST. The final deadline for the program is February 3, 2023 at 11:59pm IST.</value>
+        <value xsi:type="xsd:string">Thank you for your interest in Climate Corps. To edit or view your application, click on the &quot;Application&quot; tile above. All applications for the first deadline are due on August 20, 2023 at 11:59 pm IST. The application window for the final deadline will open in October.</value>
     </values>
     <values>
         <field>FellowshipApplyingFor__c</field>
