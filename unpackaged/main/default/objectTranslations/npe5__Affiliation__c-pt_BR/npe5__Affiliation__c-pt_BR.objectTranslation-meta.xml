@@ -52,7 +52,41 @@
     </layouts>
     <nameFieldLabel>Nome da afiliação</nameFieldLabel>
     <validationRules>
+        <errorMessage><!-- When the Affiliation Type is set to Funding Vehicle, the Related Opportunity Contact Role must be Funder - Soft Credit. --></errorMessage>
+        <name>Funding_Vehicle_Retains_OCR</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- Either this contact is indicated as the Primary Contact for another Organization or you&apos;re attempting to set a Current Employer to Former. Please navigate to the correct Contact Record and review the Current Affiliations. --></errorMessage>
         <name>Unchecked_the_Current_Employer_field</name>
     </validationRules>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </CustomObjectTranslation>
