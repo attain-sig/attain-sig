@@ -57,5 +57,5 @@ ispickval({!$Record.Status__c}, &quot;Application Submitted&quot;)</filterFormul
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
 </Flow>
