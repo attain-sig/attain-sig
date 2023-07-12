@@ -4,7 +4,7 @@
     <protected>false</protected>
     <values>
         <field>Active__c</field>
-        <value xsi:type="xsd:boolean">false</value>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
         <field>Category__c</field>
@@ -12,11 +12,11 @@
     </values>
     <values>
         <field>Compare1__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">is null</value>
     </values>
     <values>
         <field>Compare2__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">is null</value>
     </values>
     <values>
         <field>Compare3__c</field>
@@ -24,7 +24,7 @@
     </values>
     <values>
         <field>DataType1__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">String</value>
     </values>
     <values>
         <field>DataType2__c</field>
@@ -40,7 +40,7 @@
     </values>
     <values>
         <field>Fellowship_Region__c</field>
-        <value xsi:type="xsd:string">U.S. Fellowship</value>
+        <value xsi:type="xsd:string">India Fellowship</value>
     </values>
     <values>
         <field>Field1__c</field>
