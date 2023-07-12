@@ -62,6 +62,8 @@ public without sharing class LoginController {
 
     @AuraEnabled(cacheable=true)
     public static String getApplicationStatusForLogin(){
+
+        /*
         String applicationStatus = '';
         String currUserId = Userinfo.getUserId();
         User[] users = fetchCommunityUser(currUserId);
@@ -83,13 +85,15 @@ public without sharing class LoginController {
                 applicationStatus = fellowAppList[0].Status__c;
             }
         }
+        */
 
-        return applicationStatus;
+        return Utility.getFellowshipStatus();
 
     }
 
     @AuraEnabled(cacheable=true)
     public static String getApplicationStatus(){
+        /*
         String applicationStatus = '';
         String currUserId = Userinfo.getUserId();
         String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
@@ -110,13 +114,15 @@ public without sharing class LoginController {
                 applicationStatus = 'Application Status: ' + getFellowApplicationStatusValue(fellowAppList[0].Status__c);
             }
         }
+        */
 
-        return applicationStatus;
+        return 'Application Status: ' + getFellowApplicationStatusValue(Utility.getFellowshipStatus());
 
     }
 
     @AuraEnabled(cacheable=true)
     public static String getApplicationStatusValue(){
+        /*
         String applicationStatus = '';
         String currUserId = Userinfo.getUserId();
         User[] users = fetchCommunityUser(currUserId);
@@ -137,8 +143,9 @@ public without sharing class LoginController {
                 applicationStatus = getFellowApplicationStatusValue(fellowAppList[0].Status__c);
             }
         }
+        */
 
-        return applicationStatus;
+        return getFellowApplicationStatusValue(Utility.getFellowshipStatus());
 
     }
 
@@ -224,7 +231,6 @@ public without sharing class LoginController {
      * 2 - Active user present with provided email address with previous year Fellow App record. Performed ForgotPassword.
      * 5 - Active user present with provided email address with NO Fellow App record. Not performed ForgotPassword.
      * 6 - Active user present with provided email address but with NO Contact link. Not performed ForgotPassword.
-     * 3 - No active user present with provided email address. Not performed ForgotPassword.
      * 4 - No user present with provided email address. Not performed ForgotPassword.
      */
     @AuraEnabled
@@ -233,40 +239,35 @@ public without sharing class LoginController {
 
         try {
             System.debug('email:'+email);
-            User[] users = [SELECT Id, Name, FirstName, LastName, Alias, Username, Email, Profile.Name, IsActive, ContactId FROM User WHERE email = :email];
+            User[] users = [SELECT Id, Name, FirstName, LastName, Alias, Username, Email, Profile.Name, IsActive, ContactId FROM User WHERE email = :email AND IsActive = TRUE];
             System.debug('users:'+users);
 
             if(users!= null && users.size()>0) {
                 User user = users[0];
-                if (!user.IsActive) {
-                    response = 3;
-                }
-                else {
-                    if (user.ContactId != null) {
-                        Fellow_Application__c[] fApps = [SELECT Id, Name, CC_Year__c FROM Fellow_Application__c WHERE Applicant__c = :user.ContactId];
-                        if (fApps!= null && fApps.size()>0) {
-                            Fellow_Application__c fApp = fApps[0];
-                            String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
+                if (user.ContactId != null) {
+                    Fellow_Application__c[] fApps = [SELECT Id, Name, CC_Year__c FROM Fellow_Application__c WHERE Applicant__c = :user.ContactId];
+                    if (fApps!= null && fApps.size()>0) {
+                        Fellow_Application__c fApp = fApps[0];
+                        String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
 
-                            System.debug('Username:' + user.Username);
-                            boolean reset = Site.forgotPassword(user.Username);
-                            system.debug('reset:' + reset);
+                        System.debug('Username:' + user.Username);
+                        boolean reset = Site.forgotPassword(user.Username);
+                        system.debug('reset:' + reset);
 
-                            if (reset) {
-                                if (fApp.CC_Year__c == fellowshipYear) response = 1;
-                                else response = 2;
-                            }
-                            else {
-                                response = 0;
-                            }
+                        if (reset) {
+                            if (fApp.CC_Year__c == fellowshipYear) response = 1;
+                            else response = 2;
                         }
                         else {
-                            response = 5;
+                            response = 0;
                         }
                     }
                     else {
-                        response = 6;
+                        response = 5;
                     }
+                }
+                else {
+                    response = 6;
                 }
             }
             else {
@@ -286,7 +287,7 @@ public without sharing class LoginController {
         User[] users = [SELECT  Username, email, Profile.Name, IsActive FROM User WHERE email = :email and Profile.Name = 'Fellow Portal Community User' and IsActive = true];
         System.debug('users:'+users);
 
-        if(users!= null && users.size()>0){
+        if (users!= null && users.size()>0) {
             User user = users[0];
             system.debug('Username:' + user.Username);
             username = user.Username;

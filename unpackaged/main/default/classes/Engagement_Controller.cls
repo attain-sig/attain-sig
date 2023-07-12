@@ -42,7 +42,7 @@ global without sharing class Engagement_Controller {
     @AuraEnabled
     public static Climate_Corps_Engagement__c getFellowEngagement(Id fAppId) {
         fAppId='a141D000001NYhLQAW';//application id
-
+        /*
         System.debug('getFellowEngagement :: UserInfo.getUserId() ::' + UserInfo.getUserId());
         User usrInfo = [SELECT ID,CONTACTID FROM USER WHERE ID=:UserInfo.getUserId()];
         System.debug('getFellowEngagement :: usrInfo ::' + usrInfo);
@@ -55,6 +55,9 @@ global without sharing class Engagement_Controller {
                 fAppId = con.Applications__r[0].Id;
             }
         }
+        */
+        Fellow_Application__c fapp = Utility.getFellowApp(Userinfo.getUserId());
+        fAppId = fapp.Id;
 
         if(fAppId!=null) {
             fellowApp =
@@ -578,8 +581,8 @@ global without sharing class Engagement_Controller {
     public static void renameAttachments(String contVerIds, String fileName, String enggId, String fellowshipRegion) {
 
         List<Id> contentVersionIdSet =  contVerIds.split(',');
-        String fAppYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
-        if(fAppYear == null || fAppYear == ''){
+        String fAppYear = Utility.getFellowshipYear(); // EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
+        if(fAppYear == null || fAppYear == '') {
             fAppYear = '2022';
         }
 

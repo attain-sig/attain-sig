@@ -72,7 +72,7 @@ public class EngagementListController {
     //Pani - added below method to fetch the fellowship applying for from Fellow application
     @AUraEnabled(cacheable=true)
     public static String getFellowshipFor(){
-        String fellowshipFor = '';
+        /* String fellowshipFor = '';
         User usrInfo = [SELECT ID,CONTACTID FROM USER WHERE ID=:UserInfo.getUserId()];
         Contact con = new Contact();
         if(usrInfo!=null && usrInfo.ContactId!=null){
@@ -82,7 +82,8 @@ public class EngagementListController {
                 fellowshipFor = con.Applications__r[0].Fellowship_Applying_for__c;
             }
         }
-        return fellowshipFor;
+        return fellowshipFor; */
+        return Utility.getFellowshipApplyingFor();
     }
 
     /**
@@ -90,7 +91,7 @@ public class EngagementListController {
      */
     @AUraEnabled(cacheable=true)
     public static String getFelloWAppId(){
-        String fAppId = '';
+        /* String fAppId = '';
         User usrInfo = [SELECT ID,CONTACTID FROM USER WHERE ID=:UserInfo.getUserId()];
         Contact con = new Contact();
         if(usrInfo!=null && usrInfo.ContactId!=null){
@@ -100,7 +101,8 @@ public class EngagementListController {
                 fAppId = con.Applications__r[0].Id;
             }
         }
-        return fAppId;
+        return fAppId; */
+        return Utility.getFellowAppId();
     }
 
     /*
@@ -108,8 +110,11 @@ public class EngagementListController {
     */
     public static List<EngagementComparatorWrapper> doGetEngagementList(String whereCondition) {
         System.debug('INSIDE doGetEngagementList');
-        String studentApplicationRecordId = getFelloWAppId();
-        String studentFellowshipFor = getFellowshipFor();
+
+        Fellow_Application__c fApp = Utility.getFellowApp(Userinfo.getUserId());
+        String studentApplicationRecordId = fApp.Id; // getFelloWAppId();
+        String studentFellowshipFor = fApp.Fellowship_Applying_for__c; // getFellowshipFor();
+        String fellowshipYear = fApp.CC_Year__c;
         //if (pageRefreshedFromSorting == null  ||  pageRefreshedFromSorting == false  ||  engagementWList == null  ||  engagementWList.size() >= 1000) {
         String query
             = 'Select Id, '
@@ -169,7 +174,7 @@ public class EngagementListController {
                     // + ' OR Stage__c = \'Complete\' '
                 + ' )  '
                 + ' AND Fellowship_Program__c = \'' + studentFellowshipFor + '\' ' // Pani: added this filter to show the engagements based on the fellowship (India, US, China)
-                + ' AND CC_Year__c = \'' + CustomSettings_Helper.getEDFCCGlobalValue('CurrentFellowshipYear') + '\' ';
+                + ' AND CC_Year__c = \'' + fellowshipYear + '\' ';
         // String queryEnd = ' order by ' + sortBy + ' ' + sortDir + ' limit 1000';
         String queryEnd = ' limit 1000';
         System.debug('QUERY >>>>' + query + whereCondition + queryEnd);
@@ -259,6 +264,7 @@ public class EngagementListController {
         String fullSearchIDsCondition = '';
         Set<String> ccIds = new Set<String>();
         Boolean doFullTextSearch = true;
+        String fellowshipYear = Utility.getFellowshipYear();
 
         //added
         String searchText = null;
@@ -321,7 +327,7 @@ public class EngagementListController {
         if (searchText != null  &&  searchText != ''  &&  doFullTextSearch) {
 
             String searchquery='FIND\'' + searchText + '*\'IN ALL FIELDS RETURNING Climate_Corps_Engagement__c '
-                + '(Id WHERE CC_Year__c = \'' + CustomSettings_Helper.getEDFCCGlobalValue('CurrentFellowshipYear') + '\')'; // Added by HSingh FB-2151
+                + '(Id WHERE CC_Year__c = \'' + fellowshipYear + '\')'; // Added by HSingh FB-2151
             List<List<SObject>>searchList = search.query(searchquery);
 
             if (searchList != null  &&  searchList[0].size() > 0) {
@@ -529,15 +535,16 @@ public class EngagementListController {
      */
     @AuraEnabled(cacheable=true)
     public Static String getFellowshipApplyingFor() {
-        String fellow = getFelloWAppId();
+        /* String fellow = getFelloWAppId();
         if(fellow !=null){
             Fellow_Application__c fapp = [SELECT id,Fellowship_Applying_for__c FROM Fellow_Application__c WHERE id=:fellow LIMIT 1];
             System.debug('fapp:'+fapp);
             return fapp.Fellowship_Applying_for__c;
         }else{
             return 'Error';
-        }
+        } */
 
+        return Utility.getFellowshipApplyingFor();
     }
 
     /**

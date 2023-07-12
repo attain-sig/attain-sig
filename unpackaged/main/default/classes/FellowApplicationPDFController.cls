@@ -28,8 +28,10 @@ public with sharing class FellowApplicationPDFController {
     public static FellowAppWrapper getFellowApplication(){
 
         FellowAppWrapper fw = new FellowAppWrapper();
-        String contactId = FellowAppController.getContactId();
-        String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
+        // String contactId = FellowAppController.getContactId();
+        Fellow_Application__c fapp = Utility.getFellowApp(Userinfo.getUserId());
+        String contactId = fapp.Applicant__c;
+        String fellowshipYear = fapp.CC_Year__c; // EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
 
         Fellow_Application__c[]  fellowApps = [SELECT Id,  Applicant__c,
                                 Applicant__r.Name,

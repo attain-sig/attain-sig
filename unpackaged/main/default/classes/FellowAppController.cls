@@ -18,8 +18,10 @@ public with sharing class FellowAppController {
     public static FellowAppWrapper getEducationInformation(){
 
         FellowAppWrapper fw = new FellowAppWrapper();
-        String contactId = getContactId();
-        String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
+        // String contactId = getContactId();
+        Fellow_Application__c fapp = Utility.getFellowApp(Userinfo.getUserId());
+        String contactId = fapp.Applicant__c;
+        String fellowshipYear = fapp.CC_Year__c; // EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
 
         Fellow_Application__c[]  fellowApps = [SELECT Id,
                                 Applicant__c,
@@ -94,8 +96,10 @@ public with sharing class FellowAppController {
     public static FellowAppWrapper getBackgroundInformation(){
 
         FellowAppWrapper fw = new FellowAppWrapper();
-        String contactId = getContactId();
-        String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
+        // String contactId = getContactId();
+        Fellow_Application__c fapp = Utility.getFellowApp(Userinfo.getUserId());
+        String contactId = fapp.Applicant__c;
+        String fellowshipYear = fapp.CC_Year__c; // EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
 
         Fellow_Application__c[]  fellowApps = [SELECT Id,
                                 Applicant__c,
@@ -150,8 +154,10 @@ public with sharing class FellowAppController {
     public static FellowAppWrapper getMatchPreferences(){
 
         FellowAppWrapper fw = new FellowAppWrapper();
-        String contactId = getContactId();
-        String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
+        // String contactId = getContactId();
+        Fellow_Application__c fapp = Utility.getFellowApp(Userinfo.getUserId());
+        String contactId = fapp.Applicant__c;
+        String fellowshipYear = fapp.CC_Year__c; // EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
 
         Fellow_Application__c[]  fellowApps = [SELECT Id,
                                 Applicant__c,
@@ -222,8 +228,10 @@ public with sharing class FellowAppController {
     public static FellowAppWrapper getCoverLetter(){
 
         FellowAppWrapper fw = new FellowAppWrapper();
-        String contactId = getContactId();
-        String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
+        // String contactId = getContactId();
+        Fellow_Application__c fapp = Utility.getFellowApp(Userinfo.getUserId());
+        String contactId = fapp.Applicant__c;
+        String fellowshipYear = fapp.CC_Year__c; // EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
 
         Fellow_Application__c[]  fellowApps = [SELECT Id,
                                 Applicant__c,
@@ -282,18 +290,19 @@ public with sharing class FellowAppController {
     }
     @AuraEnabled
     public static string  submitApplication() {
-
-        String contactId = getContactId();
         String status;
-        String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
+        // String contactId = getContactId();
+        Fellow_Application__c fapp = Utility.getFellowApp(Userinfo.getUserId());
+        String contactId = fapp.Applicant__c;
+        String fellowshipYear = fapp.CC_Year__c; // EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
 
-        Fellow_Application__c[]  fellowApps = [SELECT Id,
-									   Status__c
-
-                            FROM
-                                Fellow_Application__c
-                            WHERE
-                                Applicant__c  =:contactId AND CC_Year__c=:fellowshipYear];
+        Fellow_Application__c[]  fellowApps
+            = [SELECT Id,
+    			    Status__c
+                FROM
+                    Fellow_Application__c
+                WHERE
+                    Applicant__c  =:contactId AND CC_Year__c=:fellowshipYear];
         Fellow_Application__c fellowApp = fellowApps.get(0);
         if(fellowApp.Status__c == 'Prospective Applicant' && fellowApp.Status__c != 'Application Submitted'){
             fellowApp.Status__c = 'Application Submitted';
@@ -307,18 +316,7 @@ public with sharing class FellowAppController {
 
     @AuraEnabled
     public static string getApplicationStatus(){
-        String contactId = getContactId();
-        string message;
-        String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
-
-        Fellow_Application__c[]  fellowApps = [SELECT Id,
-									   Status__c
-
-                            FROM
-                                Fellow_Application__c
-                            WHERE
-                                Applicant__c  =:contactId AND CC_Year__c=:fellowshipYear];
-        return  fellowApps[0].Status__c;
+        return Utility.getFellowshipStatus();
     }
 
     /**
@@ -396,34 +394,21 @@ public with sharing class FellowAppController {
 
     }
 
-    public static string getFellowshipApplyingFor(){
-        String contactId = getContactId();
-        String fellowshipApplyingFor = '';
-        String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
-
-        Fellow_Application__c[]  fellowApps = [SELECT Id,
-									   Fellowship_Applying_for__c
-
-                            FROM
-                                Fellow_Application__c
-                            WHERE
-                                Applicant__c  =:contactId AND CC_Year__c=:fellowshipYear];
-        if (fellowApps != null  &&  fellowApps.size() > 0){
-            Fellow_Application__c fellowApp = fellowApps.get(0);
-            fellowshipApplyingFor = fellowApp.Fellowship_Applying_for__c;
-        }
-
-        return fellowshipApplyingFor;
+    public static String getFellowshipApplyingFor() {
+        return Utility.getFellowshipApplyingFor();
     }
 
     //@AuraEnabled(cacheable=true)
     @AuraEnabled()
     public static string validateReviewSubmit(){
-        String contactId = getContactId();
+
         String validationMessage = '';
         String fellowshipApplyingFor = '';
         String lineBreak = ', ';
-        String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
+        // String contactId = getContactId();
+        Fellow_Application__c fapp = Utility.getFellowApp(Userinfo.getUserId());
+        String contactId = fapp.Applicant__c;
+        String fellowshipYear = fapp.CC_Year__c; // EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
 
         Fellow_Application__c[]  fellowApps = [SELECT Applicant__r.FirstName,
                                                 Applicant__r.LastName,
@@ -647,10 +632,12 @@ public with sharing class FellowAppController {
     public static Boolean isDeadlinePassed() {
         Boolean retVal = true;
 
-        String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
+        // String contactId = getContactId();
+        Fellow_Application__c fapp = Utility.getFellowApp(Userinfo.getUserId());
+        String contactId = fapp.Applicant__c;
+        String fellowshipYear = fapp.CC_Year__c; // EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
         System.debug('fellowshipYear :: ' + fellowshipYear);
 
-        String contactId = getContactId();
         System.debug('contactId :: ' + contactId);
         Fellow_Application__c[]  fellowApps;
         if (!String.isBlank(contactId)) {

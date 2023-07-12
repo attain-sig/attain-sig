@@ -24,9 +24,15 @@ public class EngagementListControllerTest {
 
     static testMethod void getFellowshipForTest(){
 
-        EngagementListController elc = new EngagementListController();
-        EngagementListController.getFellowshipFor();
+        User u = createTestFellowApplicantData();
+
+        System.runAs(u) {
+            EngagementListController elc = new EngagementListController();
+            EngagementListController.getFellowshipFor();
+        }
     }
+
+
     static testMethod void getFelloWAppIdTest(){
         String currentYear = CustomSettings_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
         Account a = new Account(Name='Test Account', OwnerId=CustomSettings_Helper.getRecordIdsValue('DefaultOwnerId')); insert a;
@@ -67,7 +73,12 @@ public class EngagementListControllerTest {
         System.assertEquals(EngagementListController.sortDir, 'asc');
         EngagementListController.sortBy = 'Date_Engagement_Added_to_Portal__c';
         System.assertEquals(EngagementListController.sortBy, 'Date_Engagement_Added_to_Portal__c');
-        EngagementListController.searchEngagements(sfw);
+
+        User u = createTestFellowApplicantData();
+
+        System.runAs(u) {
+            EngagementListController.searchEngagements(sfw);
+        }
     }
 
     static testMethod void saveConsiderMeTest(){

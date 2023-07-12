@@ -11,7 +11,7 @@
 ############################################################################
 */
 public with sharing class EdfContactController {
-	/**
+    /**
     * Description : This method returns the Contact of the current loggin user associated record.
     **/
     @AuraEnabled (cacheable=true)
@@ -55,7 +55,7 @@ public with sharing class EdfContactController {
         System.debug('EdfContactController getContact() :::' + cw);
         return cw;
     }
-	/**
+    /**
     * Description : This method returns the Contact of the current loggin user associated record.
     **/
     @AuraEnabled
@@ -89,7 +89,7 @@ public with sharing class EdfContactController {
             return e.getMessage();
         }
     }
-	/**
+    /**
     * Description : This method return the Fellow ApplicationId.
     **/
 
@@ -179,7 +179,7 @@ public with sharing class EdfContactController {
 
         return 'fellowAppSave:' + fellowAppSave + '  contactSave: ' + contactSave + '  fellowAppId:' + fellowAppId;
     }
-	/**
+    /**
     * Description : This method returns the Countries in sorted order from 'Countries__c' custom settings.
     **/
     public static List<String> getCountryPickListValues(){
@@ -202,7 +202,7 @@ public with sharing class EdfContactController {
         pickListValues.sort();
         return pickListValues;
     }
-	/**
+    /**
     * Description : This method returns the states based on the country values selected.
     **/
     @AuraEnabled
@@ -232,9 +232,11 @@ public with sharing class EdfContactController {
     public static FellowAppWrapper getContactInfo(){
 
         FellowAppWrapper fw = new FellowAppWrapper();
-        String contactId = getContactId();
-        String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
-		List<string> mailingStreets = new List<string>();
+        // String contactId = getContactId();
+        Fellow_Application__c fapp = Utility.getFellowApp(Userinfo.getUserId());
+        String contactId = fapp.Applicant__c;
+        String fellowshipYear = fapp.CC_Year__c; // EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
+        List<string> mailingStreets = new List<string>();
         Fellow_Application__c[]  fellowApps = [SELECT Id,
                                 Applicant__c,
                                 Applicant__r.Name,
@@ -321,7 +323,7 @@ public with sharing class EdfContactController {
 
         //return fw;
     }
-	/**
+    /**
     * Description : This method returns the fellowship appling for pick list values.
     **/
     public static List<String> getFellowshipApplyingForPickListValues(){
@@ -333,7 +335,7 @@ public with sharing class EdfContactController {
          }
          return pickListValuesList;
      }
-	/**
+    /**
     * Description : This method returns the HowDidYouFindUs pick list values.
     **/
      public static List<String> getHowDidYouFindUsPickListValues(){
@@ -346,7 +348,7 @@ public with sharing class EdfContactController {
          return pickListValuesList;
 
      }
-	/**
+    /**
     * Description : This method returns the ReturnerFellow pick list values.
     **/
      public static List<String> getReturnerFellowPickListValues(){
@@ -359,7 +361,7 @@ public with sharing class EdfContactController {
          return pickListValuesList;
 
      }
-	/**
+    /**
     * Description : This method returns the Gender pick list values.
     **/
      public static List<String> getGenderPickListValues(){
@@ -372,7 +374,7 @@ public with sharing class EdfContactController {
          return pickListValuesList;
 
      }
-	/**
+    /**
     * Description : This method returns the DoYouIdentifyAsLatinxOrHispanic pick list values.
     **/
      public static List<String> getDoYouIdentifyAsLatinxOrHispanicPickListValues(){
@@ -385,7 +387,7 @@ public with sharing class EdfContactController {
          return pickListValuesList;
 
      }
-	/**
+    /**
     * Description : This method returns the VeteranStatus pick list values.
     **/
      public static List<String> getVeteranStatusPickListValues(){
@@ -398,7 +400,7 @@ public with sharing class EdfContactController {
          return pickListValuesList;
 
      }
-	/**
+    /**
     * Description : This method returns the current logged in User Associated Contact ID.
     **/
     public static String getContactId() {
@@ -414,11 +416,11 @@ public with sharing class EdfContactController {
         return contactId;
 
     }
-	/**
+    /**
     * Description : This method returns the Associated fellowApplication ID with respect to contactId.
     **/
     public static String getfellowApplicationId(String contactId) {
-        String fellowApplicationId = '';
+        /* String fellowApplicationId = '';
         String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
         List<Fellow_Application__c> fellowAppList = [SELECT Id,
                                 Applicant__c,
@@ -431,15 +433,17 @@ public with sharing class EdfContactController {
             fellowApplicationId = fellowAppList[0].Id;
         }
 
-        return fellowApplicationId;
+        return fellowApplicationId; */
+
+        return Utility.getFellowAppId();
 
     }
-	/**
+    /**
     * Description : This method returns the current logged in User Associated fellowApplication ID.
     **/
     @AuraEnabled(cacheable=true)
     public static String getfellowAppId() {
-        String fellowApplicationId = '';
+        /* String fellowApplicationId = '';
         String contactId = getContactId();
         String fellowshipYear = EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
         List<Fellow_Application__c> fellowAppList = [SELECT Id,
@@ -453,7 +457,9 @@ public with sharing class EdfContactController {
             fellowApplicationId = fellowAppList[0].Id;
         }
 
-        return fellowApplicationId;
+        return fellowApplicationId; */
+
+        return Utility.getFellowAppId();
 
     }
 
