@@ -103,7 +103,7 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"./\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(255, 255, 255); font-family: arial;\">Already have an account?</a></p><p style=\"text-align: center;\"><em style=\"font-family: arial; color: rgb(255, 255, 255);\">The application period for the US and China programs will open in mid-September. Please check back at that time.</em></p><p> </p>"
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"./\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-family: arial; color: rgb(255, 255, 255);\">Already have an account?</a></p><p style=\"text-align: center;\"><em style=\"font-family: arial; color: rgb(255, 255, 255);\">The application period for the US and China programs will open in mid-September and October, respectively. Please check back at that time.</em></p><p>&nbsp;</p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "b3bfea11-1abd-426d-8cc5-757d1b64ffc7",
