@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <customButtons>npsp__Recalculate_Rollups</customButtons>
-    <excludeButtons>DataDotComClean</excludeButtons>
     <excludeButtons>DisableCustomerPortal</excludeButtons>
     <excludeButtons>DisablePartnerPortal</excludeButtons>
     <excludeButtons>DisablePrmSuperUser</excludeButtons>
@@ -9,6 +8,7 @@
     <excludeButtons>EnablePrmSuperUser</excludeButtons>
     <excludeButtons>EnableSelfService</excludeButtons>
     <excludeButtons>RequestUpdate</excludeButtons>
+    <excludeButtons>RequestUseSfdc</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <excludeButtons>ViewPartnerPortalUser</excludeButtons>
     <excludeButtons>ViewSelfService</excludeButtons>
@@ -1437,6 +1437,14 @@
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>
+        <fields>Applicant_Full_Name__c</fields>
+        <fields>Status__c</fields>
+        <fields>CC_Year__c</fields>
+        <fields>Fellowship_Applying_for__c</fields>
+        <relatedList>Fellow_Application__c.Applicant__c</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>NAME</fields>
         <fields>Email__c</fields>
         <fields>Type__c</fields>
         <fields>Status__c</fields>
@@ -1576,13 +1584,6 @@
         <fields>Program_Qualification_Status__c</fields>
         <fields>Qualified_By__c</fields>
         <relatedList>Program_Prospecting__c.Contact__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <fields>Applicant_Full_Name__c</fields>
-        <fields>Status__c</fields>
-        <fields>CC_Year__c</fields>
-        <relatedList>Fellow_Application__c.Applicant__c</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>NAME</fields>

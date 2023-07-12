@@ -1603,6 +1603,7 @@
         <fields>Applicant_Full_Name__c</fields>
         <fields>Status__c</fields>
         <fields>CC_Year__c</fields>
+        <fields>Fellowship_Applying_for__c</fields>
         <relatedList>Fellow_Application__c.Applicant__c</relatedList>
     </relatedLists>
     <relatedLists>
