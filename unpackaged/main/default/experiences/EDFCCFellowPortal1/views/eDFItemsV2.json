@@ -5,28 +5,11 @@
   "id" : "7159ad2c-5bd8-4b5b-8f98-2b1b31ad238f",
   "label" : "EDF Items V2",
   "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : { },
-      "componentName" : "c:eDF13_Header",
-      "id" : "c31de26e-6cc7-4d78-a0ac-3f7573b07c5f",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "8896f18b-a7df-44ba-9beb-ec121bb0bb35",
     "regionName" : "header",
     "type" : "region"
   }, {
     "components" : [ {
-      "componentAttributes" : {
-        "currentPageLabel" : "Deliverables Tracker"
-      },
-      "componentName" : "c:eDF30_Breadcrumb",
-      "id" : "fb9c190f-4661-40bb-a7d3-78071007b610",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    }, {
       "componentAttributes" : { },
       "componentName" : "c:eDF25_ItemsforEDF",
       "id" : "16d79959-b7e5-48ab-8db5-2f6fb1b5a861",
@@ -38,14 +21,6 @@
     "regionName" : "content",
     "type" : "region"
   }, {
-    "components" : [ {
-      "componentAttributes" : { },
-      "componentName" : "c:eDF22_footer",
-      "id" : "d8e93f13-38de-4de1-a069-1979838a2a49",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "f98c3787-62fb-4202-82c4-24b9cb9714da",
     "regionName" : "footer",
     "type" : "region"
@@ -65,7 +40,7 @@
     "regionName" : "sfdcHiddenRegion",
     "type" : "region"
   } ],
-  "themeLayoutType" : "Inner",
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
   "type" : "view",
   "viewType" : "custom-edfitems"
 }

@@ -5,14 +5,6 @@
   "id" : "1d64898c-a06a-4261-822d-2d95ae4d171f",
   "label" : "Portal Deliverables V2",
   "regions" : [ {
-    "components" : [ {
-      "componentAttributes" : { },
-      "componentName" : "c:eDF13_Header",
-      "id" : "b6df3210-4913-49e1-bf14-ba86dbe6607f",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "a61a8e1d-8376-448a-9f9f-9d662448b0e4",
     "regionName" : "header",
     "type" : "region"
@@ -34,14 +26,6 @@
     "regionName" : "content",
     "type" : "region"
   }, {
-    "components" : [ {
-      "componentAttributes" : { },
-      "componentName" : "c:eDF22_footer",
-      "id" : "a00559d6-9dd8-492e-98e6-c9a5ffc7f55a",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "f8360fa6-d701-4f6f-8cf7-7f15b0bb22a2",
     "regionName" : "footer",
     "type" : "region"
@@ -61,7 +45,7 @@
     "regionName" : "sfdcHiddenRegion",
     "type" : "region"
   } ],
-  "themeLayoutType" : "Inner",
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
   "type" : "view",
   "viewType" : "custom-portaldeliverables"
 }
