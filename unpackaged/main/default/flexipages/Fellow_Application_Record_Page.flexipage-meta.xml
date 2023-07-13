@@ -2523,6 +2523,9 @@
                         <valueListItems>
                             <value>Rank__c</value>
                         </valueListItems>
+                        <valueListItems>
+                            <value>Status__c</value>
+                        </valueListItems>
                     </valueList>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
