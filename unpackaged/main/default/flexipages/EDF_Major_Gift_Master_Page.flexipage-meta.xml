@@ -1751,6 +1751,26 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.NetSuite_Projection_ID__c</fieldItem>
+                <identifier>RecordNetSuite_Projection_ID_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.NS_Projection_Integration_Status_Msg__c</fieldItem>
+                <identifier>RecordNS_Projection_Integration_Status_Msg_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.NetSuite_Grant__c</fieldItem>
                 <identifier>RecordNetSuite_Grant_cField</identifier>
             </fieldInstance>
@@ -1775,6 +1795,30 @@
                 <identifier>RecordNS_Grant_Integration_DateTime_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.NetSuite_Grant_ID__c</fieldItem>
+                <identifier>RecordNetSuite_Grant_ID_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.NS_Grant_Integration_Status_Msg__c</fieldItem>
+                <identifier>RecordNS_Grant_Integration_Status_Msg_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <name>Facet-d14a35d7-8f11-4b22-8347-6283ac19ecf2</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
         <itemInstances>
             <fieldInstance>
                 <fieldInstanceProperties>
@@ -1811,6 +1855,26 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.NetSuite_Invoice_ID__c</fieldItem>
+                <identifier>RecordNetSuite_Invoice_ID_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.NS_Invoice_Integration_Status_Msg__c</fieldItem>
+                <identifier>RecordNS_Invoice_Integration_Status_Msg_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.NetSuite_Pledge_Order__c</fieldItem>
                 <identifier>RecordNetSuite_Pledge_Order_cField</identifier>
             </fieldInstance>
@@ -1833,70 +1897,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.NS_Pledge_Order_Integration_DateTime__c</fieldItem>
                 <identifier>RecordNS_Pledge_Order_Integration_DateTime_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <name>Facet-d14a35d7-8f11-4b22-8347-6283ac19ecf2</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.NetSuite_Projection_ID__c</fieldItem>
-                <identifier>RecordNetSuite_Projection_ID_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.NS_Projection_Integration_Status_Msg__c</fieldItem>
-                <identifier>RecordNS_Projection_Integration_Status_Msg_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.NetSuite_Grant_ID__c</fieldItem>
-                <identifier>RecordNetSuite_Grant_ID_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.NS_Grant_Integration_Status_Msg__c</fieldItem>
-                <identifier>RecordNS_Grant_Integration_Status_Msg_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.NetSuite_Invoice_ID__c</fieldItem>
-                <identifier>RecordNetSuite_Invoice_ID_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.NS_Invoice_Integration_Status_Msg__c</fieldItem>
-                <identifier>RecordNS_Invoice_Integration_Status_Msg_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
