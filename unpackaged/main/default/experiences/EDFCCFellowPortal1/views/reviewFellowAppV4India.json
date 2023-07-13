@@ -3,7 +3,7 @@
   "componentName" : "siteforce:dynamicLayout",
   "dataProviders" : [ ],
   "id" : "35a5c30e-34ca-4147-a0e2-f0cd17b770db",
-  "label" : "ReviewFellowAppV4_India (1)",
+  "label" : "ReviewFellowAppV4_India",
   "regions" : [ {
     "components" : [ {
       "componentAttributes" : {
