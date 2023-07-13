@@ -1701,6 +1701,26 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.NetSuite_Cash_Sale_ID__c</fieldItem>
+                <identifier>RecordNetSuite_Cash_Sale_ID_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.NS_Cash_Sale_Integration_Status_Msg__c</fieldItem>
+                <identifier>RecordNS_Cash_Sale_Integration_Status_Msg_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.NetSuite_Projection__c</fieldItem>
                 <identifier>RecordNetSuite_Projection_cField</identifier>
             </fieldInstance>
@@ -1819,26 +1839,6 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.NetSuite_Cash_Sale_ID__c</fieldItem>
-                <identifier>RecordNetSuite_Cash_Sale_ID_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.NS_Cash_Sale_Integration_Status_Msg__c</fieldItem>
-                <identifier>RecordNS_Cash_Sale_Integration_Status_Msg_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
         <itemInstances>
             <fieldInstance>
                 <fieldInstanceProperties>
