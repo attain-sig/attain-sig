@@ -27,15 +27,6 @@
       "regions" : [ {
         "components" : [ {
           "componentAttributes" : {
-            "richTextValue" : "Replace this text with content of your own."
-          },
-          "componentName" : "forceCommunity:richTextInline",
-          "id" : "e06dd16b-638f-47a4-ba42-f0fc08eb4177",
-          "renderPriority" : "NEUTRAL",
-          "renditionMap" : { },
-          "type" : "component"
-        }, {
-          "componentAttributes" : {
             "tabsetConfig" : {
               "UUID" : "b3664d09-4704-4e47-97c5-e5fdbc788a7b",
               "activeTab" : "",
