@@ -10,7 +10,7 @@
     <valueSet>
         <restricted>true</restricted>
         <valueSetDefinition>
-            <sorted>false</sorted>
+            <sorted>true</sorted>
             <value>
                 <fullName>Andaman and Nicobar Islands</fullName>
                 <default>false</default>
@@ -47,6 +47,12 @@
                 <label>Chhattisgarh</label>
             </value>
             <value>
+                <fullName>Coastal Plains</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Coastal Plains</label>
+            </value>
+            <value>
                 <fullName>Dadra and Nagar Haveli</fullName>
                 <default>false</default>
                 <label>Dadra and Nagar Haveli</label>
@@ -59,7 +65,19 @@
             <value>
                 <fullName>Delhi</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Delhi</label>
+            </value>
+            <value>
+                <fullName>Delhi NCR</fullName>
+                <default>false</default>
+                <label>Delhi NCR</label>
+            </value>
+            <value>
+                <fullName>East</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>East</label>
             </value>
             <value>
                 <fullName>Goa</fullName>
@@ -80,6 +98,18 @@
                 <fullName>Himachal Pradesh</fullName>
                 <default>false</default>
                 <label>Himachal Pradesh</label>
+            </value>
+            <value>
+                <fullName>Indian Desert</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Indian Desert</label>
+            </value>
+            <value>
+                <fullName>Islands</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Islands</label>
             </value>
             <value>
                 <fullName>Jammu &amp; Kashmir</fullName>
@@ -142,9 +172,33 @@
                 <label>Nagaland</label>
             </value>
             <value>
+                <fullName>North</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>North</label>
+            </value>
+            <value>
+                <fullName>Northern and Northeastern Mountain</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Northern and Northeastern Mountain</label>
+            </value>
+            <value>
+                <fullName>Northern Plain</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Northern Plain</label>
+            </value>
+            <value>
                 <fullName>Odisha</fullName>
                 <default>false</default>
                 <label>Odisha</label>
+            </value>
+            <value>
+                <fullName>Peninsular Plateau</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Peninsular Plateau</label>
             </value>
             <value>
                 <fullName>Puducherry</fullName>
@@ -167,6 +221,12 @@
                 <label>Sikkim</label>
             </value>
             <value>
+                <fullName>South</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>South</label>
+            </value>
+            <value>
                 <fullName>Tamil Nadu</fullName>
                 <default>false</default>
                 <label>Tamil Nadu</label>
@@ -187,79 +247,25 @@
                 <label>Tripura</label>
             </value>
             <value>
-                <fullName>Uttar Pradesh</fullName>
-                <default>false</default>
-                <label>Uttar Pradesh</label>
-            </value>
-            <value>
                 <fullName>Uttarakhand</fullName>
                 <default>false</default>
                 <label>Uttarakhand</label>
             </value>
             <value>
-                <fullName>West Bengal</fullName>
+                <fullName>Uttar Pradesh</fullName>
                 <default>false</default>
-                <label>West Bengal</label>
-            </value>
-            <value>
-                <fullName>Coastal Plains</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Coastal Plains</label>
-            </value>
-            <value>
-                <fullName>East</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>East</label>
-            </value>
-            <value>
-                <fullName>Indian Desert</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Indian Desert</label>
-            </value>
-            <value>
-                <fullName>Islands</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Islands</label>
-            </value>
-            <value>
-                <fullName>North</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>North</label>
-            </value>
-            <value>
-                <fullName>Northern Plain</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Northern Plain</label>
-            </value>
-            <value>
-                <fullName>Northern and Northeastern Mountain</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Northern and Northeastern Mountain</label>
-            </value>
-            <value>
-                <fullName>Peninsular Plateau</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Peninsular Plateau</label>
-            </value>
-            <value>
-                <fullName>South</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>South</label>
+                <label>Uttar Pradesh</label>
             </value>
             <value>
                 <fullName>West</fullName>
                 <default>false</default>
                 <isActive>false</isActive>
                 <label>West</label>
+            </value>
+            <value>
+                <fullName>West Bengal</fullName>
+                <default>false</default>
+                <label>West Bengal</label>
             </value>
         </valueSetDefinition>
     </valueSet>
