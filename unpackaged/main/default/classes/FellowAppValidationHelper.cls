@@ -126,8 +126,8 @@ public with sharing class FellowAppValidationHelper {
                 else meetsCondition = ((Integer)fldVal1 >= (Integer)fldVal2);
             }
             when '<' {
-                Utility.logDebugMessage('fldVal1 ::' + (Date)fldVal1);
-                Utility.logDebugMessage('fldVal2 ::' + (Date)fldVal2);
+                // Utility.logDebugMessage('fldVal1 ::' + (Date)fldVal1);
+                // Utility.logDebugMessage('fldVal2 ::' + (Date)fldVal2);
                 if (dataType == 'Date') meetsCondition = ((Date)fldVal1 < (Date)fldVal2);
                 else meetsCondition = ((Integer)fldVal1 < (Integer)fldVal2);
                 Utility.logDebugMessage('meetsCondition ::' + meetsCondition);
@@ -190,7 +190,7 @@ public with sharing class FellowAppValidationHelper {
         validation.Field2__c = 'Graduation_Start_Date__c';
         validation.Compare2__c = '<';
         // validation.FieldRef2__c = null;
-        validation.Value2__c = '2050-12-31';
+        validation.Value2__c = '2040-12-31';
         validation.DataType2__c = 'Date';
 
         validation.Field3__c = 'Date_Expected_Graduated_1__c';
