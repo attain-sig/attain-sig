@@ -102,14 +102,16 @@ public with sharing class FellowAppValidationHelper {
     public Boolean performValidation(Object fldVal1, Object fldVal2, String dataType, String comparison) {
         // Object fldVal1 = getFAppData(fApp, fApp, fAppVald.Field1__c);
         // Object fldVal2 = (fAppVald.Value1__c == null  &&  fAppVald.FieldRef1__c != null) ? getFAppData(fApp, fApp, fAppVald.FieldRef1__c) : fAppVald.Value1__c;
-        Utility.logDebugMessage('fldVal1 ::' + fldVal1);
-        Utility.logDebugMessage('fldVal2 ::' + fldVal2);
-        Utility.logDebugMessage('dataType ::' + dataType);
-        Utility.logDebugMessage('comparison ::' + comparison);
-        if (dataType == 'Date') fldVal2 = Date.valueOf(fldVal2 + ' 00:00:00');
+        System.debug('fldVal1 ::' + fldVal1);
+        System.debug('fldVal2 ::' + fldVal2);
+        System.debug('dataType ::' + dataType);
+        System.debug('comparison ::' + comparison);
+        
+        
+        if (dataType == 'Date') fldVal2 = fldVal2 == null ? fldVal2 : Date.valueOf(fldVal2 + ' 00:00:00');
         else if (dataType == 'Integer') fldVal2 = Integer.valueOf(fldVal2);
         Boolean meetsCondition = false;
-
+        
         switch on comparison {
             when '=' {
                 meetsCondition = (fldVal1 == fldVal2);
@@ -126,11 +128,11 @@ public with sharing class FellowAppValidationHelper {
                 else meetsCondition = ((Integer)fldVal1 >= (Integer)fldVal2);
             }
             when '<' {
-                // Utility.logDebugMessage('fldVal1 ::' + (Date)fldVal1);
-                // Utility.logDebugMessage('fldVal2 ::' + (Date)fldVal2);
+                System.debug('fldVal1 ::' + (Date)fldVal1);
+                System.debug('fldVal2 ::' + (Date)fldVal2);
                 if (dataType == 'Date') meetsCondition = ((Date)fldVal1 < (Date)fldVal2);
                 else meetsCondition = ((Integer)fldVal1 < (Integer)fldVal2);
-                Utility.logDebugMessage('meetsCondition ::' + meetsCondition);
+                System.debug('meetsCondition ::' + meetsCondition);
             }
             when '<=' {
                 if (dataType == 'Date') meetsCondition = ((Date)fldVal1 <= (Date)fldVal2);
@@ -140,6 +142,7 @@ public with sharing class FellowAppValidationHelper {
                 meetsCondition = false;
             }
         }
+        
         return meetsCondition;
     }
 
