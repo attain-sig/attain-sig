@@ -53,7 +53,7 @@ left({!$Record.Opportunity__r.Account.Name} &amp; &quot; $&quot; &amp; text({!$R
 )</expression>
     </formulas>
     <interviewLabel>Grant Approval Case Updated --&gt; {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Grant Approval Case Updated --&gt; Update Related Opportunity</label>
+    <label>Grant Approval Case Updated --&gt; Update Related Opportunity v2</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -313,7 +313,7 @@ left({!$Record.Opportunity__r.Account.Name} &amp; &quot; $&quot; &amp; text({!$R
 &amp;&amp;
 ispickval({!$Record.Reason}, &quot;Grant Approval&quot;)
 &amp;&amp;
-ispickval({!$Record.Status}, &quot;Closed - Resolved&quot;)</filterFormula>
+ispickval({!$Record.Status}, &quot;Closed - Approved/Resolved&quot;)</filterFormula>
         <object>Case</object>
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>

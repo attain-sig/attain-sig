@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeVersionNumber>1</activeVersionNumber>
+    <activeVersionNumber>2</activeVersionNumber>
     <description>Created as a part of 2023 R4 enhancements (US-717). This flow triggers when a Grant Approval Case is updated to &quot;Closed - Approved/Resolved&quot;. It then triggers the corresponding external email alert to ERPSupport and pushes the Grant related field values from the Case to the Opportunity itself.</description>
     <masterLabel>Grant Approval Case Updated --&gt; Update Related Opportunity</masterLabel>
 </FlowDefinition>
