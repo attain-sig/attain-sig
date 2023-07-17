@@ -77,6 +77,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Family Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Funding Vehicle</fullName>
             <default>false</default>
         </values>

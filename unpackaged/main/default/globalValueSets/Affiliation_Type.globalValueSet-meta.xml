@@ -36,6 +36,11 @@
         <label>Employer/Employee</label>
     </customValue>
     <customValue>
+        <fullName>Family Member</fullName>
+        <default>false</default>
+        <label>Family Member</label>
+    </customValue>
+    <customValue>
         <fullName>Funding Vehicle</fullName>
         <default>false</default>
         <label>Funding Vehicle</label>
