@@ -12,7 +12,7 @@
             <sorted>false</sorted>
             <value>
                 <fullName>Wave 1</fullName>
-                <default>true</default>
+                <default>false</default>
                 <label>Wave 1</label>
             </value>
             <value>

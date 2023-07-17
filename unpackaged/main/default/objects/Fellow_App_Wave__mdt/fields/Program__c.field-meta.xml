@@ -13,7 +13,7 @@
             <sorted>true</sorted>
             <value>
                 <fullName>China Fellowship</fullName>
-                <default>true</default>
+                <default>false</default>
                 <label>China Fellowship</label>
             </value>
             <value>
