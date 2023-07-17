@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>For managing fellow application wave deadlines</description>
+    <label>Fellow App Wave</label>
+    <pluralLabel>Fellow App Waves</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

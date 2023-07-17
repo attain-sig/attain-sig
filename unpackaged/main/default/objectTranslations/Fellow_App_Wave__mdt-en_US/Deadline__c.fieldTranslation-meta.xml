@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Wave deadline --></help>
+        <label><!-- Deadline --></label>
+        <name>Deadline__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Wave in which fellow applied --></help>
+        <label><!-- Wave --></label>
+        <name>Wave__c</name>
+        <picklistValues>
+            <masterLabel>Wave 1</masterLabel>
+            <translation><!-- Wave 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wave 2</masterLabel>
+            <translation><!-- Wave 2 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

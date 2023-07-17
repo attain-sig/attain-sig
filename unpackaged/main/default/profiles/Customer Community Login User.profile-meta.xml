@@ -9859,6 +9859,9 @@
         <layout>Fellow_App_Validation__mdt-Fellow App Validation Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Fellow_App_Wave__mdt-Fellow App Wave Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Fellow_Application_Engagement__mdt-Fellow Application - Engagement Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
