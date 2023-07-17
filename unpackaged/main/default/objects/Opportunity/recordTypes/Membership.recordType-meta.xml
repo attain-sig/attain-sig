@@ -214,10 +214,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>NC PAC</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>PAC</fullName>
             <default>false</default>
         </values>

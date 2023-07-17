@@ -2437,10 +2437,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>CFF</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>EDF Europe</fullName>
             <default>false</default>
         </values>
