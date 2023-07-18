@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>56.0</apiVersion>
-    <description>FB-2402</description>
+    <description>FB-2402
+Updated entry criteria for record prior value to look at text field</description>
     <environments>Default</environments>
     <interviewLabel>Opportunity Created/Updated --&gt; {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Opportunity After Save --&gt; Update Natural Code Text Field</label>
+    <label>Opportunity After Save --&gt; Update Natural Code Text Field v2</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -28,7 +29,7 @@
         <name>Update_Natural_Code_Text_Field</name>
         <label>Update Natural Code Text Field</label>
         <locationX>176</locationX>
-        <locationY>335</locationY>
+        <locationY>323</locationY>
         <inputAssignments>
             <field>Natural_Code_Text__c</field>
             <value>
@@ -47,7 +48,7 @@
 &amp;&amp;
 (isnew() &amp;&amp; not(isblank({!$Record.Natural_Code__c}))
 ||
-{!$Record__Prior.Natural_Code__c} &lt;&gt; {!$Record.Natural_Code__c})</filterFormula>
+{!$Record__Prior.Natural_Code_Text__c} &lt;&gt; {!$Record.Natural_Code__c})</filterFormula>
         <object>Opportunity</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
