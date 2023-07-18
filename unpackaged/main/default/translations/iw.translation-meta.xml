@@ -1332,7 +1332,11 @@
         <fullName>GAU_Allocation_Create_Before_SAVE_Values</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows />
+        <flows>
+            <textTemplates>
+                <name>bodyPlain</name>
+            </textTemplates>
+        </flows>
         <fullName>Grant_Approval_Case_Updated_Update_Related_Opportunity</fullName>
     </flowDefinitions>
     <flowDefinitions>
