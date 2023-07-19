@@ -35,5 +35,11 @@
             <targetType>ExperienceVariation</targetType>
             <targetValue>RegisterV2_Rich_Content_Editor_1_Component</targetValue>
         </target>
+        <target>
+            <groupName>fe2de76f-3f2d-4c6d-a6f2-779636ea23ab$#$84e43435-f403-43a3-80cc-5482e4aea0c6</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Forgot_Password_v2_Section_1_Component</targetValue>
+        </target>
     </targets>
 </Audience>

@@ -24,6 +24,12 @@
             <targetValue>LoginV2_Section_1_Component</targetValue>
         </target>
         <target>
+            <groupName>fe2de76f-3f2d-4c6d-a6f2-779636ea23ab$#$d101369b-f71f-400f-be21-38dac99d2ffa</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Forgot_Password_v2_Section_Component</targetValue>
+        </target>
+        <target>
             <groupName>13e5bf0b-8617-4ff1-856d-678b0d90f420$#$0db17e6d-5ba9-4500-9dec-0d0f99711302</groupName>
             <priority>1</priority>
             <targetType>ExperienceVariation</targetType>
