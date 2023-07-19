@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "350d6e13-3348-4155-bd23-d86a9ebb288e",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "0db17e6d-5ba9-4500-9dec-0d0f99711302",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "RegisterV2_Rich_Content_Editor_Component",
+  "id" : "06de7791-b346-4e45-aff8-d9a19ad7e21a",
+  "type" : "experienceVariation"
+}

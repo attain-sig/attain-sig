@@ -103,10 +103,19 @@
           "type" : "component"
         }, {
           "componentAttributes" : {
-            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"./\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-family: arial; color: rgb(255, 255, 255);\">Already have an account?</a></p><p style=\"text-align: center;\"><em style=\"font-family: arial; color: rgb(255, 255, 255);\">The application period for the US and China programs will open in mid-September and October, respectively. Please check back at that time.</em></p><p>&nbsp;</p>"
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"./\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(255, 255, 255); font-family: arial;\">Already have an account?</a></p><p style=\"text-align: center;\"><em style=\"color: rgb(255, 255, 255); font-family: arial;\">The application period for the US and China programs will open in mid-September and October, respectively. Please check back at that time.</em></p><p>&nbsp;</p>"
           },
           "componentName" : "forceCommunity:richTextInline",
           "id" : "b3bfea11-1abd-426d-8cc5-757d1b64ffc7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-family: arial; color: rgb(255, 255, 255);\">You are already logged in.</span></p><p style=\"text-align: center;\"><span style=\"font-family: arial; color: rgb(255, 255, 255);\"> </span><a href=\"/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"font-family: arial; color: rgb(255, 255, 255);\">Click here to return to the portal homepage</a><span style=\"font-family: arial; color: rgb(255, 255, 255);\">. </span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0db17e6d-5ba9-4500-9dec-0d0f99711302",
           "renderPriority" : "NEUTRAL",
           "renditionMap" : { },
           "type" : "component"
