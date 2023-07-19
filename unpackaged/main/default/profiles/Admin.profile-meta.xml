@@ -10559,6 +10559,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Feedback__c.IT_Priority__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Feedback__c.Migrated_Data_Update_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>

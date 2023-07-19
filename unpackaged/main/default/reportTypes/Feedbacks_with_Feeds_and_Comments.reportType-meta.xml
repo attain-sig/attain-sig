@@ -214,6 +214,11 @@
             <field>Due_Date__c</field>
             <table>Feedback__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>IT_Priority__c</field>
+            <table>Feedback__c</table>
+        </columns>
         <masterLabel>Feedbacks</masterLabel>
     </sections>
     <sections>
