@@ -3,7 +3,7 @@
     <fullName>Affiliation_Relationship_Manager__c</fullName>
     <description>Relationship Manager for the Contact's Primary Affiilation. Used in search results.</description>
     <externalId>false</externalId>
-    <formula>npsp__Primary_Affiliation__r.Account_Primary_Handler__r.FirstName &amp;" "&amp; LastName</formula>
+    <formula>npsp__Primary_Affiliation__r.Account_Primary_Handler__r.FirstName &amp;" "&amp; npsp__Primary_Affiliation__r.Account_Primary_Handler__r.LastName</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Affiliation Relationship Manager</label>
     <required>false</required>
