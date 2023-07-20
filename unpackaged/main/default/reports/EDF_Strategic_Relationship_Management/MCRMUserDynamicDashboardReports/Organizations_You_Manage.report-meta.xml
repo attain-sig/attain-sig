@@ -12,6 +12,12 @@
     <columns>
         <field>Account.Additional_Handler_2__c</field>
     </columns>
+    <columns>
+        <field>URL</field>
+    </columns>
+    <columns>
+        <field>ADDRESS1_COUNTRY</field>
+    </columns>
     <filter>
         <booleanFilter>1 AND 2</booleanFilter>
         <criteriaItems>
@@ -45,7 +51,9 @@
     <scope>organization</scope>
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
-    <showSubTotals>true</showSubTotals>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>ACCOUNT.NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
     <timeFrameFilter>
         <dateColumn>CREATED_DATE</dateColumn>
         <interval>INTERVAL_CUSTOM</interval>

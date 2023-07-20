@@ -6,6 +6,7 @@
     <columns>
         <field>SUBJECT</field>
     </columns>
+    <description>If you have submitted activities for the week noted, click on the Subject line then mark the task as completed. If someone else submits for you, this report will be blank.</description>
     <filter>
         <criteriaItems>
             <column>SUBJECT</column>
@@ -29,7 +30,7 @@
     </params>
     <params>
         <name>type</name>
-        <value>te</value>
+        <value>t</value>
     </params>
     <params>
         <name>co</name>
@@ -44,6 +45,6 @@
     <sortOrder>Asc</sortOrder>
     <timeFrameFilter>
         <dateColumn>DUE_DATE</dateColumn>
-        <interval>INTERVAL_LAST120</interval>
+        <interval>INTERVAL_PREVCURY</interval>
     </timeFrameFilter>
 </Report>
