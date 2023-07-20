@@ -13,6 +13,9 @@
         <field>Contact.Employer_Lookup__c</field>
     </columns>
     <columns>
+        <field>EMAIL</field>
+    </columns>
+    <columns>
         <field>Contact.Primary_Handler__c</field>
     </columns>
     <columns>
@@ -20,9 +23,6 @@
     </columns>
     <columns>
         <field>Contact.Additional_Handler_2__c</field>
-    </columns>
-    <columns>
-        <field>LAST_ACTIVITY</field>
     </columns>
     <filter>
         <criteriaItems>
@@ -34,12 +34,7 @@
         </criteriaItems>
         <language>en_US</language>
     </filter>
-    <format>Matrix</format>
-    <groupingsAcross>
-        <dateGranularity>Day</dateGranularity>
-        <field>TYPE</field>
-        <sortOrder>Asc</sortOrder>
-    </groupingsAcross>
+    <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
         <field>ACCOUNT_RECORDTYPE</field>
@@ -55,6 +50,8 @@
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
     <showSubTotals>true</showSubTotals>
+    <sortColumn>LAST_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
     <timeFrameFilter>
         <dateColumn>CREATED_DATE</dateColumn>
         <interval>INTERVAL_CUSTOM</interval>
