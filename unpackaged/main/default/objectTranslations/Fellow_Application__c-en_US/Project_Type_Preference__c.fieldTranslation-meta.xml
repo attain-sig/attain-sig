@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Project Type Preference --></label>
+        <help><!-- India only. Fellow&apos;s preferred work location (in-person, remote, etc.) --></help>
+        <label><!-- Fellowship Location Preference --></label>
         <name>Project_Type_Preference__c</name>
         <picklistValues>
             <masterLabel>Hybrid</masterLabel>
