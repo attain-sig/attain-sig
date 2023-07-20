@@ -3,15 +3,19 @@
     <columns>
         <field>SUBJECT</field>
     </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>TITLE</field>
+    </columns>
+    <columns>
+        <field>Contact.Employer_Lookup__c</field>
+    </columns>
     <filter>
-        <booleanFilter>1 AND 2 AND 3</booleanFilter>
-        <criteriaItems>
-            <column>Activity.Activity_Constituency__c</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>notEqual</operator>
-            <value>Development</value>
-        </criteriaItems>
         <criteriaItems>
             <column>Activity.Solicitor_is_Current_User__c</column>
             <columnToColumn>false</columnToColumn>
@@ -20,31 +24,25 @@
             <value>1</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Contact.Employer_Lookup__c</column>
+            <column>SUBJECT</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
-            <operator>notEqual</operator>
-            <value></value>
+            <operator>notContain</operator>
+            <value>Submit activities</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
-        <field>Contact.Employer_Lookup__c</field>
-        <sortOrder>Asc</sortOrder>
+        <field>TASK_TYPE</field>
+        <sortOrder>Desc</sortOrder>
     </groupingsDown>
     <groupingsDown>
-        <dateGranularity>Day</dateGranularity>
-        <field>FIRST_NAME</field>
+        <field>DUE_DATE</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <groupingsDown>
-        <dateGranularity>Day</dateGranularity>
-        <field>LAST_NAME</field>
-        <sortOrder>Asc</sortOrder>
-    </groupingsDown>
-    <name>MCRMT: Your Most Frequent Organizations</name>
+    <name>KA Copy of Your Recent Activities</name>
     <params>
         <name>closed</name>
         <value>all</value>
@@ -61,7 +59,9 @@
     <scope>organization</scope>
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
-    <showSubTotals>true</showSubTotals>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>SUBJECT</sortColumn>
+    <sortOrder>Asc</sortOrder>
     <timeFrameFilter>
         <dateColumn>DUE_DATE</dateColumn>
         <interval>INTERVAL_LAST120</interval>

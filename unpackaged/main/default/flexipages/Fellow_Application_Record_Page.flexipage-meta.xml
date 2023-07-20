@@ -152,6 +152,16 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.Wave__c</fieldItem>
+                <identifier>RecordWave_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Allowed_To_Submit_After_Deadline__c</fieldItem>
                 <identifier>RecordAllowed_To_Submit_After_Deadline_cField</identifier>
             </fieldInstance>
