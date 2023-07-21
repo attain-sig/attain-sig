@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Document Type --></label>
+        <name>Library_Name__c</name>
+        <picklistValues>
+            <masterLabel>Concept Papers</masterLabel>
+            <translation><!-- Concept Papers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Reports</masterLabel>
+            <translation><!-- Financial Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funder Attachments</masterLabel>
+            <translation><!-- Funder Attachments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funding Menus</masterLabel>
+            <translation><!-- Funding Menus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Resources</masterLabel>
+            <translation><!-- General Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letters of Inquiry</masterLabel>
+            <translation><!-- Letters of Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PG Time Capsule</masterLabel>
+            <translation><!-- PG Time Capsule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned Giving</masterLabel>
+            <translation><!-- Planned Giving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presentations</masterLabel>
+            <translation><!-- Presentations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal Budgets</masterLabel>
+            <translation><!-- Proposal Budgets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposals</masterLabel>
+            <translation><!-- Proposals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reports</masterLabel>
+            <translation><!-- Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Instructional</masterLabel>
+            <translation><!-- Salesforce Instructional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talking Points</masterLabel>
+            <translation><!-- Talking Points --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

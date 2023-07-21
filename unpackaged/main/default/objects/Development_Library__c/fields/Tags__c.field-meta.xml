@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tags__c</fullName>
+    <externalId>false</externalId>
+    <label>Geographic Tags</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asia Pacific</fullName>
+                <default>false</default>
+                <label>Asia Pacific</label>
+            </value>
+            <value>
+                <fullName>Belize</fullName>
+                <default>false</default>
+                <label>Belize</label>
+            </value>
+            <value>
+                <fullName>Brazil</fullName>
+                <default>false</default>
+                <label>Brazil</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>Caribbean</fullName>
+                <default>false</default>
+                <label>Caribbean</label>
+            </value>
+            <value>
+                <fullName>Central America</fullName>
+                <default>false</default>
+                <label>Central America</label>
+            </value>
+            <value>
+                <fullName>Chile</fullName>
+                <default>false</default>
+                <label>Chile</label>
+            </value>
+            <value>
+                <fullName>China</fullName>
+                <default>false</default>
+                <label>China</label>
+            </value>
+            <value>
+                <fullName>Cuba</fullName>
+                <default>false</default>
+                <label>Cuba</label>
+            </value>
+            <value>
+                <fullName>European Union</fullName>
+                <default>false</default>
+                <label>European Union</label>
+            </value>
+            <value>
+                <fullName>Iceland</fullName>
+                <default>false</default>
+                <label>Iceland</label>
+            </value>
+            <value>
+                <fullName>India</fullName>
+                <default>false</default>
+                <label>India</label>
+            </value>
+            <value>
+                <fullName>Indonesia</fullName>
+                <default>false</default>
+                <label>Indonesia</label>
+            </value>
+            <value>
+                <fullName>Japan</fullName>
+                <default>false</default>
+                <label>Japan</label>
+            </value>
+            <value>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+                <label>Mexico</label>
+            </value>
+            <value>
+                <fullName>Myanmar</fullName>
+                <default>false</default>
+                <label>Myanmar</label>
+            </value>
+            <value>
+                <fullName>North America</fullName>
+                <default>false</default>
+                <label>North America</label>
+            </value>
+            <value>
+                <fullName>Peru</fullName>
+                <default>false</default>
+                <label>Peru</label>
+            </value>
+            <value>
+                <fullName>Philippines</fullName>
+                <default>false</default>
+                <label>Philippines</label>
+            </value>
+            <value>
+                <fullName>Portugal</fullName>
+                <default>false</default>
+                <label>Portugal</label>
+            </value>
+            <value>
+                <fullName>South America</fullName>
+                <default>false</default>
+                <label>South America</label>
+            </value>
+            <value>
+                <fullName>Spain</fullName>
+                <default>false</default>
+                <label>Spain</label>
+            </value>
+            <value>
+                <fullName>Sweden</fullName>
+                <default>false</default>
+                <label>Sweden</label>
+            </value>
+            <value>
+                <fullName>United Kingdom</fullName>
+                <default>false</default>
+                <label>United Kingdom</label>
+            </value>
+            <value>
+                <fullName>United States</fullName>
+                <default>false</default>
+                <label>United States</label>
+            </value>
+            <value>
+                <fullName>Advocacy</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Advocacy</label>
+            </value>
+            <value>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Agriculture</label>
+            </value>
+            <value>
+                <fullName>Air Force</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Air Force</label>
+            </value>
+            <value>
+                <fullName>Aviation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Aviation</label>
+            </value>
+            <value>
+                <fullName>C4</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>C4</label>
+            </value>
+            <value>
+                <fullName>Carbon Markets</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Carbon Markets</label>
+            </value>
+            <value>
+                <fullName>Clean Air</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Clean Air</label>
+            </value>
+            <value>
+                <fullName>Clean Energy</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Clean Energy</label>
+            </value>
+            <value>
+                <fullName>Climate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Climate</label>
+            </value>
+            <value>
+                <fullName>Coastal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Coastal</label>
+            </value>
+            <value>
+                <fullName>DEIJ</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DEIJ</label>
+            </value>
+            <value>
+                <fullName>Defend Our Future</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Defend Our Future</label>
+            </value>
+            <value>
+                <fullName>EDFBIZ</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>EDFBIZ</label>
+            </value>
+            <value>
+                <fullName>Economics (OCE)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Economics (OCE)</label>
+            </value>
+            <value>
+                <fullName>Ecosystems</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ecosystems</label>
+            </value>
+            <value>
+                <fullName>Energy</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Energy</label>
+            </value>
+            <value>
+                <fullName>Environmental Justice</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Environmental Justice</label>
+            </value>
+            <value>
+                <fullName>Fisheries</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fisheries</label>
+            </value>
+            <value>
+                <fullName>General Support</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>General Support</label>
+            </value>
+            <value>
+                <fullName>Global Strategy</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Global Strategy</label>
+            </value>
+            <value>
+                <fullName>Health</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Health</label>
+            </value>
+            <value>
+                <fullName>Hydrogen</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hydrogen</label>
+            </value>
+            <value>
+                <fullName>MarComm</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MarComm</label>
+            </value>
+            <value>
+                <fullName>Methane</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Methane</label>
+            </value>
+            <value>
+                <fullName>MethaneSAT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MethaneSAT</label>
+            </value>
+            <value>
+                <fullName>MethaneSAT Advocacy</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MethaneSAT Advocacy</label>
+            </value>
+            <value>
+                <fullName>Mom's Clean</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mom's Clean</label>
+            </value>
+            <value>
+                <fullName>Natural Climate Solutions</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Natural Climate Solutions</label>
+            </value>
+            <value>
+                <fullName>Oceans</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Oceans</label>
+            </value>
+            <value>
+                <fullName>Political Affairs</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Political Affairs</label>
+            </value>
+            <value>
+                <fullName>Science (OCS)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Science (OCS)</label>
+            </value>
+            <value>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Shipping</label>
+            </value>
+            <value>
+                <fullName>Toxic Chemicals</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Toxic Chemicals</label>
+            </value>
+            <value>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Transportation</label>
+            </value>
+            <value>
+                <fullName>Vision 2030</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vision 2030</label>
+            </value>
+            <value>
+                <fullName>Water</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Water</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

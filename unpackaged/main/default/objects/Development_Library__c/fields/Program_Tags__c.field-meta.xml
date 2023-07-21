@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Tags__c</fullName>
+    <externalId>false</externalId>
+    <label>Programmatic Tags</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Advocacy</fullName>
+                <default>false</default>
+                <label>Advocacy</label>
+            </value>
+            <value>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+                <label>Agriculture</label>
+            </value>
+            <value>
+                <fullName>Aviation</fullName>
+                <default>false</default>
+                <label>Aviation</label>
+            </value>
+            <value>
+                <fullName>C4</fullName>
+                <default>false</default>
+                <label>C4</label>
+            </value>
+            <value>
+                <fullName>Carbon Markets</fullName>
+                <default>false</default>
+                <label>Carbon Markets</label>
+            </value>
+            <value>
+                <fullName>Clean Air</fullName>
+                <default>false</default>
+                <label>Clean Air</label>
+            </value>
+            <value>
+                <fullName>Clean Energy</fullName>
+                <default>false</default>
+                <label>Clean Energy</label>
+            </value>
+            <value>
+                <fullName>Climate</fullName>
+                <default>false</default>
+                <label>Climate</label>
+            </value>
+            <value>
+                <fullName>Coastal</fullName>
+                <default>false</default>
+                <label>Coastal</label>
+            </value>
+            <value>
+                <fullName>Defend Our Future</fullName>
+                <default>false</default>
+                <label>Defend Our Future</label>
+            </value>
+            <value>
+                <fullName>DEIJ</fullName>
+                <default>false</default>
+                <label>DEIJ</label>
+            </value>
+            <value>
+                <fullName>Economics (OCE)</fullName>
+                <default>false</default>
+                <label>Economics (OCE)</label>
+            </value>
+            <value>
+                <fullName>Ecosystems</fullName>
+                <default>false</default>
+                <label>Ecosystems</label>
+            </value>
+            <value>
+                <fullName>EDFBIZ</fullName>
+                <default>false</default>
+                <label>EDFBIZ</label>
+            </value>
+            <value>
+                <fullName>Energy</fullName>
+                <default>false</default>
+                <label>Energy</label>
+            </value>
+            <value>
+                <fullName>Environmental Justice</fullName>
+                <default>false</default>
+                <label>Environmental Justice</label>
+            </value>
+            <value>
+                <fullName>Fisheries</fullName>
+                <default>false</default>
+                <label>Fisheries</label>
+            </value>
+            <value>
+                <fullName>General Support</fullName>
+                <default>false</default>
+                <label>General Support</label>
+            </value>
+            <value>
+                <fullName>Global Strategy</fullName>
+                <default>false</default>
+                <label>Global Strategy</label>
+            </value>
+            <value>
+                <fullName>Health</fullName>
+                <default>false</default>
+                <label>Health</label>
+            </value>
+            <value>
+                <fullName>Hydrogen</fullName>
+                <default>false</default>
+                <label>Hydrogen</label>
+            </value>
+            <value>
+                <fullName>MarComm</fullName>
+                <default>false</default>
+                <label>MarComm</label>
+            </value>
+            <value>
+                <fullName>Methane</fullName>
+                <default>false</default>
+                <label>Methane</label>
+            </value>
+            <value>
+                <fullName>MethaneSAT</fullName>
+                <default>false</default>
+                <label>MethaneSAT</label>
+            </value>
+            <value>
+                <fullName>MethaneSAT Advocacy</fullName>
+                <default>false</default>
+                <label>MethaneSAT Advocacy</label>
+            </value>
+            <value>
+                <fullName>Mom's Clean Air Force</fullName>
+                <default>false</default>
+                <label>Mom's Clean Air Force</label>
+            </value>
+            <value>
+                <fullName>Natural Climate Solutions</fullName>
+                <default>false</default>
+                <label>Natural Climate Solutions</label>
+            </value>
+            <value>
+                <fullName>Political Affairs</fullName>
+                <default>false</default>
+                <label>Political Affairs</label>
+            </value>
+            <value>
+                <fullName>Science (OCS)</fullName>
+                <default>false</default>
+                <label>Science (OCS)</label>
+            </value>
+            <value>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+                <label>Shipping</label>
+            </value>
+            <value>
+                <fullName>Toxic Chemicals</fullName>
+                <default>false</default>
+                <label>Toxic Chemicals</label>
+            </value>
+            <value>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+                <label>Transportation</label>
+            </value>
+            <value>
+                <fullName>Vision 2030</fullName>
+                <default>false</default>
+                <label>Vision 2030</label>
+            </value>
+            <value>
+                <fullName>Water</fullName>
+                <default>false</default>
+                <label>Water</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
