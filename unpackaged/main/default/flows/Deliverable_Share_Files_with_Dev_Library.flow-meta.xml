@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <assignments>
+        <name>Add_to_Collection_if_New</name>
+        <label>Add to Collection if New</label>
+        <locationX>138</locationX>
+        <locationY>863</locationY>
+        <assignmentItems>
+            <assignToReference>ContentDocumentLink_Collection</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>ContentDocumentLink_Record</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Cycle_through_Files_if_New_Dev_Library</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_CDL_Values_if_New</name>
+        <label>Assign CDL Values if New</label>
+        <locationX>138</locationX>
+        <locationY>755</locationY>
+        <assignmentItems>
+            <assignToReference>ContentDocumentLink_Record.LinkedEntityId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>ContentDocumentLink_Record.ContentDocumentId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Cycle_through_Files_if_New_Dev_Library.ContentDocumentId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_to_Collection_if_New</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <description>Check if there are any Files found</description>
+        <name>Are_there_Files_if_New</name>
+        <label>Are there Files if New</label>
+        <locationX>182</locationX>
+        <locationY>539</locationY>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_ContentDocumentLinks_if_New</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Cycle_through_Files_if_New_Dev_Library</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Check if this is a new Dev Library record and share Deliverable records</description>
+        <name>New_Dev_Library_Record</name>
+        <label>New Dev Library Record</label>
+        <locationX>380</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>End</defaultConnectorLabel>
+        <rules>
+            <name>New_Dev_Library_is_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ISNEW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Deliverable__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_ContentDocumentLinks_if_New</targetReference>
+            </connector>
+            <label>New Dev Library is True</label>
+        </rules>
+    </decisions>
+    <description>FB-3340 Share Files related to the Deliverable with the Dev Library.
+
+V3: Correction on Decision so that it doesn&apos;t run when the record is updated but the deliverable is not changed
+V4: Adding in scenarios to try to avoid duplicate errors and share when a Dev Library has the Deliverable field updated
+V5: Modification to Flow so that only has one tree checking if the the Dev Library is new and then Sharing the Files</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>Check if the record is new and use in Decision Element</description>
+        <name>ISNEW</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <interviewLabel>Deliverable -&gt; Share Files with Dev Library {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Deliverable -&gt; Share Files with Dev Library</label>
+    <loops>
+        <name>Cycle_through_Files_if_New_Dev_Library</name>
+        <label>Cycle through Files if New Dev Library</label>
+        <locationX>50</locationX>
+        <locationY>647</locationY>
+        <collectionReference>Get_ContentDocumentLinks_if_New</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Assign_CDL_Values_if_New</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Create_ContentDocumentLinks_if_New</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_ContentDocumentLinks_if_New</name>
+        <label>Create ContentDocumentLinks if New</label>
+        <locationX>50</locationX>
+        <locationY>1055</locationY>
+        <inputReference>ContentDocumentLink_Collection</inputReference>
+    </recordCreates>
+    <recordLookups>
+        <description>Get a list of all the Files related to the Parent Deliverable</description>
+        <name>Get_ContentDocumentLinks_if_New</name>
+        <label>Get ContentDocumentLinks if New</label>
+        <locationX>182</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Are_there_Files_if_New</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>LinkedEntityId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Deliverable__r.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>ContentDocumentLink</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>254</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>New_Dev_Library_Record</targetReference>
+        </connector>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE</filterFormula>
+        <object>Development_Library__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <description>Store all the ContentDocumentLinks</description>
+        <name>ContentDocumentLink_Collection</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>ContentDocumentLink</objectType>
+    </variables>
+    <variables>
+        <description>Variable to hold the details of a ContentDocumentLink through the loop</description>
+        <name>ContentDocumentLink_Record</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>ContentDocumentLink</objectType>
+    </variables>
+</Flow>

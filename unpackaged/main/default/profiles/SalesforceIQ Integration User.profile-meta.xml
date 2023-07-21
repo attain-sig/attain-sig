@@ -15,6 +15,11 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>Development_Library_Records</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>EDF_Caging</application>
         <default>false</default>
         <visible>false</visible>
@@ -12175,6 +12180,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>APXTConga4__Document_History__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Development_Library__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

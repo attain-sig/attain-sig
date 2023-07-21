@@ -284,4 +284,8 @@
         <name>iCLightning__iContact_Email_Marketing_Lightning</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Development_Library_Records</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
