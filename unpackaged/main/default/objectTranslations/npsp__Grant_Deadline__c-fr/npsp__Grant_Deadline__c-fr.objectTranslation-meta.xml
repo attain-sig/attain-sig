@@ -32,57 +32,6 @@
         </sections>
     </layouts>
     <nameFieldLabel>Nom du livrable</nameFieldLabel>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <recordTypes>
         <description><!-- This Record Type should be used to Track Conditional Deliverables --></description>
         <label><!-- Conditional Deliverable --></label>
@@ -93,6 +42,10 @@
         <label><!-- Reporting Date --></label>
         <name>Reporting_Date</name>
     </recordTypes>
+    <quickActions>
+        <label><!-- Create Library Entry --></label>
+        <name>Create_Library_Entry</name>
+    </quickActions>
     <quickActions>
         <label><!-- New Qualifying Opportunity --></label>
         <name>New_Qualifying_Opportunity</name>

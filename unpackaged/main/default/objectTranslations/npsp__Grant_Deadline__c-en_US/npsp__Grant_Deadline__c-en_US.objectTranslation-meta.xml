@@ -33,6 +33,10 @@
         <name>Reporting_Date</name>
     </recordTypes>
     <quickActions>
+        <label><!-- Create Library Entry --></label>
+        <name>Create_Library_Entry</name>
+    </quickActions>
+    <quickActions>
         <label><!-- New Qualifying Opportunity --></label>
         <name>New_Qualifying_Opportunity</name>
     </quickActions>
