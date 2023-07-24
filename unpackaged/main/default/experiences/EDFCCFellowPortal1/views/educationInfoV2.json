@@ -30,6 +30,8 @@
         "graduatedegreenotlisted" : "Graduate Degree(s), if not listed above",
         "graduatedegreestartdate" : "Graduate Degree Start Date",
         "graduateuniversity" : "Graduate University",
+        "saveSuccessMessage" : "Education Information Saved!",
+        "saveSuccessTitle" : "",
         "schooluniversitynotlisted" : "School / University, if not listed above",
         "schoolwithinuniversity" : "School within University",
         "underGraduateMajor" : "Undergraduate Major(s)",
