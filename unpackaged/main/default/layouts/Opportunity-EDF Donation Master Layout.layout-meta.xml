@@ -246,6 +246,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
+                <field>Natural_Code_Text__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
                 <field>Fiscal_Year__c</field>
             </layoutItems>
             <layoutItems>

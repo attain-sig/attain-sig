@@ -227,6 +227,10 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
+                <field>Natural_Code_Text__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
                 <field>Fund_Restriction__c</field>
             </layoutItems>
             <layoutItems>
