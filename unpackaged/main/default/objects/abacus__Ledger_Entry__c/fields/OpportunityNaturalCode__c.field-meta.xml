@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>abacus__Opportunity__r.Natural_Code__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Opportunity Natural Code</label>
+    <label>DEL_Opportunity Natural Code</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>
