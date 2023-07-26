@@ -3,8 +3,8 @@
     <actionCalls>
         <name>Reference_1_India</name>
         <label>Reference 1 India</label>
-        <locationX>440</locationX>
-        <locationY>408</locationY>
+        <locationX>578</locationX>
+        <locationY>384</locationY>
         <actionName>Fellow_Application__c.Reference_1_India</actionName>
         <actionType>emailAlert</actionType>
         <connector>
@@ -21,8 +21,8 @@
     <actionCalls>
         <name>Reference_2_India</name>
         <label>Reference 2 India</label>
-        <locationX>440</locationX>
-        <locationY>528</locationY>
+        <locationX>578</locationX>
+        <locationY>492</locationY>
         <actionName>Fellow_Application__c.Reference_2_India</actionName>
         <actionType>emailAlert</actionType>
         <connector>
@@ -39,8 +39,8 @@
     <actionCalls>
         <name>Reference_3_India</name>
         <label>Reference 3 India</label>
-        <locationX>440</locationX>
-        <locationY>648</locationY>
+        <locationX>578</locationX>
+        <locationY>600</locationY>
         <actionName>Fellow_Application__c.Reference_3_India</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -55,8 +55,8 @@
         <description>Sends email to reference 2</description>
         <name>Send_Email_to_Ref_2_0</name>
         <label>Send Email to Ref 2</label>
-        <locationX>176</locationX>
-        <locationY>528</locationY>
+        <locationX>50</locationX>
+        <locationY>384</locationY>
         <actionName>Fellow_Application__c.Reference_2</actionName>
         <actionType>emailAlert</actionType>
         <connector>
@@ -74,8 +74,8 @@
         <description>Sends email to reference 3</description>
         <name>Send_Email_to_Ref_3_0</name>
         <label>Send Email to Ref 3</label>
-        <locationX>176</locationX>
-        <locationY>648</locationY>
+        <locationX>50</locationX>
+        <locationY>492</locationY>
         <actionName>Fellow_Application__c.Reference_3</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -90,8 +90,8 @@
         <description>Sends email to reference 1</description>
         <name>Send_Email_to_Reference_1_0</name>
         <label>Send Email to Reference 1</label>
-        <locationX>176</locationX>
-        <locationY>408</locationY>
+        <locationX>50</locationX>
+        <locationY>276</locationY>
         <actionName>Fellow_Application__c.Reference_1</actionName>
         <actionType>emailAlert</actionType>
         <connector>
@@ -109,8 +109,8 @@
     <decisions>
         <name>Which_Program</name>
         <label>Which Program</label>
-        <locationX>440</locationX>
-        <locationY>288</locationY>
+        <locationX>578</locationX>
+        <locationY>276</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>U_S</name>
@@ -123,6 +123,7 @@
                 </rightValue>
             </conditions>
             <connector>
+                <isGoTo>true</isGoTo>
                 <targetReference>Send_Email_to_Reference_1_0</targetReference>
             </connector>
             <label>U.S.</label>
@@ -167,7 +168,7 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <start>
-        <locationX>50</locationX>
+        <locationX>56</locationX>
         <locationY>0</locationY>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
@@ -186,14 +187,24 @@ ispickval({!$Record.Fellowship_Applying_for__c}, &quot;India Fellowship&quot;)
         <scheduledPaths>
             <name>Wait_7_Days</name>
             <connector>
-                <targetReference>Which_Program</targetReference>
+                <targetReference>Send_Email_to_Reference_1_0</targetReference>
             </connector>
             <label>Wait 7 Days</label>
             <offsetNumber>7</offsetNumber>
             <offsetUnit>Days</offsetUnit>
             <timeSource>RecordTriggerEvent</timeSource>
         </scheduledPaths>
+        <scheduledPaths>
+            <name>Wait_1_Day</name>
+            <connector>
+                <targetReference>Which_Program</targetReference>
+            </connector>
+            <label>Wait 1 Day</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
 </Flow>
