@@ -5,7 +5,7 @@
         <name>Set_Staging_Values</name>
         <label>Set Staging Values</label>
         <locationX>314</locationX>
-        <locationY>695</locationY>
+        <locationY>647</locationY>
         <assignmentItems>
             <assignToReference>Staging.Donation__c</assignToReference>
             <operator>Assign</operator>
@@ -49,7 +49,7 @@
         <name>Set_Staging_Values_0</name>
         <label>Set Staging Values</label>
         <locationX>50</locationX>
-        <locationY>935</locationY>
+        <locationY>863</locationY>
         <assignmentItems>
             <assignToReference>Staging.Constituency__c</assignToReference>
             <operator>Assign</operator>
@@ -86,7 +86,7 @@
         <name>Set_Staging_Values_0_0</name>
         <label>Set Staging Values</label>
         <locationX>314</locationX>
-        <locationY>935</locationY>
+        <locationY>863</locationY>
         <assignmentItems>
             <assignToReference>Staging.Constituency__c</assignToReference>
             <operator>Assign</operator>
@@ -123,7 +123,7 @@
         <name>Account_Contact_Switcher</name>
         <label>Account/Contact Switcher</label>
         <locationX>314</locationX>
-        <locationY>815</locationY>
+        <locationY>755</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Assign_Account</name>
@@ -167,7 +167,7 @@
         <name>Remove_Dual_Constituency_from_Staging_Decision</name>
         <label>Remove Dual Constituency from Staging</label>
         <locationX>50</locationX>
-        <locationY>575</locationY>
+        <locationY>539</locationY>
         <defaultConnector>
             <targetReference>Set_Staging_Values</targetReference>
         </defaultConnector>
@@ -196,11 +196,11 @@
         <name>Should_Staging_Record_Be_Created</name>
         <label>Should Staging Record Be Created?</label>
         <locationX>446</locationX>
-        <locationY>455</locationY>
+        <locationY>431</locationY>
         <defaultConnectorLabel>Don&apos;t Create Record</defaultConnectorLabel>
         <rules>
             <name>Create_Staging_Record</name>
-            <conditionLogic>1 AND 2 AND ((3 AND 4) OR (5 AND 6))</conditionLogic>
+            <conditionLogic>1 AND 2 AND ((3 AND 4) OR (5 AND 6) OR (3 AND 7) OR (5 AND 8))</conditionLogic>
             <conditions>
                 <leftValueReference>getExistingStagingRecord</leftValueReference>
                 <operator>IsNull</operator>
@@ -243,6 +243,20 @@
                     <stringValue>Development</stringValue>
                 </rightValue>
             </conditions>
+            <conditions>
+                <leftValueReference>$Record.npsp__DonationImported__r.npsp__Primary_Contact__r.Constituency__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Executive Office</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.npsp__DonationImported__r.Account.Organization_Constituency__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Executive Office</stringValue>
+                </rightValue>
+            </conditions>
             <connector>
                 <targetReference>Remove_Dual_Constituency_from_Staging_Decision</targetReference>
             </connector>
@@ -251,7 +265,8 @@
         </rules>
     </decisions>
     <description>Remove Dual Constituency per FB-1539
-v4 Optimize flow per FB-1490</description>
+v4 Optimize flow per FB-1490
+v5 Add a check for Executive Office in the Decision for creating a Staging record</description>
     <environments>Default</environments>
     <interviewLabel>NPSP Data Import: (After Update --&gt; Create Staging Record) {!$Flow.CurrentDateTime}</interviewLabel>
     <label>NPSP Data Import: (After Update --&gt; Create Staging Record)</label>
@@ -278,14 +293,14 @@ v4 Optimize flow per FB-1490</description>
         <name>Insert_Staging_Record</name>
         <label>Insert Staging Record</label>
         <locationX>314</locationX>
-        <locationY>1151</locationY>
+        <locationY>1055</locationY>
         <inputReference>Staging</inputReference>
     </recordCreates>
     <recordLookups>
         <name>getExistingStagingRecord</name>
         <label>getExistingStagingRecord</label>
         <locationX>446</locationX>
-        <locationY>335</locationY>
+        <locationY>323</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Should_Staging_Record_Be_Created</targetReference>
