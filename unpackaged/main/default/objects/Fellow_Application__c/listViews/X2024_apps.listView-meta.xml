@@ -17,6 +17,16 @@
         <operation>equals</operation>
         <value>2024</value>
     </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Prospective Applicant</value>
+    </filters>
+    <filters>
+        <field>Fellowship_Applying_for__c</field>
+        <operation>equals</operation>
+        <value>India Fellowship</value>
+    </filters>
     <label>2024 apps</label>
     <sharedTo>
         <group>Climate_Corps</group>

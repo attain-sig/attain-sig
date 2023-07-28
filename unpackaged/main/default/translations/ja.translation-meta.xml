@@ -1102,6 +1102,14 @@
     <flowDefinitions>
         <flows>
             <textTemplates>
+                <name>emailBody</name>
+            </textTemplates>
+        </flows>
+        <fullName>Application_Deadline_Reminder</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
                 <name>EmailBodyFundRequest</name>
             </textTemplates>
             <textTemplates>
