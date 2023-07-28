@@ -763,7 +763,7 @@ To do so, select your preferred projects by opening the project description and 
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>PortalDeliverable_FileURL_CompletedActivitiesReport</shortDescription>
-        <value>https://duckduckgo.com/?q=project+database+template</value>
+        <value>https://library.edf.org/AssetLink/taafoow4e4713tef7rqeo0m458pj363p.xlsx</value>
     </labels>
     <labels>
         <fullName>PortalDeliverable_FileURL_CompletedActivitiesReport_CN</fullName>
@@ -859,7 +859,7 @@ To do so, select your preferred projects by opening the project description and 
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>PortalDeliverable_FileUrl_FinalDeliverableInstructions</shortDescription>
-        <value>http://edfclimatecorps.org/sites/edfclimatecorps.org/files/Final-Deliverables-Instructions.pdf</value>
+        <value>https://library.edf.org/AssetLink/44l35351mv43unppm7x775w3s488lgrs.pdf</value>
     </labels>
     <labels>
         <fullName>PortalDeliverable_FileUrl_FinalDeliverableInstructions_CN</fullName>
@@ -1115,7 +1115,7 @@ To do so, select your preferred projects by opening the project description and 
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>PortalDeliverable_LinkLabel_ClickHereToComplete</shortDescription>
-        <value>Survey available here</value>
+        <value>Instructions available here.</value>
     </labels>
     <labels>
         <fullName>PortalDeliverable_LinkLabel_CompletePreWork</fullName>
