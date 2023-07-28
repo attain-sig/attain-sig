@@ -5,7 +5,7 @@
         <name>addOpportunityAllocationsMC</name>
         <label>addOpportunityAllocationsMC</label>
         <locationX>270</locationX>
-        <locationY>1271</locationY>
+        <locationY>1163</locationY>
         <assignmentItems>
             <assignToReference>updatedOpportunityAllocationsMC</assignToReference>
             <operator>Add</operator>
@@ -21,7 +21,7 @@
         <name>addOpportunityAllocationsUSD</name>
         <label>addOpportunityAllocationsUSD</label>
         <locationX>754</locationX>
-        <locationY>935</locationY>
+        <locationY>863</locationY>
         <assignmentItems>
             <assignToReference>UpdatedOpportunityAllocationsUSD</assignToReference>
             <operator>Add</operator>
@@ -38,7 +38,7 @@
         <name>AssignMCAllocationValues</name>
         <label>AssignMCAllocationValues</label>
         <locationX>270</locationX>
-        <locationY>1151</locationY>
+        <locationY>1055</locationY>
         <assignmentItems>
             <assignToReference>loopOpportunityAllocationsMC.Allocation_USD_Expected_Amount__c</assignToReference>
             <operator>Assign</operator>
@@ -69,7 +69,7 @@
         <name>AssignUSDAllocationValues</name>
         <label>AssignUSDAllocationValues</label>
         <locationX>754</locationX>
-        <locationY>815</locationY>
+        <locationY>755</locationY>
         <assignmentItems>
             <assignToReference>loopOpportunityAllocationsUSD.Allocation_USD_Expected_Amount__c</assignToReference>
             <operator>Assign</operator>
@@ -99,7 +99,7 @@
         <name>isCurrencyUSD</name>
         <label>isCurrencyUSD</label>
         <locationX>424</locationX>
-        <locationY>455</locationY>
+        <locationY>431</locationY>
         <defaultConnector>
             <targetReference>USD_Update_Opportunity_Values</targetReference>
         </defaultConnector>
@@ -124,7 +124,7 @@
         <name>Opportunity_Open_or_Closed</name>
         <label>Opportunity Open or Closed?</label>
         <locationX>182</locationX>
-        <locationY>575</locationY>
+        <locationY>539</locationY>
         <defaultConnector>
             <targetReference>getExchangeRateOpen</targetReference>
         </defaultConnector>
@@ -159,7 +159,7 @@
             <label>Opportunity Closed</label>
         </rules>
     </decisions>
-    <description>Multi Currency Flow 3 - This Flow fires when an Opportunity is updated and pushes updates to related GAU Allocation Records (Optimized)</description>
+    <description>Remove exclusion for &quot;Received&quot; opps.</description>
     <environments>Default</environments>
     <formulas>
         <name>AllocationAmountxOpportunityProb</name>
@@ -252,7 +252,7 @@ OR(
         <name>loopOpportunityAllocationsMC</name>
         <label>loopOpportunityAllocationsMC</label>
         <locationX>182</locationX>
-        <locationY>1031</locationY>
+        <locationY>947</locationY>
         <collectionReference>getOpportunityAllocations_0</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -266,7 +266,7 @@ OR(
         <name>loopOpportunityAllocationsUSD</name>
         <label>loopOpportunityAllocationsUSD</label>
         <locationX>666</locationX>
-        <locationY>695</locationY>
+        <locationY>647</locationY>
         <collectionReference>getOpportunityAllocations_0</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -299,7 +299,7 @@ OR(
         <name>getExchangeRateClosed</name>
         <label>getExchangeRateClosed</label>
         <locationX>50</locationX>
-        <locationY>695</locationY>
+        <locationY>647</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>MC_Closed_Update_Oppty_Values_0</targetReference>
@@ -327,7 +327,7 @@ OR(
         <name>getExchangeRateOpen</name>
         <label>getExchangeRateOpen</label>
         <locationX>314</locationX>
-        <locationY>695</locationY>
+        <locationY>647</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>MC_Open_Update_Oppty_Values</targetReference>
@@ -355,7 +355,7 @@ OR(
         <name>getOpportunityAllocations_0</name>
         <label>getOpportunityAllocations</label>
         <locationX>424</locationX>
-        <locationY>335</locationY>
+        <locationY>323</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>isCurrencyUSD</targetReference>
@@ -376,7 +376,7 @@ OR(
         <name>MC_Closed_Update_Oppty_Values_0</name>
         <label>MC Closed Update Oppty Values</label>
         <locationX>50</locationX>
-        <locationY>815</locationY>
+        <locationY>755</locationY>
         <connector>
             <targetReference>loopOpportunityAllocationsMC</targetReference>
         </connector>
@@ -404,7 +404,7 @@ OR(
         <name>MC_Open_Update_Oppty_Values</name>
         <label>MC Open Update Oppty Values</label>
         <locationX>314</locationX>
-        <locationY>815</locationY>
+        <locationY>755</locationY>
         <connector>
             <targetReference>loopOpportunityAllocationsMC</targetReference>
         </connector>
@@ -420,21 +420,21 @@ OR(
         <name>updateMCAllocationValues</name>
         <label>updateMCAllocationValues</label>
         <locationX>182</locationX>
-        <locationY>1487</locationY>
+        <locationY>1355</locationY>
         <inputReference>updatedOpportunityAllocationsMC</inputReference>
     </recordUpdates>
     <recordUpdates>
         <name>updateUSDAllocationValues</name>
         <label>updateUSDAllocationValues</label>
         <locationX>666</locationX>
-        <locationY>1151</locationY>
+        <locationY>1055</locationY>
         <inputReference>UpdatedOpportunityAllocationsUSD</inputReference>
     </recordUpdates>
     <recordUpdates>
         <name>USD_Update_Opportunity_Values</name>
         <label>USD Update Opportunity Values</label>
         <locationX>666</locationX>
-        <locationY>575</locationY>
+        <locationY>539</locationY>
         <connector>
             <targetReference>loopOpportunityAllocationsUSD</targetReference>
         </connector>
@@ -460,11 +460,7 @@ OR(
         </connector>
         <filterFormula>AND(
  {!$Permission.Flow_Automations_Off}=FALSE,
- AND(
-   NOT(ISPICKVAL({!$Record__Prior.StageName}, &quot;Received&quot;)),
-   NOT(ISPICKVAL({!$Record__Prior.StageName}, &quot;Received as Unconditional Pledge&quot;)),
-   NOT(ISPICKVAL({!$Record__Prior.StageName}, &quot;Received as Conditional Pledge&quot;))
-  ),
+
  OR(   
         {!$Record.Amount}&lt;&gt;{!$Record__Prior.Amount},
         {!$Record.Probability}&lt;&gt; {!$Record__Prior.Probability},
