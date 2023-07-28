@@ -3,7 +3,7 @@
     <fullName>Purpose__c</fullName>
     <description>Created as a part of 2023 R4 enhancements (US-717, 868). Used for GP Fund Request and Grant Approval Cases; manually entered by the submitter using language from Agreement.</description>
     <externalId>false</externalId>
-    <inlineHelpText>Language from agreement if available.</inlineHelpText>
+    <inlineHelpText>High-level overview of purpose of award.</inlineHelpText>
     <label>Purpose</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
