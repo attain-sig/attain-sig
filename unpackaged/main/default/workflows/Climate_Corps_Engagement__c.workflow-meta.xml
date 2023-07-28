@@ -66,7 +66,7 @@
             <type>userLookup</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>ClimateCorpsEngagements/Engagement_Fellowship_Start_and_or_End_Date_Changed_1677073600694</template>
+        <template>ClimateCorpsEngagement/Engagement_Fellowship_Start_and_or_End_Date_Changed_1677073600694</template>
     </alerts>
     <alerts>
         <fullName>Matching_offer_to_work</fullName>
@@ -88,6 +88,6 @@
             <type>userLookup</type>
         </recipients>
         <senderType>CurrentUser</senderType>
-        <template>ClimateCorpsEngagements/Engagement_Confirmed_Work_Authorization_Email_Notification_1676914619618</template>
+        <template>ClimateCorpsEngagement/Engagement_Confirmed_Work_Authorization_Email_Notification_1676914619618</template>
     </alerts>
 </Workflow>
