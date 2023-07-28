@@ -16,19 +16,36 @@
         <field>CDF1</field>
     </columns>
     <customDetailFormulas>
-        <calculatedFormula>IF(abacus__Ledger_Entry__c.Opportunity_Natural_Code__c = abacus__Ledger_Entry__c.OpportunityNaturalCode__c, &quot;Match&quot;, &quot;Mismatch&quot;)</calculatedFormula>
+        <calculatedFormula>IF(abacus__Ledger_Entry__c.Opportunity_Natural_Code__c = abacus__Ledger_Entry__c.OpportunityNaturalCode__c, &quot;&quot;, &quot;Mismatch&quot;)</calculatedFormula>
         <dataType>Text</dataType>
         <developerName>CDF1</developerName>
         <label>Match/Mismatch</label>
         <scale>2</scale>
     </customDetailFormulas>
+    <filter>
+        <criteriaItems>
+            <column>abacus__Ledger_Entry__c.Opportunity_Natural_Code__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CDF1</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
     <format>Summary</format>
     <groupingsDown>
         <dateGranularity>Day</dateGranularity>
         <field>abacus__Ledger_Entry__c.abacus__Opportunity__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>LEs created today</name>
+    <name>LEs mismatched opp nat codes</name>
     <params>
         <name>co</name>
         <value>1</value>
@@ -37,9 +54,9 @@
     <scope>organization</scope>
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
-    <showSubTotals>true</showSubTotals>
-    <sortColumn>CDF1</sortColumn>
-    <sortOrder>Asc</sortOrder>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>CUST_CREATED_DATE</sortColumn>
+    <sortOrder>Desc</sortOrder>
     <timeFrameFilter>
         <dateColumn>CUST_CREATED_DATE</dateColumn>
         <endDate>2023-07-28</endDate>
