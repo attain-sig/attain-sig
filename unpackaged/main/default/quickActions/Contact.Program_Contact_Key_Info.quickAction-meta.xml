@@ -22,8 +22,8 @@
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>MailingAddress</field>
-                <uiBehavior>Edit</uiBehavior>
+                <field>Affiliation_Relationship_Manager__c</field>
+                <uiBehavior>Readonly</uiBehavior>
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
         <quickActionLayoutColumns>
@@ -44,8 +44,8 @@
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>Affiliation_Relationship_Manager__c</field>
-                <uiBehavior>Readonly</uiBehavior>
+                <field>MailingAddress</field>
+                <uiBehavior>Edit</uiBehavior>
             </quickActionLayoutItems>
         </quickActionLayoutColumns>
     </quickActionLayout>

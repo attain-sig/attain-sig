@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <excludeButtons>DataDotComClean</excludeButtons>
     <excludeButtons>DisableCustomerPortal</excludeButtons>
     <excludeButtons>DisablePartnerPortal</excludeButtons>
     <excludeButtons>DisablePrmSuperUser</excludeButtons>
@@ -7,7 +8,6 @@
     <excludeButtons>EnablePrmSuperUser</excludeButtons>
     <excludeButtons>EnableSelfService</excludeButtons>
     <excludeButtons>RequestUpdate</excludeButtons>
-    <excludeButtons>RequestUseSfdc</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <excludeButtons>ViewPartnerPortalUser</excludeButtons>
     <excludeButtons>ViewSelfService</excludeButtons>
@@ -829,10 +829,10 @@
     <relatedLists>
         <fields>NAME</fields>
         <fields>Account.NAME</fields>
+        <fields>Account.Account_Primary_Handler__c</fields>
         <fields>Affiliation_Type__c</fields>
         <fields>npe5__Status__c</fields>
         <fields>npe5__Primary__c</fields>
-        <fields>Account.Account_Primary_Handler__c</fields>
         <fields>npe5__Role__c</fields>
         <relatedList>npe5__Affiliation__c.npe5__Contact__c</relatedList>
         <sortField>npe5__Status__c</sortField>
