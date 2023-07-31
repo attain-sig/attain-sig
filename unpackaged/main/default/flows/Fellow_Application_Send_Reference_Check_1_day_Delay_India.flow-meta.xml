@@ -1,10 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
+        <name>Copy_1_of_Send_Reference_Email_1</name>
+        <label>Copy 1 of Send Reference Email 1</label>
+        <locationX>50</locationX>
+        <locationY>276</locationY>
+        <actionName>SendBetterEmail</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>orgWideEmailAddressId</name>
+        </inputParameters>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>replyEmailAddress</name>
+            <value>
+                <stringValue>pmishra@edf.org</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderDisplayName</name>
+            <value>
+                <stringValue>EDF Climate Corps</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>SendTOthisOneEmailAddress</name>
+            <value>
+                <elementReference>RefEmail1</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>templateID</name>
+            <value>
+                <elementReference>ReferenceCheckTemplate1</elementReference>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
         <name>Reference_1_India</name>
         <label>Reference 1 India</label>
-        <locationX>308</locationX>
-        <locationY>276</locationY>
+        <locationX>314</locationX>
+        <locationY>384</locationY>
         <actionName>Fellow_Application__c.Reference_1_India</actionName>
         <actionType>emailAlert</actionType>
         <connector>
@@ -21,8 +64,8 @@
     <actionCalls>
         <name>Reference_2_India</name>
         <label>Reference 2 India</label>
-        <locationX>308</locationX>
-        <locationY>384</locationY>
+        <locationX>314</locationX>
+        <locationY>492</locationY>
         <actionName>Fellow_Application__c.Reference_2_India</actionName>
         <actionType>emailAlert</actionType>
         <connector>
@@ -39,8 +82,8 @@
     <actionCalls>
         <name>Reference_3_India</name>
         <label>Reference 3 India</label>
-        <locationX>308</locationX>
-        <locationY>492</locationY>
+        <locationX>314</locationX>
+        <locationY>600</locationY>
         <actionName>Fellow_Application__c.Reference_3_India</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -50,6 +93,55 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Reference_Email_1</name>
+        <label>Send Reference Email 1</label>
+        <locationX>314</locationX>
+        <locationY>276</locationY>
+        <actionName>SendBetterEmail</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Reference_1_India</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>orgWideEmailAddressId</name>
+            <value>
+                <stringValue>edfclimatecorps.apply@edf.org</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>replyEmailAddress</name>
+            <value>
+                <stringValue>pmishra@edf.org</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderDisplayName</name>
+            <value>
+                <stringValue>EDF Climate Corps</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>SendTOthisOneEmailAddress</name>
+            <value>
+                <elementReference>RefEmail1</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>templateID</name>
+            <value>
+                <elementReference>ReferenceCheckTemplate1</elementReference>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <description>1 day delay. Sends reference check email for India applicants.</description>
@@ -76,8 +168,11 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <start>
-        <locationX>50</locationX>
+        <locationX>56</locationX>
         <locationY>0</locationY>
+        <connector>
+            <targetReference>Copy_1_of_Send_Reference_Email_1</targetReference>
+        </connector>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
 &amp;&amp;
@@ -92,7 +187,7 @@ ispickval({!$Record.Fellowship_Applying_for__c}, &quot;India Fellowship&quot;)</
         <scheduledPaths>
             <name>Wait_1_Days</name>
             <connector>
-                <targetReference>Reference_1_India</targetReference>
+                <targetReference>Send_Reference_Email_1</targetReference>
             </connector>
             <label>Wait 1 Day</label>
             <offsetNumber>1</offsetNumber>
@@ -101,5 +196,85 @@ ispickval({!$Record.Fellowship_Applying_for__c}, &quot;India Fellowship&quot;)</
         </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
+    <variables>
+        <name>orgwideemail</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>edfclimatecorps.apply@edf.org</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <elementReference>$Record.Id</elementReference>
+        </value>
+    </variables>
+    <variables>
+        <name>RefEmail1</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <elementReference>$Record.Reference_Email_1__c</elementReference>
+        </value>
+    </variables>
+    <variables>
+        <name>RefEmail2</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <elementReference>$Record.Reference_Email_2__c</elementReference>
+        </value>
+    </variables>
+    <variables>
+        <name>RefEmail3</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <elementReference>$Record.Reference_Email_3__c</elementReference>
+        </value>
+    </variables>
+    <variables>
+        <name>ReferenceCheckTemplate1</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>00X7d000001L9wfEAC</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>ReferenceCheckTemplate2</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>00X7d000001L9wkEAC</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>ReferenceCheckTemplate3</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>00X7d000001L9wlEAC</stringValue>
+        </value>
+    </variables>
 </Flow>

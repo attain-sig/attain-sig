@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Access to drag and drop builder for email templates.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>EDF Drag &amp; Drop Content Builder</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AccessContentBuilder</name>
+    </userPermissions>
+</PermissionSet>

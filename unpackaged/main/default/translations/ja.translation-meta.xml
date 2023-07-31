@@ -816,6 +816,150 @@
         <name>emailname</name>
     </customLabels>
     <customLabels>
+        <label><!-- AccessLevel --></label>
+        <name>fsc_AccessLevel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Back --></label>
+        <name>fsc_Back</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ButtonIsNotSupportedMessage --></label>
+        <name>fsc_ButtonIsNotSupportedMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ConditionLogicHelpText --></label>
+        <name>fsc_ConditionLogicHelpText</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete --></label>
+        <name>fsc_Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FieldIsNotSupportedMessage --></label>
+        <name>fsc_FieldIsNotSupportedMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- fsc_FieldTypeNotSuportedMessage --></label>
+        <name>fsc_FieldTypeNotSuportedMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- For --></label>
+        <name>fsc_For</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Key Label --></label>
+        <name>fsc_Key_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LackingPermissions --></label>
+        <name>fsc_LackingPermissions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ManagerEmptyMessage --></label>
+        <name>fsc_ManagerEmptyMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MultipleGroupsForRole --></label>
+        <name>fsc_MultipleGroupsForRole</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name --></label>
+        <name>fsc_Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NonePicklistValueLabel --></label>
+        <name>fsc_NonePicklistValueLabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OWDReadWrite --></label>
+        <name>fsc_OWDReadWrite</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OwnerAdminModify --></label>
+        <name>fsc_OwnerAdminModify</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PublicGroups --></label>
+        <name>fsc_PublicGroups</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Queues --></label>
+        <name>fsc_Queues</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Read --></label>
+        <name>fsc_Read</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReadWrite --></label>
+        <name>fsc_ReadWrite</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reason --></label>
+        <name>fsc_Reason</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RelatedUsers --></label>
+        <name>fsc_RelatedUsers</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Roles --></label>
+        <name>fsc_Roles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search in --></label>
+        <name>fsc_Search</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SearchFor --></label>
+        <name>fsc_SearchFor</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SetAccessLevel --></label>
+        <name>fsc_SetAccessLevel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SupportedAddCapabilitiesEmptyMessage --></label>
+        <name>fsc_SupportedAddCapabilitiesEmptyMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SupportedButtonsEmptyMessage --></label>
+        <name>fsc_SupportedButtonsEmptyMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SupportedEditCapabilitiesEmptyMessage --></label>
+        <name>fsc_SupportedEditCapabilitiesEmptyMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TooManyResultsMessage --></label>
+        <name>fsc_TooManyResultsMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Type --></label>
+        <name>fsc_Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UserOrGroup --></label>
+        <name>fsc_UserOrGroup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Users --></label>
+        <name>fsc_Users</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Value Label --></label>
+        <name>fsc_Value_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NoSearchResultsMessage --></label>
+        <name>sremailNoSearchResultsMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search existing Flow resources --></label>
+        <name>sremailSearchMembers</name>
+    </customLabels>
+    <customLabels>
         <label><!-- streetname1 --></label>
         <name>streetname1</name>
     </customLabels>
@@ -1528,6 +1672,391 @@
         <fullName>Run_Case_Assignment</fullName>
     </flowDefinitions>
     <flowDefinitions>
+        <flows>
+            <choices>
+                <name>whichExampleChoice1</name>
+            </choices>
+            <choices>
+                <name>whichExampleChoice2</name>
+            </choices>
+            <choices>
+                <name>whichExampleChoice3</name>
+            </choices>
+            <choices>
+                <name>whichExampleChoice4</name>
+            </choices>
+            <choices>
+                <name>whichExampleChoice5</name>
+            </choices>
+            <choices>
+                <name>whichExampleChoice6</name>
+            </choices>
+            <choices>
+                <name>whichExampleChoice7</name>
+            </choices>
+            <choices>
+                <name>whichExampleChoice8</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>Choose_Example</name>
+                </fields>
+                <fields>
+                    <name>SelectExampleInstructions</name>
+                </fields>
+                <name>Choose_Example_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>multiple</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>recordId</name>
+                        <value />
+                    </inputParameters>
+                    <name>file_apload_sc</name>
+                </fields>
+                <name>File_Upload_to_Attach</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Example3Details</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value />
+                    </inputParameters>
+                    <name>X3_Reply_To_Email_Address</name>
+                </fields>
+                <fields>
+                    <name>X3_Screen_Sender_Name</name>
+                </fields>
+                <fields>
+                    <name>X3_Screen_Subject</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>disabled</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>readonly</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value />
+                    </inputParameters>
+                    <name>X3_ToEmailaAdress</name>
+                </fields>
+                <name>Get_Simple_Email_Fields_Attachments</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>dispResults</name>
+                </fields>
+                <name>ScreenConsole1</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Example1Details</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>disabled</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>readonly</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value />
+                    </inputParameters>
+                    <name>X1_Screen_Email_To</name>
+                </fields>
+                <fields>
+                    <name>X1_Screen_HTML_Body</name>
+                </fields>
+                <fields>
+                    <name>X1_Screen_MessageId</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value />
+                    </inputParameters>
+                    <name>X1_Screen_Reply_To_Email_Address</name>
+                </fields>
+                <fields>
+                    <name>X1_Screen_Sender_Name</name>
+                </fields>
+                <fields>
+                    <name>X1_Screen_Subject</name>
+                </fields>
+                <name>X1_Get_Simple_Email_Fields</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Example2Details</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value />
+                    </inputParameters>
+                    <name>X2_Reply_To_Email_Address</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>disabled</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>readonly</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value />
+                    </inputParameters>
+                    <name>X2_Screen_EmailAddress_1</name>
+                </fields>
+                <fields>
+                    <name>X2_Screen_HTML_Body</name>
+                </fields>
+                <fields>
+                    <name>X2_Screen_Sender_Name</name>
+                </fields>
+                <fields>
+                    <name>X2_Screen_Subject</name>
+                </fields>
+                <fields>
+                    <name>X2_Screen_Test_Contact_Recipient_Contains</name>
+                </fields>
+                <fields>
+                    <name>X2_Screen_Test_User_Recipient_Contains</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>readonly</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value />
+                    </inputParameters>
+                    <name>X2_Screen_ToEmailAddress2</name>
+                </fields>
+                <name>X2_Get_Simple_Email_Fields_Collections</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Example4Details</name>
+                </fields>
+                <fields>
+                    <name>X4_Related_RecordType</name>
+                    <validationRule />
+                </fields>
+                <fields>
+                    <name>X4_Screen_Email_Template_Name</name>
+                </fields>
+                <fields>
+                    <name>X4_Screen_Related_RecordId</name>
+                    <validationRule />
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value />
+                    </inputParameters>
+                    <name>X4_Screen_Reply_To_Email_Address</name>
+                </fields>
+                <fields>
+                    <name>X4_Screen_Sender_Name</name>
+                </fields>
+                <fields>
+                    <name>X4_Screen_Template_RecordId</name>
+                </fields>
+                <fields>
+                    <name>X4_Screen_Template_Target_Record_Id</name>
+                </fields>
+                <name>X4_Email_Using_Template</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Example5Details</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value />
+                    </inputParameters>
+                    <name>X5_Reply_To_Email_Address</name>
+                </fields>
+                <fields>
+                    <name>X5_Screen_Related_Record_Id_for_testing_merge_fields_5</name>
+                </fields>
+                <fields>
+                    <name>X5_Screen_Related_Record_Type</name>
+                </fields>
+                <fields>
+                    <name>X5_Screen_Sender_Name</name>
+                </fields>
+                <fields>
+                    <name>X5_Screen_Template_Language</name>
+                </fields>
+                <fields>
+                    <name>X5_Screen_Template_Name</name>
+                </fields>
+                <fields>
+                    <name>X5_Screen_Template_Target_Record_Id</name>
+                </fields>
+                <name>X5_Multi_Lingual_Using_Email_Templates</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Example6Details</name>
+                </fields>
+                <fields>
+                    <name>X6_Finished_Message_Description</name>
+                </fields>
+                <fields>
+                    <name>X6_Template_Name_Mass_Email</name>
+                </fields>
+                <name>X6_Mass_Email</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Example1Details_0</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>disabled</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>readonly</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value />
+                    </inputParameters>
+                    <name>X7_Screen_Email_To</name>
+                </fields>
+                <fields>
+                    <name>X7_Screen_HTML_Body</name>
+                </fields>
+                <fields>
+                    <name>X7_Screen_Sender_Name</name>
+                </fields>
+                <fields>
+                    <name>X7_Screen_Subject</name>
+                </fields>
+                <name>X7_Bulk_email_using_request_collection</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Example8Details</name>
+                </fields>
+                <fields>
+                    <name>MessageId_of_existing_email_if_this_is_InReplyTo</name>
+                </fields>
+                <fields>
+                    <name>X8_Screen_Email_Template_Name</name>
+                </fields>
+                <fields>
+                    <name>X8_Screen_Recipient_Record_ID</name>
+                </fields>
+                <fields>
+                    <name>X8_Screen_Related_RecordId</name>
+                    <validationRule />
+                </fields>
+                <fields>
+                    <name>X8_Screen_Related_RecordType</name>
+                    <validationRule />
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value />
+                    </inputParameters>
+                    <name>X8_Screen_Reply_To_Email_Address</name>
+                </fields>
+                <fields>
+                    <name>X8_Screen_Sender_Name</name>
+                </fields>
+                <fields>
+                    <name>X8_Screen_Template_RecordId</name>
+                </fields>
+                <fields>
+                    <name>X8_Screen_Template_Target_Record_Id</name>
+                </fields>
+                <name>X8_Email_Using_Template</name>
+            </screens>
+            <textTemplates>
+                <name>HTMLTextTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>plainTextBody</name>
+            </textTemplates>
+        </flows>
+        <fullName>Send_Better_Email_Testflow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows />
         <fullName>Send_Email_Engagement_Confirmed_work_authorization_email_notifications</fullName>
     </flowDefinitions>
@@ -1606,6 +2135,53 @@
     <flowDefinitions>
         <flows />
         <fullName>User_Portal_User_Update_Con_Sub_Con_on_Related_Contact_After_Save</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Mass_Email_Subject</name>
+                </fields>
+                <fields>
+                    <name>Mass_Email_Template</name>
+                </fields>
+                <name>Modify_Mass_Email_Template</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>BlankLine</name>
+                </fields>
+                <fields>
+                    <name>en_US_Body_Template</name>
+                </fields>
+                <fields>
+                    <name>en_US_Description</name>
+                </fields>
+                <fields>
+                    <name>en_US_Subject</name>
+                </fields>
+                <fields>
+                    <name>es_MX_Description</name>
+                </fields>
+                <fields>
+                    <name>es_MX_HTML_Body</name>
+                </fields>
+                <fields>
+                    <name>es_MX_Subject</name>
+                </fields>
+                <name>Modify_Templates</name>
+            </screens>
+            <textTemplates>
+                <name>TemplateBodyHTMLMassEmail</name>
+            </textTemplates>
+            <textTemplates>
+                <name>TemplateBodyHTML_en_US</name>
+            </textTemplates>
+            <textTemplates>
+                <name>TemplateBodyHTML_es_MX</name>
+            </textTemplates>
+        </flows>
+        <fullName>sendBetterEmail_Test_Create_Test_Templates_if_needed</fullName>
     </flowDefinitions>
     <quickActions>
         <label><!-- New Feedback --></label>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initialscale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <style type="text/css">@media screen and (max-width: 480px) {slot[style] {margin-right: 0 !important;}.columnDiv {margin-right: 0 !important;}}@media screen and (min-width: 480px) {slot[style] {margin-bottom: 0 !important;}.columnDiv {margin-bottom: 0 !important;}}</style>
+  <style type="text/css">@media screen and (max-width: 480px) {.contentbuilderBaseColumnRow .columnCell {display:inline-block;width:100%}}</style>
+  <style type="text/css">.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 600px;}@media only screen and (max-width: 480px) {.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 320px;}}</style>
+ </head>
+ <body>
+  <table class="contentpageDefaultEmailTemplatePageTemplate" style="background-color: #E9EAEC;" role="presentation" id="contentpage_emailTemplateBodyContent" width="100%" cellpadding="0" cellspacing="0">
+   <tbody>
+    <tr>
+     <td width="100%" align="center">
+      <table class="contentRoot" style="background-color: #FFFFFF;" role="presentation" width="600" cellpadding="0" cellspacing="0">
+       <tbody>
+        <tr>
+         <td style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+          <table class="contentbuilderBaseColumnRow" style="align-items: flex-start; width: 100%; background-color:;" role="presentation" width="100%" cellpadding="0" cellspacing="0">
+           <tbody>
+            <tr valign="top">
+             <td width="100%" class="columnCell" style="vertical-align: top;display: inline-block; float:left">
+              <table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+               <tbody>
+                <tr>
+                 <td>
+                  <table style="width:100%; border-collapse: collapse; word-break:break-word;" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   <tbody>
+                    <tr>
+                     <td align="left"><img style="width: 100%; display: block; border: none; max-width: 80%; object-fit: contain;" src="{[devName:EDFClimateCorps_webRGB_20221]}" alt="" width="480" /></td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+               </tbody>
+              </table></td>
+            </tr>
+           </tbody>
+          </table>
+          <table class="contentbuilderBaseColumnRow" style="align-items: flex-start; width: 100%; background-color:;" role="presentation" width="100%" cellpadding="0" cellspacing="0">
+           <tbody>
+            <tr valign="top">
+             <td width="100%" class="columnCell" style="vertical-align: top;display: inline-block; float:left">
+              <table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+               <tbody>
+                <tr>
+                 <td>
+                  <table style="width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   <tbody>
+                    <tr>
+                     <td style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size:16px"><span style="background:white"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><span style="font-size:10pt"><span style="font-family:Verdana, sans-serif">Dear {{{Fellow_Application__c.Reference_Name_2__c}}},<br /><br /> {{{Fellow_Application__c.Applicant_Full_Name__c}}} listed you as a reference for Environmental Defense Fund’s Climate Corps summer fellowship program. Climate Corps places specially-trained graduate students in leading companies, cities and universities to advance climate solutions.</span></span></span></span></span></span></span></span></span></span></span></span></span><br /><span style="font-size:16px"><span style="background:white"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial">&nbsp;</span></span></span></span></span></span></span></span></span></span></span><br /><span style="font-size:16px"><span style="background:white"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><span style="font-size:10pt"><span style="font-family:Verdana, sans-serif">Could you kindly complete and submit the questions in the link below within two weeks? It should take about 15 minutes of your time.</span></span></span></span></span></span></span></span></span></span></span></span></span><br /><span style="font-size:16px"><span style="background:white"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial">&nbsp;</span></span></span></span></span></span></span></span></span></span></span><br /><span style="font-size:16px"><span style="background:white"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><span style="font-size:10pt"><span style="font-family:Verdana, sans-serif">Climate Corps fellows are selected based on their project management and leadership skills, and their ability to do technical and financial analyses. For more information on our selection criteria, please visit our&nbsp;</span></span><span style="font-size:10pt"><a href="https://business.edf.org/insights/program-details/"><span style="font-family:Verdana, sans-serif"><span style="color:blue">website</span></span></a></span><span style="font-size:10pt"><span style="font-family:Verdana, sans-serif">.</span></span></span></span></span></span></span></span></span></span></span></span></span><br /><br /><span style="font-size:16px"><span style="background:white"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><span style="font-size:10pt"><span style="font-family:Verdana, sans-serif">All responses are confidential and only for the purpose of considering a summer fellowship for Climate Corps. If you have any questions, please contact pmishra@edf.org.</span></span></span></span></span></span></span></span></span></span></span></span></span><br /><br /><a href="https://www.tfaforms.com/5078036?tfa_4={{{Fellow_Application__c.Id}}} ">Climate Corps Reference Check Forms&gt;&gt;</a><br /><br /><span style="font-size:16px"><span style="background:white"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><span style="font-size:10pt"><span style="font-family:Verdana, sans-serif">Thank you for supporting {{{Fellow_Application__c.Applicant_Full_Name__c}}} and Climate Corps. We typically move quickly in this hiring process and we look forward to your responses.</span></span></span></span></span></span></span></span></span></span></span></span></span><br /><br /><br /><span style="font-size:16px"><span style="color:#000000"><span style="font-family:arial"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-thickness:initial"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><span style="font-size:10pt"><span style="background:white"><span style="font-family:Verdana, sans-serif">Best,<br /> The Climate Corps Team</span></span></span></span></span></span></span></span></span></span></span></span></span><br /> &nbsp;</td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+               </tbody>
+              </table></td>
+            </tr>
+           </tbody>
+          </table></td>
+        </tr>
+       </tbody>
+      </table></td>
+    </tr>
+   </tbody>
+  </table>
+ </body>
+</html>

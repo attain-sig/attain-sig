@@ -11646,6 +11646,12 @@
         <layout>FlowOrchestrationWorkItem-Orchestration Work Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>FlowPersonalConfiguration__c-Flow Personal Configuration Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>FlowTableViewDefinition__c-FlowTableViewDefinition Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Individual-Individual Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
