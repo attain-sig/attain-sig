@@ -378,12 +378,12 @@
                 </chartSummary>
                 <componentType>Donut</componentType>
                 <decimalPrecision>0</decimalPrecision>
-                <displayUnits>Integer</displayUnits>
+                <displayUnits>Auto</displayUnits>
                 <drillEnabled>false</drillEnabled>
                 <drillToDetailEnabled>false</drillToDetailEnabled>
                 <enableHover>false</enableHover>
                 <expandOthers>true</expandOthers>
-                <groupingColumn>CONTACT</groupingColumn>
+                <groupingColumn>Contact$Name</groupingColumn>
                 <groupingSortProperties>
                     <groupingSorts>
                         <groupingLevel>g1</groupingLevel>
@@ -393,13 +393,13 @@
                 </groupingSortProperties>
                 <header>Individuals You Talk To The Most</header>
                 <legendPosition>Right</legendPosition>
-                <maxValuesDisplayed>10</maxValuesDisplayed>
-                <report>MCRMUserDynamicDashboardReports/Contacts_You_Talk_to_The_Most1</report>
+                <maxValuesDisplayed>25</maxValuesDisplayed>
+                <report>MCRMUserDynamicDashboardReports/MCRMT_Your_Most_Frequent_Contacts_3</report>
                 <showPercentage>false</showPercentage>
                 <showTotal>false</showTotal>
                 <showValues>false</showValues>
                 <sortBy>RowLabelAscending</sortBy>
-                <title>Last 90 days</title>
+                <title>Top 25 Last 120 Days</title>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
             <rowIndex>15</rowIndex>

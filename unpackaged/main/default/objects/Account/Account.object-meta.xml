@@ -230,7 +230,7 @@
     <compactLayoutAssignment>NPSP_Organization_Account</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>true</enableHistory>
-    <externalSharingModel>ReadWrite</externalSharingModel>
+    <externalSharingModel>Private</externalSharingModel>
     <profileSearchLayouts>
         <fields>ACCOUNT.NAME</fields>
         <fields>Account_Primary_Handler__c</fields>
@@ -342,5 +342,5 @@
         <searchResultsAdditionalFields>ACCOUNT.ADDRESS1_CITY</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.ADDRESS1_STATE</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
