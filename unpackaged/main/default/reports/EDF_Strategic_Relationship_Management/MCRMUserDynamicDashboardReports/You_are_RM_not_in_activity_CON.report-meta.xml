@@ -10,6 +10,12 @@
         <field>LAST_NAME</field>
     </columns>
     <columns>
+        <field>Contact.Employer_Lookup__c</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
         <field>Activity.Solicitor_1__c</field>
     </columns>
     <columns>
@@ -25,10 +31,13 @@
         <field>Activity.Solicitor_5__c</field>
     </columns>
     <columns>
-        <field>SUBJECT</field>
+        <field>Contact.Primary_Handler__c</field>
     </columns>
     <columns>
-        <field>Contact.Employer_Lookup__c</field>
+        <field>Contact.Additional_Handler1__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Additional_Handler_2__c</field>
     </columns>
     <filter>
         <criteriaItems>

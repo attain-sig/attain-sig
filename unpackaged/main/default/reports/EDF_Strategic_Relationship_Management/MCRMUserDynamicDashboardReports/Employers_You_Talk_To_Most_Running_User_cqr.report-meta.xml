@@ -4,14 +4,7 @@
         <field>SUBJECT</field>
     </columns>
     <filter>
-        <booleanFilter>1 AND 2 AND 3</booleanFilter>
-        <criteriaItems>
-            <column>Activity.Activity_Constituency__c</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>notEqual</operator>
-            <value>Development</value>
-        </criteriaItems>
+        <booleanFilter>1 AND 2</booleanFilter>
         <criteriaItems>
             <column>Activity.Solicitor_is_Current_User__c</column>
             <columnToColumn>false</columnToColumn>

@@ -24,6 +24,15 @@
     <columns>
         <field>Account.Activities$Solicitor_5__c</field>
     </columns>
+    <columns>
+        <field>Account$Account_Primary_Handler__c</field>
+    </columns>
+    <columns>
+        <field>Account$Additional_Handler_1__c</field>
+    </columns>
+    <columns>
+        <field>Account$Additional_Handler_2__c</field>
+    </columns>
     <filter>
         <criteriaItems>
             <column>Account$RecordType</column>
