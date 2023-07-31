@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initialscale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <style type="text/css">@media screen and (max-width: 480px) {slot[style] {margin-right: 0 !important;}.columnDiv {margin-right: 0 !important;}}@media screen and (min-width: 480px) {slot[style] {margin-bottom: 0 !important;}.columnDiv {margin-bottom: 0 !important;}}</style>
+  <style type="text/css">@media screen and (max-width: 480px) {.contentbuilderBaseColumnRow .columnCell {display:inline-block;width:100%}}</style>
+  <style type="text/css">.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 600px;}@media only screen and (max-width: 480px) {.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 320px;}}</style>
+ </head>
+ <body>
+  <table class="contentpageDefaultEmailTemplatePageTemplate" style="background-color: #E9EAEC;" role="presentation" id="contentpage_emailTemplateBodyContent" width="100%" cellpadding="0" cellspacing="0">
+   <tbody>
+    <tr>
+     <td width="100%" align="center">
+      <table class="contentRoot" style="background-color: #FFFFFF;" role="presentation" width="600" cellpadding="0" cellspacing="0">
+       <tbody>
+        <tr>
+         <td style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+          <table class="contentbuilderBaseColumnRow" style="align-items: flex-start; width: 100%; background-color:;" role="presentation" width="100%" cellpadding="0" cellspacing="0">
+           <tbody>
+            <tr valign="top">
+             <td width="100%" class="columnCell" style="vertical-align: top;display: inline-block; float:left">
+              <table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+               <tbody>
+                <tr>
+                 <td>
+                  <table style="width:100%; border-collapse: collapse; word-break:break-word;" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   <tbody>
+                    <tr>
+                     <td align="left"><img style="width: 100%; display: block; border: none; max-width: 70%; object-fit: fill;" src="{[devName:EDFClimateCorps_webRGB_20221]}" alt="" width="420" /></td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+                <tr>
+                 <td>
+                  <table style="width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   <tbody>
+                    <tr>
+                     <td style="font-family: Arial, Helvetica, sans-serif;">
+                      <table cellpadding="0" cellspacing="0" width="100%">
+                       <tbody>
+                        <tr valign="top">
+                         <td width="100%">
+                          <table cellpadding="0" cellspacing="0">
+                           <tbody>
+                            <tr>
+                             <td>
+                              <table cellpadding="0" cellspacing="0" id="contentRegion">
+                              <tbody>
+                              <tr>
+                              <td><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dear {{{Recipient.FirstName}}},<br /><br /> Are you ready to be a part of Climate Action by becoming a Climate Corps fellow?<br /><br /> The deadline for Round 1 of the Climate Corps Fellowship application is&nbsp;<b>August 20th at 11:59&nbsp;</b>pm IST.<br /><br /> We understand that you might be busy fine-tuning your application, and we're here to lend a helping hand with some valuable tips:</span></span>
+                              <ul>
+                              <li><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Showcase Relevant Experience:</b>&nbsp;Don't forget to highlight any professional work experience, internships, academic coursework, or volunteer engagements that align with the job description of the fellow.</span></span></li>
+                              <li><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Highlight Relevant Courses:</b>&nbsp;Let us know about any relevant courses you've taken or plan to take in the upcoming months.</span></span></li>
+                              <li><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><b>Personalize Your Cover Letter:&nbsp;</b>Explain how Climate Corps perfectly aligns with your career interests and reference specific experiences, whether professional or academic, that have prepared you for this fellowship.</span></span></li>
+                              </ul><br /><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Want to learn more about our projects to better determine how your skillset aligns with our work? Visit our Climate Corps </span></span><a href="http://edfclimatecorps.org/projects/results"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Project Database</span></span></a><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">.&nbsp;You can explore the types of projects our fellows have tackled and see which ones align with your skills.<br /><br /><b>Still have questions?</b>&nbsp;Email us at&nbsp;<a href="mailto:edfclimatecorps.apply@edf.org">edfclimatecorps.apply@edf.org</a>&nbsp;or&nbsp;<a href="mailto:argupta@edf.org">argupta@edf.org</a></span></span></td>
+                              </tr>
+                              </tbody>
+                              </table></td>
+                            </tr>
+                           </tbody>
+                          </table></td>
+                        </tr>
+                       </tbody>
+                      </table></td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+               </tbody>
+              </table></td>
+            </tr>
+           </tbody>
+          </table>
+          <table class="contentbuilderBaseColumnRow" style="align-items: flex-start; width: 100%; background-color:;" role="presentation" width="100%" cellpadding="0" cellspacing="0">
+           <tbody>
+            <tr valign="top">
+             <td width="100%" class="columnCell" style="vertical-align: top;display: inline-block; float:left">
+              <table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+               <tbody>
+                <tr>
+                 <td>
+                  <table style="border: 0; width: 100%; border-collapse: collapse; mso-table-lspace:0pt;mso-table-rspace:0pt;" locked="0">
+                   <tbody>
+                    <tr>
+                     <td style="padding-top: 10px;padding-bottom: 10px;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                      <div style="word-break:break-word; border: 0; mso-border-alt: 0; text-align:center; ">
+                       <div style="display: inline-block; border: 0; mso-border-alt: 0; ">
+                        <a style="direction:ltr;display:block;text-align:center;margin:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; padding-top: 10px;padding-right: 20px;padding-bottom: 10px;padding-left: 20px; color:#ffffff;font-weight:normal;font-style:normal;text-decoration:none;border:0;background-color:#0033cc;border-radius:50px;mso-padding-alt:0;" href="https://environmentaldefensefund.my.site.com/EDFCCFellowPortal/s/login" target="_blank"><!--[if mso]><i style="background-color:#0033cc; letter-spacing: 20px; mso-text-raise: 10px; mso-font-width: -100%;">&nbsp;</i><![endif]--><span>Complete Application</span><!--[if mso]><i style="background-color:#0033cc; letter-spacing: 20px; mso-text-raise: -10px; mso-font-width: -100%;">&nbsp;</i><![endif]--></a>
+                       </div>
+                      </div></td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+               </tbody>
+              </table></td>
+            </tr>
+           </tbody>
+          </table></td>
+        </tr>
+       </tbody>
+      </table></td>
+    </tr>
+   </tbody>
+  </table>
+ </body>
+</html>
