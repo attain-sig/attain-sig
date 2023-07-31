@@ -19,14 +19,8 @@
     <columns>
         <field>OPPORTUNITY_ID</field>
     </columns>
-    <crossFilters>
-        <operation>with</operation>
-        <primaryTableColumn>OPPORTUNITY_ID</primaryTableColumn>
-        <relatedTable>abacus__Ledger_Entry__c</relatedTable>
-        <relatedTableJoinColumn>abacus__Opportunity__c</relatedTableJoinColumn>
-    </crossFilters>
     <filter>
-        <booleanFilter>(1 OR 2) AND (3 OR 4) AND 5</booleanFilter>
+        <booleanFilter>(1 OR 2) AND (3 OR 4)</booleanFilter>
         <criteriaItems>
             <column>CLOSE_DATE</column>
             <columnToColumn>false</columnToColumn>
@@ -54,13 +48,6 @@
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
             <value></value>
-        </criteriaItems>
-        <criteriaItems>
-            <column>STAGE_NAME</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>notEqual</operator>
-            <value>Agreement in Negotiation,In-Kind Not Yet Received,In-Kind Received,Projected,Received as Conditional Pledge,Solicited,Verbally Committed</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
