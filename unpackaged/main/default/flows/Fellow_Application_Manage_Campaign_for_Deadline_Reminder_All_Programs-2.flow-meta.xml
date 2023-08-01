@@ -418,9 +418,9 @@
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; True
 &amp;&amp;
 
-ISNEW() &amp;&amp; ispickval({!$Record.Status__c}, &quot;Prospective Applicant&quot;) || ispickval({!$Record.Status__c}, &quot;Application Submitted&quot;)</filterFormula>
+ispickval({!$Record.Status__c}, &quot;Prospective Applicant&quot;) || ispickval({!$Record.Status__c}, &quot;Application Submitted&quot;)</filterFormula>
         <object>Fellow_Application__c</object>
-        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Obsolete</status>
