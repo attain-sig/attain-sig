@@ -79,15 +79,15 @@
                 <decimalPrecision>-1</decimalPrecision>
                 <displayUnits>Integer</displayUnits>
                 <drillDownUrl>https://environmentaldefensefund--full.sandbox.lightning.force.com/lightning/r/Report/00O8C000000OD82UAG/view?queryScope=userFolders</drillDownUrl>
-                <footer>(for all Mission staff, not just you.)</footer>
+                <footer>Search by your name or team</footer>
                 <groupingSortProperties />
-                <header>My Custom Reports</header>
+                <header>All Custom Reports</header>
                 <indicatorBreakpoint1>-4.0</indicatorBreakpoint1>
                 <indicatorBreakpoint2>1.0</indicatorBreakpoint2>
                 <indicatorHighColor>#00716B</indicatorHighColor>
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
-                <metricLabel>Click here to access any custom reports</metricLabel>
+                <metricLabel>Click on link then search</metricLabel>
                 <report>MCRMUserDynamicDashboardReports/Report_of_Mission_reports</report>
                 <showRange>false</showRange>
             </dashboardComponent>
@@ -107,13 +107,13 @@
                 <displayUnits>Auto</displayUnits>
                 <footer>(for all Mission staff, not just you.)</footer>
                 <groupingSortProperties />
-                <header>My Custom Dashboards</header>
+                <header>Team Dashboards</header>
                 <indicatorBreakpoint1>1.0</indicatorBreakpoint1>
                 <indicatorBreakpoint2>2.0</indicatorBreakpoint2>
                 <indicatorHighColor>#00716B</indicatorHighColor>
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
-                <metricLabel>Click here to access any cust. dashboard</metricLabel>
+                <metricLabel>Click on link then search by team</metricLabel>
                 <report>MCRMUserDynamicDashboardReports/New_Dashboards_Report</report>
                 <showRange>false</showRange>
             </dashboardComponent>
@@ -125,47 +125,25 @@
             <columnIndex>0</columnIndex>
             <dashboardComponent>
                 <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
-                <componentType>FlexTable</componentType>
-                <flexComponentProperties>
-                    <decimalPrecision>-1</decimalPrecision>
-                    <flexTableColumn>
-                        <reportColumn>DUE_DATE</reportColumn>
-                        <showSubTotal>false</showSubTotal>
-                        <showTotal>false</showTotal>
-                        <type>detail</type>
-                    </flexTableColumn>
-                    <flexTableColumn>
-                        <reportColumn>SUBJECT</reportColumn>
-                        <showSubTotal>false</showSubTotal>
-                        <showTotal>false</showTotal>
-                        <type>detail</type>
-                    </flexTableColumn>
-                    <flexTableColumn>
-                        <reportColumn>FIRST_NAME</reportColumn>
-                        <showSubTotal>false</showSubTotal>
-                        <showTotal>false</showTotal>
-                        <type>detail</type>
-                    </flexTableColumn>
-                    <flexTableColumn>
-                        <reportColumn>LAST_NAME</reportColumn>
-                        <showSubTotal>false</showSubTotal>
-                        <showTotal>false</showTotal>
-                        <type>detail</type>
-                    </flexTableColumn>
-                    <flexTableSortInfo>
-                        <sortColumn>DUE_DATE</sortColumn>
-                        <sortOrder>2</sortOrder>
-                    </flexTableSortInfo>
-                    <hideChatterPhotos>true</hideChatterPhotos>
-                </flexComponentProperties>
-                <footer>Optional - You may add notes by clicking on the subject line, then editing the description field.</footer>
+                <chartSummary>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Metric</componentType>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <footer>If someone else submits for you, this will be zero.</footer>
                 <groupingSortProperties />
-                <header>Your Recent Activities</header>
-                <report>MCRMUserDynamicDashboardReports/Your_Recent_Activities</report>
-                <title>Last 90 Days</title>
+                <header>Overdue Tasks</header>
+                <indicatorBreakpoint1>-1.0</indicatorBreakpoint1>
+                <indicatorBreakpoint2>0.0</indicatorBreakpoint2>
+                <indicatorHighColor>#00716B</indicatorHighColor>
+                <indicatorLowColor>#C23934</indicatorLowColor>
+                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
+                <report>MCRMUserDynamicDashboardReports/Activities_to_Submit_by_Running_User_jq6</report>
+                <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>5</rowIndex>
-            <rowSpan>8</rowSpan>
+            <rowSpan>4</rowSpan>
         </dashboardGridComponents>
         <dashboardGridComponents>
             <colSpan>4</colSpan>
@@ -252,7 +230,7 @@
                         <type>detail</type>
                     </flexTableColumn>
                     <flexTableSortInfo>
-                        <sortColumn>FIRST_NAME</sortColumn>
+                        <sortColumn>FK_NAME</sortColumn>
                         <sortOrder>1</sortOrder>
                     </flexTableSortInfo>
                     <hideChatterPhotos>true</hideChatterPhotos>
@@ -274,25 +252,47 @@
             <columnIndex>0</columnIndex>
             <dashboardComponent>
                 <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
-                <chartSummary>
-                    <column>RowCount</column>
-                </chartSummary>
-                <componentType>Metric</componentType>
-                <decimalPrecision>-1</decimalPrecision>
-                <displayUnits>Auto</displayUnits>
-                <footer>If someone else submits meetings for you, this will be zero.</footer>
+                <componentType>FlexTable</componentType>
+                <flexComponentProperties>
+                    <decimalPrecision>-1</decimalPrecision>
+                    <flexTableColumn>
+                        <reportColumn>DUE_DATE</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>SUBJECT</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>FIRST_NAME</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>LAST_NAME</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableSortInfo>
+                        <sortColumn>DUE_DATE</sortColumn>
+                        <sortOrder>2</sortOrder>
+                    </flexTableSortInfo>
+                    <hideChatterPhotos>true</hideChatterPhotos>
+                </flexComponentProperties>
+                <footer>Optional - You may add notes by clicking on the subject line, then editing the description field.</footer>
                 <groupingSortProperties />
-                <header>Overdue Tasks</header>
-                <indicatorBreakpoint1>-1.0</indicatorBreakpoint1>
-                <indicatorBreakpoint2>0.0</indicatorBreakpoint2>
-                <indicatorHighColor>#00716B</indicatorHighColor>
-                <indicatorLowColor>#C23934</indicatorLowColor>
-                <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
-                <report>MCRMUserDynamicDashboardReports/Activities_to_Submit_by_Running_User_jq6</report>
-                <showRange>false</showRange>
+                <header>Your Recent Activities</header>
+                <report>MCRMUserDynamicDashboardReports/Your_Recent_Activities</report>
+                <title>Last 90 Days</title>
             </dashboardComponent>
-            <rowIndex>13</rowIndex>
-            <rowSpan>4</rowSpan>
+            <rowIndex>9</rowIndex>
+            <rowSpan>8</rowSpan>
         </dashboardGridComponents>
         <dashboardGridComponents>
             <colSpan>4</colSpan>
@@ -332,7 +332,7 @@
                 <title>(Without You)</title>
             </dashboardComponent>
             <rowIndex>13</rowIndex>
-            <rowSpan>12</rowSpan>
+            <rowSpan>9</rowSpan>
         </dashboardGridComponents>
         <dashboardGridComponents>
             <colSpan>4</colSpan>
@@ -345,13 +345,13 @@
                     <column>RowCount</column>
                 </chartSummary>
                 <componentType>Donut</componentType>
-                <decimalPrecision>0</decimalPrecision>
-                <displayUnits>Integer</displayUnits>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
                 <drillEnabled>false</drillEnabled>
                 <drillToDetailEnabled>false</drillToDetailEnabled>
                 <enableHover>false</enableHover>
-                <expandOthers>false</expandOthers>
-                <groupingColumn>Contact.Employer_Lookup__c</groupingColumn>
+                <expandOthers>true</expandOthers>
+                <groupingColumn>FK_NAME</groupingColumn>
                 <groupingSortProperties>
                     <groupingSorts>
                         <groupingLevel>g1</groupingLevel>
@@ -359,18 +359,18 @@
                         <sortOrder>d</sortOrder>
                     </groupingSorts>
                 </groupingSortProperties>
-                <header>You Manage the Organization, But Not the Contact</header>
+                <header>You Manage the Organization But Not All Contacts</header>
                 <legendPosition>Right</legendPosition>
-                <maxValuesDisplayed>10</maxValuesDisplayed>
+                <maxValuesDisplayed>25</maxValuesDisplayed>
                 <report>MCRMUserDynamicDashboardReports/You_Manage_Org_But_Not_Contact</report>
                 <showPercentage>false</showPercentage>
                 <showTotal>false</showTotal>
-                <showValues>true</showValues>
+                <showValues>false</showValues>
                 <sortBy>RowLabelAscending</sortBy>
                 <useReportChart>false</useReportChart>
             </dashboardComponent>
             <rowIndex>13</rowIndex>
-            <rowSpan>12</rowSpan>
+            <rowSpan>9</rowSpan>
         </dashboardGridComponents>
         <dashboardGridComponents>
             <colSpan>4</colSpan>

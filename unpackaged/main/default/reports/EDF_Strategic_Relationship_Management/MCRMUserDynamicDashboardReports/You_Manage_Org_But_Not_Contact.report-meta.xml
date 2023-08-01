@@ -7,22 +7,12 @@
         <field>LAST_NAME</field>
     </columns>
     <columns>
-        <field>Contact.npsp__Primary_Affiliation__c</field>
-    </columns>
-    <columns>
-        <field>TITLE</field>
+        <field>npe5__Affiliation__c.npe5__Role__c</field>
     </columns>
     <columns>
         <field>Contact.Primary_Handler__c</field>
     </columns>
     <filter>
-        <criteriaItems>
-            <column>Contact.npsp__Primary_Affiliation__c</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>notEqual</operator>
-            <value></value>
-        </criteriaItems>
         <criteriaItems>
             <column>FK_$Account.RM_is_Current_User__c</column>
             <columnToColumn>false</columnToColumn>
@@ -37,13 +27,30 @@
             <operator>equals</operator>
             <value>0</value>
         </criteriaItems>
+        <criteriaItems>
+            <column>npe5__Affiliation__c.npe5__Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Current</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>npe5__Affiliation__c.Affiliation_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Employer/Employee</value>
+        </criteriaItems>
         <language>en_US</language>
     </filter>
     <format>Summary</format>
     <groupingsDown>
+        <aggregateType>RowCount</aggregateType>
         <dateGranularity>Day</dateGranularity>
-        <field>Contact.Employer_Lookup__c</field>
-        <sortOrder>Asc</sortOrder>
+        <field>FK_NAME</field>
+        <sortByName>RowCount</sortByName>
+        <sortOrder>Desc</sortOrder>
+        <sortType>Aggregate</sortType>
     </groupingsDown>
     <name>MCRMT: You Manage Org but Not Con</name>
     <params>
@@ -54,9 +61,11 @@
     <scope>organization</scope>
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
-    <showSubTotals>true</showSubTotals>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>LAST_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
     <timeFrameFilter>
-        <dateColumn>LAST_ACTIVITY</dateColumn>
+        <dateColumn>CREATED_DATE</dateColumn>
         <interval>INTERVAL_CUSTOM</interval>
     </timeFrameFilter>
 </Report>

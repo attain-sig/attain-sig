@@ -7,19 +7,15 @@
         <field>LAST_NAME</field>
     </columns>
     <columns>
-        <field>TITLE</field>
+        <field>npe5__Affiliation__c.npe5__Role__c</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
     </columns>
     <columns>
         <field>FK_$Account.Account_Primary_Handler__c</field>
     </columns>
     <filter>
-        <criteriaItems>
-            <column>Contact.npsp__Primary_Affiliation__c</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>notEqual</operator>
-            <value></value>
-        </criteriaItems>
         <criteriaItems>
             <column>Contact.RM_is_Current_User__c</column>
             <columnToColumn>false</columnToColumn>
@@ -34,14 +30,23 @@
             <operator>equals</operator>
             <value>0</value>
         </criteriaItems>
+        <criteriaItems>
+            <column>npe5__Affiliation__c.npe5__Status__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Current</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>npe5__Affiliation__c.Affiliation_Type__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Employer/Employee</value>
+        </criteriaItems>
         <language>en_US</language>
     </filter>
-    <format>Summary</format>
-    <groupingsDown>
-        <dateGranularity>Day</dateGranularity>
-        <field>Contact.npsp__Primary_Affiliation__c</field>
-        <sortOrder>Asc</sortOrder>
-    </groupingsDown>
+    <format>Tabular</format>
     <name>MCRMT: You Manage Con But Not Org</name>
     <params>
         <name>co</name>
@@ -51,7 +56,9 @@
     <scope>organization</scope>
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
-    <showSubTotals>true</showSubTotals>
+    <showSubTotals>false</showSubTotals>
+    <sortColumn>FK_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
     <timeFrameFilter>
         <dateColumn>LAST_ACTIVITY</dateColumn>
         <interval>INTERVAL_CUSTOM</interval>
