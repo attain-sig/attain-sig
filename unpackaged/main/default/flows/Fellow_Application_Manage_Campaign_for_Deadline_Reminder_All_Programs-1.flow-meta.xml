@@ -423,7 +423,7 @@ ISNEW() &amp;&amp; ispickval({!$Record.Status__c}, &quot;Prospective Applicant&q
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <description>All IDs of campaigns from get campaign</description>
         <name>AllCampaigns</name>
