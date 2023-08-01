@@ -25,16 +25,6 @@
       "componentName" : "forceCommunity:section",
       "id" : "f09fb4f6-1087-450d-8d79-df8f9525b0da",
       "regions" : [ {
-        "components" : [ {
-          "componentAttributes" : {
-            "courseWorkLabel" : "Please list any relevant course work, training, or certifications that you will have completed by the start of the fellowship."
-          },
-          "componentName" : "c:eDF15_EducationInformation",
-          "id" : "8314219e-8b63-481c-9061-f24650bc9b3f",
-          "renderPriority" : "NEUTRAL",
-          "renditionMap" : { },
-          "type" : "component"
-        } ],
         "id" : "511cd95c-a237-4603-a57c-47b8e7c42636",
         "regionLabel" : "Column 1",
         "regionName" : "1",

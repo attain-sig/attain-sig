@@ -96,28 +96,6 @@
               "type" : "component"
             }, {
               "componentAttributes" : {
-                "Undergraduatedegreeearned" : "Undergraduate Degree(s) earned, if not listed above",
-                "courseWorkLabel" : "Please list any relevant coursework, training, or certifications that you will have completed by the start of the fellowship.",
-                "expectedgraduationdate" : "Expected Graduation Date",
-                "graduatedegreeconcentration" : "Graduate Degree Concentration(s)",
-                "graduatedegreenotlisted" : "Graduate Degree(s), if not listed above",
-                "graduatedegreestartdate" : "Graduate Degree Start Date",
-                "graduateuniversity" : "Graduate University",
-                "isChild" : true,
-                "saveSuccessMessage" : "Education Information Saved!",
-                "saveSuccessTitle" : "",
-                "schooluniversitynotlisted" : "School / University, if not listed above",
-                "schoolwithinuniversity" : "School within University",
-                "underGraduateMajor" : "Undergraduate Major(s)",
-                "undergraduateuniversity" : "Undergraduate University, if not listed above",
-                "undergraduniversity" : "Undergraduate University"
-              },
-              "componentName" : "c:eDF15_EducationInformation",
-              "id" : "6adf4a38-91e3-4844-8f56-41d004e219b5",
-              "renditionMap" : { },
-              "type" : "component"
-            }, {
-              "componentAttributes" : {
                 "headingExperienceInfo" : "Please indicate your level of experience (None, Basic, Moderate, and Advanced) with the following project types.",
                 "helpTextUploadedIdentification" : "The following set of documents can be uploaded - (1) Voter Id (2) Aadhaar (3) Passport (4) Driver's License (5) Attested/Official College Id (with the dates of joining and ending mentioned)",
                 "isChild" : true,
@@ -153,60 +131,6 @@
               },
               "componentName" : "c:eDF16_BackgroundInformation",
               "id" : "9e5a92c9-9873-4f24-9cb4-668207d83980",
-              "renditionMap" : { },
-              "type" : "component"
-            }, {
-              "componentAttributes" : {
-                "charsAreasOfInterestOther" : "255",
-                "charsAvailabilityAdditional" : "255",
-                "isChild" : true,
-                "lblAreasOfInterestIndia" : "Areas of Interest",
-                "lblAreasOfInterestOther" : "Other Area of Interest",
-                "lblAvailabilityAdditionalDetails" : "List any additional detail about your availability during the fellowship period",
-                "lblAvailabilityEndDate" : "Latest Available Date to End",
-                "lblAvailabilityHeader" : "Availability",
-                "lblAvailabilityNote" : "Climate Corps Program requires your full-time commitment for the 8-12 weeks long fellowship project. Please indicate your availability between April-September for a full-time commitment to a Climate Corps fellowship project.",
-                "lblAvailabilityStartDate" : "Earliest Available Date to Start",
-                "lblProjectTypePreference" : "Project Type Preference",
-                "lblRegionalPreferenceIndia" : "Regional Preferences",
-                "saveSuccessMessage" : "Match Preferences Saved!",
-                "saveSuccessTitle" : "",
-                "showAreasOfInterest" : false,
-                "showAreasOfInterestIndia" : false,
-                "showAvailability" : false,
-                "showInterestForIndiaChina" : false,
-                "showProjectTypePreference" : false,
-                "showRegionsChina" : true,
-                "showRegionsIndia" : false
-              },
-              "componentName" : "c:eDF17_MatchPreferences",
-              "id" : "df87b2e5-e7dc-4dff-9e52-9f895f45723f",
-              "renditionMap" : { },
-              "type" : "component"
-            }, {
-              "componentAttributes" : {
-                "addReference1" : "Add Reference 1",
-                "addReference2" : "Add Reference 2",
-                "addReference3" : "Add Reference 3",
-                "additionalInformationIcon" : "Please add any additional information that is not already reflected in your application, cover letter, or resume that you would like the review team to know.",
-                "anyAdditionalInformation" : "Any Additional Information",
-                "contactInformationIcon" : "Please provide the contact information for three references, at least 2 of which are professional and 1 of which is a supervisor. References will be contacted via email during the interview phase. You will receive notice prior to your references being contacted.",
-                "coverLetterClimateCorps" : "Cover Letter",
-                "isChild" : true,
-                "levelOfExperienceCoverLetter" : "You may address your cover letter to the Climate Corps Team. Please describe any specific courses, qualifications, skills and experience (academic and professional) that have prepared you for the Climate Corps Fellowship. Finally, please describe how a Climate Corps fellowship will impact your career.",
-                "saveSuccessMessage" : "Cover Letter & Resume Saved!",
-                "saveSuccessTitle" : "",
-                "showReference1Phone" : true,
-                "showReference2Phone" : true,
-                "showReference3Phone" : true,
-                "titleReference1" : "Title",
-                "titleReference2" : "Title",
-                "titleReference3" : "Title",
-                "uploadResume" : "Upload Resume",
-                "uploadResumePdf" : "Upload your resume as a PDF document. To the extent possible, please customize your resume by highlighting relevant experience including professional work experience, internships, academic coursework, volunteer experience or other extracurricular. PDFs should not exceed 1 MB in size."
-              },
-              "componentName" : "c:eDF18_CoverLetter",
-              "id" : "25116b33-5aaa-4bcf-a0fd-71ce1f4356d7",
               "renditionMap" : { },
               "type" : "component"
             }, {

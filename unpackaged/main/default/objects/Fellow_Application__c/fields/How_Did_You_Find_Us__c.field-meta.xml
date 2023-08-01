@@ -52,11 +52,6 @@
                 <label>Word of Mouth from another source</label>
             </value>
             <value>
-                <fullName>Online Job postings (e.g, indeed.com, idealist.org, greenbiz.com)</fullName>
-                <default>false</default>
-                <label>Online Job postings (e.g, indeed.com, idealist.org, greenbiz.com)</label>
-            </value>
-            <value>
                 <fullName>National Black MBA Conference</fullName>
                 <default>false</default>
                 <label>National Black MBA Conference</label>
@@ -70,6 +65,11 @@
                 <fullName>Other (please specify)</fullName>
                 <default>false</default>
                 <label>Other (please specify)</label>
+            </value>
+            <value>
+                <fullName>Online Job postings</fullName>
+                <default>false</default>
+                <label>Online Job postings</label>
             </value>
         </valueSetDefinition>
     </valueSet>

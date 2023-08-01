@@ -21,33 +21,6 @@
     "regionName" : "header",
     "type" : "region"
   }, {
-    "components" : [ {
-      "componentAttributes" : {
-        "addReference1" : "Add Reference 1",
-        "addReference2" : "Add Reference 2",
-        "addReference3" : "Add Reference 3",
-        "additionalInformationIcon" : "Please add any additional information that is not already reflected in your application, cover letter, or resume that you would like the review team to know.",
-        "anyAdditionalInformation" : "Any Additional Information",
-        "contactInformationIcon" : "Please provide the contact information for three references, at least 2 of which are professional and 1 of which is a supervisor. References will be contacted via email during the interview phase. You will receive notice prior to your references being contacted.",
-        "coverLetterClimateCorps" : "Cover Letter",
-        "levelOfExperienceCoverLetter" : "You may address letter to the Climate Corps Team. Please describe any specific courses, qualifications, skills and experience (academic and professional) that have prepared you for the Climate Corps Fellowship. Finally, please describe how a Climate Corps fellowship will impact your career.",
-        "saveSuccessMessage" : "Please proceed to Review & Submit.",
-        "saveSuccessTitle" : "Cover Letter & Resume Saved!",
-        "showReference1Phone" : true,
-        "showReference2Phone" : true,
-        "showReference3Phone" : true,
-        "titleReference1" : "Job Title",
-        "titleReference2" : "Job Title",
-        "titleReference3" : "Job Title",
-        "uploadResume" : "Upload Resume",
-        "uploadResumePdf" : "Upload your resume as a PDF document. To the extent possible, please customize your resume by highlighting relevant experience including professional work experience, internships, academic coursework, volunteer experience or other extracurricular. PDFs should not exceed 1 MB in size."
-      },
-      "componentName" : "c:eDF18_CoverLetter",
-      "id" : "fe982df7-7dbd-4833-b429-33fd07c8e6a1",
-      "renderPriority" : "NEUTRAL",
-      "renditionMap" : { },
-      "type" : "component"
-    } ],
     "id" : "67fd0fe2-efb0-4f1f-9e48-a9afe7d94f63",
     "regionName" : "content",
     "type" : "region"

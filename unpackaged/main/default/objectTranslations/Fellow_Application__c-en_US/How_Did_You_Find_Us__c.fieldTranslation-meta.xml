@@ -27,8 +27,8 @@
             <translation><!-- National Black MBA Conference --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Online Job postings (e.g, indeed.com, idealist.org, greenbiz.com)</masterLabel>
-            <translation><!-- Online Job postings (e.g, indeed.com, idealist.org, greenbiz.com) --></translation>
+            <masterLabel>Online Job postings</masterLabel>
+            <translation><!-- Online Job postings --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Other (please specify)</masterLabel>

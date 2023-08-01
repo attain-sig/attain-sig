@@ -25,19 +25,6 @@
       "componentName" : "forceCommunity:section",
       "id" : "86993bea-6efb-45b8-9274-92b85bb9c51e",
       "regions" : [ {
-        "components" : [ {
-          "componentAttributes" : {
-            "anyAdditionalInformation" : "Any Additional Information",
-            "coverLetterClimateCorps" : "Cover Letter",
-            "uploadResume" : "Upload Resume",
-            "uploadResumePdf" : "Upload you resume as a PDF document. To the extent possible, please customize your resume by highlighting relevant experience including professional work experience, internships, academic coursework, volunteer experience or other extracurricular. PDFs should not exceed 1 MB in size."
-          },
-          "componentName" : "c:eDF18_CoverLetter",
-          "id" : "e0175542-0025-4fbe-adbf-e1940c7814b4",
-          "renderPriority" : "NEUTRAL",
-          "renditionMap" : { },
-          "type" : "component"
-        } ],
         "id" : "aae92d24-0e58-4055-b982-5802c84a5e0d",
         "regionLabel" : "Column 1",
         "regionName" : "1",

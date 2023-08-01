@@ -17,9 +17,9 @@
                 <label>Animal Agriculture</label>
             </value>
             <value>
-                <fullName>Climate Commitments (goal setting/reporting/GHG accounting)</fullName>
+                <fullName>Climate Commitments</fullName>
                 <default>false</default>
-                <label>Climate Commitments (goal setting/reporting/GHG accounting)</label>
+                <label>Climate Commitments</label>
             </value>
             <value>
                 <fullName>Environmental and Climate Justice</fullName>

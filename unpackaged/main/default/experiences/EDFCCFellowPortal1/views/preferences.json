@@ -25,16 +25,6 @@
       "componentName" : "forceCommunity:section",
       "id" : "7c777e31-3d84-4981-9816-9a8e2addaada",
       "regions" : [ {
-        "components" : [ {
-          "componentAttributes" : {
-            "isChild" : false
-          },
-          "componentName" : "c:eDF17_MatchPreferences",
-          "id" : "f355fad1-d645-4d6c-9a0c-67f38154932d",
-          "renderPriority" : "NEUTRAL",
-          "renditionMap" : { },
-          "type" : "component"
-        } ],
         "id" : "82cbd302-c586-4ae5-82e5-15e5759252c4",
         "regionLabel" : "Column 1",
         "regionName" : "1",
