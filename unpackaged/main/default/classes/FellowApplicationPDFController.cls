@@ -240,7 +240,7 @@ public with sharing class FellowApplicationPDFController {
             fw.fellowshipApplyingFor = fellowApp.Fellowship_Applying_for__c;
             fw.pronouns = fellowApp.Pronouns__c;
             fw.howDidYouFindUs = fellowApp.How_Did_You_Find_Us__c;
-            fw.howDidYouFindUsIfOther = fellowApp.How_did_find_out_about_EDF_Other__c;
+            fw.howDidYouFindUsOther = fellowApp.How_did_find_out_about_EDF_Other__c;
             fw.returnerFellow = fellowApp.Returner_Fellow__c;
             fw.gender = fellowApp.Sex__c;
             fw.genderSelfDescribe = fellowApp.Sex_Self_Describe__c;
@@ -287,8 +287,8 @@ public with sharing class FellowApplicationPDFController {
             fw.validUSDriversLicense = fellowApp.ValidUSDriversLicense__c;
             fw.accessToVehicle = fellowApp.AccessToAVehicleThisSummer__c;
             fw.sectorFirstChoice = fellowApp.Sector_first_choice__c;
-            fw.sectorSecondChoice = fellowApp.Sector_second_choice__c;
-            fw.sectorThirdChoice = fellowApp.Sector_third_choice__c;
+            // fw.sectorSecondChoice = fellowApp.Sector_second_choice__c;
+            // fw.sectorThirdChoice = fellowApp.Sector_third_choice__c;
             //CoverLetter
             fw.coverLetter = fellowApp.Cover_Letter__c;
             fw.additionalInformation = fellowApp.Additional_Information__c;

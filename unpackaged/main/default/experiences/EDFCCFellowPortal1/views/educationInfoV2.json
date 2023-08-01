@@ -21,6 +21,33 @@
     "regionName" : "header",
     "type" : "region"
   }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "isChild" : false,
+        "isReqUndergraduateDegreeEarned" : false,
+        "lblCourseWork" : "Please list any relevant coursework, training, or certifications that you will have completed by the start of the fellowship.",
+        "lblExpectedGraduationDate" : "Expected Graduation Date",
+        "lblGraduateDegree" : "Graduate Degree(s) you are Pursuing",
+        "lblGraduateDegreeConcentration" : "Graduate Degree Concentration(s)",
+        "lblGraduateDegreeNotListed" : "Graduate Degree(s), if not listed above",
+        "lblGraduateDegreeStartDate" : "Graduate Degree Start Date",
+        "lblGraduateUniversity" : "Graduate University",
+        "lblSchoolUniversityNotListed" : "School / University, if not listed above",
+        "lblSchoolWithinUniversity" : "School within University",
+        "lblUndergradUniversity" : "Undergraduate University",
+        "lblUndergraduateDegreeEarned" : "Undergraduate Degree(s) earned",
+        "lblUndergraduateDegreeEarnedOthers" : "Undergraduate Degree(s) earned, if not listed above",
+        "lblUndergraduateMajor" : "UnderGraduate Major(s)",
+        "lblUndergraduateUniversityOther" : "Undergraduate University, if not listed above",
+        "saveSuccessMessage" : "Education Information Updated",
+        "saveSuccessTitle" : "Education Information"
+      },
+      "componentName" : "c:eDF15_EducationInformation",
+      "id" : "ec69c80d-7288-4d46-bced-b0be81235077",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
     "id" : "df50f3f4-9688-44a7-813c-4384de8483d9",
     "regionName" : "content",
     "type" : "region"

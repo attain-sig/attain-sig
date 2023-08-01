@@ -69,6 +69,7 @@ export default class EDF16_BackgroundInformation extends NavigationMixin(Lightni
     testScore = false;
     photoIdentification = '';
     showUploaded = false;
+    showNotUploadedWarning = false; // FB-3332
     @api backgroundImageClass = 'body-bg-image-application';
 
     @api saveSuccessTitle;
@@ -106,6 +107,7 @@ export default class EDF16_BackgroundInformation extends NavigationMixin(Lightni
     @api labelPassport;
     @api showChinaTestAndScore;
     @api labelChinaTestAndScore;
+    @api msgFileNotUploaded; // FB-3332
 
     // Following custom variables are used for Review Fellow App Page
     contentCSS = '';
@@ -295,6 +297,7 @@ export default class EDF16_BackgroundInformation extends NavigationMixin(Lightni
     handleUploadFinished(event) {
         const uploadedFiles = event.detail.files;
         this.showUploaded = true;
+        this.showNotUploadedWarning = false;
         for(let i = 0; i < uploadedFiles.length; i++) {
             this.photoIdentification = uploadedFiles[0].name;
             console.log('this.resume:',this.photoIdentification);
@@ -369,25 +372,25 @@ export default class EDF16_BackgroundInformation extends NavigationMixin(Lightni
         };
 
         if (this.isInputValid()) {
-        // updateRecord(recordInput).then((record) => {
-        updateBackgroundInfo({fa:fields}).then((result) => {
-            console.log('updateBackgroundInformation', result);
-            if (result == '') {
-                this.showToast(this.saveSuccessTitle, 'success', this.saveSuccessMessage);
+            // updateRecord(recordInput).then((record) => {
+            updateBackgroundInfo({fa:fields}).then((result) => {
+                console.log('updateBackgroundInformation', result);
+                if (result == '') {
+                    this.showToast(this.saveSuccessTitle, 'success', this.saveSuccessMessage);
 
-                this.getBackgroundInfo();
-                //this.setDefaultValues();
-                this.saveNext();
-            }
-            else {
-                console.log('INSIDE SAVE ERROR ::', result);
-                this.showStickyToast('Background Information', 'error', result);
-            }
-        }).error(error => {
+                    this.getBackgroundInfo();
+                    //this.setDefaultValues();
+                    this.saveNext();
+                }
+                else {
+                    console.log('INSIDE SAVE ERROR ::', result);
+                    this.showStickyToast('Background Information', 'error', result);
+                }
+            }).error(error => {
 
-            console.log('Background Information Updated:Error:', error);
-        });
-    }
+                console.log('Background Information Updated:Error:', error);
+            });
+        }
     }
 
     saveNext() {
@@ -454,6 +457,15 @@ export default class EDF16_BackgroundInformation extends NavigationMixin(Lightni
                 isValid = false;
             }
         });
+
+        console.log('this.showUploaded ::' + this.showUploaded);
+        console.log('this.showNotUploadedWarning ::' + this.showNotUploadedWarning);
+        if (!this.showUploaded) {
+            this.showNotUploadedWarning = true;
+            isValid = isValid && false;
+        }
+        console.log('this.showUploaded ::' + this.showUploaded);
+        console.log('this.showNotUploadedWarning ::' + this.showNotUploadedWarning);
 
         return isValid;
 

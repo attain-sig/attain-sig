@@ -5,3 +5,7 @@
     display: none;
     transition: max-height 0.7s ease-out;
 }
+.uploadValidation{
+    color: rgb(252, 4, 4);
+    margin-left: 15px;
+  }

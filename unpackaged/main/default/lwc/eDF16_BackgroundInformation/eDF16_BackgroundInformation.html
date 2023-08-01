@@ -71,12 +71,16 @@
                                     <template if:true={showUploadedIdentification}>
                                         <div class="row custom-file-browse-uploaded-wrap custom-reuploaded-button-wrap">
                                             <div class="col-12 form-group custom-file-browse-uploaded-outer">
-                                                <label class="custom-file-browse-uploaded-title">{labelUploadedIdentification}</label>
+                                                <abbr class="slds-required" title="required">* </abbr>
+                                                <label class="custom-file-browse-uploaded-title">
+                                                    {labelUploadedIdentification}
+                                                </label>
 												<template if:true={showUploadedIdentification}>
 													<div class="row note-info-wrap">
 														<div class="col-12 form-group note-info">
-															<div class="note-info-inner clearfix"><span class="note-info-icon"></span> <span
-																	class="note-info-content">{helpTextUploadedIdentification}</span>
+															<div class="note-info-inner clearfix">
+                                                                <span class="note-info-icon"></span>
+                                                                <span class="note-info-content">{helpTextUploadedIdentification}</span>
 															</div>
 														</div>
 													</div>
@@ -92,6 +96,13 @@
                                                     </span>
                                                 </template>
                                             </div>
+                                            <!-- FB-3332 -->
+                                            <template if:true={showNotUploadedWarning}>
+                                                <div class="uploadValidation">
+                                                    {msgFileNotUploaded}
+                                                </div>
+                                            </template>
+
                                             <div class="col-12 form-group custom-file-browse-button-outer "> <!--slds-form-element-->
                                                 <label class="custom-file-browse-uploaded-note"> <!-- slds-form-element__label-->
                                                     {labelUploadedIdentificationNote}
@@ -190,7 +201,7 @@
                                                 <template if:true={ChinaFellowshipTestsPickList.data}>
                                                     <lightning-combobox
                                                     name="chinatests"
-                                                    label={labelChinaTest}
+                                                    label={labelChinaTestAndScore}
                                                     value={ChinaFellowshipTests}
                                                     placeholder="-- None --"
                                                     options={ChinaFellowshipTestsPickList.data.values}

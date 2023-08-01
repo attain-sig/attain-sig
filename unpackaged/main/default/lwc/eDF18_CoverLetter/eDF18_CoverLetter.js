@@ -41,7 +41,7 @@ export default class EDF18_CoverLetter extends NavigationMixin(LightningElement)
 
     // variables
     fellowApplicationId = '';
-    isChinaFellowShip = false;
+    // isChinaFellowShip = false;
     coverLetter = '';
     additionalInformation = '';
     resume = '';
@@ -75,15 +75,28 @@ export default class EDF18_CoverLetter extends NavigationMixin(LightningElement)
     @api anyAdditionalInformation;
     @api coverLetterClimateCorps;
     @api uploadResume;
-    @api addReference1;
-    @api addReference2;
-    @api addReference3;
-    @api showReference1Phone;
-    @api showReference2Phone;
-    @api showReference3Phone;
-    @api titleReference1;
-    @api titleReference2;
-    @api titleReference3;
+
+    @api showReference1;
+    @api showReference2;
+    @api showReference3;
+    @api lblAddReference1;
+    @api lblAddReference2;
+    @api lblAddReference3;
+
+    @api lblNameReference;
+    @api lblTitleReference;
+    @api lblEmailReference;
+    @api showReferencePhone;
+    @api lblPhoneReference;
+    @api lblNotesReference;
+
+
+    // @api showReference1Phone;
+    // @api showReference2Phone;
+    // @api showReference3Phone;
+    // @api titleReference1;
+    // @api titleReference2;
+    // @api titleReference3;
     @api saveSuccessTitle;
     @api saveSuccessMessage;
     @api isChild = false;

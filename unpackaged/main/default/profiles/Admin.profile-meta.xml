@@ -11121,6 +11121,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Fellow_Application__c.First_Generation_College_Student__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Fellow_Application__c.Flexible_Candidate__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -11302,6 +11307,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Fellow_Application__c.Other_courses_certifications__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Project_Type_Preference_China__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Project_Type_Preference_One__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -11517,6 +11532,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Fellow_Application__c.Searchable_Applicant_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Sector_Choice_China__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

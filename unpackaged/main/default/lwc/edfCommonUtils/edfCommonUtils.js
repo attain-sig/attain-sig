@@ -28,7 +28,21 @@ const createShowToastEvent = (titleTxt, variantType, msgTxt) => {
     });
 }
 
-export { onHeadingClick, createShowToastEvent };
+
+const validateFields = (inputFields) => {
+    let isValid = true;
+    inputFields.forEach(inputField => {
+        if (!inputField.checkValidity()) {
+            inputField.reportValidity();
+            inputField.focus();
+            isValid = false;
+        }
+    });
+    return isValid;
+}
+
+
+export { onHeadingClick, createShowToastEvent, validateFields };
 
 export default class EdfCommonUtils extends LightningElement {
 

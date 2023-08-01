@@ -66,8 +66,7 @@ public class FellowAppWrapper {
     @AuraEnabled
     public String howDidYouFindUs {get; set;}
 
-    @AuraEnabled
-    public String howDidYouFindUsIfOther {get; set;}
+    @AuraEnabled public String howDidYouFindUsOther {get; set;}
 
     @AuraEnabled
     public String returnerFellow {get; set;}
@@ -86,6 +85,8 @@ public class FellowAppWrapper {
 
     @AuraEnabled
     public String veteranStatus {get; set;}
+
+    @AuraEnabled public String firstGenStudent {get; set;}
 
     @AuraEnabled
     public List<String> statePickListValues {get; set;}
@@ -205,18 +206,18 @@ public class FellowAppWrapper {
     public String validUSDriversLicense {get; set;}
     @AuraEnabled
     public String accessToVehicle {get; set;}
-    @AuraEnabled
-    public String sectorFirstChoice {get; set;}
-    @AuraEnabled
+    @AuraEnabled public String sectorFirstChoice {get; set;}
+    @AuraEnabled public String sectorChoiceChina {get; set;} // FB-3193
+    /* @AuraEnabled
     public String sectorSecondChoice {get; set;}
     @AuraEnabled
-    public String sectorThirdChoice {get; set;}
-    @AuraEnabled
-    public String projectTypePreferenceOne {get; set;}
-    @AuraEnabled
+    public String sectorThirdChoice {get; set;} */
+    @AuraEnabled public String projectTypePreferenceOne {get; set;}
+    @AuraEnabled public String projectTypePreferenceChina {get; set;} // FB-3193
+    /* @AuraEnabled
     public String projectTypePreferenceTwo {get; set;}
     @AuraEnabled
-    public String projectTypePreferenceThree {get; set;}
+    public String projectTypePreferenceThree {get; set;} */
 
     @AuraEnabled public String availabilityStartDate {get; set;}
     @AuraEnabled public String availabilityEndDate {get; set;}

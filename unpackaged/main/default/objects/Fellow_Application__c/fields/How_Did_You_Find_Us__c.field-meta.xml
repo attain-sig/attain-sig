@@ -1,35 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>How_Did_You_Find_Us__c</fullName>
-    <description>Could be Picklist</description>
+    <description>Could be Picklist
+FB-2974</description>
     <externalId>false</externalId>
     <label>How did you find out about EDFCC?</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
-    <type>Picklist</type>
+    <type>MultiselectPicklist</type>
     <valueSet>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Campus Presentation with EDF staff</fullName>
+                <fullName>Live presentation with Climate Corps staff</fullName>
                 <default>false</default>
-                <label>Campus Presentation with EDF staff</label>
+                <label>Live presentation with Climate Corps staff</label>
             </value>
             <value>
-                <fullName>EDF Staff webinar</fullName>
+                <fullName>Recorded presentation with Climate Corps staff</fullName>
                 <default>false</default>
-                <label>EDF Staff webinar</label>
+                <label>Recorded presentation with Climate Corps staff</label>
             </value>
             <value>
-                <fullName>Career services job posting</fullName>
+                <fullName>Email from Climate Corps</fullName>
                 <default>false</default>
-                <label>Career services job posting</label>
+                <label>Email from Climate Corps</label>
             </value>
             <value>
-                <fullName>Career Services staff</fullName>
+                <fullName>One on one meeting with Climate Corps staff</fullName>
                 <default>false</default>
-                <label>Career Services staff</label>
+                <label>One on one meeting with Climate Corps staff</label>
+            </value>
+            <value>
+                <fullName>Talked to an alumni fellow</fullName>
+                <default>false</default>
+                <label>Talked to an alumni fellow</label>
+            </value>
+            <value>
+                <fullName>University job board</fullName>
+                <default>false</default>
+                <label>University job board</label>
+            </value>
+            <value>
+                <fullName>Talked to university Career Services staff</fullName>
+                <default>false</default>
+                <label>Talked to university Career Services staff</label>
+            </value>
+            <value>
+                <fullName>Talked to university faculty member</fullName>
+                <default>false</default>
+                <label>Talked to university faculty member</label>
             </value>
             <value>
                 <fullName>EDF website</fullName>
@@ -42,14 +63,9 @@
                 <label>Student group newsletter</label>
             </value>
             <value>
-                <fullName>Word of Mouth  from an Alumni Fellow</fullName>
+                <fullName>General online job posting (Idealist, Indeed, LinkedIn, GreenBiz, etc.)</fullName>
                 <default>false</default>
-                <label>Word of Mouth  from an Alumni Fellow</label>
-            </value>
-            <value>
-                <fullName>Word of Mouth from another source</fullName>
-                <default>false</default>
-                <label>Word of Mouth from another source</label>
+                <label>General online job posting (Idealist, Indeed, LinkedIn, GreenBiz, etc.)</label>
             </value>
             <value>
                 <fullName>National Black MBA Conference</fullName>
@@ -57,20 +73,16 @@
                 <label>National Black MBA Conference</label>
             </value>
             <value>
-                <fullName>Prospanica conference</fullName>
+                <fullName>Black Sustainability Inc. Summit</fullName>
                 <default>false</default>
-                <label>Prospanica conference</label>
+                <label>Black Sustainability Inc. Summit</label>
             </value>
             <value>
                 <fullName>Other (please specify)</fullName>
                 <default>false</default>
                 <label>Other (please specify)</label>
             </value>
-            <value>
-                <fullName>Online Job postings</fullName>
-                <default>false</default>
-                <label>Online Job postings</label>
-            </value>
         </valueSetDefinition>
     </valueSet>
+    <visibleLines>4</visibleLines>
 </CustomField>

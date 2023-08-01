@@ -23,37 +23,45 @@
 			<property name="showAccessToVehicle" label="Show Access To Vehicle" type="Boolean" default="false"></property>
 			<property name="lblAccessToVehicle" label="Label - Access To Vehicle Heading" type="String" default="If yes, do you have access to a vehicle this summer or would you be willing to get access to one (e.g. rent)?"></property>
 
-			<property name="showSectorPreference" label="Show Sector Preference" type="Boolean" default="false"></property>
+			<property name="showSectorPreference" label="Show Sector Preference US" type="Boolean" default="false"></property>
+			<property name="showSectorPreferenceChina" label="Show Sector Preference China" type="Boolean" default="false"></property>
 			<property name="lblSectorPreferenceHeader" label="Label - Sector Preference Heading" type="String" default="Sector Preferences"></property>
 			<property name="lblSectorPreferenceNote" label="Label - Sector Preference Note" type="String" default="Indicate your top three choices from the dropdown lists"></property>
 			<property name="lblSectorFirstChoice" label="Label - Sector First Choice" type="String" default="Sector First Choice"></property>
-			<property name="lblSectorSecondChoice" label="Label - Sector Second Choice" type="String" default="Sector Second Choice"></property>
-			<property name="lblSectorThirdChoice" label="Label - Sector Third Choice" type="String" default="Sector Third Choice"></property>
+			<!-- <property name="lblSectorSecondChoice" label="Label - Sector Second Choice" type="String" default="Sector Second Choice"></property>
+			<property name="lblSectorThirdChoice" label="Label - Sector Third Choice" type="String" default="Sector Third Choice"></property> -->
 
-			<property name="showProjectTypePreferenceSection" label="Show Project Type Preference Section" type="Boolean" default="false"></property>
+			<property name="showProjectTypePreferenceSection" label="Show Project Type Preference US" type="Boolean" default="false"></property>
+			<property name="showProjectTypePreferenceSectionChina" label="Show Project Type Preference China" type="Boolean" default="false"></property>
 			<property name="lblProjectTypePreferenceHeader" label="Label - Project Type Preference Heading" type="String" default="Project Type Preferences"></property>
 			<property name="lblProjectTypePreferenceNote" label="Label - Project Type Preference Note" type="String" default="Indicate your top three Project Type Preferences from the dropdown lists"></property>
 			<property name="lblProjectTypeFirstChoice" label="Label - Project Type First Choice" type="String" default="Project Type Preference One"></property>
-			<property name="lblProjectTypeSecondChoice" label="Label - Project Type Second Choice" type="String" default="Project Type Preference Two"></property>
-			<property name="lblProjectTypeThirdChoice" label="Label - Project Type Third Choice" type="String" default="Project Type Preference Three"></property>
+			<!-- <property name="lblProjectTypeSecondChoice" label="Label - Project Type Second Choice" type="String" default="Project Type Preference Two"></property>
+			<property name="lblProjectTypeThirdChoice" label="Label - Project Type Third Choice" type="String" default="Project Type Preference Three"></property> -->
 
 			<property name="showAvailability" label="Show Availability" type="Boolean" default="false"></property>
 			<property name="lblAvailabilityHeader" label="Label - Availability Heading" type="String" default="Availability"></property>
 			<property name="lblAvailabilityNote" label="Label - Availability Note" type="String" default="Climate Corps Program requires your full-time commitment for the 8-12 weeks long fellowship project. Please indicate your availability between April-September for a full-time commitment to a Climate Corps fellowship project. "></property>
 			<property name="lblAvailabilityStartDate" label="Label - Availability Start Date" type="String" default="Earliest Available Date to Start"></property>
+			<property name="isRequiredStartDate" label="Required Availability Start Date" type="Boolean" default="true"></property>
 			<property name="lblAvailabilityEndDate" label="Label - Availability End Date" type="String" default="Latest Available Date to End"></property>
+			<property name="isRequiredEndDate" label="Required Availability End Date" type="Boolean" default="true"></property>
 			<property name="lblAvailabilityAdditionalDetails" label="Label - Availability Additional" type="String" default="List any additional detail about your availability during the fellowship period"></property>
+			<property name="isRequiredAvailabilityAdditional" label="Required Availability Additional" type="Boolean" default="true"></property>
 			<property name="charsAvailabilityAdditional" label="Char Limit - Other Areas of Interest" description="Max 1800" type="String" default="1800"></property>
 
 			<property name="showProjectTypePreference" label="Show Project Type Preference" type="Boolean" default="false"></property>
 			<property name="lblProjectTypePreference" label="Label - Project Type Preference" type="String" default="Project Type Preference"></property>
+			<property name="isRequiredProjectTypePref" label="Required Project Type Preference" type="Boolean" default="true"></property>
 
 			<property name="showRegionsIndia" label="Show Regional Preference - India" type="Boolean" default="false"></property>
 			<property name="lblRegionalPreferenceIndia" label="Label - Regional Preference India" type="String" default="Regional Preferences"></property>
+			<property name="isRequiredRegionsIndia" label="Required Regional Preference - India" type="Boolean" default="true"></property>
 
 			<property name="showAreasOfInterest" label="Show Areas of Interest" type="Boolean" default="false"></property>
 			<property name="showAreasOfInterestIndia" label="Show Areas of Interest India" type="Boolean" default="false"></property>
 			<property name="lblAreasOfInterestIndia" label="Label - Areas of Interest India" type="String" default="Areas of Interest"></property>
+			<property name="isRequiredAreasOfInterest" label="Required Areas of Interest" type="Boolean" default="true"></property>
 			<property name="lblAreasOfInterestOther" label="Label - Other Areas of Interest" type="String" default="Other Area of Interest"></property>
 			<property name="charsAreasOfInterestOther" label="Char Limit - Other Areas of Interest" description="Max 255" type="String" default="255"></property>
 

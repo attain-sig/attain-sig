@@ -10,12 +10,13 @@
         <targetConfig targets="lightningCommunity__Default">
             <property name="showAuthWorkUS" label="Show Authorized to Work in U.S.?" type="Boolean" default="true"></property>
             <property name="labelAuthWorkUS" label="Label - Authorized to Work in U.S." type="String" default="Are you legally authorized to work in the U.S.?"></property>
-            <property name="labelRequireWorkAuth" label="Label - Require Work Authoriation" type="String" default="Will you now or in the future require work authorization"></property>
+            <property name="labelRequireWorkAuth" label="Label - Require Work Authorization" type="String" default="Will you now or in the future require work authorization?"></property>
 
             <property name="showUploadedIdentification" label="Show Uploaded Identification?" type="Boolean" default="false"></property>
             <property name="labelUploadedIdentification" label="Label - Uploaded Identification" type="String" default="Uploaded Identification"></property>
             <property name="labelUploadedIdentificationNote" label="Label - Uploaded Identification Note" type="String" default="Please upload a copy of your Chinese Identification Card or India ID"></property>
             <property name="helpTextUploadedIdentification" label="HelpText - Uploaded Identification" type="String" default="The following set of documents can be uploaded - (1) Voter Id (2) Aadhaar (3) Passport (4) Driver's License (5) Attested/Official College Id (with the dates of joining and ending mentioned)"></property>
+            <property name="msgFileNotUploaded" label="Message - Identification File not uploaded" type="String" default="Please upload the file."></property>
             <property name="showNativeEnglishSpeaker" label="Show Native English Speaker?" type="Boolean" default="false"></property>
             <property name="labelNativeEnglishSpeaker" label="Label - Native English Speaker" type="String" default="English proficiency is required for this position. Are you fluent or proficient in English?"></property>
 

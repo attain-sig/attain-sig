@@ -14,6 +14,15 @@
             <property name="showRaceEthnicity" label="Show Race Ethnicity" type="Boolean" default="true"></property>
             <property name="showLatinxHispanic" label="Show Latinx or Hispanic" type="Boolean" default="true"></property>
             <property name="showVeteranStatus" label="Show Veteran Status" type="Boolean" default="true"></property>
+            <property name="showAvenuesClimateCorps" label="Show Avenues about Climate Corps?" type="Boolean" default="true"></property>
+            <property name="labelAvenuesClimateCorps" label="Label - Avenues about Climate Corps" type="String" default="What avenues did you use to learn about Climate Corps?"></property>
+            <property name="labelOtherAvenuesClimateCorps" label="Label - Other Avenues about Climate Corps" type="String" default="Other Avenues about Climate Corps"></property>
+            <property name="otherPleaseSpecifyValue" label="Value for Others in How did you find us field" type="String" default="Other (please specify)"></property>
+
+            <property name="showFirstGenStudent" label="Show First Generation College Student" type="Boolean" default="false"></property>
+            <property name="lblFirstGenStudent" label="Label - First Generation College Student" type="String" default="Are you a first-generation college student?"></property>
+            <property name="firstGenStudentHelpText" label="Help Text - First Generation College Student" type="String" default="Are you a first-generation college student?"></property>
+
             <property name="saveSuccessTitle" label="Save Success Title" type="String" default="Contact Information Saved"></property>
 			<property name="saveSuccessMessage" label="Save Success Message" type="String" default="Contact Information saved successfully!"></property>
             <property name="isChild" label="For Review Page?" type="Boolean" default="false"></property>

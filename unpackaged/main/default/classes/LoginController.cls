@@ -116,7 +116,9 @@ public without sharing class LoginController {
         }
         */
 
-        return 'Application Status: ' + getFellowApplicationStatusValue(Utility.getFellowshipStatus());
+        String fAppStatus = Utility.getFellowshipStatus();
+        if (fAppStatus == '') return '';
+        else return 'Application Status: ' + getFellowApplicationStatusValue(fAppStatus);
 
     }
 
@@ -145,7 +147,9 @@ public without sharing class LoginController {
         }
         */
 
-        return getFellowApplicationStatusValue(Utility.getFellowshipStatus());
+        String fAppStatus = Utility.getFellowshipStatus();
+        if (fAppStatus == '') return '';
+        else return getFellowApplicationStatusValue(fAppStatus);
 
     }
 

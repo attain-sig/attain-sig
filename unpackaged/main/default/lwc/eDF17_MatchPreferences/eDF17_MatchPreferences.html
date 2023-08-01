@@ -158,75 +158,49 @@
                                                         <div class="row">
                                                             <div class="col-12 form-group">
                                                                 <template if:true={sectorFirstChoicePickList.data}>
-                                                                <lightning-combobox
-                                                                    name="firstchoice"
-                                                                    label={lblSectorFirstChoice}
-                                                                    value={sectorFirstChoice}
-                                                                    placeholder="-- None --"
-                                                                    options={sectorFirstChoicePickList.data.values}
-                                                                    onchange={sectorFirstChoiceChangeHandler}
-                                                                    required={showSectorPreference} read-only={readOnly}>
-                                                                </lightning-combobox>
-                                                            </template>
-                                                                <!--<label>Sector First Choice</label>
-                                                                <select class="form-control sector-first-choice" onchange={sectorFirstChoiceChangeHandler} required={isFirstChoice}>
-                                                                    <option selected>-- None --</option>
-                                                                    <template if:true={sectorFirstChoicePickList.data}>
-                                                                        <template for:each={sectorFirstChoicePickList.data.values} for:item="item">
-                                                                            <option key={item.value} value={item.value}>{item.label}</option>
-                                                                        </template>
-                                                                    </template>
-                                                                </select>-->
+                                                                    <lightning-dual-listbox
+                                                                        name="firstchoice"
+                                                                        source-label="Available"
+                                                                        selected-label="Chosen"
+                                                                        label={lblSectorFirstChoice}
+                                                                        value={sectorFirstChoice}
+                                                                        options={sectorFirstChoicePickList.data.values}
+                                                                        onchange={sectorFirstChoiceChangeHandler}
+                                                                        required={showSectorPreference} read-only={readOnly}>
+                                                                    </lightning-dual-listbox>
+                                                                </template>
                                                             </div>
                                                         </div>
-                                                        <div class="row">
+                                                        <!-- <div class="row">
                                                             <div class="col-12 form-group">
-                                                                <template if:true={sectorSecondChoicePickList.data}>
+                                                                <template if:true=[sectorSecondChoicePickList.data]>
                                                                     <lightning-combobox
                                                                         name="secondchoice"
-                                                                        label={lblSectorSecondChoice}
-                                                                        value={sectorSecondChoice}
+                                                                        label=[-lblSectorSecondChoice-]
+                                                                        value=[-sectorSecondChoice-]
                                                                         placeholder="-- None --"
-                                                                        options={sectorSecondChoicePickList.data.values}
-                                                                        onchange={sectorSecondChoiceChangeHandler}
+                                                                        options=[-sectorSecondChoicePickList.data.values-]
+                                                                        onchange={-sectorSecondChoiceChangeHandler-}
                                                                         required={showSectorPreference} read-only={readOnly}>
                                                                     </lightning-combobox>
                                                                 </template>
-                                                                <!--<label>Sector Second Choice</label>
-                                                                <select class="form-control sector-second-choice" onchange={sectorSecondChoiceChangeHandler} required={isSecondChoice}>
-                                                                    <option selected>-- None --</option>
-                                                                    <template if:true={sectorSecondChoicePickList.data}>
-                                                                        <template for:each={sectorSecondChoicePickList.data.values} for:item="item">
-                                                                            <option key={item.value} value={item.value}>{item.label}</option>
-                                                                        </template>
-                                                                    </template>
-                                                                </select>-->
                                                             </div>
                                                         </div>
                                                         <div class="row">
                                                             <div class="col-12 form-group">
-                                                                <template if:true={sectorThirdChoicePickList.data}>
+                                                                <template if:true={-sectorThirdChoicePickList.data-}>
                                                                     <lightning-combobox
                                                                         name="thirdchoice"
-                                                                        label={lblSectorThirdChoice}
-                                                                        value={sectorThirdChoice}
+                                                                        label={-lblSectorThirdChoice-}
+                                                                        value={-sectorThirdChoice-}
                                                                         placeholder="-- None --"
-                                                                        options={sectorThirdChoicePickList.data.values}
-                                                                        onchange={sectorThirdChoiceChangeHandler}
+                                                                        options={-sectorThirdChoicePickList.data.values-}
+                                                                        onchange={-sectorThirdChoiceChangeHandler-}
                                                                         required={showSectorPreference} read-only={readOnly}>
                                                                     </lightning-combobox>
                                                                 </template>
-                                                                <!--<label>Sector Third Choice</label>
-                                                                <select class="form-control sector-third-choice" onchange={sectorThirdChoiceChangeHandler} required={isThirdChoice}>
-                                                                    <option selected>-- None --</option>
-                                                                    <template if:true={sectorThirdChoicePickList.data}>
-                                                                        <template for:each={sectorThirdChoicePickList.data.values} for:item="item">
-                                                                            <option key={item.value} value={item.value}>{item.label}</option>
-                                                                        </template>
-                                                                    </template>
-                                                                </select>-->
                                                             </div>
-                                                        </div>
+                                                        </div> -->
                                                     </div>
                                                 </div>
                                                 </div>
@@ -251,19 +225,20 @@
                                                             <div class="row">
                                                                 <div class="col-12 form-group">
                                                                     <template if:true={projectTypePreferenceOnePickList.data}>
-                                                                        <lightning-combobox
+                                                                        <lightning-dual-listbox
                                                                             name="projTypePrefOne"
+                                                                            source-label="Available"
+                                                                            selected-label="Chosen"
                                                                             label={lblProjectTypeFirstChoice}
                                                                             value={projectTypePreferenceOne}
-                                                                            placeholder="-- None --"
                                                                             options={projectTypePreferenceOnePickList.data.values}
                                                                             onchange={projectTypePreferenceOneChangeHandler}
-                                                                            required={isFirstChoice} read-only={readOnly}>
-                                                                        </lightning-combobox>
+                                                                            required={showProjectTypePreferenceSection} read-only={readOnly}>
+                                                                        </lightning-dual-listbox>
                                                                     </template>
                                                                 </div>
                                                             </div>
-                                                            <div class="row">
+                                                            <!-- <div class="row">
                                                                 <div class="col-12 form-group">
                                                                     <template if:true={projectTypePreferenceTwoPickList.data}>
                                                                         <lightning-combobox
@@ -292,13 +267,17 @@
                                                                         </lightning-combobox>
                                                                     </template>
                                                                 </div>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </template>
+
+
+
+
 
 
 
@@ -319,6 +298,7 @@
                                             <div class="col-12 form-group date-picker-wrap">
                                                 <lightning-input label={lblAvailabilityStartDate} type="date"
                                                     date-style="short" value={availabilityStartDate}
+                                                    required={isRequiredStartDate}
                                                     onchange={availabilityStartDateChangeHandler}>
                                                 </lightning-input>
                                             </div>
@@ -327,6 +307,7 @@
                                             <div class="col-12 form-group date-picker-wrap">
                                                 <lightning-input label={lblAvailabilityEndDate} type="date"
                                                     date-style="short" value={availabilityEndDate}
+                                                    required={isRequiredEndDate}
                                                     onchange={availabilityEndDateChangeHandler}>
                                                 </lightning-input>
                                             </div>
@@ -337,6 +318,7 @@
                                                 <lightning-textarea max-length={charsAvailabilityAdditional}
                                                     name="availabilityAdditional"
                                                     value={availabilityAdditional}
+                                                    required={isRequiredAvailabilityAdditional}
                                                     label={lblAvailabilityAdditionalDetails}
                                                     onchange={availabilityAdditionalChangeHandler} >
                                                 </lightning-textarea>
@@ -353,6 +335,7 @@
                                                         label={lblProjectTypePreference}
                                                         source-label="Available"
                                                         selected-label="Chosen"
+                                                        required={isRequiredProjectTypePref}
                                                         value={projectTypePreference}
                                                         options={projectTypePreferencePickList.data.values}
                                                         onchange={projectTypePreferenceHandler} disabled={readOnly}>
@@ -374,7 +357,8 @@
                                                     options={regionsInIndiaOptions}
                                                     value={regionsInIndiaSelected}
                                                     onchange={regionsInIndiaChangeHandler}
-                                                    required={showRegionsIndia} disabled={readOnly}>
+                                                    required={isRequiredRegionsIndia}
+                                                    disabled={readOnly}>
                                                 </lightning-dual-listbox>
                                                 <br/>
                                             </div>
@@ -398,7 +382,9 @@
                                                         selected-label="Chosen"
                                                         options={areaOfIntOptions}
                                                         value={areaOfInterestSelected}
-                                                        onchange={areaOfInterestChangeHandler} disabled={readOnly}>
+                                                        onchange={areaOfInterestChangeHandler}
+                                                        required={isRequiredAreasOfInterest}
+                                                        disabled={readOnly}>
                                                     </lightning-dual-listbox>
                                                 </div>
                                             </div>
@@ -435,6 +421,82 @@
                                                     required={showRegionsChina} disabled={readOnly}>
                                                 </lightning-dual-listbox>
                                                 <br/>
+                                            </div>
+                                        </div>
+                                    </template>
+
+                                    <template if:true={showSectorPreferenceChina}>
+                                        <div class="accordion-with-bg-shadow">
+                                            <div class="accordion accordion-with-bg-shadow-inner" id="accordionSectorChoiceChina">
+                                            <div class="card-list">
+                                                <div class="card-header" id="headingOneSectorChoiceChina">
+                                                    <h5>
+                                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOneSectorChoiceChina" aria-expanded="true" aria-controls="collapseOneSectorChoiceChina">
+                                                        {lblSectorPreferenceHeader}
+                                                        <span class="accordion-arrow">&nbsp;</span>
+                                                    </button>
+                                                    </h5>
+                                                </div>
+
+                                                <div id="collapseOneSectorChoiceChina" class="collapse show" aria-labelledby="headingOneSectorChoiceChina" data-parent="#accordionSectorChoiceChina">
+                                                    <div class="card-body">
+                                                        <h6>{lblSectorPreferenceNote}</h6>
+                                                        <div class="row">
+                                                            <div class="col-12 form-group">
+                                                                <template if:true={sectorChoiceChinaPickList.data}>
+                                                                    <lightning-dual-listbox
+                                                                        name="firstchoiceChina"
+                                                                        source-label="Available"
+                                                                        selected-label="Chosen"
+                                                                        label={lblSectorFirstChoice}
+                                                                        value={sectorChoiceChina}
+                                                                        options={sectorChoiceChinaPickList.data.values}
+                                                                        onchange={sectorChoiceChinaChangeHandler}
+                                                                        required={showSectorPreferenceChina} read-only={readOnly}>
+                                                                    </lightning-dual-listbox>
+                                                                </template>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </template>
+                                    <template if:true={showProjectTypePreferenceSectionChina}>
+                                        <div class="accordion-with-bg-shadow">
+                                            <div class="accordion accordion-with-bg-shadow-inner" id="accordionProjectTypePrefChina">
+                                                <div class="card-list">
+                                                    <div class="card-header" id="headingOneProjectTypePrefChina">
+                                                        <h5>
+                                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwoProjectTypePrefChina" aria-expanded="true" aria-controls="collapseTwoProjectTypePrefChina">
+                                                            {lblProjectTypePreferenceHeader}
+                                                            <span class="accordion-arrow">&nbsp;</span>
+                                                        </button>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="collapseTwoProjectTypePrefChina" class="collapse show" aria-labelledby="headingOneProjectTypePrefChina" data-parent="#accordionProjectTypePrefChina">
+                                                        <div class="card-body">
+                                                            <h6>{lblProjectTypePreferenceNote}</h6>
+                                                            <div class="row">
+                                                                <div class="col-12 form-group">
+                                                                    <template if:true={projectTypePreferenceChinaPickList.data}>
+                                                                        <lightning-dual-listbox
+                                                                            name="projTypePrefOneChina"
+                                                                            source-label="Available"
+                                                                            selected-label="Chosen"
+                                                                            label={lblProjectTypeFirstChoice}
+                                                                            value={projectTypePreferenceChina}
+                                                                            options={projectTypePreferenceChinaPickList.data.values}
+                                                                            onchange={projectTypePreferenceChinaChangeHandler}
+                                                                            required={showProjectTypePreferenceSectionChina} read-only={readOnly}>
+                                                                        </lightning-dual-listbox>
+                                                                    </template>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </template>

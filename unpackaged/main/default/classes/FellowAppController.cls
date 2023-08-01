@@ -171,11 +171,14 @@ public with sharing class FellowAppController {
                                 ValidUSDriversLicense__c,
                                 AccessToAVehicleThisSummer__c,
                                 Sector_first_choice__c,
-                                Sector_second_choice__c,
-                                Sector_third_choice__c,
+                                Sector_Choice_Sorted__c, // FB-2980
+                                Sector_Choice_China__c, // FB-3193
+                                // Sector_second_choice__c,
+                                // Sector_third_choice__c,
                                 Project_Type_Preference_One__c,
-                                Project_Type_Preference_Two__c,
-                                Project_Type_Preference_Three__c,
+                                Project_Type_Preference_China__c, // FB-3193
+                                // Project_Type_Preference_Two__c,
+                                // Project_Type_Preference_Three__c,
                                 Geographic_Yes_Region__c,
 
                                 Project_Type_Preference__c,
@@ -203,18 +206,23 @@ public with sharing class FellowAppController {
             fw.usRegionalPreferences = fellowApp.US_regional_preferences__c;
             fw.validUSDriversLicense = fellowApp.ValidUSDriversLicense__c;
             fw.accessToVehicle = fellowApp.AccessToAVehicleThisSummer__c;
-            fw.sectorFirstChoice = fellowApp.Sector_first_choice__c;
-            fw.sectorSecondChoice = fellowApp.Sector_second_choice__c;
-            fw.sectorThirdChoice = fellowApp.Sector_third_choice__c;
-            fw.projectTypePreferenceOne = fellowApp.Project_Type_Preference_One__c;
-            fw.projectTypePreferenceTwo = fellowApp.Project_Type_Preference_Two__c;
-            fw.projectTypePreferenceThree = fellowApp.Project_Type_Preference_Three__c;
+
+            if (fellowApp.Fellowship_Applying_for__c == 'U.S. Fellowship') fw.sectorFirstChoice = fellowApp.Sector_Choice_Sorted__c; // FB-2980
+            else if (fellowApp.Fellowship_Applying_for__c == 'China Fellowship') fw.sectorChoiceChina = fellowApp.Sector_Choice_Sorted__c; // FB-3193
+            // fw.sectorSecondChoice = fellowApp.Sector_second_choice__c;
+            // fw.sectorThirdChoice = fellowApp.Sector_third_choice__c;
+            // fw.projectTypePreferenceTwo = fellowApp.Project_Type_Preference_Two__c;
+            // fw.projectTypePreferenceThree = fellowApp.Project_Type_Preference_Three__c;
         	fw.regionsInUS = fellowApp.Geographic_Yes_Region__c;
 
             if (fellowApp.Availability_Start_Date__c != null) fw.availabilityStartDate = String.valueOf(fellowApp.Availability_Start_Date__c);
             if (fellowApp.Availability_End_Date__c != null) fw.availabilityEndDate = String.valueOf(fellowApp.Availability_End_Date__c);
             fw.availabilityAdditional = fellowApp.Availability_Additional__c;
-            fw.projectTypePreference = fellowApp.Project_Type_Preference_Sorted__c;
+
+            if (fellowApp.Fellowship_Applying_for__c == 'U.S. Fellowship') fw.projectTypePreferenceOne = fellowApp.Project_Type_Preference_Sorted__c; // fellowApp.Project_Type_Preference_One__c; // FB-2980
+            else if (fellowApp.Fellowship_Applying_for__c == 'China Fellowship') fw.projectTypePreferenceChina = fellowApp.Project_Type_Preference_Sorted__c; // FB-3193
+            else if (fellowApp.Fellowship_Applying_for__c == 'India Fellowship') fw.projectTypePreference = fellowApp.Project_Type_Preference_Sorted__c;
+
             fw.areaOfInterestSelected = fellowApp.Areas_of_Interest_India_Sorted__c;
             fw.areasOfInterestOthers = fellowApp.Areas_of_Interest_Other__c;
 
@@ -469,7 +477,7 @@ public with sharing class FellowAppController {
             Fellow_Application__c fa = fellowApps.get(0);
             fellowshipApplyingFor = fa.Fellowship_Applying_for__c;
             //Contact Information
-            if(fellowshipApplyingFor == 'U.S. Fellowship' || fellowshipApplyingFor == 'India Fellowship'){
+            /* if(fellowshipApplyingFor == 'U.S. Fellowship' || fellowshipApplyingFor == 'India Fellowship'){
                 if(String.isBlank(fa.Applicant__r.FirstName)
                     || String.isBlank(fa.Applicant__r.FirstName)
                     || String.isBlank(fa.Applicant__r.LastName)
@@ -505,16 +513,17 @@ public with sharing class FellowAppController {
                     || String.isBlank(fa.Returner_Fellow__c)){
                         validationMessage = validationMessage + 'Contact Information' + lineBreak;
                 }
-            }
+            } */
 
             //Education Information
             if(fa.Graduation_Start_Date__c == null
                 || fa.Date_Expected_Graduated_1__c == null
-                || String.isBlank(fa.Degree_Earned_2__c)){
+                // || String.isBlank(fa.Degree_Earned_2__c)
+                ){
                 validationMessage = validationMessage + 'Education Information' + lineBreak;
             }
 
-            //Background Information
+            /* //Background Information
             if(fellowshipApplyingFor == 'U.S. Fellowship'){
                 if(String.isBlank(fa.US_Resident__c)
                     || String.isBlank(fa.Are_you_eligible_to_work_in_U_S_in_summ__c)
@@ -557,10 +566,10 @@ public with sharing class FellowAppController {
 
                     validationMessage = validationMessage + 'Background Information' + lineBreak;
                 }
-            }
+            } */
 
             //Match Preferences
-            if(fellowshipApplyingFor == 'U.S. Fellowship'){
+            /* if(fellowshipApplyingFor == 'U.S. Fellowship'){
                 if(String.isBlank(fa.Geographic_Yes_Region__c)
                     || String.isBlank(fa.Sector_first_choice__c)
                     || String.isBlank(fa.Sector_second_choice__c)
@@ -578,7 +587,7 @@ public with sharing class FellowAppController {
                 if(String.isBlank(fa.Regions_in_China__c)){
                     validationMessage = validationMessage + 'Match Preferences' + lineBreak;
                 }
-            }
+            } */
 
             //Cover Letter
             if(fellowshipApplyingFor == 'U.S. Fellowship' || fellowshipApplyingFor == 'India Fellowship'){

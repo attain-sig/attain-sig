@@ -54,18 +54,21 @@ let i=0; // Do we need this? If yes, create better variable names
 let j=0; // Do we need this? If yes, create better variable names
 export default class EDF15_EducationInformation extends NavigationMixin(LightningElement) {
 
-    @api courseWorkLabel;
-    @api underGraduateMajor;
-    @api Undergraduatedegreeearned;
-    @api undergraduateuniversity;
-    @api undergraduniversity;
-    @api expectedgraduationdate;
-    @api graduatedegreestartdate;
-    @api graduatedegreeconcentration;
-    @api graduatedegreenotlisted;
-    @api schooluniversitynotlisted;
-    @api schoolwithinuniversity;
-    @api graduateuniversity;
+    @api lblCourseWork;
+    @api lblUndergraduateMajor;
+    @api lblUndergraduateDegreeEarned;
+    @api isReqUndergraduateDegreeEarned;
+    @api lblUndergraduateDegreeEarnedOthers;
+    @api lblUndergraduateUniversityOther;
+    @api lblUndergradUniversity;
+    @api lblExpectedGraduationDate;
+    @api lblGraduateDegreeStartDate;
+    @api lblGraduateDegreeConcentration;
+    @api lblGraduateDegreeNotListed;
+    @api lblGraduateDegree;
+    @api lblSchoolUniversityNotListed;
+    @api lblSchoolWithinUniversity;
+    @api lblGraduateUniversity;
     userId = Id;
     currentUserName;
     currentUserEmailId;

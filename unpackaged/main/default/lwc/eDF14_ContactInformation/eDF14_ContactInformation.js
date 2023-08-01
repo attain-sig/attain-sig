@@ -13,7 +13,6 @@ import CONTACT_FIRSTNAME_FIELD from "@salesforce/schema/Contact.FirstName";
 import CONTACT_LASTNAME_FIELD from "@salesforce/schema/Contact.LastName";
 import CONTACT_EMAIL_FIELD from "@salesforce/schema/Contact.Email";
 import CONTACT_PHONE_FIELD from "@salesforce/schema/Contact.Phone";
-
 import FELLOW_APPLICATION_OBJECT from '@salesforce/schema/Fellow_Application__c';
 import FELLOW_APPLICATION_ID_FIELD from '@salesforce/schema/Fellow_Application__c.Id';
 import APPLICANT_FIELD from '@salesforce/schema/Fellow_Application__c.Applicant__c';
@@ -28,6 +27,7 @@ import GENDER_FIELD from '@salesforce/schema/Fellow_Application__c.Sex__c';
 import GENDER_SELF_DESCRIBE_FIELD from '@salesforce/schema/Fellow_Application__c.Sex_Self_Describe__c';
 import DO_YOU_IDENTIFY_AS_LATINX_OR_HISPANIC_FIELD from '@salesforce/schema/Fellow_Application__c.Do_you_identify_as_Latinx_or_Hispanic__c';
 import VETERAN_STATUS_FIELD from '@salesforce/schema/Fellow_Application__c.Veteran_Status__c';
+import FIRST_GEN_STUDENT_FIELD from '@salesforce/schema/Fellow_Application__c.First_Generation_College_Student__c';
 import SKYPE_FIELD from '@salesforce/schema/Fellow_Application__c.Skype__c';
 
 import { updateRecord } from "lightning/uiRecordApi";
@@ -44,8 +44,10 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
 
     @track contacts;
     @track contact = {};
+	//@track pleaseSpecifyOption
     // @track contactId = '0031D00000gDWUnQAO';
     contactId = '';
+	isOtherHowDidYouFindUsVisible = false; // Added by Sindhuja FB-2974
     // @track fellowApplicationId = 'a141D000001NYhLQAW';
     fellowApplicationId = '';
     fellowshipApplyingFor = ''; // Fellowship region is now set at the time of registration
@@ -61,17 +63,14 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     city = '';
     permanentStreetAddressLine1 = '';
     permanentStreetAddressLine2 = '';
+	howDidYouFindUsOther = ''; // FB-2974
     skypeID = '';
-    howDidYouFindUs = '';
-    howDidYouFindUsIfOther = '';
     returnerFellow = '';
     gender = '';
     genderSelfDescribe = 'Prefer to self-describe';
     race = '';
     latinxOrHispanic = '';
     veteranStatus = '';
-    isOtherHowDidYouFindUs = false;
-    labelOtherHowDidYouFindUs = 'Other (please specify)';
     showRaceDefinitionModel = false;
     showVeteranStatusDefinitionModel = false;
     isIndiaFellowShip = false;
@@ -110,6 +109,17 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     @api showRaceEthnicity;
     @api showGenderIdentity;
     @api identityInfoNote;
+    @api showAvenuesClimateCorps;
+    @api labelAvenuesClimateCorps;
+    @api labelOtherAvenuesClimateCorps;
+    @api otherPleaseSpecifyValue;
+
+    // FB-3203
+    @api showFirstGenStudent;
+    @api lblFirstGenStudent;
+    @api firstGenStudentHelpText;
+    firstGenStudent;
+
 
     statePickListValues = [];
     countryPickListValues = [];
@@ -118,6 +128,9 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
 
     @track lstRaceSelected = [];
     @track lstRaceOptions = [];
+    @track howDidYouFindUsPickList = [];
+    @track howDidYouFindUs = [];
+
 
     // Following custom variables are used for Review Fellow App Page
     contentCSS = '';
@@ -167,10 +180,25 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     fellowshipApplyingForPickList;
     */
 
-    // Get "How Did You Find Us" Picklist values.
-    @wire(getPicklistValues, {recordTypeId: '$fellowApplicationObjectInfo.data.defaultRecordTypeId', fieldApiName: HOW_DID_YOU_FIND_US_FIELD })
-    howDidYouFindUsPickList;
 
+   /* @wire(getPicklistValues, {recordTypeId: '$fellowApplicationObjectInfo.data.defaultRecordTypeId', fieldApiName: HOW_DID_YOU_FIND_US_FIELD })
+    howDidYouFindUsPickList;*/
+
+	// Added by Sindhuja FB-2974
+	// Get "How Did You Find Us" Picklist values.
+	@wire(getPicklistValues, { recordTypeId: '$fellowApplicationObjectInfo.data.defaultRecordTypeId', fieldApiName: HOW_DID_YOU_FIND_US_FIELD })
+     howDidYouFindUsValues(data, error) {
+        if (data && data.data && data.data.values) {
+            data.data.values.forEach(objPicklist => {
+                this.howDidYouFindUsPickList.push({
+                    label: objPicklist.label,
+                    value: objPicklist.value
+                });
+            });
+        } else if (error) {
+            console.log(error);
+        }
+    };
     // Get "Participated in the Climate Corps program in the past" Picklist values.
     @wire(getPicklistValues, {recordTypeId: '$fellowApplicationObjectInfo.data.defaultRecordTypeId', fieldApiName: RETURNER_FELLOW_FIELD })
     returnerFellowPickList;
@@ -186,6 +214,10 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     // Get "Veteran Status" Picklist values.
     @wire(getPicklistValues, {recordTypeId: '$fellowApplicationObjectInfo.data.defaultRecordTypeId', fieldApiName: VETERAN_STATUS_FIELD })
     veteranStatusPickList;
+
+    // Get "First Gen Student" Picklist values. - FB-3203
+    @wire(getPicklistValues, {recordTypeId: '$fellowApplicationObjectInfo.data.defaultRecordTypeId', fieldApiName: FIRST_GEN_STUDENT_FIELD })
+    firstGenStudentPickList;
 
     // Get "Veteran Status" Picklist values.
     @wire(getPicklistValues, {recordTypeId: '$fellowApplicationObjectInfo.data.defaultRecordTypeId', fieldApiName: PRONOUNS_FIELD })
@@ -287,16 +319,15 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
             this.city = response.mailingCity ?? '';
             this.permanentStreetAddressLine1 = response.permanentStreetAddressLine1 ?? '';
             this.permanentStreetAddressLine2 = response.permanentStreetAddressLine2 ?? '';
-            this.howDidYouFindUs = response.howDidYouFindUs ?? '';
-            if (this.howDidYouFindUs === this.labelOtherHowDidYouFindUs) {
-                this.isOtherHowDidYouFindUs = true;
-                this.howDidYouFindUsIfOther = '';
+			// Added by Sindhuja line number 328-334 for FB-2974
+			this.howDidYouFindUs = response.howDidYouFindUs ? response.howDidYouFindUs.split(';') : null;
+            if (this.howDidYouFindUs.includes(this.otherPleaseSpecifyValue)) {
+                this.isOtherHowDidYouFindUsVisible = true;
             }
             else {
-                this.isOtherHowDidYouFindUs = false;
-                this.howDidYouFindUsIfOther = '';
+                this.isOtherHowDidYouFindUsVisible = false;
             }
-            this.howDidYouFindUsIfOther = response.howDidYouFindUsIfOther ?? '';
+            this.howDidYouFindUsOther = response.howDidYouFindUsOther ?? '';
             this.returnerFellow = response.returnerFellow ?? '';
             this.skypeID = response.skypeID ?? '';
             this.gender = response.gender ?? '';
@@ -315,6 +346,7 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
             }
             this.latinxOrHispanic = response.latinxOrHispanic ?? '';
             this.veteranStatus = response.veteranStatus ?? '';
+            this.firstGenStudent = response.firstGenStudent ?? '';
 
             for(const list of response.countryPickListValues){
                 const option = {
@@ -404,8 +436,6 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
         fields2[PRONOUNS_FIELD.fieldApiName] = this.pronouns;
         fields2[PRONOUNS_SELF_DESCRIBE_FIELD.fieldApiName] = this.pronounsSelfDescribe;
         fields2[SKYPE_FIELD.fieldApiName] = this.skypeID;
-        fields2[HOW_DID_YOU_FIND_US_FIELD.fieldApiName] = this.howDidYouFindUs;
-        fields2[HOW_DID_YOU_FIND_US_IF_OTHER_FIELD.fieldApiName] = this.howDidYouFindUsIfOther;
         fields2[RETURNER_FELLOW_FIELD.fieldApiName] = this.returnerFellow;
         fields2[GENDER_FIELD.fieldApiName] = this.gender;
         fields2[GENDER_SELF_DESCRIBE_FIELD.fieldApiName] = this.genderSelfDescribe;
@@ -461,19 +491,20 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
             mailingCity:this.city,
             permanentStreetAddressLine1: this.permanentStreetAddressLine1,
             permanentStreetAddressLine2: this.permanentStreetAddressLine2,
-            howDidYouFindUs: this.howDidYouFindUs,
-            howDidYouFindUsIfOther: this.howDidYouFindUsIfOther,
+            howDidYouFindUs: this.howDidYouFindUs.join(';'), // Added by Sindhuja FB-2974
+            howDidYouFindUsOthers: this.howDidYouFindUsOthers, // Added by Sindhuja FB-2974
             skypeID:this.skypeID,
             returnerFellow: this.returnerFellow,
             gender: this.gender,
             genderSelfDescribe: this.genderSelfDescribe,
             race: this.lstRaceSelected.join(';'),
             latinxOrHispanic: this.latinxOrHispanic,
-            veteranStatus: this.veteranStatus
+            veteranStatus: this.veteranStatus,
+            firstGenStudent: this.firstGenStudent
 
         }
 
-        console.log('fellowAppWrapper', fellowAppDetails);
+        console.log('fellowAppWrapper***', fellowAppDetails);
         if(this.isInputValid()){
             updateFellowApplication({fellowAppWrapper:fellowAppDetails}).then(response => {
                 console.log('Records updated: ', response);
@@ -489,7 +520,8 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
                 this.saveNext();
             }).catch(error =>{
                 //alert('Error:' + error.message);
-                console.log('Error:', error);
+                console.log('Error.Message**:', error.message);
+                console.log('Error**:', error);
             });
         }
 
@@ -544,6 +576,7 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     }
     */
 
+
     firstNameChangeHandler(event){
         this.firstName = event.target.value;
     }
@@ -563,6 +596,9 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     permanentStreetAddressLine2ChangeHandler(event){
         this.permanentStreetAddressLine2 = event.target.value;
         //console.log('permanentStreetAddressLine2:', this.permanentStreetAddressLine2);
+    }
+	howDidYouFindUsOtherChangeHandler(event) { // FB-2974
+        this.howDidYouFindUsOther = event.target.value;
     }
     skypeIDChangeHandler(event){
         this.skypeID = event.target.value;
@@ -595,17 +631,16 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     }
     howDidYouFindUsChangeHandler(event){
         this.howDidYouFindUs = event.target.value;
-        if (this.howDidYouFindUs === this.labelOtherHowDidYouFindUs) {
-            this.isOtherHowDidYouFindUs = true;
-            this.howDidYouFindUsIfOther = '';
-        }
+		// Added by Sindhuja line number 660-665 for FB-2974
+		if(this.howDidYouFindUs.includes(this.otherPleaseSpecifyValue)){
+			this.isOtherHowDidYouFindUsVisible = true;
+		}
         else {
-            this.isOtherHowDidYouFindUs = false;
-            this.howDidYouFindUsIfOther = '';
+			this.isOtherHowDidYouFindUsVisible = false;
         }
     }
     howDidYouFindUsIfOtherChangeHandler(event){
-        this.howDidYouFindUsIfOther = event.target.value;
+        this.howDidYouFindUsOther = event.target.value;
     }
     returnerFellowChangeHandler(event){
         this.returnerFellow = event.target.value;
@@ -627,6 +662,9 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     }
     veteranStatusChangeHandler(event){
         this.veteranStatus = event.target.value;
+    }
+    firstGenStudentChangeHandler(event){
+        this.firstGenStudent = event.target.value;
     }
 
 

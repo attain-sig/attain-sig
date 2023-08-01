@@ -5,3 +5,6 @@
     display: none;
     transition: max-height 0.7s ease-out;
 }
+.tooltipContent {
+    --lwc-spacingXxSmall: 0em;
+}

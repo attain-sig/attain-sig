@@ -609,7 +609,7 @@ public without sharing class EDF28_RegisterController {
                 Contact_Email__c savedContactEmail = new Contact_Email__c();
                 savedContactEmail.Donor__c = saveResult.getId();
                 savedContactEmail.Email__c = payload.email;
-                savedContactEmail.Type__c = 'Unknown';
+                savedContactEmail.Type__c = 'Alternate'; // FB-3306
                 savedContactEmail.Start_Date__c = Date.today();
                 savedContactEmail.Created_from_Fellow_App__c = true;
                 contactEmailSaveResult = Database.insert(savedContactEmail);
@@ -627,7 +627,7 @@ public without sharing class EDF28_RegisterController {
                 Contact_Phone__c savedContactPhone = new Contact_Phone__c();
                 savedContactPhone.Donor__c = saveResult.getId();
                 savedContactPhone.Phone__c = payload.Phone;
-                savedContactPhone.Type__c = 'Unknown';
+                savedContactPhone.Type__c = 'Other'; // FB-3306
                 savedContactPhone.Start_Date__c = Date.today();
                 savedContactPhone.Created_from_Fellow_App__c = true;
                 savedContactPhone.Primary__c = true;

@@ -192,7 +192,7 @@ public class FellowAppController_Test {
             faw.permanentStreetAddressLine2='hello';
             faw.skypeID='hello';
             faw.howDidYouFindUs='hello';
-            faw.howDidYouFindUsIfOther='hello';
+            faw.howDidYouFindUsOther='hello';
             faw.returnerFellow='hello';
             faw.gender='hello';
             faw.genderSelfDescribe='hello';

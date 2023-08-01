@@ -15,15 +15,20 @@
             <property name="anyAdditionalInformation" label="Label - Any Additional Information" type="String" default="Any Additional Information"></property>
             <property name="coverLetterClimateCorps" label="Label - Cover Letter" type="String" default="Cover Letter"></property>
             <property name="uploadResume" label="Label - Upload Resume" type="String" default="Upload Resume"></property>
-            <property name="addReference1" label="Label - Add Reference 1" type="String" default="Add Reference 1"></property>
-            <property name="addReference2" label="Label - Add Reference 2" type="String" default="Add Reference 2"></property>
-            <property name="addReference3" label="Label - Add Reference 3" type="String" default="Add Reference 3"></property>
-            <property name="titleReference1" label="Label - Title Reference 1" type="String" default="Title"></property>
-            <property name="titleReference2" label="Label - Title Reference 2" type="String" default="Title"></property>
-            <property name="titleReference3" label="Label - Title Reference 3" type="String" default="Title"></property>
-            <property name="showReference1Phone" label="Show Reference 1 Phone" type="Boolean" default="true"></property>
-            <property name="showReference2Phone" label="Show Reference 2 Phone" type="Boolean" default="true"></property>
-            <property name="showReference3Phone" label="Show Reference 3 Phone" type="Boolean" default="true"></property>
+
+            <property name="showReference1" label="Show Reference 1 Section" type="Boolean" default="false"></property>
+            <property name="lblAddReference1" label="Label - Add Reference 1" type="String" default="Add Reference 1"></property>
+            <property name="showReference2" label="Show Reference 2 Section" type="Boolean" default="false"></property>
+            <property name="lblAddReference2" label="Label - Add Reference 2" type="String" default="Add Reference 2"></property>
+            <property name="showReference3" label="Show Reference 3 Section" type="Boolean" default="false"></property>
+            <property name="lblAddReference3" label="Label - Add Reference 3" type="String" default="Add Reference 3"></property>
+
+            <property name="lblNameReference" label="Label - Name Reference" type="String" default="Name"></property>
+            <property name="lblTitleReference" label="Label - Title Reference" type="String" default="Title"></property>
+            <property name="lblEmailReference" label="Label - Eamil Reference" type="String" default="Email"></property>
+            <property name="showReferencePhone" label="Show Reference Phone" type="Boolean" default="true"></property>
+            <property name="lblPhoneReference" label="Label - Phone Reference" type="String" default="Phone"></property>
+            <property name="lblNotesReference" label="Label - Notes Reference" type="String" default="List your relationship to this reference and any additional information you'd like to share with EDF"></property>
 
 			<property name="saveSuccessTitle" label="Save Success Title" type="String" default="Updated"></property>
 			<property name="saveSuccessMessage" label="Save Success Message" type="String" default="Cover Letter &amp; Resume Saved. Please proceed for Review &amp; Submit"></property>

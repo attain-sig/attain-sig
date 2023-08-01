@@ -23,13 +23,21 @@
   }, {
     "components" : [ {
       "componentAttributes" : {
+        "firstGenStudentHelpText" : "Are you a first-generation college student?",
+        "identityInfoNote" : "Climate Corps is committed to creating a diverse environment and is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. Please note that this section of the application is voluntary and your responses will be fully confidential. Providing us information about your identity will allow us to track the effectiveness of our recruiting and DEI efforts and ensure that the needs of all fellows are taken into consideration.",
         "isChild" : false,
+        "labelAvenuesClimateCorps" : "What avenues did you use to learn about Climate Corps?",
+        "labelOtherAvenuesClimateCorps" : "Other Avenues about Climate Corps",
+        "lblFirstGenStudent" : "Are you a first-generation college student?",
+        "otherPleaseSpecifyValue" : "Other (please specify)",
         "saveSuccessMessage" : "Contact Information Saved!",
-        "saveSuccessTitle" : "",
+        "saveSuccessTitle" : "Success",
+        "showAvenuesClimateCorps" : true,
+        "showFirstGenStudent" : true,
         "showGenderIdentity" : true,
-        "showLatinxHispanic" : false,
-        "showRaceEthnicity" : false,
-        "showVeteranStatus" : false
+        "showLatinxHispanic" : true,
+        "showRaceEthnicity" : true,
+        "showVeteranStatus" : true
       },
       "componentName" : "c:eDF14_ContactInformation",
       "id" : "bf565aef-b040-4822-b9b9-b98c921920a7",

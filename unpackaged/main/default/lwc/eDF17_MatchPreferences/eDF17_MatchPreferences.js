@@ -3,7 +3,7 @@ import { NavigationMixin } from 'lightning/navigation';
 import getMatchPreferences from '@salesforce/apex/FellowAppController.getMatchPreferences';
 import { getPicklistValues, getObjectInfo } from 'lightning/uiObjectInfoApi';
 import { getRecord, getFieldValue, updateRecord } from "lightning/uiRecordApi";
-import { onHeadingClick } from 'c/edfCommonUtils';
+import { onHeadingClick, validateFields } from 'c/edfCommonUtils';
 import updatePreference from '@salesforce/apex/FellowAppController.updatePreference';
 
 // Import message service features required for subscribing and the message channel
@@ -25,11 +25,14 @@ import US_REGIONAL_PREFERENCES_FIELD from '@salesforce/schema/Fellow_Application
 import VALID_US_DRIVERS_LICENSE_FIELD from '@salesforce/schema/Fellow_Application__c.ValidUSDriversLicense__c';
 import ACCESS_TO_VEHICLE_FIELD from '@salesforce/schema/Fellow_Application__c.AccessToAVehicleThisSummer__c';
 import SECTOR_FIRST_CHOICE_FIELD from '@salesforce/schema/Fellow_Application__c.Sector_first_choice__c';
-import SECTOR_SECOND_CHOICE_FIELD from '@salesforce/schema/Fellow_Application__c.Sector_second_choice__c';
-import SECTOR_THIRD_CHOICE_FIELD from '@salesforce/schema/Fellow_Application__c.Sector_third_choice__c';
+import SECTOR_CHOICE_SORTED from '@salesforce/schema/Fellow_Application__c.Sector_Choice_Sorted__c';
+import SECTOR_CHOICE_CHINA from '@salesforce/schema/Fellow_Application__c.Sector_Choice_China__c';
+// import SECTOR_SECOND_CHOICE_FIELD from '@salesforce/schema/Fellow_Application__c.Sector_second_choice__c';
+// import SECTOR_THIRD_CHOICE_FIELD from '@salesforce/schema/Fellow_Application__c.Sector_third_choice__c';
 import PROJECT_TYPE_PREFERENCE_ONE from '@salesforce/schema/Fellow_Application__c.Project_Type_Preference_One__c';
-import PROJECT_TYPE_PREFERENCE_TWO from '@salesforce/schema/Fellow_Application__c.Project_Type_Preference_Two__c';
-import PROJECT_TYPE_PREFERENCE_THREE from '@salesforce/schema/Fellow_Application__c.Project_Type_Preference_Three__c';
+import PROJECT_TYPE_PREFERENCE_CHINA from '@salesforce/schema/Fellow_Application__c.Project_Type_Preference_China__c';
+// import PROJECT_TYPE_PREFERENCE_TWO from '@salesforce/schema/Fellow_Application__c.Project_Type_Preference_Two__c';
+// import PROJECT_TYPE_PREFERENCE_THREE from '@salesforce/schema/Fellow_Application__c.Project_Type_Preference_Three__c';
 
 import AVAILABILITY_START_DATE from '@salesforce/schema/Fellow_Application__c.Availability_Start_Date__c';
 import AVAILABILITY_END_DATE from '@salesforce/schema/Fellow_Application__c.Availability_End_Date__c';
@@ -61,14 +64,14 @@ import USDriverLicense_FieldLabel from '@salesforce/label/c.FellowApp_MatchPref_
 import AccessToVehicle_FieldLabel from '@salesforce/label/c.FellowApp_MatchPref_AccessToVehicle_FieldLabel';
 import SectorPreference_Heading from '@salesforce/label/c.FellowApp_MatchPref_SectorPreference_Heading';
 import SectorPreference3Choices_Heading from '@salesforce/label/c.FellowApp_MatchPref_SectorPreference3Choices_Heading';
-import SectorFirstChoice_FieldLabel from '@salesforce/label/c.FellowApp_MatchPref_SectorFirstChoice_FieldLabel';
-import SectorSecondChoice_FieldLabel from '@salesforce/label/c.FellowApp_MatchPref_SectorSecondChoice_FieldLabel';
-import SectorThirdChoice_FieldLabel from '@salesforce/label/c.FellowApp_MatchPref_SectorThirdChoice_FieldLabel';
+// import SectorFirstChoice_FieldLabel from '@salesforce/label/c.FellowApp_MatchPref_SectorFirstChoice_FieldLabel';
+// import SectorSecondChoice_FieldLabel from '@salesforce/label/c.FellowApp_MatchPref_SectorSecondChoice_FieldLabel';
+// import SectorThirdChoice_FieldLabel from '@salesforce/label/c.FellowApp_MatchPref_SectorThirdChoice_FieldLabel';
 import ProjectTypePreference_Heading from '@salesforce/label/c.FellowApp_MatchPref_ProjectTypePreference_Heading';
 import ProjectTypePreference3Choices_Heading from '@salesforce/label/c.FellowApp_MatchPref_ProjectTypePreference3Choices_Heading';
-import ProjectTypeFirstChoice_FieldLabel from '@salesforce/label/c.FellowApp_MatchPref_ProjectTypeFirstChoice_FieldLabel';
-import ProjectTypeSecondChoice_FieldLabel from '@salesforce/label/c.FellowApp_MatchPref_ProjectTypeSecondChoice_FieldLabel';
-import ProjectTypeThirdChoice_FieldLabel from '@salesforce/label/c.FellowApp_MatchPref_ProjectTypeThirdChoice_FieldLabel';
+// import ProjectTypeFirstChoice_FieldLabel from '@salesforce/label/c.FellowApp_MatchPref_ProjectTypeFirstChoice_FieldLabel';
+// import ProjectTypeSecondChoice_FieldLabel from '@salesforce/label/c.FellowApp_MatchPref_ProjectTypeSecondChoice_FieldLabel';
+// import ProjectTypeThirdChoice_FieldLabel from '@salesforce/label/c.FellowApp_MatchPref_ProjectTypeThirdChoice_FieldLabel';
 import Back_ButtonLabel from '@salesforce/label/c.FellowApp_Back_ButtonLabel';
 import SaveNext_ButtonLabel from '@salesforce/label/c.FellowApp_SaveNext_ButtonLabel';
 import Cancel_ButtonLabel from '@salesforce/label/c.FellowApp_Cancel_ButtonLabel';
@@ -106,14 +109,14 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
         AccessToVehicle_FieldLabel: this.getCustomLabel(AccessToVehicle_FieldLabel),
         SectorPreference_Heading: this.getCustomLabel(SectorPreference_Heading),
         SectorPreference3Choices_Heading: this.getCustomLabel(SectorPreference3Choices_Heading),
-        SectorFirstChoice_FieldLabel: this.getCustomLabel(SectorFirstChoice_FieldLabel),
-        SectorSecondChoice_FieldLabel: this.getCustomLabel(SectorSecondChoice_FieldLabel),
-        SectorThirdChoice_FieldLabel: this.getCustomLabel(SectorThirdChoice_FieldLabel),
+        // SectorFirstChoice_FieldLabel: this.getCustomLabel(SectorFirstChoice_FieldLabel),
+        // SectorSecondChoice_FieldLabel: this.getCustomLabel(SectorSecondChoice_FieldLabel),
+        // SectorThirdChoice_FieldLabel: this.getCustomLabel(SectorThirdChoice_FieldLabel),
         ProjectTypePreference_Heading: this.getCustomLabel(ProjectTypePreference_Heading),
         ProjectTypePreference3Choices_Heading: this.getCustomLabel(ProjectTypePreference3Choices_Heading),
-        ProjectTypeFirstChoice_FieldLabel: this.getCustomLabel(ProjectTypeFirstChoice_FieldLabel),
-        ProjectTypeSecondChoice_FieldLabel: this.getCustomLabel(ProjectTypeSecondChoice_FieldLabel),
-        ProjectTypeThirdChoice_FieldLabel: this.getCustomLabel(ProjectTypeThirdChoice_FieldLabel),
+        // ProjectTypeFirstChoice_FieldLabel: this.getCustomLabel(ProjectTypeFirstChoice_FieldLabel),
+        // ProjectTypeSecondChoice_FieldLabel: this.getCustomLabel(ProjectTypeSecondChoice_FieldLabel),
+        // ProjectTypeThirdChoice_FieldLabel: this.getCustomLabel(ProjectTypeThirdChoice_FieldLabel),
         Back_ButtonLabel: this.getCustomLabel(Back_ButtonLabel),
         SaveNext_ButtonLabel: this.getCustomLabel(SaveNext_ButtonLabel),
         Cancel_ButtonLabel: this.getCustomLabel(Cancel_ButtonLabel),
@@ -138,12 +141,14 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
     usRegionalPreferences = '';
     validUSDriversLicense = '';
     accessToVehicle = '';
-    sectorFirstChoice = '';
-    sectorSecondChoice = '';
-    sectorThirdChoice = '';
-    projectTypePreferenceOne = '';
-    projectTypePreferenceTwo = '';
-    projectTypePreferenceThree = '';
+    @track sectorFirstChoice = []; // FB-2980
+    @track sectorChoiceChina = []; // FB-3193
+    // sectorSecondChoice = '';
+    // sectorThirdChoice = '';
+    @track projectTypePreferenceOne = []; // FB-2980
+    @track projectTypePreferenceChina = []; // FB-3193
+    // projectTypePreferenceTwo = '';
+    // projectTypePreferenceThree = '';
     isUSFellowShip = false;
     isChinaFellowship = false;
     isIndiaFellowShip = false;
@@ -163,6 +168,7 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
 	@track areaOfIntSelected = []; // May not be used
     @track areaOfIntOptions = [];
 
+
     @track regionsInUSSelected = [];
     @track regionsInUSOptions = [];
 
@@ -180,17 +186,19 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
     @api showAccessToVehicle;
     @api lblAccessToVehicle;
     @api showSectorPreference;
+    @api showSectorPreferenceChina;
     @api lblSectorPreferenceHeader;
     @api lblSectorPreferenceNote;
     @api lblSectorFirstChoice;
-    @api lblSectorSecondChoice;
-    @api lblSectorThirdChoice;
+    // @api lblSectorSecondChoice;
+    // @api lblSectorThirdChoice;
     @api showProjectTypePreferenceSection;
+    @api showProjectTypePreferenceSectionChina;
     @api lblProjectTypePreferenceHeader;
     @api lblProjectTypePreferenceNote;
     @api lblProjectTypeFirstChoice;
-    @api lblProjectTypeSecondChoice;
-    @api lblProjectTypeThirdChoice;
+    // @api lblProjectTypeSecondChoice;
+    // @api lblProjectTypeThirdChoice;
     @api showRegionsChina;
     @api lblRegionalPreferenceChina;
 
@@ -198,16 +206,22 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
     @api lblAvailabilityHeader;
     @api lblAvailabilityNote;
     @api lblAvailabilityStartDate;
+    @api isRequiredStartDate;
     @api lblAvailabilityEndDate;
+    @api isRequiredEndDate;
     @api lblAvailabilityAdditionalDetails;
+    @api isRequiredAvailabilityAdditional;
     @api charsAvailabilityAdditional;
     @api showProjectTypePreference;
     @api lblProjectTypePreference;
+    @api isRequiredProjectTypePref;
     @api showRegionsIndia;
     @api lblRegionalPreferenceIndia;
+    @api isRequiredRegionsIndia;
     @api showAreasOfInterest;
     @api showAreasOfInterestIndia;
     @api lblAreasOfInterestIndia;
+    @api isRequiredAreasOfInterest;
     @api lblAreasOfInterestOther;
     @api charsAreasOfInterestOther;
     @api saveSuccessTitle;
@@ -297,12 +311,25 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
             this.usRegionalPreferences = response.usRegionalPreferences ?? '';
             this.validUSDriversLicense = response.validUSDriversLicense ?? '';
             this.accessToVehicle = response.accessToVehicle ?? '';
-            this.sectorFirstChoice = response.sectorFirstChoice ?? '';
-            this.sectorSecondChoice = response.sectorSecondChoice ?? '';
-            this.sectorThirdChoice = response.sectorThirdChoice ?? '';
-            this.projectTypePreferenceOne = response.projectTypePreferenceOne ?? '';
-            this.projectTypePreferenceTwo = response.projectTypePreferenceTwo ?? '';
-            this.projectTypePreferenceThree = response.projectTypePreferenceThree ?? '';
+
+            // this.sectorFirstChoice = response.sectorFirstChoice ?? '';
+            if (response.sectorFirstChoice) { // FB-2980
+                this.sectorFirstChoice = response.sectorFirstChoice.split(';');
+            }
+            if (response.sectorChoiceChina) { // FB-3193
+                this.sectorChoiceChina = response.sectorChoiceChina.split(';');
+            }
+            // this.sectorSecondChoice = response.sectorSecondChoice ?? '';
+            // this.sectorThirdChoice = response.sectorThirdChoice ?? '';
+            // this.projectTypePreferenceOne = response.projectTypePreferenceOne ?? '';
+            if (response.projectTypePreferenceOne) { // FB-2980
+                this.projectTypePreferenceOne = response.projectTypePreferenceOne.split(';');
+            }
+            if (response.projectTypePreferenceChina) { // FB-3193
+                this.projectTypePreferenceChina = response.projectTypePreferenceChina.split(';');
+            }
+            // this.projectTypePreferenceTwo = response.projectTypePreferenceTwo ?? '';
+            // this.projectTypePreferenceThree = response.projectTypePreferenceThree ?? '';
 
 			this.availabilityStartDate = response.availabilityStartDate ?? '';
             this.availabilityEndDate = response.availabilityEndDate ?? '';
@@ -354,16 +381,16 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
         //this.template.querySelector('.us-regional-preferences').value = this.usRegionalPreferences;
         this.template.querySelector('.valid-us-drivers-license').value = this.validUSDriversLicense;
         this.template.querySelector('.access-to-vehicle').value = this.accessToVehicle;
-        this.template.querySelector('.sector-first-choice').value = this.sectorFirstChoice;
-        this.template.querySelector('.sector-second-choice').value = this.sectorSecondChoice;
-        this.template.querySelector('.sector-third-choice').value = this.sectorThirdChoice;
+        // this.template.querySelector('.sector-first-choice').value = this.sectorFirstChoice;
+        // this.template.querySelector('.sector-second-choice').value = this.sectorSecondChoice;
+        // this.template.querySelector('.sector-third-choice').value = this.sectorThirdChoice;
     }
 
     // Get "Regions in India" Picklist values.
     @wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: REGIONS_IN_INDIA_FIELD })
     regionsInIndiaPickListValues(data, error){
         if(data && data.data && data.data.values){
-            console.log('regionsInIndiaPickListValues :: ', JSON.stringify(data.data.values));
+            // console.log('regionsInIndiaPickListValues :: ', JSON.stringify(data.data.values));
             data.data.values.forEach( objPicklist => {
                 this.regionsInIndiaOptions.push({
                     label: objPicklist.label,
@@ -379,7 +406,7 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
     @wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: REGIONS_IN_CHINA_FIELD })
     regionsInChinaPickListValues(data, error){
         if(data && data.data && data.data.values){
-            console.log('regionsInChinaPickListValues :: ', JSON.stringify(data.data.values));
+            // console.log('regionsInChinaPickListValues :: ', JSON.stringify(data.data.values));
             data.data.values.forEach( objPicklist => {
                 this.regionsInChinaOptions.push({
                     label: objPicklist.label,
@@ -395,7 +422,7 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
     @wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: REGIONS_IN_US_FIELD })
     regionsInUSPickListValues(data, error){
         if(data && data.data && data.data.values){
-            console.log('regionsInUSPickListValues :: ', JSON.stringify(data.data.values));
+            // console.log('regionsInUSPickListValues :: ', JSON.stringify(data.data.values));
             data.data.values.forEach( objPicklist => {
                 this.regionsInUSOptions.push({
                     label: objPicklist.label,
@@ -421,25 +448,33 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
     @wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: SECTOR_FIRST_CHOICE_FIELD })
     sectorFirstChoicePickList;
 
-    // Get "Sector Second Choice" Picklist values.
+    // Get "Sector Choice China" Picklist values. FB-3193
+    @wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: SECTOR_CHOICE_CHINA })
+    sectorChoiceChinaPickList;
+
+    /* // Get "Sector Second Choice" Picklist values.
     @wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: SECTOR_SECOND_CHOICE_FIELD })
     sectorSecondChoicePickList;
 
     // Get "Sector Third Choice" Picklist values.
     @wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: SECTOR_THIRD_CHOICE_FIELD })
-    sectorThirdChoicePickList;
+    sectorThirdChoicePickList; */
 
      // Get "Project Type Preference One" Picklist values.
     @wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: PROJECT_TYPE_PREFERENCE_ONE })
     projectTypePreferenceOnePickList;
 
-    // Get "Project Type Preference Two" Picklist values.
+     // Get "Project Type Preference China" Picklist values. FB-3193
+     @wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: PROJECT_TYPE_PREFERENCE_CHINA })
+     projectTypePreferenceChinaPickList;
+
+     /* // Get "Project Type Preference Two" Picklist values.
     @wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: PROJECT_TYPE_PREFERENCE_TWO })
     projectTypePreferenceTwoPickList;
 
     // Get "Project Type Preference Three" Picklist values.
     @wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: PROJECT_TYPE_PREFERENCE_THREE })
-    projectTypePreferenceThreePickList;
+    projectTypePreferenceThreePickList; */
 
 	// Get "Project Type Preference" Picklist values.
 	@wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: PROJECT_TYPE_PREFERENCE })
@@ -449,7 +484,7 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
 	@wire(getPicklistValues, {recordTypeId: '$fellowAppObjectInfo.data.defaultRecordTypeId', fieldApiName: AREAS_OF_INTEREST_INDIA })
     areaOfIntrestPickList(data, error){
 		if(data && data.data && data.data.values){
-            console.log('areaOfIntrestPickList :: ', JSON.stringify(data.data.values));
+            // console.log('areaOfIntrestPickList :: ', JSON.stringify(data.data.values));
 			data.data.values.forEach( objPicklist => {
 				this.areaOfIntOptions.push({
 					label: objPicklist.label,
@@ -500,25 +535,37 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
         this.sectorFirstChoice = event.target.value;
     }
 
+    // FB-3193
+    sectorChoiceChinaChangeHandler(event){
+        this.sectorChoiceChina = event.target.value;
+    }
+
+    /* // FB-2980
     sectorSecondChoiceChangeHandler(event){
         this.sectorSecondChoice = event.target.value;
     }
 
     sectorThirdChoiceChangeHandler(event){
         this.sectorThirdChoice = event.target.value;
-    }
+    } */
 
     projectTypePreferenceOneChangeHandler(event) {
         this.projectTypePreferenceOne = event.target.value;
     }
 
+    // FB-3193
+    projectTypePreferenceChinaChangeHandler(event) {
+        this.projectTypePreferenceChina = event.target.value;
+    }
+
+    /* // FB-2980
     projectTypePreferenceTwoChangeHandler(event) {
         this.projectTypePreferenceTwo = event.target.value;
     }
 
     projectTypePreferenceThreeChangeHandler(event) {
         this.projectTypePreferenceThree = event.target.value;
-    }
+    } */
 
     availabilityStartDateChangeHandler(event) {
 		this.availabilityStartDate = event.target.value;
@@ -554,39 +601,54 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
         fields[REGIONS_IN_INDIA_SORTED.fieldApiName] = this.regionsInIndiaSelected.join(';');
         fields[REGIONS_IN_CHINA_FIELD.fieldApiName] = this.regionsInChinaSelected.join(';');
         fields[REGIONS_IN_US_FIELD.fieldApiName] = this.regionsInUSSelected.join(';');
-        console.log('updateMatchPreferences :: 1. fields ::', fields);
+        // console.log('updateMatchPreferences :: 1. fields ::', fields);
         fields[US_REGIONAL_PREFERENCES_FIELD.fieldApiName] = this.usRegionalPreferences;
         fields[VALID_US_DRIVERS_LICENSE_FIELD.fieldApiName] = this.validUSDriversLicense;
         fields[ACCESS_TO_VEHICLE_FIELD.fieldApiName] = this.accessToVehicle;
-        fields[SECTOR_FIRST_CHOICE_FIELD.fieldApiName] = this.sectorFirstChoice;
-        fields[SECTOR_SECOND_CHOICE_FIELD.fieldApiName] = this.sectorSecondChoice;
-        fields[SECTOR_THIRD_CHOICE_FIELD.fieldApiName] = this.sectorThirdChoice;
-        fields[PROJECT_TYPE_PREFERENCE_ONE.fieldApiName] = this.projectTypePreferenceOne;
-        fields[PROJECT_TYPE_PREFERENCE_TWO.fieldApiName] = this.projectTypePreferenceTwo;
-        fields[PROJECT_TYPE_PREFERENCE_THREE.fieldApiName] = this.projectTypePreferenceThree;
+        fields[SECTOR_FIRST_CHOICE_FIELD.fieldApiName] = this.sectorFirstChoice.join(';'); // FB-2980
+        fields[SECTOR_CHOICE_CHINA.fieldApiName] = this.sectorChoiceChina.join(';'); // FB-3193
+        console.log('updateMatchPreferences :: 1. fields ::', this.sectorChoiceChina);
+        console.log('updateMatchPreferences :: 1. fields ::', this.sectorChoiceChina.length);
+        if (this.sectorFirstChoice.length > 0) {
+            fields[SECTOR_CHOICE_SORTED.fieldApiName] = this.sectorFirstChoice.join(';'); // FB-2980 - US
+        }
+        else if (this.sectorChoiceChina.length > 0) {
+            fields[SECTOR_CHOICE_SORTED.fieldApiName] = this.sectorChoiceChina.join(';'); // FB-3193 - China
+        }
         console.log('updateMatchPreferences :: 2. fields ::', fields);
+        // fields[SECTOR_SECOND_CHOICE_FIELD.fieldApiName] = this.sectorSecondChoice;
+        // fields[SECTOR_THIRD_CHOICE_FIELD.fieldApiName] = this.sectorThirdChoice;
+
+        // fields[PROJECT_TYPE_PREFERENCE_TWO.fieldApiName] = this.projectTypePreferenceTwo;
+        // fields[PROJECT_TYPE_PREFERENCE_THREE.fieldApiName] = this.projectTypePreferenceThree;
 
 		fields[AVAILABILITY_START_DATE.fieldApiName] = this.availabilityStartDate;
-        console.log('updateMatchPreferences :: 2.1. fields ::', fields);
 		fields[AVAILABILITY_END_DATE.fieldApiName] = this.availabilityEndDate;
-        console.log('updateMatchPreferences :: 2.2. fields ::', fields);
 		fields[AVAILABILITY_ADDITIONAL.fieldApiName] = this.availabilityAdditional;
-		console.log('updateMatchPreferences :: 2.3. fields ::', fields);
-        console.log('updateMatchPreferences :: this.projectTypePreference ::', this.projectTypePreference);
+
+        fields[PROJECT_TYPE_PREFERENCE_ONE.fieldApiName] = this.projectTypePreferenceOne.join(';'); // FB-2980
+        fields[PROJECT_TYPE_PREFERENCE_CHINA.fieldApiName] = this.projectTypePreferenceChina.join(';'); // FB-2980
         fields[PROJECT_TYPE_PREFERENCE.fieldApiName] = this.projectTypePreference.join(';');
-        fields[PROJECT_TYPE_PREFERENCE_SORTED.fieldApiName] = this.projectTypePreference.join(';');
-		console.log('updateMatchPreferences :: 2.4. fields ::', fields);
-		fields[AREAS_OF_INTEREST_INDIA.fieldApiName] = this.areaOfInterestSelected.join(';');
+        if (this.projectTypePreferenceOne.length > 0) {
+            fields[PROJECT_TYPE_PREFERENCE_SORTED.fieldApiName] = this.projectTypePreferenceOne.join(';'); // US
+        }
+        else if (this.projectTypePreference.length > 0) {
+            fields[PROJECT_TYPE_PREFERENCE_SORTED.fieldApiName] = this.projectTypePreference.join(';'); // India
+        }
+        else if (this.projectTypePreferenceChina.length > 0) {
+            fields[PROJECT_TYPE_PREFERENCE_SORTED.fieldApiName] = this.projectTypePreferenceChina.join(';'); // FB-3193 - China
+        }
+
+        fields[AREAS_OF_INTEREST_INDIA.fieldApiName] = this.areaOfInterestSelected.join(';');
 		fields[AREAS_OF_INTEREST_INDIA_SORTED.fieldApiName] = this.areaOfInterestSelected.join(';');
-		console.log('updateMatchPreferences :: 2.5. fields ::', fields);
 		fields[AREAS_OF_INTEREST_OTHER.fieldApiName] = this.areasOfInterestOthers;
-        console.log('updateMatchPreferences :: 3. fields ::', fields);
-		// fields[STATECITIES.fieldApiName] = this.Statescitiess;
+
+        // fields[STATECITIES.fieldApiName] = this.Statescitiess;
         const recordInput = {
             fields: fields
         };
 
-        console.log('updateMatchPreferences :: calling isInputValid()');
+        // console.log('updateMatchPreferences :: calling isInputValid()');
         if(this.isInputValid()){
             // updateRecord(recordInput).then((record) => {
             console.log('updateMatchPreferences :: fields ::', fields);
@@ -600,7 +662,7 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
                     this.saveNext();
                 }
                 else {
-                    console.log('INSIDE SAVE ERROR ::', result);
+                    // console.log('INSIDE SAVE ERROR ::', result);
                     this.showStickyToast('Match Preferences', 'error', result);
                 }
             }).error(error => {
@@ -653,27 +715,11 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
 
     isInputValid() {
         let isValid = true;
-        let inputFields = this.template.querySelectorAll('lightning-combobox');
-        console.log('inputFields :: ' + JSON.stringify(inputFields));
-        let multiSelect = this.template.querySelectorAll('lightning-dual-listbox');
-        console.log('multiSelect :: ' + JSON.stringify(multiSelect));
-        inputFields.forEach(inputField => {
-            if (!inputField.checkValidity()) {
-                inputField.reportValidity();
-                inputField.focus();
-                isValid = false;
-            }
-        });
-        multiSelect.forEach(inputField => {
-            if (!inputField.checkValidity()) {
-                inputField.reportValidity();
-                inputField.focus();
-                isValid = false;
-            }
-        });
+        isValid = isValid && validateFields(this.template.querySelectorAll('lightning-combobox'));
+        isValid = isValid && validateFields(this.template.querySelectorAll('lightning-dual-listbox'));
+        isValid = isValid && validateFields(this.template.querySelectorAll('lightning-input'));
+        isValid = isValid && validateFields(this.template.querySelectorAll('lightning-textarea'));
         return isValid;
-
-
     }
 
     // Added by HSingh - FB-2039

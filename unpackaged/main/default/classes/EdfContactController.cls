@@ -113,6 +113,7 @@ public with sharing class EdfContactController {
                                                 Race__c,
                                                 Do_you_identify_as_Latinx_or_Hispanic__c,
                                                 Veteran_Status__c,
+                                                First_Generation_College_Student__c, // FB-3203
                                                 Applicant__c
                                             FROM
                                                 Fellow_Application__c
@@ -133,7 +134,6 @@ public with sharing class EdfContactController {
                 fellowApp.Pronouns__c = fellowAppWrapper.pronouns;
                 fellowApp.Pronouns_Self_Describe__c = fellowAppWrapper.pronounsSelfDescribe;
                 fellowApp.How_Did_You_Find_Us__c = fellowAppWrapper.howDidYouFindUs;
-                fellowApp.How_did_find_out_about_EDF_Other__c = fellowAppWrapper.howDidYouFindUsIfOther;
                 fellowApp.Skype__c = fellowAppWrapper.skypeID;
                 fellowApp.Returner_Fellow__c = fellowAppWrapper.returnerFellow;
                 fellowApp.Sex__c = fellowAppWrapper.gender;
@@ -141,7 +141,8 @@ public with sharing class EdfContactController {
                 fellowApp.Race__c = fellowAppWrapper.race;
                 fellowApp.Do_you_identify_as_Latinx_or_Hispanic__c = fellowAppWrapper.latinxOrHispanic;
                 fellowApp.Veteran_Status__c = fellowAppWrapper.veteranStatus;
-
+                fellowApp.First_Generation_College_Student__c = fellowAppWrapper.firstGenStudent;
+                fellowApp.How_did_find_out_about_EDF_Other__c = fellowAppWrapper.howDidYouFindUsOther; // Added by Sindhuja FB-2974
                 update fellowApp;
 
                 fellowAppSave = true;
@@ -262,7 +263,8 @@ public with sharing class EdfContactController {
                                 Sex_Self_Describe__c,
                                 Race__c,
                                 Do_you_identify_as_Latinx_or_Hispanic__c,
-                                Veteran_Status__c
+                                Veteran_Status__c,
+                                First_Generation_College_Student__c
                             FROM
                                 Fellow_Application__c
                             WHERE
@@ -307,14 +309,15 @@ public with sharing class EdfContactController {
             fw.pronouns = fellowApp.Pronouns__c;
             fw.pronounsSelfDescribe = fellowApp.Pronouns_Self_Describe__c;
             fw.howDidYouFindUs = fellowApp.How_Did_You_Find_Us__c;
+            fw.howDidYouFindUsOther = fellowApp.How_did_find_out_about_EDF_Other__c;
             fw.skypeID = fellowApp.Skype__c;
-            fw.howDidYouFindUsIfOther = fellowApp.How_did_find_out_about_EDF_Other__c;
             fw.returnerFellow = fellowApp.Returner_Fellow__c;
             fw.gender = fellowApp.Sex__c;
             fw.genderSelfDescribe = fellowApp.Sex_Self_Describe__c;
             fw.race = fellowApp.Race__c;
             fw.latinxOrHispanic = fellowApp.Do_you_identify_as_Latinx_or_Hispanic__c;
             fw.veteranStatus = fellowApp.Veteran_Status__c;
+            fw.firstGenStudent = fellowApp.First_Generation_College_Student__c;
             fw.fellowApplicationId = fellowApp.Id;
 
             return fw;

@@ -159,22 +159,40 @@
                                         </div>
                                     </div>
                                     </template>
+                                    <template if:true={showAvenuesClimateCorps}>
                                     <div class="row">
                                         <div class="col-12 form-group">
-                                            <template if:true={howDidYouFindUsPickList.data}>
-                                            <lightning-combobox class="how-did-you-find-us" value={howDidYouFindUs} label="How did you find out about Climate Corps?" options={howDidYouFindUsPickList.data.values} onchange={howDidYouFindUsChangeHandler} required={howDidYouFindCCRequired} read-only={readOnly}>
-                                            </lightning-combobox>
-                                        </template>
+                                            <template if:true={howDidYouFindUsPickList}>
+                                                <lightning-dual-listbox class="how-did-you-find-us"
+                                                 name="howDidYouFind"
+												 value={howDidYouFindUs}
+												 label={labelAvenuesClimateCorps}
+                                                 source-label="Available"
+                                                 selected-label="Chosen"
+												 options={howDidYouFindUsPickList}
+												 onchange={howDidYouFindUsChangeHandler}
+												 required={howDidYouFindCCRequired} disabled={readOnly}>
+                                                </lightning-dual-listbox>
+											</template>
+
                                         </div>
                                     </div>
-                                    <template if:true={isOtherHowDidYouFindUs}>
+                                </template>
+                                    <template if:true={isOtherHowDidYouFindUsVisible}>
                                         <div class="row">
                                             <div class="col-12 form-group">
-                                                <label>If other, please describe</label>
-                                                <textarea name="otherreason" class="form-control" rows="5" onchange={howDidYouFindUsIfOtherChangeHandler}>{howDidYouFindUsIfOther}</textarea>
+                                                <span class="registration-application-field-note phone-field-note">255 characters max</span>
+                                                <lightning-textarea
+                                                    max-length=255
+                                                    name="pleaseSpecify"
+                                                    value={howDidYouFindUsOther}
+                                                    label={labelOtherAvenuesClimateCorps}
+                                                    onchange={howDidYouFindUsOtherChangeHandler}
+                                                    read-only={readOnly}>
+                                                </lightning-textarea>
                                             </div>
                                         </div>
-                                    </template>
+                                     </template>
                                     <div class="row">
                                         <div class="col-12 form-group">
                                             <template if:true={returnerFellowPickList.data}>
@@ -326,6 +344,24 @@
 														</section>
 														<div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
 													</template>
+												</div>
+											</div>
+                                        </template>
+                                        <template if:true={showFirstGenStudent}>
+											<div class="row">
+												<div class="col-12 form-group">
+													<template if:true={firstGenStudentPickList.data}>
+                                                        <lightning-combobox value={firstGenStudent}
+                                                            label={lblFirstGenStudent}
+                                                            name="first-gen-student"
+                                                            options={firstGenStudentPickList.data.values}
+                                                            class="first-gen-student tooltipContent"
+                                                            onchange={firstGenStudentChangeHandler}
+                                                            field-level-help={firstGenStudentHelpText}
+                                                            read-only={readOnly}>
+                                                        </lightning-combobox>
+
+                                                    </template>
 												</div>
 											</div>
                                         </template>

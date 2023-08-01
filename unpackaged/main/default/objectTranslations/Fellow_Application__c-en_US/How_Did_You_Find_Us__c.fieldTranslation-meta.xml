@@ -3,51 +3,59 @@
         <label><!-- How did you find out about EDFCC? --></label>
         <name>How_Did_You_Find_Us__c</name>
         <picklistValues>
-            <masterLabel>Campus Presentation with EDF staff</masterLabel>
-            <translation><!-- Campus Presentation with EDF staff --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Career Services staff</masterLabel>
-            <translation><!-- Career Services staff --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Career services job posting</masterLabel>
-            <translation><!-- Career services job posting --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>EDF Staff webinar</masterLabel>
-            <translation><!-- EDF Staff webinar --></translation>
+            <masterLabel>Black Sustainability Inc. Summit</masterLabel>
+            <translation><!-- Black Sustainability Inc. Summit --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>EDF website</masterLabel>
             <translation><!-- EDF website --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Email from Climate Corps</masterLabel>
+            <translation><!-- Email from Climate Corps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General online job posting (Idealist, Indeed, LinkedIn, GreenBiz, etc.)</masterLabel>
+            <translation><!-- General online job posting (Idealist, Indeed, LinkedIn, GreenBiz, etc.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Live presentation with Climate Corps staff</masterLabel>
+            <translation><!-- Live presentation with Climate Corps staff --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>National Black MBA Conference</masterLabel>
             <translation><!-- National Black MBA Conference --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Online Job postings</masterLabel>
-            <translation><!-- Online Job postings --></translation>
+            <masterLabel>One on one meeting with Climate Corps staff</masterLabel>
+            <translation><!-- One on one meeting with Climate Corps staff --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Other (please specify)</masterLabel>
             <translation><!-- Other (please specify) --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Prospanica conference</masterLabel>
-            <translation><!-- Prospanica conference --></translation>
+            <masterLabel>Recorded presentation with Climate Corps staff</masterLabel>
+            <translation><!-- Recorded presentation with Climate Corps staff --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Student group newsletter</masterLabel>
             <translation><!-- Student group newsletter --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Word of Mouth  from an Alumni Fellow</masterLabel>
-            <translation><!-- Word of Mouth  from an Alumni Fellow --></translation>
+            <masterLabel>Talked to an alumni fellow</masterLabel>
+            <translation><!-- Talked to an alumni fellow --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Word of Mouth from another source</masterLabel>
-            <translation><!-- Word of Mouth from another source --></translation>
+            <masterLabel>Talked to university Career Services staff</masterLabel>
+            <translation><!-- Talked to university Career Services staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talked to university faculty member</masterLabel>
+            <translation><!-- Talked to university faculty member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University job board</masterLabel>
+            <translation><!-- University job board --></translation>
         </picklistValues>
     </CustomFieldTranslation>
