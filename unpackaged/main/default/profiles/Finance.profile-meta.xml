@@ -1130,6 +1130,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Giving_History_Report__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.npe01__One2OneContact__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1736,6 +1741,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.Contact_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Giving_History_Report__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

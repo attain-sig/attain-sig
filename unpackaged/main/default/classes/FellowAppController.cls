@@ -304,20 +304,23 @@ public with sharing class FellowAppController {
         String contactId = fapp.Applicant__c;
         String fellowshipYear = fapp.CC_Year__c; // EDF02_CustomMetadata_Helper.getEDFCCGlobalValue('CurrentFellowshipYear');
 
-        Fellow_Application__c[]  fellowApps
-            = [SELECT Id,
-    			    Status__c
-                FROM
-                    Fellow_Application__c
-                WHERE
-                    Applicant__c  =:contactId AND CC_Year__c=:fellowshipYear];
-        Fellow_Application__c fellowApp = fellowApps.get(0);
-        if(fellowApp.Status__c == 'Prospective Applicant' && fellowApp.Status__c != 'Application Submitted'){
-            fellowApp.Status__c = 'Application Submitted';
-            update fellowApp;
-        }
+        status = validateReviewSubmit();
+        if (status == '') {
+            Fellow_Application__c[]  fellowApps
+                = [SELECT Id,
+                        Status__c
+                    FROM
+                        Fellow_Application__c
+                    WHERE
+                        Applicant__c  =:contactId AND CC_Year__c=:fellowshipYear];
+            Fellow_Application__c fellowApp = fellowApps.get(0);
+            if (fellowApp.Status__c == 'Prospective Applicant' && fellowApp.Status__c != 'Application Submitted'){
+                fellowApp.Status__c = 'Application Submitted';
+                update fellowApp;
+            }
 
-        status = fellowApp.Status__c;
+            // status = fellowApp.Status__c;
+        }
 
         return status;
     }
@@ -429,7 +432,7 @@ public with sharing class FellowAppController {
                                                 Applicant__r.MailingState,
                                                 Applicant__r.MailingCountry,
                                                 Applicant__r.MailingPostalCode,
-                                                Skype__c,
+                                                // Skype__c, // FB-3527
                                                 How_Did_You_Find_Us__c,
                                                 Returner_Fellow__c,
 

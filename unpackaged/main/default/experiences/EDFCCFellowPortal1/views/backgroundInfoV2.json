@@ -24,7 +24,7 @@
     "components" : [ {
       "componentAttributes" : {
         "headingExperienceInfo" : "Please indicate your level of experience (None, Basic, Moderate, and Advanced) with the following project types.",
-        "helpTextUploadedIdentification" : "The following set of documents can be uploaded - (1) Voter Id (2) Aadhaar (3) Passport (4) Driver's License (5) Attested/Official College Id (with the dates of joining and ending mentioned)",
+        "helpTextUploadedIdentification" : "Please upload a copy of your Chinese Identification Card",
         "isChild" : false,
         "labelAuthWorkUS" : "Are you legally authorized to work in the U.S.?",
         "labelChinaResidency" : "Please select your residency in China.",
@@ -34,10 +34,10 @@
         "labelGreenhouseGasAccounting" : "Greenhouse Gas Accounting",
         "labelNativeEnglishSpeaker" : "English proficiency is required for this position. Are you fluent or proficient in English?",
         "labelPassport" : "Please check the box if you have a passport",
-        "labelRequireWorkAuth" : "Will you now or in the future require work authorization",
+        "labelRequireWorkAuth" : "Will you now or in the future require work authorization?",
         "labelSupplyChain" : "Supply Chain",
         "labelUploadedIdentification" : "Upload Identification",
-        "labelUploadedIdentificationNote" : "Please upload a copy of your Chinese Identification Card or India ID",
+        "labelUploadedIdentificationNote" : "",
         "labelYearsOfExperience" : "How many years of professional work experience do you have?",
         "saveSuccessMessage" : "Background Information Saved!",
         "saveSuccessTitle" : "",

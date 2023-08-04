@@ -216,7 +216,17 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>IT_Priority__c</field>
+            <field>Priority_Order__c</field>
+            <table>Feedback__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>EstimatePicklist__c</field>
+            <table>Feedback__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Stakeholder_Deadline__c</field>
             <table>Feedback__c</table>
         </columns>
         <masterLabel>Feedbacks</masterLabel>

@@ -28,7 +28,7 @@ import GENDER_SELF_DESCRIBE_FIELD from '@salesforce/schema/Fellow_Application__c
 import DO_YOU_IDENTIFY_AS_LATINX_OR_HISPANIC_FIELD from '@salesforce/schema/Fellow_Application__c.Do_you_identify_as_Latinx_or_Hispanic__c';
 import VETERAN_STATUS_FIELD from '@salesforce/schema/Fellow_Application__c.Veteran_Status__c';
 import FIRST_GEN_STUDENT_FIELD from '@salesforce/schema/Fellow_Application__c.First_Generation_College_Student__c';
-import SKYPE_FIELD from '@salesforce/schema/Fellow_Application__c.Skype__c';
+// import SKYPE_FIELD from '@salesforce/schema/Fellow_Application__c.Skype__c'; // FB-3527
 
 import { updateRecord } from "lightning/uiRecordApi";
 import getContactInfo from '@salesforce/apex/EdfContactController.getContactInfo';
@@ -64,7 +64,7 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     permanentStreetAddressLine1 = '';
     permanentStreetAddressLine2 = '';
 	howDidYouFindUsOther = ''; // FB-2974
-    skypeID = '';
+    // skypeID = ''; // FB-3527
     returnerFellow = '';
     gender = '';
     genderSelfDescribe = 'Prefer to self-describe';
@@ -95,7 +95,7 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     whichFelloshipApplyingRequired = false;
     howDidYouFindCCRequired = false;
     haveYouParticipatedRequired = false;
-	skypeIdRequired = false;
+	// skypeIdRequired = false; // FB-3527
     isDropDownField =false;
 
     @api backgroundImageClass = 'body-bg-image-application';
@@ -321,7 +321,7 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
             this.permanentStreetAddressLine2 = response.permanentStreetAddressLine2 ?? '';
 			// Added by Sindhuja line number 328-334 for FB-2974
 			this.howDidYouFindUs = response.howDidYouFindUs ? response.howDidYouFindUs.split(';') : null;
-            if (this.howDidYouFindUs.includes(this.otherPleaseSpecifyValue)) {
+            if (this.howDidYouFindUs  &&  this.howDidYouFindUs.includes(this.otherPleaseSpecifyValue)) {
                 this.isOtherHowDidYouFindUsVisible = true;
             }
             else {
@@ -329,7 +329,7 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
             }
             this.howDidYouFindUsOther = response.howDidYouFindUsOther ?? '';
             this.returnerFellow = response.returnerFellow ?? '';
-            this.skypeID = response.skypeID ?? '';
+            // this.skypeID = response.skypeID ?? ''; // FB-3527
             this.gender = response.gender ?? '';
             if(this.gender == 'Prefer to self-describe'){
                 this.isGenderSelfDescribe = true;
@@ -435,7 +435,7 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
         // fields2[FELLOWSHIP_APPLYING_FOR_FIELD.fieldApiName] = this.fellowshipApplyingFor;
         fields2[PRONOUNS_FIELD.fieldApiName] = this.pronouns;
         fields2[PRONOUNS_SELF_DESCRIBE_FIELD.fieldApiName] = this.pronounsSelfDescribe;
-        fields2[SKYPE_FIELD.fieldApiName] = this.skypeID;
+        // fields2[SKYPE_FIELD.fieldApiName] = this.skypeID; // FB-3527
         fields2[RETURNER_FELLOW_FIELD.fieldApiName] = this.returnerFellow;
         fields2[GENDER_FIELD.fieldApiName] = this.gender;
         fields2[GENDER_SELF_DESCRIBE_FIELD.fieldApiName] = this.genderSelfDescribe;
@@ -469,9 +469,6 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     }
 
     saveFellowApp() {
-
-
-
         const fellowAppDetails = {
             id: this.fellowApplicationId,
             contactId:this.contactId,
@@ -491,13 +488,13 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
             mailingCity:this.city,
             permanentStreetAddressLine1: this.permanentStreetAddressLine1,
             permanentStreetAddressLine2: this.permanentStreetAddressLine2,
-            howDidYouFindUs: this.howDidYouFindUs.join(';'), // Added by Sindhuja FB-2974
-            howDidYouFindUsOthers: this.howDidYouFindUsOthers, // Added by Sindhuja FB-2974
-            skypeID:this.skypeID,
+            howDidYouFindUs: this.howDidYouFindUs ? this.howDidYouFindUs.join(';') : null, // Added by Sindhuja FB-2974
+            howDidYouFindUsOther: this.howDidYouFindUsOther, // Added by Sindhuja FB-2974
+            // skypeID:this.skypeID,
             returnerFellow: this.returnerFellow,
             gender: this.gender,
             genderSelfDescribe: this.genderSelfDescribe,
-            race: this.lstRaceSelected.join(';'),
+            race: this.lstRaceSelected ? this.lstRaceSelected.join(';') : null,
             latinxOrHispanic: this.latinxOrHispanic,
             veteranStatus: this.veteranStatus,
             firstGenStudent: this.firstGenStudent
@@ -600,9 +597,10 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
 	howDidYouFindUsOtherChangeHandler(event) { // FB-2974
         this.howDidYouFindUsOther = event.target.value;
     }
-    skypeIDChangeHandler(event){
+    // FB-3527
+    /* skypeIDChangeHandler(event){
         this.skypeID = event.target.value;
-    }
+    } */
     stateChangeHandler(event){
         this.state = event.target.value;
     }
@@ -632,7 +630,7 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
     howDidYouFindUsChangeHandler(event){
         this.howDidYouFindUs = event.target.value;
 		// Added by Sindhuja line number 660-665 for FB-2974
-		if(this.howDidYouFindUs.includes(this.otherPleaseSpecifyValue)){
+		if(this.howDidYouFindUs  &&  this.howDidYouFindUs.includes(this.otherPleaseSpecifyValue)){
 			this.isOtherHowDidYouFindUsVisible = true;
 		}
         else {
@@ -758,9 +756,10 @@ export default class EDF14_ContactInformation extends NavigationMixin(LightningE
             this.howDidYouFindCCRequired = true;
             this.haveYouParticipatedRequired = true;
         //}
-        if(this.fellowshipApplyingFor == 'China Fellowship'){
+        // FB-3527
+        /* if(this.fellowshipApplyingFor == 'China Fellowship'){
             this.skypeIdRequired = true;
-        }
+        } */
     }
 
     isInputValid() {

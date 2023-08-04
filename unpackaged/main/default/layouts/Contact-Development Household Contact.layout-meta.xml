@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <customButtons>npsp__Recalculate_Rollups</customButtons>
+    <excludeButtons>DataDotComClean</excludeButtons>
     <excludeButtons>DisableCustomerPortal</excludeButtons>
     <excludeButtons>DisablePartnerPortal</excludeButtons>
     <excludeButtons>DisablePrmSuperUser</excludeButtons>
@@ -8,7 +9,6 @@
     <excludeButtons>EnablePrmSuperUser</excludeButtons>
     <excludeButtons>EnableSelfService</excludeButtons>
     <excludeButtons>RequestUpdate</excludeButtons>
-    <excludeButtons>RequestUseSfdc</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <excludeButtons>ViewPartnerPortalUser</excludeButtons>
     <excludeButtons>ViewSelfService</excludeButtons>
@@ -1171,6 +1171,7 @@
     <relatedLists>
         <fields>NAME</fields>
         <fields>Face_Value__c</fields>
+        <fields>Date_Legacy_Confirmed__c</fields>
         <fields>Asset_Type__c</fields>
         <fields>Status__c</fields>
         <fields>RECORDTYPE</fields>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>India - Send Invite for Interview 1</name>
+    <pageDevName>India_Send_Invite_for_Interview_1</pageDevName>
+    <relatedEntityType>Fellow_Application__c</relatedEntityType>
+    <style>none</style>
+    <subject>Climate Corps: Advancement to Interview</subject>
+    <textOnly>Dear {{{Fellow_Application__c.Applicant_First_Name__c}}},
+
+We are pleased to inform you that you are under consideration for the Climate Corps fellowship – congratulations on successfully completing the first step in the fellow selection process! 
+
+The following email contains instructions that pertain to your initial interview. Please read the whole email and instructions very closely to ensure that you are prepared. 
+
+Interview Preparation
+
+• Interviews will be conducted via Zoom. If you do not have Zoom, please download it here &lt; https://zoom.us/download &gt; . 
+
+Initial Interview
+
+• You will speak with an interviewer from Climate Corps India team, for 60 minutes. 
+
+• During this call we will have 30 minutes to discuss about your background, skill sets, and experiences related to EDF Climate Corps, as well as to confirm your availability/any other logistical considerations. We will spend 23 minutes discussing a case study.
+
+• At the end of the interview, we will go over the next steps in the process and take 1 or 2 questions from you.
+
+Scheduling Instructions
+
+• Please check the below link and choose one option at your convenient date and time: 
+
+https://calendly.com/d/hx2-7xw-kk2/edf-climate-corps-india-2023-interview
+
+Be advised that after you scheduled your interview, you will receive a link to connect on Zoom video. 
+
+• On the day of your interview, be sure to use a private room with a strong internet connection to host your interview, test your audio and camera an hour prior to the scheduled time, and have access to email in case your Interviewer needs to contact you. 
+
+Rescheduling and Cancellations
+
+• We understand that extenuating circumstances may cause you to reschedule or cancel your interview. If this occurs, please send your request via email directly to pmishra@edf.org. We will then provide further instructions on how to proceed. Should you attempt to cancel or reschedule within 24 hours or less of your interview and/or do so without prior notification, your application may no longer be considered during this wave of offers—as we must respect the time of all our candidates.
+
+In the meantime, we encourage you to visit the Climate Corps website &lt; http://edfclimatecorps.org/projects &gt; to learn more about our past projects and the EDF+ Business &lt; http://business.edf.org/ &gt; and Climate and Energy sites &lt; https://www.edf.org/climate/cleanenergy &gt; to learn more about EDF’s broader efforts around engaging leading organizations to address our most challenging climate and energy issues. 
+
+Finally, be sure to review our Climate Corps India Program &lt; https://business.edf.org/categories/climate-corps/become-a-fellow/india-fellows/ &gt; page for more information about the fellowship.
+
+Congratulations again, and we look forward to speaking soon! If you have any questions about this process or the stage that you are in, please contact pmishra@edf.org.
+
+Best regards, 
+
+The Climate Corps Team
+
+EDFClimateCorps.org
+
+*Please do not reply to this email. We will not respond to any inquiries sent to this address. All questions should be directed to pmishra@edf.org.</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

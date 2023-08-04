@@ -554,6 +554,16 @@
                 <identifier>RecordHow_did_find_out_about_EDF_Other_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.First_Generation_College_Student__c</fieldItem>
+                <identifier>RecordFirst_Generation_College_Student_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-be4eb017-076b-4155-b1ff-9b9274a276ec</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -1318,8 +1328,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Sector_first_choice__c</fieldItem>
-                <identifier>RecordSector_first_choice_cField</identifier>
+                <fieldItem>Record.Sector_Choice_Sorted__c</fieldItem>
+                <identifier>RecordSector_Choice_Sorted_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1328,8 +1338,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Sector_second_choice__c</fieldItem>
-                <identifier>RecordSector_second_choice_cField</identifier>
+                <fieldItem>Record.Project_Type_Preference_Sorted__c</fieldItem>
+                <identifier>RecordProject_Type_Preference_Sorted_cField2</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1338,8 +1348,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Sector_third_choice__c</fieldItem>
-                <identifier>RecordSector_third_choice_cField</identifier>
+                <fieldItem>Record.Sector_Choice_China__c</fieldItem>
+                <identifier>RecordSector_Choice_China_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1348,28 +1358,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Project_Type_Preference_One__c</fieldItem>
-                <identifier>RecordProject_Type_Preference_One_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Project_Type_Preference_Two__c</fieldItem>
-                <identifier>RecordProject_Type_Preference_Two_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Project_Type_Preference_Three__c</fieldItem>
-                <identifier>RecordProject_Type_Preference_Three_cField</identifier>
+                <fieldItem>Record.Project_Type_Preference_China__c</fieldItem>
+                <identifier>RecordProject_Type_Preference_China_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-d5e37f52-a5f6-46c4-9e9e-383eb273678f</name>
@@ -2328,6 +2318,20 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
+                    <name>showLegacyActivityComposer</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentName>runtime_sales_activities:activityPanel</componentName>
+                <identifier>runtime_sales_activities_activityPanel</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-8bcd4e92-4fe1-4c0d-9b45-24b8b3fc80f3</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
                     <name>active</name>
                     <value>true</value>
                 </componentInstanceProperties>
@@ -2355,6 +2359,20 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
                 <identifier>flexipage_tab</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-8bcd4e92-4fe1-4c0d-9b45-24b8b3fc80f3</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Standard.Tab.activity</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>flexipage_tab2</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>

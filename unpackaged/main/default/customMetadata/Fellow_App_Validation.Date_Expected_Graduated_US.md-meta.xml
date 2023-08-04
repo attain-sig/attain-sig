@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Date_Expected_Graduated_US</label>
+    <protected>false</protected>
+    <values>
+        <field>Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Education</value>
+    </values>
+    <values>
+        <field>Compare1__c</field>
+        <value xsi:type="xsd:string">&lt;</value>
+    </values>
+    <values>
+        <field>Compare2__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Compare3__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>DataType1__c</field>
+        <value xsi:type="xsd:string">Date</value>
+    </values>
+    <values>
+        <field>DataType2__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>DataType3__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Error_Message__c</field>
+        <value xsi:type="xsd:string">Climate Corps is only available to current students and more recent graduates. Your graduation date is too far in the past to be eligible. For other opportunities, please visit www.edf.org/jobs.</value>
+    </values>
+    <values>
+        <field>Fellowship_Region__c</field>
+        <value xsi:type="xsd:string">U.S. Fellowship</value>
+    </values>
+    <values>
+        <field>Field1__c</field>
+        <value xsi:type="xsd:string">Date_Expected_Graduated_1__c</value>
+    </values>
+    <values>
+        <field>Field2__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Field3__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>FieldRef1__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>FieldRef2__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>FieldRef3__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Validate_On__c</field>
+        <value xsi:type="xsd:string">Save + Submit</value>
+    </values>
+    <values>
+        <field>Value1__c</field>
+        <value xsi:type="xsd:string">2023-09-01</value>
+    </values>
+    <values>
+        <field>Value2__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Value3__c</field>
+        <value xsi:nil="true"/>
+    </values>
+</CustomMetadata>

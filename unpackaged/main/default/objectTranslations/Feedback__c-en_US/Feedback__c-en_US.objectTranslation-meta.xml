@@ -19,10 +19,6 @@
             <section>Information - Completed by Submitter</section>
         </sections>
         <sections>
-            <label><!-- Migration Data --></label>
-            <section>Migration Data</section>
-        </sections>
-        <sections>
             <label><!-- New Section --></label>
             <section>New Section</section>
         </sections>
@@ -54,6 +50,9 @@
         <errorMessage><!-- Example URL field is required if Feedback Type is &quot;Migrated Data&quot; OR ‘Requires update to data map’ – TRUE --></errorMessage>
         <name>URL_Feedback_is_Required</name>
     </validationRules>
+    
+    
+    
     
     
     

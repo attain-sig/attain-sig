@@ -23,5 +23,29 @@
             <targetType>ExperienceVariation</targetType>
             <targetValue>ReviewFellowApplication_ReviewFellowAppV6_China_Page</targetValue>
         </target>
+        <target>
+            <groupName>8aaec787-f2a2-486c-930b-09f722047631</groupName>
+            <priority>2</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Contact_Info_ContactInfoV2_China_Page</targetValue>
+        </target>
+        <target>
+            <groupName>63af5bba-adbf-4a4d-992c-f8767155f537</groupName>
+            <priority>2</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>CoverLetter_CoverLetterV2_China_Page</targetValue>
+        </target>
+        <target>
+            <groupName>0d31acf3-ae44-46e5-a451-804a96946538</groupName>
+            <priority>2</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>BackgroundInformation_BackgroundInfoV2_China_Page</targetValue>
+        </target>
+        <target>
+            <groupName>1db72c1c-2926-40cd-8d15-b55ee6e164a8</groupName>
+            <priority>2</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Preferences_PreferencesV2_China_Page</targetValue>
+        </target>
     </targets>
 </Audience>

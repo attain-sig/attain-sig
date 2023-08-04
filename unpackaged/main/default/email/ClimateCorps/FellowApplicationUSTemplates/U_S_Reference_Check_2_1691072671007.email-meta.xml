@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>U.S. - Reference Check #2</name>
+    <pageDevName>U_S_Reference_Check_2</pageDevName>
+    <relatedEntityType>Fellow_Application__c</relatedEntityType>
+    <style>none</style>
+    <subject>Climate Corps Reference Check (Response Requested)</subject>
+    <textOnly>Dear {{{Fellow_Application__c.Reference_Name_2__c}}},
+
+{{{Fellow_Application__c.Applicant_Full_Name__c}}} listed you as a reference for Environmental Defense Fund&apos;s Climate Corps summer fellowship program. Climate Corps places specially-trained graduate students in leading companies, cities and nonprofit organizations to advance climate solutions.
+
+Could you kindly complete and submit the questions in the link below within two weeks? It should take about 15 minutes of your time.
+
+Climate Corps fellows are selected based on their project management and leadership skills, and their ability to do technical and financial analyses. For more information on our selection criteria, please visit our website &lt; https://business.edf.org/insights/program-details/ &gt; .
+
+All responses are confidential and only for the purposes of considering a summer fellowship for Climate Corps.
+
+Climate Corps Reference Check Forms&gt;&gt; &lt; https://www.tfaforms.com/5078036?tfa_4=%7B%7B%7BFellow_Application__c.Id%7D%7D%7D+ &gt; 
+
+If you have any reservations and would prefer to have a confidential conversation over the phone, please contact Eileen Ashton at eileen@ceaconsulting.com &lt; mailto:eileen@ceaconsulting.com &gt; .
+
+Thank you for supporting {{{Fellow_Application__c.Applicant_Full_Name__c}}} and Climate Corps. We typically move quickly in this hiring process and we look forward to your responses.
+
+Best,
+
+The Climate Corps Team</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

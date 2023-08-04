@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>3</activeVersionNumber>
     <description>Adds or removes fellow applicants from campaign for sending deadline reminder email based on fellowship applying for and app stage.</description>
     <masterLabel>Fellow Application - Manage Campaign for Deadline Reminder (All Programs)</masterLabel>
 </FlowDefinition>

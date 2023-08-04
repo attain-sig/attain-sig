@@ -6,5 +6,7 @@
     <fields>Feedback_Status__c</fields>
     <fields>Priority__c</fields>
     <fields>Assigned_To__c</fields>
+    <fields>Due_Date__c</fields>
+    <fields>Deployment_Status__c</fields>
     <label>Feedback Compact Layout</label>
 </CompactLayout>

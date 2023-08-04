@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Hold_on_Matching_Wave2</name>
+        <label>Hold on Matching W2</label>
+        <locationX>578</locationX>
+        <locationY>384</locationY>
+        <actionName>Fellow_Application__c.Hold_on_Matching_Wave_2</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <description>Send the Wave 2 Email Alert for Hold on Matching</description>
+        <name>Hold_on_Matching_Wave_2</name>
+        <label>Hold on Matching Wave 2</label>
+        <locationX>314</locationX>
+        <locationY>384</locationY>
+        <actionName>Fellow_Application__c.Hold_on_Matching_Wave_2</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Not_Moving_On_China</name>
+        <label>Not Moving On China</label>
+        <locationX>50</locationX>
+        <locationY>384</locationY>
+        <actionName>Fellow_Application__c.Interview_1_2_Complete_Not_Moving_On_China</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_to_Matching_Pool_W1</name>
+        <label>Send to Matching Pool W1</label>
+        <locationX>842</locationX>
+        <locationY>384</locationY>
+        <actionName>Fellow_Application__c.Send_to_Matching_Pool_Wave_1</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <decisions>
+        <name>Applicant_Stage</name>
+        <label>Applicant Stage</label>
+        <locationX>578</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Interview_1_Not_Moving_On</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Interview 1 Complete- Not Moving On</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Not_Moving_On_China</targetReference>
+            </connector>
+            <label>Interview 1 Complete - Not Moving On</label>
+        </rules>
+        <rules>
+            <name>Hold_on_Matching_US</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Hold on Matching</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Wave__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Wave 1</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Hold_on_Matching_Wave_2</targetReference>
+            </connector>
+            <label>Hold on Matching W1</label>
+        </rules>
+        <rules>
+            <name>Hold_On_Matching_W2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Hold on Matching</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Wave__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Wave 2</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Hold_on_Matching_Wave2</targetReference>
+            </connector>
+            <label>Hold On Matching W2</label>
+        </rules>
+        <rules>
+            <name>Send_to_Matching_Pool</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Send to Matching Pool</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_to_Matching_Pool_W1</targetReference>
+            </connector>
+            <label>Send to Matching Pool</label>
+        </rules>
+    </decisions>
+    <description>U.S. Fellowship
+Triggers when stage = 
+Interview 1 Complete - Not Moving on 
+Send to Matching Pool 
+Hold on Matching</description>
+    <environments>Default</environments>
+    <interviewLabel>Fellow Application - 12 hr hold - US {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Fellow Application - 12 hr hold - US</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+OR(
+ispickval({!$Record.Status__c},&quot;Interview 1 Complete- Not Moving On&quot;), 
+ ispickval({!$Record.Status__c}, &quot;Send to Matching Pool&quot;),
+ ispickval({!$Record.Status__c}, &quot;Hold on Matching&quot;)
+)
+&amp;&amp;
+ispickval({!$Record.Fellowship_Applying_for__c}, &quot;U.S. Fellowship&quot;)</filterFormula>
+        <object>Fellow_Application__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <name>X12_Hour_Hold</name>
+            <connector>
+                <targetReference>Applicant_Stage</targetReference>
+            </connector>
+            <label>12 Hour Hold</label>
+            <maxBatchSize>25</maxBatchSize>
+            <offsetNumber>12</offsetNumber>
+            <offsetUnit>Hours</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+</Flow>

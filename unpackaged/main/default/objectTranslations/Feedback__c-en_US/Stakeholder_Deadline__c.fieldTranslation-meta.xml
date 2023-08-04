@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Used to track deadlines external to IT&apos;s processes, and ideally even external to EDF. For example, a fellow app ticket would have the fellow app launch date in this field. --></help>
+        <label><!-- Stakeholder Deadline --></label>
+        <name>Stakeholder_Deadline__c</name>
+    </CustomFieldTranslation>

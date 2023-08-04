@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- EDF Board Committee --></label>
+        <label><!-- EDF Board --></label>
         <name>EDF_Board_Committee__c</name>
     </CustomFieldTranslation>

@@ -60,8 +60,9 @@ public class FellowAppWrapper {
     @AuraEnabled
     public String permanentStreetAddressLine2 {get; set;}
 
-    @AuraEnabled
-    public String skypeID {get; set;}
+    // FB-3527
+    /* @AuraEnabled
+    public String skypeID {get; set;} */
 
     @AuraEnabled
     public String howDidYouFindUs {get; set;}

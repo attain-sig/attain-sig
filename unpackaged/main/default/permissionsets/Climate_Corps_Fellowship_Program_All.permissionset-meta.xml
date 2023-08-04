@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>Climate_Corps</application>
         <visible>true</visible>
@@ -75,7 +75,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.China_Fellow_Agreement__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -95,7 +95,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.CompleteTrainingPreWork__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -135,7 +135,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Date_Engagement_Confirmed__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -280,7 +280,12 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
+        <field>Climate_Corps_Engagement__c.Fellow_Training_Confirmation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Fellow_Training_Survey_Confirmation__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -330,17 +335,17 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Final_Deliverables_Other_Area__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Final_Deliverables_Project_Area__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Final_Deliverables_Submitted__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -355,7 +360,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Global_Convening_Registration__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -455,17 +460,17 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Number_Of_Consider_Me__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Number_of_Suppliers__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Onsite_Photo_Submitted__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -480,7 +485,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Photo__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -520,7 +525,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Project_Database_Submitted__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -550,7 +555,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Referral__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -625,7 +630,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Submit_Final_Deliverables__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -635,7 +640,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Submit_Workplan__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -775,7 +780,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Zero_Emission_vehicles_rectifications__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -862,6 +867,36 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Fellow_Application__c.Are_you_eligible_to_work_in_U_S_in_summ__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Areas_of_Interest_India_Sorted__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Areas_of_Interest_India__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Areas_of_Interest_Other__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Availability_Additional__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Availability_End_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Availability_Start_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -982,6 +1017,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Fellow_Application__c.Fellowship_Applying_for__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.First_Generation_College_Student__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1170,8 +1210,23 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Fellow_Application__c.Photo_Identification_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Project_Type_Preference_China__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Fellow_Application__c.Project_Type_Preference_One__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Project_Type_Preference_Sorted__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1182,6 +1237,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Fellow_Application__c.Project_Type_Preference_Two__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Project_Type_Preference__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1291,12 +1351,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Fellow_Application__c.Regions_in_India_Sorted__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Fellow_Application__c.Regions_in_India__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Fellow_Application__c.Residency_in_china__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Fellow_Application__c.Resume_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1367,6 +1437,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Fellow_Application__c.Searchable_Applicant_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Sector_Choice_China__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Sector_Choice_Sorted__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1497,6 +1577,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Fellow_Application__c.Veteran_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Wave__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1955,7 +2040,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Climate Corps Fellowship Program All</label>
+    <label>EDF Climate Corps Object Access (excl. References)</label>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -1967,10 +2052,10 @@
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
+        <allowDelete>false</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Fellow_Application__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -1985,10 +2070,10 @@
     </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
+        <allowDelete>false</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>Potential_Matching_From_Screener__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>

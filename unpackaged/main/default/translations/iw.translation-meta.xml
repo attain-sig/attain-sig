@@ -1397,6 +1397,18 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows />
+        <fullName>Fellow_Application_12_hr_hold_US</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_All_Email_Alerts_to_Fellow</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>emailBody</name>
+            </textTemplates>
+        </flows>
         <fullName>Fellow_Application_Application_Submitted_Email_Alert</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -1413,6 +1425,20 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows />
+        <fullName>Fellow_Application_India_Fellows_Immediate_Send</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>adminEmails</name>
+            </textTemplates>
+            <textTemplates>
+                <name>faultMessage</name>
+            </textTemplates>
+            <textTemplates>
+                <name>subject</name>
+            </textTemplates>
+        </flows>
         <fullName>Fellow_Application_Manage_Campaign_for_Deadline_Reminder_All_Programs</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -1453,11 +1479,19 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows />
+        <fullName>Fellow_Application_Two_day_hold_China</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
         <fullName>Fellow_Application_Two_day_hold_US_and_China</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows />
         <fullName>Fellow_Application_US_Email_Alerts</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fellow_Application_US_Fellows_Immediate_Send</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows />

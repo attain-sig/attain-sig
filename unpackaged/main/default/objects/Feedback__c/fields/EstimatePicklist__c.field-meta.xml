@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EstimatePicklist__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>How long this ticket will take you to complete the build and QA on? 1=1 day, 3=a few days, 5=a whole sprint. Anything that takes longer than 2 weeks, should be broken up into smaller components. Anything that takes less than a day should have a null estimate.</inlineHelpText>
+    <label>Estimate</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

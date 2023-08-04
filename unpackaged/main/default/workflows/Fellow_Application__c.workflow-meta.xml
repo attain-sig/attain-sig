@@ -9,7 +9,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Application_Received_China</template>
+        <template>FellowApplicationChina/China_Application_Received_1691097754723</template>
     </alerts>
     <alerts>
         <fullName>Fellow_Application_Received_India</fullName>
@@ -24,8 +24,8 @@
         <template>Climate_Corps_Flow_Templates/Application_Received_India</template>
     </alerts>
     <alerts>
-        <fullName>Fellow_Application_Received_US_and_China</fullName>
-        <description>Fellow Application Received - US and China</description>
+        <fullName>Fellow_Application_Received_US</fullName>
+        <description>Fellow Application Received - US</description>
         <protected>false</protected>
         <recipients>
             <field>Fellow_Applicant_Email__c</field>
@@ -33,7 +33,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Application_Received_US_China</template>
+        <template>FellowApplicationUSTemplates/U_S_Application_Received_1691071075381</template>
     </alerts>
     <alerts>
         <fullName>Hold_on_Interview_2</fullName>
@@ -201,7 +201,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Not_Qualified_and_Notified</template>
+        <template>FellowApplicationUSTemplates/U_S_Application_Received_1691071306462</template>
     </alerts>
     <alerts>
         <fullName>Not_Qualified_and_Notified_China</fullName>
@@ -225,7 +225,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Not_Qualified_and_Notified_India</template>
+        <template>FellowApplicationIndia/India_Not_Qualified_and_Notified_1691069421955</template>
     </alerts>
     <alerts>
         <fullName>Reference_1</fullName>
@@ -237,7 +237,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Reference_Check_1</template>
+        <template>FellowApplicationUSTemplates/U_S_Reference_Check_1_1691072533285</template>
     </alerts>
     <alerts>
         <fullName>Reference_1_India</fullName>
@@ -249,7 +249,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Reference_Check_India_1</template>
+        <template>FellowApplicationIndia/India_Reference_Check_1_1691068641414</template>
     </alerts>
     <alerts>
         <fullName>Reference_2</fullName>
@@ -273,7 +273,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Reference_Check_India_2</template>
+        <template>FellowApplicationIndia/India_Reference_Check_2_1691068850452</template>
     </alerts>
     <alerts>
         <fullName>Reference_3</fullName>
@@ -297,7 +297,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Reference_Check_India_3</template>
+        <template>FellowApplicationIndia/India_Reference_Check_3_1691068901267</template>
     </alerts>
     <alerts>
         <fullName>Send_Invite_for_Interview_1_China</fullName>
@@ -321,7 +321,31 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Send_Invite_for_Interview_1_India</template>
+        <template>FellowApplicationIndia/India_Send_Invite_for_Interview_1_1691070178506</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Invite_for_Interview_1_Wave_1_U_S</fullName>
+        <description>Send Invite for Interview 1 - Wave 1 - U.S.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Fellow_Applicant_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>FellowApplicationUSTemplates/U_S_Send_Invite_for_Interview_1_Wave_1_1691071520691</template>
+    </alerts>
+    <alerts>
+        <fullName>Send_Invite_for_Interview_1_Wave_2_U_S</fullName>
+        <description>Send Invite for Interview 1 - Wave 2 - U.S.</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Fellow_Applicant_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>FellowApplicationUSTemplates/U_S_Send_Invite_for_Interview_1_Wave_2_1691071729972</template>
     </alerts>
     <alerts>
         <fullName>Send_Invite_for_Interview_2_China</fullName>

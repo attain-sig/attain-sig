@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Access to Reference Check responses for Climate Corps Fellow Applicants</description>
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Access to Reference Check responses for Climate Corps Fellow Applicants; is required for CC screeners and granted for broader CC team. shouldn't be assigned to alumni Ems</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>Reference_Check__c.Additional_Information__c</field>
@@ -46,7 +46,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Reference Checks</label>
+    <label>EDF Climate Corps Reference Checks</label>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>

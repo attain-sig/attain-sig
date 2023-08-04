@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Assigned to Climate Corps Staff. Provides the Manage External Users App Permission, which allows creating and editing Portal Users. Facilitates Password resets and allows the Login to Experience as User option.</description>
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Assigned to Climate Corps staff with full Salesforce licenses. Provides the Manage External Users App Permission, which allows creating and editing Portal Users. Facilitates Password resets and allows the Login to Experience as User option.</description>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Manage external/community users</label>
+    <label>EDF Manage external/community users</label>
     <license>Salesforce</license>
     <userPermissions>
         <enabled>true</enabled>

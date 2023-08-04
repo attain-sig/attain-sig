@@ -3,7 +3,7 @@
     <fullName>Due_Date__c</fullName>
     <description>For the technical team's use</description>
     <externalId>false</externalId>
-    <label>Due Date</label>
+    <label>Scheduled Sprint Date</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

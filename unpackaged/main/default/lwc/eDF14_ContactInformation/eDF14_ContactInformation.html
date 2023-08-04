@@ -152,16 +152,16 @@
                                             <lightning-input type="text" label="Permanent Street Address Line 2" class="address2" placeholder="" value={permanentStreetAddressLine2} onchange={permanentStreetAddressLine2ChangeHandler} read-only={readOnly}></lightning-input>
                                         </div>
                                     </div>
-                                    <template if:true={isChinaFellowShip}>
+                                    <!-- <template if:true={isChinaFellowShip}>
                                     <div class="row">
                                         <div class="col-12 form-group">
                                             <lightning-input type="text" label="Skype ID" name="skypeid" class="skypeid" placeholder="" value={skypeID} onchange={skypeIDChangeHandler} required={skypeIdRequired} read-only={readOnly}></lightning-input>
                                         </div>
                                     </div>
-                                    </template>
+                                    </template> -->
                                     <template if:true={showAvenuesClimateCorps}>
                                     <div class="row">
-                                        <div class="col-12 form-group">
+                                        <div class="col-12 form-group multiselect">
                                             <template if:true={howDidYouFindUsPickList}>
                                                 <lightning-dual-listbox class="how-did-you-find-us"
                                                  name="howDidYouFind"
@@ -273,7 +273,7 @@
 												</div>
 											</div>
 											<div class="row custom-lightning-combobox-arrow-wrap">
-												<div class="col-12 form-group">
+												<div class="col-12 form-group multiselect">
 													<lightning-dual-listbox name="race"
 
 																				source-label="Available"
@@ -406,6 +406,7 @@
 
                                 </form>
                             </div>
+                            <template if:true={isChild}><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></template>
                         </div>
                     </div>
                 </div>

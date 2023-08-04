@@ -41,5 +41,11 @@
             <targetType>ExperienceVariation</targetType>
             <targetValue>Forgot_Password_v2_Section_1_Component</targetValue>
         </target>
+        <target>
+            <groupName>13e5bf0b-8617-4ff1-856d-678b0d90f420$#$c88170f3-df24-474d-8b7d-cd30f365d55a</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>RegisterV2_Section_1_Component</targetValue>
+        </target>
     </targets>
 </Audience>

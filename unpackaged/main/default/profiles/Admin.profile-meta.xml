@@ -7465,6 +7465,10 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>FellowApplicationPDF_Bkp</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>FileNotFound</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
@@ -10676,6 +10680,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Feedback__c.EstimatePicklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Feedback__c.Estimate__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -10716,11 +10725,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Feedback__c.IT_Priority__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Feedback__c.Migrated_Data_Update_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -10732,6 +10736,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Feedback__c.Object__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Feedback__c.Priority_Order__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -10772,6 +10781,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Feedback__c.Script_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Feedback__c.Stakeholder_Deadline__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

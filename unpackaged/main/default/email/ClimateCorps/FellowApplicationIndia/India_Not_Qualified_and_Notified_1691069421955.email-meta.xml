@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>India - Not Qualified and Notified</name>
+    <pageDevName>India_Not_Qualified_and_Notified</pageDevName>
+    <relatedEntityType>Fellow_Application__c</relatedEntityType>
+    <style>none</style>
+    <subject>Thank you for applying to Climate Corps</subject>
+    <textOnly>Dear {{{Fellow_Application__c.Applicant_First_Name__c}}},
+
+Thank you for your interest in the Climate Corps program. I am writing to inform you that your application is no longer under consideration for a position with Climate Corps for the 2023 cohort.
+
+You were among many highly qualified Climate Corps applicants in 2023. Matching candidates with organizations is a unique process of identifying and meeting the precise needs of our hosts. Typically, only very few candidates are an exact fit for each of our host organizations.
+
+Due to the high volume of candidates, we are unable to provide further feedback on your individual application. 
+
+You remain a valuable member of the sustainability community and we wish you great success in making the world a more energy-efficient and environmentally conscious place. We hope you will stay in touch with the EDF community &lt; https://business.edf.org/get-involved-with-edf/ &gt; .
+
+We appreciate your interest in the Climate Corps program and thank you for your time and consideration of this position.
+
+Best regards, 
+
+The Climate Corps Team
+
+EDFClimateCorps.org
+
+*Please do not reply to this email. We will not respond to any inquiries sent to this address.</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

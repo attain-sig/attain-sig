@@ -42,21 +42,41 @@ export default class EDF54_SubmitFellowApp extends LightningElement {
     submitApplication() {
         SubmitApplicationMethod().then(response => {
             console.log('Records updated: ', response);
-            const toastEvent = new ShowToastEvent({
-                title: this.titleFAppSubmitted,
-                message: this.msgFAppSubmitted,
-                variant: 'success'
-            });
-            this.dispatchEvent(toastEvent);
-            this.blockRegister = true;
+            if (response == '') {
+                const toastEvent = new ShowToastEvent({
+                    title: this.titleFAppSubmitted,
+                    message: this.msgFAppSubmitted,
+                    variant: 'success'
+                });
+                this.dispatchEvent(toastEvent);
+                this.blockRegister = true;
 
-            // Publish it for other components to update themselves.
-            const payload = { fAppId: 'fAppId' }; // Currently we do not need the ID, we are just publishing that FApp is submitted.
-            publish(this.messageContext, FAPP_SUBMITTED_CHANNEL, payload);
-            console.log('LMS message published');
+                // Publish it for other components to update themselves.
+                const payload = { fAppId: 'fAppId' }; // Currently we do not need the ID, we are just publishing that FApp is submitted.
+                publish(this.messageContext, FAPP_SUBMITTED_CHANNEL, payload);
+                console.log('LMS message published');
+            }
+            else {
+                this.showStickyToast('Error', 'error', response);
+            }
         }).catch(error =>{
             console.log('Error:', error);
         });
 
+    }
+
+    showStickyToast(titleTxt, variantType, msgTxt) {
+        this.showToast(titleTxt, variantType, msgTxt, 'sticky');
+    }
+
+    showToast(titleTxt, variantType, msgTxt, mode) {
+        this.dispatchEvent(
+            new ShowToastEvent({
+                title: titleTxt,
+                message: msgTxt,
+                variant: variantType,
+                mode: mode == null ? 'dismissible' : mode
+            })
+        );
     }
 }

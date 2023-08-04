@@ -597,16 +597,16 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
         fields[FELLOW_APPLICATION_ID_FIELD.fieldApiName] = this.fellowApplicationId;
         fields[APPLY_INDIA_FIELD.fieldApiName] = this.applyIndia;
         fields[APPLY_CHINA_FIELD.fieldApiName] = this.applyChina;
-        fields[REGIONS_IN_INDIA_FIELD.fieldApiName] = this.regionsInIndiaSelected.join(';');
-        fields[REGIONS_IN_INDIA_SORTED.fieldApiName] = this.regionsInIndiaSelected.join(';');
-        fields[REGIONS_IN_CHINA_FIELD.fieldApiName] = this.regionsInChinaSelected.join(';');
-        fields[REGIONS_IN_US_FIELD.fieldApiName] = this.regionsInUSSelected.join(';');
+        fields[REGIONS_IN_INDIA_FIELD.fieldApiName] = this.regionsInIndiaSelected ? this.regionsInIndiaSelected.join(';') : null;
+        fields[REGIONS_IN_INDIA_SORTED.fieldApiName] = this.regionsInIndiaSelected ? this.regionsInIndiaSelected.join(';') : null;
+        fields[REGIONS_IN_CHINA_FIELD.fieldApiName] = this.regionsInChinaSelected ? this.regionsInChinaSelected.join(';') : null;
+        fields[REGIONS_IN_US_FIELD.fieldApiName] = this.regionsInUSSelected ? this.regionsInUSSelected.join(';') : null;
         // console.log('updateMatchPreferences :: 1. fields ::', fields);
         fields[US_REGIONAL_PREFERENCES_FIELD.fieldApiName] = this.usRegionalPreferences;
         fields[VALID_US_DRIVERS_LICENSE_FIELD.fieldApiName] = this.validUSDriversLicense;
         fields[ACCESS_TO_VEHICLE_FIELD.fieldApiName] = this.accessToVehicle;
-        fields[SECTOR_FIRST_CHOICE_FIELD.fieldApiName] = this.sectorFirstChoice.join(';'); // FB-2980
-        fields[SECTOR_CHOICE_CHINA.fieldApiName] = this.sectorChoiceChina.join(';'); // FB-3193
+        fields[SECTOR_FIRST_CHOICE_FIELD.fieldApiName] = this.sectorFirstChoice ? this.sectorFirstChoice.join(';') : null; // FB-2980
+        fields[SECTOR_CHOICE_CHINA.fieldApiName] = this.sectorChoiceChina ? this.sectorChoiceChina.join(';') : null; // FB-3193
         console.log('updateMatchPreferences :: 1. fields ::', this.sectorChoiceChina);
         console.log('updateMatchPreferences :: 1. fields ::', this.sectorChoiceChina.length);
         if (this.sectorFirstChoice.length > 0) {
@@ -626,9 +626,9 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
 		fields[AVAILABILITY_END_DATE.fieldApiName] = this.availabilityEndDate;
 		fields[AVAILABILITY_ADDITIONAL.fieldApiName] = this.availabilityAdditional;
 
-        fields[PROJECT_TYPE_PREFERENCE_ONE.fieldApiName] = this.projectTypePreferenceOne.join(';'); // FB-2980
-        fields[PROJECT_TYPE_PREFERENCE_CHINA.fieldApiName] = this.projectTypePreferenceChina.join(';'); // FB-2980
-        fields[PROJECT_TYPE_PREFERENCE.fieldApiName] = this.projectTypePreference.join(';');
+        fields[PROJECT_TYPE_PREFERENCE_ONE.fieldApiName] = this.projectTypePreferenceOne ? this.projectTypePreferenceOne.join(';') : null; // FB-2980
+        fields[PROJECT_TYPE_PREFERENCE_CHINA.fieldApiName] = this.projectTypePreferenceChina ? this.projectTypePreferenceChina.join(';') : null; // FB-2980
+        fields[PROJECT_TYPE_PREFERENCE.fieldApiName] = this.projectTypePreference ? this.projectTypePreference.join(';') : null;
         if (this.projectTypePreferenceOne.length > 0) {
             fields[PROJECT_TYPE_PREFERENCE_SORTED.fieldApiName] = this.projectTypePreferenceOne.join(';'); // US
         }
@@ -639,8 +639,8 @@ export default class EDF17_MatchPreferences extends NavigationMixin(LightningEle
             fields[PROJECT_TYPE_PREFERENCE_SORTED.fieldApiName] = this.projectTypePreferenceChina.join(';'); // FB-3193 - China
         }
 
-        fields[AREAS_OF_INTEREST_INDIA.fieldApiName] = this.areaOfInterestSelected.join(';');
-		fields[AREAS_OF_INTEREST_INDIA_SORTED.fieldApiName] = this.areaOfInterestSelected.join(';');
+        fields[AREAS_OF_INTEREST_INDIA.fieldApiName] = this.areaOfInterestSelected ? this.areaOfInterestSelected.join(';') : null;
+		fields[AREAS_OF_INTEREST_INDIA_SORTED.fieldApiName] = this.areaOfInterestSelected ? this.areaOfInterestSelected.join(';') : null;
 		fields[AREAS_OF_INTEREST_OTHER.fieldApiName] = this.areasOfInterestOthers;
 
         // fields[STATECITIES.fieldApiName] = this.Statescitiess;

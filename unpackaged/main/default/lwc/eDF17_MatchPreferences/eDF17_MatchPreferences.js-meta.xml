@@ -48,7 +48,7 @@
 			<property name="isRequiredEndDate" label="Required Availability End Date" type="Boolean" default="true"></property>
 			<property name="lblAvailabilityAdditionalDetails" label="Label - Availability Additional" type="String" default="List any additional detail about your availability during the fellowship period"></property>
 			<property name="isRequiredAvailabilityAdditional" label="Required Availability Additional" type="Boolean" default="true"></property>
-			<property name="charsAvailabilityAdditional" label="Char Limit - Other Areas of Interest" description="Max 1800" type="String" default="1800"></property>
+			<property name="charsAvailabilityAdditional" label="Char Limit - Other Areas of Interest" description="Max 255" type="String" default="255"></property>
 
 			<property name="showProjectTypePreference" label="Show Project Type Preference" type="Boolean" default="false"></property>
 			<property name="lblProjectTypePreference" label="Label - Project Type Preference" type="String" default="Project Type Preference"></property>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Not_Moving_Forward_Waitlist</name>
+        <label>Not Moving Forward Waitlist</label>
+        <locationX>440</locationX>
+        <locationY>384</locationY>
+        <actionName>Fellow_Application__c.Not_Moving_Forward_From_Waitlist_China</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>Not_Moving_On_China</name>
+        <label>Not Moving On China</label>
+        <locationX>176</locationX>
+        <locationY>384</locationY>
+        <actionName>Fellow_Application__c.Interview_1_2_Complete_Not_Moving_On_China</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <decisions>
+        <name>Applicant_Stage</name>
+        <label>Applicant Stage</label>
+        <locationX>440</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Interview_1_Not_Moving_On</name>
+            <conditionLogic>(1 OR 2)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Interview 1 Complete- Not Moving On</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Interview 2 Complete- Not Moving On</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Not_Moving_On_China</targetReference>
+            </connector>
+            <label>Interview 1/2 Complete - Not Moving On China</label>
+        </rules>
+        <rules>
+            <name>Not_Moving_Forward</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Not Moving Forward from Waitlist</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Not_Moving_Forward_Waitlist</targetReference>
+            </connector>
+            <label>Not Moving Forward from Waitlist China</label>
+        </rules>
+    </decisions>
+    <description>China Fellowship
+triggers when stage = 
+Interview 1 Complete - Not Moving On
+Interview 2 Complete - Not Moving On 
+Not Moving Forward From Waitlist</description>
+    <environments>Default</environments>
+    <interviewLabel>Fellow Application - Two day hold - China {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Fellow Application - Two day hold - China</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+OR(
+ispickval({!$Record.Status__c},&quot;Interview 1 Complete- Not Moving On&quot;), 
+ ispickval({!$Record.Status__c}, &quot;Interview 2 Complete- Not Moving On&quot;),
+ ispickval({!$Record.Status__c}, &quot;Not Moving Forward from Waitlist&quot;)
+)
+&amp;&amp;
+ispickval({!$Record.Fellowship_Applying_for__c}, &quot;China Fellowship&quot;)</filterFormula>
+        <object>Fellow_Application__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <name>Wait_Two_Days</name>
+            <connector>
+                <targetReference>Applicant_Stage</targetReference>
+            </connector>
+            <label>Wait Two Days</label>
+            <maxBatchSize>25</maxBatchSize>
+            <offsetNumber>2</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+</Flow>

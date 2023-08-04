@@ -4,7 +4,7 @@
         <description>Send application received email to India applicants</description>
         <name>Application_Received_India</name>
         <label>Application Received - India</label>
-        <locationX>886</locationX>
+        <locationX>754</locationX>
         <locationY>1031</locationY>
         <actionName>Fellow_Application__c.Fellow_Application_Received_India</actionName>
         <actionType>emailAlert</actionType>
@@ -25,7 +25,7 @@
         <label>Application Received-US</label>
         <locationX>50</locationX>
         <locationY>1031</locationY>
-        <actionName>Fellow_Application__c.Fellow_Application_Received_US_and_China</actionName>
+        <actionName>Fellow_Application__c.Fellow_Application_Received_US</actionName>
         <actionType>emailAlert</actionType>
         <connector>
             <targetReference>WaveUS</targetReference>
@@ -42,7 +42,7 @@
         <description>Sends email to China applicants</description>
         <name>ChinaApp</name>
         <label>ChinaApp</label>
-        <locationX>1722</locationX>
+        <locationX>1458</locationX>
         <locationY>1031</locationY>
         <actionName>Fellow_Application__c.Application_Received_China</actionName>
         <actionType>emailAlert</actionType>
@@ -59,25 +59,9 @@
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <assignments>
-        <name>AssignNull</name>
-        <label>AssignNull</label>
-        <locationX>490</locationX>
-        <locationY>1247</locationY>
-        <assignmentItems>
-            <assignToReference>varWave</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <stringValue></stringValue>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Update_Application_Submitted_Time</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
         <name>AssignWave</name>
         <label>AssignWave</label>
-        <locationX>754</locationX>
+        <locationX>490</locationX>
         <locationY>1247</locationY>
         <assignmentItems>
             <assignToReference>varWave</assignToReference>
@@ -93,7 +77,7 @@
     <assignments>
         <name>Copy_1_of_Copy_1_of_Wave1US</name>
         <label>Wave1India</label>
-        <locationX>1722</locationX>
+        <locationX>1590</locationX>
         <locationY>647</locationY>
         <assignmentItems>
             <assignToReference>varWave1_India</assignToReference>
@@ -109,7 +93,7 @@
     <assignments>
         <name>Copy_1_of_Wave1India</name>
         <label>Wave2India</label>
-        <locationX>1986</locationX>
+        <locationX>1854</locationX>
         <locationY>647</locationY>
         <assignmentItems>
             <assignToReference>varWave2_India</assignToReference>
@@ -125,7 +109,7 @@
     <assignments>
         <name>Copy_1_of_Wave2India</name>
         <label>Wave1China</label>
-        <locationX>2250</locationX>
+        <locationX>2118</locationX>
         <locationY>647</locationY>
         <assignmentItems>
             <assignToReference>varWave1_China</assignToReference>
@@ -139,41 +123,9 @@
         </connector>
     </assignments>
     <assignments>
-        <name>India_Close_End_Date</name>
-        <label>India Close End Date</label>
-        <locationX>3042</locationX>
-        <locationY>647</locationY>
-        <assignmentItems>
-            <assignToReference>varIndiaCloseLastDate</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Loop_Waves.Deadline__c</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Loop_Waves</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
-        <name>India_Close_Start_Date</name>
-        <label>India Close Start Date</label>
-        <locationX>2778</locationX>
-        <locationY>647</locationY>
-        <assignmentItems>
-            <assignToReference>varIndiaCloseStartDate</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Loop_Waves.Deadline__c</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Loop_Waves</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
         <name>Wave1US</name>
         <label>Wave1US</label>
-        <locationX>1194</locationX>
+        <locationX>1062</locationX>
         <locationY>647</locationY>
         <assignmentItems>
             <assignToReference>varWave1_US</assignToReference>
@@ -189,7 +141,7 @@
     <assignments>
         <name>Wave2ChinaAssignment</name>
         <label>Wave2China</label>
-        <locationX>2514</locationX>
+        <locationX>2382</locationX>
         <locationY>647</locationY>
         <assignmentItems>
             <assignToReference>varWave2_China</assignToReference>
@@ -205,7 +157,7 @@
     <assignments>
         <name>Wave2India</name>
         <label>Wave2</label>
-        <locationX>1018</locationX>
+        <locationX>754</locationX>
         <locationY>1247</locationY>
         <assignmentItems>
             <assignToReference>varWave</assignToReference>
@@ -221,7 +173,7 @@
     <assignments>
         <name>Wave2US</name>
         <label>Wave2US</label>
-        <locationX>1458</locationX>
+        <locationX>1326</locationX>
         <locationY>647</locationY>
         <assignmentItems>
             <assignToReference>varWave2_US</assignToReference>
@@ -237,7 +189,7 @@
     <decisions>
         <name>Copy_1_of_Copy_1_of_WaveUS</name>
         <label>China Waves</label>
-        <locationX>1722</locationX>
+        <locationX>1458</locationX>
         <locationY>1139</locationY>
         <defaultConnector>
             <targetReference>Update_Application_Submitted_Time</targetReference>
@@ -280,7 +232,7 @@
         <description>Decide which email to send based on the which fellowship the candidate is applying for</description>
         <name>Fellowship_Applying_For</name>
         <label>Fellowship Applying For</label>
-        <locationX>1106</locationX>
+        <locationX>974</locationX>
         <locationY>923</locationY>
         <defaultConnector>
             <targetReference>Update_Application_Submitted_Time</targetReference>
@@ -335,7 +287,7 @@
     <decisions>
         <name>Wave_Assignment_By_Program</name>
         <label>Wave Assignment By Program</label>
-        <locationX>2250</locationX>
+        <locationX>1854</locationX>
         <locationY>539</locationY>
         <defaultConnector>
             <targetReference>Loop_Waves</targetReference>
@@ -467,75 +419,16 @@
             </connector>
             <label>Wave2China</label>
         </rules>
-        <rules>
-            <name>Close_Start_India</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>Loop_Waves.Wave__c</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>Loop_Waves.DeveloperName</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>India_Close_Start</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>India_Close_Start_Date</targetReference>
-            </connector>
-            <label>Close Start India</label>
-        </rules>
-        <rules>
-            <name>Close_End_Date_India</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>Loop_Waves.Wave__c</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>Loop_Waves.DeveloperName</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>India_Close_End</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>India_Close_End_Date</targetReference>
-            </connector>
-            <label>Close End Date India</label>
-        </rules>
     </decisions>
     <decisions>
         <name>WaveIndia</name>
         <label>WaveIndia</label>
-        <locationX>886</locationX>
+        <locationX>754</locationX>
         <locationY>1139</locationY>
         <defaultConnector>
             <targetReference>Update_Application_Submitted_Time</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>Invalid_Application</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>InvalidApp</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>AssignNull</targetReference>
-            </connector>
-            <label>Invalid Application</label>
-        </rules>
         <rules>
             <name>Copy_1_of_Wave1</name>
             <conditionLogic>and</conditionLogic>
@@ -611,7 +504,9 @@
     </decisions>
     <description>v4 Optimize flow per FB-1490 + updated template for China
 v5 Updated to include field update for application submitted time
-v6 Updated to assign wave based on program and submitted date/time</description>
+v6 Updated to assign wave based on program and submitted date/time
+v7 updated to remove close date for india application. every app that comes in after w1 deadline will be assigned to w2. FB-3328
+v8 Updated to include task creation on fellow app logging email FB-3453</description>
     <environments>Default</environments>
     <formulas>
         <description>For India applicants that submitted during the close period</description>
@@ -635,7 +530,7 @@ v6 Updated to assign wave based on program and submitted date/time</description>
     <loops>
         <name>Loop_Waves</name>
         <label>Loop Waves</label>
-        <locationX>1106</locationX>
+        <locationX>974</locationX>
         <locationY>431</locationY>
         <collectionReference>Get_Wave_Records</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -665,10 +560,96 @@ v6 Updated to assign wave based on program and submitted date/time</description>
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <description>Adds task logging email</description>
+        <name>Create_Task</name>
+        <label>Create Task</label>
+        <locationX>974</locationX>
+        <locationY>1739</locationY>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>Today</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Activity_Constituency__c</field>
+            <value>
+                <stringValue>EDFBIZ</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Completion_Date__c</field>
+            <value>
+                <elementReference>Today</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>user</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Completed</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Sub_Constituency__c</field>
+            <value>
+                <stringValue>EDFBIZ - Climate Corps</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Email: Climate Corps Application Received</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhoId</field>
+            <value>
+                <elementReference>$Record.Applicant__r.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordLookups>
+        <name>Email_Templates</name>
+        <label>Email Templates</label>
+        <locationX>974</locationX>
+        <locationY>1631</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Create_Task</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Name</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>Application Received</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>EmailTemplate</object>
+        <sortField>Name</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
     <recordLookups>
         <name>Get_Wave_Records</name>
         <label>Get Wave Records</label>
-        <locationX>1106</locationX>
+        <locationX>974</locationX>
         <locationY>323</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -690,8 +671,11 @@ v6 Updated to assign wave based on program and submitted date/time</description>
         <description>Updates value in Application Submitted field</description>
         <name>Update_Application_Submitted_Time</name>
         <label>Update Application Submitted Time</label>
-        <locationX>1106</locationX>
+        <locationX>974</locationX>
         <locationY>1523</locationY>
+        <connector>
+            <targetReference>Email_Templates</targetReference>
+        </connector>
         <inputAssignments>
             <field>Application_Submitted_Date__c</field>
             <value>
@@ -707,7 +691,7 @@ v6 Updated to assign wave based on program and submitted date/time</description>
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <start>
-        <locationX>980</locationX>
+        <locationX>848</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Get_Wave_Records</targetReference>
@@ -721,6 +705,11 @@ ispickval({!$Record.Status__c}, &quot;Application Submitted&quot;)</filterFormul
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>
+    <textTemplates>
+        <name>emailBody</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;{!Email_Templates.Body}&lt;/p&gt;</text>
+    </textTemplates>
     <variables>
         <name>currentItem_Filter_Records</name>
         <dataType>SObject</dataType>
@@ -737,6 +726,26 @@ ispickval({!$Record.Status__c}, &quot;Application Submitted&quot;)</filterFormul
         <isOutput>false</isOutput>
         <value>
             <dateTimeValue>2023-08-21T04:00:00.000Z</dateTimeValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Today</name>
+        <dataType>Date</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <elementReference>$Flow.CurrentDate</elementReference>
+        </value>
+    </variables>
+    <variables>
+        <name>user</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <elementReference>$User.Id</elementReference>
         </value>
     </variables>
     <variables>

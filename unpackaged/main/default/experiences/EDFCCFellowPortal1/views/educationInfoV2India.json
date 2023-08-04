@@ -37,10 +37,10 @@
         "lblUndergradUniversity" : "Undergraduate University",
         "lblUndergraduateDegreeEarned" : "Undergraduate Degree(s) earned",
         "lblUndergraduateDegreeEarnedOthers" : "Undergraduate Degree(s) earned, if not listed above",
-        "lblUndergraduateMajor" : "UnderGraduate Major(s)",
+        "lblUndergraduateMajor" : "Undergraduate Major(s)",
         "lblUndergraduateUniversityOther" : "Undergraduate University, if not listed above",
-        "saveSuccessMessage" : "Education Information Updated",
-        "saveSuccessTitle" : "Education Information"
+        "saveSuccessMessage" : "Education Information Saved!",
+        "saveSuccessTitle" : ""
       },
       "componentName" : "c:eDF15_EducationInformation",
       "id" : "fcbc2c22-09ab-4557-a1e3-65cf22419234",

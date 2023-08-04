@@ -164,33 +164,32 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>IT_Priority__c</picklist>
+        <picklist>Migrated_Data_Update_Status__c</picklist>
+        <values>
+            <fullName>Deferred to Launch</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Remigration Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remigration Needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remigration Needed - Prod and HellerFul</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority_Order__c</picklist>
         <values>
             <fullName>1</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>10</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>13</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>14</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>15</fullName>
             <default>false</default>
         </values>
         <values>
@@ -223,25 +222,6 @@
         </values>
         <values>
             <fullName>9</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Migrated_Data_Update_Status__c</picklist>
-        <values>
-            <fullName>Deferred to Launch</fullName>
-            <default>true</default>
-        </values>
-        <values>
-            <fullName>Remigration Completed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Remigration Needed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Remigration Needed - Prod and HellerFul</fullName>
             <default>false</default>
         </values>
     </picklistValues>

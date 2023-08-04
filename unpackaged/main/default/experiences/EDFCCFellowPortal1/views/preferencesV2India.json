@@ -24,11 +24,11 @@
     "components" : [ {
       "componentAttributes" : {
         "charsAreasOfInterestOther" : "255",
-        "charsAvailabilityAdditional" : "1800",
+        "charsAvailabilityAdditional" : "255",
         "charsUSRegionPrefText" : "255",
         "isChild" : false,
         "isRequiredAreasOfInterest" : true,
-        "isRequiredAvailabilityAdditional" : true,
+        "isRequiredAvailabilityAdditional" : false,
         "isRequiredEndDate" : true,
         "isRequiredProjectTypePref" : true,
         "isRequiredRegionsIndia" : true,

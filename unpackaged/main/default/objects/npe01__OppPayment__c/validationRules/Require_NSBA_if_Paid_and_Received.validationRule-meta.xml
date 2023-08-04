@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_NSBA_if_Paid_and_Received</fullName>
+    <active>false</active>
+    <description>Require the Netsuite Bank Account field be populated if the Payment is Paid=True and Received(Conditional or Unconditional)</description>
+    <errorConditionFormula>AND(
+$Permission.Flow_Automations_Off = FALSE,
+npe01__Paid__c = TRUE,
+ISBLANK(TEXT( NetSuite_Bank_Account__c )),  
+OR( ISPICKVAL(npe01__Opportunity__r.StageName, "Received as Conditional Pledge") ,
+ISPICKVAL(npe01__Opportunity__r.StageName, "Received as Unconditional Pledge")
+)
+)</errorConditionFormula>
+    <errorMessage>Please populate Netsuite Bank Account.</errorMessage>
+</ValidationRule>

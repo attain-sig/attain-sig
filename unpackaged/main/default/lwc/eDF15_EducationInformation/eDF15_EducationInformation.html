@@ -105,7 +105,7 @@
                                     <!-- </div> -->
                                     </template>
                                     <div class="row custom-select-arrow-wrap">
-                                        <div class="col-12 form-group">
+                                        <div class="col-12 form-group multiselect">
                                             <lightning-dual-listbox
                                                 name="graduatedegree"
                                                 label={lblGraduateDegree}
@@ -201,7 +201,7 @@
                                         </div>
                                     </div>
                                     <div class="row custom-select-arrow-wrap">
-                                        <div class="col-12 form-group">
+                                        <div class="col-12 form-group multiselect">
                                             <lightning-dual-listbox
                                                 name="undergraduatedegreeearned"
                                                 label={lblUndergraduateDegreeEarned}
@@ -277,6 +277,7 @@
                                     </div>
                                 </form>
                             </div>
+                            <template if:true={isChild}><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></template>
                         </div>
                     </div>
                 </div>

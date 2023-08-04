@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>U.S. Fellowship.
+Triggers on stages:
+Not Qualified and Notified
+Send Invite for Interview 1
+Waitlist - Interview 1
+Invite to Interview from Waitlist
+Not Moving Forward from Waitlist
+Hold on Matching - Wave 2 (when candidate has submitted considermes)
+Move to Wave 2 (finalizing stage name)
+Offer Sent
+Host Dropped Out After Confirmation</description>
+    <masterLabel>Fellow Application - US Fellows - Immediate Send</masterLabel>
+</FlowDefinition>

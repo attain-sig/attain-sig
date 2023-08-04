@@ -108,7 +108,7 @@ public with sharing class EdfContactController {
                                                 How_did_find_out_about_EDF_Other__c,
                                                 Returner_Fellow__c,
                                                 Sex__c,
-                                                Skype__c,
+                                                // Skype__c, // FB-3527
                                                 Sex_Self_Describe__c,
                                                 Race__c,
                                                 Do_you_identify_as_Latinx_or_Hispanic__c,
@@ -134,7 +134,7 @@ public with sharing class EdfContactController {
                 fellowApp.Pronouns__c = fellowAppWrapper.pronouns;
                 fellowApp.Pronouns_Self_Describe__c = fellowAppWrapper.pronounsSelfDescribe;
                 fellowApp.How_Did_You_Find_Us__c = fellowAppWrapper.howDidYouFindUs;
-                fellowApp.Skype__c = fellowAppWrapper.skypeID;
+                // fellowApp.Skype__c = fellowAppWrapper.skypeID; // FB-3527
                 fellowApp.Returner_Fellow__c = fellowAppWrapper.returnerFellow;
                 fellowApp.Sex__c = fellowAppWrapper.gender;
                 fellowApp.Sex_Self_Describe__c = fellowAppWrapper.genderSelfDescribe;
@@ -254,7 +254,7 @@ public with sharing class EdfContactController {
                                 Pronouns__c,
                                 Pronouns_Self_Describe__c,
                                 Fellowship_Applying_for__c,
-                                Skype__c,
+                                // Skype__c, // FB-3527
                                 How_Did_You_Find_Us__c,
                                 How_Campus_Presentation__c,
                                 How_did_find_out_about_EDF_Other__c,
@@ -310,7 +310,7 @@ public with sharing class EdfContactController {
             fw.pronounsSelfDescribe = fellowApp.Pronouns_Self_Describe__c;
             fw.howDidYouFindUs = fellowApp.How_Did_You_Find_Us__c;
             fw.howDidYouFindUsOther = fellowApp.How_did_find_out_about_EDF_Other__c;
-            fw.skypeID = fellowApp.Skype__c;
+            // fw.skypeID = fellowApp.Skype__c; // FB-3527
             fw.returnerFellow = fellowApp.Returner_Fellow__c;
             fw.gender = fellowApp.Sex__c;
             fw.genderSelfDescribe = fellowApp.Sex_Self_Describe__c;

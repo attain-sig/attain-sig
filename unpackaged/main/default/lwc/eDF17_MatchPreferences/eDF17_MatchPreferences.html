@@ -59,7 +59,7 @@
                                     </div> -->
                                     <template if:true={showUSRegionPref}>
                                         <div class="row form-check-inline-wrap">
-                                            <div class="col-12 form-group">
+                                            <div class="col-12 form-group multiselect">
                                                 <lightning-dual-listbox name="regionsinus"
                                                     label={lblUSRegionPref}
                                                     source-label="Available"
@@ -156,7 +156,7 @@
                                                     <div class="card-body">
                                                         <h6>{lblSectorPreferenceNote}</h6>
                                                         <div class="row">
-                                                            <div class="col-12 form-group">
+                                                            <div class="col-12 form-group multiselect">
                                                                 <template if:true={sectorFirstChoicePickList.data}>
                                                                     <lightning-dual-listbox
                                                                         name="firstchoice"
@@ -223,7 +223,7 @@
                                                         <div class="card-body">
                                                             <h6>{lblProjectTypePreferenceNote}</h6>
                                                             <div class="row">
-                                                                <div class="col-12 form-group">
+                                                                <div class="col-12 form-group multiselect">
                                                                     <template if:true={projectTypePreferenceOnePickList.data}>
                                                                         <lightning-dual-listbox
                                                                             name="projTypePrefOne"
@@ -329,7 +329,7 @@
                                     <!-- Project Type Preference -->
                                     <template if:true={showProjectTypePreference}>
                                         <div class="row">
-                                            <div class="col-12 form-group">
+                                            <div class="col-12 form-group multiselect">
                                                 <template if:true={projectTypePreferencePickList.data}>
                                                     <lightning-dual-listbox
                                                         label={lblProjectTypePreference}
@@ -348,7 +348,7 @@
                                     <!-- Regional Preference India -->
                                     <template if:true={showRegionsIndia}>
                                         <div class="row">
-                                            <div class="col-12 form-group">
+                                            <div class="col-12 form-group multiselect">
                                                 <lightning-dual-listbox name="regionsinindia"
                                                     label={lblRegionalPreferenceIndia}
                                                     source-label="Available"
@@ -375,7 +375,7 @@
                                     <template if:true={showAreasOfInterest}>
                                         <template if:true={showAreasOfInterestIndia}>
                                             <div class="row">
-                                                <div class="col-12 form-group">
+                                                <div class="col-12 form-group multiselect">
                                                     <lightning-dual-listbox name="areaOfIntrests"
                                                         label={lblAreasOfInterestIndia}
                                                         source-label="Available"
@@ -409,7 +409,7 @@
 
                                     <template if:true={showRegionsChina}>
                                         <div class="row">
-                                            <div class="col-12 form-group">
+                                            <div class="col-12 form-group multiselect">
                                                 <lightning-dual-listbox name="regionsinchina"
                                                     label={lblRegionalPreferenceChina}
                                                     source-label="Available"
@@ -442,7 +442,7 @@
                                                     <div class="card-body">
                                                         <h6>{lblSectorPreferenceNote}</h6>
                                                         <div class="row">
-                                                            <div class="col-12 form-group">
+                                                            <div class="col-12 form-group multiselect">
                                                                 <template if:true={sectorChoiceChinaPickList.data}>
                                                                     <lightning-dual-listbox
                                                                         name="firstchoiceChina"
@@ -479,7 +479,7 @@
                                                         <div class="card-body">
                                                             <h6>{lblProjectTypePreferenceNote}</h6>
                                                             <div class="row">
-                                                                <div class="col-12 form-group">
+                                                                <div class="col-12 form-group multiselect">
                                                                     <template if:true={projectTypePreferenceChinaPickList.data}>
                                                                         <lightning-dual-listbox
                                                                             name="projTypePrefOneChina"
@@ -522,6 +522,7 @@
                                     </div>
                                 </form>
                             </div>
+                            <template if:true={isChild}><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p></template>
                         </div>
                     </div>
                 </div>

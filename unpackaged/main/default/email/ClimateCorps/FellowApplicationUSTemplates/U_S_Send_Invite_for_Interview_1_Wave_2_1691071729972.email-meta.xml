@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>U.S. - Send Invite for Interview 1 - Wave 2</name>
+    <pageDevName>U_S_Send_Invite_for_Interview_1_Wave_2</pageDevName>
+    <relatedEntityType>Fellow_Application__c</relatedEntityType>
+    <style>none</style>
+    <subject>Climate Corps: Advancement to Interview </subject>
+    <textOnly>Dear {{{Fellow_Application__c.Applicant_First_Name__c}}},
+
+We are pleased to inform you that you are under consideration for the Climate Corps fellowship -congratulations on successfully completing the first step in the fellow selection process! 
+
+Please watch for a scheduling email from our recruiting partner, CEA Consulting, by the beginning of March to schedule an interview.Please note that scheduling emails will be sent from climatecorpsadmin@ceaconsulting.com &lt; mailto:climatecorpsadmin@ceaconsulting.com &gt; .It is advisable to add this email address to your list of safe senders. Please respond to the scheduling email as soon as possible and if you have scheduling conflicts, are traveling, etc. please communicate your availability to climatecorpsadmin@ceaconsulting.com &lt; mailto:climatecorpsadmin@ceaconsulting.com &gt; as soon as possible. 
+
+Be advised that scheduling emails will include materials for you to review and complete in advance of your interviewas well as a link to connect on Zoom video. For your interview, try to find a quiet place with a strong internet connection. 
+
+We will begin contacting your references via an email survey in one week. Please be sure that the contact information you provided for each reference is accurate. 
+
+In the meantime, we encourage you to visit the Climate Corps website &lt; http://edfclimatecorps.org &gt; to learn more about our past projects &lt; http://edfclimatecorps.org/projects &gt; , as well as the EDF+ Business &lt; http://business.edf.org/ &gt; site to learn more about EDF’s broader efforts around engaging leading organizations to address our most challenging climate and energy issues. 
+
+Finally, be sure to review our Frequently Asked Questions &lt; http://edfclimatecorps.org/fellows/frequently-asked-questions-fellows &gt; page for more information about the fellowship. 
+
+Congratulations again, and we look forward to speaking soon! 
+
+Best regards, 
+
+The Climate Corps Team 
+
+*Please do not reply to this email. All questions should be directed to climatecorpsadmin@ceaconsulting.com</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

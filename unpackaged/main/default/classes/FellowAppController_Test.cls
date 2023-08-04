@@ -113,7 +113,7 @@ public class FellowAppController_Test {
         fa.Pronouns__c = 'He/Him/His';
         fa.How_Did_You_Find_Us__c = 'EDF Staff webinar';
         fa.Returner_Fellow__c = 'No';
-        fa.Skype__c = 'hs';
+        // fa.Skype__c = 'hs'; // FB-3527
         fa.Graduation_Start_Date__c = Date.valueOf('2019-05-31');
         fa.Date_Expected_Graduated_1__c = Date.valueOf('2020-05-31');
         fa.Degree_Earned_2__c = 'Bachelor of Science (BS)';
@@ -190,7 +190,7 @@ public class FellowAppController_Test {
             faw.mailingCity='hello';
             faw.permanentStreetAddressLine1='hello';
             faw.permanentStreetAddressLine2='hello';
-            faw.skypeID='hello';
+            // faw.skypeID='hello'; // FB-3527
             faw.howDidYouFindUs='hello';
             faw.howDidYouFindUsOther='hello';
             faw.returnerFellow='hello';

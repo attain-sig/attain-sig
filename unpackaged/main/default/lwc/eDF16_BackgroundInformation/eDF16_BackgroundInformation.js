@@ -460,7 +460,8 @@ export default class EDF16_BackgroundInformation extends NavigationMixin(Lightni
 
         console.log('this.showUploaded ::' + this.showUploaded);
         console.log('this.showNotUploadedWarning ::' + this.showNotUploadedWarning);
-        if (!this.showUploaded) {
+        console.log('this.showUploadedIdentification ::' + this.showUploadedIdentification);
+        if (this.showUploadedIdentification  &&  !this.showUploaded) {
             this.showNotUploadedWarning = true;
             isValid = isValid && false;
         }

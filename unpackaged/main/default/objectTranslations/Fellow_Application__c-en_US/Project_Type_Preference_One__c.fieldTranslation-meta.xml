@@ -7,8 +7,8 @@
             <translation><!-- Animal Agriculture --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Climate Commitments (goal setting/reporting/GHG accounting)</masterLabel>
-            <translation><!-- Climate Commitments (goal setting/reporting/GHG accounting) --></translation>
+            <masterLabel>Climate Commitments and Roadmaps</masterLabel>
+            <translation><!-- Climate Commitments and Roadmaps --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Environmental and Climate Justice</masterLabel>
@@ -23,15 +23,15 @@
             <translation><!-- Renewables and Energy Efficiency --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Supply Chain/Scope 3</masterLabel>
-            <translation><!-- Supply Chain/Scope 3 --></translation>
+            <masterLabel>Supplier Engagement and Scope 3</masterLabel>
+            <translation><!-- Supplier Engagement and Scope 3 --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Sustainable Finance</masterLabel>
             <translation><!-- Sustainable Finance --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Zero Emission Vehicles</masterLabel>
-            <translation><!-- Zero Emission Vehicles --></translation>
+            <masterLabel>Zero Emission Vehicles and Fleet Transition</masterLabel>
+            <translation><!-- Zero Emission Vehicles and Fleet Transition --></translation>
         </picklistValues>
     </CustomFieldTranslation>

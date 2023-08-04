@@ -48,7 +48,7 @@ public with sharing class FellowApplicationPDFController {
                                 Pronouns__c,
                                 Pronouns_Self_Describe__c,
                                 Fellowship_Applying_for__c,
-                                Skype__c,
+                                // Skype__c, // FB-3527
                                 How_Did_You_Find_Us__c,
                                 How_Campus_Presentation__c,
                                 How_did_find_out_about_EDF_Other__c,
@@ -145,7 +145,7 @@ public with sharing class FellowApplicationPDFController {
                                 Pronouns__c,
                                 Pronouns_Self_Describe__c,
                                 Fellowship_Applying_for__c,
-                                Skype__c,
+                                // Skype__c, // FB-3527
                                 How_Did_You_Find_Us__c,
                                 How_Campus_Presentation__c,
                                 How_did_find_out_about_EDF_Other__c,

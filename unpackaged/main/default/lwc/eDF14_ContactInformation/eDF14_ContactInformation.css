@@ -8,3 +8,8 @@
 .tooltipContent {
     --lwc-spacingXxSmall: 0em;
 }
+
+.multiselect {
+    --lwc-fontWeightBold: 500;
+    --lwc-formLabelFontSize: 14px;
+}

@@ -515,14 +515,14 @@ export default class EDF15_EducationInformation extends NavigationMixin(Lightnin
         fields[GRADUATE_UNIVERSITY_DUAL_FIELD.fieldApiName] = this.dualGraduateUniversity == 'null' ? null : this.dualGraduateUniversity;
         fields[SCHOOL_WITHIN_DUAL_UNIVERSITY_FIELD.fieldApiName] = this.schoolWithinDualUniversity == 'null' ? null : this.schoolWithinDualUniversity;
         fields[SCHOOL_DUAL_UNIVERSITY_OTHER_FIELD.fieldApiName] = this.schoolDualUniversityOther;
-        fields[GRADUATE_DEGREE_FIELD.fieldApiName] = this.graduateDegreeSelected.join(';');
+        fields[GRADUATE_DEGREE_FIELD.fieldApiName] = this.graduateDegreeSelected ? this.graduateDegreeSelected.join(';') : null;
         fields[GRADUATE_DEGREE_OTHER_FIELD.fieldApiName] = this.graduateDegreeOther;
         fields[GRADUATE_DEGREE_CONCENTRATION_FIELD.fieldApiName] = this.graduateDegreeConcentration;
         fields[GRADUATE_DEGREE_START_DATE_FIELD.fieldApiName] = this.graduateDegreeStartDate;
         fields[EXPECTED_GRADUATION_DATE_FIELD.fieldApiName] = this.expectedGraduationDate;
         fields[UNDERGRADUATE_UNIVERSITY_FIELD.fieldApiName] = this.undergraduateUniversity == 'null' ? null : this.undergraduateUniversity;
         fields[UNDERGRADUATE_UNIVERSITY_OTHER_FIELD.fieldApiName] = this.undergraduateUniversityOther;
-        fields[UNDERGRADUATE_DEGREE_EARNED_FIELD.fieldApiName] = this.undergraduateDegreeEarnedSelected.join(';');
+        fields[UNDERGRADUATE_DEGREE_EARNED_FIELD.fieldApiName] = this.undergraduateDegreeEarnedSelected ? this.undergraduateDegreeEarnedSelected.join(';') : null;
         fields[UNDERGRADUATE_DEGREE_EARNED_OTHER_FIELD.fieldApiName] = this.undergraduateDegreeEarnedOther;
         fields[UNDERGRAD_MAJOR_FIELD.fieldApiName] = this.undergradMajor;
         fields[OTHER_COURSES_CERTIFICATIONS_FIELD.fieldApiName] = this.otherCoursesCertifications;

@@ -7,7 +7,7 @@
   "regions" : [ {
     "components" : [ {
       "componentAttributes" : {
-        "background" : "background: rgba(0,0,0,0)",
+        "background" : "background: rgb(180,80,80)",
         "backgroundOverlay" : "rgba(0,0,0,0.5)",
         "contentAreaWidth" : 100,
         "sectionConfig" : {
@@ -26,6 +26,15 @@
       "id" : "16d65c32-3e0d-4c9a-99d0-fb24ba1c74a3",
       "regions" : [ {
         "components" : [ {
+          "componentAttributes" : {
+            "isShowUserDetails" : true
+          },
+          "componentName" : "c:eDF13_Header",
+          "id" : "fa622b88-ddab-4701-a9e8-6c214a7a1c5d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
           "componentAttributes" : {
             "tabsetConfig" : {
               "UUID" : "3c8d7873-53f8-48dc-91e1-04daa25dea20",

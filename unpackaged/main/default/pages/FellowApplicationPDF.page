@@ -17,10 +17,10 @@
             <apex:outputText value="{!fellowAppWrapper.mailingState}" label="State" />
             <apex:outputText value="{!fellowAppWrapper.mailingPostalCode}" label="Postal Code" />
             <apex:outputText value="{!fellowAppWrapper.fellowshipApplyingFor}" label="Which Fellowship are you applying to?"  />
-            <apex:outputText value="{!fellowAppWrapper.fellowApp.Skype__c}" label="Skype ID"  rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='China Fellowship', true, false)}" />
+            <!-- <apex:outputText value="{!fellowAppWrapper.fellowApp.Skype__c}" label="Skype ID"  rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='China Fellowship', true, false)}" /> -->
             <apex:outputText value="{!fellowAppWrapper.howDidYouFindUs}" label="How did you find out about Climate Corps?" />
             <!-- <apex:outputText value="{!fellowAppWrapper.How_Campus_Presentation__c}" label="How did you learn about the Campus Presentation?" rendered="{!IF( OR( fellowAppWrapper.How_Did_You_Find_Us__c ='Campus Presentation with EDF staff', fellowAppWrapper.How_Did_You_Find_Us__c ='Campus Presentation with former Fellow'), true,false)}" /> -->
-            <apex:outputText value="{!fellowAppWrapper.howDidYouFindUsIfOther}" label="If other, please describe" rendered="{!IF(fellowAppWrapper.howDidYouFindUs ='Other (please specify)', true,false)}"/>
+            <!-- <apex:outputText value="{!fellowAppWrapper.howDidYouFindUsIfOther}" label="If other, please describe" rendered="{!IF(fellowAppWrapper.howDidYouFindUs ='Other (please specify)', true,false)}"/> -->
             <apex:outputText value="{!fellowAppWrapper.returnerFellow}" label="Have you participated in the Climate Corps program in the past?" />
 
             <div class="GreenLabel">Identity Information</div>
@@ -131,8 +131,8 @@
             </apex:pageBlockSectionItem>
 
             <apex:outputText value="{!fellowAppWrapper.sectorFirstChoice}" label="{!$Label.FellowApp_MatchPref_SectorFirstChoice_FieldLabel}" rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='U.S. Fellowship' , true, false)}" />
-            <apex:outputText value="{!fellowAppWrapper.sectorSecondChoice}" label="{!$Label.FellowApp_MatchPref_SectorSecondChoice_FieldLabel}" rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='U.S. Fellowship' , true, false)}" />
-            <apex:outputText value="{!fellowAppWrapper.sectorThirdChoice}" label="{!$Label.FellowApp_MatchPref_SectorThirdChoice_FieldLabel}" rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='U.S. Fellowship' , true, false)}" />
+            <!-- <apex:outputText value="{!fellowAppWrapper.sectorSecondChoice}" label="{!$Label.FellowApp_MatchPref_SectorSecondChoice_FieldLabel}" rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='U.S. Fellowship' , true, false)}" />
+            <apex:outputText value="{!fellowAppWrapper.sectorThirdChoice}" label="{!$Label.FellowApp_MatchPref_SectorThirdChoice_FieldLabel}" rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='U.S. Fellowship' , true, false)}" /> -->
 
             <p/>
             <br/>
@@ -141,8 +141,8 @@
                 <apex:outputLabel >{!$Label.FellowApp_MatchPref_ProjectTypePreference3Choices_Heading}</apex:outputLabel>
             </apex:pageBlockSectionItem>
             <apex:outputText value="{!fellowAppWrapper.fellowApp.Project_Type_Preference_One__c}" label="{!$Label.FellowApp_MatchPref_ProjectTypeFirstChoice_FieldLabel}" rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='U.S. Fellowship' , true, false)}" />
-            <apex:outputText value="{!fellowAppWrapper.fellowApp.Project_Type_Preference_Two__c}" label="{!$Label.FellowApp_MatchPref_ProjectTypeSecondChoice_FieldLabel}" rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='U.S. Fellowship' , true, false)}" />
-            <apex:outputText value="{!fellowAppWrapper.fellowApp.Project_Type_Preference_Three__c}" label="{!$Label.FellowApp_MatchPref_ProjectTypeThirdChoice_FieldLabel}" rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='U.S. Fellowship' , true, false)}" />
+            <!-- <apex:outputText value="{!fellowAppWrapper.fellowApp.Project_Type_Preference_Two__c}" label="{!$Label.FellowApp_MatchPref_ProjectTypeSecondChoice_FieldLabel}" rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='U.S. Fellowship' , true, false)}" />
+            <apex:outputText value="{!fellowAppWrapper.fellowApp.Project_Type_Preference_Three__c}" label="{!$Label.FellowApp_MatchPref_ProjectTypeThirdChoice_FieldLabel}" rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='U.S. Fellowship' , true, false)}" /> -->
             <p /><p />
 
         </apex:pageBlockSection>

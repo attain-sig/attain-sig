@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initialscale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <style type="text/css">@media screen and (max-width: 480px) {slot[style] {margin-right: 0 !important;}.columnDiv {margin-right: 0 !important;}}@media screen and (min-width: 480px) {slot[style] {margin-bottom: 0 !important;}.columnDiv {margin-bottom: 0 !important;}}</style>
+  <style type="text/css">@media screen and (max-width: 480px) {.contentbuilderBaseColumnRow .columnCell {display:inline-block;width:100%}}</style>
+  <style type="text/css">.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 600px;}@media only screen and (max-width: 480px) {.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 320px;}}</style>
+ </head>
+ <body>
+  <table class="contentpageDefaultEmailTemplatePageTemplate" style="background-color: #FFFFFF;" role="presentation" id="contentpage_emailTemplateBodyContent" width="100%" cellpadding="0" cellspacing="0">
+   <tbody>
+    <tr>
+     <td width="100%" align="center">
+      <table class="contentRoot" style="background-color: #FFFFFF;" role="presentation" width="600" cellpadding="0" cellspacing="0">
+       <tbody>
+        <tr>
+         <td style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+          <table class="contentbuilderBaseColumnRow" style="align-items: flex-start; width: 100%; background-color:;" role="presentation" width="100%" cellpadding="0" cellspacing="0">
+           <tbody>
+            <tr valign="top">
+             <td width="100%" class="columnCell" style="vertical-align: top;display: inline-block; float:left">
+              <table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+               <tbody>
+                <tr>
+                 <td>
+                  <table style="width:100%; border-collapse: collapse; word-break:break-word;" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   <tbody>
+                    <tr>
+                     <td align="left"><img style="width: 100%; display: block; border: none; max-width: 70%; object-fit: fill;" src="{[devName:EDFClimateCorps_webRGB_20221]}" alt="" width="420" /></td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+                <tr>
+                 <td>
+                  <table style="width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   <tbody>
+                    <tr>
+                     <td style="font-family: Arial, Helvetica, sans-serif;">Dear {{{Fellow_Application__c.Applicant_First_Name__c}}},<br /><br /> We are pleased to inform you that you are under consideration for the Climate Corps fellowship -congratulations on successfully completing the first step in the fellow selection process!&nbsp;&nbsp;&nbsp;<br /><br /> Please watch for a scheduling email from our recruiting partner, CEA Consulting, by the beginning of March to schedule an interview.<strong> Please note that scheduling emails will be sent from <a href="mailto:climatecorpsadmin@ceaconsulting.com">climatecorpsadmin@ceaconsulting.com</a>.</strong>&nbsp;It is advisable to add this email address to your list of safe senders. Please respond to the scheduling email as soon as possible and if you have scheduling conflicts, are traveling, etc. please communicate your availability to <a href="mailto:climatecorpsadmin@ceaconsulting.com">climatecorpsadmin@ceaconsulting.com</a>&nbsp;as soon as possible.&nbsp;<br /><br /> Be advised that scheduling emails will include materials for you to <u><strong>review and complete in advance of your interview</strong></u><strong>as well as a link to connect on Zoom video</strong>. For your interview, try to find a quiet place with a strong internet connection.&nbsp;&nbsp;<br /><br /> We will begin contacting your references via an email survey in one week. Please be sure that the contact information you provided for each reference is accurate.&nbsp;&nbsp;<br /><br /> In the meantime, we encourage you to visit the <a href="http://edfclimatecorps.org">Climate Corps website</a> to learn more about our <a href="http://edfclimatecorps.org/projects">past projects</a>, as well as the <a href="http://business.edf.org/">EDF+ Business</a> site to learn more about EDF’s broader efforts around engaging leading organizations to address our most challenging climate and energy issues.&nbsp;&nbsp;<br /><br /> Finally, be sure to review our <a href="http://edfclimatecorps.org/fellows/frequently-asked-questions-fellows">Frequently Asked Questions</a>&nbsp;page for more information about the fellowship.&nbsp;<br /><br /> Congratulations again, and we look forward to speaking soon!&nbsp;&nbsp;<br /><br /> Best regards,&nbsp;&nbsp;<br /> The Climate Corps Team&nbsp;<br /><br /><strong>*Please do not reply to this email. All questions should be directed to climatecorpsadmin@ceaconsulting.com&nbsp;&nbsp;</strong><br /> &nbsp;</td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+               </tbody>
+              </table></td>
+            </tr>
+           </tbody>
+          </table></td>
+        </tr>
+       </tbody>
+      </table></td>
+    </tr>
+   </tbody>
+  </table>
+ </body>
+</html>

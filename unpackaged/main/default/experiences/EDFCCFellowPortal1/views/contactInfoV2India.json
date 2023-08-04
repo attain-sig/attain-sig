@@ -24,6 +24,8 @@
     "components" : [ {
       "componentAttributes" : {
         "identityInfoNote" : "Climate Corps is committed to creating a diverse environment and is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. Please note that this section of the application is voluntary and your responses will be fully confidential. Providing us information about your identity will allow us to track the effectiveness of our recruiting and DEI efforts and ensure that the needs of all fellows are taken into consideration.",
+        "labelAvenuesClimateCorps" : "How did you learn about Climate Corps?",
+        "labelOtherAvenuesClimateCorps" : "Other",
         "saveSuccessMessage" : "Contact Information Saved!",
         "saveSuccessTitle" : "",
         "showGenderIdentity" : true,

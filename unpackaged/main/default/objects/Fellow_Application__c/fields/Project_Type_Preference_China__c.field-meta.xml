@@ -17,9 +17,9 @@
                 <label>Animal Agriculture</label>
             </value>
             <value>
-                <fullName>Climate Commitments (goal setting/reporting/GHG accounting)</fullName>
+                <fullName>Climate Commitments and Roadmaps</fullName>
                 <default>false</default>
-                <label>Climate Commitments (goal setting/reporting/GHG accounting)</label>
+                <label>Climate Commitments and Roadmaps</label>
             </value>
             <value>
                 <fullName>Environmental and Climate Justice</fullName>
@@ -37,9 +37,9 @@
                 <label>Renewables and Energy Efficiency</label>
             </value>
             <value>
-                <fullName>Supply Chain/Scope 3</fullName>
+                <fullName>Supplier Engagement and Scope 3</fullName>
                 <default>false</default>
-                <label>Supply Chain/Scope 3</label>
+                <label>Supplier Engagement and Scope 3</label>
             </value>
             <value>
                 <fullName>Sustainable Finance</fullName>
@@ -47,8 +47,26 @@
                 <label>Sustainable Finance</label>
             </value>
             <value>
+                <fullName>Zero Emission Vehicles and Fleet Transition</fullName>
+                <default>false</default>
+                <label>Zero Emission Vehicles and Fleet Transition</label>
+            </value>
+            <value>
+                <fullName>Climate Commitments (goal setting/reporting/GHG accounting)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Climate Commitments (goal setting/reporting/GHG accounting)</label>
+            </value>
+            <value>
+                <fullName>Supply Chain/Scope 3</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Supply Chain/Scope 3</label>
+            </value>
+            <value>
                 <fullName>Zero Emission Vehicles</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Zero Emission Vehicles</label>
             </value>
         </valueSetDefinition>

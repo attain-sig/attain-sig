@@ -69,6 +69,10 @@
         <errorMessage><!-- This field cannot be edited when Paid is True. Please reach out to the Gift Processing team. --></errorMessage>
         <name>No_Edit_if_Paid</name>
     </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please populate Netsuite Bank Account. --></errorMessage>
+        <name>Require_NSBA_if_Paid_and_Received</name>
+    </validationRules>
     <webLinks>
         <label><!-- Schedule_Payments --></label>
         <name>npe01__Schedule_Payments</name>

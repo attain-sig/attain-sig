@@ -35,5 +35,11 @@
             <targetType>ExperienceVariation</targetType>
             <targetValue>RegisterV2_Rich_Content_Editor_Component</targetValue>
         </target>
+        <target>
+            <groupName>13e5bf0b-8617-4ff1-856d-678b0d90f420$#$c1748c93-a79f-4ad7-a659-f2d35482daa8</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>RegisterV2_Section_Component</targetValue>
+        </target>
     </targets>
 </Audience>
