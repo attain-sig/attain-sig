@@ -1480,6 +1480,8 @@
     <tabs>User_Story__c</tabs>
     <tabs>Test_Scripts__c</tabs>
     <tabs>Feedback__c</tabs>
+    <tabs>standard-EmailTemplate</tabs>
+    <tabs>standard-ListEmail</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Climate_Corps_UtilityBar</utilityBar>
 </CustomApplication>
