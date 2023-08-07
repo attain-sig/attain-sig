@@ -17,13 +17,6 @@
                     <stringValue>Funding Vehicle</stringValue>
                 </rightValue>
             </conditions>
-            <conditions>
-                <leftValueReference>$Record__Prior.Affiliation_Type__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Funding Vehicle</stringValue>
-                </rightValue>
-            </conditions>
             <connector>
                 <targetReference>Clear_Related_OCR</targetReference>
             </connector>
@@ -46,7 +39,7 @@
             <label>Funding Vehicle</label>
         </rules>
     </decisions>
-    <description>Only clears OCR value if prior value was Funding Vehicle.</description>
+    <description>Clears OCR unless current Type is Funding Vehicle.</description>
     <environments>Default</environments>
     <interviewLabel>Affiliation - BEFORE - Funding Vehicle OCR {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Affiliation - BEFORE - Funding Vehicle OCR</label>
@@ -106,5 +99,5 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordBeforeSave</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
 </Flow>

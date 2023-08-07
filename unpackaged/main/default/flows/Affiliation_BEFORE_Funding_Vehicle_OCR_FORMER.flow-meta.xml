@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <decisions>
+        <name>Affiliation_Type_Update</name>
+        <label>Affiliation Type Update</label>
+        <locationX>182</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Set_Related_OCR</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Status = Current</defaultConnectorLabel>
+        <rules>
+            <name>Status_Former</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.npe5__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Former</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Clear_Related_OCR</targetReference>
+            </connector>
+            <label>Status = Former</label>
+        </rules>
+    </decisions>
+    <description>Handles a Status change on a Funding Vehicle affiliation</description>
+    <environments>Default</environments>
+    <interviewLabel>Affiliation - BEFORE - Funding Vehicle OCR FORMER {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Affiliation - BEFORE - Funding Vehicle OCR FORMER</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Clear_Related_OCR</name>
+        <label>Clear Related OCR</label>
+        <locationX>50</locationX>
+        <locationY>395</locationY>
+        <inputAssignments>
+            <field>npsp__Related_Opportunity_Contact_Role__c</field>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Set_Related_OCR</name>
+        <label>Set Related OCR</label>
+        <locationX>314</locationX>
+        <locationY>395</locationY>
+        <inputAssignments>
+            <field>npsp__Related_Opportunity_Contact_Role__c</field>
+            <value>
+                <stringValue>Funder - Soft Credit</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Affiliation_Type_Update</targetReference>
+        </connector>
+        <filterFormula>(ISNEW() || ISCHANGED({!$Record.npe5__Status__c})) &amp;&amp; ISPICKVAL({!$Record.Affiliation_Type__c}, &quot;Funding Vehicle&quot;)</filterFormula>
+        <object>npe5__Affiliation__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

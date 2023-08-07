@@ -3,7 +3,7 @@
     <fullName>Funding_Vehicle_Retains_OCR</fullName>
     <active>true</active>
     <description>When Affiliation Type is Funding Vehicle and Related OCR used to be Funder - Soft Credit, make sure that it stays that way.</description>
-    <errorConditionFormula>ISPICKVAL(Affiliation_Type__c , "Funding Vehicle") &amp;&amp; ISPICKVAL(PRIORVALUE( npsp__Related_Opportunity_Contact_Role__c), "Funder - Soft Credit") &amp;&amp; ISCHANGED(npsp__Related_Opportunity_Contact_Role__c)</errorConditionFormula>
+    <errorConditionFormula>ISPICKVAL(Affiliation_Type__c , "Funding Vehicle") &amp;&amp; ISPICKVAL(PRIORVALUE( npsp__Related_Opportunity_Contact_Role__c), "Funder - Soft Credit") &amp;&amp; ISCHANGED(npsp__Related_Opportunity_Contact_Role__c) &amp;&amp; ISPICKVAL( npe5__Status__c , "Current")</errorConditionFormula>
     <errorDisplayField>npsp__Related_Opportunity_Contact_Role__c</errorDisplayField>
     <errorMessage>When the Affiliation Type is set to Funding Vehicle, the Related Opportunity Contact Role must be Funder - Soft Credit.</errorMessage>
 </ValidationRule>
