@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>U.S. - Deadline Reminder</name>
+    <pageDevName>U_S_Deadline_Reminder</pageDevName>
+    <style>none</style>
+    <subject>Climate Corps Application Due Soon</subject>
+    <textOnly>Dear {{{Recipient.FirstName}}},
+
+Are you ready to be a part of Climate Action by becoming a Climate Corps fellow?
+
+The deadline for Round 1 of the Climate Corps Fellowship application is November 28 at 11:59 pm IST.
+
+We understand that you might be busy fine-tuning your application, and we&apos;re here to lend a helping hand with some valuable tips: 
+ - Showcase Relevant Experience:Don&apos;t forget to highlight any professional work experience, internships, academic coursework, or volunteer engagements that align with the job description of the fellow.
+ - Highlight Relevant Courses:Let us know about any relevant courses you&apos;ve taken or plan to take in the upcoming months.
+ - Personalize Your Cover Letter: Explain how Climate Corps perfectly aligns with your career interests and reference specific experiences, whether professional or academic, that have prepared you for this fellowship.
+
+Want to learn more about our projects to better determine how your skillset aligns with our work? Visit our Climate Corps Project Database &lt; http://edfclimatecorps.org/projects/results &gt; . You can explore the types of projects our fellows have tackled and see which ones align with your skills.
+
+Still have questions?Email us at edfclimatecorps.apply@edf.org &lt; mailto:edfclimatecorps.apply@edf.org &gt; 
+
+Continue Application &lt; https://environmentaldefensefund.my.site.com/EDFCCFellowPortal/s/login/ &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

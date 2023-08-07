@@ -8,6 +8,10 @@
         <field>ToAddress</field>
         <formula>Climate_Corps_Engagement__c.Contact_Email__c +  &quot;; &quot;+ Climate_Corps_Engagement__c.Additional_Contact_1_Email__c +  &quot;; &quot;+ Climate_Corps_Engagement__c.Additional_Contact_2_Email__c</formula>
     </fieldOverrides>
+    <fieldOverrides>
+        <field>WhoId</field>
+        <formula>Climate_Corps_Engagement__c.Contact__c</formula>
+    </fieldOverrides>
     <label>Send Host App</label>
     <optionsCreateFeedItem>true</optionsCreateFeedItem>
     <quickActionLayout>
