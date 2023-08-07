@@ -249,6 +249,11 @@
             <field>iContactforSF__Total_Unsubscribe_Rate__c</field>
             <table>Campaign</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Sent_Emails__c</field>
+            <table>Campaign</table>
+        </columns>
         <masterLabel>Campaigns</masterLabel>
     </sections>
     <sections>

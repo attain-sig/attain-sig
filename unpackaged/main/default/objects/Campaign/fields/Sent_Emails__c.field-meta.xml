@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sent_Emails__c</fullName>
+    <description>Link to sent email report</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK("/lightning/r/Report/00O7d000000ls52EAA/view?fv0=" &amp;  Name , "Sent Emails" )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Report containing list of emails sent from campaign</inlineHelpText>
+    <label>Sent List Emails</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -86,10 +86,6 @@
             <section>Description Information</section>
         </sections>
         <sections>
-            <label><!-- Other Information --></label>
-            <section>Other Information</section>
-        </sections>
-        <sections>
             <label><!-- System Information --></label>
             <section>System Information</section>
         </sections>
@@ -269,6 +265,7 @@
         <label><!-- iContact Send - Lightning --></label>
         <name>iCLightning__iContact_Send_Lightning</name>
     </quickActions>
+    
     
     
     

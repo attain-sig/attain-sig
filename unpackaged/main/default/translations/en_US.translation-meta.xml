@@ -3183,6 +3183,19 @@
         </sections>
     </reportTypes>
     <reportTypes>
+        <description><!-- List Emails --></description>
+        <label><!-- List Emails --></label>
+        <name>List_Emails</name>
+        <sections>
+            <label><!-- List Email Sent Results --></label>
+            <name>List Email Sent Results</name>
+        </sections>
+        <sections>
+            <label><!-- List Emails --></label>
+            <name>List Emails</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
         <description><!-- NPSP Data Imports Failure Report --></description>
         <label><!-- NPSP Data Imports Failure Report --></label>
         <name>NPSP_Data_Imports_Failed_Report</name>

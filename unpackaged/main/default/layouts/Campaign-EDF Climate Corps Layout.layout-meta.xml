@@ -89,6 +89,12 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
+                <field>Sent_Emails__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Readonly</behavior>
                 <field>HierarchyNumberOfContacts</field>
             </layoutItems>
             <layoutItems>
@@ -100,7 +106,6 @@
                 <field>NumberOfResponses</field>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns />
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
@@ -149,15 +154,6 @@
         <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
         <label>Additional Information</label>
-        <layoutColumns />
-        <layoutColumns />
-        <style>TwoColumnsLeftToRight</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
-        <label>Other Information</label>
         <layoutColumns />
         <layoutColumns />
         <style>TwoColumnsLeftToRight</style>
