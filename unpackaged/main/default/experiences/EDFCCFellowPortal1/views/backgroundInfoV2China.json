@@ -24,7 +24,7 @@
     "components" : [ {
       "componentAttributes" : {
         "headingExperienceInfo" : "Please indicate your level of experience (None, Basic, Moderate, and Advanced) with the following project types.",
-        "helpTextUploadedIdentification" : "Please upload a copy of your Chinese National ID card or Passport",
+        "helpTextUploadedIdentification" : "Please upload a copy of your Chinese ID card or Passport",
         "isChild" : false,
         "labelAuthWorkUS" : "Are you legally authorized to work in the U.S.?",
         "labelChinaResidency" : "Please select your residency in China.",
