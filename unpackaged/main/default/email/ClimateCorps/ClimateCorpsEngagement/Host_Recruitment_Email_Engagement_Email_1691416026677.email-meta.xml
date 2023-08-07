@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Host Recruitment Email - Engagement Email</name>
+    <pageDevName>Host_Recruitment_Email_Engagement_Email</pageDevName>
+    <relatedEntityType>Climate_Corps_Engagement__c</relatedEntityType>
+    <style>none</style>
+    <subject>Climate Corps in 2024</subject>
+    <textOnly>Dear {{{Recipient.FirstName}}}, 
+
+I’m reaching out to see if you and your team might be interested in hosting a Climate Corps fellow again in 2024. Since you’re familiar with the program and process, I’ll keep this short;
+
+Here is the program brochure &lt; https://nam11.safelinks.protection.outlook.com/?url=https%253A%252F%252Fbusiness.edf.org%252Ffiles%252FClimateCorpsHostBrochure2023.pdf&amp;data=05%257C01%257Cabuda%2540edf.org%257C718cfa811d864effd92a08db039a277a%257Cfe4574edbcfd4bf0bde843713c3f434f%257C0%257C0%257C638107732909494921%257CUnknown%257CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%253D%257C3000%257C%257C%257C&amp;sdata=FPnfGaEKKAHO%252FCikQCdHZB7HAzUprUoSMm8px9KAGHo%253D&amp;reserved=0 &gt; , if helpful. The application is available below. Final applications are due February 1.
+
+Would it be helpful to hop on a call in the next couple of weeks to discuss project ideas and go over any questions you might have? If yes, let me know when is best for you and I’ll send over an invite. Or, if easier, here’s my calendly &lt; https://nam11.safelinks.protection.outlook.com/?url=https%253A%252F%252Fcalendly.com%252Fmaliokodis%252Fclimate-corps-learn-more%253Fmonth%253D2022-11&amp;data=05%257C01%257Cabuda%2540edf.org%257C718cfa811d864effd92a08db039a277a%257Cfe4574edbcfd4bf0bde843713c3f434f%257C0%257C0%257C638107732909494921%257CUnknown%257CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%253D%257C3000%257C%257C%257C&amp;sdata=1VYrlacmNLcM3PIlZchIMcIC2it9irOI8oapHX6UvSI%253D&amp;reserved=0 &gt; .
+
+Looking forward to hearing from you!
+
+Mali’o
+
+Apply &lt; https://www.tfaforms.com/5058231?tfa_190=a137d000008ecz6AAA&amp;tfa_194=0018W00001jPsLeQAK&amp;tfa_195=%7B%7B%7BClimate_Corps_Engagement__c.Engagement_Account_Name__c%7D%7D%7D &gt;</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

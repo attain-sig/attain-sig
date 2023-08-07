@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initialscale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <style type="text/css">@media screen and (max-width: 480px) {slot[style] {margin-right: 0 !important;}.columnDiv {margin-right: 0 !important;}}@media screen and (min-width: 480px) {slot[style] {margin-bottom: 0 !important;}.columnDiv {margin-bottom: 0 !important;}}</style>
+  <style type="text/css">@media screen and (max-width: 480px) {.contentbuilderBaseColumnRow .columnCell {display:inline-block;width:100%}}</style>
+  <style type="text/css">.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 600px;}@media only screen and (max-width: 480px) {.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 320px;}}</style>
+ </head>
+ <body>
+  <table class="contentpageDefaultEmailTemplatePageTemplate" style="background-color: #E9EAEC;" role="presentation" id="contentpage_emailTemplateBodyContent" width="100%" cellpadding="0" cellspacing="0">
+   <tbody>
+    <tr>
+     <td width="100%" align="center">
+      <table class="contentRoot" style="background-color: #FFFFFF;" role="presentation" width="600" cellpadding="0" cellspacing="0">
+       <tbody>
+        <tr>
+         <td style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+          <table class="contentbuilderBaseColumnRow" style="align-items: flex-start; width: 100%; background-color:;" role="presentation" width="100%" cellpadding="0" cellspacing="0">
+           <tbody>
+            <tr valign="top">
+             <td width="100%" class="columnCell" style="vertical-align: top;display: inline-block; float:left">
+              <table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+               <tbody>
+                <tr>
+                 <td>
+                  <table style="width:100%; border-collapse: collapse; word-break:break-word;" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   <tbody>
+                    <tr>
+                     <td align="left"><img style="width: 100%; display: block; border: none; max-width: 60%; object-fit: fill;" src="{[devName:EDFClimateCorps_webRGB_20221]}" alt="" width="360" /></td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+                <tr>
+                 <td>
+                  <table style="width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   <tbody>
+                    <tr>
+                     <td style="font-family: Arial, Helvetica, sans-serif;"><br /> Dear {{{Recipient.FirstName}}},&nbsp;<br /><br /> I’m reaching out to see if you and your team might be interested in hosting a Climate Corps fellow again in 2024. Since you’re familiar with the program and process, I’ll keep this short;<br /> &nbsp;<br /> Here is the&nbsp;<a href="https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fbusiness.edf.org%2Ffiles%2FClimateCorpsHostBrochure2023.pdf&amp;data=05%7C01%7Cabuda%40edf.org%7C718cfa811d864effd92a08db039a277a%7Cfe4574edbcfd4bf0bde843713c3f434f%7C0%7C0%7C638107732909494921%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=FPnfGaEKKAHO%2FCikQCdHZB7HAzUprUoSMm8px9KAGHo%3D&amp;reserved=0" target="_blank">program brochure</a>, if helpful. The application is available below.&nbsp;Final applications are due February 1.<br /> &nbsp;<br /> Would it be helpful to hop on a call in the next couple of weeks to discuss project ideas and go over any questions you might have? If yes, let me know when is best for you and I’ll send over an invite. Or, if easier,&nbsp;<a href="https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcalendly.com%2Fmaliokodis%2Fclimate-corps-learn-more%3Fmonth%3D2022-11&amp;data=05%7C01%7Cabuda%40edf.org%7C718cfa811d864effd92a08db039a277a%7Cfe4574edbcfd4bf0bde843713c3f434f%7C0%7C0%7C638107732909494921%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=1VYrlacmNLcM3PIlZchIMcIC2it9irOI8oapHX6UvSI%3D&amp;reserved=0" target="_blank">here’s my calendly</a>.<br /> &nbsp;<br /> Looking forward to hearing from you!<br /><br /> Mali’o<br /> &nbsp;</td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+                <tr>
+                 <td>
+                  <table style="border: 0; width: 100%; border-collapse: collapse; mso-table-lspace:0pt;mso-table-rspace:0pt;" locked="0">
+                   <tbody>
+                    <tr>
+                     <td style="mso-table-lspace:0pt;mso-table-rspace:0pt;">
+                      <div style="word-break:break-word; border: 0; mso-border-alt: 0; text-align:center; ">
+                       <div style="display: inline-block; border: 0; mso-border-alt: 0; ">
+                        <a style="direction:ltr;display:block;text-align:center;margin:0; font-family:Arial, Helvetica, sans-serif; font-size:20px; padding-top: 10px;padding-right: 25px;padding-bottom: 10px;padding-left: 25px; color:#FFFFFF;font-weight:normal;font-style:normal;text-decoration:none;border:0;background-color:#0033cc;border-radius:40px;mso-padding-alt:0;" href="https://www.tfaforms.com/5058231?tfa_190={{{Recipient.Id_Placeholder__c}}}&amp;tfa_194={{{Recipient.npsp__Primary_Affiliation__c}}}&amp;tfa_195={{{Recipient.Primary_Affiliation_Name__c}}}" target="_blank"><!--[if mso]><i style="background-color:#0033cc; letter-spacing: 25px; mso-text-raise: 10px; mso-font-width: -100%;">&nbsp;</i><![endif]--><span>Apply</span><!--[if mso]><i style="background-color:#0033cc; letter-spacing: 25px; mso-text-raise: -10px; mso-font-width: -100%;">&nbsp;</i><![endif]--></a>
+                       </div>
+                      </div></td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+               </tbody>
+              </table></td>
+            </tr>
+           </tbody>
+          </table></td>
+        </tr>
+       </tbody>
+      </table></td>
+    </tr>
+   </tbody>
+  </table>
+ </body>
+</html>

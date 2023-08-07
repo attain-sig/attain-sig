@@ -249,6 +249,14 @@
         <fields>Relationship_Manager__c</fields>
         <relatedList>RelatedCampaignMemberList</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>LABEL</fields>
+        <fields>ISDEFAULT</fields>
+        <fields>HASRESPONDED</fields>
+        <fields>LASTMODIFIEDDATE</fields>
+        <fields>LASTMODIFIEDBY</fields>
+        <relatedList>RelatedCampaignMemberStatusList</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showInteractionLogPanel>false</showInteractionLogPanel>
