@@ -108,8 +108,8 @@
         <template>Climate_Corps_Flow_Templates/Hold_on_Matching_Wave_2</template>
     </alerts>
     <alerts>
-        <fullName>Interview_1_2_Complete_Not_Moving_On</fullName>
-        <description>Interview 1/2 Complete -  Not Moving On</description>
+        <fullName>Interview_1Complete_Not_Moving_On</fullName>
+        <description>Interview 1 Complete -  Not Moving On</description>
         <protected>false</protected>
         <recipients>
             <field>Fellow_Applicant_Email__c</field>
@@ -117,7 +117,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Interview_1_2_Complete_Not_Moving_On</template>
+        <template>FellowApplicationUSTemplates/U_S_Interview_Complete_Not_Moving_On_1691518668249</template>
     </alerts>
     <alerts>
         <fullName>Interview_1_2_Complete_Not_Moving_On_China</fullName>
@@ -405,7 +405,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Send_to_Matching_Pool_Wave_1</template>
+        <template>FellowApplicationUSTemplates/U_S_Send_to_Matching_Pool_Wave_1_1691519050834</template>
     </alerts>
     <alerts>
         <fullName>Send_to_Matching_Pool_Wave_2</fullName>
@@ -417,7 +417,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Send_to_Matching_Pool_Wave_2</template>
+        <template>FellowApplicationUSTemplates/U_S_Send_to_Matching_Pool_Wave_2_1691519264538</template>
     </alerts>
     <alerts>
         <fullName>Waitlist_Interview_1</fullName>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initialscale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <style type="text/css">@media screen and (max-width: 480px) {slot[style] {margin-right: 0 !important;}.columnDiv {margin-right: 0 !important;}}@media screen and (min-width: 480px) {slot[style] {margin-bottom: 0 !important;}.columnDiv {margin-bottom: 0 !important;}}</style>
+  <style type="text/css">@media screen and (max-width: 480px) {.contentbuilderBaseColumnRow .columnCell {display:inline-block;width:100%}}</style>
+  <style type="text/css">.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 600px;}@media only screen and (max-width: 480px) {.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 320px;}}</style>
+ </head>
+ <body>
+  <table class="contentpageDefaultEmailTemplatePageTemplate" style="background-color: #FFFFFF;" role="presentation" id="contentpage_emailTemplateBodyContent" width="100%" cellpadding="0" cellspacing="0">
+   <tbody>
+    <tr>
+     <td width="100%" align="center">
+      <table class="contentRoot" style="background-color: #FFFFFF;" role="presentation" width="600" cellpadding="0" cellspacing="0">
+       <tbody>
+        <tr>
+         <td style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+          <table class="contentbuilderBaseColumnRow" style="align-items: flex-start; width: 100%; background-color:;" role="presentation" width="100%" cellpadding="0" cellspacing="0">
+           <tbody>
+            <tr valign="top">
+             <td width="100%" class="columnCell" style="vertical-align: top;display: inline-block; float:left">
+              <table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+               <tbody>
+                <tr>
+                 <td>
+                  <table style="width:100%; border-collapse: collapse; word-break:break-word;" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   <tbody>
+                    <tr>
+                     <td align="left"><img style="width: 100%; display: block; border: none; max-width: 70%; object-fit: fill;" src="{[devName:EDFClimateCorps_webRGB_20221]}" alt="" width="420" /></td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+                <tr>
+                 <td>
+                  <table style="width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   <tbody>
+                    <tr>
+                     <td style="font-family: Arial, Helvetica, sans-serif;"><span style="line-height:1.15;"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dear {{{Fellow_Application__c.Applicant_First_Name__c}}},<br /><br /> Thank you for taking the time to meet with us to discuss your interests and qualifications for the Climate Corps program. Our fellow-matching team has interviewed many highly competitive and qualified applicants, making it especially difficult to narrow the applicant pool.<br /><br /> I am writing to inform you that your application is no longer under consideration for a position with Climate Corps for this year's cohort. Due to the high volume of candidates, we are unable to provide further feedback on your individual application. If you have questions about developing your application for opportunities beyond Climate Corps, we recommend visiting your university career services office.&nbsp;<br /><br /> You are a valuable member of the sustainability community and we wish you great success in making the world a more vibrant and healthier place for all. We hope you will stay in touch with the </span></span></span><a href="https://business.edf.org/get-involved-with-edf/"><span style="line-height:1.15;"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">EDF community</span></span></span></a>.<span style="line-height:1.15;"><span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;">&nbsp;<br /><br /> We appreciate your interest in the Climate Corps program and thank you for your time and consideration of this position.&nbsp;<br /><br /> Sincerely, &nbsp;<br /> The Climate Corps Team&nbsp;</span></span></span></td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+               </tbody>
+              </table></td>
+            </tr>
+           </tbody>
+          </table></td>
+        </tr>
+       </tbody>
+      </table></td>
+    </tr>
+   </tbody>
+  </table>
+ </body>
+</html>

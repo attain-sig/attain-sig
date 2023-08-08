@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>U.S. - Send to Matching Pool - Wave 1</name>
+    <pageDevName>U_S_Send_to_Matching_Pool_Wave_1</pageDevName>
+    <relatedEntityType>Fellow_Application__c</relatedEntityType>
+    <style>none</style>
+    <subject>Climate Corps: Next Steps</subject>
+    <textOnly>Dear {{{Fellow_Application__c.Applicant_First_Name__c}}},
+
+Congratulations! We will be moving you forward to our matching pool and you will be among the candidates considered for a host placement. 
+
+Next Steps
+ - On February 8ththe 2023 project list page will be launched in the Climate Corps fellow portal. On this page, you will be able to view the list of 2022 host organizations and projects and choose your preferred host placements. We encourage you to be flexible when selecting your preferred placements, as flexibility may improve your chances of being matched with a host organization.
+ - Candidates who submit their preferences by 11:59pm PT on February 12thwill be considered for the first round of matching decisions.
+ - We will evaluate finalists and notify those chosen to participate in our program of their host placement on February 17th. When determining your placement, we will consider your geographical and host preferences, skills, and project interests. Please note that entering the matching pool does not guarantee a placement.
+ - If you are matched with a host organization, you will have until March 2ndto accept the placement.
+ - Finally, if you are an international student, please review our Work Authorization Policy &lt; http://edfclimatecorps.org/sites/edfclimatecorps.org/files/edfcc_work_authorization_policy.pdf &gt; . It details important procedures, and guidelines that will help ensure you are eligible for a summer fellowship.
+
+Due to the high volume of applications, we will be delayed in responding to emails and requests. However, should you have impending travel plans that will limit your communication or any other urgent notifications, please contact climatecorpsadmin@ceaconsulting.com. If at any time you would like to remove yourself from consideration, please let us know.
+
+Best regards, 
+
+The Climate Corps Team
+
+*Please do not reply to this email. We will not respond to any inquiries sent to this address. Please follow the instructions above to contact us.</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

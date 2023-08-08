@@ -16,12 +16,11 @@
         </inputParameters>
     </actionCalls>
     <actionCalls>
-        <description>Send the Wave 2 Email Alert for Hold on Matching</description>
-        <name>Hold_on_Matching_Wave_2</name>
-        <label>Hold on Matching Wave 2</label>
+        <name>Hold_on_Matching_Wave_1</name>
+        <label>Hold on Matching Wave 1</label>
         <locationX>314</locationX>
         <locationY>384</locationY>
-        <actionName>Fellow_Application__c.Hold_on_Matching_Wave_2</actionName>
+        <actionName>Fellow_Application__c.Hold_on_Matching_Wave_1</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
@@ -32,11 +31,11 @@
         </inputParameters>
     </actionCalls>
     <actionCalls>
-        <name>Not_Moving_On_China</name>
-        <label>Not Moving On China</label>
+        <name>Interview_Complete_Not_Moving_On</name>
+        <label>Interview Complete - Not Moving On</label>
         <locationX>50</locationX>
         <locationY>384</locationY>
-        <actionName>Fellow_Application__c.Interview_1_2_Complete_Not_Moving_On_China</actionName>
+        <actionName>Fellow_Application__c.Interview_1Complete_Not_Moving_On</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
@@ -61,11 +60,26 @@
             </value>
         </inputParameters>
     </actionCalls>
+    <actionCalls>
+        <name>Send_to_Matching_Wave_2</name>
+        <label>Send to Matching Wave 2</label>
+        <locationX>1106</locationX>
+        <locationY>384</locationY>
+        <actionName>Fellow_Application__c.Send_to_Matching_Pool_Wave_2</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
     <apiVersion>56.0</apiVersion>
     <decisions>
         <name>Applicant_Stage</name>
         <label>Applicant Stage</label>
-        <locationX>578</locationX>
+        <locationX>710</locationX>
         <locationY>276</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -79,7 +93,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Not_Moving_On_China</targetReference>
+                <targetReference>Interview_Complete_Not_Moving_On</targetReference>
             </connector>
             <label>Interview 1 Complete - Not Moving On</label>
         </rules>
@@ -101,7 +115,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Hold_on_Matching_Wave_2</targetReference>
+                <targetReference>Hold_on_Matching_Wave_1</targetReference>
             </connector>
             <label>Hold on Matching W1</label>
         </rules>
@@ -137,10 +151,39 @@
                     <stringValue>Send to Matching Pool</stringValue>
                 </rightValue>
             </conditions>
+            <conditions>
+                <leftValueReference>$Record.Wave__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Wave 1</stringValue>
+                </rightValue>
+            </conditions>
             <connector>
                 <targetReference>Send_to_Matching_Pool_W1</targetReference>
             </connector>
-            <label>Send to Matching Pool</label>
+            <label>Send to Matching Pool - Wave 1</label>
+        </rules>
+        <rules>
+            <name>Send_to_Matching_Pool_Wave_2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Send to Matching Pool</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Wave__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Wave 2</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_to_Matching_Wave_2</targetReference>
+            </connector>
+            <label>Send to Matching Pool - Wave 2</label>
         </rules>
     </decisions>
     <description>U.S. Fellowship
@@ -171,7 +214,7 @@ Hold on Matching</description>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <start>
-        <locationX>56</locationX>
+        <locationX>122</locationX>
         <locationY>0</locationY>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
