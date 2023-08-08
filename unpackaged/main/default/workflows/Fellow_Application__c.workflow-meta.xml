@@ -129,7 +129,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Interview_1_2_Complete_Not_Moving_On_China</template>
+        <template>FellowApplicationChina/China_Interview_1_2_Complete_Not_Moving_On_1691517948527</template>
     </alerts>
     <alerts>
         <fullName>Interview_1_Complete_Not_Moving_On_India</fullName>
@@ -213,7 +213,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Not_Qualified_and_Notified_China</template>
+        <template>FellowApplicationChina/China_Not_Qualified_and_Notified_1691517442024</template>
     </alerts>
     <alerts>
         <fullName>Not_Qualified_and_Notified_India</fullName>
@@ -309,7 +309,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Send_to_Invite_to_Interview_1_China</template>
+        <template>FellowApplicationChina/China_Send_Invite_for_Interview_1_1691517628003</template>
     </alerts>
     <alerts>
         <fullName>Send_Invite_for_Interview_1_India</fullName>
@@ -429,7 +429,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Waitlist_Interview_1</template>
+        <template>FellowApplicationUSTemplates/U_S_Waitlist_Interview_1_1691518299190</template>
     </alerts>
     <alerts>
         <fullName>Waitlist_Interview_1_China</fullName>
@@ -441,7 +441,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Waitlist_Interview_1_China</template>
+        <template>FellowApplicationChina/China_Waitlist_Interview_1_1691517812376</template>
     </alerts>
     <alerts>
         <fullName>Waitlist_Interview_1_India</fullName>

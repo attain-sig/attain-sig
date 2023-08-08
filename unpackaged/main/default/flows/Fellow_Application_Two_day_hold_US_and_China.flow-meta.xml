@@ -51,7 +51,7 @@
         <label>Not Moving On US Email</label>
         <locationX>578</locationX>
         <locationY>408</locationY>
-        <actionName>Fellow_Application__c.Interview_1_2_Complete_Not_Moving_On</actionName>
+        <actionName>Fellow_Application__c.Interview_1Complete_Not_Moving_On</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>

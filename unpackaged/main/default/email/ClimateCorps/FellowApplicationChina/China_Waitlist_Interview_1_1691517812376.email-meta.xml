@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>China - Waitlist- Interview 1</name>
+    <pageDevName>China_Waitlist_Interview_1</pageDevName>
+    <relatedEntityType>Fellow_Application__c</relatedEntityType>
+    <style>none</style>
+    <subject>Climate Corps: Application Status</subject>
+    <textOnly>Dear {{{Fellow_Application__c.Applicant_First_Name__c}}},
+
+Thank you for your interest in the Climate Corps China Fellowship program. Our fellow matching team has reviewed many highly competitive and qualified applicants making it especially difficult to narrow down the applicant pool as we have limited host placements. 
+
+We have decided to waitlist your application. However, because you meet our fellowship qualifications, your application is still under consideration. While we cannot guarantee you will be invited for an interview, we remain optimistic about our ability to advance waitlist candidates to interviews and beyond. 
+
+We realize you may have questions as to the reason behind our decision, but due to the high volume of applications, we are unable to provide you with detailed feedback. We appreciate your interest in our program, and we will contact you within the next few weeks regarding your application status. However, should you have competing job offer deadlines, impending travel plans that will limit your communication, or any other urgent notifications, please notify the Climate Corps China team, by emailing climatecorps@cet.net.cn. 
+
+Best regards, 
+
+The Climate Corps Team
+
+*Please do not reply to this email. We will not respond to any inquiries sent to this address. Please follow the instructions above to contact us.</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>
