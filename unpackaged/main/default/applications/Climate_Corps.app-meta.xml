@@ -1477,8 +1477,7 @@
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-File</tabs>
     <tabs>Event__c</tabs>
-    <tabs>User_Story__c</tabs>
-    <tabs>Test_Scripts__c</tabs>
+    <tabs>standard-Campaign</tabs>
     <tabs>Feedback__c</tabs>
     <tabs>standard-EmailTemplate</tabs>
     <tabs>standard-ListEmail</tabs>

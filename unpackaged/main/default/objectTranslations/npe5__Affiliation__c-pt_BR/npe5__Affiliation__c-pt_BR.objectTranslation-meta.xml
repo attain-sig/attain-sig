@@ -26,6 +26,10 @@
         <name>Funding_Vehicle_Retains_OCR</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- You may only set the Related Opportunity Contact Role field when the Affiliation type is &quot;Funding Vehicle.&quot; --></errorMessage>
+        <name>Only_Funding_Vehicles_Have_Related_OCRs</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- Either this contact is indicated as the Primary Contact for another Organization or you&apos;re attempting to set a Current Employer to Former. Please navigate to the correct Contact Record and review the Current Affiliations. --></errorMessage>
         <name>Unchecked_the_Current_Employer_field</name>
     </validationRules>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Funding_Vehicles_Have_Related_OCRs</fullName>
+    <active>true</active>
+    <description>If Affiliation Type isn't Funding Vehicle, block Related Opportunity Contact Role.</description>
+    <errorConditionFormula>NOT(ISPICKVAL( Affiliation_Type__c , "Funding Vehicle"))&amp;&amp; ISCHANGED(npsp__Related_Opportunity_Contact_Role__c) &amp;&amp; NOT(ISBLANK(TEXT( npsp__Related_Opportunity_Contact_Role__c) ))</errorConditionFormula>
+    <errorDisplayField>npsp__Related_Opportunity_Contact_Role__c</errorDisplayField>
+    <errorMessage>You may only set the Related Opportunity Contact Role field when the Affiliation type is "Funding Vehicle."</errorMessage>
+</ValidationRule>

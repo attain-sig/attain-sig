@@ -434,6 +434,7 @@
         <customTabListAdditionalFields>CONTACT.ADDRESS2_STREET</customTabListAdditionalFields>
         <customTabListAdditionalFields>CONTACT.ADDRESS2_CITY</customTabListAdditionalFields>
         <customTabListAdditionalFields>CONTACT.ADDRESS2_STATE</customTabListAdditionalFields>
+        <excludedStandardButtons>SendListEmailAction</excludedStandardButtons>
         <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>CONTACT.PHONE4</lookupDialogsAdditionalFields>
