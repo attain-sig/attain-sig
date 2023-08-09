@@ -169,6 +169,16 @@
                 <identifier>RecordEstate_Account_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Face_Value__c</fieldItem>
+                <identifier>RecordFace_Value_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-c75a3a52-c9af-4e29-8ae2-348b4bb0f384</name>
         <type>Facet</type>
     </flexiPageRegions>
