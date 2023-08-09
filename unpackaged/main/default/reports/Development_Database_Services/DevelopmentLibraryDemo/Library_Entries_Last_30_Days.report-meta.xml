@@ -22,7 +22,7 @@
         <field>Development_Library__c.Program_Tags__c</field>
     </columns>
     <format>Tabular</format>
-    <name>Library Entries - Last 7 Days</name>
+    <name>Library Entries - Last 30 Days</name>
     <params>
         <name>co</name>
         <value>1</value>
@@ -34,6 +34,6 @@
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
         <dateColumn>Development_Library__c.Date__c</dateColumn>
-        <interval>INTERVAL_LAST7</interval>
+        <interval>INTERVAL_LAST30</interval>
     </timeFrameFilter>
 </Report>
