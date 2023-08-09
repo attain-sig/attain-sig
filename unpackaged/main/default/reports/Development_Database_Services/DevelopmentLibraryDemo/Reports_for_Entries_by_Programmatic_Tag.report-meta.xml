@@ -12,7 +12,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>Reports for Entries by Programmatic Tag</value>
+            <value>Reports - Entries by Top Program Tags</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
