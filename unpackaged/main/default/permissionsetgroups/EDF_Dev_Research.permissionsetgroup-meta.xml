@@ -3,5 +3,6 @@
     <description>Replaces Dev Research Permission Set</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>EDF Dev Research</label>
+    <permissionSets>Contact_Edit_Planned_Giving_Fields</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

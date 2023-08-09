@@ -21,7 +21,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Application_Received_India</template>
+        <template>FellowApplicationIndia/India_Application_Received_1691618216206</template>
     </alerts>
     <alerts>
         <fullName>Fellow_Application_Received_US</fullName>

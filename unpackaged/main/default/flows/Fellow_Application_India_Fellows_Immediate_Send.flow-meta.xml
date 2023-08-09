@@ -109,7 +109,7 @@ ispickval({!$Record.Fellowship_Applying_for__c}, &quot;India Fellowship&quot;)</
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>Wave1Deadline</name>
         <dataType>DateTime</dataType>
