@@ -43,12 +43,19 @@
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Topic_Update_Finance</name>
-            <conditionLogic>and</conditionLogic>
+            <conditionLogic>or</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Case_Topic__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>New Financial Report</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Case_Topic__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Update/Modify Financial Report</stringValue>
                 </rightValue>
             </conditions>
             <connector>

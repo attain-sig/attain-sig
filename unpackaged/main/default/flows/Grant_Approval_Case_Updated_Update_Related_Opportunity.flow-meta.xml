@@ -44,7 +44,6 @@
             <label>Major Gift</label>
         </rules>
     </decisions>
-    <description>V2 Added field to the update of the Grant Decision Update Action</description>
     <environments>Default</environments>
     <formulas>
         <name>OpportunityNameFormula</name>
@@ -121,12 +120,6 @@ left({!$Record.Opportunity__r.Account.Name} &amp; &quot; $&quot; &amp; text({!$R
             <field>EDF_Role__c</field>
             <value>
                 <elementReference>$Record.EDF_Role__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Grant_Description__c</field>
-            <value>
-                <elementReference>$Record.Purpose__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -211,12 +204,6 @@ left({!$Record.Opportunity__r.Account.Name} &amp; &quot; $&quot; &amp; text({!$R
             <field>EDF_Role__c</field>
             <value>
                 <elementReference>$Record.EDF_Role__c</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Grant_Description__c</field>
-            <value>
-                <elementReference>$Record.Purpose__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -331,6 +318,6 @@ ispickval({!$Record.Status}, &quot;Closed - Approved/Resolved&quot;)</filterForm
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <triggerOrder>5</triggerOrder>
 </Flow>
