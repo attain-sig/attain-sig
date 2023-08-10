@@ -20,7 +20,7 @@
     <filters>
         <field>RECORDTYPE</field>
         <operation>equals</operation>
-        <value>npsp__Grant_Deadline__c.Conditional_Deliverable</value>
+        <value>npsp__Grant_Deadline__c.Reporting_Date</value>
     </filters>
     <label>Reporting Date Deliverables</label>
 </ListView>
