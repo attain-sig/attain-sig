@@ -28,7 +28,7 @@
                 <groupingSortProperties />
             </dashboardComponent>
             <rowIndex>0</rowIndex>
-            <rowSpan>6</rowSpan>
+            <rowSpan>3</rowSpan>
         </dashboardGridComponents>
         <dashboardGridComponents>
             <colSpan>8</colSpan>
@@ -101,7 +101,18 @@
                 <componentType>RichText</componentType>
                 <groupingSortProperties />
             </dashboardComponent>
-            <rowIndex>6</rowIndex>
+            <rowIndex>3</rowIndex>
+            <rowSpan>6</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <columnIndex>8</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>RichText</componentType>
+                <groupingSortProperties />
+            </dashboardComponent>
+            <rowIndex>9</rowIndex>
             <rowSpan>8</rowSpan>
         </dashboardGridComponents>
         <dashboardGridComponents>
@@ -276,7 +287,7 @@
     <isGridLayout>true</isGridLayout>
     
     <textColor>#000000</textColor>
-    <title>Development Library</title>
+    <title>Development Library Homepage</title>
     <titleColor>#000000</titleColor>
     <titleSize>12</titleSize>
 </Dashboard>

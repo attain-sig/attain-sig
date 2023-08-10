@@ -18,7 +18,7 @@
             <values>10/1/2021</values>
             <values>9/1/2022</values>
         </dashboardFilterOptions>
-        <name>Date</name>
+        <name>Fiscal Year</name>
     </dashboardFilters>
     <dashboardGridLayout>
         <dashboardGridComponents>
