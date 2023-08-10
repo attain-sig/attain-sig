@@ -612,6 +612,7 @@ public without sharing class EDF28_RegisterController {
                 savedContactEmail.Type__c = 'Alternate'; // FB-3306
                 savedContactEmail.Start_Date__c = Date.today();
                 savedContactEmail.Created_from_Fellow_App__c = true;
+                savedContactEmail.Primary__c = true; // FB-3306
                 contactEmailSaveResult = Database.insert(savedContactEmail);
             }
             if(saveResult.success){

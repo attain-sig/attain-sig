@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Climate_Corps_Consultant_Access__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Allows Climate Corps consultants access to contacts related to fellowship program. Updated via flow.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Allows Climate Corps consultants access to contacts related to fellowship program. Updated via flow.</inlineHelpText>
+    <label>Climate Corps Consultant Access</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>
