@@ -453,6 +453,6 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Waitlist_Interview_1_India</template>
+        <template>FellowApplicationIndia/India_Waitlist_Interview_1_1691620642638</template>
     </alerts>
 </Workflow>

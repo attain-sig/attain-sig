@@ -10695,7 +10695,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Feedback__c.EstimatePicklist__c</field>
+        <field>Feedback__c.EstimateNumber__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

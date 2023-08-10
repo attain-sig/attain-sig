@@ -130,7 +130,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>EstimatePicklist__c</field>
+                <field>EstimateNumber__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>

@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Replaced by new flow. Stages: Send Invite for Interview 1, Invite to Interview from Waitlist</description>
+    <masterLabel>DEL_Fellow Application - Immediate Send - India</masterLabel>
+</FlowDefinition>

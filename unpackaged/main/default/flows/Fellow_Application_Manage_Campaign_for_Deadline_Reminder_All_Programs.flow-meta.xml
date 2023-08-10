@@ -474,7 +474,7 @@ ispickval({!$Record.Status__c}, &quot;Prospective Applicant&quot;) || ispickval(
         </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <textTemplates>
         <name>adminEmails</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
