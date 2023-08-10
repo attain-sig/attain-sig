@@ -10,4 +10,18 @@
             <group>All_EDF</group>
         </sharedFrom>
     </sharingOwnerRules>
+    <sharingCriteriaRules>
+        <fullName>Climate_Corps_Consultants</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Climate Corps Consultants</label>
+        <sharedTo>
+            <group>Climate_Corps_CEA</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Climate_Corps_Consultant_Access__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
 </SharingRules>
