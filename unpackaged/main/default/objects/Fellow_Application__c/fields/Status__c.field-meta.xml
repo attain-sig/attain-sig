@@ -135,6 +135,11 @@
                 <default>false</default>
                 <label>Send to Matching Pool</label>
             </value>
+            <value>
+                <fullName>Hold on Interview - Former Fellow</fullName>
+                <default>false</default>
+                <label>Hold on Interview - Former Fellow</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

@@ -35,6 +35,10 @@
             <translation><!-- Engagement Confirmed --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Hold on Interview - Former Fellow</masterLabel>
+            <translation><!-- Hold on Interview - Former Fellow --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Hold on Interview 2</masterLabel>
             <translation><!-- Hold on Interview 2 --></translation>
         </picklistValues>

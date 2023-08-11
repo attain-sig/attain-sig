@@ -1,0 +1,5 @@
+<apex:page controller="CongaWorkflow.WorkflowUrlController" standardStylesheets="true" applyBodyTag="false" showHeader="true" sidebar="true">
+    <body>
+        <apex:iframe src="{!RedirectUrlFormulaBuilder}ServerURL={!$CurrentPage.parameters.myserverurl}" />
+    </body>
+</apex:page>

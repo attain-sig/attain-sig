@@ -36,7 +36,7 @@
     </values>
     <values>
         <field>Stages__c</field>
-        <value xsi:type="xsd:string">Interviews Complete: Application Under Consideration|Second Interview Scheduled|Match Declined: Application Closed | Eligible for Re-Match|Engagement Confirmed</value>
+        <value xsi:type="xsd:string">Interviews Complete: Application Under Consideration|Second Interview Scheduled|Match Declined: Application Closed | Eligible for Re-Match|Engagement Confirmed|Hold on Interview - Former Fellow</value>
     </values>
     <values>
         <field>Title__c</field>
