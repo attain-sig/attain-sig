@@ -43,4 +43,16 @@
         <senderType>OrgWideEmailAddress</senderType>
         <template>Climate_Corps_Flow_Templates/Host_Application_Reviewed_External_India</template>
     </alerts>
+    <outboundMessages>
+        <fullName>HAPP_PDF</fullName>
+        <apiVersion>58.0</apiVersion>
+        <endpointUrl>https://workflow.congamerge.com/OBMListener.ashx</endpointUrl>
+        <fields>Generate_Host_Application__c</fields>
+        <fields>Id</fields>
+        <includeSessionId>true</includeSessionId>
+        <integrationUser>abuda-npsp@edf.org</integrationUser>
+        <name>Conga Trigger HAPP PDF</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
 </Workflow>

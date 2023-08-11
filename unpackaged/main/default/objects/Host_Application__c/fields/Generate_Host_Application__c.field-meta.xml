@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Generate_Host_Application__c</fullName>
+    <description>##Conga created button:00b8W000000WLIV</description>
+    <externalId>false</externalId>
+    <formula>"&amp;solmgr=1" + 
+"&amp;id=" + Id +
+"&amp;templategroup=Climate Corps Host Application" + 
+"&amp;templateid=0T_000UAA070723" + 
+"&amp;ofn=" + Organization_Name__c + " _ " + Name + " _ " + TEXT(TODAY()) +
+"&amp;sc0=1" + 
+"&amp;sc1=SalesforceFile" + 
+"&amp;qmode=SalesforceFile"</formula>
+    <label>Generate Host Application</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

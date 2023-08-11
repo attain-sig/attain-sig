@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <itemInstances>
@@ -35,7 +35,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>richTextValue</name>
-                    <value>&lt;p&gt;&lt;strong style=&quot;font-size: 18px;&quot;&gt;How to process the application: &lt;/strong&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Review the details in the &quot;Host Application Fields for Verification&quot; section&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Populate the High Level Sponsor, Direct Supervisor, and HR Contact fields in the Host Information Section if needed (reach out to the SRM team if you can&apos;t find the correct contact)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Populate the Fellowship City and State&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Populate the Climate Corps Engagement field&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Update Stage to Reviewed and Accepted&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Done!&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</value>
+                    <value>&lt;p&gt;&lt;strong style="font-size: 18px;"&gt;How to process the application: &lt;/strong&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style="font-size: 18px;"&gt;Review the details in the "Host Application Fields for Verification" section&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 18px;"&gt;Populate the High Level Sponsor, Direct Supervisor, and HR Contact fields in the Host Information Section if needed (reach out to the SRM team if you can't find the correct contact)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 18px;"&gt;Populate the Fellowship City and State&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 18px;"&gt;Populate the Climate Corps Engagement field&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 18px;"&gt;Update Stage to Reviewed and Accepted&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 18px;"&gt;Done!&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
                 <identifier>flexipage_richText</identifier>
@@ -1077,6 +1077,10 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>showLegacyActivityComposer</name>
+                    <value>false</value>
+                </componentInstanceProperties>
                 <componentName>runtime_sales_activities:activityPanel</componentName>
                 <identifier>runtime_sales_activities_activityPanel2</identifier>
             </componentInstance>
@@ -1140,6 +1144,10 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>showLegacyActivityComposer</name>
+                    <value>false</value>
+                </componentInstanceProperties>
                 <componentName>runtime_sales_activities:activityPanel</componentName>
                 <identifier>runtime_sales_activities_activityPanel</identifier>
             </componentInstance>

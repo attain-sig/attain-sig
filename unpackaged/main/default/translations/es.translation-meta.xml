@@ -1578,6 +1578,10 @@
         <fullName>Grant_Donor_Agreement_Approval_Case_Closed_Send_Chatter_Notification</fullName>
     </flowDefinitions>
     <flowDefinitions>
+        <flows />
+        <fullName>HAPP_Email_Test</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows>
             <textTemplates>
                 <name>messageBodyforTask</name>

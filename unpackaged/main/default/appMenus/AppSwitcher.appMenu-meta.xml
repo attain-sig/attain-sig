@@ -288,4 +288,12 @@
         <name>Development_Library_Records</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>CongaWorkflow__Conga_Workflow</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Conga_Trigger</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
 </AppMenu>
