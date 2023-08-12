@@ -191,7 +191,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties />
                 <header>Recent Activities With Individuals You Manage</header>
-                <report>Dynamic_Dashboard_reports/You_are_RM_not_in_activity_CON</report>
+                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/You_are_RM_not_in_activity_CON</report>
                 <title>(Without You)</title>
             </dashboardComponent>
             <rowIndex>5</rowIndex>
