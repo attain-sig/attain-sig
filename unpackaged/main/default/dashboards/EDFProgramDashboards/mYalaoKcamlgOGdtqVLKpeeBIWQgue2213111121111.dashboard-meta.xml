@@ -114,7 +114,7 @@
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
                 <metricLabel>Click on link then search by team</metricLabel>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/New_Dashboards_Report</report>
+                <report>Dynamic_Dashboard_reports/New_Dashboards_Report</report>
                 <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
@@ -362,7 +362,7 @@
                 <header>You Manage the Organization But Not All Contacts</header>
                 <legendPosition>Right</legendPosition>
                 <maxValuesDisplayed>15</maxValuesDisplayed>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/You_Manage_Org_But_Not_Contact</report>
+                <report>Dynamic_Dashboard_reports/You_Manage_Org_But_Not_Contact</report>
                 <showPercentage>false</showPercentage>
                 <showTotal>false</showTotal>
                 <showValues>false</showValues>
@@ -440,7 +440,7 @@
                 <header>Organizations With The Most Individual Activity</header>
                 <legendPosition>Right</legendPosition>
                 <maxValuesDisplayed>10</maxValuesDisplayed>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/Employers_You_Talk_To_Most_Running_User_cqr</report>
+                <report>Dynamic_Dashboard_reports/Employers_You_Talk_To_Most_Running_User_cqr</report>
                 <showPercentage>false</showPercentage>
                 <showTotal>false</showTotal>
                 <showValues>false</showValues>
