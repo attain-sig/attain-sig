@@ -61,7 +61,7 @@
                 <indicatorHighColor>#00716B</indicatorHighColor>
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
-                <report>Dynamic_Dashboard_reports/Contacts_You_Manage</report>
+                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/Contacts_You_Manage</report>
                 <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
@@ -139,7 +139,7 @@
                 <indicatorHighColor>#00716B</indicatorHighColor>
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
-                <report>Dynamic_Dashboard_reports/Activities_to_Submit_by_Running_User_jq6</report>
+                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/Activities_to_Submit_by_Running_User_jq6</report>
                 <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>5</rowIndex>
@@ -362,7 +362,7 @@
                 <header>You Manage the Organization But Not All Contacts</header>
                 <legendPosition>Right</legendPosition>
                 <maxValuesDisplayed>15</maxValuesDisplayed>
-                <report>Dynamic_Dashboard_reports/You_Manage_Org_But_Not_Contact</report>
+                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/You_Manage_Org_But_Not_Contact</report>
                 <showPercentage>false</showPercentage>
                 <showTotal>false</showTotal>
                 <showValues>false</showValues>
