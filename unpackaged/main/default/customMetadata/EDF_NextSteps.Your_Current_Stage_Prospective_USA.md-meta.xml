@@ -8,7 +8,7 @@
     </values>
     <values>
         <field>Description__c</field>
-        <value xsi:type="xsd:string">Thank you for your interest in Climate Corps. To edit or view your application, click on the &quot;Application&quot; tile above. All applications for the first deadline are due on November 29, 2022 at 11:59 pm PT. The final deadline for the program is January 10, 2023 at 11:59pm PT.</value>
+        <value xsi:type="xsd:string">To edit or view your application, click on the &quot;Application&quot; tile above. All applications for the first deadline are due on November 29, 2022 at 11:59 pm PT. The final deadline for the program is January 10, 2023 at 11:59pm PT.</value>
     </values>
     <values>
         <field>FellowshipApplyingFor__c</field>
@@ -20,7 +20,7 @@
     </values>
     <values>
         <field>Image__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">your-current-stage-icon.svg</value>
     </values>
     <values>
         <field>NextStepsBody__c</field>
@@ -56,7 +56,7 @@
     </values>
     <values>
         <field>Sub_Title__c</field>
-        <value xsi:type="xsd:string">Your stage: Prospective Applicant</value>
+        <value xsi:type="xsd:string">Thank you for your interest in Climate Corps.</value>
     </values>
     <values>
         <field>Title__c</field>
