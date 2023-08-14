@@ -15,4 +15,23 @@
             <group>All_EDF</group>
         </sharedFrom>
     </sharingOwnerRules>
+    <sharingCriteriaRules>
+        <fullName>Climate_Corps_Consultants_Accounts</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>None</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>Climate Corps Consultants Accounts</label>
+        <sharedTo>
+            <group>Climate_Corps_CEA</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Climate_Corps_Consultant_Access__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
 </SharingRules>
