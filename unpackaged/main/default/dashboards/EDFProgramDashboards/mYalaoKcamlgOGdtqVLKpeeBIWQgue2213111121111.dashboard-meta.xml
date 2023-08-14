@@ -88,7 +88,7 @@
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
                 <metricLabel>Click on link then search</metricLabel>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/Report_of_Mission_reports</report>
+                <report>Dynamic_Dashboard_reports/Report_of_Mission_reports</report>
                 <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
@@ -114,7 +114,7 @@
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
                 <metricLabel>Click on link then search by team</metricLabel>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/New_Dashboards_Report</report>
+                <report>Dynamic_Dashboard_reports/New_Dashboards_Report</report>
                 <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
@@ -191,7 +191,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties />
                 <header>Recent Activities With Individuals You Manage</header>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/You_are_RM_not_in_activity_CON</report>
+                <report>Dynamic_Dashboard_reports/You_are_RM_not_in_activity_CON</report>
                 <title>(Without You)</title>
             </dashboardComponent>
             <rowIndex>5</rowIndex>
@@ -328,7 +328,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties />
                 <header>Recent Activity With Organizations You Manage</header>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/You_are_RM_not_in_activity_ACC</report>
+                <report>Dynamic_Dashboard_reports/You_are_RM_not_in_activity_ACC</report>
                 <title>(Without You)</title>
             </dashboardComponent>
             <rowIndex>13</rowIndex>
@@ -362,7 +362,7 @@
                 <header>You Manage the Organization But Not All Contacts</header>
                 <legendPosition>Right</legendPosition>
                 <maxValuesDisplayed>15</maxValuesDisplayed>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/You_Manage_Org_But_Not_Contact</report>
+                <report>Dynamic_Dashboard_reports/You_Manage_Org_But_Not_Contact</report>
                 <showPercentage>false</showPercentage>
                 <showTotal>false</showTotal>
                 <showValues>false</showValues>

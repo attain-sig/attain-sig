@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>58.0</apiVersion>
-    <description>updates field to TRUE when sub-con contains EDFBIZ - Climate Corps</description>
+    <description>updates field to TRUE when sub-con contains EDFBIZ - Climate Corps
+
+V2 setting 5 minute delay to overcome flow timeouts in validation</description>
     <environments>Default</environments>
     <interviewLabel>Account - Update Climate Corps Consultant Access field {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Account - Update Climate Corps Consultant Access field</label>
@@ -27,8 +29,8 @@
     <recordUpdates>
         <name>Update_CC_consultant_field</name>
         <label>Update CC consultant field</label>
-        <locationX>176</locationX>
-        <locationY>287</locationY>
+        <locationX>308</locationX>
+        <locationY>276</locationY>
         <inputAssignments>
             <field>Climate_Corps_Consultant_Access__c</field>
             <value>
@@ -40,9 +42,6 @@
     <start>
         <locationX>50</locationX>
         <locationY>0</locationY>
-        <connector>
-            <targetReference>Update_CC_consultant_field</targetReference>
-        </connector>
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; True
 &amp;&amp;
 not(isblank({!$Record.Organization_sub_constituency__c}))
@@ -52,7 +51,18 @@ not(isblank({!$Record.Organization_sub_constituency__c}))
 (CONTAINS({!$Record.Sub_Constituency_Text__c}, &quot;EDFBIZ - Climate Corps&quot;))</filterFormula>
         <object>Account</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
-        <triggerType>RecordBeforeSave</triggerType>
+        <scheduledPaths>
+            <name>X5_Minutes_Later</name>
+            <connector>
+                <targetReference>Update_CC_consultant_field</targetReference>
+            </connector>
+            <label>5 Minutes Later</label>
+            <offsetNumber>5</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <recordField>LastModifiedDate</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
 </Flow>
