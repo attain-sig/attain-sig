@@ -258,6 +258,147 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
+                    <name>DefaultPageSize</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>HideOnError</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>PreventResponsiveness</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>SDGConfiguration</name>
+                    <value>CustomObject:EventRelatedContact_EDFStafforAlumni</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>SVGName</name>
+                    <value>standard:contact</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>ShowDebug</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>Title</name>
+                    <value>Event Related Contact - EDF Staff or Alumni</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>UseCache</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>sortablegrid:sdg</componentName>
+                <identifier>sortablegrid_sdg5</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+                    <criteria>
+                        <leftValue>{!$User.Profile.Name}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Climate Corps</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Profile.Name}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Climate Corps Platform</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Profile.Name}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Program Staff</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Profile.Name}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Program Staff Platform</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Profile.Name}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>System Administrator</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>DefaultPageSize</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>FieldSetName</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>HideOnError</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>PreventResponsiveness</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>RelationshipName</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>SDGConfiguration</name>
+                    <value>CustomObject:Event Related Contact _Other</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>SDGTag</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>SVGName</name>
+                    <value>standard:contact</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>ShowDebug</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>Title</name>
+                    <value>Event Related Contact</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>UseCache</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>sortablegrid:sdg</componentName>
+                <identifier>sortablegrid_sdg4</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+                    <criteria>
+                        <leftValue>{!$User.Profile.Name}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Climate Corps</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Profile.Name}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Climate Corps Platform</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Profile.Name}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Program Staff</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Profile.Name}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Program Staff Platform</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Profile.Name}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>System Administrator</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
                     <name>parentFieldApiName</name>
                     <value>Event.Id</value>
                 </componentInstanceProperties>
