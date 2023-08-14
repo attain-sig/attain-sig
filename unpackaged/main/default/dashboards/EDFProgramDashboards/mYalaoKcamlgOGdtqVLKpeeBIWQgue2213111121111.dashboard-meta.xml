@@ -401,7 +401,7 @@
                 <header>Individuals You Talk To The Most</header>
                 <legendPosition>Right</legendPosition>
                 <maxValuesDisplayed>8</maxValuesDisplayed>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/MCRMT_Your_Most_Frequent_Contacts_3</report>
+                <report>Dynamic_Dashboard_reports/MCRMT_Your_Most_Frequent_Contacts_3</report>
                 <showPercentage>false</showPercentage>
                 <showTotal>false</showTotal>
                 <showValues>false</showValues>
