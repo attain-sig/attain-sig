@@ -41,7 +41,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Payment - Edit Acknowledgement Fields</label>
+    <label>Payment - Edit Pledge Reminder, Ack Fields</label>
     <objectPermissions>
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
