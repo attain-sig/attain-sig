@@ -1420,11 +1420,7 @@
         <fullName>Fellow_Application_All_Email_Alerts_to_Fellow</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows>
-            <textTemplates>
-                <name>emailBody</name>
-            </textTemplates>
-        </flows>
+        <flows />
         <fullName>Fellow_Application_Application_Submitted_Email_Alert</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -2133,6 +2129,10 @@
     <flowDefinitions>
         <flows />
         <fullName>Staging_After_Insert_Link_Projections</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Subflow_Create_Email_Message_for_Email_Alerts</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows />
