@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PG_Time_Capsule</fullName>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Library_Name__c</field>
+        <operation>equals</operation>
+        <value>PG Time Capsule</value>
+    </filters>
+    <label>PG Time Capsule</label>
+</ListView>
