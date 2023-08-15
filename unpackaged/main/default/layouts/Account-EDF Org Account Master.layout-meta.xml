@@ -58,6 +58,10 @@
                 <behavior>Edit</behavior>
                 <field>Climate_Corps_Consultant_Access__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Org_Donor_Proxy_Name__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

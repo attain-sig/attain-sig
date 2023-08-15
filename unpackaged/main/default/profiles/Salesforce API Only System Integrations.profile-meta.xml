@@ -716,6 +716,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Org_Donor_Proxy_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.npe01__One2OneContact__c</field>
         <readable>true</readable>
     </fieldPermissions>

@@ -716,6 +716,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Org_Donor_Proxy_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Action_Code__c.Legacy_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
