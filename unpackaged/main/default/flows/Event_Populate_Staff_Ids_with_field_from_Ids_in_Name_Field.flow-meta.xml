@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <assignments>
+        <name>Assign_to_var</name>
+        <label>Assign to var</label>
+        <locationX>264</locationX>
+        <locationY>755</locationY>
+        <assignmentItems>
+            <assignToReference>varStaffIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Loop_Through_Event_Relations.RelationId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varStaffIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>; </stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_Through_Event_Relations</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>EDF_Staff</name>
+        <label>EDF Staff?</label>
+        <locationX>396</locationX>
+        <locationY>647</locationY>
+        <defaultConnector>
+            <targetReference>Loop_Through_Event_Relations</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Contact_is_Staff</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Contact.Constituency_Text__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>EDF Staff</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_to_var</targetReference>
+            </connector>
+            <label>Contact is Staff</label>
+        </rules>
+    </decisions>
+    <description>If staff is in Name field, pulls Ids into Staff Id field</description>
+    <environments>Default</environments>
+    <interviewLabel>Event - Populate Staff Ids with field from Ids in Name Field {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Event - Populate Staff Ids with field from Ids in Name Field</label>
+    <loops>
+        <name>Loop_Through_Event_Relations</name>
+        <label>Loop Through Event Relations</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <collectionReference>Get_Event_Relations</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Get_Contact</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Update_Event</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Contact</name>
+        <label>Get Contact</label>
+        <locationX>396</locationX>
+        <locationY>539</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>EDF_Staff</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Loop_Through_Event_Relations.RelationId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Event_Relations</name>
+        <label>Get Event Relations</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_Through_Event_Relations</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>EventId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>EventRelation</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Event</name>
+        <label>Update Event</label>
+        <locationX>176</locationX>
+        <locationY>1031</locationY>
+        <inputAssignments>
+            <field>Staff_Ids__c</field>
+            <value>
+                <elementReference>varStaffIds</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Event_Relations</targetReference>
+        </connector>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; True</filterFormula>
+        <object>Event</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>varStaffIds</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

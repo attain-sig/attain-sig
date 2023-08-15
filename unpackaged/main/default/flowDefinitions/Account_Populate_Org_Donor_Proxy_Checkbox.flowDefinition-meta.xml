@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionNumber>1</activeVersionNumber>
+    <description>Populates Org Donor Proxy checkbox on accounts if the account has a donor proxy record. Used in SDG on tasks/events.</description>
+    <masterLabel>Account - Populate Org Donor Proxy Checkbox</masterLabel>
+</FlowDefinition>

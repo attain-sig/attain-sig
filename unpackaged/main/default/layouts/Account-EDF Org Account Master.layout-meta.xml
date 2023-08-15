@@ -60,7 +60,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Org_Donor_Proxy_Name__c</field>
+                <field>Has_Donor_Proxy__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

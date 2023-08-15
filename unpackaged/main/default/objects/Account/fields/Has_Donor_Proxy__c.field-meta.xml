@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Donor_Proxy__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Record has a donor proxy contact. Used in flow and sdg.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Record has a donor proxy contact. Used in flow and sdg.</inlineHelpText>
+    <label>Has Donor Proxy</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

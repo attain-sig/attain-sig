@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <assignments>
+        <name>Assign_to_Var</name>
+        <label>Assign to Var</label>
+        <locationX>264</locationX>
+        <locationY>755</locationY>
+        <assignmentItems>
+            <assignToReference>varConIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Loop_through_taskrelation.RelationId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varConIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>; </stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_through_taskrelation</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>EDF_Staff</name>
+        <label>EDF Staff?</label>
+        <locationX>396</locationX>
+        <locationY>647</locationY>
+        <defaultConnector>
+            <targetReference>Loop_through_taskrelation</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>contact_is_staff</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Contacts.Constituency_Text__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>EDF Staff</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_to_Var</targetReference>
+            </connector>
+            <label>contact is staff</label>
+        </rules>
+    </decisions>
+    <description>Populates the Staff IDs field on task if a contact in the name field is EDF Staff</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>IsNew</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <interviewLabel>Task - Populate Staff IDs field with ids from Name field {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Task - Populate Staff IDs field with ids from Name field</label>
+    <loops>
+        <name>Loop_through_taskrelation</name>
+        <label>Loop through taskrelation</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <collectionReference>Get_Task_Relations</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Get_Contacts</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Update_Task1</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Contacts</name>
+        <label>Get Contacts</label>
+        <locationX>396</locationX>
+        <locationY>539</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>EDF_Staff</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Loop_through_taskrelation.RelationId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Task_Relations</name>
+        <label>Get Task Relations</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_through_taskrelation</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>TaskId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>TaskRelation</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Task1</name>
+        <label>Update Task</label>
+        <locationX>176</locationX>
+        <locationY>1031</locationY>
+        <inputAssignments>
+            <field>Staff_Ids__c</field>
+            <value>
+                <elementReference>varConIds</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Task_Relations</targetReference>
+        </connector>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; True</filterFormula>
+        <object>Task</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>varConIds</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

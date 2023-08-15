@@ -1436,7 +1436,7 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Org_Donor_Proxy_Name__c</field>
+            <field>Has_Donor_Proxy__c</field>
             <table>Account</table>
         </columns>
         <masterLabel>Accounts</masterLabel>
