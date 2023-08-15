@@ -2,10 +2,17 @@
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>PG_Time_Capsule</fullName>
     <columns>NAME</columns>
+    <columns>Title__c</columns>
+    <columns>Library_Name__c</columns>
+    <columns>Tags__c</columns>
+    <columns>Program_Tags__c</columns>
+    <columns>Description__c</columns>
+    <columns>Writer_Assigned__c</columns>
+    <columns>Deliverable__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
         <field>Library_Name__c</field>
-        <operation>equals</operation>
+        <operation>includes</operation>
         <value>PG Time Capsule</value>
     </filters>
     <label>PG Time Capsule</label>

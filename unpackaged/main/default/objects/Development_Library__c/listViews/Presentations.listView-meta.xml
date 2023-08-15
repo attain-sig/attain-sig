@@ -2,6 +2,18 @@
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Presentations</fullName>
     <columns>NAME</columns>
-    <filterScope>Mine</filterScope>
+    <columns>Title__c</columns>
+    <columns>Library_Name__c</columns>
+    <columns>Tags__c</columns>
+    <columns>Program_Tags__c</columns>
+    <columns>Description__c</columns>
+    <columns>Writer_Assigned__c</columns>
+    <columns>Deliverable__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Library_Name__c</field>
+        <operation>includes</operation>
+        <value>Presentations</value>
+    </filters>
     <label>Presentations</label>
 </ListView>
