@@ -13529,6 +13529,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>OpportunityContactRole.Contact_Role_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>PartyConsent.DoubleConsentCaptureDate</field>
         <readable>true</readable>
