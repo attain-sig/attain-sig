@@ -5,8 +5,8 @@
     <columns>Title__c</columns>
     <columns>Date__c</columns>
     <columns>Library_Name__c</columns>
-    <columns>Tags__c</columns>
     <columns>Program_Tags__c</columns>
+    <columns>Tags__c</columns>
     <columns>Description__c</columns>
     <columns>Writer_Assigned__c</columns>
     <columns>Deliverable__c</columns>

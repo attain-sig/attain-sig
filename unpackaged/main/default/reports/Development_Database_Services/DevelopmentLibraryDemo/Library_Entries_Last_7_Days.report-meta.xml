@@ -7,19 +7,28 @@
         <field>Development_Library__c.Title__c</field>
     </columns>
     <columns>
-        <field>Development_Library__c.Library_Name__c</field>
-    </columns>
-    <columns>
         <field>Development_Library__c.Date__c</field>
     </columns>
     <columns>
-        <field>CUST_CREATED_DATE</field>
+        <field>Development_Library__c.Library_Name__c</field>
+    </columns>
+    <columns>
+        <field>Development_Library__c.Program_Tags__c</field>
     </columns>
     <columns>
         <field>Development_Library__c.Tags__c</field>
     </columns>
     <columns>
-        <field>Development_Library__c.Program_Tags__c</field>
+        <field>Development_Library__c.Description__c</field>
+    </columns>
+    <columns>
+        <field>Development_Library__c.Writer_Assigned__c</field>
+    </columns>
+    <columns>
+        <field>Development_Library__c.Deliverable__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_DATE</field>
     </columns>
     <format>Tabular</format>
     <name>Library Entries - Last 7 Days</name>
