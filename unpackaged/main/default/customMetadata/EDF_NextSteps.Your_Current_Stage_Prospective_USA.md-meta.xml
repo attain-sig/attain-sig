@@ -8,7 +8,7 @@
     </values>
     <values>
         <field>Description__c</field>
-        <value xsi:type="xsd:string">To edit or view your application, click on the &quot;Application&quot; tile above. All applications for the first deadline are due on November 29, 2022 at 11:59 pm PT. The final deadline for the program is January 10, 2023 at 11:59pm PT.</value>
+        <value xsi:type="xsd:string">To edit or view your application, click on the &quot;Application&quot; tile above. All applications for the first deadline are due on November 30, 2023 at 11:59 pm PT. The final deadline for the program is January 9, 2024 at 11:59pm PT.</value>
     </values>
     <values>
         <field>FellowshipApplyingFor__c</field>

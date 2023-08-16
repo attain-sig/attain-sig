@@ -8,7 +8,7 @@
     </values>
     <values>
         <field>Description__c</field>
-        <value xsi:type="xsd:string">Applicants for the early deadline will hear from us on December 16th and applicants for the regular deadline will hear from us on January 20th. Please email edfclimatecorps.apply@edf.org with questions.</value>
+        <value xsi:type="xsd:string">Applicants who submitted by the November deadline will be notified of their application status on December 15th and those who submitted by the January deadline will be notified on January 19th. Please email edfclimatecorps.apply@edf.org with questions.</value>
     </values>
     <values>
         <field>FellowshipApplyingFor__c</field>
