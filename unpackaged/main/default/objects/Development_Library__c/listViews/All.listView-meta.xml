@@ -3,6 +3,7 @@
     <fullName>All</fullName>
     <columns>NAME</columns>
     <columns>Title__c</columns>
+    <columns>Date__c</columns>
     <columns>Library_Name__c</columns>
     <columns>Tags__c</columns>
     <columns>Program_Tags__c</columns>
