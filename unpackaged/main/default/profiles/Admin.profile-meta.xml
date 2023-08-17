@@ -13535,6 +13535,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>OpportunityContactRole.Do_Not_Create_PSC__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>PartyConsent.DoubleConsentCaptureDate</field>
         <readable>true</readable>
     </fieldPermissions>

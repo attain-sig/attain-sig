@@ -5,7 +5,7 @@
         <name>AssignValues</name>
         <label>AssignValues</label>
         <locationX>176</locationX>
-        <locationY>335</locationY>
+        <locationY>323</locationY>
         <assignmentItems>
             <assignToReference>PartialSoftCreditRecord.npsp__Opportunity__c</assignToReference>
             <operator>Assign</operator>
@@ -46,7 +46,8 @@
         </connector>
     </assignments>
     <description>On Create Only and if Role equals Funder-Soft Credit, DAF, Workplace Giving, Sponsor, Agency, Corporate Match
-Updated per FB-1450</description>
+Updated per FB-1450
+Updated per FB-3635 to prevent recursion</description>
     <environments>Default</environments>
     <formulas>
         <name>AmountFormula</name>
@@ -80,7 +81,7 @@ Updated per FB-1450</description>
         <name>CreatePartialSoftCredit</name>
         <label>CreatePartialSoftCredit</label>
         <locationX>176</locationX>
-        <locationY>455</locationY>
+        <locationY>431</locationY>
         <inputReference>PartialSoftCreditRecord</inputReference>
     </recordCreates>
     <start>
@@ -91,7 +92,9 @@ Updated per FB-1450</description>
         </connector>
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
 &amp;&amp;
-(ispickval({!$Record.Role}, &quot;Workplace Giving&quot;) || ispickval({!$Record.Role}, &quot;Funder - Soft Credit&quot;) || ispickval({!$Record.Role}, &quot;Agency&quot;) || ispickval({!$Record.Role}, &quot;Sponsor&quot;) || ispickval({!$Record.Role}, &quot;DAF&quot;))</filterFormula>
+(ispickval({!$Record.Role}, &quot;Workplace Giving&quot;) || ispickval({!$Record.Role}, &quot;Funder - Soft Credit&quot;) || ispickval({!$Record.Role}, &quot;Agency&quot;) || ispickval({!$Record.Role}, &quot;Sponsor&quot;) || ispickval({!$Record.Role}, &quot;DAF&quot;))
+&amp;&amp;
+{!$Record.Do_Not_Create_PSC__c} = FALSE</filterFormula>
         <object>OpportunityContactRole</object>
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>

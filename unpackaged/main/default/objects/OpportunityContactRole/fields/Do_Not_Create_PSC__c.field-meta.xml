@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_Not_Create_PSC__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>prevents flows that create partial soft credit record when opportunity contact role is created</description>
+    <externalId>false</externalId>
+    <inlineHelpText>prevents flows that create partial soft credit record when opportunity contact role is created</inlineHelpText>
+    <label>Do Not Create PSC</label>
+    <type>Checkbox</type>
+</CustomField>
