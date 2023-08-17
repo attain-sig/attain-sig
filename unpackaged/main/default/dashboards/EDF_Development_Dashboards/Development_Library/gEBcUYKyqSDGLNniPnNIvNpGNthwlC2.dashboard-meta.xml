@@ -4,34 +4,12 @@
     <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
     <backgroundStartColor>#FFFFFF</backgroundStartColor>
     <chartTheme>light</chartTheme>
-    <colorPalette>unity</colorPalette>
+    <colorPalette>water</colorPalette>
     <dashboardChartTheme>light</dashboardChartTheme>
-    <dashboardColorPalette>unity</dashboardColorPalette>
+    <dashboardColorPalette>water</dashboardColorPalette>
     <dashboardGridLayout>
         <dashboardGridComponents>
-            <colSpan>8</colSpan>
-            <columnIndex>0</columnIndex>
-            <dashboardComponent>
-                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
-                <componentType>RichText</componentType>
-                <groupingSortProperties />
-            </dashboardComponent>
-            <rowIndex>0</rowIndex>
-            <rowSpan>2</rowSpan>
-        </dashboardGridComponents>
-        <dashboardGridComponents>
-            <colSpan>4</colSpan>
-            <columnIndex>8</columnIndex>
-            <dashboardComponent>
-                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
-                <componentType>RichText</componentType>
-                <groupingSortProperties />
-            </dashboardComponent>
-            <rowIndex>0</rowIndex>
-            <rowSpan>5</rowSpan>
-        </dashboardGridComponents>
-        <dashboardGridComponents>
-            <colSpan>8</colSpan>
+            <colSpan>10</colSpan>
             <columnIndex>0</columnIndex>
             <dashboardComponent>
                 <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
@@ -90,22 +68,33 @@
                 <header>Library Records Added in Last 7 Days</header>
                 <report>Development_Database_Services/DevelopmentLibraryDemo/Library_Entries_Last_7_Days</report>
             </dashboardComponent>
-            <rowIndex>2</rowIndex>
+            <rowIndex>0</rowIndex>
             <rowSpan>8</rowSpan>
         </dashboardGridComponents>
         <dashboardGridComponents>
-            <colSpan>4</colSpan>
-            <columnIndex>8</columnIndex>
+            <colSpan>2</colSpan>
+            <columnIndex>10</columnIndex>
             <dashboardComponent>
                 <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
                 <componentType>RichText</componentType>
                 <groupingSortProperties />
             </dashboardComponent>
-            <rowIndex>5</rowIndex>
-            <rowSpan>9</rowSpan>
+            <rowIndex>0</rowIndex>
+            <rowSpan>6</rowSpan>
         </dashboardGridComponents>
         <dashboardGridComponents>
-            <colSpan>8</colSpan>
+            <colSpan>2</colSpan>
+            <columnIndex>10</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
+                <componentType>RichText</componentType>
+                <groupingSortProperties />
+            </dashboardComponent>
+            <rowIndex>6</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>10</colSpan>
             <columnIndex>0</columnIndex>
             <dashboardComponent>
                 <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
@@ -164,22 +153,11 @@
                 <header>Library Records Added in Last 30 Days</header>
                 <report>Development_Database_Services/DevelopmentLibraryDemo/Library_Entries_Last_30_Days</report>
             </dashboardComponent>
-            <rowIndex>10</rowIndex>
+            <rowIndex>8</rowIndex>
             <rowSpan>8</rowSpan>
         </dashboardGridComponents>
         <dashboardGridComponents>
-            <colSpan>4</colSpan>
-            <columnIndex>8</columnIndex>
-            <dashboardComponent>
-                <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
-                <componentType>RichText</componentType>
-                <groupingSortProperties />
-            </dashboardComponent>
-            <rowIndex>14</rowIndex>
-            <rowSpan>8</rowSpan>
-        </dashboardGridComponents>
-        <dashboardGridComponents>
-            <colSpan>8</colSpan>
+            <colSpan>10</colSpan>
             <columnIndex>0</columnIndex>
             <dashboardComponent>
                 <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
@@ -238,7 +216,7 @@
                 <header>Library Records Added in Last 120 Days</header>
                 <report>Development_Database_Services/DevelopmentLibraryDemo/Library_Entries_Last_120_Days</report>
             </dashboardComponent>
-            <rowIndex>18</rowIndex>
+            <rowIndex>16</rowIndex>
             <rowSpan>8</rowSpan>
         </dashboardGridComponents>
         <numberOfColumns>12</numberOfColumns>
@@ -248,7 +226,7 @@
     <isGridLayout>true</isGridLayout>
     
     <textColor>#000000</textColor>
-    <title>Development Library Homepage</title>
+    <title>Development Library Recently Added</title>
     <titleColor>#000000</titleColor>
     <titleSize>12</titleSize>
 </Dashboard>
