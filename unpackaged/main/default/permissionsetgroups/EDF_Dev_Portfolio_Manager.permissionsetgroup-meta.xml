@@ -4,6 +4,7 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>EDF Dev Portfolio Manager</label>
     <permissionSets>Create_Edit_Qualifying_Opportunities</permissionSets>
+    <permissionSets>Development_Library_Create_Edit_All_Fields</permissionSets>
     <permissionSets>Manage_Fund_Requests</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

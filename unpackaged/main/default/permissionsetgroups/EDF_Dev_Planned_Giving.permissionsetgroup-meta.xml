@@ -3,5 +3,6 @@
     <description>Replaces Planned Giving Permission Set</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>EDF Dev Planned Giving</label>
+    <permissionSets>Development_Library_Create_Edit_All_Fields</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>
