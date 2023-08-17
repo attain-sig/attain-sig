@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Generate_Host_App</name>
+        <label>Generate Host App</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <actionName>Host_Application__c.HAPP_PDF</actionName>
+        <actionType>outboundMessage</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+    </actionCalls>
+    <apiVersion>55.0</apiVersion>
+    <environments>Default</environments>
+    <formulas>
+        <name>Date</name>
+        <dataType>Date</dataType>
+        <expression>NOW()</expression>
+    </formulas>
+    <interviewLabel>Host Application - Generate HAPP Conga Trigger {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Host Application - Generate HAPP Conga Trigger</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Generate_Host_App</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; True
+&amp;&amp; 
+ispickval({!$Record.Stage__c}, &quot;Reviewed and Accepted&quot;)
+&amp;&amp;
+ispickval({!$Record.Fellowship_Program__c}, &quot;U.S. Fellowship&quot;)</filterFormula>
+        <object>Host_Application__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>messageBodyforTask</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Thanks so much for submitting an application to host a Climate Corps fellow. If we have questions about your application, we will follow up shortly. You’ll receive confirmation of your participation in the program by late February.
+
+Please do not hesitate to reach out to me if you have any questions.
+
+Best,
+Mali&apos;o Kodis
+Project Manager, Host Recruitment</text>
+    </textTemplates>
+    <variables>
+        <name>createdtaskID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

@@ -1591,6 +1591,14 @@
                 <name>messageBodyforTask</name>
             </textTemplates>
         </flows>
+        <fullName>Host_Application_Generate_HAPP_Conga_Trigger</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>messageBodyforTask</name>
+            </textTemplates>
+        </flows>
         <fullName>Host_Application_Send_Email_to_Respondent</fullName>
     </flowDefinitions>
     <flowDefinitions>
