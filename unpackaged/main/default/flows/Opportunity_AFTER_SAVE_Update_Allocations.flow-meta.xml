@@ -60,6 +60,13 @@
                 <elementReference>MCAllocationReceivedAmt</elementReference>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>loopOpportunityAllocationsMC.Probability__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Probability</elementReference>
+            </value>
+        </assignmentItems>
         <connector>
             <targetReference>addOpportunityAllocationsMC</targetReference>
         </connector>
@@ -89,6 +96,13 @@
             <operator>Assign</operator>
             <value>
                 <elementReference>AllocationAmountxOpportunityProb</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>loopOpportunityAllocationsUSD.Probability__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Probability</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -159,7 +173,7 @@
             <label>Opportunity Closed</label>
         </rules>
     </decisions>
-    <description>Remove exclusion for &quot;Received&quot; opps.</description>
+    <description>Add probability to allocation update fields.</description>
     <environments>Default</environments>
     <formulas>
         <name>AllocationAmountxOpportunityProb</name>
