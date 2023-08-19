@@ -82,7 +82,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties />
                 <header>Library Entries - All</header>
-                <report>Development_Database_Services/DevelopmentLibraryDemo/Library_Entries_All</report>
+                <report>DevelopmentLibraryDemo/Library_Entries_All</report>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
             <rowSpan>14</rowSpan>
