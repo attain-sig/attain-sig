@@ -88,7 +88,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties />
                 <header>Library Records Added in Last 7 Days</header>
-                <report>DevelopmentLibraryDemo/Library_Entries_Last_7_Days</report>
+                <report>Development_Database_Services/DevelopmentLibraryDemo/Library_Entries_Last_7_Days</report>
             </dashboardComponent>
             <rowIndex>2</rowIndex>
             <rowSpan>8</rowSpan>
@@ -162,7 +162,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties />
                 <header>Library Records Added in Last 30 Days</header>
-                <report>DevelopmentLibraryDemo/Library_Entries_Last_30_Days</report>
+                <report>Development_Database_Services/DevelopmentLibraryDemo/Library_Entries_Last_30_Days</report>
             </dashboardComponent>
             <rowIndex>10</rowIndex>
             <rowSpan>8</rowSpan>
