@@ -88,7 +88,7 @@
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
                 <metricLabel>Click on link then search</metricLabel>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/Report_of_Mission_reports</report>
+                <report>Dynamic_Dashboard_reports/Report_of_Mission_reports</report>
                 <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
@@ -139,7 +139,7 @@
                 <indicatorHighColor>#00716B</indicatorHighColor>
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/Activities_to_Submit_by_Running_User_jq6</report>
+                <report>Dynamic_Dashboard_reports/Activities_to_Submit_by_Running_User_jq6</report>
                 <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>5</rowIndex>
