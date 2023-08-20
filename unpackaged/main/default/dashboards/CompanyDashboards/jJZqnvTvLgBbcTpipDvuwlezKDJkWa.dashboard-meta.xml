@@ -42,7 +42,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties />
                 <header>Development Library Records</header>
-                <report>DevelopmentLibraryDemo/DevLibrary_with_Deliverables_rfL</report>
+                <report>Development_Database_Services/DevelopmentLibraryDemo/DevLibrary_with_Deliverables_rfL</report>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
             <rowSpan>8</rowSpan>
