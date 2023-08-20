@@ -61,7 +61,7 @@
                 <indicatorHighColor>#00716B</indicatorHighColor>
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/Contacts_You_Manage</report>
+                <report>Dynamic_Dashboard_reports/Contacts_You_Manage</report>
                 <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
@@ -88,7 +88,7 @@
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
                 <metricLabel>Click on link then search</metricLabel>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/Report_of_Mission_reports</report>
+                <report>Dynamic_Dashboard_reports/Report_of_Mission_reports</report>
                 <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
@@ -114,7 +114,7 @@
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
                 <metricLabel>Click on link then search by team</metricLabel>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/New_Dashboards_Report</report>
+                <report>Dynamic_Dashboard_reports/New_Dashboards_Report</report>
                 <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
@@ -139,7 +139,7 @@
                 <indicatorHighColor>#00716B</indicatorHighColor>
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/Activities_to_Submit_by_Running_User_jq6</report>
+                <report>Dynamic_Dashboard_reports/Activities_to_Submit_by_Running_User_jq6</report>
                 <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>5</rowIndex>
@@ -242,7 +242,7 @@
                     </groupingSorts>
                 </groupingSortProperties>
                 <header>You Manage the Contact But Not the Organization</header>
-                <report>Dynamic_Dashboard_reports/You_Manage_Contact_But_Not_Company</report>
+                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/You_Manage_Contact_But_Not_Company</report>
             </dashboardComponent>
             <rowIndex>5</rowIndex>
             <rowSpan>8</rowSpan>
@@ -288,7 +288,7 @@
                 <footer>Optional - You may add notes by clicking on the subject line, then editing the description field.</footer>
                 <groupingSortProperties />
                 <header>Your Recent Activities</header>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/Your_Recent_Activities</report>
+                <report>Dynamic_Dashboard_reports/Your_Recent_Activities</report>
                 <title>Last 90 Days</title>
             </dashboardComponent>
             <rowIndex>9</rowIndex>
@@ -362,7 +362,7 @@
                 <header>You Manage the Organization But Not All Contacts</header>
                 <legendPosition>Right</legendPosition>
                 <maxValuesDisplayed>15</maxValuesDisplayed>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/You_Manage_Org_But_Not_Contact</report>
+                <report>Dynamic_Dashboard_reports/You_Manage_Org_But_Not_Contact</report>
                 <showPercentage>false</showPercentage>
                 <showTotal>false</showTotal>
                 <showValues>false</showValues>
