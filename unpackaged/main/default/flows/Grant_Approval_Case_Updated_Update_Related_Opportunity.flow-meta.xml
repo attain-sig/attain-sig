@@ -1,10 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
+        <name>Send_Better_Email</name>
+        <label>Send Better Email</label>
+        <locationX>182</locationX>
+        <locationY>839</locationY>
+        <actionName>SendBetterEmail</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Send_Email_Alert_to_ERPSupport_edf_org</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>HTMLbody</name>
+            <value>
+                <elementReference>tt_Body</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>orgWideEmailAddressId</name>
+            <value>
+                <stringValue>0D27d0000004EVk</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>plainTextBody</name>
+            <value>
+                <elementReference>tt_Body</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>SendCCthisOneEmailAddress</name>
+            <value>
+                <elementReference>v_OwnerEmail</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderDisplayName</name>
+            <value>
+                <stringValue>EDF System Administrator</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>SendTOthisOneEmailAddress</name>
+            <value>
+                <elementReference>v_ToEmail</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>subject</name>
+            <value>
+                <elementReference>tt_Subject</elementReference>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
         <name>Send_Email_Alert_to_ERPSupport_edf_org</name>
         <label>Send Email Alert to ERPSupport@edf.org</label>
         <locationX>182</locationX>
-        <locationY>323</locationY>
+        <locationY>947</locationY>
         <actionName>Case.External_Grant_Approval_Email_Alert</actionName>
         <actionType>emailAlert</actionType>
         <connector>
@@ -19,11 +74,67 @@
         </inputParameters>
     </actionCalls>
     <apiVersion>58.0</apiVersion>
+    <assignments>
+        <name>Set_Owner_Email_to_Group</name>
+        <label>Set Owner Email to Group</label>
+        <locationX>314</locationX>
+        <locationY>539</locationY>
+        <assignmentItems>
+            <assignToReference>v_OwnerEmail</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Owner:Group.Email</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Grant_Manager</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Owner_Email_to_User</name>
+        <label>Set Owner Email to User</label>
+        <locationX>50</locationX>
+        <locationY>539</locationY>
+        <assignmentItems>
+            <assignToReference>v_OwnerEmail</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Owner:User.Email</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Grant_Manager</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <description>Until we&apos;re ready, sending to a test user.</description>
+        <name>Set_To_Email</name>
+        <label>Set To Email</label>
+        <locationX>182</locationX>
+        <locationY>323</locationY>
+        <assignmentItems>
+            <assignToReference>v_ToEmail</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>ahletts@attainpartners.com</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Owner_Type</targetReference>
+        </connector>
+    </assignments>
+    <constants>
+        <name>c_domain</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>https://test.salesforce.com</stringValue>
+        </value>
+    </constants>
     <decisions>
         <name>Opportunity_Record_Type_Decision</name>
         <label>Opportunity Record Type Decision?</label>
         <locationX>182</locationX>
-        <locationY>431</locationY>
+        <locationY>1055</locationY>
         <defaultConnector>
             <targetReference>Update_Opportunity_Fields</targetReference>
         </defaultConnector>
@@ -42,6 +153,31 @@
                 <targetReference>Get_Record_Type_ID</targetReference>
             </connector>
             <label>Major Gift</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Owner_Type</name>
+        <label>Owner Type</label>
+        <locationX>182</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Set_Owner_Email_to_Group</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Owner_is_User</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.OwnerId</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>005</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Owner_Email_to_User</targetReference>
+            </connector>
+            <label>Owner is User</label>
         </rules>
     </decisions>
     <environments>Default</environments>
@@ -77,7 +213,7 @@ left({!$Record.Opportunity__r.Account.Name} &amp; &quot; $&quot; &amp; text({!$R
         <name>Get_Record_Type_ID</name>
         <label>Get Record Type ID</label>
         <locationX>50</locationX>
-        <locationY>539</locationY>
+        <locationY>1163</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Update_Opportunity_Fields_MajorGift</targetReference>
@@ -103,11 +239,32 @@ left({!$Record.Opportunity__r.Account.Name} &amp; &quot; $&quot; &amp; text({!$R
         <sortOrder>Asc</sortOrder>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
+    <recordLookups>
+        <name>Grant_Manager</name>
+        <label>Grant Manager</label>
+        <locationX>182</locationX>
+        <locationY>731</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Send_Better_Email</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Grant_Manager__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
     <recordUpdates>
         <name>Update_Opportunity_Fields</name>
         <label>Update Opportunity Fields</label>
         <locationX>314</locationX>
-        <locationY>539</locationY>
+        <locationY>1163</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -188,7 +345,7 @@ left({!$Record.Opportunity__r.Account.Name} &amp; &quot; $&quot; &amp; text({!$R
         <name>Update_Opportunity_Fields_MajorGift</name>
         <label>Update Opportunity Fields</label>
         <locationX>50</locationX>
-        <locationY>647</locationY>
+        <locationY>1271</locationY>
         <connector>
             <targetReference>Update_Opportunity_Name</targetReference>
         </connector>
@@ -278,7 +435,7 @@ left({!$Record.Opportunity__r.Account.Name} &amp; &quot; $&quot; &amp; text({!$R
         <name>Update_Opportunity_Name</name>
         <label>Update Opportunity Name</label>
         <locationX>50</locationX>
-        <locationY>755</locationY>
+        <locationY>1379</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -306,7 +463,7 @@ left({!$Record.Opportunity__r.Account.Name} &amp; &quot; $&quot; &amp; text({!$R
         <locationX>56</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Send_Email_Alert_to_ERPSupport_edf_org</targetReference>
+            <targetReference>Set_To_Email</targetReference>
         </connector>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
@@ -318,6 +475,37 @@ ispickval({!$Record.Status}, &quot;Closed - Approved/Resolved&quot;)</filterForm
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
+    <textTemplates>
+        <name>tt_Body</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi - Please add {!Grant_Manager.Name} as the Grant Manager for {!$Record.Grant_Name__c}.
+
+
+
+Salesforce case record: https://test.salesforce.com/{!$Record.Id}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>tt_Subject</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Grant Manager Needed: {!$Record.Grant_Name__c}</text>
+    </textTemplates>
     <triggerOrder>5</triggerOrder>
+    <variables>
+        <name>v_OwnerEmail</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>v_ToEmail</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>ahletts@attainpartners.com</stringValue>
+        </value>
+    </variables>
 </Flow>
