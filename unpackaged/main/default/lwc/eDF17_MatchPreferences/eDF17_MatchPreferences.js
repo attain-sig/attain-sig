@@ -29,7 +29,7 @@ import SECTOR_CHOICE_SORTED from '@salesforce/schema/Fellow_Application__c.Secto
 import SECTOR_CHOICE_CHINA from '@salesforce/schema/Fellow_Application__c.Sector_Choice_China__c';
 // import SECTOR_SECOND_CHOICE_FIELD from '@salesforce/schema/Fellow_Application__c.Sector_second_choice__c';
 // import SECTOR_THIRD_CHOICE_FIELD from '@salesforce/schema/Fellow_Application__c.Sector_third_choice__c';
-import PROJECT_TYPE_PREFERENCE_ONE from '@salesforce/schema/Fellow_Application__c.Project_Type_Preference_China__c'; // Project_Type_Preference_One__c'; // temp for deployment
+import PROJECT_TYPE_PREFERENCE_ONE from '@salesforce/schema/Fellow_Application__c.Project_Type_Preference_One__c'; // temp for deployment
 import PROJECT_TYPE_PREFERENCE_CHINA from '@salesforce/schema/Fellow_Application__c.Project_Type_Preference_China__c';
 // import PROJECT_TYPE_PREFERENCE_TWO from '@salesforce/schema/Fellow_Application__c.Project_Type_Preference_Two__c';
 // import PROJECT_TYPE_PREFERENCE_THREE from '@salesforce/schema/Fellow_Application__c.Project_Type_Preference_Three__c';

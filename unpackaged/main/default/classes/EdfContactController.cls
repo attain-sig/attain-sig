@@ -104,7 +104,7 @@ public with sharing class EdfContactController {
                                                 Fellowship_Applying_for__c,
                                                 Pronouns__c,
                                                 Pronouns_Self_Describe__c,
-                                                // How_Did_You_Find_Us__c, // temp for deployment
+                                                How_Did_You_Find_Us__c, // temp for deployment
                                                 How_did_find_out_about_EDF_Other__c,
                                                 Returner_Fellow__c,
                                                 Sex__c,
@@ -133,7 +133,7 @@ public with sharing class EdfContactController {
                 // fellowApp.Fellowship_Applying_for__c = fellowAppWrapper.fellowshipApplyingFor;
                 fellowApp.Pronouns__c = fellowAppWrapper.pronouns;
                 fellowApp.Pronouns_Self_Describe__c = fellowAppWrapper.pronounsSelfDescribe;
-                // fellowApp.How_Did_You_Find_Us__c = fellowAppWrapper.howDidYouFindUs; // temp for deployment
+                fellowApp.How_Did_You_Find_Us__c = fellowAppWrapper.howDidYouFindUs; // temp for deployment
                 // fellowApp.Skype__c = fellowAppWrapper.skypeID; // FB-3527
                 fellowApp.Returner_Fellow__c = fellowAppWrapper.returnerFellow;
                 fellowApp.Sex__c = fellowAppWrapper.gender;
@@ -255,7 +255,7 @@ public with sharing class EdfContactController {
                                 Pronouns_Self_Describe__c,
                                 Fellowship_Applying_for__c,
                                 // Skype__c, // FB-3527
-                                // How_Did_You_Find_Us__c, // temp for deployment
+                                How_Did_You_Find_Us__c, // temp for deployment
                                 How_Campus_Presentation__c,
                                 How_did_find_out_about_EDF_Other__c,
                                 Returner_Fellow__c,
@@ -308,7 +308,7 @@ public with sharing class EdfContactController {
             fw.fellowshipApplyingFor = fellowApp.Fellowship_Applying_for__c;
             fw.pronouns = fellowApp.Pronouns__c;
             fw.pronounsSelfDescribe = fellowApp.Pronouns_Self_Describe__c;
-            // fw.howDidYouFindUs = fellowApp.How_Did_You_Find_Us__c; // temp for deployment
+            fw.howDidYouFindUs = fellowApp.How_Did_You_Find_Us__c; // temp for deployment
             fw.howDidYouFindUsOther = fellowApp.How_did_find_out_about_EDF_Other__c;
             // fw.skypeID = fellowApp.Skype__c; // FB-3527
             fw.returnerFellow = fellowApp.Returner_Fellow__c;
@@ -343,7 +343,7 @@ public with sharing class EdfContactController {
     **/
      public static List<String> getHowDidYouFindUsPickListValues(){
         List<String> pickListValuesList= new List<String>();
-         Schema.DescribeFieldResult fieldResult = Fellow_Application__c.Fellowship_Applying_for__c.getDescribe(); // Fellow_Application__c.How_Did_You_Find_Us__c.getDescribe(); // temp for deployment
+         Schema.DescribeFieldResult fieldResult = Fellow_Application__c.How_Did_You_Find_Us__c.getDescribe(); // temp for deployment
          List<Schema.PicklistEntry> ple = fieldResult.getPicklistValues();
          for( Schema.PicklistEntry pickListVal : ple){
              pickListValuesList.add(pickListVal.getLabel());

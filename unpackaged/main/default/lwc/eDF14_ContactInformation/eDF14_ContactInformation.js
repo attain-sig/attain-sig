@@ -20,7 +20,7 @@ import PRONOUNS_FIELD from '@salesforce/schema/Fellow_Application__c.Pronouns__c
 import PRONOUNS_SELF_DESCRIBE_FIELD from '@salesforce/schema/Fellow_Application__c.Pronouns_Self_Describe__c';
 import RACE_FIELD from '@salesforce/schema/Fellow_Application__c.Race__c';
 import FELLOWSHIP_APPLYING_FOR_FIELD from '@salesforce/schema/Fellow_Application__c.Fellowship_Applying_for__c';
-import HOW_DID_YOU_FIND_US_FIELD from '@salesforce/schema/Fellow_Application__c.Fellowship_Applying_for__c'; // How_Did_You_Find_Us__c // temp for deployment
+import HOW_DID_YOU_FIND_US_FIELD from '@salesforce/schema/Fellow_Application__c.How_Did_You_Find_Us__c'; // temp for deployment
 import HOW_DID_YOU_FIND_US_IF_OTHER_FIELD from '@salesforce/schema/Fellow_Application__c.How_did_find_out_about_EDF_Other__c';
 import RETURNER_FELLOW_FIELD from '@salesforce/schema/Fellow_Application__c.Returner_Fellow__c';
 import GENDER_FIELD from '@salesforce/schema/Fellow_Application__c.Sex__c';

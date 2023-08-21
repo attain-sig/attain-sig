@@ -4,7 +4,7 @@
     <protected>false</protected>
     <values>
         <field>Deadline__c</field>
-        <value xsi:type="xsd:date">2024-01-31</value>
+        <value xsi:type="xsd:date">2023-12-17</value>
     </values>
     <values>
         <field>Program__c</field>
