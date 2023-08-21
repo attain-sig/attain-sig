@@ -111,7 +111,7 @@ public class FellowAppController_Test {
 
     static Fellow_Application__c addAdditionalFAppData(Fellow_Application__c fa) {
         fa.Pronouns__c = 'He/Him/His';
-        fa.How_Did_You_Find_Us__c = 'EDF Staff webinar';
+        // fa.How_Did_You_Find_Us__c = 'EDF Staff webinar'; // temp for deployment
         fa.Returner_Fellow__c = 'No';
         // fa.Skype__c = 'hs'; // FB-3527
         fa.Graduation_Start_Date__c = Date.valueOf('2019-05-31');

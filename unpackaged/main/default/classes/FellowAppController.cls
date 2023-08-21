@@ -175,7 +175,7 @@ public with sharing class FellowAppController {
                                 Sector_Choice_China__c, // FB-3193
                                 // Sector_second_choice__c,
                                 // Sector_third_choice__c,
-                                Project_Type_Preference_One__c,
+                                // Project_Type_Preference_One__c, // temp for deployment
                                 Project_Type_Preference_China__c, // FB-3193
                                 // Project_Type_Preference_Two__c,
                                 // Project_Type_Preference_Three__c,
@@ -433,7 +433,7 @@ public with sharing class FellowAppController {
                                                 Applicant__r.MailingCountry,
                                                 Applicant__r.MailingPostalCode,
                                                 // Skype__c, // FB-3527
-                                                How_Did_You_Find_Us__c,
+                                                // How_Did_You_Find_Us__c, // temp for deployment
                                                 Returner_Fellow__c,
 
                                                 Graduation_Start_Date__c,

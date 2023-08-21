@@ -49,7 +49,7 @@ public with sharing class FellowApplicationPDFController {
                                 Pronouns_Self_Describe__c,
                                 Fellowship_Applying_for__c,
                                 // Skype__c, // FB-3527
-                                How_Did_You_Find_Us__c,
+                                // How_Did_You_Find_Us__c, // temp for deployment
                                 How_Campus_Presentation__c,
                                 How_did_find_out_about_EDF_Other__c,
                                 Returner_Fellow__c,
@@ -102,7 +102,7 @@ public with sharing class FellowApplicationPDFController {
                                 Sector_first_choice__c,
                                 Sector_second_choice__c,
                                 Sector_third_choice__c,
-                                Project_Type_Preference_One__c,
+                                // Project_Type_Preference_One__c, // temp for deployment
                                 Project_Type_Preference_Two__c,
                                 Project_Type_Preference_Three__c,
                                 //CoverLetter
@@ -146,7 +146,7 @@ public with sharing class FellowApplicationPDFController {
                                 Pronouns_Self_Describe__c,
                                 Fellowship_Applying_for__c,
                                 // Skype__c, // FB-3527
-                                How_Did_You_Find_Us__c,
+                                // How_Did_You_Find_Us__c, // temp for deployment
                                 How_Campus_Presentation__c,
                                 How_did_find_out_about_EDF_Other__c,
                                 Returner_Fellow__c,
@@ -199,7 +199,7 @@ public with sharing class FellowApplicationPDFController {
                                 Sector_first_choice__c,
                                 Sector_second_choice__c,
                                 Sector_third_choice__c,
-                                Project_Type_Preference_One__c,
+                                // Project_Type_Preference_One__c, // temp for deployment
                                 Project_Type_Preference_Two__c,
                                 Project_Type_Preference_Three__c,
                                 //CoverLetter
@@ -239,7 +239,7 @@ public with sharing class FellowApplicationPDFController {
             fw.mailingPostalCode = fellowApp.Applicant__r.MailingPostalCode;
             fw.fellowshipApplyingFor = fellowApp.Fellowship_Applying_for__c;
             fw.pronouns = fellowApp.Pronouns__c;
-            fw.howDidYouFindUs = fellowApp.How_Did_You_Find_Us__c;
+            // fw.howDidYouFindUs = fellowApp.How_Did_You_Find_Us__c; // temp for deployment
             fw.howDidYouFindUsOther = fellowApp.How_did_find_out_about_EDF_Other__c;
             fw.returnerFellow = fellowApp.Returner_Fellow__c;
             fw.gender = fellowApp.Sex__c;

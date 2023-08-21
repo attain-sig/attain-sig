@@ -140,7 +140,9 @@
             <apex:pageBlockSectionItem rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='U.S. Fellowship' , true, false)}">
                 <apex:outputLabel >{!$Label.FellowApp_MatchPref_ProjectTypePreference3Choices_Heading}</apex:outputLabel>
             </apex:pageBlockSectionItem>
-            <apex:outputText value="{!fellowAppWrapper.fellowApp.Project_Type_Preference_One__c}" label="{!$Label.FellowApp_MatchPref_ProjectTypeFirstChoice_FieldLabel}" rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='U.S. Fellowship' , true, false)}" />
+
+            <!-- // temp for deployment // Project_Type_Preference_One__c -->
+            <apex:outputText value="{!fellowAppWrapper.fellowApp.GRAD_University_Dual_Degree__c}" label="{!$Label.FellowApp_MatchPref_ProjectTypeFirstChoice_FieldLabel}" rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='U.S. Fellowship' , true, false)}" />
             <!-- <apex:outputText value="{!fellowAppWrapper.fellowApp.Project_Type_Preference_Two__c}" label="{!$Label.FellowApp_MatchPref_ProjectTypeSecondChoice_FieldLabel}" rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='U.S. Fellowship' , true, false)}" />
             <apex:outputText value="{!fellowAppWrapper.fellowApp.Project_Type_Preference_Three__c}" label="{!$Label.FellowApp_MatchPref_ProjectTypeThirdChoice_FieldLabel}" rendered="{!if(fellowAppWrapper.fellowshipApplyingFor ='U.S. Fellowship' , true, false)}" /> -->
             <p /><p />
