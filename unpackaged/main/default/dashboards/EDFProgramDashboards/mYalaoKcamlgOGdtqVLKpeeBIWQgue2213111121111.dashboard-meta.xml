@@ -37,7 +37,7 @@
                 <indicatorHighColor>#00716B</indicatorHighColor>
                 <indicatorLowColor>#C23934</indicatorLowColor>
                 <indicatorMiddleColor>#FFB75D</indicatorMiddleColor>
-                <report>Global_Mission_Personal_Reports/Dynamic_Dashboard_reports/Organizations_You_Manage</report>
+                <report>Dynamic_Dashboard_reports/Organizations_You_Manage</report>
                 <showRange>false</showRange>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
