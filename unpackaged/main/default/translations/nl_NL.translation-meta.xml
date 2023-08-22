@@ -1402,6 +1402,37 @@
         <fullName>Event_Populate_Staff_Ids_with_field_from_Ids_in_Name_Field</fullName>
     </flowDefinitions>
     <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <name>ContactList</name>
+                </fields>
+                <name>DisplayContacts</name>
+            </screens>
+        </flows>
+        <fullName>Event_Screen_for_Participants</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows />
         <fullName>Feedback_AFTER_SAVE_Critical_Email_Lead</fullName>
     </flowDefinitions>
