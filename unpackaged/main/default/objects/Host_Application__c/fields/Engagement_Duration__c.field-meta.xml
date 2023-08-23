@@ -18,6 +18,11 @@
                 <label>8 weeks</label>
             </value>
             <value>
+                <fullName>9 weeks</fullName>
+                <default>false</default>
+                <label>9 weeks</label>
+            </value>
+            <value>
                 <fullName>10 weeks</fullName>
                 <default>false</default>
                 <label>10 weeks</label>

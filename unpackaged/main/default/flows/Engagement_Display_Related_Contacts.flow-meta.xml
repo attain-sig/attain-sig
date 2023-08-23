@@ -146,6 +146,7 @@
         <queriedFields>Email</queriedFields>
         <queriedFields>Name</queriedFields>
     </recordLookups>
+    <runInMode>SystemModeWithSharing</runInMode>
     <screens>
         <name>Display_contacts</name>
         <label>Display contacts</label>

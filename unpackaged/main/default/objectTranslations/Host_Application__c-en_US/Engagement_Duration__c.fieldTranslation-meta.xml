@@ -19,4 +19,8 @@
             <masterLabel>8 weeks</masterLabel>
             <translation><!-- 8 weeks --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>9 weeks</masterLabel>
+            <translation><!-- 9 weeks --></translation>
+        </picklistValues>
     </CustomFieldTranslation>
