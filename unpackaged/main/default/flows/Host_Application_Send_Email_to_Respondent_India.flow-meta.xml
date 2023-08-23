@@ -55,5 +55,5 @@ ispickval({!$Record.Fellowship_Program__c}, &quot;India Fellowship&quot;)</filte
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
 </Flow>

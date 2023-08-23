@@ -53,7 +53,7 @@ ispickval({!$Record.Fellowship_Program__c}, &quot;U.S. Fellowship&quot;)</filter
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <textTemplates>
         <name>messageBodyforTask</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>

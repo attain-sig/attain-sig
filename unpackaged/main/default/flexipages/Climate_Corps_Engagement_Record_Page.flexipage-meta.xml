@@ -208,6 +208,16 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.Date_Application_Submitted__c</fieldItem>
+                <identifier>RecordDate_Application_Submitted_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Form_Assembly_ID__c</fieldItem>
                 <identifier>RecordForm_Assembly_ID_cField</identifier>
             </fieldInstance>

@@ -1661,6 +1661,14 @@
     <flowDefinitions>
         <flows>
             <textTemplates>
+                <name>emailBody</name>
+            </textTemplates>
+        </flows>
+        <fullName>Host_App_Move_files_to_engagement</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
                 <name>messageBodyforTask</name>
             </textTemplates>
         </flows>

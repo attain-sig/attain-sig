@@ -239,13 +239,6 @@
         <locationX>1370</locationX>
         <locationY>3335</locationY>
         <assignmentItems>
-            <assignToReference>varEngagement.Date_Application_Submitted__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>$Record.Date_Application_Submitted__c</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
             <assignToReference>varEngagement.Stage__c</assignToReference>
             <operator>Assign</operator>
             <value>
@@ -439,6 +432,13 @@
             <operator>Assign</operator>
             <value>
                 <elementReference>$Record.Department_Team_Comments__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varEngagement.Date_Application_Submitted__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CurrentTime</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -1088,6 +1088,11 @@
     </decisions>
     <environments>Default</environments>
     <formulas>
+        <name>CurrentTime</name>
+        <dataType>DateTime</dataType>
+        <expression>NOW()</expression>
+    </formulas>
+    <formulas>
         <name>HLSFirstName</name>
         <dataType>String</dataType>
         <expression>LEFT({!$Record.High_Level_Sponsor_txt__c}, FIND(&quot; &quot;, {!$Record.High_Level_Sponsor_txt__c}))</expression>
@@ -1112,13 +1117,13 @@
         <dataType>String</dataType>
         <expression>IF(
     ISPICKVAL($Record.Fellowship_Program__c, &quot;U.S. Fellowship&quot;),
-    &quot;0125C000001ASGvQAO&quot;,
+    &quot;0127d000001QHPZAA4&quot;,
     IF(
         ISPICKVAL($Record.Fellowship_Program__c, &quot;India Fellowship&quot;),
-        &quot;0125C000001ASH5QAO&quot;,
+        &quot;0127d000001QHPYAA4&quot;,
         IF(
             ISPICKVAL($Record.Fellowship_Program__c, &quot;China Fellowship&quot;),
-            &quot;0125C000001ASH0QAO&quot;,
+            &quot;0127d000001QHPXAA4&quot;,
             &quot;&quot;
         )
     )
@@ -1513,10 +1518,16 @@ ISPICKVAL({!$Record.Fellowship_Program__c}, &quot;U.S. Fellowship&quot;), &quot;
     <recordUpdates>
         <name>Populate_Engagement_on_Host_App</name>
         <label>Populate Engagement on Host App</label>
-        <locationX>1634</locationX>
-        <locationY>3767</locationY>
+        <locationX>1370</locationX>
+        <locationY>3851</locationY>
         <inputAssignments>
             <field>Climate_Corps_Engagement__c</field>
+            <value>
+                <elementReference>varEngagement.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Engagement_ID__c</field>
             <value>
                 <elementReference>varEngagement.Id</elementReference>
             </value>
@@ -1528,6 +1539,9 @@ ISPICKVAL({!$Record.Fellowship_Program__c}, &quot;U.S. Fellowship&quot;), &quot;
         <label>Update Engagement</label>
         <locationX>1370</locationX>
         <locationY>3659</locationY>
+        <connector>
+            <targetReference>Populate_Engagement_on_Host_App</targetReference>
+        </connector>
         <inputReference>Get_Engagement</inputReference>
     </recordUpdates>
     <start>
