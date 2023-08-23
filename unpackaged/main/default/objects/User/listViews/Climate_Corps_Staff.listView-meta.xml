@@ -19,8 +19,8 @@
         <value>1</value>
     </filters>
     <label>Climate Corps Staff</label>
-    <language>en_US</language>
     <sharedTo>
+        <group>Climate_Corps</group>
         <group>IT</group>
     </sharedTo>
 </ListView>
