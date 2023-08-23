@@ -13,14 +13,34 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
+                <fullName>Animal Agriculture</fullName>
+                <default>false</default>
+                <label>Animal Agriculture</label>
+            </value>
+            <value>
                 <fullName>Climate Commitments</fullName>
                 <default>false</default>
-                <label>Climate Commitments</label>
+                <label>Climate Commitments and Roadmaps</label>
+            </value>
+            <value>
+                <fullName>Climate Smart Agriculture</fullName>
+                <default>false</default>
+                <label>Climate Smart Agriculture</label>
+            </value>
+            <value>
+                <fullName>Energy &amp; Waste Management</fullName>
+                <default>false</default>
+                <label>Energy &amp; Waste Management</label>
             </value>
             <value>
                 <fullName>Environmental/Climate Justice</fullName>
                 <default>false</default>
-                <label>Environmental/Climate Justice</label>
+                <label>Environmental and Climate Justice</label>
+            </value>
+            <value>
+                <fullName>Food Waste</fullName>
+                <default>false</default>
+                <label>Food Waste</label>
             </value>
             <value>
                 <fullName>Food Waste &amp; Animal Agriculture</fullName>
@@ -35,7 +55,17 @@
             <value>
                 <fullName>Renewables &amp; Energy Efficiency</fullName>
                 <default>false</default>
-                <label>Renewables &amp; Energy Efficiency</label>
+                <label>Renewables and Energy Efficiency</label>
+            </value>
+            <value>
+                <fullName>Supplier Engagement and Scope 3</fullName>
+                <default>false</default>
+                <label>Supplier Engagement and Scope 3</label>
+            </value>
+            <value>
+                <fullName>Supply Chain and Freight Sustainability</fullName>
+                <default>false</default>
+                <label>Supply Chain and Freight Sustainability</label>
             </value>
             <value>
                 <fullName>Supply Chain Sustainability</fullName>
@@ -43,29 +73,19 @@
                 <label>Supply Chain Sustainability</label>
             </value>
             <value>
-                <fullName>Zero-Emission Vehicles/Fleet Transition</fullName>
-                <default>false</default>
-                <label>Zero-Emission Vehicles/Fleet Transition</label>
-            </value>
-            <value>
-                <fullName>Climate Smart Agriculture</fullName>
-                <default>false</default>
-                <label>Climate Smart Agriculture</label>
-            </value>
-            <value>
-                <fullName>Energy &amp; Waste Management</fullName>
-                <default>false</default>
-                <label>Energy &amp; Waste Management</label>
-            </value>
-            <value>
                 <fullName>Sustainable Construction</fullName>
                 <default>false</default>
                 <label>Sustainable Construction</label>
             </value>
             <value>
-                <fullName>Supply Chain and Freight Sustainability</fullName>
+                <fullName>Sustainable Finance</fullName>
                 <default>false</default>
-                <label>Supply Chain and Freight Sustainability</label>
+                <label>Sustainable Finance</label>
+            </value>
+            <value>
+                <fullName>Zero-Emission Vehicles/Fleet Transition</fullName>
+                <default>false</default>
+                <label>Zero-Emission Vehicles and Fleet Transition</label>
             </value>
             <value>
                 <fullName>Other</fullName>

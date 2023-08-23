@@ -1052,6 +1052,26 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>APXT_BPM__CNMockHttpResponseGenerator</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>APXT_BPM__ConductorUrlController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>APXT_BPM__ConductorUrlController_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>APXT_BPM__Conductor_CtlExt</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>APXT_BPM__Conductor_CtlExt_Test</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>AccountMerge_TDTM</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7433,6 +7453,30 @@
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
+        <apexPage>APXT_BPM__ConductorDashboardButtonPage</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>APXT_BPM__ConductorDashboardPage</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>APXT_BPM__ConductorSetupPage</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>APXT_BPM__Conductor_Launch</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>APXT_BPM__Conductor_Schedule</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>APXT_BPM__FormulaBuilderPage</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>AnswersHome</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
@@ -8134,6 +8178,11 @@
     </pageAccesses>
     <applicationVisibilities>
         <application>APXTConga4__CongaMerge</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>APXT_BPM__Conga_Conductor</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
@@ -8976,6 +9025,151 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>APXTConga4__VersionedData__c.APXTConga4__Raw__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor_Region__mdt.APXT_BPM__Hostname__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor_Setting__mdt.APXT_BPM__Conductor_Region__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Conductor_Environment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Consolidated_PDF_Output_File__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Content_Workspace_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Has_Query_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Has_Record_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Has_Report_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Next_Run_Date_Display__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Next_Run_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Query_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Record_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Report_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Schedule_Description_Display__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Schedule_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Title__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__URL_Field_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Conductor__c.APXT_BPM__Version__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Scheduled_Conductor_History__c.APXT_BPM__Conga_Conductor__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Scheduled_Conductor_History__c.APXT_BPM__Dashboard_Link__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Scheduled_Conductor_History__c.APXT_BPM__Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Scheduled_Conductor_History__c.APXT_BPM__Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Scheduled_Conductor_History__c.APXT_BPM__Number_of_Failures__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Scheduled_Conductor_History__c.APXT_BPM__Number_of_Service_Events__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Scheduled_Conductor_History__c.APXT_BPM__Number_of_Successes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Scheduled_Conductor_History__c.APXT_BPM__Output_File_Link__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Scheduled_Conductor_History__c.APXT_BPM__Ran_as__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXT_BPM__Scheduled_Conductor_History__c.APXT_BPM__Total_Number_of_Records__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -12006,6 +12200,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>FlowTableViewDefinition__c.Wraps__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Host_Application__c.Batch_Host__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -29726,6 +29925,18 @@
         <layout>APXTConga4__VersionedData__c-APXTConga4__VersionedData Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>APXT_BPM__Conductor_Region__mdt-APXT_BPM__Conductor Region Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>APXT_BPM__Conductor_Setting__mdt-APXT_BPM__Conductor Setting Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>APXT_BPM__Conductor__c-APXT_BPM__Conductor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>APXT_BPM__Scheduled_Conductor_History__c-APXT_BPM__Conga Conductor History Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Action_Code__c-Action Code Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -31101,6 +31312,22 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>APXTConga4__Document_History__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>APXT_BPM__About_Conga_Batch</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>APXT_BPM__Conductor_Dashboard2</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>APXT_BPM__Conductor_Setup2</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>APXT_BPM__Conductor__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -32579,6 +32806,14 @@
     <customMetadataTypeAccesses>
         <enabled>true</enabled>
         <name>APXTConga4__Connected_App_Setting__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>APXT_BPM__Conductor_Region__mdt</name>
+    </customMetadataTypeAccesses>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>APXT_BPM__Conductor_Setting__mdt</name>
     </customMetadataTypeAccesses>
     <customMetadataTypeAccesses>
         <enabled>true</enabled>

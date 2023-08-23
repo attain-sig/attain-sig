@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The ID of a Conga Query record that returns the list of Master Object record IDs. Optionally, the query may include other fields. --></help>
+        <label><!-- Query ID --></label>
+        <name>APXT_BPM__Query_Id__c</name>
+    </CustomFieldTranslation>

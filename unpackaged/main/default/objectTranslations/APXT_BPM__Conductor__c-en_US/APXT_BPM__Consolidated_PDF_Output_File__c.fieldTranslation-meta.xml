@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Combine Word or PDF output files into a single file when scheduling a consolidated Conga Batch routine and delivering to a Content Workspace. --></help>
+        <label><!-- Consolidated Word or PDF Output File --></label>
+        <name>APXT_BPM__Consolidated_PDF_Output_File__c</name>
+    </CustomFieldTranslation>

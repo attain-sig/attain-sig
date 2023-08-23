@@ -637,15 +637,11 @@
     <picklistValues>
         <picklist>Project_CategoryHA__c</picklist>
         <values>
+            <fullName>Animal Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Climate Commitments</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Climate Smart Agriculture</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Energy %26 Waste Management</fullName>
             <default>false</default>
         </values>
         <values>
@@ -653,11 +649,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Food Waste %26 Animal Agriculture</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>GHG Accounting%2C Reporting%2C and Goal Setting</fullName>
+            <fullName>Food Waste</fullName>
             <default>false</default>
         </values>
         <values>
@@ -669,15 +661,11 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Supply Chain Sustainability</fullName>
+            <fullName>Supplier Engagement and Scope 3</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Supply Chain and Freight Sustainability</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Sustainable Construction</fullName>
+            <fullName>Sustainable Finance</fullName>
             <default>false</default>
         </values>
         <values>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The ID of a Content Library where files from a scheduled Conga Batch process will be stored when the output mode is set to download. --></help>
+        <label><!-- Content Workspace ID --></label>
+        <name>APXT_BPM__Content_Workspace_Id__c</name>
+    </CustomFieldTranslation>
