@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>U_S_Program</fullName>
+    <active>true</active>
+    <description>U.S. fellowship program</description>
+    <label>U.S. Program</label>
+    <picklistValues>
+        <picklist>CC_Year__c</picklist>
+        <values>
+            <fullName>2007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2010</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2015</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2016</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2017</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2026</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2027</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2028</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2029</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2030</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>End_Date_Approval__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Engagement_Duration__c</picklist>
+        <values>
+            <fullName>10 weeks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11 weeks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12 weeks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8 weeks</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fellow_suggested_skillsets__c</picklist>
+        <values>
+            <fullName>Advanced Communication Skills</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advanced Data Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advanced Financial Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Civil Engineers%2FEnviro Engineer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Center Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrical Engineer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy Auditing Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial%2FMechanical Engineer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LEED%2C ISO or EStar Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management%2FStrategy Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing on-site experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other %28See Matching Notes%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Engineer%28s%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Grid Knowledge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewables Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strong leadership%2Fpeople skills</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply chain%2FProduct logistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tech%2FIT Skills</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fellowship_Location_PreferenceHA__c</picklist>
+        <values>
+            <fullName>Fellow%27s Preference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fully Remote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Person %28full time%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Person %28hybrid%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remote with Site Visits</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fellowship_Program__c</picklist>
+        <values>
+            <fullName>U%2ES%2E Fellowship</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Final_Deliverables_Project_Area__c</picklist>
+        <values>
+            <fullName>Climate Resiliency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Climate Smart Agriculture %26 Food Systems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial Energy Efficiency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demand Response%2FLoad Shifting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electrification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy Benchmarking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy Data Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy Equity%2FEnvironmental Justice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food Waste</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GHG%2FSustainability Strategy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Green Revolving Funds and%2For creative financing solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial Energy Efficiency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microgrids</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scope 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solar and%2For Wind</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specify your own area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stakeholder Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply Chain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sustainable Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Target Setting %26 Climate Commitments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waste Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zero Emission Vehicles %26 Freight Sustainability</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Funding_Source__c</picklist>
+        <values>
+            <fullName>Ayrshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barr Foundation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boone %28TX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company to organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donor to EDF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donor to Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDF Climate Corps%2FCPP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDF Paid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foundation to EDF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foundation to organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funding needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Host Paid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>McKnight Foundation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other EDF Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reis Foundation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Robertson Foundation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trammel Crow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wells Fargo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GHG_Target_Type__c</picklist>
+        <values>
+            <fullName>Absolute goals or targets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intensity-based goals or targets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Science-based goals or targets</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Host_Application_Type__c</picklist>
+        <values>
+            <fullName>EDF-Funded %28Full or Partial%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Host-Funded</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>How_did_we_meet_origin_of_lead__c</picklist>
+        <values>
+            <fullName>Conference %28see conference field%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consultants %28see consultant field%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDF Relationship %28add note%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing pipeline organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Host Referral %28see referral field%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other %28add note%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline research%2Fcold lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsolicited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wholesale%2Fpartnership %28see partnership field%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry_ClassificationHA__c</picklist>
+        <values>
+            <fullName>Arts%2C Media%2C Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automotive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College or University</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Package Goods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy or Utility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services and Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government%2FPublic Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial Goods and Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internet%2C Software%2C and Technology Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Military</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nonprofit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional and Technical Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Housing Authority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Religious Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail and Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>School or School District</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation and Warehousing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wholesale</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Not_Interested_Reason__c</picklist>
+        <values>
+            <fullName>Budget cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Budget lacking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not interested in EE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not right contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timing %28unrelated to budget cycle%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unresponsive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Potential_for_re_up__c</picklist>
+        <values>
+            <fullName>1 - Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 - Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 - High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Don%27t know</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Project_CategoryHA__c</picklist>
+        <values>
+            <fullName>Climate Commitments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Climate Smart Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy %26 Waste Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental%2FClimate Justice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food Waste %26 Animal Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GHG Accounting%2C Reporting%2C and Goal Setting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewables %26 Energy Efficiency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply Chain Sustainability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supply Chain and Freight Sustainability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sustainable Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zero-Emission Vehicles%2FFleet Transition</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_for_Challenging_Match__c</picklist>
+        <values>
+            <fullName>Important Host Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limited fellow criteria from host</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Politically Sensitive Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sensitive to Caliber of Fellow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specific Value to other EDF programs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical project scope</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unique Project or Skillset Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vague workplan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Relationship_Strength_At_End_of_Fellowsh__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stage__c</picklist>
+        <values>
+            <fullName>Application Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Austin is recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Committed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirmed Participation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customized - Host Recruits Fellow%28s%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disqualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engagement Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Final Deliverables Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gib is recruiting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Match Conversation Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offer Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offer Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding Conversation Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding Conversation In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding Conversation Not Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Readied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special Consideration %28see notes%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Start_Date_Approval__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Upload_Category__c</picklist>
+        <values>
+            <fullName>Fellowship</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Workplan_Approval__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Workplan_Focus__c</picklist>
+        <values>
+            <fullName>Behavior Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Centers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decision Support Tools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EE Strategy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy Information Systems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funding Mechanisms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial EE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Products or Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strategy or Tools</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traditional EE Projects</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X1_Internal_Groups__c</picklist>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facilities%2FReal Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing %26 Comm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sustainability</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X2_Team_setting__c</picklist>
+        <values>
+            <fullName>Independent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Sure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X3_Work_Facility__c</picklist>
+        <values>
+            <fullName>Data Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing%2FIndustrial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multi-Tenant Housing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Municipal Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Buildings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University%2FCollege Campus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

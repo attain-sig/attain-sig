@@ -5,11 +5,6 @@
     </applicationVisibilities>
     <description>Access to objects and fields related to Climate Corps Fellowship Program, including Fellow Application, Host Application, Climate Corps Engagement, and Consider Me objects. All license types</description>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Accessible_by_public_transportation__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Account__c</field>
         <readable>true</readable>
@@ -125,6 +120,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Climate_Corps_Engagement__c.Date_Application_Submitted__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Date_Care_Call_Complete__c</field>
         <readable>true</readable>
@@ -165,8 +165,8 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Direct_Supervisor_Email2__c</field>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Department_Team_Comments__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -202,6 +202,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Engagement_Account_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Engagement_Duration__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -300,13 +305,13 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Fellowship_Address_host__c</field>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Fellowship_Address__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Fellowship_City__c</field>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Fellowship_CityHA__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -315,8 +320,8 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Fellowship_Location_Preference__c</field>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Fellowship_Location_PreferenceHA__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -325,13 +330,13 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Fellowship_Program__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Fellowship_State__c</field>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Fellowship_StateHA__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -351,6 +356,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Form_Assembly_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Funding_Source__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -365,13 +375,23 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.High_Level_Sponsor_Title__c</field>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.HR_Contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.High_Level_Sponsor__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Climate_Corps_Engagement__c.High_Priority__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Host_Application_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -395,8 +415,8 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Industry_Classification__c</field>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Industry_ClassificationHA__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -410,13 +430,18 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Legacy_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Climate_Corps_Engagement__c.LinkedIn_URL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Location_Additional_Information__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -465,6 +490,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Number_of_Fellows_Requested__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Number_of_Suppliers__c</field>
         <readable>true</readable>
@@ -477,6 +507,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Orientation_Webinar__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Other_Fellowship_City_State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Other_Project_Category__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -511,6 +551,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Private_Vehicle_Required__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Climate_Corps_Engagement__c.ProjectGoals__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -520,8 +565,8 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Project_Category__c</field>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Project_CategoryHA__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -531,17 +576,17 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Proposed_End_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Proposed_Fellowship_Dates__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Proposed_Fellowship_End_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Proposed_Fellowship_Start_Date__c</field>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Proposed_Start_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -566,6 +611,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Reimbursement_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Relationship_Strength_At_End_of_Fellowsh__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -582,6 +632,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Require_Authorization__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Respondent_Email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Respondent_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -607,11 +667,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Stage__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Star__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -652,26 +707,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Summer_Phone__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Supervisor2__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Supervisor_HA__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Supervisor_Title_HA__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Supervisor_Title__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2089,4 +2124,16 @@
         <tab>Host_Application__c</tab>
         <visibility>Visible</visibility>
     </tabSettings>
+    <recordTypeVisibilities>
+        <recordType>Climate_Corps_Engagement__c.China_Program</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Climate_Corps_Engagement__c.India_Program</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Climate_Corps_Engagement__c.U_S_Program</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
 </PermissionSet>

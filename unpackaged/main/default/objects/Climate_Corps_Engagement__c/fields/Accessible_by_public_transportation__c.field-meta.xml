@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>Host_Application__r.Accessible_by_Public_Transportation__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Accessible by public transportation?</label>
+    <label>DEL_Accessible by public transportation?</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

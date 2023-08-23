@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- high level spon first name --></help>
+        <label><!-- HLS First Name --></label>
+        <name>HLS_First_Name__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Shows on Engagement List, populated from host application --></help>
+        <label><!-- Fellowship City --></label>
+        <name>Fellowship_CityHA__c</name>
+    </CustomFieldTranslation>

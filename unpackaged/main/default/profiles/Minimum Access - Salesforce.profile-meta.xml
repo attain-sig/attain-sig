@@ -6929,6 +6929,18 @@
         <recordType>Challenge_Match__c.Challenge_Match</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Climate_Corps_Engagement__c-Climate Corps Engagement Layout</layout>
+        <recordType>Climate_Corps_Engagement__c.China_Program</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Climate_Corps_Engagement__c-Climate Corps Engagement Layout</layout>
+        <recordType>Climate_Corps_Engagement__c.India_Program</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Climate_Corps_Engagement__c-Climate Corps Engagement Layout</layout>
+        <recordType>Climate_Corps_Engagement__c.U_S_Program</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CommSubscriptionChannelType-Communication Subscription Channel Type Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -7664,6 +7676,21 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Challenge_Match__c.Challenge_Match</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Climate_Corps_Engagement__c.China_Program</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Climate_Corps_Engagement__c.India_Program</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Climate_Corps_Engagement__c.U_S_Program</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>

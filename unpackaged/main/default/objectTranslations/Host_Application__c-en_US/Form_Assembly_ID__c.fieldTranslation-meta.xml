@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- FormAssembly form name and response number --></help>
+        <label><!-- Form Assembly ID --></label>
+        <name>Form_Assembly_ID__c</name>
+    </CustomFieldTranslation>

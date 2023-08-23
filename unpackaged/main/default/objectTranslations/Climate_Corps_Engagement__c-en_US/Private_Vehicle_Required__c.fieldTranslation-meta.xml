@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Fellow will need access to a car to complete this fellowship. --></help>
+        <label><!-- Private Vehicle Required --></label>
+        <name>Private_Vehicle_Required__c</name>
+    </CustomFieldTranslation>

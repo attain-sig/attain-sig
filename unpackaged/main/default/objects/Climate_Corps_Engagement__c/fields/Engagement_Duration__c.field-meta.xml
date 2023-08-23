@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engagement_Duration__c</fullName>
+    <description>length of engagement, from host app (form assembly)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Length of engagement from Host App</inlineHelpText>
+    <label>Engagement Duration</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>8 weeks</fullName>
+                <default>false</default>
+                <label>8 weeks</label>
+            </value>
+            <value>
+                <fullName>10 weeks</fullName>
+                <default>false</default>
+                <label>10 weeks</label>
+            </value>
+            <value>
+                <fullName>11 weeks</fullName>
+                <default>false</default>
+                <label>11 weeks</label>
+            </value>
+            <value>
+                <fullName>12 weeks</fullName>
+                <default>false</default>
+                <label>12 weeks</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
