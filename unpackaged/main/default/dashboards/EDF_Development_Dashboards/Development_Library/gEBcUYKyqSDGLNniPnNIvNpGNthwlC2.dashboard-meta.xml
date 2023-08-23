@@ -203,7 +203,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties />
                 <header>Library Records Added in Last 120 Days</header>
-                <report>DevelopmentLibraryDemo/Library_Entries_Last_120_Days</report>
+                <report>Development_Database_Services/DevelopmentLibraryDemo/Library_Entries_Last_120_Days</report>
             </dashboardComponent>
             <rowIndex>17</rowIndex>
             <rowSpan>8</rowSpan>
