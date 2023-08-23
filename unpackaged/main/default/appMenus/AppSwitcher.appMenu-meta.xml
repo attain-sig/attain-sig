@@ -296,4 +296,8 @@
         <name>Conga_Trigger</name>
         <type>ConnectedApp</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>APXT_BPM__Conga_Conductor</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>APXT_BPM__Conductor__c</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Conga Batch</label>
+    <tabs>APXT_BPM__About_Conga_Batch</tabs>
+    <tabs>APXT_BPM__Conductor__c</tabs>
+    <tabs>APXT_BPM__Conductor_Setup2</tabs>
+    <tabs>APXT_BPM__Conductor_Dashboard2</tabs>
+</CustomApplication>

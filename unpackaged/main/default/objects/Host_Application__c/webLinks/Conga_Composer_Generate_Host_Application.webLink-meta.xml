@@ -27,6 +27,7 @@
 &amp;TemplateId=0T_000UAA070723
 
 &amp;OFN={!Host_Application__c.Organization_Name__c}+_+{!Host_Application__c.Name}+_+{!Today()}
+&amp;DefaultPDF=1
 
 &amp;SC0=1
 &amp;SC1=SalesforceFile</url>
