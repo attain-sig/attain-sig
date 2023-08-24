@@ -4,5 +4,6 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>EDF Membership</label>
     <permissionSets>Manage_Gift_Processing_Cases</permissionSets>
+    <permissionSets>Payment_Edit_Receipt_Fields</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

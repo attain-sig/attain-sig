@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Staff included in this activity. --></help>
+        <label><!-- EDF Participants --></label>
+        <name>EDF_Participants__c</name>
+    </CustomFieldTranslation>
