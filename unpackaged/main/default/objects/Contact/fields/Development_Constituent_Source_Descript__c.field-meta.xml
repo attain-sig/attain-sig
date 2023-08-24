@@ -3,10 +3,9 @@
     <fullName>Development_Constituent_Source_Descript__c</fullName>
     <externalId>false</externalId>
     <label>Development Constituent Source Descript</label>
-    <length>80</length>
-    <required>false</required>
+    <length>2500</length>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
-    <type>Text</type>
-    <unique>false</unique>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
 </CustomField>

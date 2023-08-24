@@ -836,6 +836,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Event.Volunteer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Fellow_Application__c.AccessToAVehicleThisSummer__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2132,6 +2137,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Potential_Matching_From_Screener__c.Why__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.Volunteer__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
