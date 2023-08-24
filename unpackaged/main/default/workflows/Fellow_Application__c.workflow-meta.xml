@@ -81,7 +81,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Hold_on_Matching_India</template>
+        <template>FellowApplicationIndia/India_Hold_on_Matching_1692882499869</template>
     </alerts>
     <alerts>
         <fullName>Hold_on_Matching_Wave_1</fullName>
