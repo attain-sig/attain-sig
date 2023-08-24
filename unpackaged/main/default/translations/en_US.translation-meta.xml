@@ -3661,6 +3661,15 @@
         </sections>
     </reportTypes>
     <reportTypes>
+        <description><!-- Permission Set Assignments --></description>
+        <label><!-- Permission Set Assignments --></label>
+        <name>Permission_Set_Assignment</name>
+        <sections>
+            <label><!-- Permission Set License Assignments --></label>
+            <name>Permission Set License Assignments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
         <description><!-- Planned Gifts with or without Planned Gift Match --></description>
         <label><!-- Planned Gifts with or without Planned Gift Match --></label>
         <name>Planned_Gifts_with_or_without_Planned_Gift_Match</name>
