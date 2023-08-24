@@ -4,5 +4,6 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>EDF Dev Planned Giving</label>
     <permissionSets>Development_Library_Create_Edit_All_Fields</permissionSets>
+    <permissionSets>Payment_Edit_Receipt_Fields</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>
