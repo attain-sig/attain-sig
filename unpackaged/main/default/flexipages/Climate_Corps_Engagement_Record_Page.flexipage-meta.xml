@@ -94,6 +94,16 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.Fellowship_Address__c</fieldItem>
+                <identifier>RecordFellowship_Address_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Fellowship_CityHA__c</fieldItem>
                 <identifier>RecordFellowship_CityHA_cField</identifier>
             </fieldInstance>
@@ -114,8 +124,25 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.Headquarters_Address__c</fieldItem>
+                <identifier>RecordHeadquarters_Address_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Other_Fellowship_City_State__c</fieldItem>
                 <identifier>RecordOther_Fellowship_City_State_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Fellowship_Program__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>U.S. Fellowship</rightValue>
+                    </criteria>
+                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>

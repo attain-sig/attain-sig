@@ -386,6 +386,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Headquarters_Address__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Climate_Corps_Engagement__c.High_Level_Sponsor__c</field>
         <readable>true</readable>
     </fieldPermissions>

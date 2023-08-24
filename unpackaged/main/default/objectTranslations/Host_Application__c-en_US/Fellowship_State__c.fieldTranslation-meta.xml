@@ -24,6 +24,26 @@
             <translation><!-- AZ --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Andaman and Nicobar Islands</masterLabel>
+            <translation><!-- Andaman and Nicobar Islands --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andhra Pradesh</masterLabel>
+            <translation><!-- Andhra Pradesh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arunachal Pradesh</masterLabel>
+            <translation><!-- Arunachal Pradesh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assam</masterLabel>
+            <translation><!-- Assam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bihar</masterLabel>
+            <translation><!-- Bihar --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>CA</masterLabel>
             <translation><!-- CA --></translation>
         </picklistValues>
@@ -36,12 +56,32 @@
             <translation><!-- CT --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Chandigarh</masterLabel>
+            <translation><!-- Chandigarh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chhattisgarh</masterLabel>
+            <translation><!-- Chhattisgarh --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>DC</masterLabel>
             <translation><!-- DC --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>DE</masterLabel>
             <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dadra and Nagar Haveli</masterLabel>
+            <translation><!-- Dadra and Nagar Haveli --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Daman &amp; Diu</masterLabel>
+            <translation><!-- Daman &amp; Diu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delhi</masterLabel>
+            <translation><!-- Delhi --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>FL</masterLabel>
@@ -60,8 +100,24 @@
             <translation><!-- GU --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Goa</masterLabel>
+            <translation><!-- Goa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gujarat</masterLabel>
+            <translation><!-- Gujarat --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>HI</masterLabel>
             <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Haryana</masterLabel>
+            <translation><!-- Haryana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Himachal Pradesh</masterLabel>
+            <translation><!-- Himachal Pradesh --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>IA</masterLabel>
@@ -80,6 +136,14 @@
             <translation><!-- IN --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Jammu &amp; Kashmir</masterLabel>
+            <translation><!-- Jammu &amp; Kashmir --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jharkhand</masterLabel>
+            <translation><!-- Jharkhand --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>KS</masterLabel>
             <translation><!-- KS --></translation>
         </picklistValues>
@@ -88,8 +152,24 @@
             <translation><!-- KY --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Karnataka</masterLabel>
+            <translation><!-- Karnataka --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kerala</masterLabel>
+            <translation><!-- Kerala --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>LA</masterLabel>
             <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ladakh</masterLabel>
+            <translation><!-- Ladakh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lakshadweep</masterLabel>
+            <translation><!-- Lakshadweep --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>MA</masterLabel>
@@ -132,6 +212,26 @@
             <translation><!-- MT --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Madhya Pradesh</masterLabel>
+            <translation><!-- Madhya Pradesh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maharashtra</masterLabel>
+            <translation><!-- Maharashtra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manipur</masterLabel>
+            <translation><!-- Manipur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meghalaya</masterLabel>
+            <translation><!-- Meghalaya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mizoram</masterLabel>
+            <translation><!-- Mizoram --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>NC</masterLabel>
             <translation><!-- NC --></translation>
         </picklistValues>
@@ -164,6 +264,10 @@
             <translation><!-- NY --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Nagaland</masterLabel>
+            <translation><!-- Nagaland --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>OH</masterLabel>
             <translation><!-- OH --></translation>
         </picklistValues>
@@ -174,6 +278,10 @@
         <picklistValues>
             <masterLabel>OR</masterLabel>
             <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Odisha</masterLabel>
+            <translation><!-- Odisha --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>PA</masterLabel>
@@ -188,8 +296,20 @@
             <translation><!-- PW --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Puducherry</masterLabel>
+            <translation><!-- Puducherry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Punjab</masterLabel>
+            <translation><!-- Punjab --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>RI</masterLabel>
             <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rajasthan</masterLabel>
+            <translation><!-- Rajasthan --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>SC</masterLabel>
@@ -200,6 +320,10 @@
             <translation><!-- SD --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Sikkim</masterLabel>
+            <translation><!-- Sikkim --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>TN</masterLabel>
             <translation><!-- TN --></translation>
         </picklistValues>
@@ -208,8 +332,32 @@
             <translation><!-- TX --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Tamil Nadu</masterLabel>
+            <translation><!-- Tamil Nadu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telangana</masterLabel>
+            <translation><!-- Telangana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Government of NCT of Delhi</masterLabel>
+            <translation><!-- The Government of NCT of Delhi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tripura</masterLabel>
+            <translation><!-- Tripura --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>UT</masterLabel>
             <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uttar Pradesh</masterLabel>
+            <translation><!-- Uttar Pradesh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uttarakhand</masterLabel>
+            <translation><!-- Uttarakhand --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>VA</masterLabel>
@@ -238,5 +386,9 @@
         <picklistValues>
             <masterLabel>WY</masterLabel>
             <translation><!-- WY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Bengal</masterLabel>
+            <translation><!-- West Bengal --></translation>
         </picklistValues>
     </CustomFieldTranslation>

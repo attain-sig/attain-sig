@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Host org&apos;s headquarters address, if different from fellowship location address. --></help>
+        <label><!-- Headquarters Address --></label>
+        <name>Headquarters_Address__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Additional locations where fellowship can take place. --></help>
+        <label><!-- Other Fellowship City/State --></label>
+        <name>Other_Fellowship_City_State__c</name>
+    </CustomFieldTranslation>

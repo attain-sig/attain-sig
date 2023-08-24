@@ -1821,6 +1821,11 @@
             <field>Fellow_Training_Confirmation__c</field>
             <table>Climate_Corps_Engagement__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Headquarters_Address__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
         <masterLabel>Climate Corps Engagements</masterLabel>
     </sections>
 </ReportType>
