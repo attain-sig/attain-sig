@@ -816,6 +816,54 @@
         <name>emailname</name>
     </customLabels>
     <customLabels>
+        <label><!-- Cancel --></label>
+        <name>ers_CancelButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clear Filter --></label>
+        <name>ers_ClearFilterAction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clear All Filters --></label>
+        <name>ers_ClearFilterButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clear Selection --></label>
+        <name>ers_ClearSelectionButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Column --></label>
+        <name>ers_ColumnHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Empty --></label>
+        <name>ers_EmptyTableMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Required --></label>
+        <name>ers_ErrorRequiredEntry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Filter --></label>
+        <name>ers_FilterHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label --></label>
+        <name>ers_LabelHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save --></label>
+        <name>ers_SaveButton</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search Term --></label>
+        <name>ers_SearchPlaceholder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Set Filter --></label>
+        <name>ers_SetFilterAction</name>
+    </customLabels>
+    <customLabels>
         <label><!-- AccessLevel --></label>
         <name>fsc_AccessLevel</name>
     </customLabels>
@@ -1366,6 +1414,413 @@
         <fullName>Create_Phone_Records_for_New_Contact</fullName>
     </flowDefinitions>
     <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>displayMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>iconSize</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>includeIcons</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>inputMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>masterLabel</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>navOnSelect</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>numberOfColumns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value />
+                    </inputParameters>
+                    <name>FieldSelectionMethod</name>
+                </fields>
+                <fields>
+                    <name>qcHeader</name>
+                </fields>
+                <name>Field_Selection_Method_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>cb_hideClearSelectionButton</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_isDisplayHeader</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_matchCaseOnFilters</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_navigateNextOnSave</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_singleRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_suppressBottomBar</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnFields</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnFilters</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnLabels</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnWidths</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnWraps</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>hideClearSelectionButton</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>isDisplayHeader</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>objectName</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>singleRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>tableIcon</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>tableLabel</name>
+                        <value />
+                    </inputParameters>
+                    <name>ConfigTable_select</name>
+                </fields>
+                <name>Select_Config_Record</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>List_of_Field_Names</name>
+                </fields>
+                <fields>
+                    <name>Object</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>allOptionsStringFormat</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>max</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>min</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectedLabel</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>size</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>sourceLabel</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>useWhichObjectKeyForData</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>useWhichObjectKeyForSort</name>
+                        <value />
+                    </inputParameters>
+                    <name>SelectFields</name>
+                </fields>
+                <name>Select_Fields</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>FinishMessage_0</name>
+                </fields>
+                <name>Wizard_Exit</name>
+            </screens>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>messageToggleActive</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>messageToggleInactive</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>value</name>
+                        <value />
+                    </inputParameters>
+                    <name>AttributeToggle</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>actionMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>alignment</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>buttons</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>orientation</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>showLines</name>
+                        <value />
+                    </inputParameters>
+                    <name>ConfigButtonCreate</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>actionMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>alignment</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>buttons</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>orientation</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>showLines</name>
+                        <value />
+                    </inputParameters>
+                    <name>ConfigButtonSave</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>cb_hideClearSelectionButton</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_isDisplayHeader</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_navigateNextOnSave</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_singleRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_suppressBottomBar</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnFields</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnFilters</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnLabels</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnWidths</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnWraps</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>hideClearSelectionButton</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>isDisplayHeader</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>objectName</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>singleRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>tableIcon</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>tableLabel</name>
+                        <value />
+                    </inputParameters>
+                    <name>ConfigTable_saveas</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>messageToggleActive</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>messageToggleInactive</name>
+                        <value />
+                    </inputParameters>
+                    <name>ConfigToggle</name>
+                </fields>
+                <fields>
+                    <name>Configuration_Record_Name</name>
+                </fields>
+                <fields>
+                    <name>DuplicateNameErrorMessage</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>actionMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>alignment</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>buttons</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>orientation</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>showLines</name>
+                        <value />
+                    </inputParameters>
+                    <name>NoLoadConfig</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>actionMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>alignment</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>buttons</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>orientation</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>showLines</name>
+                        <value />
+                    </inputParameters>
+                    <name>SaveAttributes</name>
+                </fields>
+                <fields>
+                    <name>Special_Cell_Attributes</name>
+                </fields>
+                <fields>
+                    <name>Special_Other_Attributes</name>
+                </fields>
+                <fields>
+                    <name>Special_Type_Attributes</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>cb_isUserDefinedObject</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>hideCheckboxColumn</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>isConfigMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>isUserDefinedObject</name>
+                        <value />
+                    </inputParameters>
+                    <name>WizardTable</name>
+                </fields>
+                <fields>
+                    <name>debug</name>
+                </fields>
+                <name>Wizard_Screen</name>
+            </screens>
+        </flows>
+        <fullName>Datatable_Configuration_Wizard5</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows />
         <fullName>Deliverable_Before_Save_Update_Account_Field</fullName>
     </flowDefinitions>
@@ -1480,6 +1935,49 @@
             <screens>
                 <fields>
                     <inputParameters>
+                        <name>cb_isDisplayHeader</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_matchCaseOnFilters</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_navigateNextOnSave</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>cb_suppressBottomBar</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnFields</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnWidths</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>isDisplayHeader</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>objectName</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>tableIcon</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>tableLabel</name>
+                        <value />
+                    </inputParameters>
+                    <name>Datatable</name>
+                </fields>
+                <fields>
+                    <inputParameters>
                         <name>columns</name>
                         <value />
                     </inputParameters>
@@ -1505,7 +2003,145 @@
                     </inputParameters>
                     <name>EDF_Other_Table</name>
                 </fields>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>shouldDisplayLabel</name>
+                        <value />
+                    </inputParameters>
+                    <name>NonPrimaryOrgs</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>shouldDisplayLabel</name>
+                        <value />
+                    </inputParameters>
+                    <name>StafforAlum</name>
+                </fields>
                 <name>EDF_Other_Display_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>shouldDisplayLabel</name>
+                        <value />
+                    </inputParameters>
+                    <name>EDF_Other_Table_0</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>shouldDisplayLabel</name>
+                        <value />
+                    </inputParameters>
+                    <name>NonPrimaryOrgs_0</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>shouldDisplayLabel</name>
+                        <value />
+                    </inputParameters>
+                    <name>StafforAlum_0</name>
+                </fields>
+                <name>EDF_Other_Display_Screen_0</name>
             </screens>
         </flows>
         <fullName>Event_SCREEN_Display_Other_Related_Contacts</fullName>
