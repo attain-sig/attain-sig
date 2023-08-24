@@ -2245,6 +2245,10 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows />
+        <fullName>Subflow_Update_Affiliations_on_Host_App_Contacts</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
         <fullName>Task_Populate_Staff_IDs_field_with_ids_from_Name_field</fullName>
     </flowDefinitions>
     <flowDefinitions>
