@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Title of HR Contact --></help>
+        <label><!-- HR Contact Title --></label>
+        <name>HR_Contact_Title__c</name>
+    </CustomFieldTranslation>

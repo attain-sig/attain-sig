@@ -210,6 +210,7 @@
             <label>HR ID not null and affil not updated</label>
         </rules>
     </decisions>
+    <description>v3 issue w/ recursion.</description>
     <environments>Default</environments>
     <interviewLabel>Subflow - Update Affiliations on Host App Contacts {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Subflow - Update Affiliations on Host App Contacts</label>
@@ -252,13 +253,15 @@
         <object>npe5__Affiliation__c</object>
         <outputReference>varHLSAffiliation</outputReference>
         <queriedFields>Id</queriedFields>
+        <queriedFields>npe5__Role__c</queriedFields>
+        <queriedFields>Affiliation_Type__c</queriedFields>
     </recordLookups>
     <recordLookups>
         <name>Get_DS_Affil</name>
         <label>Get DS Affil</label>
         <locationX>776</locationX>
         <locationY>290</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <assignNullValuesIfNoRecordsFound>true</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_HR_Affil</targetReference>
         </connector>
@@ -273,6 +276,8 @@
         <object>npe5__Affiliation__c</object>
         <outputReference>varDSAffiliation</outputReference>
         <queriedFields>Id</queriedFields>
+        <queriedFields>Affiliation_Type__c</queriedFields>
+        <queriedFields>npe5__Role__c</queriedFields>
     </recordLookups>
     <recordLookups>
         <name>Get_HR_Affil</name>
@@ -294,6 +299,8 @@
         <object>npe5__Affiliation__c</object>
         <outputReference>varHRAffil</outputReference>
         <queriedFields>Id</queriedFields>
+        <queriedFields>Affiliation_Type__c</queriedFields>
+        <queriedFields>npe5__Role__c</queriedFields>
     </recordLookups>
     <recordUpdates>
         <name>Update_affiliations</name>
@@ -309,7 +316,7 @@
             <targetReference>Get_Affiliations</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>sObjAffiliation</name>
         <dataType>SObject</dataType>
