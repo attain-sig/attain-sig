@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Volunteer__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Contact lookup. Used for donors/board members who participate in a meeting but are acting on behalf of EDF.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Used for donors/board members who participate in a meeting but are acting on behalf of EDF.</inlineHelpText>
+    <label>Volunteer</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Activities (Volunteer)</relationshipLabel>
+    <relationshipName>Activities_Vol</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

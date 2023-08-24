@@ -60,7 +60,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Attendees</field>
+                <field>Volunteer__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>

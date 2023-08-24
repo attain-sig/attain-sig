@@ -1464,6 +1464,111 @@
                         <name>selectionMode</name>
                         <value />
                     </inputParameters>
+                    <inputParameters>
+                        <name>shouldDisplayLabel</name>
+                        <value />
+                    </inputParameters>
+                    <name>EDF_Other_Table</name>
+                </fields>
+                <name>EDF_Other_Display_Screen</name>
+            </screens>
+        </flows>
+        <fullName>Event_SCREEN_Display_Non_Primary_Related_Organizations</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>shouldDisplayLabel</name>
+                        <value />
+                    </inputParameters>
+                    <name>EDF_Other_Table</name>
+                </fields>
+                <name>EDF_Other_Display_Screen</name>
+            </screens>
+        </flows>
+        <fullName>Event_SCREEN_Display_Other_Related_Contacts</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>shouldDisplayLabel</name>
+                        <value />
+                    </inputParameters>
+                    <name>EDF_Staff_AlumniTable</name>
+                </fields>
+                <name>Display_Screen</name>
+            </screens>
+        </flows>
+        <fullName>Event_SCREEN_display_Staff_Alumni_Related_Contacts</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
                     <name>ContactList</name>
                 </fields>
                 <name>DisplayContacts</name>
@@ -2256,8 +2361,78 @@
         <fullName>Subflow_Update_Affiliations_on_Host_App_Contacts</fullName>
     </flowDefinitions>
     <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>shouldDisplayLabel</name>
+                        <value />
+                    </inputParameters>
+                    <name>EDF_Other_Table</name>
+                </fields>
+                <name>EDF_Other_Display_Screen</name>
+            </screens>
+        </flows>
+        <fullName>Task_EDF_Other_SCREEN_Display_Related_Contacts</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows />
         <fullName>Task_Populate_Staff_IDs_field_with_ids_from_Name_field</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>shouldDisplayLabel</name>
+                        <value />
+                    </inputParameters>
+                    <name>EDF_Other_Table</name>
+                </fields>
+                <name>EDF_Other_Display_Screen</name>
+            </screens>
+        </flows>
+        <fullName>Task_SCREEN_Display_Non_Primary_Related_Organizations</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows />

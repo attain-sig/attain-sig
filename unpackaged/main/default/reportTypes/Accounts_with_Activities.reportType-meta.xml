@@ -1893,6 +1893,11 @@
             <field>Solicitor_is_Current_User__c</field>
             <table>Account.Activities</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Volunteer__c</field>
+            <table>Account.Activities</table>
+        </columns>
         <masterLabel>Activities</masterLabel>
     </sections>
 </ReportType>
