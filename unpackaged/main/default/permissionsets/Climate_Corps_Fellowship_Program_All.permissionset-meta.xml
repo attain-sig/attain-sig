@@ -1981,6 +1981,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Host_Application__c.Other_Fellowship_City_State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Host_Application__c.Other_Matching_Details__c</field>
         <readable>true</readable>
     </fieldPermissions>
