@@ -90,4 +90,16 @@
         <senderType>CurrentUser</senderType>
         <template>ClimateCorpsEngagement/Engagement_Confirmed_Work_Authorization_Email_Notification_1676914619618</template>
     </alerts>
+    <outboundMessages>
+        <fullName>Conga_Trigger_Host_App_from_Engagement</fullName>
+        <apiVersion>58.0</apiVersion>
+        <endpointUrl>https://workflow.congamerge.com/OBMListener.ashx</endpointUrl>
+        <fields>Conga_Trigger_Host_App__c</fields>
+        <fields>Id</fields>
+        <includeSessionId>true</includeSessionId>
+        <integrationUser>salesforcesysadmin@edf.org.npsp</integrationUser>
+        <name>Conga Trigger Host App from Engagement</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
 </Workflow>
