@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Meeting_Status__c</fullName>
+    <defaultValue>IF($User.Department  = "Mission CRM", "Completed", NULL)</defaultValue>
     <description>Created as a part of Heller Data Migration 2021.</description>
     <externalId>false</externalId>
     <label>Meeting Status</label>
