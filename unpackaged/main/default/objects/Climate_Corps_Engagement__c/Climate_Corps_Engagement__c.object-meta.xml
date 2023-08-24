@@ -167,7 +167,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Climate Corps Engagements</pluralLabel>
-    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypeTrackHistory>true</recordTypeTrackHistory>
     <searchLayouts>
         <lookupDialogsAdditionalFields>CC_Year__c</lookupDialogsAdditionalFields>
         <lookupDialogsAdditionalFields>Fellow_Name__c</lookupDialogsAdditionalFields>
