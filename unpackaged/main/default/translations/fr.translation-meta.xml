@@ -1240,6 +1240,57 @@
         <fullName>Account_Populate_Org_Donor_Proxy_Checkbox</fullName>
     </flowDefinitions>
     <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>shouldDisplayLabel</name>
+                        <value />
+                    </inputParameters>
+                    <name>OppTable</name>
+                </fields>
+                <name>Display_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Household_Members_Soft_Credits</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Household_Members_Soft_Credits_Column1</name>
+                </fields>
+                <fields>
+                    <name>NoOCRs</name>
+                </fields>
+                <name>NOOCRs_Screen</name>
+            </screens>
+        </flows>
+        <fullName>Account_SCREEN_Display_Household_OCRs</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows />
         <fullName>Account_Update_Climate_Corps_Consultant_Access_field</fullName>
     </flowDefinitions>
@@ -2851,6 +2902,14 @@
             </textTemplates>
         </flows>
         <fullName>Grant_Approval_Case_Updated_Update_Related_Opportunity</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>tt_ExternalGrantApprovalEmail</name>
+            </textTemplates>
+        </flows>
+        <fullName>Grant_Approval_Case_Updated_Update_Related_Opportunity_v3</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows>

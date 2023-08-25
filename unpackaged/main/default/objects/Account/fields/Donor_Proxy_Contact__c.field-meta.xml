@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Donor_Proxy_Contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>The Donor Proxy Contact for this Account. Any soft credits to the Donor Proxy will display with the Account.</inlineHelpText>
+    <label>Donor Proxy Contact</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Only contacts with the record type Donor Proxy can be used in this field. The Donor Proxy Contact must already be linked to this account.</errorMessage>
+        <filterItems>
+            <field>Contact.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Donor Proxy</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Id</field>
+            <operation>equals</operation>
+            <valueField>Contact.Account.Id</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Accounts (Donor Proxy Contact)</relationshipLabel>
+    <relationshipName>ProxyFor</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

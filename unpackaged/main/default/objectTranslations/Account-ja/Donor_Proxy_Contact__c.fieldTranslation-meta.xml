@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Donor Proxy Contact for this Account. Any soft credits to the Donor Proxy will display with the Account. --></help>
+        <label><!-- Donor Proxy Contact --></label>
+        <lookupFilter>
+            <errorMessage><!-- Only contacts with the record type Donor Proxy can be used in this field. The Donor Proxy Contact must already be linked to this account. --></errorMessage>
+        </lookupFilter>
+        <name>Donor_Proxy_Contact__c</name>
+        <relationshipLabel><!-- Accounts (Donor Proxy Contact) --></relationshipLabel>
+    </CustomFieldTranslation>

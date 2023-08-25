@@ -47,7 +47,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>notEqual</operator>
-            <value>Host Paid</value>
+            <value>Host Paid,Host</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
