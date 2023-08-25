@@ -12775,6 +12775,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ers_DatatableController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>iCLightning__AbstractIContactDeleteRequest</apexClass>
         <enabled>true</enabled>
     </classAccesses>

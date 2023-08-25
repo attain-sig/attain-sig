@@ -4,7 +4,7 @@
     <assignments>
         <name>AddtoRecord</name>
         <label>AddtoRecord</label>
-        <locationX>264</locationX>
+        <locationX>402</locationX>
         <locationY>242</locationY>
         <assignmentItems>
             <assignToReference>IdsText</assignToReference>
@@ -41,8 +41,8 @@
     <assignments>
         <name>Assignment_Update</name>
         <label>Assignment Update</label>
-        <locationX>176</locationX>
-        <locationY>434</locationY>
+        <locationX>50</locationX>
+        <locationY>542</locationY>
         <assignmentItems>
             <assignToReference>EventRecordId.Staff_Ids__c</assignToReference>
             <operator>Assign</operator>
@@ -61,6 +61,66 @@
             <targetReference>Update_Event</targetReference>
         </connector>
     </assignments>
+    <assignments>
+        <name>Task_Assignment_Update</name>
+        <label>Task Assignment Update</label>
+        <locationX>314</locationX>
+        <locationY>542</locationY>
+        <assignmentItems>
+            <assignToReference>TaskRecordId.Staff_Ids__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>IdsText</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>TaskRecordId.EDF_Participants__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>StaffNameFinal</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Task</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Event_or_Task</name>
+        <label>Event or Task</label>
+        <locationX>314</locationX>
+        <locationY>434</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Event</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>EventRecordId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assignment_Update</targetReference>
+            </connector>
+            <label>Event</label>
+        </rules>
+        <rules>
+            <name>Task</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>TaskRecordId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Task_Assignment_Update</targetReference>
+            </connector>
+            <label>Task</label>
+        </rules>
+    </decisions>
     <environments>Default</environments>
     <formulas>
         <name>StaffNameFinal</name>
@@ -68,11 +128,11 @@
         <expression>LEFT({!StaffNames}, LEN({!StaffNames}) - 2)</expression>
     </formulas>
     <interviewLabel>Update Event with Staff Ids and Names {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Update Event with Staff Ids and Names</label>
+    <label>Subflow - Update Activity with Staff Ids and Names</label>
     <loops>
         <name>Loop_through_staff</name>
         <label>Loop through staff</label>
-        <locationX>176</locationX>
+        <locationX>314</locationX>
         <locationY>134</locationY>
         <collectionReference>StaffIDCollection</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -80,7 +140,7 @@
             <targetReference>AddtoRecord</targetReference>
         </nextValueConnector>
         <noMoreValuesConnector>
-            <targetReference>Assignment_Update</targetReference>
+            <targetReference>Event_or_Task</targetReference>
         </noMoreValuesConnector>
     </loops>
     <processMetadataValues>
@@ -105,13 +165,20 @@
     <recordUpdates>
         <name>Update_Event</name>
         <label>Update Event</label>
-        <locationX>176</locationX>
-        <locationY>542</locationY>
+        <locationX>50</locationX>
+        <locationY>650</locationY>
         <inputReference>EventRecordId</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Task</name>
+        <label>Update Task</label>
+        <locationX>314</locationX>
+        <locationY>650</locationY>
+        <inputReference>TaskRecordId</inputReference>
     </recordUpdates>
     <runInMode>SystemModeWithSharing</runInMode>
     <start>
-        <locationX>50</locationX>
+        <locationX>188</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Loop_through_staff</targetReference>
@@ -147,5 +214,13 @@
         <isCollection>false</isCollection>
         <isInput>false</isInput>
         <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>TaskRecordId</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Task</objectType>
     </variables>
 </Flow>

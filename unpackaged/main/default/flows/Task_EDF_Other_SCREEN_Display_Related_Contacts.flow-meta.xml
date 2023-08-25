@@ -244,7 +244,7 @@
             <targetReference>Get_Tasks_Relation</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>blank_TextCollection</name>
         <dataType>String</dataType>
