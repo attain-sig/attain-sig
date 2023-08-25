@@ -14,16 +14,8 @@ Special consideration - see notes --></help>
             <translation><!-- Application Submitted --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Austin is recruiting</masterLabel>
-            <translation><!-- Austin is recruiting --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Committed</masterLabel>
             <translation><!-- Committed --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Complete</masterLabel>
-            <translation><!-- Complete --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Confirmed Participation</masterLabel>
@@ -46,24 +38,12 @@ Special consideration - see notes --></help>
             <translation><!-- Engagement Confirmed --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Final Deliverables Received</masterLabel>
-            <translation><!-- Final Deliverables Received --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Gib is recruiting</masterLabel>
-            <translation><!-- Gib is recruiting --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Interested</masterLabel>
             <translation><!-- Interested --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Lead</masterLabel>
             <translation><!-- Lead --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Match Conversation Complete</masterLabel>
-            <translation><!-- Match Conversation Complete --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Not Interested</masterLabel>
@@ -76,10 +56,6 @@ Special consideration - see notes --></help>
         <picklistValues>
             <masterLabel>Offer Sent</masterLabel>
             <translation><!-- Offer Sent --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Onboarding Conversation Complete</masterLabel>
-            <translation><!-- Onboarding Conversation Complete --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Onboarding Conversation In Progress</masterLabel>

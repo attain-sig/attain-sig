@@ -340,47 +340,7 @@
     <picklistValues>
         <picklist>Funding_Source__c</picklist>
         <values>
-            <fullName>Ayrshire</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Barr Foundation</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Boone %28TX%29</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Company to organization</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Donor to EDF</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Donor to Organization</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>EDF Climate Corps%2FCPP</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>EDF Paid</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Foundation to EDF</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Foundation to organization</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Funding needed</fullName>
+            <fullName>Climate Corps</fullName>
             <default>false</default>
         </values>
         <values>
@@ -388,27 +348,19 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>McKnight Foundation</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Other EDF Program</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Reis Foundation</fullName>
+            <fullName>Shared - Climate Corps and host</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Robertson Foundation</fullName>
+            <fullName>Shared - Climate Corps and other EDF program</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Trammel Crow</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Wells Fargo</fullName>
+            <fullName>Shared - other EDF program and host</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -734,15 +686,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Austin is recruiting</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Committed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Complete</fullName>
             <default>false</default>
         </values>
         <values>
@@ -766,23 +710,11 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Final Deliverables Received</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Gib is recruiting</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Interested</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>Lead</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Match Conversation Complete</fullName>
             <default>false</default>
         </values>
         <values>
@@ -795,10 +727,6 @@
         </values>
         <values>
             <fullName>Offer Sent</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Onboarding Conversation Complete</fullName>
             <default>false</default>
         </values>
         <values>

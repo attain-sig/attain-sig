@@ -4,75 +4,27 @@
         <label><!-- Funding Source --></label>
         <name>Funding_Source__c</name>
         <picklistValues>
-            <masterLabel>Ayrshire</masterLabel>
-            <translation><!-- Ayrshire --></translation>
+            <masterLabel>Climate Corps</masterLabel>
+            <translation><!-- Climate Corps --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Barr Foundation</masterLabel>
-            <translation><!-- Barr Foundation --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Boone (TX)</masterLabel>
-            <translation><!-- Boone (TX) --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Company to organization</masterLabel>
-            <translation><!-- Company to organization --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Donor to EDF</masterLabel>
-            <translation><!-- Donor to EDF --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Donor to Organization</masterLabel>
-            <translation><!-- Donor to Organization --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>EDF Climate Corps/CPP</masterLabel>
-            <translation><!-- EDF Climate Corps/CPP --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>EDF Paid</masterLabel>
-            <translation><!-- EDF Paid --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Foundation to EDF</masterLabel>
-            <translation><!-- Foundation to EDF --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Foundation to organization</masterLabel>
-            <translation><!-- Foundation to organization --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Funding needed</masterLabel>
-            <translation><!-- Funding needed --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Host Paid</masterLabel>
-            <translation><!-- Host Paid --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>McKnight Foundation</masterLabel>
-            <translation><!-- McKnight Foundation --></translation>
+            <masterLabel>Host</masterLabel>
+            <translation><!-- Host --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Other EDF Program</masterLabel>
             <translation><!-- Other EDF Program --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Reis Foundation</masterLabel>
-            <translation><!-- Reis Foundation --></translation>
+            <masterLabel>Shared - Climate Corps and host</masterLabel>
+            <translation><!-- Shared - Climate Corps and host --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Robertson Foundation</masterLabel>
-            <translation><!-- Robertson Foundation --></translation>
+            <masterLabel>Shared - Climate Corps and other EDF program</masterLabel>
+            <translation><!-- Shared - Climate Corps and other EDF program --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Trammel Crow</masterLabel>
-            <translation><!-- Trammel Crow --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Wells Fargo</masterLabel>
-            <translation><!-- Wells Fargo --></translation>
+            <masterLabel>Shared - other EDF program and host</masterLabel>
+            <translation><!-- Shared - other EDF program and host --></translation>
         </picklistValues>
     </CustomFieldTranslation>

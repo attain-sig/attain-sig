@@ -448,6 +448,13 @@
                 <elementReference>$Record.Other_Fellowship_City_State__c</elementReference>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varEngagement.Funding_Source__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>FundingSource</elementReference>
+            </value>
+        </assignmentItems>
         <connector>
             <targetReference>Check_if_engagement_rec_exists</targetReference>
         </connector>
@@ -1101,6 +1108,11 @@
         <expression>NOW()</expression>
     </formulas>
     <formulas>
+        <name>FundingSource</name>
+        <dataType>String</dataType>
+        <expression>IF(ISPICKVAL({!$Record.Application_Type__c}, &quot;Host-Funded&quot;), &quot;Host&quot;, NULL)</expression>
+    </formulas>
+    <formulas>
         <name>HLSFirstName</name>
         <dataType>String</dataType>
         <expression>LEFT({!$Record.High_Level_Sponsor_txt__c}, FIND(&quot; &quot;, {!$Record.High_Level_Sponsor_txt__c}))</expression>
@@ -1570,7 +1582,7 @@ ISPICKVAL({!$Record.Fellowship_Program__c}, &quot;U.S. Fellowship&quot;), &quot;
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>AllContacts</name>
         <dataType>SObject</dataType>
