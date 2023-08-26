@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "208a093f-b859-465a-a28d-2c8e79a827ef",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "73d6488a-9004-4cec-8529-520d9e69dcd6",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "LoginV2_Section_Component",
+  "id" : "9ac647d2-339a-40ce-a2eb-3901d2fa68b6",
+  "type" : "experienceVariation"
+}

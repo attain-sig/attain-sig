@@ -1,0 +1,60 @@
+{
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "af3d9961-6ab1-499f-85a6-2d04b7c03858",
+  "label" : "EducationInformation",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "f09fb4f6-1087-450d-8d79-df8f9525b0da",
+          "columns" : [ {
+            "UUID" : "511cd95c-a237-4603-a57c-47b8e7c42636",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f09fb4f6-1087-450d-8d79-df8f9525b0da",
+      "regions" : [ {
+        "id" : "511cd95c-a237-4603-a57c-47b8e7c42636",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0d81eafe-6c34-4cef-8d9f-82e8598c996b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "EducationInformation"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e72dc389-2c3e-4cc4-a292-015d2c436024",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "37cd1ce8-8746-4cb9-9371-2dfdbdd9d657",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
+  "type" : "view",
+  "viewType" : "custom-educationinformation"
+}

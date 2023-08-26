@@ -1,0 +1,74 @@
+{
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "652bfb0b-0488-4cd0-b73b-6b6680eb0f89",
+  "label" : "ContactInfoV2",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "labelThankYou" : "Thank you for your interest in applying to Climate Corps. Please fill out the information below.",
+        "pillNames" : "Dashboard | Contact | Education | Background | Preferences | Cover Letter",
+        "pillURLs" : "home | contactinfo | educationinformation | backgroundinformation | preferences | coverletter"
+      },
+      "componentName" : "c:eDF53_DashboardMenuGeneric",
+      "id" : "f23eb7fb-aace-4099-95d8-73eca2f8d5eb",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b1046d5f-c627-4a3a-abf3-d14df80ef2a4",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "firstGenStudentHelpText" : "Help text placeholder",
+        "identityInfoNote" : "Climate Corps is committed to creating a diverse environment and is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. Please note that this section of the application is voluntary and your responses will be fully confidential. Providing us information about your identity will allow us to track the effectiveness of our recruiting and DEI efforts and ensure that the needs of all fellows are taken into consideration.",
+        "isChild" : false,
+        "labelAvenuesClimateCorps" : "What avenues did you use to learn about Climate Corps?",
+        "labelOtherAvenuesClimateCorps" : "Other",
+        "lblFirstGenStudent" : "Are you a first-generation college student?",
+        "otherPleaseSpecifyValue" : "Other (please specify)",
+        "saveSuccessMessage" : "Contact Information Saved!",
+        "saveSuccessTitle" : "",
+        "showAvenuesClimateCorps" : true,
+        "showFirstGenStudent" : true,
+        "showGenderIdentity" : true,
+        "showLatinxHispanic" : true,
+        "showRaceEthnicity" : true,
+        "showVeteranStatus" : true
+      },
+      "componentName" : "c:eDF14_ContactInformation",
+      "id" : "bf565aef-b040-4822-b9b9-b98c921920a7",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0535ea1d-59f6-4f59-8fac-b9d563677ad6",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "52f6f4f0-ee7f-476f-97a1-eff84e1a1c58",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Contact Info"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "ffc1b01c-9185-4933-b330-638bdc0a3bd4",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c86bf1d5-c639-489d-9410-4c4636a1957d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
+  "type" : "view",
+  "viewType" : "custom-contactinfo"
+}

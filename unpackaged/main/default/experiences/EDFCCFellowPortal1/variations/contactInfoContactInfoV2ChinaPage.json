@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "18512796-4358-46cd-8892-23df1c25129a",
+    "propertyOverrides" : {
+      "activeViewId" : "5aaf373a-9db9-46cd-9b42-053395a507bb"
+    },
+    "targetId" : "8aaec787-f2a2-486c-930b-09f722047631",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Contact_Info_ContactInfoV2_China_Page",
+  "id" : "8db5c53f-f0d3-46fa-af6d-fcf6b9560c41",
+  "type" : "experienceVariation"
+}

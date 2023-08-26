@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "c75fc3d1-ba46-46e8-91bb-4042fdce5b07",
+    "propertyOverrides" : {
+      "activeViewId" : "90f845fb-da5e-4d9d-b51b-6687b6473f53"
+    },
+    "targetId" : "8e938992-b35a-4ffb-82ac-611cf0c6bcae",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "ReviewFellowApplication_ReviewFellowAppV6_China_Page",
+  "id" : "9e8a9b2d-ada0-4211-a838-4a242c712137",
+  "type" : "experienceVariation"
+}

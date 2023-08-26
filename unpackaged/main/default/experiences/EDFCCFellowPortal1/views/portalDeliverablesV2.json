@@ -1,0 +1,51 @@
+{
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "1d64898c-a06a-4261-822d-2d95ae4d171f",
+  "label" : "Portal Deliverables V2",
+  "regions" : [ {
+    "id" : "a61a8e1d-8376-448a-9f9f-9d662448b0e4",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "currentPageLabel" : "Portal Deliverables",
+        "maxlengthFinalDeliverableOtherArea" : 50,
+        "previousPageLabel" : "Deliverables Tracker",
+        "previousPageName" : "edfitems"
+      },
+      "componentName" : "c:eDF09_portalDeliverbales",
+      "id" : "92a0722d-5a2f-4750-b075-ebd8d325e7e5",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3d8b0ffc-c1b6-45c7-9bd8-edb1739622b0",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f8360fa6-d701-4f6f-8cf7-7f15b0bb22a2",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Portal Deliverables"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "8ba2f77f-6998-4561-bdbb-835d661dd88b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2d001ee3-1ec1-4d1a-848f-ca2a67dea0ad",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
+  "type" : "view",
+  "viewType" : "custom-portaldeliverables"
+}

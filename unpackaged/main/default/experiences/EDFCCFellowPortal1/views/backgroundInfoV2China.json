@@ -1,0 +1,91 @@
+{
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "40b8ffee-0768-4467-b2c8-f0071b4916f9",
+  "label" : "BackgroundInfoV2_China",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "labelThankYou" : "Thank you for your interest in applying to Climate Corps. Please fill out the information below.",
+        "pillNames" : "Dashboard | Contact | Education | Background | Preferences | Cover Letter",
+        "pillURLs" : "home | contactinfo | educationinformation | backgroundinformation | preferences | coverletter"
+      },
+      "componentName" : "c:eDF53_DashboardMenuGeneric",
+      "id" : "932074ed-eac9-42e6-bf86-d55e55cbb62c",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ba04d0ca-687c-4977-a69e-1ec011026662",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "headingExperienceInfo" : "Please indicate your level of experience (None, Basic, Moderate, and Advanced) with the following project types.",
+        "helpTextUploadedIdentification" : "Please upload a copy of your Chinese ID card or Passport",
+        "isChild" : false,
+        "labelAuthWorkUS" : "Are you legally authorized to work in the U.S.?",
+        "labelChinaResidency" : "Please select your residency in China.",
+        "labelChinaTestAndScore" : "Please choose one of the following tests and input your score in the text box below.",
+        "labelDataAnalysis" : "Data Analysis",
+        "labelEnergyEfficiencyRenewables" : "Energy Efficiency and/or Renewables",
+        "labelFinancialAnalysis" : "Financial Analysis",
+        "labelGreenhouseGasAccounting" : "Greenhouse Gas Accounting",
+        "labelNativeEnglishSpeaker" : "English proficiency is required for this position. Are you fluent or proficient in English?",
+        "labelPassport" : "Please check the box if you have a passport",
+        "labelRequireWorkAuth" : "Will you now or in the future require work authorization",
+        "labelSupplyChain" : "Supply Chain",
+        "labelUploadedIdentification" : "Upload Identification",
+        "labelUploadedIdentificationNote" : "Upload ID",
+        "labelYearsOfExperience" : "How many years of professional work experience do you have?",
+        "saveSuccessMessage" : "Background Information Saved!",
+        "saveSuccessTitle" : "",
+        "showAuthWorkUS" : false,
+        "showChinaResidency" : true,
+        "showChinaTestAndScore" : true,
+        "showDataAnalysis" : true,
+        "showEnergyEfficiencyRenewables" : true,
+        "showExperienceInfoHeading" : false,
+        "showFinancialAnalysis" : true,
+        "showGreenhouseGasAccounting" : true,
+        "showNativeEnglishSpeaker" : true,
+        "showPassport" : true,
+        "showSupplyChain" : true,
+        "showUploadedIdentification" : true,
+        "showYearsOfExperience" : true
+      },
+      "componentName" : "c:eDF16_BackgroundInformation",
+      "id" : "43d64c9d-7531-4f8f-9cff-fb6c16d24ce9",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "58d3220c-b701-4a8c-b8f4-fd9a9965d329",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "bbfec851-903e-48db-8ed3-8935644b9950",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "BackgroundInformation"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "f3ddd4a9-1542-4ff8-95fd-5a520cbe73f5",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f6049eee-78c0-4439-a011-2776447ffb02",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
+  "type" : "view",
+  "viewType" : "custom-backgroundinformation"
+}

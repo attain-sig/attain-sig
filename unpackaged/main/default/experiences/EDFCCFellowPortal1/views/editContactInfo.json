@@ -1,0 +1,68 @@
+{
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "baa1fc96-f6da-445f-9946-705b19acb72b",
+  "label" : "EditContactInfo",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "28ef724a-c31d-4113-99cd-10912ff205a8",
+          "columns" : [ {
+            "UUID" : "cede857c-3cbb-4522-a3b4-7d7d4f098e27",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "28ef724a-c31d-4113-99cd-10912ff205a8",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:eDF08_editContactInfo",
+          "id" : "1ba58080-eb0f-40a9-b68c-6bdf098614ee",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "cede857c-3cbb-4522-a3b4-7d7d4f098e27",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3f528f76-34f2-42f1-8881-d6fc823a31d1",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Edit Contact Information"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b44d1966-8610-43a4-85f1-c1891c064a6f",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ae2fb549-b33b-40a7-b788-bb2dc0878c92",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-editcontactinfo"
+}

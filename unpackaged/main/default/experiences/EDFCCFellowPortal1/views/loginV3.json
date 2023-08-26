@@ -1,0 +1,126 @@
+{
+  "appPageId" : "43af69ad-c0f1-4ffc-a902-069fdc638659",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "9cdcb3c3-2919-4067-ae19-d32443775d6f",
+  "label" : "LoginV3",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,255,255)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "e07180b4-b705-47f9-a5e0-d73992c2d9f7",
+          "columns" : [ {
+            "UUID" : "a2f841df-79ad-4591-877d-d3d49ae777bf",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "86def3b9-0c4b-444a-915f-427ff1039642",
+            "columnKey" : "703fe",
+            "columnName" : "Column 2",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 308
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e07180b4-b705-47f9-a5e0-d73992c2d9f7",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><br></h1><h1 style=\"text-align: center;\"> </h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e20409f2-177a-4e92-8f4c-48aa3024ff40",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><br></h1><h1 style=\"text-align: center;\">Welcome to EDF Climate Corps Portal</h1><p style=\"text-align: center;\"><br></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "955178df-3396-464f-b37f-7cb433746a21",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "forgotPasswordLabel" : "",
+            "forgotPasswordUrl" : "/ForgotPassword",
+            "loginButtonLabel" : "Log in",
+            "passwordLabel" : "Password",
+            "selfRegisterLabel" : "",
+            "selfRegisterUrl" : "/SelfRegister",
+            "startUrl" : "",
+            "usernameLabel" : "Username"
+          },
+          "componentName" : "salesforceIdentity:loginForm2",
+          "id" : "5f45a4ed-19e8-477f-903d-35b28824ac99",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"ForgotPassword\" rel=\"noopener noreferrer\" target=\"_self\">Forgot your password?</a></p><p style=\"text-align: center;\">Not yet registered? Click <a href=\"SelfRegister\" rel=\"noopener noreferrer\" target=\"_self\">here</a> to register yourself</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "c013639a-1cc7-46b0-a1e5-d899e942b34d",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a2f841df-79ad-4591-877d-d3d49ae777bf",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.ED16155383.1}\" style=\"width: 1235.62px; height: 617.812px;\">&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "cce75485-ba36-4c6d-b87f-81a8079080c9",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "86def3b9-0c4b-444a-915f-427ff1039642",
+        "regionLabel" : "Column 2",
+        "regionName" : "703fe",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6959d439-900b-4a4e-9f6d-8ef5ec8e023a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : ""
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "320d4424-ecfe-46ed-8168-6c5813fca6dc",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "60b18044-a652-4b84-abca-55939f83cbbe",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ZsNFQirH7DaZm8PSpA3ZNkGa3LCL5m",
+  "type" : "view",
+  "viewType" : "login-home"
+}

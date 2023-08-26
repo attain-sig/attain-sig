@@ -1,0 +1,243 @@
+{
+  "appPageId" : "43af69ad-c0f1-4ffc-a902-069fdc638659",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "13e5bf0b-8617-4ff1-856d-678b0d90f420",
+  "label" : "RegisterV2",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,255,255) url(/sfsites/c/file-asset/v2HAN_42052?v=1) center center /cover",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0.58)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "c88170f3-df24-474d-8b7d-cd30f365d55a",
+          "columns" : [ {
+            "UUID" : "be749eec-f13f-4612-b35e-4fe466526aec",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "b533c056-4f3e-43d2-833a-215f509b5ef0",
+            "columnKey" : "0edd2",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "ffd97ff9-e317-4483-9e8d-7a8d331fc07a",
+            "columnKey" : "b4c6a",
+            "columnName" : "Column 3",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c88170f3-df24-474d-8b7d-cd30f365d55a",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "29853bc4-2e68-4aa4-bbb7-67992ae59fa1",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "be749eec-f13f-4612-b35e-4fe466526aec",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a2c72324-3911-4548-b593-a22a44e32a51",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "btnNewUserCreatedOrActivated" : "Log in",
+            "btnReadyToRegister" : "Register",
+            "btnRegister" : "Register",
+            "btnUserAlreadyActive" : "Log in",
+            "btnUserAlreadyExists" : "Log in",
+            "fellowships" : "India Fellowship | U.S. Fellowship | China Fellowship",
+            "headingRegisterPage" : "Climate Corps Registration",
+            "lblAddress1" : "Permanent Street Address Line 1",
+            "lblAddress2" : "Permanent Street Address Line 2",
+            "lblCity" : "City",
+            "lblCountry" : "Country",
+            "lblEmail" : "Email Address (Username)",
+            "lblFirstName" : "First Name",
+            "lblIncCountryCode" : "Include country code if outside U.S",
+            "lblLastName" : "Last Name",
+            "lblPhone" : "Phone",
+            "lblPostalCode" : "Postal Code",
+            "lblState" : "State",
+            "linkHomeThankForRegistering" : " here.",
+            "msgEnterValidEmail" : "Please enter a valid email Address to continue. ",
+            "msgNewUserCreatedOrActivated" : "We emailed you a temporary password. Follow the instructions in the email to finish registering.",
+            "msgReadyToRegister" : "Please select Register below to complete your account setup.",
+            "msgThankForRegistering" : "Thank you for registering for a Climate Corps account! Please check your email for your login credentials. You can use these credentials to login ",
+            "msgUserAlreadyActive" : "Your previous fellowship is in progress. Please come back again once your current year fellowship is complete. If you think you’ve received this message in error, please reach out to edfclimatecorps.apply@edf.org.",
+            "msgUserAlreadyExists" : "It looks like this email is already tied to an active account. If you don't remember the password, please reset your password.",
+            "placeholderRegEmail" : "Enter your email address here",
+            "titleEnterValidEmail" : "Enter Valid Email Address",
+            "titleNewUserCreatedOrActivated" : "Welcome!",
+            "titleReadyToRegister" : "Registration Email Verified",
+            "titleUserAlreadyActive" : "Active Fellowship in Progress",
+            "titleUserAlreadyExists" : "Email already exists"
+          },
+          "componentName" : "c:eDF28_RegisterForm",
+          "id" : "79d66ff9-ff1b-454e-9cd5-017aad16a248",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><a href=\"./\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(255, 255, 255); font-family: arial;\">Already have an account?</a></p><p style=\"text-align: center;\"><em style=\"color: rgb(255, 255, 255); font-family: arial;\">The application period for the US and China programs will open in mid-September and October, respectively. Please check back at that time.</em></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b3bfea11-1abd-426d-8cc5-757d1b64ffc7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255); font-family: arial;\">You are already logged in.</span></p><p style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255); font-family: arial;\"> </span><a href=\"/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(255, 255, 255); font-family: arial;\">Click here to return to the portal homepage</a><span style=\"color: rgb(255, 255, 255); font-family: arial;\">. </span></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0db17e6d-5ba9-4500-9dec-0d0f99711302",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b533c056-4f3e-43d2-833a-215f509b5ef0",
+        "regionLabel" : "Column 2",
+        "regionName" : "0edd2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "ffd97ff9-e317-4483-9e8d-7a8d331fc07a",
+        "regionLabel" : "Column 3",
+        "regionName" : "b4c6a",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgb(255,255,255) url(/sfsites/c/file-asset/v2HAN_42052?v=1) center center /cover",
+        "backgroundOverlay" : "rgba(0, 0, 0, 0.58)",
+        "contentAreaWidth" : 90,
+        "sectionConfig" : {
+          "UUID" : "c1748c93-a79f-4ad7-a659-f2d35482daa8",
+          "columns" : [ {
+            "UUID" : "e8eb5d48-e1d3-474e-ae21-637940ab6096",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "17d07ff1-0ba4-4666-9181-bc53e26f2ae4",
+            "columnKey" : "0edd2",
+            "columnName" : "Column 2",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "428aa53b-9bac-402d-ab73-b2171ca978bb",
+            "columnKey" : "b4c6a",
+            "columnName" : "Column 3",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "c1748c93-a79f-4ad7-a659-f2d35482daa8",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "3676f45e-1b55-47a5-a844-5443cde133f0",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "e8eb5d48-e1d3-474e-ae21-637940ab6096",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a37b5ccb-a654-4b66-88d5-f8a2b63007f7",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><strong style=\"color: rgb(255, 255, 255); font-family: arial;\">You are already logged in.</strong></h1><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><a href=\"/\" rel=\"noopener noreferrer\" target=\"_self\" style=\"color: rgb(255, 255, 255); font-family: arial;\">Click here to return to the portal homepage.</a></p><p>&nbsp;</p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "14fb5d3b-b6dc-49bf-ae2a-93b2773f434f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "17d07ff1-0ba4-4666-9181-bc53e26f2ae4",
+        "regionLabel" : "Column 2",
+        "regionName" : "0edd2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "428aa53b-9bac-402d-ab73-b2171ca978bb",
+        "regionLabel" : "Column 3",
+        "regionName" : "b4c6a",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2119cf78-3fc5-40c4-9114-bf5496cf44ec",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : ""
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "cfa99e5b-5480-4190-b56d-913697f1551e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8914e065-8440-4820-b09c-5c7d6763cc6d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "ZsNFQirH7DaZm8PSpA3ZNkGa3LCL5m",
+  "type" : "view",
+  "viewType" : "self-register"
+}

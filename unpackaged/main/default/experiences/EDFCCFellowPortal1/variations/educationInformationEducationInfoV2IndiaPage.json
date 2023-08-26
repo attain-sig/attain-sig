@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "7c1dad3a-b636-4c0b-9a7e-f2e2ce6b7a4c",
+    "propertyOverrides" : {
+      "activeViewId" : "4278743c-6152-4eae-ab7d-25453b509497"
+    },
+    "targetId" : "c4378a2c-ada0-4481-b0b1-c0b607ec97f2",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "EducationInformation_EducationInfoV2_India_Page",
+  "id" : "df49e38d-e736-443c-a245-348270e02432",
+  "type" : "experienceVariation"
+}

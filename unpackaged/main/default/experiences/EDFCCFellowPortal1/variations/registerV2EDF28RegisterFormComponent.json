@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "892e6632-3c2c-4557-aeb7-00353e54bf55",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "79d66ff9-ff1b-454e-9cd5-017aad16a248",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "RegisterV2_eDF28_RegisterForm_Component",
+  "id" : "45da8091-502b-4a8c-bbd3-96610f8dca19",
+  "type" : "experienceVariation"
+}

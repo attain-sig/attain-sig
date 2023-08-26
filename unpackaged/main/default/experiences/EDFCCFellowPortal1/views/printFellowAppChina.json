@@ -1,0 +1,144 @@
+{
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "4f18e376-931b-4e4e-a76a-5b6c583f67cb",
+  "label" : "PrintFellowApp_China",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(255,255,255,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "e966370b-eef2-47df-9548-58ba8a4dc157",
+          "columns" : [ {
+            "UUID" : "a91fca5b-c97e-4f36-a796-23ca5486a307",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "e966370b-eef2-47df-9548-58ba8a4dc157",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "tabsetConfig" : {
+              "UUID" : "b3664d09-4704-4e47-97c5-e5fdbc788a7b",
+              "activeTab" : "",
+              "tabs" : [ {
+                "UUID" : "43677dea-5a93-4af6-bfc8-46d4436947ea",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "1",
+                "tabName" : "Fellow Application"
+              } ],
+              "useOverflowMenu" : false
+            }
+          },
+          "componentName" : "forceCommunity:tabset",
+          "id" : "b3664d09-4704-4e47-97c5-e5fdbc788a7b",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "identityInfoNote" : "Climate Corps is committed to creating a diverse environment and is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. Please note that this section of the application is voluntary and your responses will be fully confidential. Providing us information about your identity will allow us to track the effectiveness of our recruiting and DEI efforts and ensure that the needs of all fellows are taken into consideration.",
+                "isChild" : false,
+                "saveSuccessMessage" : "Contact Information saved successfully!",
+                "saveSuccessTitle" : "Contact Information Saved",
+                "showGenderIdentity" : true,
+                "showLatinxHispanic" : false,
+                "showRaceEthnicity" : false,
+                "showVeteranStatus" : false
+              },
+              "componentName" : "c:eDF14_ContactInformation",
+              "id" : "0945839c-da2c-4db6-a53d-3e390ee4908e",
+              "renditionMap" : { },
+              "type" : "component"
+            }, {
+              "componentAttributes" : {
+                "headingExperienceInfo" : "Please indicate your level of experience (None, Basic, Moderate, and Advanced) with the following project types.",
+                "helpTextUploadedIdentification" : "Please upload a copy of your Chinese Identification Card",
+                "isChild" : false,
+                "labelAuthWorkUS" : "Are you legally authorized to work in the U.S.?",
+                "labelChinaResidency" : "Please select your residency in China.",
+                "labelChinaTestAndScore" : "Please choose one of the following tests and input your score in the text box below.",
+                "labelDataAnalysis" : "Data Analysis",
+                "labelEnergyEfficiencyRenewables" : "Energy Efficiency and/or Renewables",
+                "labelFinancialAnalysis" : "Financial Analysis",
+                "labelGreenhouseGasAccounting" : "Greenhouse Gas Accounting",
+                "labelNativeEnglishSpeaker" : "English proficiency is required for this position. Are you fluent or proficient in English?",
+                "labelPassport" : "Please check the box if you have a passport",
+                "labelRequireWorkAuth" : "Will you now or in the future require work authorization",
+                "labelSupplyChain" : "Supply Chain",
+                "labelUploadedIdentification" : "Uploaded Identification",
+                "labelUploadedIdentificationNote" : "",
+                "labelYearsOfExperience" : "How many years of professional work experience do you have?",
+                "saveSuccessMessage" : "Background Information Updated",
+                "saveSuccessTitle" : "Background Information Updated",
+                "showAuthWorkUS" : false,
+                "showChinaResidency" : true,
+                "showChinaTestAndScore" : true,
+                "showDataAnalysis" : true,
+                "showEnergyEfficiencyRenewables" : true,
+                "showExperienceInfoHeading" : true,
+                "showFinancialAnalysis" : true,
+                "showGreenhouseGasAccounting" : true,
+                "showNativeEnglishSpeaker" : true,
+                "showPassport" : true,
+                "showSupplyChain" : true,
+                "showUploadedIdentification" : true,
+                "showYearsOfExperience" : true
+              },
+              "componentName" : "c:eDF16_BackgroundInformation",
+              "id" : "1678f547-2acd-4ea3-b9e0-3010b8bb5674",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "43677dea-5a93-4af6-bfc8-46d4436947ea",
+            "regionLabel" : "Fellow Application",
+            "regionName" : "1",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "a91fca5b-c97e-4f36-a796-23ca5486a307",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "fd5e273e-1c53-4231-ad74-15034368575e",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "PrintFellowApp"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "013c92a3-f0a1-45f1-bf7f-b0a7c0fff81e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9bf84ec8-7c29-4193-9de9-6428444b07fa",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-printfellowapp"
+}

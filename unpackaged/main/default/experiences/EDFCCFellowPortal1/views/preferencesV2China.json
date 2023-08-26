@@ -1,0 +1,107 @@
+{
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "630e4ecd-31a4-4b85-8b64-d66739d024dc",
+  "label" : "PreferencesV2_China",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "labelThankYou" : "Thank you for your interest in applying to Climate Corps. Please fill out the information below.",
+        "pillNames" : "Dashboard | Contact | Education | Background | Preferences | Cover Letter",
+        "pillURLs" : "home | contactinfo | educationinformation | backgroundinformation | preferences | coverletter"
+      },
+      "componentName" : "c:eDF53_DashboardMenuGeneric",
+      "id" : "1230cb3f-8005-4d7f-8381-ad3285e863ea",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "dec37705-50fa-427e-956e-eb520d373033",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "charsAreasOfInterestOther" : "255",
+        "charsAvailabilityAdditional" : "1800",
+        "charsUSRegionPrefText" : "255",
+        "isChild" : false,
+        "isRequiredAreasOfInterest" : false,
+        "isRequiredAvailabilityAdditional" : false,
+        "isRequiredEndDate" : false,
+        "isRequiredProjectTypePref" : false,
+        "isRequiredRegionsIndia" : false,
+        "isRequiredStartDate" : false,
+        "lblAccessToVehicle" : "If yes, do you have access to a vehicle this summer or would you be willing to get access to one (e.g. rent)?",
+        "lblAreasOfInterestIndia" : "Areas of Interest",
+        "lblAreasOfInterestOther" : "Other Areas of Interest",
+        "lblAvailabilityAdditionalDetails" : "List any additional detail about your availability during the fellowship period",
+        "lblAvailabilityEndDate" : "Latest Available Date to End",
+        "lblAvailabilityHeader" : "Availability",
+        "lblAvailabilityNote" : "Climate Corps Program requires your full-time commitment for the 8-12 weeks long fellowship project. Please indicate your availability between April-September for a full-time commitment to a Climate Corps fellowship project.",
+        "lblAvailabilityStartDate" : "Earliest Available Date to Start",
+        "lblInterestForIndiaChina" : "I'm interested in also applying for",
+        "lblInterestForIndiaChinaHelpText" : "India program places fellows with organizations in India and is open to Indian nationals. The China program places fellows with organizations in China and is open to Chinese nationals",
+        "lblProjectTypeFirstChoice" : "Select and rank you top top project type preferences",
+        "lblProjectTypePreference" : "Project Type Preference",
+        "lblProjectTypePreferenceHeader" : "Project Type Preferences",
+        "lblProjectTypePreferenceNote" : "",
+        "lblRegionalPreferenceChina" : "Select regions in China you would be willing to relocate to for the fellowship",
+        "lblRegionalPreferenceIndia" : "Regional Preferences",
+        "lblSectorFirstChoice" : "Sector Choice",
+        "lblSectorPreferenceHeader" : "Sector Preferences",
+        "lblSectorPreferenceNote" : "Select and rank your top sector preferences",
+        "lblUSDriverLicense" : "Do you have a valid US Driver's License?",
+        "lblUSRegionPref" : "Please choose the regions you would be willing to relocate to for the fellowship",
+        "lblUSRegionPrefHelpText" : "Please note, fellows are expected to pay for and organize any relocation associated with the fellowship. Fellows are also expected to pay for housing and living expenses during the fellowship.",
+        "saveSuccessMessage" : "Match Preferences Saved!",
+        "saveSuccessTitle" : "",
+        "showAccessToVehicle" : false,
+        "showAreasOfInterest" : false,
+        "showAreasOfInterestIndia" : false,
+        "showAvailability" : false,
+        "showInterestForIndiaChina" : false,
+        "showProjectTypePreference" : false,
+        "showProjectTypePreferenceSection" : false,
+        "showProjectTypePreferenceSectionChina" : true,
+        "showRegionsChina" : true,
+        "showRegionsIndia" : false,
+        "showSectorPreference" : false,
+        "showSectorPreferenceChina" : false,
+        "showUSDriverLicense" : false,
+        "showUSRegionPref" : false
+      },
+      "componentName" : "c:eDF17_MatchPreferences",
+      "id" : "c27e0078-272a-4ad3-b8a2-abdfcfd76cb2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "232a3486-d1b9-4872-ae15-0c05e0632370",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "e283e0a5-6395-4b0c-b87b-aed6eff8a130",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Preferences"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "62e1f34c-c57d-495d-9c7e-403a19d2b407",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a83c6bac-024a-4e5b-ac84-27549fe57d4d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
+  "type" : "view",
+  "viewType" : "custom-preferences"
+}

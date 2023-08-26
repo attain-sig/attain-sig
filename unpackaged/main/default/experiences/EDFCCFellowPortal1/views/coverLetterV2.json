@@ -1,0 +1,81 @@
+{
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "a9555665-30fe-4503-824b-6b75e88045aa",
+  "label" : "CoverLetterV2",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "labelThankYou" : "Thank you for your interest in applying to Climate Corps. Please fill out the information below.",
+        "pillNames" : "Dashboard | Contact | Education | Background | Preferences | Cover Letter",
+        "pillURLs" : "home | contactinfo | educationinformation | backgroundinformation | preferences | coverletter"
+      },
+      "componentName" : "c:eDF53_DashboardMenuGeneric",
+      "id" : "f5d1598b-49fb-4be7-a204-84e098cf826a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f4fbdc6a-c540-4135-ade1-0e4f0be31ded",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "additionalInformationIcon" : "Please add any additional information that is not already reflected in your application, cover letter, or resume that you would like the review team to know.",
+        "anyAdditionalInformation" : "Additional Information",
+        "contactInformationIcon" : "Please provide the contact information for three references, at least 2 of which are professional and 1 of which is a supervisor. References will be contacted via email during the interview phase. You will receive notice prior to your references being contacted.",
+        "coverLetterClimateCorps" : "Cover Letter",
+        "isChild" : false,
+        "lblAddReference1" : "Add Reference 1",
+        "lblAddReference2" : "Add Reference 2",
+        "lblAddReference3" : "Add Reference 3",
+        "lblEmailReference" : "Email",
+        "lblNameReference" : "Name",
+        "lblNotesReference" : "List your relationship to this reference and any additional information you'd like to share with EDF",
+        "lblPhoneReference" : "Phone",
+        "lblTitleReference" : "Job Title",
+        "levelOfExperienceCoverLetter" : "You may address your cover letter to the Climate Corps Team. Please describe any specific courses, qualifications, skills and experience (academic and professional) that have prepared you for the Climate Corps Fellowship. Finally, please describe how a Climate Corps fellowship will impact your career. Please describe how your experience (academic, professional, or personal), specific courses, qualifications, and skills have prepared you for the Climate Corps fellowship, and how a Climate Corps fellowship would impact your career. For additional guidance, <a href=\"https://business.edf.org/wp-content/blogs.dir/90/files//Fellow-Document.docx\">click here.</a>",
+        "saveSuccessMessage" : "Cover Letter & Resume Saved. Please proceed to Review & Submit.",
+        "saveSuccessTitle" : "",
+        "showReference1" : true,
+        "showReference2" : true,
+        "showReference3" : true,
+        "showReferencePhone" : false,
+        "uploadResume" : "Upload Resume",
+        "uploadResumePdf" : "Upload your resume as a PDF document. To the extent possible, please customize your resume to be relevant to Climate Corps."
+      },
+      "componentName" : "c:eDF18_CoverLetter",
+      "id" : "b736e44d-390f-451a-99eb-76971ce8a396",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f2335542-5557-458f-9862-c7da3aca025f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "013599d9-506a-4247-932a-17803b84e4e3",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "CoverLetter"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "e757a5cb-43aa-4f5f-80e7-1a76912a3121",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "58c1129e-6716-4bc8-9833-c7909739fdf9",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
+  "type" : "view",
+  "viewType" : "custom-coverletter"
+}

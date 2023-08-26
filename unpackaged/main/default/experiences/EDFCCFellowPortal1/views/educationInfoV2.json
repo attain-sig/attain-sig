@@ -1,0 +1,77 @@
+{
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "00537aa2-74c1-4b16-ac2c-9cb9baabc4f9",
+  "label" : "EducationInfoV2",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "labelThankYou" : "Thank you for your interest in applying to Climate Corps. Please fill out the information below.",
+        "pillNames" : "Dashboard | Contact | Education | Background | Preferences | Cover Letter",
+        "pillURLs" : "home | contactinfo | educationinformation | backgroundinformation | preferences | coverletter"
+      },
+      "componentName" : "c:eDF53_DashboardMenuGeneric",
+      "id" : "dd939abb-a3ad-4ceb-9355-b8ddbd72be8f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "eb837d40-c26e-483c-b382-64a1e31e8276",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "isChild" : false,
+        "isReqUndergraduateDegreeEarned" : false,
+        "lblCourseWork" : "Please list any relevant coursework, training, or certifications that you will have completed by the start of the fellowship.",
+        "lblExpectedGraduationDate" : "Expected Graduation Date",
+        "lblGraduateDegree" : "Graduate Degree(s) you are Pursuing",
+        "lblGraduateDegreeConcentration" : "Graduate Degree Concentration(s)",
+        "lblGraduateDegreeNotListed" : "Graduate Degree(s), if not listed above",
+        "lblGraduateDegreeStartDate" : "Graduate Degree Start Date",
+        "lblGraduateUniversity" : "Graduate University",
+        "lblSchoolUniversityNotListed" : "School / University, if not listed above",
+        "lblSchoolWithinUniversity" : "School within University",
+        "lblUndergradUniversity" : "Undergraduate University",
+        "lblUndergraduateDegreeEarned" : "Undergraduate Degree(s) earned",
+        "lblUndergraduateDegreeEarnedOthers" : "Undergraduate Degree(s) earned, if not listed above",
+        "lblUndergraduateMajor" : "Undergraduate Major(s)",
+        "lblUndergraduateUniversityOther" : "Undergraduate University, if not listed above",
+        "saveSuccessMessage" : "Education Information Saved!",
+        "saveSuccessTitle" : ""
+      },
+      "componentName" : "c:eDF15_EducationInformation",
+      "id" : "ec69c80d-7288-4d46-bced-b0be81235077",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "df50f3f4-9688-44a7-813c-4384de8483d9",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "10ca3391-24eb-46b5-b1c2-6b90e0127aea",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "EducationInformation"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "33cd4f60-580d-46af-af1a-e0f10c6a6c71",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "13598f09-376e-44c4-98bb-5770d9d89d1e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "4NubgQ8vscb5bhR8ZbhNhr0HlJnHmv",
+  "type" : "view",
+  "viewType" : "custom-educationinformation"
+}

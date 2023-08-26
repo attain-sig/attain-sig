@@ -1,0 +1,306 @@
+{
+  "appPageId" : "2891fff8-f751-40c7-aed1-da0c200379a1",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "35a5c30e-34ca-4147-a0e2-f0cd17b770db",
+  "label" : "ReviewFellowAppV4_India",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(255,255,255,0) url(/sfsites/c/file-asset/registrationgbImage1?v=1) top center repeat-y",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "651472c8-362c-4ba4-8098-97821d1600a9",
+          "columns" : [ {
+            "UUID" : "8a7671eb-91aa-4598-a327-359e52d4d3d3",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "73ce20f0-ef71-4de8-b8b8-a5683287fdff",
+            "columnKey" : "44a8d",
+            "columnName" : "Column 2",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "fb9c6d35-79f9-455b-a6b8-5eb84c410d89",
+            "columnKey" : "bc8e5",
+            "columnName" : "Column 3",
+            "columnWidth" : "2",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "651472c8-362c-4ba4-8098-97821d1600a9",
+      "regions" : [ {
+        "id" : "8a7671eb-91aa-4598-a327-359e52d4d3d3",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h6 style=\"text-align: center;\"><br></h6><h6 style=\"text-align: center;\"><span style=\"font-size: 14px; color: rgb(255, 255, 255); font-family: arial;\">﻿</span><span style=\"font-size: 16px; color: rgb(255, 255, 255); font-family: arial;\">Please review your application prior to clicking the Submit button at the bottom of the page. Once you submit, you will not be able to make any changes. If you would like a copy of your application, please open each section and use the Print to PDF option in your browser.</span></h6>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "399da391-3bfc-47d2-9e18-4acb6dc17ebd",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "tabsetConfig" : {
+              "UUID" : "44992f1f-5bc9-4311-a281-38593019efdf",
+              "activeTab" : "",
+              "tabs" : [ {
+                "UUID" : "d9d3ce30-ab9c-48b9-b05d-9954ab73efb4",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "1",
+                "tabName" : "Review Application"
+              } ],
+              "useOverflowMenu" : false
+            }
+          },
+          "componentName" : "forceCommunity:tabset",
+          "id" : "44992f1f-5bc9-4311-a281-38593019efdf",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : {
+                "richTextValue" : ""
+              },
+              "componentName" : "forceCommunity:htmlBlock",
+              "id" : "662155e2-d5d9-4157-b953-85ddcd5988f8",
+              "renditionMap" : { },
+              "type" : "component"
+            }, {
+              "componentAttributes" : {
+                "identityInfoNote" : "Climate Corps is committed to creating a diverse environment and is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, gender identity or expression, sexual orientation, national origin, genetics, disability, age, or veteran status. Please note that this section of the application is voluntary and your responses will be fully confidential. Providing us information about your identity will allow us to track the effectiveness of our recruiting and DEI efforts and ensure that the needs of all fellows are taken into consideration.",
+                "isChild" : true,
+                "labelAvenuesClimateCorps" : "How did you learn about Climate Corps?",
+                "labelOtherAvenuesClimateCorps" : "Other",
+                "saveSuccessMessage" : "Contact Information Saved!",
+                "saveSuccessTitle" : "",
+                "showGenderIdentity" : true,
+                "showLatinxHispanic" : false,
+                "showRaceEthnicity" : false,
+                "showVeteranStatus" : false
+              },
+              "componentName" : "c:eDF14_ContactInformation",
+              "id" : "ee8f6e47-c50c-4d1d-9114-be2899cb2d56",
+              "renditionMap" : { },
+              "type" : "component"
+            }, {
+              "componentAttributes" : {
+                "isChild" : true,
+                "isReqUndergraduateDegreeEarned" : false,
+                "lblCourseWork" : "Please list any relevant coursework, training, or certifications that you will have completed by the start of the fellowship.",
+                "lblExpectedGraduationDate" : "Expected Graduation Date",
+                "lblGraduateDegree" : "Graduate Degree(s) you are Pursuing",
+                "lblGraduateDegreeConcentration" : "Graduate Degree Concentration(s)",
+                "lblGraduateDegreeNotListed" : "Graduate Degree(s), if not listed above",
+                "lblGraduateDegreeStartDate" : "Graduate Degree Start Date",
+                "lblGraduateUniversity" : "Graduate University",
+                "lblSchoolUniversityNotListed" : "School / University, if not listed above",
+                "lblSchoolWithinUniversity" : "School within University",
+                "lblUndergradUniversity" : "Undergraduate University",
+                "lblUndergraduateDegreeEarned" : "Undergraduate Degree(s) earned",
+                "lblUndergraduateDegreeEarnedOthers" : "Undergraduate Degree(s) earned, if not listed above",
+                "lblUndergraduateMajor" : "Undergraduate Major(s)",
+                "lblUndergraduateUniversityOther" : "Undergraduate University, if not listed above",
+                "saveSuccessMessage" : "Education Information Saved!",
+                "saveSuccessTitle" : ""
+              },
+              "componentName" : "c:eDF15_EducationInformation",
+              "id" : "9e7be7cf-368f-4302-9b34-30fc6887601c",
+              "renditionMap" : { },
+              "type" : "component"
+            }, {
+              "componentAttributes" : {
+                "headingExperienceInfo" : "Please indicate your level of experience (None, Basic, Moderate, and Advanced) with the following project types.",
+                "helpTextUploadedIdentification" : "The following set of documents can be uploaded - (1) Voter Id (2) Aadhaar (3) Passport (4) Driver's License (5) Attested/Official College Id (with the dates of joining and ending mentioned)",
+                "isChild" : true,
+                "labelAuthWorkUS" : "Are you legally authorized to work in the U.S.?",
+                "labelChinaResidency" : "Please select your residency in China.",
+                "labelChinaTestAndScore" : "Please choose one of the following tests and input your score in the text box below.",
+                "labelDataAnalysis" : "Data Analysis",
+                "labelEnergyEfficiencyRenewables" : "Energy Efficiency and/or Renewables",
+                "labelFinancialAnalysis" : "Financial Analysis",
+                "labelGreenhouseGasAccounting" : "Greenhouse Gas Accounting",
+                "labelNativeEnglishSpeaker" : "English proficiency is required for this position. Are you fluent or proficient in English?",
+                "labelPassport" : "Please check the box if you have a passport",
+                "labelRequireWorkAuth" : "Will you now or in the future require work authorization",
+                "labelSupplyChain" : "Supply Chain",
+                "labelUploadedIdentification" : "Uploaded Identification",
+                "labelUploadedIdentificationNote" : "Please upload a copy of your India ID",
+                "labelYearsOfExperience" : "How many years of professional work experience do you have?",
+                "saveSuccessMessage" : "Background Information Saved!",
+                "saveSuccessTitle" : "",
+                "showAuthWorkUS" : false,
+                "showChinaResidency" : false,
+                "showChinaTestAndScore" : false,
+                "showDataAnalysis" : true,
+                "showEnergyEfficiencyRenewables" : true,
+                "showExperienceInfoHeading" : true,
+                "showFinancialAnalysis" : true,
+                "showGreenhouseGasAccounting" : true,
+                "showNativeEnglishSpeaker" : true,
+                "showPassport" : false,
+                "showSupplyChain" : true,
+                "showUploadedIdentification" : true,
+                "showYearsOfExperience" : true
+              },
+              "componentName" : "c:eDF16_BackgroundInformation",
+              "id" : "6b707b93-580e-45e1-90ab-c3cb72e2b385",
+              "renditionMap" : { },
+              "type" : "component"
+            }, {
+              "componentAttributes" : {
+                "charsAreasOfInterestOther" : "255",
+                "charsAvailabilityAdditional" : "255",
+                "charsUSRegionPrefText" : "255",
+                "isChild" : true,
+                "isRequiredAreasOfInterest" : true,
+                "isRequiredAvailabilityAdditional" : true,
+                "isRequiredEndDate" : true,
+                "isRequiredProjectTypePref" : true,
+                "isRequiredRegionsIndia" : true,
+                "isRequiredStartDate" : true,
+                "lblAccessToVehicle" : "If yes, do you have access to a vehicle this summer or would you be willing to get access to one (e.g. rent)?",
+                "lblAreasOfInterestIndia" : "Areas of Interest",
+                "lblAreasOfInterestOther" : "Other Areas of Interest",
+                "lblAvailabilityAdditionalDetails" : "List any additional detail about your availability during the fellowship period",
+                "lblAvailabilityEndDate" : "Latest Available Date to End",
+                "lblAvailabilityHeader" : "Availability",
+                "lblAvailabilityNote" : "Climate Corps Program requires your full-time commitment for the 8-12 weeks long fellowship project. Please indicate your availability between April-September for a full-time commitment to a Climate Corps fellowship project.",
+                "lblAvailabilityStartDate" : "Earliest Available Date to Start",
+                "lblInterestForIndiaChina" : "I'm interested in also applying for",
+                "lblInterestForIndiaChinaHelpText" : "India program places fellows with organizations in India and is open to Indian nationals. The China program places fellows with organizations in China and is open to Chinese nationals",
+                "lblProjectTypeFirstChoice" : "Project Type Preference One",
+                "lblProjectTypePreference" : "Project Type Preference",
+                "lblProjectTypePreferenceHeader" : "Project Type Preferences",
+                "lblProjectTypePreferenceNote" : "Indicate your top three Project Type Preferences from the dropdown lists",
+                "lblRegionalPreferenceChina" : "Select regions in China you would be willing to relocate to for the fellowship",
+                "lblRegionalPreferenceIndia" : "Regional Preferences",
+                "lblSectorFirstChoice" : "Sector First Choice",
+                "lblSectorPreferenceHeader" : "Sector Preferences",
+                "lblSectorPreferenceNote" : "Indicate your top three choices from the dropdown lists",
+                "lblUSDriverLicense" : "Do you have a valid US Driver's License?",
+                "lblUSRegionPref" : "Please choose the regions you would be willing to relocate to for the fellowship",
+                "lblUSRegionPrefHelpText" : "Please note, fellows are expected to pay for and organize any relocation associated with the fellowship. Fellows are also expected to pay for housing and living expenses during the fellowship.",
+                "saveSuccessMessage" : "Match Preferences Saved!",
+                "saveSuccessTitle" : "",
+                "showAccessToVehicle" : false,
+                "showAreasOfInterest" : true,
+                "showAreasOfInterestIndia" : true,
+                "showAvailability" : true,
+                "showInterestForIndiaChina" : false,
+                "showProjectTypePreference" : true,
+                "showProjectTypePreferenceSection" : false,
+                "showProjectTypePreferenceSectionChina" : false,
+                "showRegionsChina" : false,
+                "showRegionsIndia" : true,
+                "showSectorPreference" : false,
+                "showSectorPreferenceChina" : false,
+                "showUSDriverLicense" : false,
+                "showUSRegionPref" : false
+              },
+              "componentName" : "c:eDF17_MatchPreferences",
+              "id" : "36bf4838-b6a5-439f-b15a-2808e02a7b72",
+              "renditionMap" : { },
+              "type" : "component"
+            }, {
+              "componentAttributes" : {
+                "additionalInformationIcon" : "Please add any additional information that is not already reflected in your application, cover letter, or resume that you would like the review team to know.",
+                "anyAdditionalInformation" : "Any Additional Information",
+                "contactInformationIcon" : "Please provide the contact information for three references, at least 2 of which are professional and 1 of which is a supervisor. References will be contacted via email during the interview phase. You will receive notice prior to your references being contacted.",
+                "coverLetterClimateCorps" : "Cover Letter",
+                "isChild" : true,
+                "lblAddReference1" : "Add Reference 1",
+                "lblAddReference2" : "Add Reference 2",
+                "lblAddReference3" : "Add Reference 3",
+                "lblEmailReference" : "Email",
+                "lblNameReference" : "Name",
+                "lblNotesReference" : "List your relationship to this reference and any additional information you'd like to share with EDF",
+                "lblPhoneReference" : "Phone",
+                "lblTitleReference" : "Job Title",
+                "levelOfExperienceCoverLetter" : "You may address your cover letter to the Climate Corps Team. Please describe any specific courses, qualifications, skills and experience (academic and professional) that have prepared you for the Climate Corps Fellowship. Finally, please describe how a Climate Corps fellowship will impact your career.",
+                "saveSuccessMessage" : "Cover Letter & Resume Saved!",
+                "saveSuccessTitle" : "",
+                "showReference1" : true,
+                "showReference2" : true,
+                "showReference3" : true,
+                "showReferencePhone" : true,
+                "uploadResume" : "Upload Resume",
+                "uploadResumePdf" : "Upload your resume as a PDF document. To the extent possible, please customize your resume by highlighting relevant experience including professional work experience, internships, academic coursework, volunteer experience or other extracurricular. PDFs should not exceed 1 MB in size."
+              },
+              "componentName" : "c:eDF18_CoverLetter",
+              "id" : "b34e7cb1-fa99-4c29-ab37-611c94ac99ae",
+              "renditionMap" : { },
+              "type" : "component"
+            }, {
+              "componentAttributes" : {
+                "labelSubmitAppBtn" : "Submit Application",
+                "msgFAppSubmitted" : "Your Application Submitted successfully!",
+                "titleFAppSubmitted" : "Application Submitted"
+              },
+              "componentName" : "c:eDF54_SubmitFellowApp",
+              "id" : "b180497d-6cd1-4a5d-998e-1f4a0a8d8cab",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "d9d3ce30-ab9c-48b9-b05d-9954ab73efb4",
+            "regionLabel" : "Review Application",
+            "regionName" : "1",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "73ce20f0-ef71-4de8-b8b8-a5683287fdff",
+        "regionLabel" : "Column 2",
+        "regionName" : "44a8d",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "fb9c6d35-79f9-455b-a6b8-5eb84c410d89",
+        "regionLabel" : "Column 3",
+        "regionName" : "bc8e5",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9a8b6690-7782-4074-ab98-4ba233a36736",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Review Application"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "bb03088a-c163-490d-890b-fba568ac4306",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6393ba7f-0538-46d1-833e-d6971f1027df",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "dfQ1I8dBcTmkr6chyGV824WrzkOxVx",
+  "type" : "view",
+  "viewType" : "custom-reviewfellowapplication"
+}
