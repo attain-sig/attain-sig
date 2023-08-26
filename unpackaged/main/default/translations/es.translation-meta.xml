@@ -1,101 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?><Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Subledger --></label>
         <name>Accounting_Subledger</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Build Management --></label>
         <name>Build_Management</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Climate Corps --></label>
         <name>Climate_Corps</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Conga Composer --></label>
         <name>CongaMerge</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Declarative Lookup Rollup Summaries --></label>
         <name>DeclarativeLookupRollupSummaries</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Declarative Lookup Rollup Summaries --></label>
         <name>DeclarativeLookupRollupSummaries2</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Development Library Records --></label>
         <name>Development_Library_Records</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- EDF Caging --></label>
         <name>EDF_Caging</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- EDF Development --></label>
         <name>EDF_Development</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- EDF Gift Processing --></label>
         <name>EDF_Gift_Processing</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- EDF Legal Tracking --></label>
         <name>EDF_Legal_Tracking</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- EDF Main --></label>
         <name>EDF_Main</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- EDF Member Services --></label>
         <name>EDF_Member_Services</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- EDF Member Services Console --></label>
         <name>EDF_Member_Services_Console</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Elements --></label>
         <name>Elements</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Multiple Lead Converter --></label>
         <name>Lead_Converter_Lightning</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Limits Monitor --></label>
         <name>Limits_Monitor</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Nonprofit Success Pack --></label>
         <name>Nonprofit_CRM</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Nonprofit Success Pack --></label>
         <name>Nonprofit_Success_Pack</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- User Access &amp; Permissions Assistant --></label>
         <name>Profiles_to_Permission_Sets</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Snapshot --></label>
         <name>Snapshot</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Snapshot --></label>
         <name>Snapshot_Lightning</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Sortable Data Grids --></label>
         <name>Sortable_Data_Grids</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- iContact Email Marketing --></label>
         <name>iContact_Email_Marketing</name>
     </customApplications>
     <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- iContact Email Marketing - Lightning --></label>
         <name>iContact_Email_Marketing_Lightning</name>
     </customApplications>
