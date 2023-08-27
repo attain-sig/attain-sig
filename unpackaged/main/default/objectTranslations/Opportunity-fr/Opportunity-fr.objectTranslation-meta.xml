@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <layouts>
+        <layout>Donation Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Matching Gift Information --></label>
+            <section>Matching Gift Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tribute Information --></label>
+            <section>Tribute Information</section>
+        </sections>
+    </layouts>
+    <layouts>
         <layout>EDF Donation Master Layout</layout>
         <sections>
             <label><!-- Acknowledgment/Receipt Status --></label>
@@ -252,6 +271,21 @@
         </sections>
     </layouts>
     <layouts>
+        <layout>Grant Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Grant Information --></label>
+            <section>Grant Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+    </layouts>
+    <layouts>
         <layout>In-Kind Gift Layout</layout>
         <sections>
             <label>Informations sur le don</label>
@@ -263,6 +297,29 @@
         </sections>
         <sections>
             <label>Informations sur l’hommage</label>
+            <section>Tribute Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Major Gift Layout</layout>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Major Gift Information --></label>
+            <section>Major Gift Information</section>
+        </sections>
+        <sections>
+            <label><!-- Matching Gift Information --></label>
+            <section>Matching Gift Information</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Information --></label>
+            <section>Payment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Tribute Information --></label>
             <section>Tribute Information</section>
         </sections>
     </layouts>

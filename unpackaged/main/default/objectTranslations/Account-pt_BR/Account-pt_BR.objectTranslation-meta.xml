@@ -434,6 +434,80 @@
             <section>System Information</section>
         </sections>
     </layouts>
+    <layouts>
+        <layout>Household Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Totals --></label>
+            <section>Donation Totals</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Membership Information --></label>
+            <section>Membership Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Organization Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Information --></label>
+            <section>Donation Information</section>
+        </sections>
+        <sections>
+            <label><!-- Donation Totals --></label>
+            <section>Donation Totals</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Grantmaking Information --></label>
+            <section>Grantmaking Information</section>
+        </sections>
+        <sections>
+            <label><!-- Matching Gift Comments --></label>
+            <section>Matching Gift Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Matching Gift Information --></label>
+            <section>Matching Gift Information</section>
+        </sections>
+        <sections>
+            <label><!-- Membership Information --></label>
+            <section>Membership Information</section>
+        </sections>
+    </layouts>
     <quickActions>
         <label><!-- Account Fields for CC Engagement --></label>
         <name>Account_Fields_for_CC_Engagement</name>
