@@ -31,8 +31,8 @@
             $Lightning.use("{!namespace}" + ":RD2_EnablementApp", function() {
                 $Lightning.createComponent("{!namespace}" + ":utilIllustration",
                     {
-                        title : "{!$Label.npsp__commonAdminPermissionErrorTitle}",
-                        message : "{!$Label.npsp__commonPermissionErrorMessage}",
+                        title : "{!JSENCODE($Label.npsp__commonAdminPermissionErrorTitle)}",
+                        message : "{!JSENCODE($Label.npsp__commonPermissionErrorMessage)}",
                         size: 'small',
                         variant: 'no-access',
                         illustrationClass: "slds-p-top_x-large slds-m-top_x-large"
