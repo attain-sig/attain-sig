@@ -51,7 +51,7 @@
         <label>1. Simplest Better Email</label>
         <locationX>1511</locationX>
         <locationY>161</locationY>
-        <actionName>01p7d000007f1AVNotFound</actionName>
+        <actionName>SendBetterEmail</actionName>
         <actionType>apex</actionType>
         <connector>
             <targetReference>ScreenConsole1</targetReference>
@@ -119,7 +119,7 @@
         <label>2. Simple Email with Address Collections - With Address Collections</label>
         <locationX>1510</locationX>
         <locationY>277</locationY>
-        <actionName>01p7d000007f1AVNotFound</actionName>
+        <actionName>SendBetterEmail</actionName>
         <actionType>apex</actionType>
         <connector>
             <targetReference>ScreenConsole1</targetReference>
@@ -181,7 +181,7 @@
         <label>3. Email with Attachments</label>
         <locationX>1593</locationX>
         <locationY>406</locationY>
-        <actionName>01p7d000007f1AVNotFound</actionName>
+        <actionName>SendBetterEmail</actionName>
         <actionType>apex</actionType>
         <connector>
             <targetReference>ScreenConsole1</targetReference>
@@ -250,7 +250,7 @@
         <label>4. Email Using Template Action</label>
         <locationX>1561</locationX>
         <locationY>850</locationY>
-        <actionName>01p7d000007f1AVNotFound</actionName>
+        <actionName>SendBetterEmail</actionName>
         <actionType>apex</actionType>
         <connector>
             <targetReference>ScreenConsole1</targetReference>
@@ -319,7 +319,7 @@
         <label>5. Multi-Lingual Using Email Templates</label>
         <locationX>1612</locationX>
         <locationY>983</locationY>
-        <actionName>01p7d000007f1AVNotFound</actionName>
+        <actionName>SendBetterEmail</actionName>
         <actionType>apex</actionType>
         <connector>
             <targetReference>ScreenConsole1</targetReference>
@@ -382,7 +382,7 @@
         <label>6. Send Better Email - Mass</label>
         <locationX>1654</locationX>
         <locationY>1112</locationY>
-        <actionName>01p7d000007f1AVNotFound</actionName>
+        <actionName>SendBetterEmail</actionName>
         <actionType>apex</actionType>
         <connector>
             <targetReference>ScreenConsole1</targetReference>
@@ -419,7 +419,7 @@
         <label>7. SendBetterEmail Bulk</label>
         <locationX>1684</locationX>
         <locationY>1273</locationY>
-        <actionName>01p7d000007f1AYNotFound</actionName>
+        <actionName>SendBetterEmailBulk</actionName>
         <actionType>apex</actionType>
         <connector>
             <targetReference>ScreenConsole1</targetReference>
@@ -439,7 +439,7 @@
         <label>8. Email Using Template, Recipient, Target, WhatId</label>
         <locationX>1744</locationX>
         <locationY>1394</locationY>
-        <actionName>01p7d000007f1AVNotFound</actionName>
+        <actionName>SendBetterEmail</actionName>
         <actionType>apex</actionType>
         <connector>
             <targetReference>ScreenConsole1</targetReference>
