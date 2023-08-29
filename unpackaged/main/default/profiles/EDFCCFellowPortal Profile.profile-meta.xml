@@ -298,6 +298,10 @@
     </applicationVisibilities>
     <externalDataSourceAccesses>
         <enabled>false</enabled>
+        <externalDataSource>EDFSharePointOnline</externalDataSource>
+    </externalDataSourceAccesses>
+    <externalDataSourceAccesses>
+        <enabled>false</enabled>
         <externalDataSource>Resource_Library_Files</externalDataSource>
     </externalDataSourceAccesses>
     <fieldPermissions>
