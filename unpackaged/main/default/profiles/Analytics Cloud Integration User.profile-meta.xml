@@ -12991,4 +12991,8 @@
         <enabled>true</enabled>
         <name>ViewSetup</name>
     </userPermissions>
+    <externalDataSourceAccesses>
+        <enabled>false</enabled>
+        <externalDataSource>Resource_Library_Files</externalDataSource>
+    </externalDataSourceAccesses>
 </Profile>
