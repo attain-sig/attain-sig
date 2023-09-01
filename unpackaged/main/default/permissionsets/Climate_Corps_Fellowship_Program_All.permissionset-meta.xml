@@ -106,11 +106,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Climate_Corps_Engagement__c.Conga_Trigger_Host_App__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Contact_Email__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -397,6 +392,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Climate_Corps_Engagement__c.High_Priority__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Climate_Corps_Engagement__c.Host_App_India4__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

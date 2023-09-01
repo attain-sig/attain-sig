@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Conga Trigger Host App --></label>
-        <name>Conga_Trigger_Host_App__c</name>
+        <label><!-- Host_App_India__c --></label>
+        <name>Host_App_India_c__c</name>
     </CustomFieldTranslation>

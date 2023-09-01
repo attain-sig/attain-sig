@@ -7,9 +7,6 @@
                     <name>actionNames</name>
                     <valueList>
                         <valueListItems>
-                            <value>CustomButton.Climate_Corps_Engagement__c.Conga_Composer_Host_App_India3</value>
-                        </valueListItems>
-                        <valueListItems>
                             <value>Edit</value>
                         </valueListItems>
                         <valueListItems>
@@ -29,6 +26,9 @@
                         </valueListItems>
                         <valueListItems>
                             <value>Clone</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>CustomButton.Climate_Corps_Engagement__c.Conga_Composer_Host_App_India4</value>
                         </valueListItems>
                     </valueList>
                 </componentInstanceProperties>

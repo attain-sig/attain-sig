@@ -94,7 +94,7 @@
         <fullName>Conga_Trigger_Host_App_from_Engagement</fullName>
         <apiVersion>58.0</apiVersion>
         <endpointUrl>https://workflow.congamerge.com/OBMListener.ashx</endpointUrl>
-        <fields>Conga_Trigger_Host_App__c</fields>
+        <fields>Host_App_India4__c</fields>
         <fields>Id</fields>
         <includeSessionId>true</includeSessionId>
         <integrationUser>salesforcesysadmin@edf.org.npsp</integrationUser>
