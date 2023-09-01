@@ -253,7 +253,7 @@ ispickval({!$Record.Status}, &quot;Closed - Approved/Resolved&quot;)</filterForm
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <textTemplates>
         <name>tt_ExternalGrantApprovalEmail</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
