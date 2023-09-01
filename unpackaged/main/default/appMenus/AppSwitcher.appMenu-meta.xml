@@ -300,4 +300,8 @@
         <name>APXT_BPM__Conga_Conductor</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Conga_Composer_Plus</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

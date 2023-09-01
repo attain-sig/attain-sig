@@ -21,6 +21,11 @@
     </customApplications>
     <customApplications>
         <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
+        <label><!-- Conga Composer + --></label>
+        <name>Conga_Composer_Plus</name>
+    </customApplications>
+    <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Declarative Lookup Rollup Summaries --></label>
         <name>DeclarativeLookupRollupSummaries</name>
     </customApplications>

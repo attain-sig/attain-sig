@@ -10,7 +10,7 @@
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
     </actionCalls>
     <apiVersion>58.0</apiVersion>
-    <description>Runs on stage = Application Submitted and Fellowship Type = India Fellowship</description>
+    <description>Runs on stage = Application Submitted and Fellowship Type = India Fellowship. Only when updated to meet criteria.</description>
     <environments>Default</environments>
     <interviewLabel>Generate India App PDF {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Generate India App PDF</label>
@@ -39,6 +39,7 @@
         <connector>
             <targetReference>Generate_Host_App</targetReference>
         </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Stage__c</field>

@@ -98,6 +98,11 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
+        <application>Conga_Composer_Plus</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Development_Library_Records</application>
         <default>false</default>
         <visible>false</visible>
