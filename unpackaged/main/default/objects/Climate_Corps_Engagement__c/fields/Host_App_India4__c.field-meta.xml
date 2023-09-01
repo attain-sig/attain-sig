@@ -11,11 +11,11 @@
 "&amp;sc0=1" + 
 "&amp;sc1=salesforcefile" + 
 "&amp;contactid=" + Supervisor__c +
-"&amp;qmode=SendEmail" + 
 "&amp;emailtoid=" + Supervisor__c +
-"&amp;emailtemplateid=00X8W000000r2Sl" + 
+"&amp;emailtemplateid=00X7d000001dhuH" + 
 "&amp;emailrelatedtoid=" + Id +
-"&amp;ofn=2024 Climate Corps India Host Online Application"</formula>
+"&amp;ofn=2024 Climate Corps India Host Online Application" + 
+"&amp;qmode=SendEmail"</formula>
     <label>Host App India4</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

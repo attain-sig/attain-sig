@@ -3,7 +3,7 @@
     <fullName>Conga_Composer_Host_App_India4</fullName>
     <availability>online</availability>
     <description>Originally created by Conga Solution Manager. Date of last use of Update Button from Conga Solution record: https://environmentaldefensefund--full--apxtconga4.sandbox.vf.force.com/a1Y7d000004tSvSEAU
-01-Sep-2023 12:28:53 PM</description>
+01-Sep-2023 02:38:01 PM</description>
     <displayType>button</displayType>
     <encodingKey>UTF-8</encodingKey>
     <hasMenubar>false</hasMenubar>
@@ -31,7 +31,6 @@
 &amp;SC0=1
 &amp;SC1=salesforcefile
 &amp;ContactId={!Climate_Corps_Engagement__c.SupervisorId__c}
-&amp;DS7=12
 &amp;EmailToId={!Climate_Corps_Engagement__c.SupervisorId__c}
 &amp;EmailTemplateId=00X8W000000r2Sl
 &amp;EmailRelatedToId={!Climate_Corps_Engagement__c.Id}
