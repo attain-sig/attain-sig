@@ -101,12 +101,19 @@
         <name>AssignDonor_Proxy</name>
         <label>Donor Proxy Assignment</label>
         <locationX>353</locationX>
-        <locationY>1166</locationY>
+        <locationY>1165</locationY>
         <assignmentItems>
             <assignToReference>VColl_OrgRecords</assignToReference>
             <operator>Add</operator>
             <value>
                 <elementReference>Each_Contact</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>OrgCount</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>1</stringValue>
             </value>
         </assignmentItems>
         <connector>
@@ -123,6 +130,13 @@
             <operator>Add</operator>
             <value>
                 <elementReference>Each_Contact_0</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>OrgCount</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>1</stringValue>
             </value>
         </assignmentItems>
         <connector>
@@ -148,7 +162,7 @@
     <assignments>
         <name>EDF_Other_coll_0</name>
         <label>EDF Other coll</label>
-        <locationX>1074</locationX>
+        <locationX>1075</locationX>
         <locationY>1259</locationY>
         <assignmentItems>
             <assignToReference>Vcoll_EDFOther</assignToReference>
@@ -426,19 +440,19 @@
     </decisions>
     <environments>Default</environments>
     <interviewLabel>Event SCREEN Display Other Related Contacts {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Event SCREEN Display Other Related Contacts</label>
+    <label>Screen Flow - Activity - Display Contacts in Name Field</label>
     <loops>
         <name>Each_Contact</name>
         <label>Each Contact</label>
-        <locationX>364</locationX>
-        <locationY>1058</locationY>
+        <locationX>289</locationX>
+        <locationY>1048</locationY>
         <collectionReference>Get_Contacts_for_Event</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
             <targetReference>Constituency_Decision</targetReference>
         </nextValueConnector>
         <noMoreValuesConnector>
-            <targetReference>UpdateEvent</targetReference>
+            <targetReference>Volunteer_on_record</targetReference>
         </noMoreValuesConnector>
     </loops>
     <loops>
@@ -452,7 +466,7 @@
             <targetReference>Constituency_Decision_0</targetReference>
         </nextValueConnector>
         <noMoreValuesConnector>
-            <targetReference>UpdateTask_0</targetReference>
+            <targetReference>Volunteer_on_record_0</targetReference>
         </noMoreValuesConnector>
     </loops>
     <loops>
@@ -982,6 +996,16 @@
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <storeOutputAutomatically>true</storeOutputAutomatically>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>OrgCount</leftValueReference>
+                    <operator>IsNull</operator>
+                    <rightValue>
+                        <booleanValue>false</booleanValue>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
         </fields>
         <showFooter>false</showFooter>
         <showHeader>false</showHeader>
@@ -1297,6 +1321,16 @@
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <storeOutputAutomatically>true</storeOutputAutomatically>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>OrgCount</leftValueReference>
+                    <operator>IsNull</operator>
+                    <rightValue>
+                        <booleanValue>false</booleanValue>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
         </fields>
         <showFooter>false</showFooter>
         <showHeader>false</showHeader>
@@ -1624,6 +1658,16 @@
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <storeOutputAutomatically>true</storeOutputAutomatically>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>OrgCount</leftValueReference>
+                    <operator>IsNull</operator>
+                    <rightValue>
+                        <booleanValue>false</booleanValue>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
         </fields>
         <showFooter>false</showFooter>
         <showHeader>false</showHeader>
@@ -1631,8 +1675,8 @@
     <screens>
         <name>EDF_Other_Display_Screen_0_0_0</name>
         <label>Development Events</label>
-        <locationX>1003</locationX>
-        <locationY>1843</locationY>
+        <locationX>1001</locationX>
+        <locationY>1844</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -1951,6 +1995,16 @@
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <storeOutputAutomatically>true</storeOutputAutomatically>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>OrgCount</leftValueReference>
+                    <operator>IsNull</operator>
+                    <rightValue>
+                        <booleanValue>false</booleanValue>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
         </fields>
         <showFooter>false</showFooter>
         <showHeader>false</showHeader>
@@ -1963,52 +2017,6 @@
         </connector>
     </start>
     <status>Active</status>
-    <subflows>
-        <name>UpdateEvent</name>
-        <label>UpdateEvent</label>
-        <locationX>166</locationX>
-        <locationY>1175</locationY>
-        <connector>
-            <targetReference>Volunteer_on_record</targetReference>
-        </connector>
-        <flowName>Update_Event_with_Staff_Ids_and_Names</flowName>
-        <inputAssignments>
-            <name>EventRecordId</name>
-            <value>
-                <elementReference>V_Event_InputRecord</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <name>StaffIDCollection</name>
-            <value>
-                <elementReference>VColl_EDF_Staff_Alumni</elementReference>
-            </value>
-        </inputAssignments>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </subflows>
-    <subflows>
-        <name>UpdateTask_0</name>
-        <label>Update Task</label>
-        <locationX>772</locationX>
-        <locationY>1392</locationY>
-        <connector>
-            <targetReference>Volunteer_on_record_0</targetReference>
-        </connector>
-        <flowName>Update_Event_with_Staff_Ids_and_Names</flowName>
-        <inputAssignments>
-            <name>StaffIDCollection</name>
-            <value>
-                <elementReference>VColl_EDF_Staff_Alumni</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <name>TaskRecordId</name>
-            <value>
-                <elementReference>V_Task_InputRecord</elementReference>
-            </value>
-        </inputAssignments>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </subflows>
     <variables>
         <name>AssignedToContact</name>
         <dataType>String</dataType>
@@ -2035,6 +2043,14 @@
         <value>
             <stringValue>External Contacts</stringValue>
         </value>
+    </variables>
+    <variables>
+        <description>Number of orgs used for displaying datatable component</description>
+        <name>OrgCount</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
     </variables>
     <variables>
         <name>OrgHeader</name>

@@ -5,7 +5,7 @@
         <name>AddtoRecord</name>
         <label>AddtoRecord</label>
         <locationX>402</locationX>
-        <locationY>242</locationY>
+        <locationY>350</locationY>
         <assignmentItems>
             <assignToReference>IdsText</assignToReference>
             <operator>Add</operator>
@@ -42,7 +42,7 @@
         <name>Assignment_Update</name>
         <label>Assignment Update</label>
         <locationX>50</locationX>
-        <locationY>542</locationY>
+        <locationY>650</locationY>
         <assignmentItems>
             <assignToReference>EventRecordId.Staff_Ids__c</assignToReference>
             <operator>Assign</operator>
@@ -65,7 +65,7 @@
         <name>Task_Assignment_Update</name>
         <label>Task Assignment Update</label>
         <locationX>314</locationX>
-        <locationY>542</locationY>
+        <locationY>650</locationY>
         <assignmentItems>
             <assignToReference>TaskRecordId.Staff_Ids__c</assignToReference>
             <operator>Assign</operator>
@@ -88,7 +88,7 @@
         <name>Event_or_Task</name>
         <label>Event or Task</label>
         <locationX>314</locationX>
-        <locationY>434</locationY>
+        <locationY>542</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Event</name>
@@ -121,6 +121,7 @@
             <label>Task</label>
         </rules>
     </decisions>
+    <description>Added 1 minute wait</description>
     <environments>Default</environments>
     <formulas>
         <name>StaffNameFinal</name>
@@ -133,7 +134,7 @@
         <name>Loop_through_staff</name>
         <label>Loop through staff</label>
         <locationX>314</locationX>
-        <locationY>134</locationY>
+        <locationY>242</locationY>
         <collectionReference>StaffIDCollection</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -166,14 +167,14 @@
         <name>Update_Event</name>
         <label>Update Event</label>
         <locationX>50</locationX>
-        <locationY>650</locationY>
+        <locationY>758</locationY>
         <inputReference>EventRecordId</inputReference>
     </recordUpdates>
     <recordUpdates>
         <name>Update_Task</name>
         <label>Update Task</label>
         <locationX>314</locationX>
-        <locationY>650</locationY>
+        <locationY>758</locationY>
         <inputReference>TaskRecordId</inputReference>
     </recordUpdates>
     <runInMode>SystemModeWithSharing</runInMode>
@@ -181,10 +182,10 @@
         <locationX>188</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Loop_through_staff</targetReference>
+            <targetReference>Wait_for_Amount_of_Time_1</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <name>EventRecordId</name>
         <dataType>SObject</dataType>
@@ -223,4 +224,19 @@
         <isOutput>true</isOutput>
         <objectType>Task</objectType>
     </variables>
+    <waits>
+        <name>Wait_for_Amount_of_Time_1</name>
+        <elementSubtype>WaitDuration</elementSubtype>
+        <label>Wait for Amount of Time 1</label>
+        <locationX>314</locationX>
+        <locationY>134</locationY>
+        <defaultConnectorLabel>Default Path</defaultConnectorLabel>
+        <waitEvents>
+            <conditionLogic>and</conditionLogic>
+            <connector>
+                <targetReference>Loop_through_staff</targetReference>
+            </connector>
+            <label>el_0</label>
+        </waitEvents>
+    </waits>
 </Flow>
