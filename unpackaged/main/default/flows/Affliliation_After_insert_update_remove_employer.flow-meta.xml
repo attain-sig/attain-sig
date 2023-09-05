@@ -5,7 +5,7 @@
         <name>Set_contact_values</name>
         <label>Set contact values</label>
         <locationX>1370</locationX>
-        <locationY>935</locationY>
+        <locationY>863</locationY>
         <assignmentItems>
             <assignToReference>Get_the_Contact_record.Employer_Lookup__c</assignToReference>
             <operator>Assign</operator>
@@ -28,7 +28,7 @@
         <name>Set_contact_values_0</name>
         <label>Set contact values</label>
         <locationX>578</locationX>
-        <locationY>935</locationY>
+        <locationY>863</locationY>
         <assignmentItems>
             <assignToReference>Get_the_Contact_record.Employer_Lookup__c</assignToReference>
             <operator>Assign</operator>
@@ -51,7 +51,7 @@
         <name>Set_contact_values_0_0</name>
         <label>Set contact values</label>
         <locationX>314</locationX>
-        <locationY>935</locationY>
+        <locationY>863</locationY>
         <assignmentItems>
             <assignToReference>Get_the_Contact_record.Employer_Lookup__c</assignToReference>
             <operator>Assign</operator>
@@ -74,7 +74,7 @@
         <name>Set_contact_values_0_0_0</name>
         <label>Set contact values</label>
         <locationX>1106</locationX>
-        <locationY>935</locationY>
+        <locationY>863</locationY>
         <assignmentItems>
             <assignToReference>Get_the_Contact_record.Employer_Lookup__c</assignToReference>
             <operator>Assign</operator>
@@ -97,7 +97,7 @@
         <name>Set_contact_values_0_0_0_0</name>
         <label>Set contact values</label>
         <locationX>50</locationX>
-        <locationY>935</locationY>
+        <locationY>863</locationY>
         <assignmentItems>
             <assignToReference>Get_the_Contact_record.Employer_Lookup__c</assignToReference>
             <operator>Assign</operator>
@@ -120,7 +120,7 @@
         <name>Set_contact_values_0_0_0_0_0</name>
         <label>Set contact values</label>
         <locationX>842</locationX>
-        <locationY>935</locationY>
+        <locationY>863</locationY>
         <assignmentItems>
             <assignToReference>Get_the_Contact_record.Employer_Lookup__c</assignToReference>
             <operator>Assign</operator>
@@ -143,7 +143,7 @@
         <name>Affiliation_Decision</name>
         <label>Affiliation Decision</label>
         <locationX>314</locationX>
-        <locationY>815</locationY>
+        <locationY>755</locationY>
         <defaultConnector>
             <targetReference>Set_contact_values_0</targetReference>
         </defaultConnector>
@@ -183,7 +183,7 @@
         <name>Affiliation_Decision_0</name>
         <label>Affiliation Decision</label>
         <locationX>1106</locationX>
-        <locationY>815</locationY>
+        <locationY>755</locationY>
         <defaultConnector>
             <targetReference>Set_contact_values</targetReference>
         </defaultConnector>
@@ -223,7 +223,7 @@
         <name>Status_Decision</name>
         <label>Status Decision</label>
         <locationX>710</locationX>
-        <locationY>695</locationY>
+        <locationY>647</locationY>
         <defaultConnector>
             <targetReference>Affiliation_Decision_0</targetReference>
         </defaultConnector>
@@ -244,7 +244,8 @@
             <label>Former</label>
         </rules>
     </decisions>
-    <description>FB-1453
+    <description>AB updated to exclude affiliations created via fellow app/host app processes 
+FB-1453
 v5 Optimize flow per FB-1490
 v6 Set Run Order</description>
     <environments>Default</environments>
@@ -273,7 +274,7 @@ v6 Set Run Order</description>
         <name>Get_Most_Recent_Affiliation</name>
         <label>Get Most Recent Affiliation</label>
         <locationX>710</locationX>
-        <locationY>575</locationY>
+        <locationY>539</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Status_Decision</targetReference>
@@ -324,7 +325,7 @@ v6 Set Run Order</description>
         <name>Get_Primary_Affiliation</name>
         <label>Get Primary Affiliation</label>
         <locationX>710</locationX>
-        <locationY>455</locationY>
+        <locationY>431</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Most_Recent_Affiliation</targetReference>
@@ -375,7 +376,7 @@ v6 Set Run Order</description>
         <name>Get_the_Contact_record</name>
         <label>Get the Contact record</label>
         <locationX>710</locationX>
-        <locationY>335</locationY>
+        <locationY>323</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Primary_Affiliation</targetReference>
@@ -396,7 +397,7 @@ v6 Set Run Order</description>
         <name>Update_contact_0</name>
         <label>Update contact</label>
         <locationX>710</locationX>
-        <locationY>1247</locationY>
+        <locationY>1139</locationY>
         <inputReference>Get_the_Contact_record</inputReference>
     </recordUpdates>
     <start>
@@ -407,7 +408,9 @@ v6 Set Run Order</description>
         </connector>
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
 &amp;&amp;
-ispickval({!$Record.Affiliation_Type__c}, &quot;Employer/Employee&quot;)</filterFormula>
+ispickval({!$Record.Affiliation_Type__c}, &quot;Employer/Employee&quot;)
+&amp;&amp;
+{!$Record.Created_From_FellowApp__c} = FALSE</filterFormula>
         <object>npe5__Affiliation__c</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
