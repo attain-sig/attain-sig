@@ -815,6 +815,12 @@
                     <stringValue>All</stringValue>
                 </value>
             </inputParameters>
+            <inputParameters>
+                <name>tableIcon</name>
+                <value>
+                    <stringValue>standard:contact_list</stringValue>
+                </value>
+            </inputParameters>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <storeOutputAutomatically>true</storeOutputAutomatically>
@@ -1138,6 +1144,12 @@
                 <name>columnFlexes</name>
                 <value>
                     <stringValue>All</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>tableIcon</name>
+                <value>
+                    <stringValue>standard:contact_list</stringValue>
                 </value>
             </inputParameters>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>

@@ -2083,6 +2083,10 @@
                         <name>objectName</name>
                         <value />
                     </inputParameters>
+                    <inputParameters>
+                        <name>tableIcon</name>
+                        <value />
+                    </inputParameters>
                     <name>Datatable</name>
                 </fields>
                 <fields>
@@ -2247,6 +2251,10 @@
                     </inputParameters>
                     <inputParameters>
                         <name>objectName</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>tableIcon</name>
                         <value />
                     </inputParameters>
                     <name>Datatable_0_0</name>
