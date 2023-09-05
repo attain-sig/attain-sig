@@ -2,10 +2,47 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>58.0</apiVersion>
     <assignments>
+        <name>Add_Assigned_To_to_Staff</name>
+        <label>Add Assigned To to Staff</label>
+        <locationX>176</locationX>
+        <locationY>1139</locationY>
+        <assignmentItems>
+            <assignToReference>varStaffName</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Get_Assigned_to_Contact.Name</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varStaffName</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>; </stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varConIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Get_Assigned_to_Contact.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varConIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>; </stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Task1</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
         <name>Assign_to_Var</name>
         <label>Assign to Var</label>
         <locationX>264</locationX>
-        <locationY>755</locationY>
+        <locationY>863</locationY>
         <assignmentItems>
             <assignToReference>varConIds</assignToReference>
             <operator>Add</operator>
@@ -42,7 +79,7 @@
         <name>EDF_Staff</name>
         <label>EDF Staff?</label>
         <locationX>396</locationX>
-        <locationY>647</locationY>
+        <locationY>755</locationY>
         <defaultConnector>
             <targetReference>Loop_through_taskrelation</targetReference>
         </defaultConnector>
@@ -81,14 +118,14 @@
         <name>Loop_through_taskrelation</name>
         <label>Loop through taskrelation</label>
         <locationX>176</locationX>
-        <locationY>431</locationY>
+        <locationY>539</locationY>
         <collectionReference>Get_Task_Relations</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
             <targetReference>Get_Contacts</targetReference>
         </nextValueConnector>
         <noMoreValuesConnector>
-            <targetReference>Update_Task1</targetReference>
+            <targetReference>Add_Assigned_To_to_Staff</targetReference>
         </noMoreValuesConnector>
     </loops>
     <processMetadataValues>
@@ -111,10 +148,31 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordLookups>
+        <name>Get_Assigned_to_Contact</name>
+        <label>Get Assigned to Contact</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_through_taskrelation</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Owner:User.User_Contact_ID__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
         <name>Get_Contacts</name>
         <label>Get Contacts</label>
         <locationX>396</locationX>
-        <locationY>539</locationY>
+        <locationY>647</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>EDF_Staff</targetReference>
@@ -138,7 +196,7 @@
         <locationY>323</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Loop_through_taskrelation</targetReference>
+            <targetReference>Get_Assigned_to_Contact</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -156,7 +214,7 @@
         <name>Update_Task1</name>
         <label>Update Task</label>
         <locationX>176</locationX>
-        <locationY>1031</locationY>
+        <locationY>1247</locationY>
         <inputAssignments>
             <field>EDF_Participants__c</field>
             <value>

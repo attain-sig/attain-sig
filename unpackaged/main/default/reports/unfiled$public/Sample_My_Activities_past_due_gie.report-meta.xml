@@ -48,16 +48,16 @@
             <value>Scheduled,Outstanding</value>
         </criteriaItems>
         <criteriaItems>
-            <column>Account.PM_is_Current_User__c</column>
+            <column>Account.Portfolio_Manager__c</column>
             <columnToColumn>false</columnToColumn>
-            <isUnlocked>false</isUnlocked>
+            <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
-            <value>1</value>
+            <value>KC Luce</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
     <format>Tabular</format>
-    <name>My Activities past due</name>
+    <name>Sample - My Activities past due</name>
     <params>
         <name>closed</name>
         <value>all</value>

@@ -2,10 +2,47 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>58.0</apiVersion>
     <assignments>
+        <name>Add_Assigned_To</name>
+        <label>Add Assigned To</label>
+        <locationX>176</locationX>
+        <locationY>1139</locationY>
+        <assignmentItems>
+            <assignToReference>varStaffNames</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Get_Assigned_To_Contact.Name</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varStaffNames</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>; </stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varStaffIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Owner:User.User_Contact_ID__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varStaffIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>; </stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Event</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
         <name>Assign_to_var</name>
         <label>Assign to var</label>
         <locationX>264</locationX>
-        <locationY>755</locationY>
+        <locationY>863</locationY>
         <assignmentItems>
             <assignToReference>varStaffIds</assignToReference>
             <operator>Add</operator>
@@ -42,7 +79,7 @@
         <name>EDF_Staff</name>
         <label>EDF Staff?</label>
         <locationX>396</locationX>
-        <locationY>647</locationY>
+        <locationY>755</locationY>
         <defaultConnector>
             <targetReference>Loop_Through_Event_Relations</targetReference>
         </defaultConnector>
@@ -76,14 +113,14 @@
         <name>Loop_Through_Event_Relations</name>
         <label>Loop Through Event Relations</label>
         <locationX>176</locationX>
-        <locationY>431</locationY>
+        <locationY>539</locationY>
         <collectionReference>Get_Event_Relations</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
             <targetReference>Get_Contact</targetReference>
         </nextValueConnector>
         <noMoreValuesConnector>
-            <targetReference>Update_Event</targetReference>
+            <targetReference>Add_Assigned_To</targetReference>
         </noMoreValuesConnector>
     </loops>
     <processMetadataValues>
@@ -106,10 +143,31 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordLookups>
+        <name>Get_Assigned_To_Contact</name>
+        <label>Get Assigned To Contact</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Loop_Through_Event_Relations</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Owner:User.User_Contact_ID__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
         <name>Get_Contact</name>
         <label>Get Contact</label>
         <locationX>396</locationX>
-        <locationY>539</locationY>
+        <locationY>647</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>EDF_Staff</targetReference>
@@ -133,7 +191,7 @@
         <locationY>323</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Loop_Through_Event_Relations</targetReference>
+            <targetReference>Get_Assigned_To_Contact</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -151,7 +209,7 @@
         <name>Update_Event</name>
         <label>Update Event</label>
         <locationX>176</locationX>
-        <locationY>1031</locationY>
+        <locationY>1247</locationY>
         <inputAssignments>
             <field>EDF_Participants__c</field>
             <value>
