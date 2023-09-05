@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
         <help><!-- Used for donors/board members who participate in a meeting but are acting on behalf of EDF. --></help>
-        <label><!-- Volunteer --></label>
+        <label><!-- Primary Volunteer --></label>
         <name>Volunteer__c</name>
         <relationshipLabel><!-- Activities (Volunteer) --></relationshipLabel>
     </CustomFieldTranslation>

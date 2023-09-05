@@ -5,7 +5,7 @@
     <description>Contact lookup. Used for donors/board members who participate in a meeting but are acting on behalf of EDF.</description>
     <externalId>false</externalId>
     <inlineHelpText>Used for donors/board members who participate in a meeting but are acting on behalf of EDF.</inlineHelpText>
-    <label>Volunteer</label>
+    <label>Primary Volunteer</label>
     <referenceTo>Contact</referenceTo>
     <relationshipLabel>Activities (Volunteer)</relationshipLabel>
     <relationshipName>Activities_Vol</relationshipName>
