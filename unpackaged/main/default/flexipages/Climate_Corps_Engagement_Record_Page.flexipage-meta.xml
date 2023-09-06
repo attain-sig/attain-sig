@@ -30,6 +30,12 @@
                         <valueListItems>
                             <value>CustomButton.Climate_Corps_Engagement__c.Conga_Composer_Host_App_India4</value>
                         </valueListItems>
+                        <valueListItems>
+                            <value>Climate_Corps_Engagement__c.Host_Application_Accepted</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Climate_Corps_Engagement__c.Host_Application_Rejected</value>
+                        </valueListItems>
                     </valueList>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
@@ -681,6 +687,16 @@
                         <rightValue>Engagement Confirmed</rightValue>
                     </criteria>
                 </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Rejection_Email_Templet__c</fieldItem>
+                <identifier>RecordRejection_Email_Templet_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-584910d8-69a1-48ce-a748-1b68128fbc48</name>

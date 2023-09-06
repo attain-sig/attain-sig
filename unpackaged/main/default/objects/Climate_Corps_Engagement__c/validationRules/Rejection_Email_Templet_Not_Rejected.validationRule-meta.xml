@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejection_Email_Templet_Not_Rejected</fullName>
+    <active>true</active>
+    <description>If the stage is changed to not be rejected, then the field must be Null.</description>
+    <errorConditionFormula>Not(Ispickval(Stage__c, "Host Application Rejected"))&amp;&amp; Not(ISPICKVAL( Rejection_Email_Templet__c , ""))</errorConditionFormula>
+    <errorDisplayField>Rejection_Email_Templet__c</errorDisplayField>
+    <errorMessage>Stage is not "Host Application Rejected", please select "None" or change stage back to "Host Application Rejected".</errorMessage>
+</ValidationRule>
