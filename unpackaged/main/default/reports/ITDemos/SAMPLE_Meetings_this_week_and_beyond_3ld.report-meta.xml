@@ -65,7 +65,7 @@
         <field>Account.Account_Primary_Handler__c</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>SAMPLE - Meetings this week and beyond</name>
+    <name>DEV - Meetings this week and beyond</name>
     <params>
         <name>closed</name>
         <value>all</value>

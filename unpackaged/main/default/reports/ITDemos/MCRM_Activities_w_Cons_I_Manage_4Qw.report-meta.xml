@@ -36,7 +36,7 @@
         <language>en_US</language>
     </filter>
     <format>Tabular</format>
-    <name>MCRM - Activities w/ Cons I Manage</name>
+    <name>Sample - MCRM - Activities w/ my cons</name>
     <params>
         <name>co</name>
         <value>1</value>

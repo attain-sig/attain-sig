@@ -90,7 +90,7 @@
         <field>SUBJECT</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
-    <name>SAMPLE - Steve Hamburg - Dev Meetings</name>
+    <name>DEV- Steve Hamburg - Dev Meetings</name>
     <params>
         <name>closed</name>
         <value>all</value>
