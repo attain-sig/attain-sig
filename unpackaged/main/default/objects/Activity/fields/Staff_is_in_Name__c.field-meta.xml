@@ -4,6 +4,6 @@
     <externalId>false</externalId>
     <formula>CONTAINS( Staff_Ids__c, $User.User_Contact_ID__c) ||  Owner:User.Id =  $User.Id</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-    <label>Staff is in Name</label>
+    <label>Staff is Viewer</label>
     <type>Checkbox</type>
 </CustomField>

@@ -1460,6 +1460,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.Staff_is_in_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Listing__c.Account__c</field>
         <readable>true</readable>
@@ -2217,6 +2222,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Staging__c.Unidentified_Donor__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.Staff_is_in_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

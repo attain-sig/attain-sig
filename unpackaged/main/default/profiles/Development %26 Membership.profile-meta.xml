@@ -7788,6 +7788,26 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.EDF_Participants__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.Staff_Ids__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.Staff_is_in_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.Volunteer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Event.npsp__Engagement_Plan_Task__c</field>
         <readable>true</readable>
@@ -9343,6 +9363,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.EDF_Participants__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Task.External_ID__c</field>
         <readable>true</readable>
@@ -9518,6 +9543,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.Staff_Ids__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.Staff_is_in_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Task.Stewardship_Lead__c</field>
         <readable>true</readable>
@@ -9535,6 +9570,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.Type</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.Volunteer__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -19614,7 +19654,7 @@
         <layout>Entitlement-Entitlement Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Event-EDF Event Master Layout</layout>
+        <layout>Event-Copy of EDF Event Master Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Event_Invitation__c-EDF Event Attendee Registration</layout>
@@ -20983,6 +21023,7 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>Task.Task_General</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>

@@ -10,6 +10,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.Staff_is_in_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Qualifying_Donation__c.Annual_Match_Lookup__c</field>
         <readable>true</readable>
@@ -62,6 +67,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Qualifying_Donation__c.Stage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.Staff_is_in_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>

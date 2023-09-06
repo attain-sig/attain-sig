@@ -2428,6 +2428,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.Staff_is_in_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Event.Sub_Constituency__c</field>
         <readable>true</readable>
@@ -4215,6 +4220,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.Source_Data_Table__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.Staff_is_in_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

@@ -840,6 +840,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.Staff_is_in_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Event.Volunteer__c</field>
         <readable>true</readable>
@@ -2147,6 +2152,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.EDF_Participants__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.Staff_is_in_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

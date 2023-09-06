@@ -12131,7 +12131,7 @@
         <layout>Entitlement-Entitlement Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Event-EDF Event Master Layout</layout>
+        <layout>Event-Copy of EDF Event Master Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Event_Invitation__c-EDF Event Attendee Registration</layout>
