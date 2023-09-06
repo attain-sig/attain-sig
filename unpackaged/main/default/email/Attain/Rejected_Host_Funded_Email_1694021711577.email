@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<table height="400" style="font-family:arial; text-decoration-thickness:initial; text-decoration-style:initial; text-decoration-color:initial" width="600">
+	
+		<tr>
+			<td aeditid="c1r1" locked="0" style="background-color:#ffffff" teditid="c1r1">Dear&nbsp;{{{Climate_Corps_Engagement__c.Supervisor__c}}},</td>
+		</tr>
+		<tr>
+			<td aeditid="c1r2" locked="0" style="background-color:#ffffff" teditid="c1r2"><br />
+			<span style="font-size:16px"><span style="color:#000000"><span style="font-family:arial"><span style="font-size:12pt">Thank you again for submitting an application to host a Climate Corps fellow in 2023. We are unfortunately unable to accept&nbsp;</span><span style="background-color:#ffffff">{{{Climate_Corps_Engagement__c.Engagement_Account_Name__c}}}</span><span style="font-size:12pt">&nbsp;into the program this year. We had a record number of host applications and sadly had to make some tough decisions and turn many away. We do hope to work with you in the future.</span><br />
+			&nbsp;<br />
+			I’ll be in touch in advance of our 2024 deadline.<br />
+			&nbsp;</span></span></span><br />
+			<br />
+			&nbsp;</td>
+		</tr>
+		<tr>
+			<td aeditid="c1r3" locked="0" style="background-color:#ffffff" teditid="c1r3"><span style="font-size:16px"><span style="color:#000000"><span style="font-family:arial">Best wishes,<br />
+			<span style="background-color:#ffffff">{{{Climate_Corps_Engagement__c.EDF_Project_Manager__c}}}</span></span></span></span></td>
+		</tr>
+	
+</table>
+</body>
+</html>

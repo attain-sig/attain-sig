@@ -38,6 +38,14 @@ Special consideration - see notes --></help>
             <translation><!-- Engagement Confirmed --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Host Application Accepted</masterLabel>
+            <translation><!-- Host Application Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Host Application Rejected</masterLabel>
+            <translation><!-- Host Application Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Interested</masterLabel>
             <translation><!-- Interested --></translation>
         </picklistValues>

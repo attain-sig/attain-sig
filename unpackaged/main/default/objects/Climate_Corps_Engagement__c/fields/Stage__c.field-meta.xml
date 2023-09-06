@@ -97,6 +97,16 @@ Special consideration - see notes</inlineHelpText>
                 <default>false</default>
                 <label>Special Consideration (see notes)</label>
             </value>
+            <value>
+                <fullName>Host Application Accepted</fullName>
+                <default>false</default>
+                <label>Host Application Accepted</label>
+            </value>
+            <value>
+                <fullName>Host Application Rejected</fullName>
+                <default>false</default>
+                <label>Host Application Rejected</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

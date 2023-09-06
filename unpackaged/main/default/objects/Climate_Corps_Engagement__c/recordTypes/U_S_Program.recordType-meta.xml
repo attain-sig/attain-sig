@@ -710,6 +710,14 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Host Application Accepted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Host Application Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Interested</fullName>
             <default>false</default>
         </values>

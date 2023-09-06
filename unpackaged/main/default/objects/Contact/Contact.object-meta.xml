@@ -359,6 +359,19 @@
     </profileSearchLayouts>
     <profileSearchLayouts>
         <fields>FULL_NAME</fields>
+        <fields>Constituency_Text__c</fields>
+        <fields>ACCOUNT.NAME</fields>
+        <fields>Portfolio_Manager__c</fields>
+        <fields>Primary_Handler__c</fields>
+        <fields>Affiliation_Relationship_Manager__c</fields>
+        <fields>Employer_Lookup__c</fields>
+        <fields>Capacity__c</fields>
+        <fields>CONTACT.ADDRESS2_CITY</fields>
+        <fields>CONTACT.ADDRESS2_STATE</fields>
+        <profileName>System Administrator</profileName>
+    </profileSearchLayouts>
+    <profileSearchLayouts>
+        <fields>FULL_NAME</fields>
         <fields>Employer_Lookup__c</fields>
         <fields>Primary_Handler__c</fields>
         <fields>CONTACT.TITLE</fields>
