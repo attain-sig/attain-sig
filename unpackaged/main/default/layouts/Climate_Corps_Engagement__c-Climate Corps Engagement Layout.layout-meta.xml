@@ -602,7 +602,7 @@
     <platformActionList>
         <actionListContext>Record</actionListContext>
         <platformActionListItems>
-            <actionName>Climate_Corps_Engagement__c.Send_Host_App</actionName>
+            <actionName>Climate_Corps_Engagement__c.Host_Recruiting</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>0</sortOrder>
         </platformActionListItems>

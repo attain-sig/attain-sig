@@ -1416,11 +1416,7 @@
         <fullName>Chatter_Notification_to_User</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows>
-            <textTemplates>
-                <name>AcceptedEmailBody</name>
-            </textTemplates>
-        </flows>
+        <flows />
         <fullName>Climate_Core_Engagement_Host_Accept_Reject_Email</fullName>
     </flowDefinitions>
     <flowDefinitions>

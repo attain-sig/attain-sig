@@ -115,8 +115,8 @@
         </sections>
     </layouts>
     <quickActions>
-        <label><!-- Send Host App --></label>
-        <name>Send_Host_App</name>
+        <label><!-- Host Recruiting --></label>
+        <name>Host_Recruiting</name>
     </quickActions>
     <startsWith>Consonant</startsWith>
     <webLinks>
@@ -336,4 +336,9 @@
     
     
     
+    
+    <validationRules>
+        <errorMessage><!-- Please select a Rejection Email Templet. --></errorMessage>
+        <name>Rejection_Email_Templet</name>
+    </validationRules>
 </CustomObjectTranslation>
