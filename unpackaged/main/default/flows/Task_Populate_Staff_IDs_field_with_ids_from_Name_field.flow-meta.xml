@@ -5,19 +5,19 @@
         <name>Add_AssignedToContact</name>
         <label>Add AssignedToContact</label>
         <locationX>176</locationX>
-        <locationY>731</locationY>
+        <locationY>947</locationY>
         <assignmentItems>
             <assignToReference>vColl_WhoID</assignToReference>
             <operator>Add</operator>
             <value>
-                <elementReference>$Record.Owner:User.User_Contact_ID__c</elementReference>
+                <elementReference>Get_Assigned_to_Contact.Id</elementReference>
             </value>
         </assignmentItems>
         <assignmentItems>
             <assignToReference>vColl_WhoID</assignToReference>
             <operator>Add</operator>
             <value>
-                <elementReference>$Record.Volunteer__r.Id</elementReference>
+                <elementReference>Get_Volunteer.Id</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -44,7 +44,7 @@
         <name>Assign_to_Var</name>
         <label>Assign to Var</label>
         <locationX>264</locationX>
-        <locationY>1163</locationY>
+        <locationY>1379</locationY>
         <assignmentItems>
             <assignToReference>varConIds</assignToReference>
             <operator>Add</operator>
@@ -81,7 +81,7 @@
         <name>Constituency_Decision</name>
         <label>Constituency Decision</label>
         <locationX>396</locationX>
-        <locationY>1055</locationY>
+        <locationY>1271</locationY>
         <defaultConnector>
             <targetReference>Loop_contacts</targetReference>
         </defaultConnector>
@@ -98,7 +98,7 @@
             </conditions>
             <conditions>
                 <leftValueReference>Loop_contacts.Constituency__c</leftValueReference>
-                <operator>Contains</operator>
+                <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>EDF Alumni</stringValue>
                 </rightValue>
@@ -127,7 +127,7 @@
         <name>Loop_contacts</name>
         <label>Loop contacts</label>
         <locationX>176</locationX>
-        <locationY>947</locationY>
+        <locationY>1163</locationY>
         <collectionReference>Get_Contacts</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -148,7 +148,7 @@
             <targetReference>Add_to_Collection</targetReference>
         </nextValueConnector>
         <noMoreValuesConnector>
-            <targetReference>Add_AssignedToContact</targetReference>
+            <targetReference>Get_Assigned_to_Contact</targetReference>
         </noMoreValuesConnector>
     </loops>
     <processMetadataValues>
@@ -171,10 +171,31 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordLookups>
+        <name>Get_Assigned_to_Contact</name>
+        <label>Get Assigned to Contact</label>
+        <locationX>176</locationX>
+        <locationY>731</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Volunteer</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Owner:User.User_Contact_ID__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
         <name>Get_Contacts</name>
         <label>Get Contacts</label>
         <locationX>176</locationX>
-        <locationY>839</locationY>
+        <locationY>1055</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Loop_contacts</targetReference>
@@ -212,11 +233,32 @@
         <object>TaskRelation</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
+    <recordLookups>
+        <name>Get_Volunteer</name>
+        <label>Get Volunteer</label>
+        <locationX>176</locationX>
+        <locationY>839</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Add_AssignedToContact</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Volunteer__r.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
     <recordUpdates>
         <name>Update_Task1</name>
         <label>Update Task</label>
         <locationX>176</locationX>
-        <locationY>1439</locationY>
+        <locationY>1655</locationY>
         <inputAssignments>
             <field>EDF_Participants__c</field>
             <value>
@@ -242,7 +284,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>varConIds</name>
         <dataType>String</dataType>

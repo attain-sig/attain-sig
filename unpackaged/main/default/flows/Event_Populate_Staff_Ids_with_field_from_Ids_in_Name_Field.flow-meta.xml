@@ -98,7 +98,7 @@
             </conditions>
             <conditions>
                 <leftValueReference>Loop_Contacts.Constituency__c</leftValueReference>
-                <operator>Contains</operator>
+                <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>EDF Alumni</stringValue>
                 </rightValue>
