@@ -416,7 +416,7 @@
     <decisions>
         <name>Volunteer_on_record_0</name>
         <label>Volunteer on record?</label>
-        <locationX>764</locationX>
+        <locationX>763</locationX>
         <locationY>1526</locationY>
         <defaultConnector>
             <targetReference>Development_Event_0</targetReference>
@@ -426,7 +426,7 @@
             <name>Yes_0</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>Get_Volunteer</leftValueReference>
+                <leftValueReference>Get_Volunteer_0</leftValueReference>
                 <operator>IsNull</operator>
                 <rightValue>
                     <booleanValue>false</booleanValue>
@@ -2028,7 +2028,7 @@
             <targetReference>Task_or_Event</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>AssignedToContact</name>
         <dataType>String</dataType>
