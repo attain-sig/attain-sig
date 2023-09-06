@@ -16,6 +16,6 @@
     <protected>false</protected>
     <showsLocation>false</showsLocation>
     <showsStatus>false</showsStatus>
-    <url>https://composer.congamerge.com?SessionId={!$Api.Session_ID}&amp;ServerUrl={!$Api.Partner_Server_URL_210}&amp;uiscreen=setup</url>
+    <url>https://composer.congamerge.com?SessionId={!$Api.Session_ID}&amp;ServerUrl={!$Api.Partner_Server_URL_520}&amp;uiscreen=setup</url>
     <width>1024</width>
 </CustomPageWebLink>

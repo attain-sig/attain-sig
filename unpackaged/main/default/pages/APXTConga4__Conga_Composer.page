@@ -1,5 +1,20 @@
 <apex:page controller="APXTConga4.ComposerPageController" showHeader="{!showHeader}" sidebar="{!showSidebar}" standardStylesheets="false" applyBodyTag="false">
     <body>
+        <script>
+            // this following script is to validate all the queryString parameters and make sure no Cross-Site Scripting is included
+            var urlParams = {};
+            window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(str, key, value) {
+                urlParams[decodeURIComponent(key)] = decodeURIComponent(value);
+            });
+            var params = Object.keys(urlParams).map(function(key) {
+                return key + ':' + urlParams[key];
+            }).join(',');
+            if (params.indexOf('<script>') !== -1 || params.indexOf('{!'</'}' + 'script>') !== -1) {
+                alert("Some Composer parameters contain <script> tags, and they are not allowed.");
+                window.stop();
+            } 
+        </script>
+
         <!-- Canvas Object -->
         <apex:canvasApp namespacePrefix="{!JSENCODE(namespace)}"
         developerName="{!devName}"
@@ -8,8 +23,10 @@
         onCanvasAppError="done"
         onCanvasAppLoad="done"
         parameters="{!Parameters}" />
+        
         <!-- Custom Loading splash screen -->
         <apex:includeScript value="{!URLFOR($Resource.APXTConga4__ComposerResources,'apxt-bootstrapper.js')}" /> 
+        
         <script>
             var cnvs = null;
             function hideLdr(){

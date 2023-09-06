@@ -126,12 +126,16 @@
             <script>
                 // global namespace and assign URL parameters
                 window.APP_CONGA_CKEDITOR = {
-                    congaEmailData: {},
-                    operationId:'{!JSENCODE($CurrentPage.parameters.opid)}',
-                    isCommunityUsage: '{!JSENCODE($CurrentPage.parameters.isCommunityUsage)}',
-                    searchResults: {},
-                    refreshToken: '{!JSENCODE($CurrentPage.parameters.refreshToken)}',
-                    accessToken: '{!JSENCODE($CurrentPage.parameters.accessToken)}'
+                      congaEmailData: {}
+                    , operationId:'{!JSENCODE($CurrentPage.parameters.opid)}'
+                    , isCommunityUsage: '{!JSENCODE($CurrentPage.parameters.isCommunityUsage)}'
+                    , searchResults: {}
+                    , refreshToken: '{!JSENCODE($CurrentPage.parameters.refreshToken)}'
+                    , accessToken: '{!JSENCODE($CurrentPage.parameters.accessToken)}'
+                    , recordPageUrl: '{!JSENCODE($CurrentPage.parameters.recordPageUrl)}'
+                    , congaAuthAccessType: '{!JSENCODE($CurrentPage.parameters.congaAuthAccessType)}'
+                    , congaAuthAccessKey: '{!JSENCODE($CurrentPage.parameters.congaAuthAccessKey)}'
+                    , congaAuthAccessToken: '{!JSENCODE($CurrentPage.parameters.congaAuthAccessToken)}'
                 };
             </script>
             <script src="{!URLFOR($Resource.jQuery, 'jquery.min.js')}"></script>
