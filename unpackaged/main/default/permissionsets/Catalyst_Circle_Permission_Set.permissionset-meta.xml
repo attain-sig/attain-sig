@@ -3949,10 +3949,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>APXTConga4__ReassignWhatId2TestClass</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>APXTConga4__RedirectPageController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
