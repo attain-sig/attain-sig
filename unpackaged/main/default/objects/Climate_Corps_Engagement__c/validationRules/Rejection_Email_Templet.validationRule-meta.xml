@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Rejection_Email_Templet</fullName>
-    <active>true</active>
-    <errorConditionFormula>Ispickval(Stage__c, "Host Application Rejected")&amp;&amp;  ISPICKVAL( Rejection_Email_Templet__c , "")</errorConditionFormula>
-    <errorDisplayField>Rejection_Email_Templet__c</errorDisplayField>
-    <errorMessage>Please select a Rejection Email Templet.</errorMessage>
-</ValidationRule>

@@ -159,13 +159,14 @@
         <name>U_S_Program</name>
     </recordTypes>
     <validationRules>
-        <errorMessage><!-- Please select a Rejection Email Templet. --></errorMessage>
-        <name>Rejection_Email_Templet</name>
+        <errorMessage><!-- Please select a Rejection Email Template. --></errorMessage>
+        <name>Rejection_Email_Template</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- Stage is not &quot;Host Application Rejected&quot;, please select &quot;None&quot; or change stage back to &quot;Host Application Rejected&quot;. --></errorMessage>
-        <name>Rejection_Email_Templet_Not_Rejected</name>
+        <name>Rejection_Email_Template_Not_Rejected</name>
     </validationRules>
+    
     
     
     

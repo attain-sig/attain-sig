@@ -626,11 +626,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Climate_Corps_Engagement__c.Rejection_Email_Templet__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Relationship_Strength_At_End_of_Fellowsh__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -832,6 +827,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Zero_Emission_vehicles_rectifications__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.rejection_email_template__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

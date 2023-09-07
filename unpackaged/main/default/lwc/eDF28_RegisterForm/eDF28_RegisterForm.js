@@ -163,7 +163,8 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
         this.emailExistsUserCreated = false;
         this.emailDoesNotExists = false;
         this.showSpinner(true);
-        if (this.emailAddressValue != undefined && this.emailAddressValue != '' && this.validateEmail(this.emailAddressValue)) {
+        if (this.emailAddressValue != undefined && this.emailAddressValue != '' && this.validateEmail(this.emailAddressValue) && this.selectedFellowship != '') {
+            console.log('Inside If');
             emailExistenceCheck({ email: this.emailAddressValue, fellowship: this.selectedFellowship })
                 .then(result => {
                     console.log('inside success'+JSON.stringify(result));
@@ -190,7 +191,28 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
                     this.showSpinner(false);
                 });
 
-        } else {
+        }
+        else if (this.selectedFellowship == '') {
+            console.log('Inside Else If');
+            this.showSpinner(false);
+            const event = new ShowToastEvent({
+                mode: 'sticky',
+                variant: 'error',
+                title: 'Error',
+                message: 'Please select all fields',
+            });
+            this.dispatchEvent(event);
+            this.dispatchEvent(
+                new ShowToastEvent({
+                    title: 'titleTxt',
+                    message: 'msgTxt',
+                    variant: 'error',
+                    mode: 'dismissible'
+                })
+            );
+        }
+        else {
+            console.log('Inside Else');
             this.showSpinner(false);
             const event = new ShowToastEvent({
                 mode: 'sticky',
@@ -388,6 +410,7 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
 
     connectedCallback() {
         this.fellowshipArr = this.fellowships.split('|');
+        // this.fellowshipArr = ['', ...this.fellowshipArr];
     }
 
     showToast(titleTxt, variantType, msgTxt) {

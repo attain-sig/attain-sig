@@ -20,19 +20,12 @@
                                     <input required type="email" id="text-input-id-5" data-name="registrationemail" placeholder={placeholderRegEmail} class="slds-input slds-p-top_x-small slds-p-bottom_xx-small" />
                                 </div>
                                 <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_left slds-m-bottom_large">
-                                    <select class="form-control" data-name="registrationfellowship1">
+                                    <select class="form-control" data-name="registrationfellowship" required>
+                                        <option value="">Select your fellowship</option>
                                         <template for:each={fellowshipArr} for:item="fellowship">
                                             <option key={fellowship} value={fellowship}>{fellowship}</option>
                                          </template>
                                     </select>
-                                    <lightning-combobox
-                                        name="registrationfellowship"
-                                        value={fellowship}
-                                        data-name="registrationfellowship"
-                                        placeholder=""
-                                        options={fellowshipArr}
-                                        required>
-                                    </lightning-combobox>
                                 </div>
                             </div>
                             <!--div class="form-group">

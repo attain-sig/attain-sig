@@ -677,17 +677,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>Rejection_Email_Templet__c</picklist>
-        <values>
-            <fullName>Rejected EDF Funded Email</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Rejected Host Funded Email</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>Relationship_Strength_At_End_of_Fellowsh__c</picklist>
         <values>
             <fullName>High</fullName>
@@ -939,6 +928,17 @@
         </values>
         <values>
             <fullName>Warehouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>rejection_email_template__c</picklist>
+        <values>
+            <fullName>Rejected EDF Funded Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected Host Funded Email</fullName>
             <default>false</default>
         </values>
     </picklistValues>
