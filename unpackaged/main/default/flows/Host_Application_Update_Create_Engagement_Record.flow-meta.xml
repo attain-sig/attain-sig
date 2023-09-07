@@ -1631,7 +1631,7 @@ ISPICKVAL({!$Record.Fellowship_Program__c}, &quot;U.S. Fellowship&quot;), &quot;
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <subflows>
         <name>Update_Contact_Affiliations</name>
         <label>Update Contact Affiliations</label>
