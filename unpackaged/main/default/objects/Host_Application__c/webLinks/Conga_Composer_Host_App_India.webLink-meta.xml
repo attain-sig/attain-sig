@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conga_Composer_Host_App_India</fullName>
+    <availability>online</availability>
+    <description>Originally created by Conga Solution Manager. Date of last use of Update Button from Conga Solution record: https://environmentaldefensefund--full--apxtconga4.sandbox.vf.force.com/a1Y7d000004tdABEAY
+07-Sep-2023 01:55:36 PM</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>false</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>660</height>
+    <isResizable>false</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Host App India</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={!API.Partner_Server_URL_520}
+&amp;Id={!Host_Application__c.Id}
+
+&amp;QueryId=[HAPP]0Q_001EAI206976
+
+&amp;TemplateId=0T_023EAI103664
+
+&amp;EmailToId={!Host_Application__c.SupervisorId__c}
+&amp;EmailAdditionalTo={!Host_Application__c.Direct_Supervisor_Email_txt__c},{!Host_Application__c.HR_Contact_Email_txt__c},{!Host_Application__c.High_Level_Sponsor_Email_txt__c}
+&amp;EmailTemplateId=00X7d000001dlktEAA
+&amp;DefaultPDF=1
+&amp;OFN=Host%20App%20Submitted</url>
+    <width>900</width>
+</WebLink>

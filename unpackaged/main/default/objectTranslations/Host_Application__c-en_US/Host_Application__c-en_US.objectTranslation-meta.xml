@@ -56,6 +56,10 @@
         <label><!-- Conga_Composer_Generate_Host_Application --></label>
         <name>Conga_Composer_Generate_Host_Application</name>
     </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Host_App_India --></label>
+        <name>Conga_Composer_Host_App_India</name>
+    </webLinks>
     
     
     
