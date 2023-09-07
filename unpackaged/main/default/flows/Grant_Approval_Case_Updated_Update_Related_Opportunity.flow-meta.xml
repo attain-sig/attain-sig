@@ -8,7 +8,7 @@
         <actionName>SendBetterEmail</actionName>
         <actionType>apex</actionType>
         <connector>
-            <targetReference>Send_Email_Alert_to_ERPSupport_edf_org</targetReference>
+            <targetReference>Opportunity_Record_Type_Decision</targetReference>
         </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
@@ -55,24 +55,6 @@
         </inputParameters>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </actionCalls>
-    <actionCalls>
-        <name>Send_Email_Alert_to_ERPSupport_edf_org</name>
-        <label>Send Email Alert to ERPSupport@edf.org</label>
-        <locationX>182</locationX>
-        <locationY>947</locationY>
-        <actionName>Case.External_Grant_Approval_Email_Alert</actionName>
-        <actionType>emailAlert</actionType>
-        <connector>
-            <targetReference>Opportunity_Record_Type_Decision</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>SObjectRowId</name>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputParameters>
-    </actionCalls>
     <apiVersion>58.0</apiVersion>
     <assignments>
         <name>Set_Owner_Email_to_Group</name>
@@ -116,7 +98,7 @@
             <assignToReference>v_ToEmail</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>ahletts@attainpartners.com</stringValue>
+                <stringValue>hshigenobu@edf.org</stringValue>
             </value>
         </assignmentItems>
         <connector>
@@ -134,7 +116,7 @@
         <name>Opportunity_Record_Type_Decision</name>
         <label>Opportunity Record Type Decision?</label>
         <locationX>182</locationX>
-        <locationY>1055</locationY>
+        <locationY>947</locationY>
         <defaultConnector>
             <targetReference>Update_Opportunity_Fields</targetReference>
         </defaultConnector>
@@ -213,7 +195,7 @@ left({!$Record.Opportunity__r.Account.Name} &amp; &quot; $&quot; &amp; text({!$R
         <name>Get_Record_Type_ID</name>
         <label>Get Record Type ID</label>
         <locationX>50</locationX>
-        <locationY>1163</locationY>
+        <locationY>1055</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Update_Opportunity_Fields_MajorGift</targetReference>
@@ -264,7 +246,7 @@ left({!$Record.Opportunity__r.Account.Name} &amp; &quot; $&quot; &amp; text({!$R
         <name>Update_Opportunity_Fields</name>
         <label>Update Opportunity Fields</label>
         <locationX>314</locationX>
-        <locationY>1163</locationY>
+        <locationY>1055</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -277,6 +259,12 @@ left({!$Record.Opportunity__r.Account.Name} &amp; &quot; $&quot; &amp; text({!$R
             <field>EDF_Role__c</field>
             <value>
                 <elementReference>$Record.EDF_Role__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Grant_Description__c</field>
+            <value>
+                <elementReference>$Record.Purpose__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -345,7 +333,7 @@ left({!$Record.Opportunity__r.Account.Name} &amp; &quot; $&quot; &amp; text({!$R
         <name>Update_Opportunity_Fields_MajorGift</name>
         <label>Update Opportunity Fields</label>
         <locationX>50</locationX>
-        <locationY>1271</locationY>
+        <locationY>1163</locationY>
         <connector>
             <targetReference>Update_Opportunity_Name</targetReference>
         </connector>
@@ -361,6 +349,12 @@ left({!$Record.Opportunity__r.Account.Name} &amp; &quot; $&quot; &amp; text({!$R
             <field>EDF_Role__c</field>
             <value>
                 <elementReference>$Record.EDF_Role__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Grant_Description__c</field>
+            <value>
+                <elementReference>$Record.Purpose__c</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -435,7 +429,7 @@ left({!$Record.Opportunity__r.Account.Name} &amp; &quot; $&quot; &amp; text({!$R
         <name>Update_Opportunity_Name</name>
         <label>Update Opportunity Name</label>
         <locationX>50</locationX>
-        <locationY>1379</locationY>
+        <locationY>1271</locationY>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -475,7 +469,7 @@ ispickval({!$Record.Status}, &quot;Closed - Approved/Resolved&quot;)</filterForm
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <textTemplates>
         <name>tt_Body</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
