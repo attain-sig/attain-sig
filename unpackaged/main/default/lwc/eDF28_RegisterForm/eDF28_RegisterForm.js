@@ -81,7 +81,7 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
 
         if (data) {
              // set the default value
-            this.selectedCountry = '--Select--';
+            this.selectedCountry = '';
             this.countryOptions = []; //Clear list
             for(const list of data){
                 // console.log(list)
@@ -186,7 +186,7 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
 
                 })
                 .catch(error => {
-                    console.log('error==>'+JSON.stringify(result))
+                    console.log('error==>'+JSON.stringify(error))
                     this.showSpinner(false);
                 });
 
@@ -246,36 +246,35 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
     }
 
     handleStates() {
-				if(this.selectedCountry=="United States" || this.selectedCountry=="India" || this.selectedCountry=="China"){
-						this.isDropDownField = true;
-						getStatesByCountry({ countrySelected: this.selectedCountry })
+        if(this.selectedCountry=="United States" || this.selectedCountry=="India" || this.selectedCountry=="China"){
+            this.isDropDownField = true;
+            getStatesByCountry({ countrySelected: this.selectedCountry })
             .then((result) => {
                 console.log('result==>'+ JSON.stringify(result))
-								this.stateOptions = []; //Empty list
-                 // set the default value
-            this.selectedState = '--Select--';
-            for(const list of result){
-                // console.log(list)
-                const option = {
-                    label: list,
-                    value: list
-                };
-                // this.selectOptions.push(option);
-                this.stateOptions = [ ...this.stateOptions, option ];
+                this.stateOptions = []; //Empty list
+                // set the default value
+                this.selectedState = '';
+                for(const list of result){
+                    // console.log(list)
+                    const option = {
+                        label: list,
+                        value: list
+                    };
+                    // this.selectOptions.push(option);
+                    this.stateOptions = [ ...this.stateOptions, option ];
 
-            }
+                }
 
                 this.error = undefined;
             })
             .catch((error) => {
                 this.error = error;
-
             });
-				} else{
-                    this.isDropDownField = false;
-                    this.selectedState = '';
-                }
-
+        }
+        else {
+            this.isDropDownField = false;
+            this.selectedState = '';
+        }
     }
 
     sendEmailWithTempPswd(){
@@ -366,7 +365,7 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
 
                 })
                 .catch(error => {
-                    console.log('error==>'+JSON.stringify(result))
+                    console.log('error==>'+JSON.stringify(error))
                 });
     }
 
