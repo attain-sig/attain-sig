@@ -120,6 +120,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Climate_Corps_Engagement__c.Additional_Emails__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Host_App_India4__c</field>
         <readable>true</readable>
     </fieldPermissions>

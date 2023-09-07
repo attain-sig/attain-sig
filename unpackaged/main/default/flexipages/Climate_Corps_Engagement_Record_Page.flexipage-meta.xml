@@ -28,13 +28,13 @@
                             <value>Clone</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>CustomButton.Climate_Corps_Engagement__c.Conga_Composer_Host_App_India4</value>
-                        </valueListItems>
-                        <valueListItems>
                             <value>Climate_Corps_Engagement__c.Host_Application_Accepted</value>
                         </valueListItems>
                         <valueListItems>
                             <value>Climate_Corps_Engagement__c.Host_Application_Rejected</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>CustomButton.Climate_Corps_Engagement__c.Conga_Composer_Host_App_India5</value>
                         </valueListItems>
                     </valueList>
                 </componentInstanceProperties>
@@ -256,6 +256,16 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Form_Assembly_ID__c</fieldItem>
                 <identifier>RecordForm_Assembly_ID_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Additional_Emails__c</fieldItem>
+                <identifier>RecordAdditional_Emails_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-bc5bdb2c-6583-47af-82b4-c88be5b41095</name>

@@ -36,6 +36,10 @@
                 <behavior>Readonly</behavior>
                 <field>Host_App_India4__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Additional_Emails__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
