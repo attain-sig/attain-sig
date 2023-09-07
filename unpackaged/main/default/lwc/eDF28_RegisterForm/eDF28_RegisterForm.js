@@ -141,6 +141,7 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
         }
         if(event.target.name === "state"){
             this.selectedState = event.detail.value;
+            console.log('this.selectedState ::' + this.selectedState);
         }
         if(event.target.name === "city"){
             this.cityVal = event.detail.value;
@@ -202,14 +203,6 @@ export default class EDF28_RegisterForm extends NavigationMixin(LightningElement
                 message: 'Please select all fields',
             });
             this.dispatchEvent(event);
-            this.dispatchEvent(
-                new ShowToastEvent({
-                    title: 'titleTxt',
-                    message: 'msgTxt',
-                    variant: 'error',
-                    mode: 'dismissible'
-                })
-            );
         }
         else {
             console.log('Inside Else');
