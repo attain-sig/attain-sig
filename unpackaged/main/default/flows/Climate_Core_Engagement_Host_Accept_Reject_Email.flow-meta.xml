@@ -152,7 +152,7 @@
         <name>Rejected_Recipients_Emails</name>
         <label>Rejected Recipients Emails</label>
         <locationX>821</locationX>
-        <locationY>468</locationY>
+        <locationY>469</locationY>
         <assignmentItems>
             <assignToReference>Vcoll_Rejected_RecipientsEmails</assignToReference>
             <operator>Add</operator>
@@ -179,6 +179,13 @@
             <operator>Add</operator>
             <value>
                 <elementReference>$Record.Respondent_Email__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Vcoll_Rejected_RecipientsEmails</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <stringValue>mkodis-npsp@edf.org.npsp.attaindev</stringValue>
             </value>
         </assignmentItems>
         <connector>
@@ -360,7 +367,7 @@ Ispickval({!$Record.Stage__c}, &quot;Host Application Accepted&quot;) || Ispickv
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Draft</status>
     <variables>
         <name>Vcoll_Accepted_RecipentEmailAddresses</name>
         <dataType>String</dataType>
