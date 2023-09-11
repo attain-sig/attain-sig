@@ -34,12 +34,12 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>includes</operator>
-            <value>Proposal Budgets</value>
+            <value>Funder Attachments</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
     <format>Tabular</format>
-    <name>Proposal Budgets</name>
+    <name>Funder Attachments</name>
     <params>
         <name>co</name>
         <value>1</value>
