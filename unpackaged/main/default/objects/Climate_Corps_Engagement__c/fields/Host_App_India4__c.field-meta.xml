@@ -4,7 +4,7 @@
     <externalId>false</externalId>
     <formula>"&amp;solmgr=1" + 
 "&amp;id=" + Id +
-"&amp;queryid=[HostAppIndia]0Q_000EAI882023" + 
+"&amp;queryid=[HostApplication]0Q_000EAI882023" + 
 "&amp;templateid=0T_020EAI426201" + 
 "&amp;defaultpdf=1" + 
 "&amp;fp0=1" + 
@@ -12,9 +12,10 @@
 "&amp;sc1=salesforcefile" + 
 "&amp;contactid=" + Supervisor__c +
 "&amp;emailtoid=" + Supervisor__c +
-"&amp;emailtemplateid=00X7d000001dhuH" + 
+"&amp;emailtemplateid=00X7d000001dlktEAA" + 
 "&amp;emailrelatedtoid=" + Id +
 "&amp;ofn=2024 Climate Corps India Host Online Application" + 
+"&amp;emailadditionalto=" + Additional_Emails__c + 
 "&amp;qmode=SendEmail"</formula>
     <label>Host App India4</label>
     <required>false</required>
