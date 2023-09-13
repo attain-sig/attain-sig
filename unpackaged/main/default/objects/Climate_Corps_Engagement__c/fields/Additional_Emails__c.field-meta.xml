@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Additional_Emails__c</fullName>
     <externalId>false</externalId>
-    <formula>SUBSTITUTE(High_Level_Sponsor__r.Email&amp;","&amp; HR_Contact__r.Email,"+","%2B")</formula>
+    <formula>High_Level_Sponsor__r.Email&amp;","&amp; HR_Contact__r.Email</formula>
     <inlineHelpText>For use with Conga. Allows the + sign to be used inside an email.</inlineHelpText>
     <label>Additional Emails</label>
     <required>false</required>
