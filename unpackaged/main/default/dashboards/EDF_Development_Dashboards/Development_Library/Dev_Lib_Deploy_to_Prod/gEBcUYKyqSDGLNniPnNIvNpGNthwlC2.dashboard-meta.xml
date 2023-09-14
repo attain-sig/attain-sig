@@ -77,7 +77,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties />
                 <header>Library Records Added in Last 7 Days</header>
-                <report>DevelopmentLibraryDemo/Library_Entries_Last_7_Days</report>
+                <report>Dev_Lib_Deploy_to_Prod/Library_Entries_Last_7_Days</report>
             </dashboardComponent>
             <rowIndex>1</rowIndex>
             <rowSpan>8</rowSpan>
@@ -140,7 +140,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties />
                 <header>Library Records Added in Last 30 Days</header>
-                <report>DevelopmentLibraryDemo/Library_Entries_Last_30_Days</report>
+                <report>Dev_Lib_Deploy_to_Prod/Library_Entries_Last_30_Days</report>
             </dashboardComponent>
             <rowIndex>9</rowIndex>
             <rowSpan>8</rowSpan>
@@ -203,7 +203,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties />
                 <header>Library Records Added in Last 120 Days</header>
-                <report>DevelopmentLibraryDemo/Library_Entries_Last_120_Days</report>
+                <report>Dev_Lib_Deploy_to_Prod/Library_Entries_Last_120_Days</report>
             </dashboardComponent>
             <rowIndex>17</rowIndex>
             <rowSpan>8</rowSpan>
@@ -215,7 +215,7 @@
     <isGridLayout>true</isGridLayout>
     
     <textColor>#000000</textColor>
-    <title>Development Library Recently Added</title>
+    <title>Development Library Recently Added (PROD)</title>
     <titleColor>#000000</titleColor>
     <titleSize>12</titleSize>
 </Dashboard>
