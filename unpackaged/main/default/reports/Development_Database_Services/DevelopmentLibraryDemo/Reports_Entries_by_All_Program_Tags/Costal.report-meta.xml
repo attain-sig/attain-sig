@@ -34,12 +34,12 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>includes</operator>
-            <value>Clean Air</value>
+            <value>Coastal</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
     <format>Tabular</format>
-    <name>Costal</name>
+    <name>Coastal</name>
     <params>
         <name>co</name>
         <value>1</value>
