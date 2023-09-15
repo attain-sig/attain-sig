@@ -18,11 +18,13 @@
             <value>
                 <fullName>Art Cooley</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Art Cooley</label>
             </value>
             <value>
                 <fullName>Brenda Mallory</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Brenda Mallory</label>
             </value>
             <value>
@@ -53,6 +55,7 @@
             <value>
                 <fullName>Seema Kakade</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Seema Kakade</label>
             </value>
         </valueSetDefinition>

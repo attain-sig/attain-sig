@@ -7,14 +7,6 @@
             <translation><!-- Alice Hill --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Art Cooley</masterLabel>
-            <translation><!-- Art Cooley --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Brenda Mallory</masterLabel>
-            <translation><!-- Brenda Mallory --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Charles Hamilton</masterLabel>
             <translation><!-- Charles Hamilton --></translation>
         </picklistValues>
@@ -33,9 +25,5 @@
         <picklistValues>
             <masterLabel>Sarah Light</masterLabel>
             <translation><!-- Sarah Light --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Seema Kakade</masterLabel>
-            <translation><!-- Seema Kakade --></translation>
         </picklistValues>
     </CustomFieldTranslation>
