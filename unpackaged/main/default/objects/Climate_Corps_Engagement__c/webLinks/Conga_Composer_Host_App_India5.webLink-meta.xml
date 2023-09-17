@@ -3,7 +3,7 @@
     <fullName>Conga_Composer_Host_App_India5</fullName>
     <availability>online</availability>
     <description>Originally created by Conga Solution Manager. Date of last use of Update Button from Conga Solution record: https://environmentaldefensefund--full--apxtconga4.sandbox.vf.force.com/a1Y7d000004tSvSEAU
-17-Sep-2023 03:57:24 PM</description>
+17-Sep-2023 05:03:38 PM</description>
     <displayType>button</displayType>
     <encodingKey>UTF-8</encodingKey>
     <hasMenubar>false</hasMenubar>
@@ -21,8 +21,6 @@
     <url>/apex/APXTConga4__Conga_Composer?SolMgr=1
 &amp;serverUrl={!API.Partner_Server_URL_520}
 &amp;Id={!Climate_Corps_Engagement__c.Id}
-
-&amp;QueryId=[Engagement]0Q_000EAI882023
 
 &amp;TemplateId=0T_020EAI426201
 
