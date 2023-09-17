@@ -147,6 +147,10 @@
         <label><!-- Conga_Composer_Host_App_India5 --></label>
         <name>Conga_Composer_Host_App_India5</name>
     </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_Host_App_Troubleshoot --></label>
+        <name>Conga_Composer_Host_App_Troubleshoot</name>
+    </webLinks>
     <recordTypes>
         <description><!-- China fellowship program --></description>
         <label><!-- China Program --></label>
