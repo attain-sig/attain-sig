@@ -27,38 +27,6 @@
                 <identifier>force_highlightsPanel</identifier>
             </componentInstance>
         </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>decorate</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>richTextValue</name>
-                    <value>&lt;p&gt;&lt;strong style="font-size: 18px;"&gt;How to process the application: &lt;/strong&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;span style="font-size: 18px;"&gt;Review the details in the "Host Application Fields for Verification" section&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 18px;"&gt;Populate the High Level Sponsor, Direct Supervisor, and HR Contact fields in the Host Information Section if needed (reach out to the SRM team if you can't find the correct contact)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 18px;"&gt;Populate the Fellowship City and State&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 18px;"&gt;Populate the Climate Corps Engagement field&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 18px;"&gt;Update Stage to Reviewed and Accepted&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style="font-size: 18px;"&gt;Done!&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:richText</componentName>
-                <identifier>flexipage_richText</identifier>
-                <visibilityRule>
-                    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
-                    <criteria>
-                        <leftValue>{!Record.Stage__c}</leftValue>
-                        <operator>NE</operator>
-                        <rightValue>Reviewed and Accepted</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!Record.Fellowship_Program__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>India Fellowship</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!Record.Fellowship_Program__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>U.S. Fellowship</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </componentInstance>
-        </itemInstances>
         <mode>Replace</mode>
         <name>header</name>
         <type>Region</type>
