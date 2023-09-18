@@ -14,9 +14,10 @@
 "&amp;emailtoid=" + Supervisor__c +
 "&amp;emailtemplateid=00X7d000001dlktEAA" + 
 "&amp;emailrelatedtoid=" + Id +
-"&amp;ofn=2024 Climate Corps India Host Online Application" + 
+"&amp;ofn=2024+Climate+Corps+India+Host+Application" + 
 "&amp;emailadditionalto=" + Additional_Emails__c + 
-"&amp;qmode=SendEmail"</formula>
+"&amp;qmode=SendEmail" +
+"&amp;EmailFromID=0D28W000000gD0D"</formula>
     <label>Host App India4</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
