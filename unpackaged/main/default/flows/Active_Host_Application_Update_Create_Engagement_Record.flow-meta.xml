@@ -455,6 +455,13 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varEngagement.Headquarters_Address__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Headquarters_Address__c</elementReference>
+            </value>
+        </assignmentItems>
         <connector>
             <targetReference>Check_if_engagement_rec_exists</targetReference>
         </connector>
@@ -1182,7 +1189,7 @@ ISPICKVAL({!$Record.Fellowship_Program__c}, &quot;U.S. Fellowship&quot;), &quot;
 ))</expression>
     </formulas>
     <interviewLabel>[Active] Host Application - Update/Create Engagement Record {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>[Inactive] Host Application - Update/Create Engagement Record</label>
+    <label>[Active] Host Application - Update/Create Engagement Record</label>
     <loops>
         <name>Loop_through_Contacts</name>
         <label>Loop through Contacts</label>

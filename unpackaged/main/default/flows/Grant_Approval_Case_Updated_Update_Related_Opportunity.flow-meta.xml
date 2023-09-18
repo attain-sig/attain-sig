@@ -469,7 +469,7 @@ ispickval({!$Record.Status}, &quot;Closed - Approved/Resolved&quot;)</filterForm
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <name>tt_Body</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>
