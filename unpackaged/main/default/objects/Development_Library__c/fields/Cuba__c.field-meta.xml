@@ -3,7 +3,7 @@
     <fullName>Cuba__c</fullName>
     <defaultValue>false</defaultValue>
     <externalId>false</externalId>
-    <label>Cuba</label>
+    <label>DEL_Cuba</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

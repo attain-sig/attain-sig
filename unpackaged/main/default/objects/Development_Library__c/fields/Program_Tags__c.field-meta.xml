@@ -107,6 +107,11 @@
                 <label>Environmental Justice</label>
             </value>
             <value>
+                <fullName>Europe</fullName>
+                <default>false</default>
+                <label>Europe</label>
+            </value>
+            <value>
                 <fullName>Fisheries</fullName>
                 <default>false</default>
                 <label>Fisheries</label>
