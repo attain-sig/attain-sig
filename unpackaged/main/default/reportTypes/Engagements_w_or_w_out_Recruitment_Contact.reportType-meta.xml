@@ -1841,6 +1841,16 @@
             <field>Additional_Emails__c</field>
             <table>Climate_Corps_Engagement__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Fellowship_Postal_Code__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Respondent_Title__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
         <masterLabel>Climate Corps Engagements</masterLabel>
     </sections>
 </ReportType>

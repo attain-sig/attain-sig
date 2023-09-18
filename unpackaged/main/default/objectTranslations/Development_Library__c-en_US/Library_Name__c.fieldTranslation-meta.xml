@@ -27,14 +27,6 @@
             <translation><!-- Letters of Inquiry --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>PG Time Capsule</masterLabel>
-            <translation><!-- PG Time Capsule --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Planned Giving</masterLabel>
-            <translation><!-- Planned Giving --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Presentations</masterLabel>
             <translation><!-- Presentations --></translation>
         </picklistValues>
@@ -49,13 +41,5 @@
         <picklistValues>
             <masterLabel>Reports</masterLabel>
             <translation><!-- Reports --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Salesforce Instructional</masterLabel>
-            <translation><!-- Salesforce Instructional --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Talking Points</masterLabel>
-            <translation><!-- Talking Points --></translation>
         </picklistValues>
     </CustomFieldTranslation>

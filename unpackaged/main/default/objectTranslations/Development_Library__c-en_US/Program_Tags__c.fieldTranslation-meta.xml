@@ -11,6 +11,10 @@
             <translation><!-- Agriculture --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Aquaculture</masterLabel>
+            <translation><!-- Aquaculture --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Aviation</masterLabel>
             <translation><!-- Aviation --></translation>
         </picklistValues>
@@ -35,12 +39,20 @@
             <translation><!-- Climate --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Climate Corps</masterLabel>
+            <translation><!-- Climate Corps --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Coastal</masterLabel>
             <translation><!-- Coastal --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>DEIJ</masterLabel>
-            <translation><!-- DEIJ --></translation>
+            <masterLabel>Community Engagement</masterLabel>
+            <translation><!-- Community Engagement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEI</masterLabel>
+            <translation><!-- DEI --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Defend Our Future</masterLabel>
@@ -51,8 +63,8 @@
             <translation><!-- EDFBIZ --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Economics (OCE)</masterLabel>
-            <translation><!-- Economics (OCE) --></translation>
+            <masterLabel>Economics</masterLabel>
+            <translation><!-- Economics --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Ecosystems</masterLabel>
@@ -67,8 +79,16 @@
             <translation><!-- Environmental Justice --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Europe</masterLabel>
+            <translation><!-- Europe --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Fisheries</masterLabel>
             <translation><!-- Fisheries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food Systems</masterLabel>
+            <translation><!-- Food Systems --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>General Support</masterLabel>
@@ -111,20 +131,24 @@
             <translation><!-- Natural Climate Solutions --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Oceans</masterLabel>
+            <translation><!-- Oceans --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Political Affairs</masterLabel>
             <translation><!-- Political Affairs --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Science (OCS)</masterLabel>
-            <translation><!-- Science (OCS) --></translation>
+            <masterLabel>Safer Chemicals</masterLabel>
+            <translation><!-- Safer Chemicals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Science</masterLabel>
+            <translation><!-- Science --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Shipping</masterLabel>
             <translation><!-- Shipping --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Toxic Chemicals</masterLabel>
-            <translation><!-- Toxic Chemicals --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Transportation</masterLabel>

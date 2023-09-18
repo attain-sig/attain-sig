@@ -42,16 +42,6 @@
                 <label>Letters of Inquiry</label>
             </value>
             <value>
-                <fullName>PG Time Capsule</fullName>
-                <default>false</default>
-                <label>PG Time Capsule</label>
-            </value>
-            <value>
-                <fullName>Planned Giving</fullName>
-                <default>false</default>
-                <label>Planned Giving</label>
-            </value>
-            <value>
                 <fullName>Presentations</fullName>
                 <default>false</default>
                 <label>Presentations</label>
@@ -72,13 +62,27 @@
                 <label>Reports</label>
             </value>
             <value>
+                <fullName>PG Time Capsule</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PG Time Capsule</label>
+            </value>
+            <value>
+                <fullName>Planned Giving</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Planned Giving</label>
+            </value>
+            <value>
                 <fullName>Salesforce Instructional</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Salesforce Instructional</label>
             </value>
             <value>
                 <fullName>Talking Points</fullName>
                 <default>false</default>
+                <isActive>false</isActive>
                 <label>Talking Points</label>
             </value>
         </valueSetDefinition>

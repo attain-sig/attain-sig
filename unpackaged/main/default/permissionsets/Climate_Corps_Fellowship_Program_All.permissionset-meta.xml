@@ -341,6 +341,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Fellowship_Postal_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Fellowship_Program__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -662,6 +667,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Respondent_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Respondent_Title__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

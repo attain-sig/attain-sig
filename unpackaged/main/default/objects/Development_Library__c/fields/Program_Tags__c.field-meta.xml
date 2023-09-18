@@ -22,6 +22,11 @@
                 <label>Agriculture</label>
             </value>
             <value>
+                <fullName>Aquaculture</fullName>
+                <default>false</default>
+                <label>Aquaculture</label>
+            </value>
+            <value>
                 <fullName>Aviation</fullName>
                 <default>false</default>
                 <label>Aviation</label>
@@ -52,9 +57,19 @@
                 <label>Climate</label>
             </value>
             <value>
+                <fullName>Climate Corps</fullName>
+                <default>false</default>
+                <label>Climate Corps</label>
+            </value>
+            <value>
                 <fullName>Coastal</fullName>
                 <default>false</default>
                 <label>Coastal</label>
+            </value>
+            <value>
+                <fullName>Community Engagement</fullName>
+                <default>false</default>
+                <label>Community Engagement</label>
             </value>
             <value>
                 <fullName>Defend Our Future</fullName>
@@ -62,14 +77,14 @@
                 <label>Defend Our Future</label>
             </value>
             <value>
-                <fullName>DEIJ</fullName>
+                <fullName>DEI</fullName>
                 <default>false</default>
-                <label>DEIJ</label>
+                <label>DEI</label>
             </value>
             <value>
-                <fullName>Economics (OCE)</fullName>
+                <fullName>Economics</fullName>
                 <default>false</default>
-                <label>Economics (OCE)</label>
+                <label>Economics</label>
             </value>
             <value>
                 <fullName>Ecosystems</fullName>
@@ -95,6 +110,11 @@
                 <fullName>Fisheries</fullName>
                 <default>false</default>
                 <label>Fisheries</label>
+            </value>
+            <value>
+                <fullName>Food Systems</fullName>
+                <default>false</default>
+                <label>Food Systems</label>
             </value>
             <value>
                 <fullName>General Support</fullName>
@@ -147,24 +167,29 @@
                 <label>Natural Climate Solutions</label>
             </value>
             <value>
+                <fullName>Oceans</fullName>
+                <default>false</default>
+                <label>Oceans</label>
+            </value>
+            <value>
                 <fullName>Political Affairs</fullName>
                 <default>false</default>
                 <label>Political Affairs</label>
             </value>
             <value>
-                <fullName>Science (OCS)</fullName>
+                <fullName>Safer Chemicals</fullName>
                 <default>false</default>
-                <label>Science (OCS)</label>
+                <label>Safer Chemicals</label>
+            </value>
+            <value>
+                <fullName>Science</fullName>
+                <default>false</default>
+                <label>Science</label>
             </value>
             <value>
                 <fullName>Shipping</fullName>
                 <default>false</default>
                 <label>Shipping</label>
-            </value>
-            <value>
-                <fullName>Toxic Chemicals</fullName>
-                <default>false</default>
-                <label>Toxic Chemicals</label>
             </value>
             <value>
                 <fullName>Transportation</fullName>

@@ -462,6 +462,27 @@
                 <elementReference>$Record.Headquarters_Address__c</elementReference>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varEngagement.Number_of_Fellows_Requested__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Number_of_Fellows_Requested__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varEngagement.Fellowship_Postal_Code__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Zip_Code__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varEngagement.Respondent_Title__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Title_of_Respondent__c</elementReference>
+            </value>
+        </assignmentItems>
         <connector>
             <targetReference>Check_if_engagement_rec_exists</targetReference>
         </connector>
@@ -1155,7 +1176,18 @@
         <name>RM_Assignment</name>
         <dataType>String</dataType>
         <expression>IF(
-ISPICKVAL({!$Record.Fellowship_Program__c}, &quot;U.S. Fellowship&quot;), &quot;0058W000009eyLaQAI&quot;, &quot;0058W000009eyZmQAI&quot;)</expression>
+    ISPICKVAL($Record.Fellowship_Program__c, &quot;U.S. Fellowship&quot;),
+    &quot;0058W000009eyLaQAI&quot;,
+    IF(
+        ISPICKVAL($Record.Fellowship_Program__c, &quot;India Fellowship&quot;),
+        &quot;0058W000009eyYbQAI&quot;,
+        IF(
+            ISPICKVAL($Record.Fellowship_Program__c, &quot;China Fellowship&quot;),
+            &quot;0058W000009eyZmQAI&quot;,
+            &quot;&quot;
+        )
+    )
+)</expression>
     </formulas>
     <formulas>
         <name>Year</name>

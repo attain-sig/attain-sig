@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
         <itemInstances>
@@ -238,16 +238,6 @@
                 <identifier>RecordCreatedByIdField</identifier>
             </fieldInstance>
         </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>readonly</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Tags_Searchable_Text__c</fieldItem>
-                <identifier>RecordTags_Searchable_Text_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
         <name>Facet-1722ca71-4cb9-49e4-acda-ab0899ea3df3</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -260,16 +250,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.LastModifiedById</fieldItem>
                 <identifier>RecordLastModifiedByIdField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Program_Tags_Searchable_Text__c</fieldItem>
-                <identifier>RecordProgram_Tags_Searchable_Text_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-474eec8a-d095-47c5-bed2-7496421ea668</name>

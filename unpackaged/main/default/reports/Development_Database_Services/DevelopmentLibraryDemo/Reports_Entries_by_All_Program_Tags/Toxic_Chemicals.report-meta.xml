@@ -34,7 +34,7 @@
             <columnToColumn>false</columnToColumn>
             <isUnlocked>true</isUnlocked>
             <operator>includes</operator>
-            <value>Toxic Chemicals</value>
+            <value></value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
