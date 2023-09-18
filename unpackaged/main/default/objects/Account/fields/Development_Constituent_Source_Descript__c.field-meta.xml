@@ -4,10 +4,9 @@
     <externalId>false</externalId>
     <inlineHelpText>The details and history of how the constituent was introduced to EDF Development (excludes Membership)</inlineHelpText>
     <label>Development Constituent Source Descript</label>
-    <length>80</length>
-    <required>false</required>
+    <length>2500</length>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
-    <type>Text</type>
-    <unique>false</unique>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
 </CustomField>

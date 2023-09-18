@@ -8,27 +8,27 @@
         <plural>true</plural>
         <value>Partial Soft Credits</value>
     </caseValues>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <nameFieldLabel>Partial Soft Credit Name</nameFieldLabel>
     <startsWith>Consonant</startsWith>
     <webLinks>
         <label><!-- Manage_Soft_Credits --></label>
         <name>npsp__Manage_Soft_Credits</name>
     </webLinks>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </CustomObjectTranslation>

@@ -8,23 +8,6 @@
         <plural>true</plural>
         <value>Crédits indirects partiels</value>
     </caseValues>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <gender>Masculine</gender>
     <nameFieldLabel>Nom du crédit indirect partiel</nameFieldLabel>
     <startsWith>Consonant</startsWith>
@@ -32,4 +15,21 @@
         <label><!-- Manage_Soft_Credits --></label>
         <name>npsp__Manage_Soft_Credits</name>
     </webLinks>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </CustomObjectTranslation>

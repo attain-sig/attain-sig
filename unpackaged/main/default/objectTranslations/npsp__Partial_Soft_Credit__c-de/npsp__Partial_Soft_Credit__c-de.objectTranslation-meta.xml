@@ -40,27 +40,27 @@
         <plural>true</plural>
         <value>Teilweisen Soft Credits</value>
     </caseValues>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <gender>Masculine</gender>
     <nameFieldLabel>Name des teilweisen Soft Credits</nameFieldLabel>
     <webLinks>
         <label><!-- Manage_Soft_Credits --></label>
         <name>npsp__Manage_Soft_Credits</name>
     </webLinks>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </CustomObjectTranslation>

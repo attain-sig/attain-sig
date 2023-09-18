@@ -3,7 +3,7 @@
     <fullName>Probability__c</fullName>
     <description>Heller created 2021</description>
     <externalId>false</externalId>
-    <label>Probability</label>
+    <label>DEL_Probability</label>
     <precision>3</precision>
     <required>false</required>
     <scale>0</scale>
