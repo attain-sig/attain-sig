@@ -16,7 +16,7 @@
             </quickActionLayoutItems>
             <quickActionLayoutItems>
                 <emptySpace>false</emptySpace>
-                <field>rejection_email_template__c</field>
+                <field>Rejection_Email_Template__c</field>
                 <uiBehavior>Required</uiBehavior>
             </quickActionLayoutItems>
         </quickActionLayoutColumns>

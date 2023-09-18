@@ -851,7 +851,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Climate_Corps_Engagement__c.rejection_email_template__c</field>
+        <field>Climate_Corps_Engagement__c.Rejection_Email_Template__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1992,6 +1992,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Host_Application__c.Industry_Classification__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Initials__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

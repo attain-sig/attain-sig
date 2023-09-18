@@ -761,7 +761,7 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.rejection_email_template__c</fieldItem>
+                <fieldItem>Record.Rejection_Email_Template__c</fieldItem>
                 <identifier>RecordRejection_Email_Templet_cField</identifier>
             </fieldInstance>
         </itemInstances>

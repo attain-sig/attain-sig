@@ -3,7 +3,7 @@
     <fullName>Rejection_Email_Template_Not_Rejected</fullName>
     <active>true</active>
     <description>If the stage is changed to not be rejected, then the field must be Null.</description>
-    <errorConditionFormula>Not(Ispickval(Stage__c, "Host Application Rejected"))&amp;&amp; Not(ISPICKVAL( rejection_email_template__c , ""))</errorConditionFormula>
-    <errorDisplayField>rejection_email_template__c</errorDisplayField>
+    <errorConditionFormula>Not(Ispickval(Stage__c, "Host Application Rejected"))&amp;&amp; Not(ISPICKVAL( Rejection_Email_Template__c , ""))</errorConditionFormula>
+    <errorDisplayField>Rejection_Email_Template__c</errorDisplayField>
     <errorMessage>Stage is not "Host Application Rejected", please select "None" or change stage back to "Host Application Rejected".</errorMessage>
 </ValidationRule>

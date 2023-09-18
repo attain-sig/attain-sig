@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please select a Rejection Email Templet. --></help>
+        <label><!-- Rejection Email Template --></label>
+        <name>Rejection_Email_Template__c</name>
+        <picklistValues>
+            <masterLabel>Rejected EDF Funded Email</masterLabel>
+            <translation><!-- Rejected EDF Funded Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected Host Funded Email</masterLabel>
+            <translation><!-- Rejected Host Funded Email --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

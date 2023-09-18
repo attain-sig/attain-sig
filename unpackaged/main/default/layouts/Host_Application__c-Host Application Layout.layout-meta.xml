@@ -51,6 +51,10 @@
                 <behavior>Edit</behavior>
                 <field>HR_Contact_Title__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Initials__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

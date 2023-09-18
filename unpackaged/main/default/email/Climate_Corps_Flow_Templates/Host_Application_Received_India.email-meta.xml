@@ -3,7 +3,7 @@
     <available>true</available>
     <description>Email to host to notify that their application has been received. India fellows.</description>
     <encodingKey>UTF-8</encodingKey>
-    <letterhead>Climate_Corps_Letterhead</letterhead>
+    <letterhead>Blank_Letterhead_no_logo</letterhead>
     <name>Host Application Received - India</name>
     <style>freeForm</style>
     <subject>Climate Corps Application Received</subject>
