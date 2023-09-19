@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- How Will You Onboard The Fellow? --></label>
+        <name>How_Will_You_Onboard_The_Fellow__c</name>
+        <picklistValues>
+            <masterLabel>As a salaried employee</masterLabel>
+            <translation><!-- As a salaried employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As a third-party contractor</masterLabel>
+            <translation><!-- As a third-party contractor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>As an hourly employee</masterLabel>
+            <translation><!-- As an hourly employee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Comment box)</masterLabel>
+            <translation><!-- Other (Comment box) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

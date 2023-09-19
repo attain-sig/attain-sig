@@ -2069,6 +2069,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.How_Are_You_Paying_For_Training__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.How_Will_You_Onboard_The_Fellow__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Climate_Corps_Engagement__c.How_did_we_meet_origin_of_lead__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2370,6 +2380,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Upload_Category__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.When_Will_This_Stipend_Be_Administered__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Which_Holidays_Will_Be_Paid__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

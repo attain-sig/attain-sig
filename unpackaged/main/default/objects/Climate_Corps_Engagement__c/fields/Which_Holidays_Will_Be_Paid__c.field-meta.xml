@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Which_Holidays_Will_Be_Paid__c</fullName>
+    <description>Assuming the fellow is employed by the host at the time of these holidays, which of the following holidays will be paid (check all that apply)?</description>
+    <externalId>false</externalId>
+    <label>Which Holidays Will Be Paid?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Memorial Day</fullName>
+                <default>false</default>
+                <label>Memorial Day</label>
+            </value>
+            <value>
+                <fullName>Juneteenth</fullName>
+                <default>false</default>
+                <label>Juneteenth</label>
+            </value>
+            <value>
+                <fullName>Fourth of July</fullName>
+                <default>false</default>
+                <label>Fourth of July</label>
+            </value>
+            <value>
+                <fullName>Labor Day</fullName>
+                <default>false</default>
+                <label>Labor Day</label>
+            </value>
+            <value>
+                <fullName>None of the above</fullName>
+                <default>false</default>
+                <label>None of the above</label>
+            </value>
+            <value>
+                <fullName>Other (Comment box)</fullName>
+                <default>false</default>
+                <label>Other (Comment box)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

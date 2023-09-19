@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- When Will This Stipend Be Administered? --></label>
+        <name>When_Will_This_Stipend_Be_Administered__c</name>
+        <picklistValues>
+            <masterLabel>Immediately after training week</masterLabel>
+            <translation><!-- Immediately after training week --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Comment box)</masterLabel>
+            <translation><!-- Other (Comment box) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>With the next paycheck</masterLabel>
+            <translation><!-- With the next paycheck --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

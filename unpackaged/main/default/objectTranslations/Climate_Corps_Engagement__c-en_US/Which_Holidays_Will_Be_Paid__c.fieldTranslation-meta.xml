@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Which Holidays Will Be Paid? --></label>
+        <name>Which_Holidays_Will_Be_Paid__c</name>
+        <picklistValues>
+            <masterLabel>Fourth of July</masterLabel>
+            <translation><!-- Fourth of July --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Juneteenth</masterLabel>
+            <translation><!-- Juneteenth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labor Day</masterLabel>
+            <translation><!-- Labor Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Memorial Day</masterLabel>
+            <translation><!-- Memorial Day --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None of the above</masterLabel>
+            <translation><!-- None of the above --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Comment box)</masterLabel>
+            <translation><!-- Other (Comment box) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

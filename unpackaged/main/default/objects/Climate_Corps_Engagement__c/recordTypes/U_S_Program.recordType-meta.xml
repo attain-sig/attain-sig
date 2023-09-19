@@ -391,6 +391,36 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>How_Are_You_Paying_For_Training__c</picklist>
+        <values>
+            <fullName>Additional stipend of %241400</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Start date will be first day of training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>How_Will_You_Onboard_The_Fellow__c</picklist>
+        <values>
+            <fullName>As a salaried employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>As a third-party contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>As an hourly employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other %28Comment box%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>How_did_we_meet_origin_of_lead__c</picklist>
         <values>
             <fullName>Conference %28see conference field%29</fullName>
@@ -780,6 +810,48 @@
         <picklist>Upload_Category__c</picklist>
         <values>
             <fullName>Fellowship</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>When_Will_This_Stipend_Be_Administered__c</picklist>
+        <values>
+            <fullName>Immediately after training week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other %28Comment box%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>With the next paycheck</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Which_Holidays_Will_Be_Paid__c</picklist>
+        <values>
+            <fullName>Fourth of July</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Juneteenth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labor Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memorial Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None of the above</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other %28Comment box%29</fullName>
             <default>false</default>
         </values>
     </picklistValues>

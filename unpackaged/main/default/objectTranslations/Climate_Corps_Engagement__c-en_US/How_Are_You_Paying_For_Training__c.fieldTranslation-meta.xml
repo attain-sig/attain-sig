@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- How Are You Paying For Training? --></label>
+        <name>How_Are_You_Paying_For_Training__c</name>
+        <picklistValues>
+            <masterLabel>Additional stipend of $1400</masterLabel>
+            <translation><!-- Additional stipend of $1400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start date will be first day of training</masterLabel>
+            <translation><!-- Start date will be first day of training --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

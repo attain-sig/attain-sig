@@ -776,6 +776,26 @@
             <field>Respondent_Title__c</field>
             <table>Climate_Corps_Engagement__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>How_Are_You_Paying_For_Training__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>When_Will_This_Stipend_Be_Administered__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>How_Will_You_Onboard_The_Fellow__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Which_Holidays_Will_Be_Paid__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
         <masterLabel>Climate Corps Engagements</masterLabel>
     </sections>
     <sections>

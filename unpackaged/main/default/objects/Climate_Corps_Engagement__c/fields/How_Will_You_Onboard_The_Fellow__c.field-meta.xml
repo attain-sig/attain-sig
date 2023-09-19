@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_Will_You_Onboard_The_Fellow__c</fullName>
+    <externalId>false</externalId>
+    <label>How Will You Onboard The Fellow?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>As an hourly employee</fullName>
+                <default>false</default>
+                <label>As an hourly employee</label>
+            </value>
+            <value>
+                <fullName>As a salaried employee</fullName>
+                <default>false</default>
+                <label>As a salaried employee</label>
+            </value>
+            <value>
+                <fullName>As a third-party contractor</fullName>
+                <default>false</default>
+                <label>As a third-party contractor</label>
+            </value>
+            <value>
+                <fullName>Other (Comment box)</fullName>
+                <default>false</default>
+                <label>Other (Comment box)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
