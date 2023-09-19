@@ -3095,6 +3095,10 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows />
+        <fullName>Opportunity_Contact_Role_Update_Partial_Soft_Credit</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
         <fullName>Opportunity_Create_BEFORE_SAVE_Amount_Values</fullName>
     </flowDefinitions>
     <flowDefinitions>
