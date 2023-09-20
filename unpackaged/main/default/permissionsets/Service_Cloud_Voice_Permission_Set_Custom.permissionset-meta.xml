@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Service Cloud Voice Object Access Permission</description>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Service Cloud Voice - Custom</label>
+    <label>Service Cloud Voice Permission Set - Custom</label>
+    <license>Salesforce</license>
 </PermissionSet>

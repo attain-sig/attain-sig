@@ -550,8 +550,23 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Climate_Corps_Engagement__c.Other_Holiday__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Climate_Corps_Engagement__c.Other_Onboarding__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Other_Project_Category__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Climate_Corps_Engagement__c.Other_Stipend__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

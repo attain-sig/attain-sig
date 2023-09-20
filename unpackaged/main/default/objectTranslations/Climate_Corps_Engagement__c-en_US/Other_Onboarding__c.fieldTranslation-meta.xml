@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This text area is for when Other is chosen for How will you onboard the fellow? --></help>
+        <label><!-- Other Onboarding --></label>
+        <name>Other_Onboarding__c</name>
+    </CustomFieldTranslation>

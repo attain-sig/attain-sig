@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Stipend__c</fullName>
+    <description>This text area is for when Other is chosen for When will this stipend be administered?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This text area is for when Other is chosen for When will this stipend be administered?</inlineHelpText>
+    <label>Other Stipend</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

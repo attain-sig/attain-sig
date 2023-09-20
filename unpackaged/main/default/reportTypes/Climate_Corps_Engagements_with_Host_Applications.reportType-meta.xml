@@ -796,6 +796,21 @@
             <field>Which_Holidays_Will_Be_Paid__c</field>
             <table>Climate_Corps_Engagement__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Other_Stipend__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Other_Holiday__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Other_Onboarding__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
         <masterLabel>Climate Corps Engagements</masterLabel>
     </sections>
     <sections>
