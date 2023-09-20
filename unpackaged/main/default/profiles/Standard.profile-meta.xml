@@ -11622,6 +11622,9 @@
         <layout>User_Story__c-User Story Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>VoiceCall-Voice Call Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>WorkOrder-Work Order Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

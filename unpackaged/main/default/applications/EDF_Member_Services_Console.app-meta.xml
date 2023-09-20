@@ -1541,6 +1541,8 @@
     <tabs>User_Story__c</tabs>
     <tabs>Feedback__c</tabs>
     <tabs>Test_Scripts__c</tabs>
+    <tabs>standard-VoiceCall</tabs>
+    <tabs>standard-OmniSupervisorLightning</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>EDF_Member_Services_Console_UtilityBar</utilityBar>
     <workspaceConfig>
@@ -1575,7 +1577,13 @@
             <tab>standard-Lead</tab>
         </mappings>
         <mappings>
+            <tab>standard-OmniSupervisorLightning</tab>
+        </mappings>
+        <mappings>
             <tab>standard-Opportunity</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-VoiceCall</tab>
         </mappings>
         <mappings>
             <tab>standard-home</tab>

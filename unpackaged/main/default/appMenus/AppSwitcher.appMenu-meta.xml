@@ -304,4 +304,12 @@
         <name>Conga_Composer_Plus</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>ServiceCloudVoice_Connected_App</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>ServiceCloudVoice_Connected_App_for_RestAPI_OAuth</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
 </AppMenu>

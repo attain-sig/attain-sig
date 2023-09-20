@@ -10937,6 +10937,9 @@
         <layout>Stakeholder_Relationship__c-Stakeholder Relationship Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>VoiceCall-Voice Call Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>abacus__Accounting_Field_Mapping__mdt-abacus__Accounting Field Mapping Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
