@@ -4,7 +4,7 @@
     <description>For Feedback Email Alert Flow</description>
     <encodingKey>UTF-8</encodingKey>
     <letterhead>npsp__NPSP_Sample_Letterhead</letterhead>
-    <name>Critical Feedback Notify Heller Lead</name>
+    <name>DEL_Critical Feedback Notify Heller Lead</name>
     <style>freeForm</style>
     <subject>EDF Critical Feedback for Assignment</subject>
     <textOnly>Hello Heller Lead,

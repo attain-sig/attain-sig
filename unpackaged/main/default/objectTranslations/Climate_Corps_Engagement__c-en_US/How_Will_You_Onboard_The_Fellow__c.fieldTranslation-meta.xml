@@ -15,7 +15,7 @@
             <translation><!-- As an hourly employee --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Other (Comment box)</masterLabel>
-            <translation><!-- Other (Comment box) --></translation>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
         </picklistValues>
     </CustomFieldTranslation>

@@ -7,8 +7,8 @@
             <translation><!-- Immediately after training week --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Other (Comment box)</masterLabel>
-            <translation><!-- Other (Comment box) --></translation>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>With the next paycheck</masterLabel>

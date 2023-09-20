@@ -5252,6 +5252,19 @@
         </sections>
     </reportTypes>
     <reportTypes>
+        <description><!-- Voice Call Report --></description>
+        <label><!-- Voice Call Report --></label>
+        <name>Voice_Call_Report</name>
+        <sections>
+            <label><!-- Voice Channel Interaction Detail Events --></label>
+            <name>Voice Channel Interaction Detail Events</name>
+        </sections>
+        <sections>
+            <label><!-- Voice Channel Interaction Events --></label>
+            <name>Voice Channel Interaction Events</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
         <description><!-- iContact Clicked Links (Custom) --></description>
         <label><!-- iContact Clicked Links (Custom) --></label>
         <name>iContactClickedLinksCustom</name>

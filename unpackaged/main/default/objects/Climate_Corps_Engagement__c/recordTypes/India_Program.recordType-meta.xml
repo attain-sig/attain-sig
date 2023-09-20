@@ -416,7 +416,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Other %28Comment box%29</fullName>
+            <fullName>Other</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -824,7 +824,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Other %28Comment box%29</fullName>
+            <fullName>Other</fullName>
             <default>false</default>
         </values>
         <values>
@@ -855,7 +855,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Other %28Comment box%29</fullName>
+            <fullName>Other</fullName>
             <default>false</default>
         </values>
     </picklistValues>

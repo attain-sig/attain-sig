@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
-    <activeVersionNumber>1</activeVersionNumber>
+    <description>HS 9/20/23 deprecated as part of FB-3457
+Email Heller&apos;s Lead Consultant if a Feedback is Critical</description>
+    <masterLabel>Feedback-AFTER SAVE-Critical Email Heller Lead</masterLabel>
 </FlowDefinition>

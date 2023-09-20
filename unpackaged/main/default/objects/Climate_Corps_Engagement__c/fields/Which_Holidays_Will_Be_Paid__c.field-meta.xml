@@ -38,9 +38,9 @@
                 <label>None of the above</label>
             </value>
             <value>
-                <fullName>Other (Comment box)</fullName>
+                <fullName>Other</fullName>
                 <default>false</default>
-                <label>Other (Comment box)</label>
+                <label>Other</label>
             </value>
         </valueSetDefinition>
     </valueSet>
