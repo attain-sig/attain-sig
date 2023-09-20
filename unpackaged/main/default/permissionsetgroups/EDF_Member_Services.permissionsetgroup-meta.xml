@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Provide general permissions for Service Cloud - Agent Users</description>
+    <description>Should be assigned to the whole Member Services team; includes access to Service Cloud functions</description>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>EDF Member Services</label>
+    <label>Member Services</label>
     <status>Updated</status>
 </PermissionSetGroup>

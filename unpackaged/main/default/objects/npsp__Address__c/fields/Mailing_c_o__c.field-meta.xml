@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Mailing_c_o__c</fullName>
+    <description>HS 9/19/23 deprecated per FB-2472</description>
     <externalId>false</externalId>
-    <label>Mailing c/o</label>
+    <label>DEL_Mailing c/o</label>
     <length>50</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
