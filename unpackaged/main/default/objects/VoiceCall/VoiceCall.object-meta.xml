@@ -97,5 +97,5 @@
         <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>QualityScore</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Private</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

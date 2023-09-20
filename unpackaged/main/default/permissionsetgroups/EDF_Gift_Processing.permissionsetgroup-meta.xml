@@ -4,6 +4,7 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>EDF Gift Processing</label>
     <permissionSets>Create_Request_Cases</permissionSets>
+    <permissionSets>Listings_Read_All_Fields</permissionSets>
     <permissionSets>Manage_Challenge_Matches_and_Annual_Challenges</permissionSets>
     <permissionSets>Manage_Gift_Processing_Cases</permissionSets>
     <permissionSets>Manage_Grant_Approvals</permissionSets>
