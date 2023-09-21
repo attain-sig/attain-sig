@@ -371,10 +371,12 @@
         </connector>
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
 &amp;&amp;
-NOT(ISPICKVAL({!$Record.Constituency__c}, &quot;EDFBIZ&quot;))</filterFormula>
+NOT(ISPICKVAL({!$Record.Constituency__c}, &quot;EDFBIZ&quot;))
+&amp;&amp;
+NOT(ISPICKVAL({!$Record.Sub_Constituency__c}, &quot;EDFBIZ - Climate Corps&quot;))</filterFormula>
         <object>Campaign</object>
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
 </Flow>
