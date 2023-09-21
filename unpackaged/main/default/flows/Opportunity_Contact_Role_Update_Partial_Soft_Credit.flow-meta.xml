@@ -1,17 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>54.0</apiVersion>
+    <assignments>
+        <name>Add_loop_to_collection</name>
+        <label>Add loop to collection</label>
+        <locationX>490</locationX>
+        <locationY>863</locationY>
+        <assignmentItems>
+            <assignToReference>UpdateablePSC</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Through_PSCs</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Through_PSCs</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>AssignValues</name>
+        <label>AssignValues</label>
+        <locationX>50</locationX>
+        <locationY>647</locationY>
+        <assignmentItems>
+            <assignToReference>PartialSoftCreditRecord.npsp__Opportunity__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.OpportunityId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>PartialSoftCreditRecord.npsp__Contact__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.ContactId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>PartialSoftCreditRecord.npsp__Amount__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>AmountFormula</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>PartialSoftCreditRecord.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Created from OCR</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>PartialSoftCreditRecord.npsp__Role_Name__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Role</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Create_Related_PSC</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Role</name>
+        <label>Set Role</label>
+        <locationX>490</locationX>
+        <locationY>755</locationY>
+        <assignmentItems>
+            <assignToReference>Through_PSCs.npsp__Role_Name__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Role</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_loop_to_collection</targetReference>
+        </connector>
+    </assignments>
     <decisions>
-        <name>PSC_Change</name>
-        <label>PSC Change</label>
-        <locationX>176</locationX>
-        <locationY>431</locationY>
+        <name>Create_vs_Update</name>
+        <label>Create vs Update</label>
+        <locationX>226</locationX>
+        <locationY>539</locationY>
         <defaultConnector>
-            <targetReference>Delete_Related_PSC</targetReference>
+            <targetReference>Through_PSCs</targetReference>
         </defaultConnector>
-        <defaultConnectorLabel>Delete PSC</defaultConnectorLabel>
+        <defaultConnectorLabel>Update</defaultConnectorLabel>
         <rules>
-            <name>No_PSC</name>
+            <name>Create</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>PSC</leftValueReference>
@@ -20,11 +96,24 @@
                     <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
-            <label>No PSC</label>
+            <connector>
+                <targetReference>AssignValues</targetReference>
+            </connector>
+            <label>Create</label>
         </rules>
+    </decisions>
+    <decisions>
+        <name>PSC_Change</name>
+        <label>PSC Change</label>
+        <locationX>534</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Delete_Related_PSC</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Delete PSC (Not Eligible)</defaultConnectorLabel>
         <rules>
-            <name>Update_PSC</name>
-            <conditionLogic>(1 or 2 or 3 or 4 or 5) and 6</conditionLogic>
+            <name>Create_or_Update_PSC</name>
+            <conditionLogic>(1 OR 2 OR 3 OR 4 OR 5)</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.Role</leftValueReference>
                 <operator>EqualTo</operator>
@@ -60,20 +149,27 @@
                     <stringValue>DAF</stringValue>
                 </rightValue>
             </conditions>
+            <connector>
+                <targetReference>Create_vs_Update</targetReference>
+            </connector>
+            <label>Create or Update PSC (Eligible)</label>
+        </rules>
+        <rules>
+            <name>No_PSC_Exist_Not_Eligible</name>
+            <conditionLogic>and</conditionLogic>
             <conditions>
-                <leftValueReference>$Record.Do_Not_Create_PSC__c</leftValueReference>
-                <operator>EqualTo</operator>
+                <leftValueReference>PSC</leftValueReference>
+                <operator>IsNull</operator>
                 <rightValue>
-                    <booleanValue>false</booleanValue>
+                    <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
-            <connector>
-                <targetReference>Update_Related_PSC</targetReference>
-            </connector>
-            <label>Update PSC</label>
+            <label>No PSC Exist, Not Eligible</label>
         </rules>
     </decisions>
-    <description>Separate flow from FB-3651. Gets PSC from an OCR and updates to match new role. Only updates if the new role is PSC-eligible. If new role is not PSC-eligible or Do Not Create PSC is checked, any matching PSCs will be deleted.</description>
+    <description>Separate flow from FB-3651. Gets PSC from an OCR and updates to match new role. *Only fires on role change. Ignores &quot;do not create PSC&quot; checkbox.*
+
+Only updates if the new role is PSC-eligible. If new role is not PSC-eligible, any matching PSCs will be deleted.</description>
     <environments>Default</environments>
     <formulas>
         <name>AmountFormula</name>
@@ -89,6 +185,20 @@
     </formulas>
     <interviewLabel>Opportunity Contact Role --&gt; Update Partial Soft Credit {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Opportunity Contact Role --&gt; Update Partial Soft Credit</label>
+    <loops>
+        <name>Through_PSCs</name>
+        <label>Through PSCs</label>
+        <locationX>402</locationX>
+        <locationY>647</locationY>
+        <collectionReference>PSC</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Set_Role</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Update_Related_PSC</targetReference>
+        </noMoreValuesConnector>
+    </loops>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -108,17 +218,24 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_Related_PSC</name>
+        <label>Create Related PSC</label>
+        <locationX>50</locationX>
+        <locationY>755</locationY>
+        <inputReference>PartialSoftCreditRecord</inputReference>
+    </recordCreates>
     <recordDeletes>
         <name>Delete_Related_PSC</name>
         <label>Delete Related PSC</label>
-        <locationX>396</locationX>
+        <locationX>842</locationX>
         <locationY>539</locationY>
         <inputReference>PSC</inputReference>
     </recordDeletes>
     <recordLookups>
         <name>PSC</name>
         <label>PSC</label>
-        <locationX>176</locationX>
+        <locationX>534</locationX>
         <locationY>323</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -126,10 +243,17 @@
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>npsp__Contact_Role_ID__c</field>
+            <field>npsp__Contact__c</field>
             <operator>EqualTo</operator>
             <value>
-                <elementReference>f_CaseSafeId</elementReference>
+                <elementReference>$Record.ContactId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>npsp__Opportunity__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.OpportunityId</elementReference>
             </value>
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
@@ -139,18 +263,12 @@
     <recordUpdates>
         <name>Update_Related_PSC</name>
         <label>Update Related PSC</label>
-        <locationX>132</locationX>
-        <locationY>539</locationY>
-        <inputAssignments>
-            <field>npsp__Role_Name__c</field>
-            <value>
-                <elementReference>$Record.Role</elementReference>
-            </value>
-        </inputAssignments>
-        <inputReference>$Record.Related_Partial_Soft_Credit__r</inputReference>
+        <locationX>402</locationX>
+        <locationY>1055</locationY>
+        <inputReference>UpdateablePSC</inputReference>
     </recordUpdates>
     <start>
-        <locationX>50</locationX>
+        <locationX>408</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>PSC</targetReference>
@@ -162,11 +280,19 @@ ISCHANGED({!$Record.Role})</filterFormula>
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>PartialSoftCreditRecord</name>
         <dataType>SObject</dataType>
         <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>npsp__Partial_Soft_Credit__c</objectType>
+    </variables>
+    <variables>
+        <name>UpdateablePSC</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
         <isInput>false</isInput>
         <isOutput>false</isOutput>
         <objectType>npsp__Partial_Soft_Credit__c</objectType>

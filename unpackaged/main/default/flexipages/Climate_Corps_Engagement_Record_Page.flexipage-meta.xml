@@ -524,8 +524,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Which_Holidays_Will_Be_Paid__c</fieldItem>
-                <identifier>RecordWhich_Holidays_Will_Be_Paid_cField</identifier>
+                <fieldItem>Record.When_Will_This_Stipend_Be_Administered__c</fieldItem>
+                <identifier>RecordWhen_Will_This_Stipend_Be_Administered_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -534,8 +534,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.How_Will_You_Onboard_The_Fellow__c</fieldItem>
-                <identifier>RecordHow_Will_You_Onboard_The_Fellow_cField</identifier>
+                <fieldItem>Record.Other_Stipend__c</fieldItem>
+                <identifier>RecordOther_Stipend_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-3ac16a00-a456-4110-afa9-039ca7c909ba</name>
@@ -548,8 +548,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Other_Stipend__c</fieldItem>
-                <identifier>RecordOther_Stipend_cField</identifier>
+                <fieldItem>Record.Which_Holidays_Will_Be_Paid__c</fieldItem>
+                <identifier>RecordWhich_Holidays_Will_Be_Paid_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -560,6 +560,16 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Other_Holiday__c</fieldItem>
                 <identifier>RecordOther_Holiday_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.How_Will_You_Onboard_The_Fellow__c</fieldItem>
+                <identifier>RecordHow_Will_You_Onboard_The_Fellow_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
