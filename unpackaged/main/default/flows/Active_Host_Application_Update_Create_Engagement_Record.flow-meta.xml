@@ -442,13 +442,6 @@
             </value>
         </assignmentItems>
         <assignmentItems>
-            <assignToReference>varEngagement.Other_Fellowship_City_State__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>$Record.Other_Fellowship_City_State__c</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
             <assignToReference>varEngagement.Host_Application__c</assignToReference>
             <operator>Assign</operator>
             <value>

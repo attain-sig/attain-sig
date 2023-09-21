@@ -2,10 +2,10 @@
 <CallCenter xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <adapterUrl>/hvcc/amz/index.html</adapterUrl>
     <contactCenterChannels>
-        <channel>Voice_18003916813</channel>
+        <channel>Voice_18003993156</channel>
     </contactCenterChannels>
     <contactCenterChannels>
-        <channel>Voice_18003993156</channel>
+        <channel>Voice_18003916813</channel>
     </contactCenterChannels>
     <customSettings>{&quot;reqTimeout&quot;:&quot;5000&quot;,&quot;reqStandbyUrl&quot;:&quot;https://domain:port/softphone&quot;,&quot;reqCallCenterType&quot;:&quot;SCVOOTBTelephony&quot;,&quot;reqSoftphoneHeight&quot;:&quot;300&quot;,&quot;reqUseApi&quot;:&quot;true&quot;,&quot;reqSoftphoneWidth&quot;:&quot;500&quot;,&quot;reqSalesforceCompatibilityMode&quot;:&quot;Lightning&quot;}</customSettings>
     <displayName>ServiceCloudVoice</displayName>
