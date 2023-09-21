@@ -5,7 +5,7 @@
         <name>Campaign_Record_Type</name>
         <label>Campaign Record Type</label>
         <locationX>182</locationX>
-        <locationY>575</locationY>
+        <locationY>539</locationY>
         <defaultConnector>
             <targetReference>Create_Opt_Out</targetReference>
         </defaultConnector>
@@ -26,7 +26,7 @@
             <label>Event</label>
         </rules>
     </decisions>
-    <description>Add new Event Campaign statuses per FB-1936</description>
+    <description>Add condition to not make the Member Status creation for EDFBIZ Campaigns</description>
     <environments>Default</environments>
     <interviewLabel>Add Dev Opt Campaign Statuses {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Add Dev Opt Campaign Statuses</label>
@@ -54,7 +54,7 @@
         <name>Create_Cancelled</name>
         <label>Create Cancelled</label>
         <locationX>50</locationX>
-        <locationY>1055</locationY>
+        <locationY>971</locationY>
         <connector>
             <targetReference>Create_Declined</targetReference>
         </connector>
@@ -90,7 +90,7 @@
         <name>Create_Declined</name>
         <label>Create Declined</label>
         <locationX>50</locationX>
-        <locationY>1175</locationY>
+        <locationY>1079</locationY>
         <connector>
             <targetReference>Delete_Responded_Sent_Statuses</targetReference>
         </connector>
@@ -126,7 +126,7 @@
         <name>Create_Invited</name>
         <label>Create Invited</label>
         <locationX>50</locationX>
-        <locationY>935</locationY>
+        <locationY>863</locationY>
         <connector>
             <targetReference>Create_Cancelled</targetReference>
         </connector>
@@ -162,7 +162,7 @@
         <name>Create_Opt_In</name>
         <label>Create Opt In</label>
         <locationX>182</locationX>
-        <locationY>335</locationY>
+        <locationY>323</locationY>
         <connector>
             <targetReference>Create_Special_0</targetReference>
         </connector>
@@ -198,7 +198,7 @@
         <name>Create_Opt_Out</name>
         <label>Create Opt Out</label>
         <locationX>314</locationX>
-        <locationY>695</locationY>
+        <locationY>647</locationY>
         <inputAssignments>
             <field>CampaignId</field>
             <value>
@@ -231,7 +231,7 @@
         <name>Create_Registered_Attended</name>
         <label>Create Registered - Attended</label>
         <locationX>50</locationX>
-        <locationY>695</locationY>
+        <locationY>647</locationY>
         <connector>
             <targetReference>Create_Registered_No_Show</targetReference>
         </connector>
@@ -267,7 +267,7 @@
         <name>Create_Registered_No_Show</name>
         <label>Create Registered - No Show</label>
         <locationX>50</locationX>
-        <locationY>815</locationY>
+        <locationY>755</locationY>
         <connector>
             <targetReference>Create_Invited</targetReference>
         </connector>
@@ -303,7 +303,7 @@
         <name>Create_Special_0</name>
         <label>Create Special</label>
         <locationX>182</locationX>
-        <locationY>455</locationY>
+        <locationY>431</locationY>
         <connector>
             <targetReference>Campaign_Record_Type</targetReference>
         </connector>
@@ -338,7 +338,7 @@
         <name>Delete_Responded_Sent_Statuses</name>
         <label>Delete Responded/Sent Statuses</label>
         <locationX>50</locationX>
-        <locationY>1295</locationY>
+        <locationY>1187</locationY>
         <filterLogic>1 AND (2 or 3)</filterLogic>
         <filters>
             <field>CampaignId</field>
@@ -369,10 +369,12 @@
         <connector>
             <targetReference>Create_Opt_In</targetReference>
         </connector>
-        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE</filterFormula>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+NOT(ISPICKVAL({!$Record.Constituency__c}, &quot;EDFBIZ&quot;))</filterFormula>
         <object>Campaign</object>
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
 </Flow>
