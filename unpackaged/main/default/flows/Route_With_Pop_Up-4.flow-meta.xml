@@ -7,9 +7,6 @@
         <locationY>1058</locationY>
         <actionName>addScreenPop</actionName>
         <actionType>addScreenPop</actionType>
-        <connector>
-            <targetReference>Route_to_Basic_Queue</targetReference>
-        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>screenPop</name>
@@ -21,94 +18,6 @@
             <name>pendingServiceRoutingInteractionInfoInputList</name>
         </inputParameters>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-    </actionCalls>
-    <actionCalls>
-        <description>Route all the Voice Calls to Salesforce SCV Basic Queue</description>
-        <name>Route_to_Basic_Queue</name>
-        <label>Route to Basic Queue</label>
-        <locationX>182</locationX>
-        <locationY>1166</locationY>
-        <actionName>routeWork</actionName>
-        <actionType>routeWork</actionType>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>recordId</name>
-            <value>
-                <elementReference>recordId</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>psrInteractionInfo</name>
-            <value>
-                <elementReference>Pop.routingInteractionInfoList</elementReference>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>serviceChannelId</name>
-            <value>
-                <stringValue>0N98H000000CfvRSAS</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>serviceChannelLabel</name>
-            <value>
-                <stringValue>Phone</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>serviceChannelDevName</name>
-            <value>
-                <stringValue>sfdc_phone</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>routingType</name>
-            <value>
-                <stringValue>QueueBased</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>routingConfigId</name>
-        </inputParameters>
-        <inputParameters>
-            <name>routingConfigLabel</name>
-        </inputParameters>
-        <inputParameters>
-            <name>queueId</name>
-            <value>
-                <stringValue>00G8H000002MKYPUA4</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>agentId</name>
-        </inputParameters>
-        <inputParameters>
-            <name>agentLabel</name>
-        </inputParameters>
-        <inputParameters>
-            <name>queueLabel</name>
-            <value>
-                <stringValue>SCV Basic Queue</stringValue>
-            </value>
-        </inputParameters>
-        <inputParameters>
-            <name>skillOption</name>
-        </inputParameters>
-        <inputParameters>
-            <name>skillRequirementsResourceItem</name>
-        </inputParameters>
-        <inputParameters>
-            <name>botId</name>
-        </inputParameters>
-        <inputParameters>
-            <name>botLabel</name>
-        </inputParameters>
-        <inputParameters>
-            <name>isQueueVariable</name>
-            <value>
-                <booleanValue>false</booleanValue>
-            </value>
-        </inputParameters>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
     <decisions>
@@ -475,7 +384,7 @@
             <targetReference>Get_Contact</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <description>AmazonBasicQueueARN for the given Salesforce Basic Queue</description>
         <name>AmazonBasicQueueARN</name>

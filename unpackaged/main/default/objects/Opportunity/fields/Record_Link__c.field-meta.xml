@@ -3,7 +3,7 @@
     <fullName>Record_Link__c</fullName>
     <description>Used with screen flows that need a separate link</description>
     <externalId>false</externalId>
-    <formula>HYPERLINK("/ "&amp;Id ,  Name, "blank")</formula>
+    <formula>HYPERLINK("/"&amp;Id ,  Name, "blank")</formula>
     <label>Record Link</label>
     <required>false</required>
     <trackHistory>false</trackHistory>
