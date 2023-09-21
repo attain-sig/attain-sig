@@ -240,6 +240,11 @@
                 <default>false</default>
                 <label>Vickie Patton</label>
             </value>
+            <value>
+                <fullName>Will Scott</fullName>
+                <default>false</default>
+                <label>Will Scott</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

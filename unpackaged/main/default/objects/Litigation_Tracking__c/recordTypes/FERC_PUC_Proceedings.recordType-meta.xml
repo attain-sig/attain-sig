@@ -667,6 +667,10 @@
             <fullName>Vickie Patton</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>Will Scott</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Program__c</picklist>

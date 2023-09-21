@@ -186,4 +186,8 @@
             <masterLabel>Vickie Patton</masterLabel>
             <translation><!-- Vickie Patton --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>Will Scott</masterLabel>
+            <translation><!-- Will Scott --></translation>
+        </picklistValues>
     </CustomFieldTranslation>
