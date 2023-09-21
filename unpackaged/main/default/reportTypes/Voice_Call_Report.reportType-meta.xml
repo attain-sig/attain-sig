@@ -5,7 +5,7 @@
     <deployed>true</deployed>
     <description>Report to see Voice Performace Trends</description>
     <join>
-        <outerJoin>false</outerJoin>
+        <outerJoin>true</outerJoin>
         <relationship>VoiceChnlInteractionEvents</relationship>
     </join>
     <label>Voice Call Report</label>

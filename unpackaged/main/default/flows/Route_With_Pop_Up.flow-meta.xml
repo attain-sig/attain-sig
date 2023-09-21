@@ -154,83 +154,6 @@
                 <elementReference>IncomingCallPhoneNumber</elementReference>
             </value>
         </filters>
-        <filters>
-            <field>HomePhone</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>IncomingCallPhoneNumber</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>npe01__WorkPhone__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>IncomingCallPhoneNumber</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>AssistantPhone</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>IncomingCallPhoneNumber</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>npe01__Other_Address__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>IncomingCallPhoneNumber</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>MobilePhone</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>IncomingCallPhoneNumber</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>Phone</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>IncomingCallPhoneNumberWithout1</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>HomePhone</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>IncomingCallPhoneNumberWithout1</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>npe01__WorkPhone__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>IncomingCallPhoneNumberWithout1</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>AssistantPhone</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>IncomingCallPhoneNumberWithout1</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>npe01__Other_Address__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>IncomingCallPhoneNumberWithout1</elementReference>
-            </value>
-        </filters>
-        <filters>
-            <field>MobilePhone</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>IncomingCallPhoneNumberWithout1</elementReference>
-            </value>
-        </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>Contact</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
@@ -244,7 +167,7 @@
             <targetReference>Get_Contact</targetReference>
         </connector>
     </start>
-    <status>Obsolete</status>
+    <status>Draft</status>
     <variables>
         <description>AmazonBasicQueueARN for the given Salesforce Basic Queue</description>
         <name>AmazonBasicQueueARN</name>

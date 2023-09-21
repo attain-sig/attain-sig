@@ -98,7 +98,7 @@
             <assignToReference>v_ToEmail</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>hshigenobu@edf.org</stringValue>
+                <stringValue>ERPSupport@edf.org</stringValue>
             </value>
         </assignmentItems>
         <connector>
@@ -162,6 +162,7 @@
             <label>Owner is User</label>
         </rules>
     </decisions>
+    <description>Setting the email to ERPSupport@edf.org for deployment in the &quot;Set to Email&quot; Element</description>
     <environments>Default</environments>
     <formulas>
         <name>OpportunityNameFormula</name>

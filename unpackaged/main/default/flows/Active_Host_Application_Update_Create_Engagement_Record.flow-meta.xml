@@ -483,6 +483,13 @@
                 <elementReference>$Record.Title_of_Respondent__c</elementReference>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varEngagement.Add_t_Fellowship_Location_Site_Visits__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Add_t_Fellowship_Location_Site_Visits__c</elementReference>
+            </value>
+        </assignmentItems>
         <connector>
             <targetReference>Check_if_engagement_rec_exists</targetReference>
         </connector>

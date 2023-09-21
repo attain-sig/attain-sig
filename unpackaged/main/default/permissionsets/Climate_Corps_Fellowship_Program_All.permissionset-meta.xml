@@ -10,6 +10,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Add_t_Fellowship_Location_Site_Visits__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Additional_Contact_1_Email__c</field>
         <readable>true</readable>
