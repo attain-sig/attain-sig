@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If the host has additional fellowship locations available, or has different site visit locations. --></help>
+        <label><!-- Add&apos;t Fellowship Location/Site Visits --></label>
+        <name>Add_t_Fellowship_Location_Site_Visits__c</name>
+    </CustomFieldTranslation>

@@ -1791,6 +1791,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Host_Application__c.Add_t_Fellowship_Location_Site_Visits__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Host_Application__c.Application_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>

@@ -55,6 +55,10 @@
                 <behavior>Edit</behavior>
                 <field>Initials__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Add_t_Fellowship_Location_Site_Visits__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
