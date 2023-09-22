@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- EDF Participant is Current User --></label>
-        <name>Solicitor_is_Current_User__c</name>
+        <label><!-- Test Phone --></label>
+        <name>Test_Phone__c</name>
     </CustomFieldTranslation>

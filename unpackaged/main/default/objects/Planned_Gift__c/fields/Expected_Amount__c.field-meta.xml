@@ -2,6 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Expected_Amount__c</fullName>
     <externalId>false</externalId>
+    <inlineHelpText>The expected value of the bequest due to EDF</inlineHelpText>
     <label>Expected Amount</label>
     <precision>18</precision>
     <required>false</required>

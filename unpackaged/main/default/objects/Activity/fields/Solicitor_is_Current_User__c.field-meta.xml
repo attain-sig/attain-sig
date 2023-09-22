@@ -7,6 +7,6 @@ TEXT(Solicitor_2__c) = SUBSTITUTE($User.FirstName, " ", "\\") + " " + SUBSTITUTE
 TEXT(Solicitor_3__c) = SUBSTITUTE($User.FirstName, " ", "\\") + " " + SUBSTITUTE($User.LastName, " ", "\\")  || 
 TEXT(Solicitor_4__c) = SUBSTITUTE($User.FirstName, " ", "\\") + " " + SUBSTITUTE($User.LastName, " ", "\\")  || 
 TEXT(Solicitor_5__c) = SUBSTITUTE($User.FirstName, " ", "\\") + " " + SUBSTITUTE($User.LastName, " ", "\\")</formula>
-    <label>Solicitor is Current User</label>
+    <label>EDF Participant is Current User</label>
     <type>Checkbox</type>
 </CustomField>
