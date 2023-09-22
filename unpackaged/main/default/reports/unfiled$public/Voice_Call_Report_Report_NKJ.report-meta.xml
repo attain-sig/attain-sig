@@ -9,13 +9,13 @@
         <useOther>false</useOther>
     </buckets>
     <columns>
+        <field>VoiceChnlInteractionEvent$Context-User</field>
+    </columns>
+    <columns>
         <field>VoiceChnlInteractionEvent.VoiceChnlInteractionEvents$Value</field>
     </columns>
     <columns>
         <field>VoiceChnlInteractionEvent.VoiceChnlInteractionEvents$Message</field>
-    </columns>
-    <columns>
-        <field>VoiceChnlInteractionEvent$Context-User</field>
     </columns>
     <columns>
         <field>VoiceChnlInteractionEvent$SourceType</field>
@@ -24,7 +24,10 @@
         <field>VoiceChnlInteractionEvent$EventTimeStamp</field>
     </columns>
     <columns>
-        <field>BucketField_25762476</field>
+        <field>VoiceChnlInteractionEvent$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>VoiceChnlInteractionEvent.VoiceChnlInteractionEvents$Name</field>
     </columns>
     <format>Summary</format>
     <groupingsDown>
@@ -44,6 +47,6 @@
     <showSubTotals>false</showSubTotals>
     <timeFrameFilter>
         <dateColumn>VoiceChnlInteractionEvent$CreatedDate</dateColumn>
-        <interval>INTERVAL_CURRENT</interval>
+        <interval>INTERVAL_CUSTOM</interval>
     </timeFrameFilter>
 </Report>
