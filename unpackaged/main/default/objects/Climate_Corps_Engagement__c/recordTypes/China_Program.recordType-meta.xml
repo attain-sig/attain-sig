@@ -709,11 +709,11 @@
     <picklistValues>
         <picklist>Rejection_Email_Template__c</picklist>
         <values>
-            <fullName>Rejected EDF Funded Email</fullName>
+            <fullName>Not_in_the_Program</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Rejected Host Funded Email</fullName>
+            <fullName>Unfunded_Project</fullName>
             <default>false</default>
         </values>
     </picklistValues>

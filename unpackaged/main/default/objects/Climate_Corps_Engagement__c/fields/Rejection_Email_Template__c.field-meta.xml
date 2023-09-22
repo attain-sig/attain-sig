@@ -14,14 +14,14 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Rejected EDF Funded Email</fullName>
+                <fullName>Unfunded_Project</fullName>
                 <default>false</default>
-                <label>Rejected EDF Funded Email</label>
+                <label>Unfunded Project</label>
             </value>
             <value>
-                <fullName>Rejected Host Funded Email</fullName>
+                <fullName>Not_in_the_Program</fullName>
                 <default>false</default>
-                <label>Rejected Host Funded Email</label>
+                <label>Not in the Program</label>
             </value>
         </valueSetDefinition>
     </valueSet>

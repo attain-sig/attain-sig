@@ -4,11 +4,11 @@
         <label><!-- Rejection Email Template --></label>
         <name>Rejection_Email_Template__c</name>
         <picklistValues>
-            <masterLabel>Rejected EDF Funded Email</masterLabel>
-            <translation><!-- Rejected EDF Funded Email --></translation>
+            <masterLabel>Not in the Program</masterLabel>
+            <translation><!-- Not in the Program --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Rejected Host Funded Email</masterLabel>
-            <translation><!-- Rejected Host Funded Email --></translation>
+            <masterLabel>Unfunded Project</masterLabel>
+            <translation><!-- Unfunded Project --></translation>
         </picklistValues>
     </CustomFieldTranslation>

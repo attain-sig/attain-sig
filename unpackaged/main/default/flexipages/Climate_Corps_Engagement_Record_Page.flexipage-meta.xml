@@ -7,6 +7,12 @@
                     <name>actionNames</name>
                     <valueList>
                         <valueListItems>
+                            <value>Climate_Corps_Engagement__c.Send_Application_Accepted_Email</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>Climate_Corps_Engagement__c.Send_Application_Declined_Email</value>
+                        </valueListItems>
+                        <valueListItems>
                             <value>Edit</value>
                         </valueListItems>
                         <valueListItems>
@@ -26,12 +32,6 @@
                         </valueListItems>
                         <valueListItems>
                             <value>Clone</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Climate_Corps_Engagement__c.Host_Application_Accepted</value>
-                        </valueListItems>
-                        <valueListItems>
-                            <value>Climate_Corps_Engagement__c.Host_Application_Rejected</value>
                         </valueListItems>
                         <valueListItems>
                             <value>CustomButton.Climate_Corps_Engagement__c.Conga_Composer_Host_App_India5</value>

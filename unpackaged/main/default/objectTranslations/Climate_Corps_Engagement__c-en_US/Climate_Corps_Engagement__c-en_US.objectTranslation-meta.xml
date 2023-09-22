@@ -115,16 +115,16 @@
         </sections>
     </layouts>
     <quickActions>
-        <label><!-- Host Application Accepted --></label>
-        <name>Host_Application_Accepted</name>
-    </quickActions>
-    <quickActions>
-        <label><!-- Host Application Rejected --></label>
-        <name>Host_Application_Rejected</name>
-    </quickActions>
-    <quickActions>
         <label><!-- Host Recruiting --></label>
         <name>Host_Recruiting</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Application Accepted Email --></label>
+        <name>Send_Application_Accepted_Email</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Application Declined Email --></label>
+        <name>Send_Application_Declined_Email</name>
     </quickActions>
     <startsWith>Consonant</startsWith>
     <webLinks>
