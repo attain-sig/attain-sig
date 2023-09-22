@@ -2,7 +2,7 @@
 <head>
 	<title></title>
 </head>
-<body style="height: auto; min-height: auto;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi {{{Climate_Corps_Engagement__c.Supervisor__c}}}, {{{Climate_Corps_Engagement__c.High_Level_Sponsor__c}}}, and {{{Climate_Corps_Engagement__c.HR_Contact__c}}},&nbsp;&nbsp;<br />
+<body style="height: auto; min-height: auto;"><span style="font-family:Arial,Helvetica,sans-serif;">Hi {{{Climate_Corps_Engagement__c.Supervisor__c}}},&nbsp;<br />
 <br />
 Congratulations and welcome to Climate Corps! Together with the whole Climate Corps team, I'm thrilled to share that we are confirming&nbsp;{{{Climate_Corps_Engagement__c.Engagement_Account_Name__c}}}'s participation. We received a record number of host applications and we will be working diligently to ensure that this year is our best year yet. We so appreciate your support in making that happen! I'm happy to have you on board and look forward to an exciting and productive summer.&nbsp;&nbsp;&nbsp;<br />
 &nbsp;&nbsp;<br />

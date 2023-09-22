@@ -3,8 +3,8 @@
     <actionCalls>
         <name>Dedupe_Direct_Supervisor_and_High_Level_Sponsor</name>
         <label>Dedupe Direct Supervisor and High Level Sponsor</label>
-        <locationX>550</locationX>
-        <locationY>864</locationY>
+        <locationX>544</locationX>
+        <locationY>902</locationY>
         <actionName>DedupeRecordCollection</actionName>
         <actionType>apex</actionType>
         <connector>
@@ -154,8 +154,8 @@
     <assignments>
         <name>Collection_of_Direct_Supervisor_and_High_Level_Donor</name>
         <label>Collection of Direct Supervisor and High Level Donor</label>
-        <locationX>540</locationX>
-        <locationY>703</locationY>
+        <locationX>542</locationX>
+        <locationY>759</locationY>
         <assignmentItems>
             <assignToReference>Vcoll_DirectSup_HighlvlSp</assignToReference>
             <operator>Add</operator>
@@ -168,6 +168,13 @@
             <operator>Add</operator>
             <value>
                 <elementReference>Get_High_Level_Sponsor</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Vcoll_DirectSup_HighlvlSp</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Get_HR_contact</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -324,6 +331,7 @@
             <label>EDF Funded</label>
         </rules>
     </decisions>
+    <description>9/22/23- Brett - added HR contact to Dedupe.</description>
     <environments>Default</environments>
     <interviewLabel>Climate Core Engagement Host Accept/Reject Email {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Climate Core Engagement -- Host Accept/Reject Email</label>
@@ -405,8 +413,29 @@
     <recordLookups>
         <name>Get_High_Level_Sponsor</name>
         <label>Get High Level Sponsor</label>
-        <locationX>539</locationX>
-        <locationY>535</locationY>
+        <locationX>538</locationX>
+        <locationY>503</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_HR_contact</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.High_Level_Sponsor__r.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_HR_contact</name>
+        <label>Get HR contact</label>
+        <locationX>538</locationX>
+        <locationY>637</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Collection_of_Direct_Supervisor_and_High_Level_Donor</targetReference>
@@ -416,7 +445,7 @@
             <field>Id</field>
             <operator>EqualTo</operator>
             <value>
-                <elementReference>$Record.High_Level_Sponsor__r.Id</elementReference>
+                <elementReference>$Record.HR_Contact__r.Id</elementReference>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
