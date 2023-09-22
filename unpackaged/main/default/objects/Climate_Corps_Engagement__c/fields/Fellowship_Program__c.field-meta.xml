@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Fellowship_Program__c</fullName>
+    <defaultValue>If( $RecordType.DeveloperName   =  "U.S. Program", "U.S. Fellowship",
+
+If( $RecordType.DeveloperName   =  "India Program", "India Fellowship",
+
+If( $RecordType.DeveloperName   =  "China Program", "China Fellowship",NULL
+)
+)
+)</defaultValue>
     <externalId>false</externalId>
     <label>Fellowship Program</label>
     <required>false</required>

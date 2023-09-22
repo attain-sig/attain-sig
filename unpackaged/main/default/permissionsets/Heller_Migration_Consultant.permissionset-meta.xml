@@ -1039,11 +1039,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.npo02__AverageAmount__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Account.npo02__Best_Gift_Year_Total__c</field>
         <readable>true</readable>
     </fieldPermissions>

@@ -624,11 +624,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Account.npo02__AverageAmount__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Account.npo02__FirstCloseDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -675,11 +670,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.npo02__OppAmountLastNDays__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.npo02__OppAmountLastYear__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
