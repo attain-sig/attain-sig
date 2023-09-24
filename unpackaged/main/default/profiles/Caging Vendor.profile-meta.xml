@@ -4003,11 +4003,6 @@
     </externalDataSourceAccesses>
     <fieldPermissions>
         <editable>true</editable>
-        <field>APXTConga4__Composer_Host_Override__c.APXTConga4__Hostname__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>APXTConga4__Composer_QuickMerge__c.APXTConga4__Conga_Solution__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4118,11 +4113,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>APXTConga4__Conga_Email_Template__c.APXTConga4__Key__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>APXTConga4__Conga_Email_Template__c.APXTConga4__Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4144,11 +4134,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>APXTConga4__Conga_Merge_Query__c.APXTConga4__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>APXTConga4__Conga_Merge_Query__c.APXTConga4__Key__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4408,11 +4393,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>APXTConga4__Conga_Template__c.APXTConga4__Key__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>APXTConga4__Conga_Template__c.APXTConga4__Label_Template_Use_Detail_Data__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4624,11 +4604,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Action_Code__c.Legacy_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Annual_Match__c.Portfolio_Manager__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -5454,11 +5429,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.npsp__CompanyStreet__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Legacy_Batch__c.Total_Amount__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -6294,16 +6264,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Planned_Gift__c.Date_Legacy_Proposal_Sent__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Projection__c.Amount__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Q9__Batch_Helper__c.Q9__Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
