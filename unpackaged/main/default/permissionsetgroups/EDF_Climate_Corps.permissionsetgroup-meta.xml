@@ -8,5 +8,5 @@
     <permissionSets>Manage_external_community_users</permissionSets>
     <permissionSets>User_Stories_Testing_Scripts_and_Feedback_ReadOnly_Build</permissionSets>
     <permissionSets>sortablegrid__View_Sortable_Data_Grids</permissionSets>
-    <status>Outdated</status>
+    <status>Updated</status>
 </PermissionSetGroup>

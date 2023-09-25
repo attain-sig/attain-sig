@@ -2172,6 +2172,13 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Other_Holiday__c</fieldItem>
                 <identifier>RecordOther_Holiday_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Hidden_Other_Holiday_Checkbox__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>true</rightValue>
+                    </criteria>
+                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>

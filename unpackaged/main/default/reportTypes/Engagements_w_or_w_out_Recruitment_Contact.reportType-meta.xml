@@ -1891,6 +1891,11 @@
             <field>Add_t_Fellowship_Location_Site_Visits__c</field>
             <table>Climate_Corps_Engagement__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Hidden_Other_Holiday_Checkbox__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
         <masterLabel>Climate Corps Engagements</masterLabel>
     </sections>
 </ReportType>
