@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
+        <name>Copy_1_of_Send_to_Matching_Pool_India</name>
+        <label>Copy 1 of Send to Matching Pool India</label>
+        <locationX>50</locationX>
+        <locationY>276</locationY>
+        <actionName>Fellow_Application__c.Send_to_Matching_Pool_India</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
         <name>Send_to_Matching_Pool_India</name>
         <label>Send to Matching Pool India</label>
-        <locationX>308</locationX>
-        <locationY>288</locationY>
+        <locationX>314</locationX>
+        <locationY>276</locationY>
         <actionName>Fellow_Application__c.Send_to_Matching_Pool_India</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -16,6 +31,7 @@
         </inputParameters>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
+    <description>v2 added immediate send for testing purposes</description>
     <environments>Default</environments>
     <interviewLabel>Fellow Application - Send to Matching Pool - India {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Fellow Application - Send to Matching Pool - India</label>
@@ -39,8 +55,11 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <start>
-        <locationX>50</locationX>
+        <locationX>56</locationX>
         <locationY>0</locationY>
+        <connector>
+            <targetReference>Copy_1_of_Send_to_Matching_Pool_India</targetReference>
+        </connector>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
 &amp;&amp;

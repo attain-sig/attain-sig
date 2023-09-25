@@ -9,32 +9,31 @@
     <subject>Climate Corps: Advancement to the Matching Round</subject>
     <textOnly>Dear {{{Fellow_Application__c.Applicant_First_Name__c}}},
 
-We are pleased to inform you that you have been shortlisted for the matching round of the Climate Corps India Program — congratulations on successfully completing the interview round in the fellow selection process! 
+We are pleased to inform you that you have been shortlisted for the Climate Corps India Fellowship 2024 cohort — congratulations on successfully completing the interview round in the fellow selection process!   
 
-We are confident that you will be an excellent fit for this program. Please note that your placement is conditional on the following: 
- - Satisfactory reference check
- - Valid Indian work authorization
- - Final Approval from Host Supervisor 
+We are confident that you will be an excellent fit for this program. Please note that your placement is conditional on the following:  
+ - Satisfactory reference check   
+ - Valid Indian work authorization   
+ - Final Approval from the Host Organization   
 
-To officially accept this conditional offer, please complete the following steps in this order: 
+To officially accept this offer, please notify us of your agreement to be matched with a prospective host organization. Please reply to this email with a final decision within 48 hours of receiving this email. Please mark your email to argupta@edf.org and pmishra@edf.org. Your affirmative email response represents an acceptance of this offer.    
 
-STEP 1: Notify us of your agreement to be matched with a prospective host organization. Please mark your email to pmishra@edf.org and njhanwar@edf.org with a final decision no later than 5:00 PM on March 8th, 2023. Your affirmative email response represents an acceptance of this conditional offer. 
+NEXT STEPS: 
+ - After finalizing the host cohort for the 2024 fellowship season, the Climate Corps team will match you with a suitable host organization and project based on skillset, preferences, and availability. We will also connect you with your prospective host supervisor via email. Once connected, you will be expected to arrange a phone or video conversation with your host supervisor within 15 days at a mutually convenient time. Please note that your placement will be finalized after the approval of the host supervisor post this conversation. 
+ - After the final placement, all fellows are expected to attend a week-long virtual Fellow Training which will take place in late April, exact dates will be communicated later. 
+ - As per a mutually agreed upon timeline with the host, you will complete approximately 8—12 weeks of project work during April—September. 
 
-STEP 2: Please update your resume on the Climate Corps Portal. Please note that your updated resume will be used to share your profile with the prospective host organization. Hence, please make sure that you include any latest professional developments that may be relevant for your candidature for placement. 
+Should you decline this offer, you will no longer be under consideration for a Climate Corps fellowship.   
 
-STEP 3: Schedule a conversation with your Host supervisor. In the coming weeks, Climate Corps staff will connect you with your host supervisor via email, after finalizing the host cohort for 2023. Once connected, we ask that you arrange a phone or video conversation with your host supervisor within 15 days at a mutually convenient time. Please note that your placement will be confirmed after the approval of the host supervisor after this conversation. 
+Thank you and congratulations!  We look forward to hearing from you. If you have any questions about this process or the stage that you are in, please contact argupta@edf.org. 
 
-Should you decline this conditional offer, you will no longer be under consideration for a Climate Corps fellowship. 
+Best regards,   
 
-Thank you and congratulations!  We look forward to hearing from you. If you have any questions about this process or the stage that you are in, please contact pmishra@edf.org. 
+The Climate Corps Team  
 
-Best regards, 
+EDFClimateCorps.org   &lt; https://business.edf.org/categories/climate-corps/ &gt; 
 
-The Climate Corps Team
-
-EDFClimateCorps.org
-
-*Please do not reply to this email. We will not respond to any inquiries sent to this address. All questions should be directed to pmishra@edf.org.</textOnly>
+*Please do not reply to this email. We will not respond to any inquiries sent to this address.  All questions should be directed to argupta@edf.org.</textOnly>
     <type>custom</type>
     <uiType>SFX</uiType>
 </EmailTemplate>

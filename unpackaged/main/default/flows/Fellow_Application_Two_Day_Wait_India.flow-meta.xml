@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
+        <name>Copy_1_of_Interview_1_India</name>
+        <label>Copy 1 of Interview 1 India</label>
+        <locationX>50</locationX>
+        <locationY>276</locationY>
+        <actionName>Fellow_Application__c.Interview_1_Complete_Not_Moving_On_India</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
         <name>Interview_1_India</name>
         <label>Interview 1 India</label>
-        <locationX>374</locationX>
-        <locationY>408</locationY>
+        <locationX>578</locationX>
+        <locationY>384</locationY>
         <actionName>Fellow_Application__c.Interview_1_Complete_Not_Moving_On_India</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -18,8 +33,8 @@
     <actionCalls>
         <name>Not_Moving_Forward</name>
         <label>Not Moving Forward</label>
-        <locationX>638</locationX>
-        <locationY>408</locationY>
+        <locationX>842</locationX>
+        <locationY>384</locationY>
         <actionName>Fellow_Application__c.Not_Moving_Forward_From_Waitlist_India</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -33,8 +48,8 @@
     <actionCalls>
         <name>Not_Qual_Email</name>
         <label>Not Qual Email</label>
-        <locationX>110</locationX>
-        <locationY>408</locationY>
+        <locationX>314</locationX>
+        <locationY>384</locationY>
         <actionName>Fellow_Application__c.Not_Qualified_and_Notified_India</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -49,8 +64,8 @@
     <decisions>
         <name>Stage</name>
         <label>Stage</label>
-        <locationX>506</locationX>
-        <locationY>288</locationY>
+        <locationX>710</locationX>
+        <locationY>276</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Not_Qualified_and_Notified</name>
@@ -98,7 +113,8 @@
             <label>Not Moving Forward from Waitlist</label>
         </rules>
     </decisions>
-    <description>For stages: Not Qualified and Notified, Interview 1 Complete - Not Moving On, and Not Moving Forward from Waitlist</description>
+    <description>For stages: Not Qualified and Notified, Interview 1 Complete - Not Moving On, and Not Moving Forward from Waitlist
+v2 added immediate send for interview 1 complete for testing purposes</description>
     <environments>Default</environments>
     <interviewLabel>Fellow Application - Two Day Wait - India {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Fellow Application - Two Day Wait - India</label>
@@ -122,8 +138,11 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <start>
-        <locationX>50</locationX>
+        <locationX>254</locationX>
         <locationY>0</locationY>
+        <connector>
+            <targetReference>Copy_1_of_Interview_1_India</targetReference>
+        </connector>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
 &amp;&amp;
