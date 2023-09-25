@@ -141,7 +141,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Interview_1_Complete_Not_Moving_On_India</template>
+        <template>FellowApplicationIndia/India_Interview_1_Complete_Not_Moving_On_1695646365470</template>
     </alerts>
     <alerts>
         <fullName>Invite_to_Interview_from_Waitlist_China</fullName>
@@ -165,7 +165,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Invite_to_Interview_from_Waitlist_India</template>
+        <template>FellowApplicationIndia/India_Invite_to_Interview_from_Waitlist_1695647218528</template>
     </alerts>
     <alerts>
         <fullName>Not_Moving_Forward_From_Waitlist_China</fullName>
@@ -189,7 +189,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Not_Moving_Forward_From_Waitlist_India</template>
+        <template>FellowApplicationIndia/India_Not_Moving_Forward_From_Waitlist_1695647371697</template>
     </alerts>
     <alerts>
         <fullName>Not_Qualified_and_Notified</fullName>
@@ -393,7 +393,7 @@
         </recipients>
         <senderAddress>edfclimatecorps.apply@edf.org</senderAddress>
         <senderType>OrgWideEmailAddress</senderType>
-        <template>Climate_Corps_Flow_Templates/Send_to_Matching_Pool_India</template>
+        <template>FellowApplicationIndia/India_Send_to_Matching_Pool_1695646075848</template>
     </alerts>
     <alerts>
         <fullName>Send_to_Matching_Pool_Wave_1</fullName>

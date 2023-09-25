@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>India - Send to Matching Pool</name>
+    <pageDevName>India_Send_to_Matching_Pool</pageDevName>
+    <relatedEntityType>Fellow_Application__c</relatedEntityType>
+    <style>none</style>
+    <subject>Climate Corps: Advancement to the Matching Round</subject>
+    <textOnly>Dear {{{Fellow_Application__c.Applicant_First_Name__c}}},
+
+We are pleased to inform you that you have been shortlisted for the matching round of the Climate Corps India Program — congratulations on successfully completing the interview round in the fellow selection process! 
+
+We are confident that you will be an excellent fit for this program. Please note that your placement is conditional on the following: 
+ - Satisfactory reference check
+ - Valid Indian work authorization
+ - Final Approval from Host Supervisor 
+
+To officially accept this conditional offer, please complete the following steps in this order: 
+
+STEP 1: Notify us of your agreement to be matched with a prospective host organization. Please mark your email to pmishra@edf.org and njhanwar@edf.org with a final decision no later than 5:00 PM on March 8th, 2023. Your affirmative email response represents an acceptance of this conditional offer. 
+
+STEP 2: Please update your resume on the Climate Corps Portal. Please note that your updated resume will be used to share your profile with the prospective host organization. Hence, please make sure that you include any latest professional developments that may be relevant for your candidature for placement. 
+
+STEP 3: Schedule a conversation with your Host supervisor. In the coming weeks, Climate Corps staff will connect you with your host supervisor via email, after finalizing the host cohort for 2023. Once connected, we ask that you arrange a phone or video conversation with your host supervisor within 15 days at a mutually convenient time. Please note that your placement will be confirmed after the approval of the host supervisor after this conversation. 
+
+Should you decline this conditional offer, you will no longer be under consideration for a Climate Corps fellowship. 
+
+Thank you and congratulations!  We look forward to hearing from you. If you have any questions about this process or the stage that you are in, please contact pmishra@edf.org. 
+
+Best regards, 
+
+The Climate Corps Team
+
+EDFClimateCorps.org
+
+*Please do not reply to this email. We will not respond to any inquiries sent to this address. All questions should be directed to pmishra@edf.org.</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

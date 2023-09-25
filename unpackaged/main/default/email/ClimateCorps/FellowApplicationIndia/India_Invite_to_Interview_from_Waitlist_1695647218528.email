@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initialscale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <style type="text/css">@media screen and (max-width: 480px) {slot[style] {margin-right: 0 !important;}.columnDiv {margin-right: 0 !important;}}@media screen and (min-width: 480px) {slot[style] {margin-bottom: 0 !important;}.columnDiv {margin-bottom: 0 !important;}}</style>
+  <style type="text/css">@media screen and (max-width: 480px) {.contentbuilderBaseColumnRow .columnCell {display:inline-block;width:100%}}</style>
+  <style type="text/css">.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 600px;}@media only screen and (max-width: 480px) {.contentpageDefaultEmailTemplatePageTemplate .contentRoot {width: 320px;}}</style>
+ </head>
+ <body>
+  <table class="contentpageDefaultEmailTemplatePageTemplate" style="background-color: #FFFFFF;" role="presentation" id="contentpage_emailTemplateBodyContent" width="100%" cellpadding="0" cellspacing="0">
+   <tbody>
+    <tr>
+     <td width="100%" align="center">
+      <table class="contentRoot" style="background-color: #FFFFFF;" role="presentation" width="600" cellpadding="0" cellspacing="0">
+       <tbody>
+        <tr>
+         <td style="padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px;">
+          <table class="contentbuilderBaseColumnRow" style="align-items: flex-start; width: 100%; background-color:#FFFFFF;" role="presentation" width="100%" cellpadding="0" cellspacing="0">
+           <tbody>
+            <tr valign="top">
+             <td width="100%" class="columnCell" style="vertical-align: top;display: inline-block; float:left">
+              <table cellpadding="0" cellspacing="0" style="width: 100%; border-collapse: collapse; word-break:break-word;">
+               <tbody>
+                <tr>
+                 <td>
+                  <table style="width:100%; border-collapse: collapse; word-break:break-word;" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   <tbody>
+                    <tr>
+                     <td align="left"><img style="width: 100%; display: block; border: none; max-width: 70%; object-fit: fill;" src="{[devName:EDFClimateCorps_webRGB_20221]}" alt="" width="420" /></td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+                <tr>
+                 <td>
+                  <table style="width: 100%; border-collapse: collapse; word-break: break-word; font-size: 14px" id="contentRegion" role="presentation" cellspacing="0" cellpadding="0" locked="0">
+                   <tbody>
+                    <tr>
+                     <td style="font-family: Arial, Helvetica, sans-serif;">Dear {{{Fellow_Application__c.Applicant_First_Name__c}}},<br /><br /> We are pleased to inform you that you are under consideration for the Climate Corps fellowship – congratulations on successfully completing the first step in the fellow selection process! &nbsp;&nbsp;<br /><br /> The following email contains instructions that pertain to your initial interview. Please read the whole email and instructions very closely to ensure that you are prepared.&nbsp;<br /><br /><u>Interview Preparation</u><br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • &nbsp; Interviews will be conducted via Zoom. If you do not have Zoom, please <a href="https://zoom.us/download">download it here</a>.&nbsp;<br /><br /><u>Initial Interview</u><br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • &nbsp; You will speak with an interviewer from Climate Corps India team, for 60 minutes.&nbsp;<br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • &nbsp; During this call we will have 30 minutes to discuss about your background, skill sets, and experiences related to EDF Climate Corps, as well as to confirm your availability/any other logistical considerations. We will spend 23 minutes discussing a case study.<br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • &nbsp; At the end of the interview, we will go over the next steps in the process and take 1 or 2 questions from you.<br /><br /><u>Scheduling Instructions</u><br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • &nbsp; Please check the below link and choose one option at your convenient date and time:&nbsp;<br /> &nbsp; &nbsp; &nbsp; &nbsp; https://calendly.com/d/hx2-7xw-kk2/edf-climate-corps-india-2023-interview<br /><br /> Be advised that after you scheduled your interview, you will receive a<strong> link to connect on Zoom video</strong>.&nbsp;<br /><br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • &nbsp; On the day of your interview, be sure to use a private room with a strong internet connection to host your interview, test your audio and camera an hour prior to the scheduled time, and have access to email in case your Interviewer needs to contact you.&nbsp;<br /><br /><u>Rescheduling and Cancellations</u><br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • &nbsp; We understand that extenuating circumstances may cause you to reschedule or cancel your interview. If this occurs, please send your request via email directly to pmishra@edf.org. We will then provide further instructions on how to proceed. Should you attempt to cancel or reschedule within 24 hours or less of your interview and/or do so without prior notification, your application may no longer be considered during this wave of offers—as we must respect the time of all our candidates.<br /><br /> In the meantime, we encourage you to visit the <a href="http://edfclimatecorps.org/projects">Climate Corps website</a>&nbsp;to learn more about our past projects and the <a href="http://business.edf.org/">EDF+ Business</a>&nbsp;and <a href="https://www.edf.org/climate/cleanenergy">Climate and Energy sites</a>&nbsp;to learn more about EDF’s broader efforts around engaging leading organizations to address our most challenging climate and energy issues.&nbsp;<br /><br /> Finally, be sure to review our <a href="https://business.edf.org/categories/climate-corps/become-a-fellow/india-fellows/">Climate Corps India Program</a>&nbsp;page for more information about the fellowship.<br /><br /> Congratulations again, and we look forward to speaking soon! If you have any questions about this process or the stage that you are in, please contact pmishra@edf.org.<br /><br /> Best regards,&nbsp;<br /> The Climate Corps Team<br /> EDFClimateCorps.org<br /><br /><strong>*Please do not reply to this email. We will not respond to any inquiries sent to this address. &nbsp;All questions should be directed to pmishra@edf.org. &nbsp;</strong><br /> &nbsp;</td>
+                    </tr>
+                   </tbody>
+                  </table></td>
+                </tr>
+               </tbody>
+              </table></td>
+            </tr>
+           </tbody>
+          </table></td>
+        </tr>
+       </tbody>
+      </table></td>
+    </tr>
+   </tbody>
+  </table>
+ </body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>India - Not Moving Forward From Waitlist</name>
+    <pageDevName>India_Not_Moving_Forward_From_Waitlist</pageDevName>
+    <relatedEntityType>Fellow_Application__c</relatedEntityType>
+    <style>none</style>
+    <subject>Climate Corps: Application Status</subject>
+    <textOnly>Dear {{{Fellow_Application__c.Applicant_First_Name__c}}},
+
+Thank you for your interest in the Climate Corps program. We regret to inform you that we have removed you from our waitlist, and as such you are no longer under consideration for our fellowship at this time.
+
+You were among many highly qualified Climate Corps applicants in 2023. Matching candidates with organizations is a unique process of identifying and meeting the precise needs of our hosts. Typically, only very few candidates are an exact fit for each of our host organizations. 
+
+Due to the high volume of communication with candidates, we are unable to provide further feedback on your individual application. If you have questions about developing your application for opportunities beyond Climate Corps, we recommend visiting a career services center on your campus. 
+
+You remain a valuable member of the sustainability community and we wish you great success in making the world a more energy-efficient and environmentally conscious place. We hope you will stay in touch with the EDF community &lt; https://business.edf.org/get-involved-with-edf/ &gt; and consider us again next year. We appreciate your interest in the Climate Corps program and thank you for your time and consideration of this position. 
+
+Best regards, 
+
+The Climate Corps Team
+
+EDFClimateCorps.org
+
+*Please do not reply to this email. We will not respond to any inquiries sent to this address. All questions should be directed to pmishra@edf.org.</textOnly>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>
