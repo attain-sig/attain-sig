@@ -327,7 +327,7 @@
     <description>9/22/23- Brett - added HR contact to Dedupe.</description>
     <environments>Default</environments>
     <interviewLabel>Climate Core Engagement Host Accept/Reject Email {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Climate Core Engagement -- Host Accept/Reject Email</label>
+    <label>Climate Corps Engagement -- Host Accept/Reject Email</label>
     <loops>
         <name>Loop_dedupe</name>
         <label>Loop dedupe</label>

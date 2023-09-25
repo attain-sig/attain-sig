@@ -48,6 +48,16 @@ Special consideration - see notes</inlineHelpText>
                 <label>Application Submitted</label>
             </value>
             <value>
+                <fullName>Host Application Accepted</fullName>
+                <default>false</default>
+                <label>Host Application Accepted</label>
+            </value>
+            <value>
+                <fullName>Host Application Rejected</fullName>
+                <default>false</default>
+                <label>Host Application Rejected</label>
+            </value>
+            <value>
                 <fullName>Confirmed Participation</fullName>
                 <default>false</default>
                 <label>Confirmed Participation</label>
@@ -96,16 +106,6 @@ Special consideration - see notes</inlineHelpText>
                 <fullName>Special Consideration (see notes)</fullName>
                 <default>false</default>
                 <label>Special Consideration (see notes)</label>
-            </value>
-            <value>
-                <fullName>Host Application Accepted</fullName>
-                <default>false</default>
-                <label>Host Application Accepted</label>
-            </value>
-            <value>
-                <fullName>Host Application Rejected</fullName>
-                <default>false</default>
-                <label>Host Application Rejected</label>
             </value>
         </valueSetDefinition>
     </valueSet>

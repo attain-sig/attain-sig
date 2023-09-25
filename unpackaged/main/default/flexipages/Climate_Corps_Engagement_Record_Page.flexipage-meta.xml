@@ -8,9 +8,35 @@
                     <valueList>
                         <valueListItems>
                             <value>Climate_Corps_Engagement__c.Send_Application_Accepted_Email</value>
+                            <visibilityRule>
+                                <booleanFilter>1 AND 2</booleanFilter>
+                                <criteria>
+                                    <leftValue>{!Record.RecordType.Name}</leftValue>
+                                    <operator>EQUAL</operator>
+                                    <rightValue>U.S. Program</rightValue>
+                                </criteria>
+                                <criteria>
+                                    <leftValue>{!Record.Stage__c}</leftValue>
+                                    <operator>EQUAL</operator>
+                                    <rightValue>Application Submitted</rightValue>
+                                </criteria>
+                            </visibilityRule>
                         </valueListItems>
                         <valueListItems>
                             <value>Climate_Corps_Engagement__c.Send_Application_Declined_Email</value>
+                            <visibilityRule>
+                                <booleanFilter>1 AND 2</booleanFilter>
+                                <criteria>
+                                    <leftValue>{!Record.RecordType.Name}</leftValue>
+                                    <operator>EQUAL</operator>
+                                    <rightValue>U.S. Program</rightValue>
+                                </criteria>
+                                <criteria>
+                                    <leftValue>{!Record.Stage__c}</leftValue>
+                                    <operator>EQUAL</operator>
+                                    <rightValue>Application Submitted</rightValue>
+                                </criteria>
+                            </visibilityRule>
                         </valueListItems>
                         <valueListItems>
                             <value>Edit</value>
@@ -2115,6 +2141,13 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Other_Stipend__c</fieldItem>
                 <identifier>RecordOther_Stipend_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.When_Will_This_Stipend_Be_Administered__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Other</rightValue>
+                    </criteria>
+                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <name>Facet-3ac16a00-a456-4110-afa9-039ca7c909ba</name>
@@ -2159,6 +2192,13 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Other_Onboarding__c</fieldItem>
                 <identifier>RecordOther_Onboarding_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.How_Will_You_Onboard_The_Fellow__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Other</rightValue>
+                    </criteria>
+                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <name>Facet-f623935f-8d1d-4851-94c6-09daa3520fce</name>

@@ -7,5 +7,5 @@
     <permissionSets>Events_Permission_Set</permissionSets>
     <permissionSets>Reference_Checks</permissionSets>
     <permissionSets>sortablegrid__View_Sortable_Data_Grids</permissionSets>
-    <status>Updated</status>
+    <status>Updating</status>
 </PermissionSetGroup>
