@@ -28,6 +28,11 @@
                 <default>false</default>
                 <label>Pledge Reminder Will Not be Sent</label>
             </value>
+            <value>
+                <fullName>Prior to Reminder Tracking</fullName>
+                <default>false</default>
+                <label>Prior to Reminder Tracking</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

@@ -14,4 +14,8 @@
             <masterLabel>Pledge Reminder Will Not be Sent</masterLabel>
             <translation><!-- Pledge Reminder Will Not be Sent --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>Prior to Reminder Tracking</masterLabel>
+            <translation><!-- Prior to Reminder Tracking --></translation>
+        </picklistValues>
     </CustomFieldTranslation>

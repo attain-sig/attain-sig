@@ -81,6 +81,11 @@
     </customApplications>
     <customApplications>
         <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
+        <label><!-- Feedback Management --></label>
+        <name>Feedback_Management</name>
+    </customApplications>
+    <customApplications>
+        <description p3:nil="true" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
         <label><!-- Multiple Lead Converter --></label>
         <name>Lead_Converter_Lightning</name>
     </customApplications>

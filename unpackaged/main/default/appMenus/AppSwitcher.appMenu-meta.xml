@@ -312,4 +312,8 @@
         <name>ServiceCloudVoice_Connected_App_for_RestAPI_OAuth</name>
         <type>ConnectedApp</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Feedback_Management</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

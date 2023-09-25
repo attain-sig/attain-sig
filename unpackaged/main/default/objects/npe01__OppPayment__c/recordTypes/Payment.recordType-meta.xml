@@ -230,6 +230,10 @@
             <fullName>Pledge Reminder Will Not be Sent</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>Prior to Reminder Tracking</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Processed_By__c</picklist>
