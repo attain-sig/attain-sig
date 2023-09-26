@@ -71,6 +71,41 @@
                 <default>false</default>
                 <label>Other</label>
             </value>
+            <value>
+                <fullName>Animal Agriculture</fullName>
+                <default>false</default>
+                <label>Animal Agriculture</label>
+            </value>
+            <value>
+                <fullName>Climate Commitments and Roadmaps</fullName>
+                <default>false</default>
+                <label>Climate Commitments and Roadmaps</label>
+            </value>
+            <value>
+                <fullName>Environmental and Climate Justice</fullName>
+                <default>false</default>
+                <label>Environmental and Climate Justice</label>
+            </value>
+            <value>
+                <fullName>Food Waste</fullName>
+                <default>false</default>
+                <label>Food Waste</label>
+            </value>
+            <value>
+                <fullName>Supplier Engagement and Scope 3</fullName>
+                <default>false</default>
+                <label>Supplier Engagement and Scope 3</label>
+            </value>
+            <value>
+                <fullName>Sustainable Finance</fullName>
+                <default>false</default>
+                <label>Sustainable Finance</label>
+            </value>
+            <value>
+                <fullName>Zero-Emission Vehicles and Fleet Transition</fullName>
+                <default>false</default>
+                <label>Zero-Emission Vehicles and Fleet Transition</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

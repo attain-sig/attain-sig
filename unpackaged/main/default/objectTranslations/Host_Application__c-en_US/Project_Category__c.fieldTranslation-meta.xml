@@ -4,8 +4,16 @@
         <label><!-- Project Category --></label>
         <name>Project_Category__c</name>
         <picklistValues>
+            <masterLabel>Animal Agriculture</masterLabel>
+            <translation><!-- Animal Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Climate Commitments</masterLabel>
             <translation><!-- Climate Commitments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Climate Commitments and Roadmaps</masterLabel>
+            <translation><!-- Climate Commitments and Roadmaps --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Climate Smart Agriculture</masterLabel>
@@ -16,8 +24,16 @@
             <translation><!-- Energy &amp; Waste Management --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Environmental and Climate Justice</masterLabel>
+            <translation><!-- Environmental and Climate Justice --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Environmental/Climate Justice</masterLabel>
             <translation><!-- Environmental/Climate Justice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food Waste</masterLabel>
+            <translation><!-- Food Waste --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Food Waste &amp; Animal Agriculture</masterLabel>
@@ -36,6 +52,10 @@
             <translation><!-- Renewables &amp; Energy Efficiency --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Supplier Engagement and Scope 3</masterLabel>
+            <translation><!-- Supplier Engagement and Scope 3 --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Supply Chain Sustainability</masterLabel>
             <translation><!-- Supply Chain Sustainability --></translation>
         </picklistValues>
@@ -46,6 +66,14 @@
         <picklistValues>
             <masterLabel>Sustainable Construction</masterLabel>
             <translation><!-- Sustainable Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustainable Finance</masterLabel>
+            <translation><!-- Sustainable Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zero-Emission Vehicles and Fleet Transition</masterLabel>
+            <translation><!-- Zero-Emission Vehicles and Fleet Transition --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Zero-Emission Vehicles/Fleet Transition</masterLabel>

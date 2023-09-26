@@ -4,7 +4,7 @@
         <name>Copy_1_of_Interview_1_India</name>
         <label>Copy 1 of Interview 1 India</label>
         <locationX>50</locationX>
-        <locationY>276</locationY>
+        <locationY>384</locationY>
         <actionName>Fellow_Application__c.Interview_1_Complete_Not_Moving_On_India</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -18,7 +18,7 @@
     <actionCalls>
         <name>Interview_1_India</name>
         <label>Interview 1 India</label>
-        <locationX>578</locationX>
+        <locationX>930</locationX>
         <locationY>384</locationY>
         <actionName>Fellow_Application__c.Interview_1_Complete_Not_Moving_On_India</actionName>
         <actionType>emailAlert</actionType>
@@ -33,7 +33,7 @@
     <actionCalls>
         <name>Not_Moving_Forward</name>
         <label>Not Moving Forward</label>
-        <locationX>842</locationX>
+        <locationX>1194</locationX>
         <locationY>384</locationY>
         <actionName>Fellow_Application__c.Not_Moving_Forward_From_Waitlist_India</actionName>
         <actionType>emailAlert</actionType>
@@ -48,7 +48,7 @@
     <actionCalls>
         <name>Not_Qual_Email</name>
         <label>Not Qual Email</label>
-        <locationX>314</locationX>
+        <locationX>666</locationX>
         <locationY>384</locationY>
         <actionName>Fellow_Application__c.Not_Qualified_and_Notified_India</actionName>
         <actionType>emailAlert</actionType>
@@ -62,9 +62,55 @@
     </actionCalls>
     <apiVersion>56.0</apiVersion>
     <decisions>
+        <name>Copy_1_of_Stage</name>
+        <label>Copy 1 of Stage</label>
+        <locationX>182</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Copy_1_of_Not_Qualified_and_Notified</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Not Qualified and Notified</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Copy 1 of Not Qualified and Notified</label>
+        </rules>
+        <rules>
+            <name>Copy_1_of_Interview_1_Complete</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Interview 1 Complete- Not Moving On</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Interview_1_India</targetReference>
+            </connector>
+            <label>Copy 1 of Interview 1 Complete</label>
+        </rules>
+        <rules>
+            <name>Copy_1_of_Not_Moving_Forward_from_Waitlist</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Not Moving Forward from Waitlist</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Copy 1 of Not Moving Forward from Waitlist</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Stage</name>
         <label>Stage</label>
-        <locationX>710</locationX>
+        <locationX>1062</locationX>
         <locationY>276</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -138,19 +184,13 @@ v2 added immediate send for interview 1 complete for testing purposes</descripti
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <start>
-        <locationX>254</locationX>
+        <locationX>496</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Copy_1_of_Interview_1_India</targetReference>
+            <targetReference>Copy_1_of_Stage</targetReference>
         </connector>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
-&amp;&amp;
-OR(
-ispickval({!$Record.Status__c},&quot;Not Qualified and Notified&quot;), 
- ispickval({!$Record.Status__c}, &quot;Interview 1 Complete- Not Moving On&quot;),
- ispickval({!$Record.Status__c}, &quot;Not Moving Forward from Waitlist&quot;)
-)
 &amp;&amp;
 ispickval({!$Record.Fellowship_Applying_for__c}, &quot;India Fellowship&quot;)</filterFormula>
         <object>Fellow_Application__c</object>
@@ -167,5 +207,5 @@ ispickval({!$Record.Fellowship_Applying_for__c}, &quot;India Fellowship&quot;)</
         </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
 </Flow>
