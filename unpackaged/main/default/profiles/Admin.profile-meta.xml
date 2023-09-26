@@ -8720,6 +8720,11 @@
     </externalDataSourceAccesses>
     <fieldPermissions>
         <editable>true</editable>
+        <field>APXTConga4__Composer_Host_Override__c.APXTConga4__Hostname__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>APXTConga4__Composer_QuickMerge__c.APXTConga4__Conga_Solution__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -8830,6 +8835,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>APXTConga4__Conga_Email_Template__c.APXTConga4__Key__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>APXTConga4__Conga_Email_Template__c.APXTConga4__Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -8851,6 +8861,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>APXTConga4__Conga_Merge_Query__c.APXTConga4__Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>APXTConga4__Conga_Merge_Query__c.APXTConga4__Key__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -9110,6 +9125,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>APXTConga4__Conga_Template__c.APXTConga4__Key__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>APXTConga4__Conga_Template__c.APXTConga4__Label_Template_Use_Detail_Data__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -9356,6 +9376,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Has_Donor_Proxy__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Portfolio_Manager__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -9651,6 +9676,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Action_Code__c.Legacy_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Annual_Match__c.Match_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Annual_Match__c.Portfolio_Manager__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -10251,6 +10286,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Latest_Fellow_Application__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Portfolio_Manager__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -11090,6 +11130,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Development_Library__c.Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Development_Library__c.Deliverable__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -11145,6 +11190,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Event.Portfolio_Manager__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Event.Staff_Ids__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -11166,6 +11216,21 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Event.npsp__Engagement_Plan__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Event_Invitation__c.Event_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Event_Level__c.Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Event__c.Event_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -12335,6 +12400,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>FlowTableViewDefinition__c.Field_API_Names__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>FlowTableViewDefinition__c.Field_Sorting__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -12626,6 +12696,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Lead.npsp__CompanyStreet__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Legacy_Batch__c.Total_Amount__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13450,6 +13525,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Portfolio_Manager__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.Posted_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14055,12 +14135,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Projection__c.Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Q9__BatchLog__c.Q9__JobId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Q9__BatchLog__c.Q9__Log__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Q9__BatchLog__c.Q9__ObjectName__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -14080,6 +14170,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Q9__BatchLog__c.Q9__Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Q9__Batch_Helper__c.Q9__Chunk_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14091,6 +14186,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Q9__Batch_Helper__c.Q9__Object_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Q9__Batch_Helper__c.Q9__Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -14426,6 +14526,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.Payment_Received_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.Portfolio_Manager__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -15791,6 +15896,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>dlrs__LookupRollupSummaryLog__c.dlrs__ErrorMessage__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>dlrs__LookupRollupSummaryLog__c.dlrs__ParentObject__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

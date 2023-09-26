@@ -3,7 +3,7 @@
     <enableAmazonQueueManagement>true</enableAmazonQueueManagement>
     <enableDefaultChannelForSCV>false</enableDefaultChannelForSCV>
     <enableEndUserForSCV>false</enableEndUserForSCV>
-    <enableOmniCapacityForSCV>false</enableOmniCapacityForSCV>
+    <enableOmniCapacityForSCV>true</enableOmniCapacityForSCV>
     <enableSCVBYOT>false</enableSCVBYOT>
     <enableServiceCloudVoice>true</enableServiceCloudVoice>
     <enableVoiceInGovCloudOptIn>false</enableVoiceInGovCloudOptIn>
