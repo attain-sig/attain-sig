@@ -3,6 +3,9 @@
     <fullName>All_Fellow_Applications</fullName>
     <columns>NAME</columns>
     <columns>Applicant__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Status__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>
