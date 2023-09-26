@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Host_provided_housing_add_t_info__c</fullName>
+    <description>Additional information provided by host if they provide housing. FormAssembly Q.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Additional information provided by host if they provide housing.</inlineHelpText>
+    <label>Host-provided housing add't info</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

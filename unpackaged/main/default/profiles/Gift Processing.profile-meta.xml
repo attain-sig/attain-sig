@@ -3053,6 +3053,91 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__AllTabSet</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__AppLauncher</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Chatter</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Community</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Content</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningBolt</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningSales</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningSalesConsole</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__LightningService</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Marketing</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__OnlineSales</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Optimizer</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Platform</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Sales</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__SalesforceCMS</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Service</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__ServiceConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
     <customPermissions>
         <enabled>true</enabled>
         <name>Edit_Received_Opportunities_ADV</name>
@@ -3069,11 +3154,6 @@
         <enabled>false</enabled>
         <externalDataSource>Resource_Library_Files</externalDataSource>
     </externalDataSourceAccesses>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>APXTConga4__Composer_Host_Override__c.APXTConga4__Hostname__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>APXTConga4__Composer_QuickMerge__c.APXTConga4__Conga_Solution__c</field>
@@ -3186,11 +3266,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>APXTConga4__Conga_Email_Template__c.APXTConga4__Key__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>APXTConga4__Conga_Email_Template__c.APXTConga4__Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3212,11 +3287,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>APXTConga4__Conga_Merge_Query__c.APXTConga4__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>APXTConga4__Conga_Merge_Query__c.APXTConga4__Key__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3476,11 +3546,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>APXTConga4__Conga_Template__c.APXTConga4__Key__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>APXTConga4__Conga_Template__c.APXTConga4__Label_Template_Use_Detail_Data__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3552,11 +3617,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Has_Donor_Proxy__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Portfolio_Manager__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3702,16 +3762,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Action_Code__c.Legacy_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Annual_Match__c.Match_Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Annual_Match__c.Portfolio_Manager__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4541,12 +4591,67 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Host_Application__c.Background_Check_Required__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Covid_Vaccine_Requirement__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Current_Students_Only__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Drug_Test_Required__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Fellow_pay_week__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Host_provided_housing_add_t_info__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Housing_search_assistance_add_t_info__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Relocation_Add_t_Info__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Host_Application__c.Relocation_Assistance__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Host_Application__c.State_Restrictions__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.State_s_where_fellow_must_reside__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Host_Application__c.Stipend_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Third_Party_Hire__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -5416,11 +5521,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.Portfolio_Manager__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Opportunity.Posted_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -5801,6 +5901,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.npsp__Matching_Gift_Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.npsp__Matching_Gift_Employer__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -5852,6 +5957,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.npsp__Primary_Contact_Campaign_Member_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.npsp__Primary_Contact__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -5912,16 +6022,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Program_Reporting_Contact__c.Contact__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Projection__c.Amount__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Q9__Batch_Helper__c.Q9__Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -13386,6 +13486,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>npsp__DataImport__c.Account_to_Soft_Credit_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>npsp__DataImport__c.Account_to_Soft_Credit_2__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -14272,6 +14377,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>npsp__DataImport__c.npsp__Home_Zip_Postal_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>npsp__DataImport__c.npsp__HouseholdAccountImported__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

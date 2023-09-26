@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- List of states where fellow must reside --></help>
+        <label><!-- State(s) where fellow must reside --></label>
+        <name>State_s_where_fellow_must_reside__c</name>
+    </CustomFieldTranslation>
