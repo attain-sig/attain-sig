@@ -1810,6 +1810,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Background_Check_Required__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Host_Application__c.CCE_Account__c</field>
         <readable>true</readable>
@@ -1822,6 +1827,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Host_Application__c.Climate_Corps_Engagement__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Covid_Vaccine_Requirement__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Current_Students_Only__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1876,6 +1891,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Host_Application__c.Drug_Test_Required__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Host_Application__c.EDF_Relationship_Manager_Email__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1902,6 +1922,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Host_Application__c.Error_Message__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Fellow_pay_week__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1981,6 +2006,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Host_Application__c.HR_Contact_Title__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Host_Application__c.HR_Contact__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2037,6 +2067,21 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Host_Application__c.High_Level_Sponsor_txt__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Host_provided_housing_add_t_info__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Housing_search_assistance_add_t_info__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Hybrid_Details__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2126,6 +2171,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Host_Application__c.Relocation_Add_t_Info__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Relocation_Assistance__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Host_Application__c.Respondent_Email__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -2141,12 +2196,32 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Host_Application__c.State_Restrictions__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Host_Application__c.State__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Host_Application__c.State_s_where_fellow_must_reside__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Stipend_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Host_Application__c.Supervisor__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Host_Application__c.Third_Party_Hire__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
