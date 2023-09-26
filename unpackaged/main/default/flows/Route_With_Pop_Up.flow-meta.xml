@@ -169,7 +169,7 @@
             <targetReference>Get_Contact</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Obsolete</status>
     <variables>
         <description>AmazonBasicQueueARN for the given Salesforce Basic Queue</description>
         <name>AmazonBasicQueueARN</name>
