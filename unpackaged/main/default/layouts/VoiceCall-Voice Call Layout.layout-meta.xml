@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <layoutSections>
         <customLabel>true</customLabel>
@@ -36,7 +36,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>ActivityId</field>
+                <field>RelatedCase__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -49,20 +49,16 @@
                 <field>CallType</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CallOrigin</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>CallDisposition</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ToPhoneNumber</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>PreviousCallId</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>NextCallId</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -110,10 +106,13 @@
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
-        <customLabel>false</customLabel>
-        <detailHeading>false</detailHeading>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
         <editHeading>false</editHeading>
-        <layoutColumns/>
+        <label>Custom Links</label>
+        <layoutColumns />
+        <layoutColumns />
+        <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
     <relatedLists>
@@ -126,4 +125,10 @@
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00h7d0000021rT0</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
 </Layout>

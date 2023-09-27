@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <emailDefault>false</emailDefault>
     <excludeButtons>Submit</excludeButtons>
@@ -160,9 +160,9 @@
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
         <label>Custom Links</label>
-        <layoutColumns/>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
+        <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
     <platformActionList>
@@ -302,6 +302,17 @@
             </layoutItem>
         </relatedContentItems>
     </relatedContent>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>CallType</fields>
+        <fields>FromPhoneNumber</fields>
+        <fields>CallResolution</fields>
+        <fields>CallStartDateTime</fields>
+        <fields>EndUser</fields>
+        <fields>Owner</fields>
+        <fields>QualityScore</fields>
+        <relatedList>VoiceCall.RelatedCase__c</relatedList>
+    </relatedLists>
     <relatedLists>
         <fields>SOLUTION.ISSUE</fields>
         <fields>SOLUTION.SOLUTION_NUMBER</fields>

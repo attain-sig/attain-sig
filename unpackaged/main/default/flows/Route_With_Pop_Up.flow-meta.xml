@@ -3,8 +3,8 @@
     <actionCalls>
         <name>Pop</name>
         <label>Pop</label>
-        <locationX>176</locationX>
-        <locationY>242</locationY>
+        <locationX>182</locationX>
+        <locationY>866</locationY>
         <actionName>addScreenPop</actionName>
         <actionType>addScreenPop</actionType>
         <connector>
@@ -14,7 +14,7 @@
         <inputParameters>
             <name>screenPop</name>
             <value>
-                <stringValue>[{&quot;id&quot;:&quot;07467bf3&quot;,&quot;targetObjectId&quot;:&quot;0037d00002CERy9AAH&quot;,&quot;isFocused&quot;:false}]</stringValue>
+                <stringValue>[{&quot;id&quot;:&quot;07467bf3&quot;,&quot;targetObjectId&quot;:&quot;{!Get_Contact.Id}&quot;,&quot;isFocused&quot;:false},{&quot;id&quot;:&quot;6499bc24&quot;,&quot;targetObjectId&quot;:&quot;{!caseRecord.Id}&quot;,&quot;isFocused&quot;:true}]</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -23,10 +23,110 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </actionCalls>
     <actionCalls>
+        <name>Pop_Case</name>
+        <label>Pop Case</label>
+        <locationX>490</locationX>
+        <locationY>566</locationY>
+        <actionName>addScreenPop</actionName>
+        <actionType>addScreenPop</actionType>
+        <connector>
+            <targetReference>Route_pop_Case_to_basic_queue</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>screenPop</name>
+            <value>
+                <stringValue>[{&quot;id&quot;:&quot;ae7beffc&quot;,&quot;targetObjectId&quot;:&quot;{!caseRecord.Id}&quot;,&quot;isFocused&quot;:true}]</stringValue>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
+        <name>Route_pop_Case_to_basic_queue</name>
+        <label>Route pop Case to basic queue</label>
+        <locationX>490</locationX>
+        <locationY>674</locationY>
+        <actionName>routeWork</actionName>
+        <actionType>routeWork</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>psrInteractionInfo</name>
+            <value>
+                <elementReference>Pop_Case.routingInteractionInfoList</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>serviceChannelId</name>
+            <value>
+                <stringValue>0N97d00000009RqCAI</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>serviceChannelLabel</name>
+            <value>
+                <stringValue>Phone</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>serviceChannelDevName</name>
+            <value>
+                <stringValue>sfdc_phone</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>routingType</name>
+            <value>
+                <stringValue>QueueBased</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>routingConfigId</name>
+        </inputParameters>
+        <inputParameters>
+            <name>routingConfigLabel</name>
+        </inputParameters>
+        <inputParameters>
+            <name>queueId</name>
+            <value>
+                <stringValue>00G7d000004aWT7EAM</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>agentId</name>
+        </inputParameters>
+        <inputParameters>
+            <name>agentLabel</name>
+        </inputParameters>
+        <inputParameters>
+            <name>queueLabel</name>
+            <value>
+                <stringValue>SCV Basic Queue</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>skillOption</name>
+        </inputParameters>
+        <inputParameters>
+            <name>skillRequirementsResourceItem</name>
+        </inputParameters>
+        <inputParameters>
+            <name>botId</name>
+        </inputParameters>
+        <inputParameters>
+            <name>botLabel</name>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
         <name>Route_to_Basic_Queue</name>
         <label>Route to Basic Queue</label>
-        <locationX>176</locationX>
-        <locationY>350</locationY>
+        <locationX>182</locationX>
+        <locationY>974</locationY>
         <actionName>routeWork</actionName>
         <actionType>routeWork</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -104,6 +204,56 @@
         </inputParameters>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
+    <decisions>
+        <name>Check_Contact</name>
+        <label>Check Contact</label>
+        <locationX>336</locationX>
+        <locationY>242</locationY>
+        <defaultConnector>
+            <targetReference>Create_Case_Without_Contact</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Contact Not Found</defaultConnectorLabel>
+        <rules>
+            <name>Contact_is_found</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Contact</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Case</targetReference>
+            </connector>
+            <label>Contact is found</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>No_Case_Found</name>
+        <label>No Case Found</label>
+        <locationX>182</locationX>
+        <locationY>458</locationY>
+        <defaultConnector>
+            <targetReference>Update_Voice_Call_Related_Field</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>CaseFound</defaultConnectorLabel>
+        <rules>
+            <name>CaseNotFound</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>caseRecord.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Create_Case</targetReference>
+            </connector>
+            <label>CaseNotFound</label>
+        </rules>
+    </decisions>
     <description>Routes each call to the default queue (Basic Queue) and, if the agent accepts, screen pops the new case for this call and identifies the caller.</description>
     <environments>Default</environments>
     <formulas>
@@ -137,18 +287,182 @@
         </value>
     </processMetadataValues>
     <processType>RoutingFlow</processType>
+    <recordCreates>
+        <name>Create_Case</name>
+        <label>Create Case</label>
+        <locationX>50</locationX>
+        <locationY>566</locationY>
+        <assignRecordIdToReference>caseRecord.Id</assignRecordIdToReference>
+        <connector>
+            <targetReference>Update_Voice_Call_Related_Field</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>ContactId</field>
+            <value>
+                <elementReference>Get_Contact.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Origin</field>
+            <value>
+                <stringValue>Phone</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>IncomingCallPhoneNumber</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordCreates>
+    <recordCreates>
+        <name>Create_Case_Without_Contact</name>
+        <label>Create Case Without Contact</label>
+        <locationX>490</locationX>
+        <locationY>350</locationY>
+        <assignRecordIdToReference>caseRecord.Id</assignRecordIdToReference>
+        <connector>
+            <targetReference>Update_Voice_Call_Related_Case_Field</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Origin</field>
+            <value>
+                <stringValue>Phone</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>IncomingCallPhoneNumber</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Case</object>
+    </recordCreates>
+    <recordLookups>
+        <name>Get_Case</name>
+        <label>Get Case</label>
+        <locationX>182</locationX>
+        <locationY>350</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>No_Case_Found</targetReference>
+        </connector>
+        <filterLogic>1 AND (2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9)</filterLogic>
+        <filters>
+            <field>ContactId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Contact.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Assigned</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Refund Issued</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>More info Needed - EDF</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>More info Needed - Donor</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Waiting on Point of Contact</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Escalated</stringValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <outputReference>caseRecord</outputReference>
+        <queriedFields>Id</queriedFields>
+    </recordLookups>
     <recordLookups>
         <name>Get_Contact</name>
         <label>Get Contact</label>
-        <locationX>176</locationX>
+        <locationX>336</locationX>
         <locationY>134</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Pop</targetReference>
+            <targetReference>Check_Contact</targetReference>
         </connector>
-        <filterLogic>and</filterLogic>
+        <filterLogic>or</filterLogic>
         <filters>
-            <field>Test_Phone__c</field>
+            <field>Phone</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IncomingCallPhoneNumber</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>MobilePhone</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IncomingCallPhoneNumber</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>npe01__WorkPhone__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IncomingCallPhoneNumber</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>OtherPhone</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IncomingCallPhoneNumber</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>AssistantPhone</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IncomingCallPhoneNumber</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>HomePhone</field>
             <operator>EqualTo</operator>
             <value>
                 <elementReference>IncomingCallPhoneNumber</elementReference>
@@ -160,16 +474,70 @@
         <sortOrder>Desc</sortOrder>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
+    <recordUpdates>
+        <name>Update_Voice_Call_Related_Case_Field</name>
+        <label>Update Voice Call Related Case Field</label>
+        <locationX>490</locationX>
+        <locationY>458</locationY>
+        <connector>
+            <targetReference>Pop_Case</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>FromPhoneNumber</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IncomingCallPhoneNumber</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>RelatedCase__c</field>
+            <value>
+                <elementReference>caseRecord.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>VoiceCall</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Voice_Call_Related_Field</name>
+        <label>Update Voice Call Related Field</label>
+        <locationX>182</locationX>
+        <locationY>758</locationY>
+        <connector>
+            <targetReference>Pop</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>FromPhoneNumber</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IncomingCallPhoneNumber</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>RelatedCase__c</field>
+            <value>
+                <elementReference>caseRecord.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>RelatedRecordId</field>
+            <value>
+                <elementReference>Get_Contact.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>VoiceCall</object>
+    </recordUpdates>
     <runInMode>DefaultMode</runInMode>
     <sourceTemplate>opencti__SCV_Basic_Routing_Flow</sourceTemplate>
     <start>
-        <locationX>50</locationX>
+        <locationX>210</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Get_Contact</targetReference>
         </connector>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
     <variables>
         <description>AmazonBasicQueueARN for the given Salesforce Basic Queue</description>
         <name>AmazonBasicQueueARN</name>

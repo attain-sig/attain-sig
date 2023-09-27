@@ -55,19 +55,19 @@
             <componentInstance>
                 <componentInstanceProperties>
                     <name>createQuickActionName</name>
-                    <value>NewContact</value>
+                    <value>NewCase</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>lookupFieldName</name>
-                    <value>VoiceCall.RelatedRecordId[Contact]</value>
+                    <value>VoiceCall.RelatedCase__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>titleFieldName</name>
-                    <value>Contact</value>
+                    <value>Case</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>updateQuickActionName</name>
-                    <value>Contact.Giving_Summary_view</value>
+                    <value>Case._LightningUpdateCase</value>
                 </componentInstanceProperties>
                 <componentName>console:relatedRecord</componentName>
                 <identifier>console_relatedRecord2</identifier>
