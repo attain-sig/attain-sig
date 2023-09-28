@@ -1896,6 +1896,71 @@
             <field>Hidden_Other_Holiday_Checkbox__c</field>
             <table>Climate_Corps_Engagement__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Relocation_Assistance__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Stipend_Amount__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Host_provided_housing_add_t_info__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Housing_search_assistance_add_t_info__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Relocation_Add_t_Info__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>State_Restrictions__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Fellow_pay_week__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>State_s_where_fellow_must_reside__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Covid_Vaccine_Requirement__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Third_Party_Hire__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Background_Check_Required__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Drug_Test_Required__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Current_Students_Only__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
         <masterLabel>Climate Corps Engagements</masterLabel>
     </sections>
 </ReportType>

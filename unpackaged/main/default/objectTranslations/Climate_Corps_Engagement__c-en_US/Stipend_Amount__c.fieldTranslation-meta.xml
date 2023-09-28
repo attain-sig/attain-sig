@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Dependent on relocation assistance question --></help>
+        <label><!-- Stipend Amount --></label>
+        <name>Stipend_Amount__c</name>
+    </CustomFieldTranslation>

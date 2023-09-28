@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Additional information provided by host if they provide housing. --></help>
+        <label><!-- Host-provided housing add&apos;t info --></label>
+        <name>Host_provided_housing_add_t_info__c</name>
+    </CustomFieldTranslation>

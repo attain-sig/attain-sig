@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Fellow will be hired by a third party org, not the host directly. Host paid only. --></help>
+        <label><!-- Third Party Hire --></label>
+        <name>Third_Party_Hire__c</name>
+    </CustomFieldTranslation>

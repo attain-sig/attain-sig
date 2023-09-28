@@ -55,7 +55,7 @@
         <inputParameters>
             <name>emailAddresses</name>
             <value>
-                <stringValue>dbahtijari@edf.org</stringValue>
+                <stringValue>erpsupport@edf.org</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -84,7 +84,7 @@
         </inputParameters>
     </actionCalls>
     <apiVersion>58.0</apiVersion>
-    <description>Flow that triggers an auto email to a recipient (Finance) once a Fund Request case is &quot;Approved&quot; requesting them to create the new fund in NetSuite.</description>
+    <description>Updating the API value of the Closed Status in the Entry Criteria. Was not updated to match API value. Updating Email back to ERPsupport post testing</description>
     <environments>Default</environments>
     <interviewLabel>Case After Save ---&gt; Trigger Auto-notification for Fund Requests {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Case After Save ---&gt; Trigger Auto-notification for Fund Requests</label>
@@ -126,19 +126,19 @@
             <field>Status</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>Closed - Resolved</stringValue>
+                <stringValue>Closed - Approved/Resolved</stringValue>
             </value>
         </filters>
         <object>Case</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
     <textTemplates>
         <description>Email body for Fund Request email.</description>
         <name>EmailBodyFundRequest</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>
-        <text>&lt;p&gt;Hello,&lt;/p&gt;&lt;p&gt;I’d like to request the following new Fund.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;{!$Record.New_Fund_Name__c}&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);&quot;&gt;{!$Record.Fund_Administrator__r.FirstName} {!$Record.Fund_Administrator__r.LastName}&lt;/strong&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt; should be assigned as Fund Administrator.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;Please update the &lt;/span&gt;&lt;strong style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;Created in NetSuite By&lt;/strong&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt; and &lt;/span&gt;&lt;strong style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt;Created in NetSuite Date Case&lt;/strong&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(68, 68, 68);&quot;&gt; fields upon creation.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;New Fund Request Link: &lt;strong style=&quot;color: rgb(0, 0, 0);&quot;&gt; &lt;/strong&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;https://environmentaldefensefund--shareddev.sandbox.lightning.force.com/lightning/r/Case/{!$Record.Id}/view&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Thank you!&lt;/p&gt;</text>
+        <text>&lt;p&gt;Hello,&lt;/p&gt;&lt;p&gt;I’d like to request the following new Fund.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;{!$Record.New_Fund_Name__c}&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);&quot;&gt;{!$Record.Fund_Administrator__r.FirstName} {!$Record.Fund_Administrator__r.LastName}&lt;/strong&gt;&lt;span style=&quot;color: rgb(68, 68, 68); background-color: rgb(255, 255, 255);&quot;&gt; should be assigned as Fund Administrator.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;New Fund Request Link: &lt;strong style=&quot;color: rgb(0, 0, 0);&quot;&gt; &lt;/strong&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;https://environmentaldefensefund--shareddev.sandbox.lightning.force.com/lightning/r/Case/{!$Record.Id}/view&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Thank you!&lt;/p&gt;</text>
     </textTemplates>
     <textTemplates>
         <description>Email Subject for Fund Request approval.</description>
@@ -146,5 +146,5 @@
         <isViewedAsPlainText>true</isViewedAsPlainText>
         <text>New Fund Request:  {!$Record.New_Fund_Name__c}</text>
     </textTemplates>
-    <triggerOrder>5</triggerOrder>
+    <triggerOrder>1</triggerOrder>
 </Flow>

@@ -721,6 +721,25 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Relocation_Assistance__c</picklist>
+        <values>
+            <fullName>Host-provided housing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Housing search assistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relocation stipend%2Freimbursement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Stage__c</picklist>
         <values>
             <fullName>Application Submitted</fullName>
@@ -803,6 +822,17 @@
         </values>
         <values>
             <fullName>Pending Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>State_Restrictions__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
             <default>false</default>
         </values>
     </picklistValues>

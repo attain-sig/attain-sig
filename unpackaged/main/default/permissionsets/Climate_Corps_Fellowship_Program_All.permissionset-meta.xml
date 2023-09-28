@@ -61,6 +61,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Background_Check_Required__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Building_Data_Analyzed__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -131,6 +136,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Covid_Vaccine_Requirement__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Current_Students_Only__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Data_Engagement_Added_to_Portal__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -187,6 +202,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Disqualified_Reason__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Drug_Test_Required__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -312,6 +332,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Climate_Corps_Engagement__c.Fellow_first_name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Fellow_pay_week__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -442,6 +467,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Host_priorities_for_the_future__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Host_provided_housing_add_t_info__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Housing_search_assistance_add_t_info__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -681,6 +716,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Relocation_Add_t_Info__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Relocation_Assistance__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Remaining_Deliverables_Submitted__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -746,6 +791,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.State_Restrictions__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.State_s_where_fellow_must_reside__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Stipend_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Strategic_Value_Notes__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -782,6 +842,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Climate_Corps_Engagement__c.Thank_you_note_sent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Climate_Corps_Engagement__c.Third_Party_Hire__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

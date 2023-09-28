@@ -1757,6 +1757,13 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Headquarters_Address__c</fieldItem>
                 <identifier>RecordHeadquarters_Address_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Fellowship_Program__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>India Fellowship</rightValue>
+                    </criteria>
+                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1775,8 +1782,123 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.Add_t_Fellowship_Location_Site_Visits__c</fieldItem>
+                <identifier>RecordAdd_t_Fellowship_Location_Site_Visits_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Location_Additional_Information__c</fieldItem>
                 <identifier>RecordLocation_Additional_Information_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.State_Restrictions__c</fieldItem>
+                <identifier>RecordState_Restrictions_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.State_s_where_fellow_must_reside__c</fieldItem>
+                <identifier>RecordState_s_where_fellow_must_reside_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.State_Restrictions__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Yes</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Relocation_Assistance__c</fieldItem>
+                <identifier>RecordRelocation_Assistance_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Relocation_Add_t_Info__c</fieldItem>
+                <identifier>RecordRelocation_Add_t_Info_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Relocation_Assistance__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Other</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Stipend_Amount__c</fieldItem>
+                <identifier>RecordStipend_Amount_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Relocation_Assistance__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Relocation stipend/reimbursement</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Housing_search_assistance_add_t_info__c</fieldItem>
+                <identifier>RecordHousing_search_assistance_add_t_info_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Relocation_Assistance__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Housing search assistance</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Host_provided_housing_add_t_info__c</fieldItem>
+                <identifier>RecordHost_provided_housing_add_t_info_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Relocation_Assistance__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Host-provided housing</rightValue>
+                    </criteria>
+                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <name>Facet-26a83932-88a4-4d76-8cd2-a0027a8551a6</name>
@@ -1871,6 +1993,92 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Additional_Emails__c</fieldItem>
                 <identifier>RecordAdditional_Emails_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Fellow_pay_week__c</fieldItem>
+                <identifier>RecordFellow_pay_week_cField</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 AND 2</booleanFilter>
+                    <criteria>
+                        <leftValue>{!Record.Fellowship_Program__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>U.S. Fellowship</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.Host_Application_Type__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Host-Funded</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Covid_Vaccine_Requirement__c</fieldItem>
+                <identifier>RecordCovid_Vaccine_Requirement_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Third_Party_Hire__c</fieldItem>
+                <identifier>RecordThird_Party_Hire_cField</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 AND 2</booleanFilter>
+                    <criteria>
+                        <leftValue>{!Record.Fellowship_Program__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>U.S. Fellowship</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.Host_Application_Type__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Host-Funded</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Background_Check_Required__c</fieldItem>
+                <identifier>RecordBackground_Check_Required_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Drug_Test_Required__c</fieldItem>
+                <identifier>RecordDrug_Test_Required_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Current_Students_Only__c</fieldItem>
+                <identifier>RecordCurrent_Students_Only_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-bc5bdb2c-6583-47af-82b4-c88be5b41095</name>

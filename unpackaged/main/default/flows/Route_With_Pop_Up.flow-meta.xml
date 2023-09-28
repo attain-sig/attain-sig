@@ -309,6 +309,18 @@
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Subject</field>
             <value>
                 <elementReference>IncomingCallPhoneNumber</elementReference>
@@ -329,6 +341,18 @@
             <field>Origin</field>
             <value>
                 <stringValue>Phone</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>New</stringValue>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -468,6 +492,48 @@
                 <elementReference>IncomingCallPhoneNumber</elementReference>
             </value>
         </filters>
+        <filters>
+            <field>Phone</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IncomingCallPhoneNumberWithout1</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>MobilePhone</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IncomingCallPhoneNumberWithout1</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>npe01__WorkPhone__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IncomingCallPhoneNumberWithout1</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>OtherPhone</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IncomingCallPhoneNumberWithout1</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>AssistantPhone</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IncomingCallPhoneNumberWithout1</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>HomePhone</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IncomingCallPhoneNumberWithout1</elementReference>
+            </value>
+        </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>Contact</object>
         <sortField>CreatedDate</sortField>
@@ -506,12 +572,19 @@
         <connector>
             <targetReference>Pop</targetReference>
         </connector>
-        <filterLogic>and</filterLogic>
+        <filterLogic>or</filterLogic>
         <filters>
             <field>FromPhoneNumber</field>
             <operator>EqualTo</operator>
             <value>
                 <elementReference>IncomingCallPhoneNumber</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>FromPhoneNumber</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IncomingCallPhoneNumberWithout1</elementReference>
             </value>
         </filters>
         <inputAssignments>
