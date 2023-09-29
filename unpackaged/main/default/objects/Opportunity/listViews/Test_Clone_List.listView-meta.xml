@@ -12,19 +12,9 @@
     <columns>Portfolio_Manager__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
-        <field>OPPORTUNITY.STAGE_NAME</field>
+        <field>OPPORTUNITY.CREATED_DATE</field>
         <operation>equals</operation>
-        <value>Projected</value>
-    </filters>
-    <filters>
-        <field>OPPORTUNITY.RECORDTYPE</field>
-        <operation>equals</operation>
-        <value>Opportunity.MajorGift</value>
-    </filters>
-    <filters>
-        <field>Portfolio_Manager__c</field>
-        <operation>contains</operation>
-        <value>Scott</value>
+        <value>9/25/2023 12:00 AM</value>
     </filters>
     <label>Test Clone List</label>
 </ListView>

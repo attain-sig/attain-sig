@@ -721,7 +721,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Climate_Corps_Engagement__c.Relocation_Assistance__c</field>
+        <field>Climate_Corps_Engagement__c.Relocation_AssistanceNew__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

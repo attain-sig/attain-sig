@@ -1829,8 +1829,8 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Relocation_Assistance__c</fieldItem>
-                <identifier>RecordRelocation_Assistance_cField</identifier>
+                <fieldItem>Record.Relocation_AssistanceNew__c</fieldItem>
+                <identifier>RecordRelocation_AssistanceNew_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1841,13 +1841,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Relocation_Add_t_Info__c</fieldItem>
                 <identifier>RecordRelocation_Add_t_Info_cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Relocation_Assistance__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Other</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1858,13 +1851,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Stipend_Amount__c</fieldItem>
                 <identifier>RecordStipend_Amount_cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Relocation_Assistance__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Relocation stipend/reimbursement</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1875,13 +1861,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Housing_search_assistance_add_t_info__c</fieldItem>
                 <identifier>RecordHousing_search_assistance_add_t_info_cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Relocation_Assistance__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Housing search assistance</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1892,13 +1871,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Host_provided_housing_add_t_info__c</fieldItem>
                 <identifier>RecordHost_provided_housing_add_t_info_cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Relocation_Assistance__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Host-provided housing</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <name>Facet-26a83932-88a4-4d76-8cd2-a0027a8551a6</name>

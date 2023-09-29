@@ -733,7 +733,7 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>Relocation_Assistance__c</picklist>
+        <picklist>Relocation_AssistanceNew__c</picklist>
         <values>
             <fullName>Host-provided housing</fullName>
             <default>false</default>

@@ -484,13 +484,6 @@
             </value>
         </assignmentItems>
         <assignmentItems>
-            <assignToReference>varEngagement.Relocation_Assistance__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>$Record.Relocation_Assistance__c</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
             <assignToReference>varEngagement.Stipend_Amount__c</assignToReference>
             <operator>Assign</operator>
             <value>
@@ -572,6 +565,13 @@
             <operator>Assign</operator>
             <value>
                 <elementReference>$Record.Current_Students_Only__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varEngagement.Relocation_AssistanceNew__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Relocation_Assistance__c</elementReference>
             </value>
         </assignmentItems>
         <connector>

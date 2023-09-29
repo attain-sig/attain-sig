@@ -823,11 +823,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Relocation_Assistance__c</field>
-            <table>Climate_Corps_Engagement__c</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Stipend_Amount__c</field>
             <table>Climate_Corps_Engagement__c</table>
         </columns>
@@ -884,6 +879,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>Current_Students_Only__c</field>
+            <table>Climate_Corps_Engagement__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Relocation_AssistanceNew__c</field>
             <table>Climate_Corps_Engagement__c</table>
         </columns>
         <masterLabel>Climate Corps Engagements</masterLabel>

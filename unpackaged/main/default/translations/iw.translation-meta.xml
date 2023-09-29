@@ -4569,6 +4569,15 @@
         </sections>
     </reportTypes>
     <reportTypes>
+        <description><!-- Duplicate Record Sets --></description>
+        <label><!-- Duplicate Record Sets --></label>
+        <name>Duplicate_Record_Sets</name>
+        <sections>
+            <label><!-- Duplicate Record Sets --></label>
+            <name>Duplicate Record Sets</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
         <description><!-- Email Messages (Custom) --></description>
         <label><!-- Email Messages (Custom) --></label>
         <name>Email_Messages_Custom</name>

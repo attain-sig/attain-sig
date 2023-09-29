@@ -2,7 +2,7 @@
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
         <help><!-- Application Question: Do you offer any relocation assistance, financial or otherwise? --></help>
         <label><!-- Relocation Assistance --></label>
-        <name>Relocation_Assistance__c</name>
+        <name>Relocation_AssistanceNew__c</name>
         <picklistValues>
             <masterLabel>Host-provided housing</masterLabel>
             <translation><!-- Host-provided housing --></translation>

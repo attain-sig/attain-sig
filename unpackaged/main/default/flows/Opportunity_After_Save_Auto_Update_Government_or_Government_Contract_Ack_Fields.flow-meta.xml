@@ -2,7 +2,7 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>58.0</apiVersion>
     <description>Auto Update Government or Government Contract Opportunity and related Payment Acknowledgment Fields.
-- update for FB-3538 to set pledge reminder status as well.</description>
+- update for FB-3538 to set pledge reminder status as well. Exclude automations off.</description>
     <environments>Default</environments>
     <interviewLabel>Opportunity After Save ----&gt; Auto Update Government or Government Contract Ack Fields {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Opportunity After Save ----&gt; Update Acknowledgment Fields</label>
@@ -94,26 +94,13 @@
         <connector>
             <targetReference>Update_Opportunity_Acknowledgment_Fields</targetReference>
         </connector>
-        <filterLogic>or</filterLogic>
-        <filters>
-            <field>Transaction_Type__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Government</stringValue>
-            </value>
-        </filters>
-        <filters>
-            <field>Transaction_Type__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Government Contract</stringValue>
-            </value>
-        </filters>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; True &amp;&amp;
+(ISPICKVAL({!$Record.Transaction_Type__c},&quot;Government)) || ISPICKVAL({!$Record.Transaction_Type__c},&quot;Government Contract&quot;))</filterFormula>
         <object>Opportunity</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>InvalidDraft</status>
     <textTemplates>
         <description>Acknowledgment Reason</description>
         <name>AcknowledgmentReason</name>
