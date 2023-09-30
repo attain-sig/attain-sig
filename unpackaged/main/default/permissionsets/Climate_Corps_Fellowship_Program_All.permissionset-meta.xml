@@ -1460,6 +1460,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Fellow_Application__c.Reference_Check_URL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Fellow_Application__c.Reference_Email_1__c</field>
         <readable>true</readable>

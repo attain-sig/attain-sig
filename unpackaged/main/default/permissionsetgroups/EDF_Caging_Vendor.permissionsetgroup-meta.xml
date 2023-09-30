@@ -3,5 +3,6 @@
     <description>Replaces Caging Vendor Profile</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>EDF Caging Vendor</label>
+    <permissionSets>MFA_Required_External_Users</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>

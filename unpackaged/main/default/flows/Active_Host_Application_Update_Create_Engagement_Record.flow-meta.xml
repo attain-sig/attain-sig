@@ -68,20 +68,6 @@
             </value>
         </assignmentItems>
         <assignmentItems>
-            <assignToReference>varAllEmails</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <elementReference>NewDSId.Email</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>varAllEmails</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <stringValue>; </stringValue>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
             <assignToReference>AllContacts</assignToReference>
             <operator>Add</operator>
             <value>
@@ -126,20 +112,6 @@
             <operator>Assign</operator>
             <value>
                 <elementReference>NewHLSId.Id</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>varAllEmails</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <elementReference>NewHLSId.Email</elementReference>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>varAllEmails</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <stringValue>; </stringValue>
             </value>
         </assignmentItems>
         <assignmentItems>

@@ -881,6 +881,11 @@
             <field>Applicant__c.X18_Digit_Contact_ID__c</field>
             <table>Fellow_Application__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Reference_Check_URL__c</field>
+            <table>Fellow_Application__c</table>
+        </columns>
         <masterLabel>Fellow Applications</masterLabel>
     </sections>
 </ReportType>

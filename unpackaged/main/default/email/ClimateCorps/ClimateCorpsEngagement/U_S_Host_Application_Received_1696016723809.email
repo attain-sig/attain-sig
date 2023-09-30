@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:12px;"><span style="font-family:Arial,Helvetica,sans-serif;">Dear {{{Climate_Corps_Engagement__c.Respondent_Name__c}}},<br />
+<br />
+Thank you for submitting an application for Climate Corps! We will be in touch soon.<br />
+<br />
+<span style="color:#0000ff;"><strong>Mali’o Kodis</strong></span><br />
+<em>Project Manager, Host Partnerships – Climate Corps</em><br />
+<br />
+<strong>mkodis@EDF.org</strong><br />
+<span style="color:#3300ff;"><strong>T</strong></span> 212-616-1455 (ET)</span></span><br />
+<br />
+<img alt="new edf logo for salesforce" src="https://environmentaldefensefund--full.sandbox.file.force.com/sfc/servlet.shepherd/version/download/0687d000002ejvc?asPdf=false&amp;operationContext=CHATTER" style="max-width: 681.15px; width: 116px; height: 32px;" title="new edf logo for salesforce" /></body>
+</html>

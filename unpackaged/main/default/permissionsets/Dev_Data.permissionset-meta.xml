@@ -990,11 +990,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Development_Library__c.Title__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Development_Library__c.Writer_Assigned__c</field>
         <readable>true</readable>
     </fieldPermissions>
