@@ -4,7 +4,7 @@
         <name>Send_email_to_EDF_Engagement_Manager</name>
         <label>Send email to EDF Engagement Manager</label>
         <locationX>176</locationX>
-        <locationY>335</locationY>
+        <locationY>323</locationY>
         <actionName>Climate_Corps_Engagement__c.Matching_offer_to_work</actionName>
         <actionType>emailAlert</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
@@ -16,6 +16,7 @@
         </inputParameters>
     </actionCalls>
     <apiVersion>57.0</apiVersion>
+    <description>As Per FB-3483 -Update flow to include automations off entry criteria.</description>
     <environments>Default</environments>
     <formulas>
         <name>varEmailBody</name>
@@ -58,14 +59,9 @@
             <targetReference>Send_email_to_EDF_Engagement_Manager</targetReference>
         </connector>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Stage__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Offer Accepted</stringValue>
-            </value>
-        </filters>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; True
+&amp;&amp;
+Ispickval({!$Record.Stage__c},&quot; Offer Accepted&quot;)</filterFormula>
         <object>Climate_Corps_Engagement__c</object>
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>

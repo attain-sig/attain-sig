@@ -4,8 +4,8 @@
     <assignments>
         <name>Assign_Case_to_Current_User</name>
         <label>Assign Case to Current User</label>
-        <locationX>176</locationX>
-        <locationY>287</locationY>
+        <locationX>50</locationX>
+        <locationY>503</locationY>
         <assignmentItems>
             <assignToReference>$Record.OwnerId</assignToReference>
             <operator>Assign</operator>
@@ -17,6 +17,28 @@
             <targetReference>Update_Case_Owner</targetReference>
         </connector>
     </assignments>
+    <decisions>
+        <name>If_Voice_Call_Associated_with_Case</name>
+        <label>If Voice Call Associated with Case</label>
+        <locationX>182</locationX>
+        <locationY>395</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Voice_Call_Found</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Check_Voice_Call</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Case_to_Current_User</targetReference>
+            </connector>
+            <label>Voice Call Found</label>
+        </rules>
+    </decisions>
     <environments>Default</environments>
     <interviewLabel>Update Case Owner for Voice Call {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Update Case Owner for Voice Call</label>
@@ -39,11 +61,48 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>Check if Case is associated with current case</description>
+        <name>Check_Voice_Call</name>
+        <label>Check Voice Call</label>
+        <locationX>182</locationX>
+        <locationY>287</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>If_Voice_Call_Associated_with_Case</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>RelatedCase__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>CallDisposition</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>in-progress</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>VoiceCall</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
     <recordUpdates>
         <name>Update_Case_Owner</name>
         <label>Update Case Owner</label>
-        <locationX>176</locationX>
-        <locationY>395</locationY>
+        <locationX>50</locationX>
+        <locationY>611</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Origin</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Phone</stringValue>
+            </value>
+        </filters>
         <inputAssignments>
             <field>OwnerId</field>
             <value>
@@ -53,28 +112,14 @@
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <start>
-        <locationX>50</locationX>
+        <locationX>56</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Assign_Case_to_Current_User</targetReference>
+            <targetReference>Check_Voice_Call</targetReference>
         </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>OwnerId</field>
-            <operator>StartsWith</operator>
-            <value>
-                <stringValue>005</stringValue>
-            </value>
-        </filters>
-        <filters>
-            <field>Origin</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Phone</stringValue>
-            </value>
-        </filters>
+        <filterFormula>CONTAINS({!$Record.Owner:User.Alias}, &apos;autoproc&apos;)</filterFormula>
         <object>Case</object>
-        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordBeforeSave</triggerType>
     </start>
     <status>Active</status>

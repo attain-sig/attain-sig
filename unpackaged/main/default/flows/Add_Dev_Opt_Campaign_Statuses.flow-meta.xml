@@ -5,7 +5,7 @@
         <name>Campaign_Record_Type</name>
         <label>Campaign Record Type</label>
         <locationX>182</locationX>
-        <locationY>647</locationY>
+        <locationY>539</locationY>
         <defaultConnector>
             <targetReference>Create_Opt_Out</targetReference>
         </defaultConnector>
@@ -26,38 +26,8 @@
             <label>Event</label>
         </rules>
     </decisions>
-    <decisions>
-        <description>Check constituency to exclude EDFBIZ. Moved from entry conditions to avoid internal errors in debug</description>
-        <name>Check_Constituency</name>
-        <label>Check Constituency</label>
-        <locationX>380</locationX>
-        <locationY>323</locationY>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>No_CC_Constituency</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Constituency__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>EDFBIZ</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Sub_Constituency__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>EDFBIZ - Climate Corps</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Create_Opt_In</targetReference>
-            </connector>
-            <label>No CC Constituency</label>
-        </rules>
-    </decisions>
-    <description>Moved Entry Conditions for picklist values to a Decision Element to avoid internal errors in Debugger.
-See Known Issue with Reference ID W-12478080</description>
+    <description>Update on entry condition. Shift from checking Constituency to checking record type. Removed decision element to check constituency.
+Checking DeveloperName of RecordType for &apos;Climate_Corps&apos;</description>
     <environments>Default</environments>
     <interviewLabel>Add Dev Opt Campaign Statuses {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Add Dev Opt Campaign Statuses</label>
@@ -85,7 +55,7 @@ See Known Issue with Reference ID W-12478080</description>
         <name>Create_Cancelled</name>
         <label>Create Cancelled</label>
         <locationX>50</locationX>
-        <locationY>1079</locationY>
+        <locationY>971</locationY>
         <connector>
             <targetReference>Create_Declined</targetReference>
         </connector>
@@ -121,7 +91,7 @@ See Known Issue with Reference ID W-12478080</description>
         <name>Create_Declined</name>
         <label>Create Declined</label>
         <locationX>50</locationX>
-        <locationY>1187</locationY>
+        <locationY>1079</locationY>
         <connector>
             <targetReference>Delete_Responded_Sent_Statuses</targetReference>
         </connector>
@@ -157,7 +127,7 @@ See Known Issue with Reference ID W-12478080</description>
         <name>Create_Invited</name>
         <label>Create Invited</label>
         <locationX>50</locationX>
-        <locationY>971</locationY>
+        <locationY>863</locationY>
         <connector>
             <targetReference>Create_Cancelled</targetReference>
         </connector>
@@ -193,7 +163,7 @@ See Known Issue with Reference ID W-12478080</description>
         <name>Create_Opt_In</name>
         <label>Create Opt In</label>
         <locationX>182</locationX>
-        <locationY>431</locationY>
+        <locationY>323</locationY>
         <connector>
             <targetReference>Create_Special_0</targetReference>
         </connector>
@@ -229,7 +199,7 @@ See Known Issue with Reference ID W-12478080</description>
         <name>Create_Opt_Out</name>
         <label>Create Opt Out</label>
         <locationX>314</locationX>
-        <locationY>755</locationY>
+        <locationY>647</locationY>
         <inputAssignments>
             <field>CampaignId</field>
             <value>
@@ -262,7 +232,7 @@ See Known Issue with Reference ID W-12478080</description>
         <name>Create_Registered_Attended</name>
         <label>Create Registered - Attended</label>
         <locationX>50</locationX>
-        <locationY>755</locationY>
+        <locationY>647</locationY>
         <connector>
             <targetReference>Create_Registered_No_Show</targetReference>
         </connector>
@@ -298,7 +268,7 @@ See Known Issue with Reference ID W-12478080</description>
         <name>Create_Registered_No_Show</name>
         <label>Create Registered - No Show</label>
         <locationX>50</locationX>
-        <locationY>863</locationY>
+        <locationY>755</locationY>
         <connector>
             <targetReference>Create_Invited</targetReference>
         </connector>
@@ -334,7 +304,7 @@ See Known Issue with Reference ID W-12478080</description>
         <name>Create_Special_0</name>
         <label>Create Special</label>
         <locationX>182</locationX>
-        <locationY>539</locationY>
+        <locationY>431</locationY>
         <connector>
             <targetReference>Campaign_Record_Type</targetReference>
         </connector>
@@ -369,7 +339,7 @@ See Known Issue with Reference ID W-12478080</description>
         <name>Delete_Responded_Sent_Statuses</name>
         <label>Delete Responded/Sent Statuses</label>
         <locationX>50</locationX>
-        <locationY>1295</locationY>
+        <locationY>1187</locationY>
         <filterLogic>1 AND (2 or 3)</filterLogic>
         <filters>
             <field>CampaignId</field>
@@ -395,12 +365,14 @@ See Known Issue with Reference ID W-12478080</description>
         <object>CampaignMemberStatus</object>
     </recordDeletes>
     <start>
-        <locationX>254</locationX>
+        <locationX>56</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Check_Constituency</targetReference>
+            <targetReference>Create_Opt_In</targetReference>
         </connector>
-        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE</filterFormula>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+NOT({!$Record.RecordType.DeveloperName}=&apos;Climate_Corps&apos;)</filterFormula>
         <object>Campaign</object>
         <recordTriggerType>Create</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>

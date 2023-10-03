@@ -34,7 +34,8 @@
         </inputParameters>
     </actionCalls>
     <apiVersion>57.0</apiVersion>
-    <description>Sends a notification to EM when Workplan Status is set to Pending Approval.</description>
+    <description>Sends a notification to EM when Workplan Status is set to Pending Approval.
+As Per FB FB-3485. Update flow to include automations off entry criteria.</description>
     <environments>Default</environments>
     <formulas>
         <name>EngagementURL</name>
@@ -69,21 +70,11 @@
             <targetReference>sendEmail</targetReference>
         </connector>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Workplan_Approval__c</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>Pending Approval</stringValue>
-            </value>
-        </filters>
-        <filters>
-            <field>EDF_Engagement_Manager__c</field>
-            <operator>IsNull</operator>
-            <value>
-                <booleanValue>false</booleanValue>
-            </value>
-        </filters>
+        <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; True
+&amp;&amp;
+(Ispickval({!$Record.Workplan_Approval__c},&quot; Pending Approval &quot;)
+&amp;&amp;
+Not(IsNull({!$Record.EDF_Engagement_Manager__c})))</filterFormula>
         <object>Climate_Corps_Engagement__c</object>
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
