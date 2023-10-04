@@ -548,12 +548,26 @@
         <connector>
             <targetReference>Pop_Case</targetReference>
         </connector>
-        <filterLogic>or</filterLogic>
+        <filterLogic>(1 OR 2) AND 3</filterLogic>
         <filters>
             <field>FromPhoneNumber</field>
             <operator>EqualTo</operator>
             <value>
                 <elementReference>IncomingCallPhoneNumber</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>FromPhoneNumber</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>IncomingCallPhoneNumberWithout1</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
             </value>
         </filters>
         <inputAssignments>
@@ -572,7 +586,7 @@
         <connector>
             <targetReference>Pop</targetReference>
         </connector>
-        <filterLogic>or</filterLogic>
+        <filterLogic>(1 OR 2) AND 3</filterLogic>
         <filters>
             <field>FromPhoneNumber</field>
             <operator>EqualTo</operator>
@@ -585,6 +599,13 @@
             <operator>EqualTo</operator>
             <value>
                 <elementReference>IncomingCallPhoneNumberWithout1</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
             </value>
         </filters>
         <inputAssignments>
