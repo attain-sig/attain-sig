@@ -19,9 +19,15 @@
             </value>
         </inputParameters>
         <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
             <name>senderAddress</name>
             <value>
-                <stringValue>salesforcesysadmin@edf.org</stringValue>
+                <elementReference>sysAdminEmail</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -38,6 +44,18 @@
         </inputParameters>
         <inputParameters>
             <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>relatedRecordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>logEmailOnSend</name>
             <value>
                 <booleanValue>true</booleanValue>
             </value>
@@ -59,9 +77,15 @@
             </value>
         </inputParameters>
         <inputParameters>
+            <name>senderType</name>
+            <value>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
             <name>senderAddress</name>
             <value>
-                <stringValue>salesforcesysadmin@edf.org</stringValue>
+                <elementReference>sysAdminEmail</elementReference>
             </value>
         </inputParameters>
         <inputParameters>
@@ -82,9 +106,24 @@
                 <booleanValue>true</booleanValue>
             </value>
         </inputParameters>
+        <inputParameters>
+            <name>relatedRecordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>logEmailOnSend</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
     </actionCalls>
     <apiVersion>58.0</apiVersion>
-    <description>Updating the API value of the Closed Status in the Entry Criteria. Was not updated to match API value. Updating Email back to ERPsupport post testing</description>
+    <description>Updating the API value of the Closed Status in the Entry Criteria. Was not updated to match API value. Updating Email back to ERPsupport post testing
+
+v8 Updated to include Sender Type and add record id to add activity to case
+v9 updated back to actual email addresses</description>
     <environments>Default</environments>
     <interviewLabel>Case After Save ---&gt; Trigger Auto-notification for Fund Requests {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Case After Save ---&gt; Trigger Auto-notification for Fund Requests</label>
@@ -133,7 +172,7 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <textTemplates>
         <description>Email body for Fund Request email.</description>
         <name>EmailBodyFundRequest</name>
@@ -147,4 +186,14 @@
         <text>New Fund Request:  {!$Record.New_Fund_Name__c}</text>
     </textTemplates>
     <triggerOrder>1</triggerOrder>
+    <variables>
+        <name>sysAdminEmail</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>salesforcesysadmin@edf.org</stringValue>
+        </value>
+    </variables>
 </Flow>

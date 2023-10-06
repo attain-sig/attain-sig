@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
         <application>Build_Management</application>
         <visible>true</visible>
@@ -257,6 +257,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Stakeholder_Relationship__c.Notes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Stakeholder_Relationship__c.Stakeholder_Role__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

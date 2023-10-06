@@ -8,11 +8,6 @@
         <plural>true</plural>
         <value>Stakeholder Relationships</value>
     </caseValues>
-    
-    
-    
-    
-    
     <layouts>
         <layout>Stakeholder Relationship Layout</layout>
         <sections>
@@ -29,4 +24,10 @@
         <errorMessage><!-- This record can only be related to a single User Story, Test Script, or Feedback record. --></errorMessage>
         <name>Lookup_Validation</name>
     </validationRules>
+    
+    
+    
+    
+    
+    
 </CustomObjectTranslation>

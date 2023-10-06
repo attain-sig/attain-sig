@@ -647,6 +647,10 @@
         <name>Open_Tasks</name>
     </webLinks>
     <webLinks>
+        <label><!-- Receipts_Current_CY --></label>
+        <name>Receipts_Current_CY</name>
+    </webLinks>
+    <webLinks>
         <label><!-- Receipts_Previous_CY --></label>
         <name>Receipts_Previous_CY</name>
     </webLinks>

@@ -6,6 +6,7 @@
     <permissionSets>Create_Edit_Qualifying_Opportunities</permissionSets>
     <permissionSets>Development_Library_Create_Edit_All_Fields</permissionSets>
     <permissionSets>Modify_All_Data_Temp</permissionSets>
+    <permissionSets>Payment_Edit_Pledge_Reminder_Ack_Fields</permissionSets>
     <permissionSets>Update_Email_or_Phone</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>
