@@ -11008,6 +11008,9 @@
         <layout>Seller-Seller Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>SharingRecordCollection-Record Collection Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Snapshot_Catalyst_Circle__c-Snapshot Catalyst Circle Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

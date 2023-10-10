@@ -19437,6 +19437,9 @@
         <layout>Relationship_Manager_History__c-Relationship Manager History Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>SharingRecordCollection-Record Collection Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Stakeholder__c-Stakeholder Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -22170,7 +22173,7 @@
         <name>ActivitiesAccess</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>AddDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
@@ -22194,7 +22197,7 @@
         <name>AssignTopics</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>CanAccessCE</name>
     </userPermissions>
     <userPermissions>
@@ -22210,7 +22213,7 @@
         <name>ChatterEditOwnPost</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ChatterFileLink</name>
     </userPermissions>
     <userPermissions>
@@ -22258,7 +22261,7 @@
         <name>CreateReportInLightning</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>DistributeFromPersWksp</name>
     </userPermissions>
     <userPermissions>
@@ -22278,11 +22281,11 @@
         <name>EditMyReports</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>EditOppLineItemUnitPrice</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>EditPublicFilters</name>
     </userPermissions>
     <userPermissions>
@@ -22290,7 +22293,7 @@
         <name>EditTask</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>EmailMass</name>
     </userPermissions>
     <userPermissions>
@@ -22298,11 +22301,11 @@
         <name>EmailSingle</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>EnableCommunityAppLauncher</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>EnableNotifications</name>
     </userPermissions>
     <userPermissions>
@@ -22310,7 +22313,7 @@
         <name>ExportReport</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ImportPersonal</name>
     </userPermissions>
     <userPermissions>
@@ -22330,7 +22333,7 @@
         <name>MassInlineEdit</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>RemoveDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
@@ -22354,19 +22357,19 @@
         <name>SelectFilesFromSalesforce</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>SendSitRequests</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ShareFilesWithNetworks</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ShowCompanyNameAsUserBadge</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>SubmitMacrosAllowed</name>
     </userPermissions>
     <userPermissions>
@@ -22394,7 +22397,7 @@
         <name>SubscribeToLightningReports</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>TransactionalEmailSend</name>
     </userPermissions>
     <userPermissions>
@@ -22414,11 +22417,11 @@
         <name>UpdateWithInactiveOwner</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>UseWebLink</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ViewDeveloperName</name>
     </userPermissions>
     <userPermissions>
@@ -22434,11 +22437,11 @@
         <name>ViewRoles</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ViewSetup</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ViewTrustMeasures</name>
     </userPermissions>
     <customMetadataTypeAccesses>

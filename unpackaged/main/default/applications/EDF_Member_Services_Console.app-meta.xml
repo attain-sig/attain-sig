@@ -45,8 +45,10 @@
         <pageOrSobjectType>Account</pageOrSobjectType>
     </actionOverrides>
     <brand>
-        <headerColor>#0070D2</headerColor>
-        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+        <headerColor>#009933</headerColor>
+        <logo>edf_icon_resized</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
     </brand>
     <description>Sales Console view for Member Services to explore Console layout</description>
     <formFactors>Small</formFactors>
@@ -1528,7 +1530,9 @@
         <type>Flexipage</type>
         <profile>Standard</profile>
     </profileActionOverrides>
+    <tabs>standard-OmniSupervisorLightning</tabs>
     <tabs>standard-home</tabs>
+    <tabs>standard-VoiceCall</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Opportunity</tabs>
@@ -1537,24 +1541,9 @@
     <tabs>standard-Campaign</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>standard-File</tabs>
-    <tabs>User_Story__c</tabs>
-    <tabs>Feedback__c</tabs>
-    <tabs>Test_Scripts__c</tabs>
-    <tabs>standard-VoiceCall</tabs>
-    <tabs>standard-OmniSupervisorLightning</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>EDF_Member_Services_Console_UtilityBar</utilityBar>
     <workspaceConfig>
-        <mappings>
-            <tab>Feedback__c</tab>
-        </mappings>
-        <mappings>
-            <tab>Test_Scripts__c</tab>
-        </mappings>
-        <mappings>
-            <tab>User_Story__c</tab>
-        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
@@ -1569,9 +1558,6 @@
         </mappings>
         <mappings>
             <tab>standard-Dashboard</tab>
-        </mappings>
-        <mappings>
-            <tab>standard-File</tab>
         </mappings>
         <mappings>
             <tab>standard-Lead</tab>

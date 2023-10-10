@@ -11203,6 +11203,9 @@
         <layout>Relationship_Manager_History__c-Relationship Manager History Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>SharingRecordCollection-Record Collection Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Stakeholder__c-Stakeholder Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

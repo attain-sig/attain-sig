@@ -27,6 +27,27 @@
         <ruleStatus>Active</ruleStatus>
     </matchingRules>
     <matchingRules>
+        <fullName>Standard_Email_Field_Matching_Rule</fullName>
+        <description>Standard Email Field Matching Rule</description>
+        <label>Standard Email Field Matching Rule</label>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>FirstName</fieldName>
+            <matchingMethod>FirstName</matchingMethod>
+        </matchingRuleItems>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>LastName</fieldName>
+            <matchingMethod>Exact</matchingMethod>
+        </matchingRuleItems>
+        <matchingRuleItems>
+            <blankValueBehavior>NullNotAllowed</blankValueBehavior>
+            <fieldName>Email</fieldName>
+            <matchingMethod>Exact</matchingMethod>
+        </matchingRuleItems>
+        <ruleStatus>Active</ruleStatus>
+    </matchingRules>
+    <matchingRules>
         <fullName>npsp__NPSP_Contact_Personal_Email_Match</fullName>
         <description>Matching rule for contact records; matches on First Name, Last Name, and Personal Email.</description>
         <label>NPSP Contact Personal Email Match</label>

@@ -102,6 +102,8 @@
         <searchResultsAdditionalFields>EndUser</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Owner</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>QualityScore</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RelatedRecord</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>RelatedCase__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

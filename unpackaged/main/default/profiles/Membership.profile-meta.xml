@@ -6066,13 +6066,13 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>EDF_Member_Services</application>
-        <default>true</default>
+        <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>EDF_Member_Services_Console</application>
-        <default>false</default>
-        <visible>false</visible>
+        <default>true</default>
+        <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>Feedback_Management</application>
@@ -19340,6 +19340,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Relationship_Manager_History__c-Relationship Manager History Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SharingRecordCollection-Record Collection Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Stakeholder__c-Stakeholder Layout</layout>

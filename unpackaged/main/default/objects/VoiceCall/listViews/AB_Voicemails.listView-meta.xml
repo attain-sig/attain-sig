@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AB_Voicemails</fullName>
+    <columns>Name</columns>
+    <columns>CallType</columns>
+    <columns>FromPhoneNumber</columns>
+    <columns>CallResolution</columns>
+    <columns>CallStartDateTime</columns>
+    <columns>EndUser</columns>
+    <columns>Owner</columns>
+    <columns>QualityScore</columns>
+    <columns>RelatedCase__c</columns>
+    <columns>RelatedRecord</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CallOrigin</field>
+        <operation>equals</operation>
+        <value>2</value>
+    </filters>
+    <label>AB_Voicemails</label>
+</ListView>
