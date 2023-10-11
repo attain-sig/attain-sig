@@ -254,7 +254,8 @@
             <label>CaseNotFound</label>
         </rules>
     </decisions>
-    <description>Routes each call to the default queue (Basic Queue) and, if the agent accepts, screen pops the new case for this call and identifies the caller.</description>
+    <description>Routes each call to the default queue (Basic Queue) and, if the agent accepts, screen pops the new case for this call and identifies the caller.
+v27 Updated to set RecordTypeID on case</description>
     <environments>Default</environments>
     <formulas>
         <name>Assign_Case_To_Agent</name>
@@ -315,6 +316,12 @@
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>RecordTypeId</field>
+            <value>
+                <stringValue>0125e000001ESKjAAO</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Status</field>
             <value>
                 <stringValue>New</stringValue>
@@ -347,6 +354,12 @@
             <field>Priority</field>
             <value>
                 <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>RecordTypeId</field>
+            <value>
+                <stringValue>0125e000001ESKjAAO</stringValue>
             </value>
         </inputAssignments>
         <inputAssignments>

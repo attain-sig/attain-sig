@@ -1561,6 +1561,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Fellow_Application__c.Relevant_Experience__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Fellow_Application__c.Residency_in_china__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -1772,6 +1777,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Fellow_Application__c.ValidUSDriversLicense__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Fellow_Application__c.Versatility__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

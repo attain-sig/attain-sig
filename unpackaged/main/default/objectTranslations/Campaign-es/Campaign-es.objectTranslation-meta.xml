@@ -178,6 +178,10 @@
         <name>Campaign_Members_Post_Opt_In</name>
     </webLinks>
     <webLinks>
+        <label><!-- Statistics_with_PM_RM --></label>
+        <name>Statistics_with_PM_RM</name>
+    </webLinks>
+    <webLinks>
         <label><!-- ViewAllCampaignMembers --></label>
         <name>ViewAllCampaignMembers</name>
     </webLinks>

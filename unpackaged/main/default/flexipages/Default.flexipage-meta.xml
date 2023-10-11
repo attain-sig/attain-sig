@@ -12,6 +12,22 @@
                         <valueListItems>
                             <value>Delete</value>
                         </valueListItems>
+                        <valueListItems>
+                            <value>VoiceCall.Review_Voicemail</value>
+                            <visibilityRule>
+                                <booleanFilter>1 AND 2</booleanFilter>
+                                <criteria>
+                                    <leftValue>{!Record.CallOrigin}</leftValue>
+                                    <operator>EQUAL</operator>
+                                    <rightValue>Voicemail</rightValue>
+                                </criteria>
+                                <criteria>
+                                    <leftValue>{!Record.CallResolution}</leftValue>
+                                    <operator>NE</operator>
+                                    <rightValue>Resolved</rightValue>
+                                </criteria>
+                            </visibilityRule>
+                        </valueListItems>
                     </valueList>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
@@ -73,10 +89,6 @@
                     <value>VoiceCall.RelatedCase__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>titleFieldName</name>
-                    <value>Case</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
                     <name>updateQuickActionName</name>
                     <value>Case._LightningUpdateCase</value>
                 </componentInstanceProperties>
@@ -102,6 +114,19 @@
             <componentInstance>
                 <componentName>opencti:recordPhoneCallControls</componentName>
                 <identifier>opencti_recordPhoneCallControls</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>scrt:conversationBody</componentName>
+                <identifier>scrt_conversationBody</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.CallOrigin}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Voicemail</rightValue>
+                    </criteria>
+                </visibilityRule>
             </componentInstance>
         </itemInstances>
         <itemInstances>

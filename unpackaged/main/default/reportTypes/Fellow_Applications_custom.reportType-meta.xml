@@ -886,6 +886,16 @@
             <field>Reference_Check_URL__c</field>
             <table>Fellow_Application__c</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Relevant_Experience__c</field>
+            <table>Fellow_Application__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Versatility__c</field>
+            <table>Fellow_Application__c</table>
+        </columns>
         <masterLabel>Fellow Applications</masterLabel>
     </sections>
 </ReportType>

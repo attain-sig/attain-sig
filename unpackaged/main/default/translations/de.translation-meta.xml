@@ -3757,6 +3757,29 @@
         <flows>
             <screens>
                 <fields>
+                    <name>el_0</name>
+                </fields>
+                <fields>
+                    <name>el_1</name>
+                </fields>
+                <fields>
+                    <name>el_2</name>
+                </fields>
+                <fields>
+                    <name>el_3</name>
+                </fields>
+                <fields>
+                    <name>el_4</name>
+                </fields>
+                <name>Voicemail_Management</name>
+            </screens>
+        </flows>
+        <fullName>Voicemail_Management</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
                     <name>Mass_Email_Subject</name>
                 </fields>
                 <fields>
@@ -4150,6 +4173,23 @@
         <sections>
             <label><!-- iContact Sent Messages --></label>
             <name>iContact Sent Messages</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Campaigns w/ Email Messages, Stats and Contacts --></description>
+        <label><!-- Campaigns w/ Email Messages, Stats and Contacts --></label>
+        <name>Campaigns_w_Email_Messages_Stats_and_Contacts</name>
+        <sections>
+            <label><!-- Campaigns --></label>
+            <name>Campaigns</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Email Messages - Lightning --></label>
+            <name>iContact Email Messages - Lightning</name>
+        </sections>
+        <sections>
+            <label><!-- iContact Message Statistics - Lightning --></label>
+            <name>iContact Message Statistics - Lightning</name>
         </sections>
     </reportTypes>
     <reportTypes>
@@ -5300,6 +5340,19 @@
         <sections>
             <label><!-- Voice Channel Interaction Events --></label>
             <name>Voice Channel Interaction Events</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Voice Calls --></description>
+        <label><!-- Voice Calls --></label>
+        <name>Voice_Calls</name>
+        <sections>
+            <label><!-- Case --></label>
+            <name>Case</name>
+        </sections>
+        <sections>
+            <label><!-- Voice Calls --></label>
+            <name>Voice Calls</name>
         </sections>
     </reportTypes>
     <reportTypes>

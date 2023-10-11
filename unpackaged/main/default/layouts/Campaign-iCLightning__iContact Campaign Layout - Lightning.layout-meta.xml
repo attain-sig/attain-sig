@@ -249,6 +249,9 @@
             <layoutItems>
                 <customLink>iCLightning__Complaint_Rate_for_All_Messages</customLink>
             </layoutItems>
+            <layoutItems>
+                <customLink>Statistics_with_PM_RM</customLink>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns />
         <style>CustomLinks</style>

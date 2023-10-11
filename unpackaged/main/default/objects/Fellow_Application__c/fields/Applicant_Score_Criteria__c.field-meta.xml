@@ -18,7 +18,11 @@ CASE(Scale_Engineering_Experience__c, "Advanced", 3, "Intermediate", 2, "Beginne
 
 CASE(Scale_Extracurricular_Env_Experience__c, "Yes",1,0) +
 
-CASE(Applicant_Score_Adjustment__c, "+4", 4, "+3", 3, "+2", 2, "+1",1, 0)</formula>
+CASE(Applicant_Score_Adjustment__c, "+4", 4, "+3", 3, "+2", 2, "+1",1, 0) +
+
+CASE( Versatility__c, "Versatile", 0, "Not Versatile", -1, 0) + 
+
+CASE ( Relevant_Experience__c, "Yes",1,0)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Applicant Score Criteria</label>
     <precision>18</precision>

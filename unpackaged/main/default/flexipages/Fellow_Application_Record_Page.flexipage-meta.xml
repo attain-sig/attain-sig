@@ -1862,6 +1862,16 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.Relevant_Experience__c</fieldItem>
+                <identifier>RecordRelevant_Experience_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Scale_Project_Mgmt_Consulting__c</fieldItem>
                 <identifier>RecordScale_Project_Mgmt_Consulting_cField</identifier>
             </fieldInstance>
@@ -1874,6 +1884,13 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Scale_Project_Type_Experience__c</fieldItem>
                 <identifier>RecordScale_Project_Type_Experience_cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.Fellowship_Applying_for__c}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>U.S. Fellowship</rightValue>
+                    </criteria>
+                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1938,6 +1955,16 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Scale_Engineering_Experience__c</fieldItem>
                 <identifier>RecordScale_Engineering_Experience_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Versatility__c</fieldItem>
+                <identifier>RecordVersatility_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-4bc0ab4f-2fb5-4ff4-99c3-ba20bc6b1a65</name>

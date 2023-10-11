@@ -64,6 +64,10 @@
                 <behavior>Edit</behavior>
                 <field>CallDurationInSeconds</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IsRecorded</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
@@ -193,6 +197,16 @@
             <sortOrder>14</sortOrder>
         </platformActionListItems>
     </platformActionList>
+    <relatedLists>
+        <fields>Name</fields>
+        <fields>SourceType</fields>
+        <fields>Context</fields>
+        <fields>Source</fields>
+        <fields>VendorCallKey</fields>
+        <fields>ContactCenter</fields>
+        <fields>EventTimeStamp</fields>
+        <relatedList>VoiceChannelInteractionEvents</relatedList>
+    </relatedLists>
     <relatedLists>
         <fields>CollectionId</fields>
         <fields>CreatedBy</fields>

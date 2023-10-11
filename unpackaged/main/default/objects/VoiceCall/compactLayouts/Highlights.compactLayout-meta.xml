@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Highlights</fullName>
+    <fields>FromPhoneNumber</fields>
+    <fields>OwnerId</fields>
+    <fields>RelatedCase__c</fields>
+    <fields>CallStartDateTime</fields>
+    <fields>CallDurationInSeconds</fields>
+    <fields>CallOrigin</fields>
+    <fields>Name</fields>
+    <label>Highlights</label>
+</CompactLayout>

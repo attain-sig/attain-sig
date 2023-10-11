@@ -76,7 +76,7 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>Highlights</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <searchLayouts>
         <lookupDialogsAdditionalFields>CallStartDateTime</lookupDialogsAdditionalFields>

@@ -22,5 +22,5 @@
         <operation>notEqual</operation>
         <value>2</value>
     </filters>
-    <label>Missed Calls</label>
+    <label>Missed Calls (No VM)</label>
 </ListView>

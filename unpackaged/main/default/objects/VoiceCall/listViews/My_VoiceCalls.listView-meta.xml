@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>My_VoiceCalls</fullName>
+    <columns>Name</columns>
+    <columns>CallType</columns>
+    <columns>FromPhoneNumber</columns>
+    <columns>CallResolution</columns>
+    <columns>CallStartDateTime</columns>
+    <columns>Owner</columns>
+    <columns>QualityScore</columns>
     <filterScope>Mine</filterScope>
-    <label>MyVoiceCalls</label>
+    <label>My Voice Calls</label>
 </ListView>
