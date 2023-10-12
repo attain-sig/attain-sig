@@ -1403,6 +1403,10 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows />
+        <fullName>Campaign_Climate_Corps_update_CM_to_Sent</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
         <fullName>Campaigns_Update_iContact_Campaign_Members</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -5343,8 +5347,8 @@
         </sections>
     </reportTypes>
     <reportTypes>
-        <description><!-- Voice Calls --></description>
-        <label><!-- Voice Calls --></label>
+        <description><!-- Voice Calls with Case Details --></description>
+        <label><!-- Voice Calls with Case Details --></label>
         <name>Voice_Calls</name>
         <sections>
             <label><!-- Case --></label>

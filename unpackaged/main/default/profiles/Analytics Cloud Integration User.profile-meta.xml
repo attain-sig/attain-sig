@@ -297,6 +297,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Industry</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Industry_Group__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Industry__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Action_Code__c.Legacy_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -10924,6 +10939,9 @@
         <layout>Fellow_Application__c-Fellow Application Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>FlowOrchestrationInstance-Orchestration Run Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ItemsforEDF__mdt-ItemsforEDF Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -12018,6 +12036,7 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>Account.Organization</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>

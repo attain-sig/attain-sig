@@ -10924,6 +10924,9 @@
         <layout>Fellow_Application__c-Fellow Application Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>FlowOrchestrationInstance-Orchestration Run Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ItemsforEDF__mdt-ItemsforEDF Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

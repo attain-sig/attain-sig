@@ -2,9 +2,9 @@
 <ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
     <baseObject>VoiceCall</baseObject>
     <category>other</category>
-    <deployed>false</deployed>
-    <description>Voice calls</description>
-    <label>Voice Calls</label>
+    <deployed>true</deployed>
+    <description>Voice calls with details from related case</description>
+    <label>Voice Calls with Case Details</label>
     <sections>
         <columns>
             <checkedByDefault>false</checkedByDefault>

@@ -142,6 +142,8 @@
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
         <object>CampaignMember</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>ContactId</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
@@ -164,6 +166,8 @@
         </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
         <object>iCLightning__iContact_Message_Statistic__c</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>iCLightning__Contact__c</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordUpdates>
