@@ -5,7 +5,7 @@
         <name>Add_Assigned_To_ID_to_Contact_Collection</name>
         <label>Add Assigned To ID to Contact Collection</label>
         <locationX>351</locationX>
-        <locationY>645</locationY>
+        <locationY>723</locationY>
         <assignmentItems>
             <assignToReference>Vcoll_WhoID</assignToReference>
             <operator>Add</operator>
@@ -20,7 +20,7 @@
     <assignments>
         <name>Add_Assigned_To_ID_to_Contact_Collection_0</name>
         <label>Add Assigned To ID to Contact Collection</label>
-        <locationX>881</locationX>
+        <locationX>1042</locationX>
         <locationY>663</locationY>
         <assignmentItems>
             <assignToReference>Vcoll_WhoID</assignToReference>
@@ -34,41 +34,9 @@
         </connector>
     </assignments>
     <assignments>
-        <name>Add_volunteer_to_staff_list</name>
-        <label>Add volunteer to staff list</label>
-        <locationX>396</locationX>
-        <locationY>1353</locationY>
-        <assignmentItems>
-            <assignToReference>VColl_EDF_Staff_Alumni</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <elementReference>Get_Volunteer</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Development_Event</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
-        <name>Add_volunteer_to_staff_list_0</name>
-        <label>Add volunteer to staff list</label>
-        <locationX>1041</locationX>
-        <locationY>1531</locationY>
-        <assignmentItems>
-            <assignToReference>VColl_EDF_Staff_Alumni</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <elementReference>Get_Volunteer</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Development_Event_0</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
         <name>Assign_EDF_Staff_Alums</name>
         <label>Assign EDF Staff/Alums</label>
-        <locationX>659</locationX>
+        <locationX>820</locationX>
         <locationY>1174</locationY>
         <assignmentItems>
             <assignToReference>VColl_EDF_Staff_Alumni</assignToReference>
@@ -84,7 +52,7 @@
     <assignments>
         <name>Assign_EDF_Staff_Alums_0</name>
         <label>Assign EDF Staff/Alums</label>
-        <locationX>1165</locationX>
+        <locationX>1326</locationX>
         <locationY>1174</locationY>
         <assignmentItems>
             <assignToReference>VColl_EDF_Staff_Alumni</assignToReference>
@@ -100,7 +68,7 @@
     <assignments>
         <name>AssignDonor_Proxy</name>
         <label>Donor Proxy Assignment</label>
-        <locationX>353</locationX>
+        <locationX>514</locationX>
         <locationY>1165</locationY>
         <assignmentItems>
             <assignToReference>VColl_OrgRecords</assignToReference>
@@ -116,6 +84,13 @@
                 <stringValue>1</stringValue>
             </value>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>vColl_DonorProxy</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Each_Contact.Id</elementReference>
+            </value>
+        </assignmentItems>
         <connector>
             <targetReference>Each_Contact</targetReference>
         </connector>
@@ -123,7 +98,7 @@
     <assignments>
         <name>AssignDonor_Proxy_0</name>
         <label>Donor Proxy Assignment</label>
-        <locationX>896</locationX>
+        <locationX>1057</locationX>
         <locationY>1194</locationY>
         <assignmentItems>
             <assignToReference>VColl_OrgRecords</assignToReference>
@@ -144,9 +119,33 @@
         </connector>
     </assignments>
     <assignments>
+        <description>Combines donor proxy accts with related to account into a single collection variable</description>
+        <name>Collect_All_Accounts</name>
+        <label>Collect All Accounts</label>
+        <locationX>298</locationX>
+        <locationY>1391</locationY>
+        <assignmentItems>
+            <assignToReference>vColl_Accounts</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Get_Accounts_of_Donor_Proxies</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>vColl_Accounts</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Get_Related_To</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Development_Event</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
         <name>EDF_Other_coll</name>
         <label>EDF Other coll</label>
-        <locationX>522</locationX>
+        <locationX>683</locationX>
         <locationY>1176</locationY>
         <assignmentItems>
             <assignToReference>Vcoll_EDFOther</assignToReference>
@@ -162,7 +161,7 @@
     <assignments>
         <name>EDF_Other_coll_0</name>
         <label>EDF Other coll</label>
-        <locationX>1075</locationX>
+        <locationX>1236</locationX>
         <locationY>1259</locationY>
         <assignmentItems>
             <assignToReference>Vcoll_EDFOther</assignToReference>
@@ -178,8 +177,8 @@
     <assignments>
         <name>EventRelationID_Collection</name>
         <label>EventRelationID Collection</label>
-        <locationX>542</locationX>
-        <locationY>543</locationY>
+        <locationX>718</locationX>
+        <locationY>582</locationY>
         <assignmentItems>
             <assignToReference>Vcoll_WhoID</assignToReference>
             <operator>Add</operator>
@@ -194,7 +193,7 @@
     <assignments>
         <name>EventRelationID_Collection_0</name>
         <label>EventRelationID Collection</label>
-        <locationX>1134</locationX>
+        <locationX>1295</locationX>
         <locationY>527</locationY>
         <assignmentItems>
             <assignToReference>Vcoll_WhoID</assignToReference>
@@ -210,12 +209,12 @@
     <decisions>
         <name>Constituency_Decision</name>
         <label>Constituency Decision</label>
-        <locationX>567</locationX>
-        <locationY>999</locationY>
+        <locationX>822</locationX>
+        <locationY>903</locationY>
         <defaultConnector>
             <targetReference>EDF_Other_coll</targetReference>
         </defaultConnector>
-        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <defaultConnectorLabel>External Contact</defaultConnectorLabel>
         <rules>
             <name>Yes_Staff_or_Alumni</name>
             <conditionLogic>or</conditionLogic>
@@ -257,7 +256,7 @@
     <decisions>
         <name>Constituency_Decision_0</name>
         <label>Constituency Decision</label>
-        <locationX>1089</locationX>
+        <locationX>1250</locationX>
         <locationY>1039</locationY>
         <defaultConnector>
             <targetReference>EDF_Other_coll_0</targetReference>
@@ -304,7 +303,7 @@
     <decisions>
         <name>Development_Event</name>
         <label>Development Event?</label>
-        <locationX>240</locationX>
+        <locationX>401</locationX>
         <locationY>1582</locationY>
         <defaultConnector>
             <targetReference>EDF_Other_Display_Screen</targetReference>
@@ -329,7 +328,7 @@
     <decisions>
         <name>Development_Event_0</name>
         <label>Development Event?</label>
-        <locationX>772</locationX>
+        <locationX>933</locationX>
         <locationY>1692</locationY>
         <defaultConnector>
             <targetReference>EDF_Other_Display_Screen_0</targetReference>
@@ -352,10 +351,35 @@
         </rules>
     </decisions>
     <decisions>
+        <name>Is_donor_proxy_null</name>
+        <label>Is donor proxy null</label>
+        <locationX>50</locationX>
+        <locationY>1034</locationY>
+        <defaultConnector>
+            <targetReference>Get_Accounts_of_Donor_Proxies</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_Null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>vColl_DonorProxy</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Collect_All_Accounts</targetReference>
+            </connector>
+            <label>Is Null</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Task_or_Event</name>
         <label>Task or Event</label>
-        <locationX>539</locationX>
-        <locationY>232</locationY>
+        <locationX>786</locationX>
+        <locationY>149</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Event</name>
@@ -388,77 +412,28 @@
             <label>Task</label>
         </rules>
     </decisions>
-    <decisions>
-        <name>Volunteer_on_record</name>
-        <label>Volunteer on record?</label>
-        <locationX>154</locationX>
-        <locationY>1344</locationY>
-        <defaultConnector>
-            <targetReference>Development_Event</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>Yes</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>Get_Volunteer</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Add_volunteer_to_staff_list</targetReference>
-            </connector>
-            <label>Yes</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>Volunteer_on_record_0</name>
-        <label>Volunteer on record?</label>
-        <locationX>763</locationX>
-        <locationY>1526</locationY>
-        <defaultConnector>
-            <targetReference>Development_Event_0</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>Yes_0</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>Get_Volunteer_0</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Add_volunteer_to_staff_list_0</targetReference>
-            </connector>
-            <label>Yes</label>
-        </rules>
-    </decisions>
+    <description>Updating to incorporate feedback from stakeholders</description>
     <environments>Default</environments>
     <interviewLabel>Event SCREEN Display Other Related Contacts {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Screen Flow - Activity - Display Contacts in Name Field</label>
     <loops>
         <name>Each_Contact</name>
         <label>Each Contact</label>
-        <locationX>289</locationX>
-        <locationY>1048</locationY>
+        <locationX>350</locationX>
+        <locationY>930</locationY>
         <collectionReference>Get_Contacts_for_Event</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
             <targetReference>Constituency_Decision</targetReference>
         </nextValueConnector>
         <noMoreValuesConnector>
-            <targetReference>Volunteer_on_record</targetReference>
+            <targetReference>Is_donor_proxy_null</targetReference>
         </noMoreValuesConnector>
     </loops>
     <loops>
         <name>Each_Contact_0</name>
         <label>Each Contact</label>
-        <locationX>901</locationX>
+        <locationX>1062</locationX>
         <locationY>1037</locationY>
         <collectionReference>Get_Contacts_for_Task</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -466,14 +441,14 @@
             <targetReference>Constituency_Decision_0</targetReference>
         </nextValueConnector>
         <noMoreValuesConnector>
-            <targetReference>Volunteer_on_record_0</targetReference>
+            <targetReference>Development_Event_0</targetReference>
         </noMoreValuesConnector>
     </loops>
     <loops>
         <name>loop_Event_Relation</name>
         <label>loop Event Relation</label>
-        <locationX>348</locationX>
-        <locationY>548</locationY>
+        <locationX>471</locationX>
+        <locationY>589</locationY>
         <collectionReference>Get_Event_Relation</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -486,7 +461,7 @@
     <loops>
         <name>loop_Task_Relation</name>
         <label>loop Task Relation</label>
-        <locationX>886</locationX>
+        <locationX>1047</locationX>
         <locationY>549</locationY>
         <collectionReference>Get_Task_Relation_0</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -517,13 +492,34 @@
     </processMetadataValues>
     <processType>Flow</processType>
     <recordLookups>
-        <name>Get_Contact_ID_of_User</name>
-        <label>Get Contact ID of User</label>
-        <locationX>346</locationX>
-        <locationY>423</locationY>
+        <name>Get_Accounts_of_Donor_Proxies</name>
+        <label>Get Accounts of Donor Proxies</label>
+        <locationX>58</locationX>
+        <locationY>1254</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>loop_Event_Relation</targetReference>
+            <targetReference>Collect_All_Accounts</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>In</operator>
+            <value>
+                <elementReference>vColl_DonorProxy</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Account</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Contact_ID_of_User</name>
+        <label>Get Contact ID of AssignedTo</label>
+        <locationX>468</locationX>
+        <locationY>312</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Related_To</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -540,7 +536,7 @@
     <recordLookups>
         <name>Get_Contact_ID_of_User_0</name>
         <label>Get Contact ID of User</label>
-        <locationX>887</locationX>
+        <locationX>1048</locationX>
         <locationY>405</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -561,11 +557,11 @@
     <recordLookups>
         <name>Get_Contacts_for_Event</name>
         <label>Get Contacts for Event</label>
-        <locationX>351</locationX>
-        <locationY>753</locationY>
+        <locationX>670</locationX>
+        <locationY>739</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Get_Volunteer</targetReference>
+            <targetReference>Each_Contact</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -582,11 +578,11 @@
     <recordLookups>
         <name>Get_Contacts_for_Task</name>
         <label>Get Contacts for Task</label>
-        <locationX>885</locationX>
+        <locationX>1046</locationX>
         <locationY>771</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Get_Volunteer_0</targetReference>
+            <targetReference>Each_Contact_0</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -603,8 +599,8 @@
     <recordLookups>
         <name>Get_Event_Relation</name>
         <label>Get Event Relation</label>
-        <locationX>335</locationX>
-        <locationY>280</locationY>
+        <locationX>764</locationX>
+        <locationY>329</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Get_Contact_ID_of_User</targetReference>
@@ -622,9 +618,30 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
+        <name>Get_Related_To</name>
+        <label>Get Related To</label>
+        <locationX>195</locationX>
+        <locationY>429</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>loop_Event_Relation</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>V_Event_InputRecord.Account.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Account</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
         <name>Get_Task_Relation_0</name>
         <label>Get Task Relation</label>
-        <locationX>844</locationX>
+        <locationX>1005</locationX>
         <locationY>255</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -642,54 +659,12 @@
         <object>TaskRelation</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
-    <recordLookups>
-        <name>Get_Volunteer</name>
-        <label>Get Volunteer</label>
-        <locationX>365</locationX>
-        <locationY>909</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Each_Contact</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Id</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>V_Event_InputRecord.Volunteer__r.Id</elementReference>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>Contact</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-    <recordLookups>
-        <name>Get_Volunteer_0</name>
-        <label>Get Volunteer</label>
-        <locationX>883</locationX>
-        <locationY>890</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>Each_Contact_0</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Id</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>V_Task_InputRecord.Volunteer__r.Id</elementReference>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>Contact</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
     <runInMode>SystemModeWithSharing</runInMode>
     <screens>
         <name>EDF_Other_Display_Screen</name>
         <label>EDF Other Display Screen</label>
-        <locationX>60</locationX>
-        <locationY>1724</locationY>
+        <locationX>221</locationX>
+        <locationY>1723</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -728,7 +703,7 @@
             <inputParameters>
                 <name>columnFields</name>
                 <value>
-                    <stringValue>Name,Title,npsp__Primary_Affiliation__c,Constituency__c,Email,Primary_Handler__c,Affiliation_Relationship_Manager__c</stringValue>
+                    <stringValue>Name,Constituency__c,npsp__Primary_Affiliation__c,Title,Email,Primary_Handler__c</stringValue>
                 </value>
             </inputParameters>
             <inputParameters>
@@ -740,7 +715,7 @@
             <inputParameters>
                 <name>columnWidths</name>
                 <value>
-                    <stringValue>Name:0, Title:0, npsp__Primary_Affiliation__c:0, Constituency__c:0, Email:0, Primary_Handler__c:0, Affiliation_Relationship_Manager__c:0</stringValue>
+                    <stringValue>Name:0, Constituency__c:0, npsp__Primary_Affiliation__c:0, Title:0, Email:0, Primary_Handler__c:0</stringValue>
                 </value>
             </inputParameters>
             <inputParameters>
@@ -821,9 +796,132 @@
                     <stringValue>standard:contact_list</stringValue>
                 </value>
             </inputParameters>
+            <inputParameters>
+                <name>columnEdits</name>
+                <value>
+                    <stringValue>All</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>isShowSearchBar</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>cb_isShowSearchBar</name>
+                <value>
+                    <stringValue>CB_TRUE</stringValue>
+                </value>
+            </inputParameters>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
             <storeOutputAutomatically>true</storeOutputAutomatically>
+        </fields>
+        <fields>
+            <name>Spacer2</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 20px; color: rgb(255, 255, 255);&quot;&gt;  SPACER&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>OtherOrgs</name>
+            <dataTypeMappings>
+                <typeName>T</typeName>
+                <typeValue>Account</typeValue>
+            </dataTypeMappings>
+            <extensionName>c:datatable</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>objectName</name>
+                <value>
+                    <stringValue>Account</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>cb_suppressBottomBar</name>
+                <value>
+                    <stringValue>CB_FALSE</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>cb_navigateNextOnSave</name>
+                <value>
+                    <stringValue>CB_FALSE</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>columnFields</name>
+                <value>
+                    <stringValue>Name,Organization_Constituency__c,Account_Primary_Handler__c</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>columnFilters</name>
+                <value>
+                    <stringValue>All</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>columnFlexes</name>
+                <value>
+                    <stringValue>All</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>columnWidths</name>
+                <value>
+                    <stringValue>Name:0, Organization_Constituency__c:0, Account_Primary_Handler__c:0</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>tableIcon</name>
+                <value>
+                    <stringValue>standard:account</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>isDisplayHeader</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>cb_isDisplayHeader</name>
+                <value>
+                    <stringValue>CB_TRUE</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>tableLabel</name>
+                <value>
+                    <elementReference>OrgHeader</elementReference>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>columnLabels</name>
+                <value>
+                    <stringValue>Name:Organization Name</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>tableData</name>
+                <value>
+                    <elementReference>vColl_Accounts</elementReference>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>OrgCount</leftValueReference>
+                    <operator>IsNull</operator>
+                    <rightValue>
+                        <booleanValue>false</booleanValue>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
         </fields>
         <fields>
             <name>Spacer</name>
@@ -865,7 +963,7 @@
             <inputParameters>
                 <name>columnFields</name>
                 <value>
-                    <stringValue>Name,Title,Constituency__c</stringValue>
+                    <stringValue>Name,Constituency__c</stringValue>
                 </value>
             </inputParameters>
             <inputParameters>
@@ -883,7 +981,7 @@
             <inputParameters>
                 <name>columnWidths</name>
                 <value>
-                    <stringValue>Name:0, Title:0, Constituency__c:0</stringValue>
+                    <stringValue>Name:0, Constituency__c:0</stringValue>
                 </value>
             </inputParameters>
             <inputParameters>
@@ -914,112 +1012,13 @@
             <isRequired>true</isRequired>
             <storeOutputAutomatically>true</storeOutputAutomatically>
         </fields>
-        <fields>
-            <name>Spacer2</name>
-            <fieldText>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 20px; color: rgb(255, 255, 255);&quot;&gt;  SPACER&lt;/span&gt;&lt;/p&gt;</fieldText>
-            <fieldType>DisplayText</fieldType>
-        </fields>
-        <fields>
-            <name>OtherOrgs</name>
-            <dataTypeMappings>
-                <typeName>T</typeName>
-                <typeValue>Contact</typeValue>
-            </dataTypeMappings>
-            <extensionName>c:datatable</extensionName>
-            <fieldType>ComponentInstance</fieldType>
-            <inputParameters>
-                <name>objectName</name>
-                <value>
-                    <stringValue>Contact</stringValue>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>tableData</name>
-                <value>
-                    <elementReference>VColl_OrgRecords</elementReference>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>cb_suppressBottomBar</name>
-                <value>
-                    <stringValue>CB_FALSE</stringValue>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>cb_navigateNextOnSave</name>
-                <value>
-                    <stringValue>CB_FALSE</stringValue>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>columnFields</name>
-                <value>
-                    <stringValue>Name,Constituency__c,Affiliation_Relationship_Manager__c</stringValue>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>columnFilters</name>
-                <value>
-                    <stringValue>All</stringValue>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>columnFlexes</name>
-                <value>
-                    <stringValue>All</stringValue>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>columnWidths</name>
-                <value>
-                    <stringValue>Name:0, Constituency__c:0, Affiliation_Relationship_Manager__c:0</stringValue>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>tableIcon</name>
-                <value>
-                    <stringValue>standard:account</stringValue>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>isDisplayHeader</name>
-                <value>
-                    <booleanValue>true</booleanValue>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>cb_isDisplayHeader</name>
-                <value>
-                    <stringValue>CB_TRUE</stringValue>
-                </value>
-            </inputParameters>
-            <inputParameters>
-                <name>tableLabel</name>
-                <value>
-                    <elementReference>OrgHeader</elementReference>
-                </value>
-            </inputParameters>
-            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
-            <isRequired>true</isRequired>
-            <storeOutputAutomatically>true</storeOutputAutomatically>
-            <visibilityRule>
-                <conditionLogic>and</conditionLogic>
-                <conditions>
-                    <leftValueReference>OrgCount</leftValueReference>
-                    <operator>IsNull</operator>
-                    <rightValue>
-                        <booleanValue>false</booleanValue>
-                    </rightValue>
-                </conditions>
-            </visibilityRule>
-        </fields>
         <showFooter>false</showFooter>
         <showHeader>false</showHeader>
     </screens>
     <screens>
         <name>EDF_Other_Display_Screen_0</name>
         <label>EDF Other Display Screen</label>
-        <locationX>770</locationX>
+        <locationX>931</locationX>
         <locationY>1867</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -1350,7 +1349,7 @@
     <screens>
         <name>EDF_Other_Display_Screen_0_0</name>
         <label>Development Events</label>
-        <locationX>496</locationX>
+        <locationX>657</locationX>
         <locationY>1690</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -1418,12 +1417,6 @@
                 </value>
             </inputParameters>
             <inputParameters>
-                <name>tableLabel</name>
-                <value>
-                    <elementReference>ExternalContacts</elementReference>
-                </value>
-            </inputParameters>
-            <inputParameters>
                 <name>hideCheckboxColumn</name>
                 <value>
                     <booleanValue>true</booleanValue>
@@ -1487,6 +1480,12 @@
                 <name>columnLabels</name>
                 <value>
                     <stringValue>2:Household</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>tableLabel</name>
+                <value>
+                    <elementReference>donorTable</elementReference>
                 </value>
             </inputParameters>
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
@@ -1687,7 +1686,7 @@
     <screens>
         <name>EDF_Other_Display_Screen_0_0_0</name>
         <label>Development Events</label>
-        <locationX>1001</locationX>
+        <locationX>1162</locationX>
         <locationY>1844</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -2022,7 +2021,7 @@
         <showHeader>false</showHeader>
     </screens>
     <start>
-        <locationX>211</locationX>
+        <locationX>372</locationX>
         <locationY>50</locationY>
         <connector>
             <targetReference>Task_or_Event</targetReference>
@@ -2045,6 +2044,26 @@
         <isCollection>true</isCollection>
         <isInput>false</isInput>
         <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>donorTable</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>Donors and Prospective Donors</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>edfStaffLabel</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue>EDF Staff Participants</stringValue>
+        </value>
     </variables>
     <variables>
         <name>ExternalContacts</name>
@@ -2123,6 +2142,22 @@
         <isInput>true</isInput>
         <isOutput>true</isOutput>
         <objectType>Task</objectType>
+    </variables>
+    <variables>
+        <name>vColl_Accounts</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Account</objectType>
+    </variables>
+    <variables>
+        <description>Donor proxy contact ids</description>
+        <name>vColl_DonorProxy</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
     </variables>
     <variables>
         <name>VColl_EDF_Staff_Alumni</name>

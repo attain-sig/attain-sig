@@ -324,4 +324,8 @@
         <name>standard__DataManager</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Informatica</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
 </AppMenu>

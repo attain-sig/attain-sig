@@ -2065,6 +2065,10 @@
                         <value />
                     </inputParameters>
                     <inputParameters>
+                        <name>cb_isShowSearchBar</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
                         <name>cb_matchCaseOnFilters</name>
                         <value />
                     </inputParameters>
@@ -2078,6 +2082,10 @@
                     </inputParameters>
                     <inputParameters>
                         <name>cb_suppressBottomBar</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnEdits</name>
                         <value />
                     </inputParameters>
                     <inputParameters>
@@ -2106,6 +2114,10 @@
                     </inputParameters>
                     <inputParameters>
                         <name>isDisplayHeader</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>isShowSearchBar</name>
                         <value />
                     </inputParameters>
                     <inputParameters>
@@ -2141,6 +2153,10 @@
                     </inputParameters>
                     <inputParameters>
                         <name>columnFlexes</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>columnLabels</name>
                         <value />
                     </inputParameters>
                     <inputParameters>
@@ -5154,6 +5170,23 @@
         <sections>
             <label><!-- Permission Set License Assignments --></label>
             <name>Permission Set License Assignments</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Permission Sets --></description>
+        <label><!-- Permission Sets --></label>
+        <name>Permission_Set_Assignments</name>
+        <sections>
+            <label><!-- PSG --></label>
+            <name>PSG</name>
+        </sections>
+        <sections>
+            <label><!-- Permission Set Assignments --></label>
+            <name>Permission Set Assignments</name>
+        </sections>
+        <sections>
+            <label><!-- User --></label>
+            <name>User</name>
         </sections>
     </reportTypes>
     <reportTypes>
