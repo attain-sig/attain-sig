@@ -28,7 +28,9 @@
                 <stringValue>&quot;ServiceDate&quot; : &quot;{!formulaToday}&quot;</stringValue>
             </value>
         </inputParameters>
+        <nameSegment>MapCollection</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Clone_Opportunity_and_Its_Products</name>
@@ -93,7 +95,9 @@
                 <booleanValue>true</booleanValue>
             </value>
         </inputParameters>
+        <nameSegment>DeepClone</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>49.0</apiVersion>
     <formulas>

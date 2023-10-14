@@ -14,6 +14,8 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Fellow_Application__c.Not_Moving_Forward_From_Waitlist_China</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Not_Moving_On_China</name>
@@ -29,6 +31,8 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Fellow_Application__c.Interview_1_2_Complete_Not_Moving_On_China</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
     <decisions>

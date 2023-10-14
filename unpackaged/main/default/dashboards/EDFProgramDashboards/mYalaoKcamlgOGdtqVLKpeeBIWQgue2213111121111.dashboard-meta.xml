@@ -14,6 +14,9 @@
             <dashboardComponent>
                 <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
                 <componentType>RichText</componentType>
+                <dashboardComponentContents>
+                    <richTextContent>[{\&amp;quot;insert\&amp;quot;:\&amp;quot;Explanation of the dashboard - insert text here. Refresh button is in the Title bar to the far right. Click on View Report for more detailed information.\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;align\&amp;quot;:\&amp;quot;left\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;\\n\&amp;quot;}]</richTextContent>
+                </dashboardComponentContents>
                 <groupingSortProperties />
             </dashboardComponent>
             <rowIndex>0</rowIndex>

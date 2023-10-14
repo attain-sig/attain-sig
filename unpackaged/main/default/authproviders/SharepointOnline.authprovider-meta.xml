@@ -5,7 +5,9 @@
     <consumerSecret>Placeholder_Value</consumerSecret>
     <friendlyName>SharepointOnline</friendlyName>
     <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <isPkceEnabled>false</isPkceEnabled>
     <providerType>MicrosoftACS</providerType>
+    <requireMfa>false</requireMfa>
     <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
     <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
     <sendSecretInApis>true</sendSecretInApis>

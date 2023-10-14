@@ -29,12 +29,14 @@
     <siteRedirectMappings>
         <action>Permanent</action>
         <isActive>true</isActive>
+        <isDynamic>false</isDynamic>
         <source>/login</source>
         <target>/s/login</target>
     </siteRedirectMappings>
     <siteRedirectMappings>
         <action>Permanent</action>
         <isActive>true</isActive>
+        <isDynamic>false</isDynamic>
         <source>/login?ec=302&amp;startURL=%2FEDFCCFellowPortal%2Fs%2F</source>
         <target>/s/login</target>
     </siteRedirectMappings>

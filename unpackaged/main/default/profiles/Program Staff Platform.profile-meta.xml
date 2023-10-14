@@ -13412,6 +13412,9 @@
         <recordType>Challenge_Match__c.Challenge_Match</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ChannelObjectLinkingRule-Channel Object Linking Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Climate_Corps_Engagement__c-Climate Corps Engagement Layout</layout>
         <recordType>Climate_Corps_Engagement__c.China_Program</recordType>
     </layoutAssignments>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>This permission set gives access to the voice call tab</description>
+    <description>This permission set gives access to the voice call tab. Does not require a service cloud voice license. Use for agents, supervisors, other users who should see voice calls.</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Test_Phone__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Service Cloud Voice - Custom</label>
+    <label>EDF - SCV Voice Call Tab</label>
     <license>Salesforce</license>
     <tabSettings>
         <tab>standard-VoiceCall</tab>

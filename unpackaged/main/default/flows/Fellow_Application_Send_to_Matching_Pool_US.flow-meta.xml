@@ -14,6 +14,8 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Fellow_Application__c.Send_to_Matching_Pool_Wave_2</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
     <description>Send Email when Stage is set to &apos;Send to Matching Pool&apos;. Use Version 1 for Wave 1 and Version 2 for Wave 2</description>

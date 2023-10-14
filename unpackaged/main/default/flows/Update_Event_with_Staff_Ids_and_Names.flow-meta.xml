@@ -237,6 +237,8 @@
                 <targetReference>Loop_through_staff</targetReference>
             </connector>
             <label>el_0</label>
+            <offset>1</offset>
+            <offsetUnit>Minutes</offsetUnit>
         </waitEvents>
     </waits>
 </Flow>

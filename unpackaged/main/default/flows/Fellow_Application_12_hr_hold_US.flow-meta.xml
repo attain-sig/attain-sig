@@ -14,6 +14,8 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Fellow_Application__c.Hold_on_Matching_Wave_2</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Hold_on_Matching_Wave_1</name>
@@ -29,6 +31,8 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Fellow_Application__c.Hold_on_Matching_Wave_1</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Interview_Complete_Not_Moving_On</name>
@@ -44,6 +48,8 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Fellow_Application__c.Interview_1Complete_Not_Moving_On</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Send_to_Matching_Pool_W1</name>
@@ -59,6 +65,8 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Fellow_Application__c.Send_to_Matching_Pool_Wave_1</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Send_to_Matching_Wave_2</name>
@@ -74,6 +82,8 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Fellow_Application__c.Send_to_Matching_Pool_Wave_2</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
     <decisions>

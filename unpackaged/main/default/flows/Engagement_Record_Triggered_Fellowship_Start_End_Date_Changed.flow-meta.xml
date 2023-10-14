@@ -14,6 +14,8 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Climate_Corps_Engagement__c.Fellowship_Start_End_Date_Changed</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>57.0</apiVersion>
     <description>4-18 - Adjusted from using a version to check the CC Engagement Manager to the entry condition. 

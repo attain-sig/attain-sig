@@ -10862,6 +10862,9 @@
         <layout>Action__c-Action Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ChannelObjectLinkingRule-Channel Object Linking Rule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Climate_Corps_Engagement__c-Climate Corps Engagement Layout</layout>
     </layoutAssignments>
     <layoutAssignments>

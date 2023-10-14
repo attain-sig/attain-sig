@@ -3,7 +3,9 @@
     <enableCanadaIcuFormat>true</enableCanadaIcuFormat>
     <enableEndUserLanguages>true</enableEndUserLanguages>
     <enableICULocaleDateFormat>true</enableICULocaleDateFormat>
+    <enableLanguageExtensionPackage>false</enableLanguageExtensionPackage>
     <enableLocalNamesForStdObjects>false</enableLocalNamesForStdObjects>
+    <enableLocaleInsensitiveFiltering>false</enableLocaleInsensitiveFiltering>
     <enablePlatformLanguages>false</enablePlatformLanguages>
     <enableTranslationWorkbench>true</enableTranslationWorkbench>
     <useLanguageFallback>false</useLanguageFallback>

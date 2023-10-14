@@ -14,6 +14,8 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>Climate_Corps_Engagement__c.Fellow_Initials_Signed</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>53.0</apiVersion>
     <description>v2 Optimize flow per FB-1490

@@ -49,6 +49,8 @@ Thanks,</stringValue>
                 <elementReference>myVariable_current.Assigned_To__r.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>chatterPost</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>51.0</apiVersion>
     <decisions>

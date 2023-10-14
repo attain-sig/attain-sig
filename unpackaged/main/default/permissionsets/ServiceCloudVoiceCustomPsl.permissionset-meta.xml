@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <description>Permission Set to access Service Cloud Voice Connected Apps and Service Presence</description>
+    <description>Required for agents and supervisors. Permission Set to access Service Cloud Voice Connected Apps and Service Presence</description>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Service Cloud Voice Permission Set</label>
+    <label>EDF - Agent/Supervisor - Service Cloud Voice Permission Set</label>
     <license>ServiceCloudVoicePsl</license>
 </PermissionSet>

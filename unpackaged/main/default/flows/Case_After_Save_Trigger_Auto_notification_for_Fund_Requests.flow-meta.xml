@@ -60,6 +60,8 @@
                 <booleanValue>true</booleanValue>
             </value>
         </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <description>Send Fund Request Email to ERPSupport</description>
@@ -118,6 +120,8 @@
                 <booleanValue>true</booleanValue>
             </value>
         </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>58.0</apiVersion>
     <description>Updating the API value of the Closed Status in the Entry Criteria. Was not updated to match API value. Updating Email back to ERPsupport post testing

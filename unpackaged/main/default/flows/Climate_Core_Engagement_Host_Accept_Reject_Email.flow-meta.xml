@@ -31,7 +31,9 @@
                 <elementReference>Vcoll_DirectSup_HighlvlSp</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>DedupeRecordCollection</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Send_Accepted</name>
@@ -71,6 +73,8 @@
                 <elementReference>Get_Email_Template_ID.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Send_Rejected_EDF_Funded_Email</name>
@@ -110,6 +114,8 @@
                 <elementReference>Get_Rejected_EDF_Funded_Email_Template_ID.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Send_Rejected_Host_Funded</name>
@@ -149,6 +155,8 @@
                 <elementReference>Get_Rejected_Host_Funded_Email_Template_ID.Id</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>58.0</apiVersion>
     <assignments>

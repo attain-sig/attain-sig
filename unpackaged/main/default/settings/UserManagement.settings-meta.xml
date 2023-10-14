@@ -9,6 +9,8 @@
     <enableRestrictEmailDomains>false</enableRestrictEmailDomains>
     <enableScrambleUserData>false</enableScrambleUserData>
     <enableUserSelfDeactivate>false</enableUserSelfDeactivate>
+    <permsetsInFieldCreation>true</permsetsInFieldCreation>
     <psaExpirationUIEnabled>true</psaExpirationUIEnabled>
     <restrictedProfileCloning>false</restrictedProfileCloning>
+    <userAccessPoliciesEnabled>true</userAccessPoliciesEnabled>
 </UserManagementSettings>

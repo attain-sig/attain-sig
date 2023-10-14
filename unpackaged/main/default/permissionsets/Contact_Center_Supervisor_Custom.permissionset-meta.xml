@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>Access supervisor features in Service Cloud Voice contact centers that use Amazon Connect as a telephony provider.</description>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Contact Center Supervisor - Custom</label>
+    <label>EDF - Supervisor - Contact Center</label>
     <license>ServiceCloudVoicePsl</license>
     <userPermissions>
         <enabled>true</enabled>

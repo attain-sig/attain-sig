@@ -41,10 +41,12 @@
                 <elementReference>BulkSubject</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>SendBetterEmailBulkRequestSetup</nameSegment>
         <outputParameters>
             <assignToReference>bulkThisSendBetterEmailRequest</assignToReference>
             <name>output</name>
         </outputParameters>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>X1_Simplest_Better_Email</name>
@@ -105,6 +107,7 @@
                 <booleanValue>false</booleanValue>
             </value>
         </inputParameters>
+        <nameSegment>SendBetterEmail</nameSegment>
         <outputParameters>
             <assignToReference>errorsFromEmail</assignToReference>
             <name>errors</name>
@@ -113,6 +116,7 @@
             <assignToReference>isSuccess</assignToReference>
             <name>isSuccess</name>
         </outputParameters>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>X2_Simple_Email_with_Address_Collections_Wit_Collections</name>
@@ -167,6 +171,7 @@
                 <elementReference>sendSubject</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>SendBetterEmail</nameSegment>
         <outputParameters>
             <assignToReference>errorsFromEmail</assignToReference>
             <name>errors</name>
@@ -175,6 +180,7 @@
             <assignToReference>isSuccess</assignToReference>
             <name>isSuccess</name>
         </outputParameters>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>X3_Email_with_Attachments</name>
@@ -235,6 +241,7 @@
                 <booleanValue>false</booleanValue>
             </value>
         </inputParameters>
+        <nameSegment>SendBetterEmail</nameSegment>
         <outputParameters>
             <assignToReference>errorsFromEmail</assignToReference>
             <name>errors</name>
@@ -243,6 +250,7 @@
             <assignToReference>isSuccess</assignToReference>
             <name>isSuccess</name>
         </outputParameters>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <description>Email Using Template - An email using a Lightning EmailTemplate</description>
@@ -304,6 +312,7 @@
                 <booleanValue>false</booleanValue>
             </value>
         </inputParameters>
+        <nameSegment>SendBetterEmail</nameSegment>
         <outputParameters>
             <assignToReference>errorsFromEmail</assignToReference>
             <name>errors</name>
@@ -312,6 +321,7 @@
             <assignToReference>isSuccess</assignToReference>
             <name>isSuccess</name>
         </outputParameters>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <description>Multi-Lingual Using Email Templates - An email using a Lightning EmailTemplate selected by language</description>
@@ -367,6 +377,7 @@
                 <elementReference>templateTargetId</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>SendBetterEmail</nameSegment>
         <outputParameters>
             <assignToReference>errorsFromEmail</assignToReference>
             <name>errors</name>
@@ -375,6 +386,7 @@
             <assignToReference>isSuccess</assignToReference>
             <name>isSuccess</name>
         </outputParameters>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <description>Testing Send Better Email - Mass Email</description>
@@ -412,6 +424,8 @@
                 <elementReference>testTemplateName</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>SendBetterEmail</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <description>Use the SendBetterEmail Action with a collection of requests</description>
@@ -431,7 +445,9 @@
                 <elementReference>bulkSendBetterEmailRequest</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>SendBetterEmailBulk</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <description>Email Using Template - An email using a Lightning EmailTemplate</description>
@@ -517,6 +533,7 @@
                 <booleanValue>false</booleanValue>
             </value>
         </inputParameters>
+        <nameSegment>SendBetterEmail</nameSegment>
         <outputParameters>
             <assignToReference>errorsFromEmail</assignToReference>
             <name>errors</name>
@@ -525,6 +542,7 @@
             <assignToReference>isSuccess</assignToReference>
             <name>isSuccess</name>
         </outputParameters>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>49.0</apiVersion>
     <assignments>

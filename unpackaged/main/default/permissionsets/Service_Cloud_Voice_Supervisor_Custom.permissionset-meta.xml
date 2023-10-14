@@ -6,6 +6,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
-    <label>Service Cloud Voice Supervisor - Custom</label>
+    <label>EDF - Supervisor - SCV Omni-Supervisor Tab</label>
     <license>Salesforce</license>
 </PermissionSet>
