@@ -1,19 +1,5 @@
 {
   "id" : "30d929a3-8e19-48cc-bb27-4e8a66560001",
-  "mobilePublisherAppUpdateConfig" : {
-    "forceAppUpdate" : false,
-    "enableAppUpdate" : false,
-    "minVersion" : {
-      "ios" : {
-        "version" : "10.0",
-        "url" : "https://apps.apple.com/us"
-      },
-      "android" : {
-        "version" : "10.1",
-        "url" : "https://play.google.com/store"
-      }
-    }
-  },
   "nativeMobileNavConfig" : {
     "showBackButton" : true,
     "showHamburgerMenuWithBackButton" : false

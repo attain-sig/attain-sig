@@ -15,8 +15,6 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
-        <nameSegment>Feedback__c.Critical_Feedback_Alert_Heller_Lead</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <description>Email Heller&apos;s Lead Consultant if a Feedback is Critical</description>

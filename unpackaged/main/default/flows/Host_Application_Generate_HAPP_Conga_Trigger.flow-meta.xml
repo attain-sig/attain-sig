@@ -8,8 +8,6 @@
         <actionName>Host_Application__c.HAPP_PDF</actionName>
         <actionType>outboundMessage</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <nameSegment>Host_Application__c.HAPP_PDF</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <environments>Default</environments>

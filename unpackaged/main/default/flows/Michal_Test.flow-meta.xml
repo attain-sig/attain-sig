@@ -87,8 +87,6 @@
                 <booleanValue>false</booleanValue>
             </value>
         </inputParameters>
-        <nameSegment>routeWork</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Send_Existing_Contact</name>
@@ -107,9 +105,7 @@
                 <stringValue>[{&quot;id&quot;:&quot;888dcf89&quot;,&quot;targetObjectId&quot;:&quot;&quot;,&quot;isFocused&quot;:true}]</stringValue>
             </value>
         </inputParameters>
-        <nameSegment>addScreenPop</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
     <description>Routes each call to the default queue (Basic Queue) and, if the agent accepts, screen pops the new case for this call and identifies the caller.</description>

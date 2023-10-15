@@ -20,9 +20,7 @@
         <inputParameters>
             <name>pendingServiceRoutingInteractionInfoInputList</name>
         </inputParameters>
-        <nameSegment>addScreenPop</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Pop_Case</name>
@@ -41,9 +39,7 @@
                 <stringValue>[{&quot;id&quot;:&quot;ae7beffc&quot;,&quot;targetObjectId&quot;:&quot;{!caseRecord.Id}&quot;,&quot;isFocused&quot;:true}]</stringValue>
             </value>
         </inputParameters>
-        <nameSegment>addScreenPop</nameSegment>
         <storeOutputAutomatically>true</storeOutputAutomatically>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Route_pop_Case_to_basic_queue</name>
@@ -125,8 +121,6 @@
         <inputParameters>
             <name>botLabel</name>
         </inputParameters>
-        <nameSegment>routeWork</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Route_to_Basic_Queue</name>
@@ -208,8 +202,6 @@
         <inputParameters>
             <name>botLabel</name>
         </inputParameters>
-        <nameSegment>routeWork</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
     <decisions>

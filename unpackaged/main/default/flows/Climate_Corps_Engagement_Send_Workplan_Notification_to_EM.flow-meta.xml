@@ -32,8 +32,6 @@
                 <elementReference>subject</elementReference>
             </value>
         </inputParameters>
-        <nameSegment>emailSimple</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>57.0</apiVersion>
     <description>Sends a notification to EM when Workplan Status is set to Pending Approval.

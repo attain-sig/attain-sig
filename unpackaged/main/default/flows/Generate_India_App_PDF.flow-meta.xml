@@ -8,8 +8,6 @@
         <actionName>Climate_Corps_Engagement__c.Conga_Trigger_Host_App_from_Engagement</actionName>
         <actionType>outboundMessage</actionType>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <nameSegment>Climate_Corps_Engagement__c.Conga_Trigger_Host_App_from_Engagement</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>58.0</apiVersion>
     <description>Runs on stage = Application Submitted and Fellowship Type = India Fellowship. Only when updated to meet criteria.</description>

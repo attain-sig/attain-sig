@@ -35,8 +35,6 @@
                 <stringValue>You&apos;ve been assigned a new Contact</stringValue>
             </value>
         </inputParameters>
-        <nameSegment>emailSimple</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <description>Notifies user that the new PM does not have an email address and will not receive notification of the new assignment.</description>
@@ -68,8 +66,6 @@
                 <stringValue>Can&apos;t send PM assignment notification</stringValue>
             </value>
         </inputParameters>
-        <nameSegment>emailSimple</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>53.0</apiVersion>
     <decisions>

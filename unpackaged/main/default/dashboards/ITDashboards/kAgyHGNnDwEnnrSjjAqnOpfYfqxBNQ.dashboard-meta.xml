@@ -243,15 +243,6 @@
             <dashboardComponent>
                 <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
                 <componentType>Image</componentType>
-                <dashboardComponentContents>
-                    <additionalInfo>{"contentDocumentId":"0697d000002IJOCAA4","fileAssetName":"case_reasonpng","namespacePrefix":"","inlineWidgetStyle":{}}</additionalInfo>
-                    <altText>what is this</altText>
-                    <fileName>case reason.png</fileName>
-                    <fit>fitwidth</fit>
-                    <horizontalAlignment>center</horizontalAlignment>
-                    <tooltip>check this out</tooltip>
-                    <verticalAlignment>center</verticalAlignment>
-                </dashboardComponentContents>
                 <groupingSortProperties />
             </dashboardComponent>
             <rowIndex>16</rowIndex>

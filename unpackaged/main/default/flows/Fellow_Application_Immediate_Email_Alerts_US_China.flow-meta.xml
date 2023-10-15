@@ -14,8 +14,6 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
-        <nameSegment>Fellow_Application__c.Hold_on_Interview_2_China</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Not_Qual_US</name>
@@ -31,8 +29,6 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
-        <nameSegment>Fellow_Application__c.Not_Qualified_and_Notified</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Not_Qualified_and_Notified_China</name>
@@ -48,8 +44,6 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
-        <nameSegment>Fellow_Application__c.Not_Qualified_and_Notified_China</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Waitlist_Interview_1_China</name>
@@ -65,8 +59,6 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
-        <nameSegment>Fellow_Application__c.Waitlist_Interview_1_China</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Waitlist_Interview_1_US_Email</name>
@@ -82,8 +74,6 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
-        <nameSegment>Fellow_Application__c.Waitlist_Interview_1</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
     <decisions>

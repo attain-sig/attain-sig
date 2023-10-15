@@ -14,9 +14,6 @@
             <dashboardComponent>
                 <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
                 <componentType>RichText</componentType>
-                <dashboardComponentContents>
-                    <richTextContent>[{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;bold\&amp;quot;:true,\&amp;quot;size\&amp;quot;:\&amp;quot;16px\&amp;quot;,\&amp;quot;link\&amp;quot;:\&amp;quot;https:\/\/environmentaldefensefund--full.sandbox.lightning.force.com\/lightning\/r\/Dashboard\/01Z7d000000Zo2GEAS\/view\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;Return to Development Library Homepage\&amp;quot;},{\&amp;quot;attributes\&amp;quot;:{\&amp;quot;align\&amp;quot;:\&amp;quot;left\&amp;quot;},\&amp;quot;insert\&amp;quot;:\&amp;quot;\\n\\n\&amp;quot;}]</richTextContent>
-                </dashboardComponentContents>
                 <groupingSortProperties />
             </dashboardComponent>
             <rowIndex>0</rowIndex>

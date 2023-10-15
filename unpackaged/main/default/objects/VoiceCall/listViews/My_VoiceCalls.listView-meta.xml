@@ -8,6 +8,8 @@
     <columns>CallStartDateTime</columns>
     <columns>Owner</columns>
     <columns>QualityScore</columns>
+    <columns>CallDurationInSeconds</columns>
+    <columns>CallOrigin</columns>
     <filterScope>Mine</filterScope>
     <label>My Voice Calls</label>
 </ListView>

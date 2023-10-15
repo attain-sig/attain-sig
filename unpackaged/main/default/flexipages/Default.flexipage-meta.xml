@@ -118,13 +118,27 @@
         </itemInstances>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>hideFilePickerButton</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>newLineOnEnter</name>
+                    <value>false</value>
+                </componentInstanceProperties>
                 <componentName>scrt:conversationBody</componentName>
                 <identifier>scrt_conversationBody</identifier>
                 <visibilityRule>
+                    <booleanFilter>1 OR 2</booleanFilter>
                     <criteria>
                         <leftValue>{!Record.CallOrigin}</leftValue>
                         <operator>EQUAL</operator>
                         <rightValue>Voicemail</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.CallDisposition}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>completed</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>

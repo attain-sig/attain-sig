@@ -14,8 +14,6 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
-        <nameSegment>Fellow_Application__c.Hold_on_Interview_2</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Hold_on_Matching_Wave_1_Email</name>
@@ -31,8 +29,6 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
-        <nameSegment>Fellow_Application__c.Hold_on_Matching_Wave_1</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Interview_1_2_Not_Moving_on_Email</name>
@@ -48,8 +44,6 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
-        <nameSegment>Fellow_Application__c.Interview_1Complete_Not_Moving_On</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Not_Qualified_Email</name>
@@ -65,8 +59,6 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
-        <nameSegment>Fellow_Application__c.Not_Qualified_and_Notified</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Send_to_Matching_Wave_1_Email</name>
@@ -82,8 +74,6 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
-        <nameSegment>Fellow_Application__c.Send_to_Matching_Pool_Wave_1</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Sent_Invite_to_Interview_2_Wave_1</name>
@@ -99,8 +89,6 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
-        <nameSegment>Fellow_Application__c.Send_Invite_to_Interview_2_Wave_1</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <name>Waitlist_Interview_1_email</name>
@@ -116,8 +104,6 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </inputParameters>
-        <nameSegment>Fellow_Application__c.Waitlist_Interview_1</nameSegment>
-        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
     <decisions>

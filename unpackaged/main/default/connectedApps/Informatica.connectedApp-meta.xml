@@ -6,13 +6,8 @@
         <callbackUrl>https://test.salesforce.com/</callbackUrl>
         
         <isAdminApproved>false</isAdminApproved>
-        <isClientCredentialEnabled>false</isClientCredentialEnabled>
-        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
-        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
         <isConsumerSecretOptional>false</isConsumerSecretOptional>
         <isIntrospectAllTokens>false</isIntrospectAllTokens>
-        <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
-        <isPkceRequired>true</isPkceRequired>
         <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
         <scopes>Api</scopes>
     </oauthConfig>
