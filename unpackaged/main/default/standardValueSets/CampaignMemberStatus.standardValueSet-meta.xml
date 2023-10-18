@@ -7,6 +7,11 @@
         <label>Accepted</label>
     </standardValue>
     <standardValue>
+        <fullName>Added</fullName>
+        <default>false</default>
+        <label>Added</label>
+    </standardValue>
+    <standardValue>
         <fullName>A list – Fred approved</fullName>
         <default>false</default>
         <label>A list – Fred approved</label>

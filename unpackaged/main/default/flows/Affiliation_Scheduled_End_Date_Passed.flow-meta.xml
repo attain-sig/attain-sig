@@ -5,7 +5,7 @@
         <name>Add_to_Collection</name>
         <label>Add to Collection</label>
         <locationX>264</locationX>
-        <locationY>636</locationY>
+        <locationY>576</locationY>
         <assignmentItems>
             <assignToReference>varCollectionRecord</assignToReference>
             <operator>Add</operator>
@@ -21,7 +21,7 @@
         <name>Assign_Single_Record</name>
         <label>Assign Single Record</label>
         <locationX>264</locationX>
-        <locationY>516</locationY>
+        <locationY>468</locationY>
         <assignmentItems>
             <assignToReference>varSingleRecord.npe5__Primary__c</assignToReference>
             <operator>Assign</operator>
@@ -47,6 +47,7 @@
             <targetReference>Add_to_Collection</targetReference>
         </connector>
     </assignments>
+    <description>Updates to criteria in the Getter to reduce the pulled in records</description>
     <environments>Default</environments>
     <interviewLabel>Affiliation - Scheduled - End Date Passed {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Affiliation - Scheduled - End Date Passed</label>
@@ -54,7 +55,7 @@
         <name>Affiliations_Loop</name>
         <label>Affiliations Loop</label>
         <locationX>176</locationX>
-        <locationY>396</locationY>
+        <locationY>360</locationY>
         <collectionReference>Get_Affiliation</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -87,7 +88,7 @@
         <name>Get_Affiliation</name>
         <label>Get Affiliation</label>
         <locationX>176</locationX>
-        <locationY>276</locationY>
+        <locationY>252</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Affiliations_Loop</targetReference>
@@ -107,6 +108,13 @@
                 <elementReference>$Record.Id</elementReference>
             </value>
         </filters>
+        <filters>
+            <field>npe5__Status__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Former</stringValue>
+            </value>
+        </filters>
         <getFirstRecordOnly>false</getFirstRecordOnly>
         <object>npe5__Affiliation__c</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
@@ -115,7 +123,7 @@
         <name>Update_Affiliation</name>
         <label>Update Affiliation</label>
         <locationX>176</locationX>
-        <locationY>852</locationY>
+        <locationY>768</locationY>
         <inputReference>varCollectionRecord</inputReference>
     </recordUpdates>
     <start>
@@ -132,7 +140,7 @@
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Draft</status>
     <variables>
         <name>varCollectionRecord</name>
         <dataType>SObject</dataType>
