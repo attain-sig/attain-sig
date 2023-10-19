@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customPermissions>
         <enabled>true</enabled>
         <name>NPSP_Data_Import</name>
@@ -222,6 +222,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Donation_adjustment_code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Donor_Change_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

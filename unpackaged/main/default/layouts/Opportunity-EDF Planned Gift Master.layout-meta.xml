@@ -83,6 +83,10 @@
                 <behavior>Edit</behavior>
                 <field>PG_Portfolio_Manager__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Donor_Change_Type__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
-        <name>Copy_1_of_Send_to_Matching_Pool_India</name>
-        <label>Copy 1 of Send to Matching Pool India</label>
-        <locationX>50</locationX>
-        <locationY>276</locationY>
-        <actionName>Fellow_Application__c.Send_to_Matching_Pool_India</actionName>
-        <actionType>emailAlert</actionType>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>SObjectRowId</name>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputParameters>
-    </actionCalls>
-    <actionCalls>
         <name>Send_to_Matching_Pool_India</name>
         <label>Send to Matching Pool India</label>
-        <locationX>314</locationX>
+        <locationX>308</locationX>
         <locationY>276</locationY>
         <actionName>Fellow_Application__c.Send_to_Matching_Pool_India</actionName>
         <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Get_email_template</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>SObjectRowId</name>
@@ -31,7 +19,8 @@
         </inputParameters>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
-    <description>v2 added immediate send for testing purposes</description>
+    <description>v2 added immediate send for testing purposes
+v3 removed immediate send and updated to include subflow</description>
     <environments>Default</environments>
     <interviewLabel>Fellow Application - Send to Matching Pool - India {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Fellow Application - Send to Matching Pool - India</label>
@@ -54,12 +43,30 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
-    <start>
-        <locationX>56</locationX>
-        <locationY>0</locationY>
+    <recordLookups>
+        <name>Get_email_template</name>
+        <label>Get email template</label>
+        <locationX>308</locationX>
+        <locationY>384</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Copy_1_of_Send_to_Matching_Pool_India</targetReference>
+            <targetReference>Create_email_message_attachment</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>India_Send_to_Matching_Pool_1695646075848</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>EmailTemplate</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
 &amp;&amp;
@@ -81,4 +88,36 @@ ispickval({!$Record.Fellowship_Applying_for__c}, &quot;India Fellowship&quot;)</
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>
+    <subflows>
+        <name>Create_email_message_attachment</name>
+        <label>Create email message attachment</label>
+        <locationX>308</locationX>
+        <locationY>492</locationY>
+        <flowName>Subflow_Create_Email_Message_for_Email_Alerts</flowName>
+        <inputAssignments>
+            <name>varConId</name>
+            <value>
+                <elementReference>$Record.Applicant__r.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>varEmailTemplateId</name>
+            <value>
+                <elementReference>Get_email_template.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>varRelatedToId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>varToAddress</name>
+            <value>
+                <elementReference>$Record.Fellow_Applicant_Email__c</elementReference>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
 </Flow>

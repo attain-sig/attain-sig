@@ -4,9 +4,12 @@
         <name>Hold_on_Matching_India</name>
         <label>Hold on Matching India</label>
         <locationX>440</locationX>
-        <locationY>408</locationY>
+        <locationY>384</locationY>
         <actionName>Fellow_Application__c.Hold_on_Matching_India</actionName>
         <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Copy_2_of_Get_email_template</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>SObjectRowId</name>
@@ -19,9 +22,12 @@
         <name>Waitlist_India</name>
         <label>Waitlist India</label>
         <locationX>176</locationX>
-        <locationY>408</locationY>
+        <locationY>384</locationY>
         <actionName>Fellow_Application__c.Waitlist_Interview_1_India</actionName>
         <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Get_email_template</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>SObjectRowId</name>
@@ -35,7 +41,7 @@
         <name>Stage</name>
         <label>Stage</label>
         <locationX>440</locationX>
-        <locationY>288</locationY>
+        <locationY>276</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Waitlist_Interview_1</name>
@@ -68,7 +74,8 @@
             <label>Hold on Matching</label>
         </rules>
     </decisions>
-    <description>One day wait for Waitlist- Interview 1 and Hold on Matching</description>
+    <description>One day wait for Waitlist- Interview 1 and Hold on Matching
+v2 updated to incorporate subflow</description>
     <environments>Default</environments>
     <interviewLabel>Fellow Application - One Day Wait - India {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Fellow Application - One Day Wait - India</label>
@@ -91,6 +98,48 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Copy_2_of_Get_email_template</name>
+        <label>Copy 2 of Get email template</label>
+        <locationX>440</locationX>
+        <locationY>492</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Copy_1_of_Create_Email_Message</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>India_Hold_on_Matching_1692882499869</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>EmailTemplate</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_email_template</name>
+        <label>Get email template</label>
+        <locationX>176</locationX>
+        <locationY>492</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Create_Email_Message</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>India_Waitlist_Interview_1_1691620642638</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>EmailTemplate</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
     <start>
         <locationX>50</locationX>
         <locationY>0</locationY>
@@ -118,4 +167,68 @@ ispickval({!$Record.Fellowship_Applying_for__c}, &quot;India Fellowship&quot;)</
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>
+    <subflows>
+        <name>Copy_1_of_Create_Email_Message</name>
+        <label>Copy 1 of Create Email Message</label>
+        <locationX>440</locationX>
+        <locationY>600</locationY>
+        <flowName>Subflow_Create_Email_Message_for_Email_Alerts</flowName>
+        <inputAssignments>
+            <name>varConId</name>
+            <value>
+                <elementReference>$Record.Applicant__r.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>varEmailTemplateId</name>
+            <value>
+                <elementReference>Copy_2_of_Get_email_template.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>varRelatedToId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>varToAddress</name>
+            <value>
+                <elementReference>$Record.Fellow_Applicant_Email__c</elementReference>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
+    <subflows>
+        <name>Create_Email_Message</name>
+        <label>Create Email Message</label>
+        <locationX>176</locationX>
+        <locationY>600</locationY>
+        <flowName>Subflow_Create_Email_Message_for_Email_Alerts</flowName>
+        <inputAssignments>
+            <name>varConId</name>
+            <value>
+                <elementReference>$Record.Applicant__r.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>varEmailTemplateId</name>
+            <value>
+                <elementReference>Get_email_template.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>varRelatedToId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>varToAddress</name>
+            <value>
+                <elementReference>$Record.Fellow_Applicant_Email__c</elementReference>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
 </Flow>

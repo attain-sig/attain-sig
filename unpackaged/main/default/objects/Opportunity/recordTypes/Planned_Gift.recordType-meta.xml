@@ -184,6 +184,25 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Donor_Change_Type__c</picklist>
+        <values>
+            <fullName>Between Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development to Membership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ignore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Membership to Development</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>EDF_Role__c</picklist>
         <values>
             <fullName>Prime</fullName>

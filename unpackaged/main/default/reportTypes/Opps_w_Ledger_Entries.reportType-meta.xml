@@ -1390,6 +1390,11 @@
             <field>Record_Link__c</field>
             <table>Opportunity</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Donor_Change_Type__c</field>
+            <table>Opportunity</table>
+        </columns>
         <masterLabel>Opportunities</masterLabel>
     </sections>
     <sections>
@@ -1841,6 +1846,11 @@
         <columns>
             <checkedByDefault>false</checkedByDefault>
             <field>abacus__Written_Off__c</field>
+            <table>Opportunity.abacus__Ledger_Entries__r</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Donor_Change_Type__c</field>
             <table>Opportunity.abacus__Ledger_Entries__r</table>
         </columns>
         <masterLabel>Ledger Entries</masterLabel>

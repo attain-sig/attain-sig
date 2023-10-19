@@ -11,6 +11,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>abacus__Ledger_Entry__c.Donor_Change_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>abacus__Ledger_Entry__c.Entity__c</field>
         <readable>true</readable>
     </fieldPermissions>

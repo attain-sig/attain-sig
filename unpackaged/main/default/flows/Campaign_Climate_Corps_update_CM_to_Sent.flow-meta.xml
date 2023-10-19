@@ -125,7 +125,7 @@ ISPICKVAL({!$Record.Status}, &apos;Completed&apos;)</filterFormula>
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>sobjUpdatedCMs</name>
         <dataType>SObject</dataType>

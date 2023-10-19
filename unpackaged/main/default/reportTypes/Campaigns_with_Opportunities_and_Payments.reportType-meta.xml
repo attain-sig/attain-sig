@@ -1782,6 +1782,11 @@
             <field>Record_Link__c</field>
             <table>Campaign.Opportunities__r</table>
         </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Donor_Change_Type__c</field>
+            <table>Campaign.Opportunities__r</table>
+        </columns>
         <masterLabel>Opportunities</masterLabel>
     </sections>
     <sections>

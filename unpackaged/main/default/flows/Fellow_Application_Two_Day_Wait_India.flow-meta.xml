@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
-        <name>Copy_1_of_Interview_1_India</name>
-        <label>Copy 1 of Interview 1 India</label>
-        <locationX>50</locationX>
-        <locationY>384</locationY>
-        <actionName>Fellow_Application__c.Interview_1_Complete_Not_Moving_On_India</actionName>
-        <actionType>emailAlert</actionType>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>SObjectRowId</name>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputParameters>
-    </actionCalls>
-    <actionCalls>
         <name>Interview_1_India</name>
         <label>Interview 1 India</label>
-        <locationX>930</locationX>
+        <locationX>374</locationX>
         <locationY>384</locationY>
         <actionName>Fellow_Application__c.Interview_1_Complete_Not_Moving_On_India</actionName>
         <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>interview_1_email_templ</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>SObjectRowId</name>
@@ -33,10 +21,13 @@
     <actionCalls>
         <name>Not_Moving_Forward</name>
         <label>Not Moving Forward</label>
-        <locationX>1194</locationX>
+        <locationX>638</locationX>
         <locationY>384</locationY>
         <actionName>Fellow_Application__c.Not_Moving_Forward_From_Waitlist_India</actionName>
         <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Not_moving_forward_from_wait</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>SObjectRowId</name>
@@ -48,10 +39,13 @@
     <actionCalls>
         <name>Not_Qual_Email</name>
         <label>Not Qual Email</label>
-        <locationX>666</locationX>
+        <locationX>110</locationX>
         <locationY>384</locationY>
         <actionName>Fellow_Application__c.Not_Qualified_and_Notified_India</actionName>
         <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Not_Qual_email_temp</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>SObjectRowId</name>
@@ -61,56 +55,58 @@
         </inputParameters>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
-    <decisions>
-        <name>Copy_1_of_Stage</name>
-        <label>Copy 1 of Stage</label>
-        <locationX>182</locationX>
-        <locationY>276</locationY>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>Copy_1_of_Not_Qualified_and_Notified</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Status__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Not Qualified and Notified</stringValue>
-                </rightValue>
-            </conditions>
-            <label>Copy 1 of Not Qualified and Notified</label>
-        </rules>
-        <rules>
-            <name>Copy_1_of_Interview_1_Complete</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Status__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Interview 1 Complete- Not Moving On</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Copy_1_of_Interview_1_India</targetReference>
-            </connector>
-            <label>Copy 1 of Interview 1 Complete</label>
-        </rules>
-        <rules>
-            <name>Copy_1_of_Not_Moving_Forward_from_Waitlist</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Status__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Not Moving Forward from Waitlist</stringValue>
-                </rightValue>
-            </conditions>
-            <label>Copy 1 of Not Moving Forward from Waitlist</label>
-        </rules>
-    </decisions>
+    <assignments>
+        <name>Assign_Template_ID</name>
+        <label>Assign Template ID</label>
+        <locationX>110</locationX>
+        <locationY>600</locationY>
+        <assignmentItems>
+            <assignToReference>assigntemplateid</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Not_Qual_email_temp.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Launch_subflow</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Copy_1_of_Assign_Template_ID</name>
+        <label>Copy 1 of Assign Template ID</label>
+        <locationX>374</locationX>
+        <locationY>600</locationY>
+        <assignmentItems>
+            <assignToReference>assigntemplateid</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>interview_1_email_templ.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Launch_subflow</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Copy_2_of_Assign_Template_ID</name>
+        <label>Copy 2 of Assign Template ID</label>
+        <locationX>638</locationX>
+        <locationY>600</locationY>
+        <assignmentItems>
+            <assignToReference>assigntemplateid</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Not_moving_forward_from_wait.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Launch_subflow</targetReference>
+        </connector>
+    </assignments>
     <decisions>
         <name>Stage</name>
         <label>Stage</label>
-        <locationX>1062</locationX>
+        <locationX>506</locationX>
         <locationY>276</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -160,7 +156,8 @@
         </rules>
     </decisions>
     <description>For stages: Not Qualified and Notified, Interview 1 Complete - Not Moving On, and Not Moving Forward from Waitlist
-v2 added immediate send for interview 1 complete for testing purposes</description>
+v2 added immediate send for interview 1 complete for testing purposes
+v3 removed immediate send and added subflow</description>
     <environments>Default</environments>
     <interviewLabel>Fellow Application - Two Day Wait - India {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Fellow Application - Two Day Wait - India</label>
@@ -183,14 +180,80 @@ v2 added immediate send for interview 1 complete for testing purposes</descripti
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
-    <start>
-        <locationX>496</locationX>
-        <locationY>0</locationY>
+    <recordLookups>
+        <name>interview_1_email_templ</name>
+        <label>interview 1 email templ</label>
+        <locationX>374</locationX>
+        <locationY>492</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>Copy_1_of_Stage</targetReference>
+            <targetReference>Copy_1_of_Assign_Template_ID</targetReference>
         </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>India_Interview_1_Complete_Not_Moving_On_1695646365470</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>EmailTemplate</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Not_moving_forward_from_wait</name>
+        <label>Not moving forward from wait</label>
+        <locationX>638</locationX>
+        <locationY>492</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Copy_2_of_Assign_Template_ID</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>India_Not_Moving_Forward_From_Waitlist_1695647371697</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>EmailTemplate</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Not_Qual_email_temp</name>
+        <label>Not Qual email temp</label>
+        <locationX>110</locationX>
+        <locationY>492</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Template_ID</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>India_Not_Qualified_and_Notified_1691069421955</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>EmailTemplate</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
         <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterFormula>{!$Permission.Flow_Automations_Off} &lt;&gt; TRUE
+&amp;&amp;
+OR(
+ispickval({!$Record.Status__c},&quot;Not Qualified and Notified&quot;), 
+ ispickval({!$Record.Status__c}, &quot;Interview 1 Complete- Not Moving On&quot;),
+ ispickval({!$Record.Status__c}, &quot;Not Moving Forward from Waitlist&quot;)
+)
 &amp;&amp;
 ispickval({!$Record.Fellowship_Applying_for__c}, &quot;India Fellowship&quot;)</filterFormula>
         <object>Fellow_Application__c</object>
@@ -207,5 +270,44 @@ ispickval({!$Record.Fellowship_Applying_for__c}, &quot;India Fellowship&quot;)</
         </scheduledPaths>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
+    <subflows>
+        <name>Launch_subflow</name>
+        <label>Launch subflow</label>
+        <locationX>506</locationX>
+        <locationY>792</locationY>
+        <flowName>Subflow_Create_Email_Message_for_Email_Alerts</flowName>
+        <inputAssignments>
+            <name>varConId</name>
+            <value>
+                <elementReference>$Record.Applicant__r.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>varEmailTemplateId</name>
+            <value>
+                <elementReference>assigntemplateid</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>varRelatedToId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <name>varToAddress</name>
+            <value>
+                <elementReference>$Record.Fellow_Applicant_Email__c</elementReference>
+            </value>
+        </inputAssignments>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </subflows>
+    <variables>
+        <name>assigntemplateid</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
 </Flow>
